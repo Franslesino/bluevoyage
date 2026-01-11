@@ -35,7 +35,7 @@ export default function WildlifePage() {
                 {/* Background Image */}
                 <div className="absolute inset-0 w-full h-full">
                     <Image
-                        src="/wildlife/hero.webp"
+                        src="/wildlife_real/hero.png"
                         alt="Togean Islands seascape with wildlife mood"
                         fill
                         priority

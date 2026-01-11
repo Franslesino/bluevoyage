@@ -147,7 +147,7 @@ export default function WildlifeIntroScroll() {
                 className="w-full md:w-1/2 aspect-square relative rounded-sm overflow-hidden"
             >
                 <Image
-                    src="/wildlife/intro-card.webp"
+                    src="/wildlife_real/intro-card.png"
                     alt="Green sea turtle gliding over coral reef"
                     fill
                     className="object-cover transition-transform duration-700 hover:scale-[1.08]"

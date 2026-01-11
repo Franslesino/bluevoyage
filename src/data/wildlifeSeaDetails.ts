@@ -31,10 +31,10 @@ export const wildLifeSeaDetails: SeaWildlifeDetail[] = [
         notesShort: "Often seen surfacing to breathe; protected species. Nests on secluded sandy beaches.",
         slug: "green-sea-turtle",
         images: {
-            hero: "/wildlife/sea/green-sea-turtle/hero.webp",
+            hero: "/wildlife_real/sea/green-sea-turtle/hero.webp",
             gallery: [
-                "/wildlife/sea/green-sea-turtle/gallery-1.webp",
-                "/wildlife/sea/green-sea-turtle/gallery-2.webp"
+                "/wildlife_real/sea/green-sea-turtle/gallery-1.webp",
+                "/wildlife_real/sea/green-sea-turtle/gallery-2.webp"
             ]
         },
         expandedContent: {
@@ -67,10 +67,10 @@ export const wildLifeSeaDetails: SeaWildlifeDetail[] = [
         notesShort: "Beautiful patterned shell, critically endangered. Sometimes seen by divers feeding on sponges.",
         slug: "hawksbill-turtle",
         images: {
-            hero: "/wildlife/sea/hawksbill-turtle/hero.webp",
+            hero: "/wildlife_real/sea/hawksbill-turtle/hero.webp",
             gallery: [
-                "/wildlife/sea/hawksbill-turtle/gallery-1.webp",
-                "/wildlife/sea/hawksbill-turtle/gallery-2.webp"
+                "/wildlife_real/sea/hawksbill-turtle/gallery-1.webp",
+                "/wildlife_real/sea/hawksbill-turtle/gallery-2.webp"
             ]
         },
         expandedContent: {
@@ -103,10 +103,10 @@ export const wildLifeSeaDetails: SeaWildlifeDetail[] = [
         notesShort: "Largest reef fish (can be >1m); blue-green with forehead hump. Protected, declining population. Curious.",
         slug: "napoleon-wrasse",
         images: {
-            hero: "/wildlife/sea/napoleon-wrasse/hero.webp",
+            hero: "/wildlife_real/sea/napoleon-wrasse/hero.jpg",
             gallery: [
-                "/wildlife/sea/napoleon-wrasse/gallery-1.webp",
-                "/wildlife/sea/napoleon-wrasse/gallery-2.webp"
+                "/wildlife_real/sea/napoleon-wrasse/gallery-1.jpg",
+                "/wildlife_real/sea/napoleon-wrasse/gallery-2.jpg"
             ]
         },
         expandedContent: {
@@ -139,10 +139,10 @@ export const wildLifeSeaDetails: SeaWildlifeDetail[] = [
         notesShort: "Rare marine mammal, seagrass eater; solitary and shy. Protected, rare sightings but reported by locals.",
         slug: "dugong",
         images: {
-            hero: "/wildlife/sea/dugong/hero.webp",
+            hero: "/wildlife_real/sea/dugong/hero.webp",
             gallery: [
-                "/wildlife/sea/dugong/gallery-1.webp",
-                "/wildlife/sea/dugong/gallery-2.webp"
+                "/wildlife_real/sea/dugong/gallery-1.webp",
+                "/wildlife_real/sea/dugong/gallery-2.webp"
             ]
         },
         expandedContent: {
