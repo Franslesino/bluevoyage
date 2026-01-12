@@ -142,7 +142,7 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
             hero: "/wildlife_real/land/knobbed-hornbill/hero.webp",
             gallery: [
                 "/wildlife_real/land/knobbed-hornbill/gallery-1.webp",
-                "/wildlife_real/land/knobbed-hornbill/gallery-2.webp"
+                "/wildlife_real/land/knobbed-hornbill/gallery-2.png"
             ]
         },
         expandedContent: {
