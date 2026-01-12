@@ -249,7 +249,7 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         images: {
             hero: "/wildlife_real/land/burung-maleo/hero.webp",
             gallery: [
-                "/wildlife_real/land/burung-maleo/gallery-1.webp",
+                "/wildlife_real/land/burung-maleo/gallery-1.png",
                 "/wildlife_real/land/burung-maleo/gallery-2.webp"
             ]
         },
@@ -283,10 +283,10 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         notesShort: "Endemic to Togean, described in 1999. Nocturnal, yellow eyes. Hard to find without experts.",
         slug: "togian-boobook",
         images: {
-            hero: "/wildlife_real/land/togian-boobook/hero.webp",
+            hero: "/wildlife_real/land/togean-boobook/hero.webp",
             gallery: [
-                "/wildlife_real/land/togian-boobook/gallery-1.webp",
-                "/wildlife_real/land/togian-boobook/gallery-2.webp"
+                "/wildlife_real/land/togean-boobook/gallery-1.webp",
+                "/wildlife_real/land/togean-boobook/gallery-2.webp"
             ]
         },
         expandedContent: {
