@@ -103,10 +103,10 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         notesShort: "Endemic. Males have curved tusks. Very rare sightings; threatened status (<1,000 left).",
         slug: "togian-babirusa",
         images: {
-            hero: "/wildlife_real/land/togian-babirusa/hero.webp",
+            hero: "/wildlife_real/land/togean-babirusa/hero.webp",
             gallery: [
-                "/wildlife_real/land/togian-babirusa/gallery-1.webp",
-                "/wildlife_real/land/togian-babirusa/gallery-2.webp"
+                "/wildlife_real/land/togean-babirusa/gallery-1.webp",
+                "/wildlife_real/land/togean-babirusa/gallery-2.jpg"
             ]
         },
         expandedContent: {
