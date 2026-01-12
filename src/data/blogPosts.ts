@@ -13,7 +13,7 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
     {
         slug: "responsible-wildlife-encounters",
-        image: "/blog-1.webp",
+        image: "/blog-11.webp",
         locationLabel: "Togean",
         date: "Jan 03, 2026",
         category: "Journal",
@@ -36,7 +36,7 @@ By following these simple guidelines, we ensure that the Togean Islands remain a
     },
     {
         slug: "best-snorkeling-spots",
-        image: "/blog-2.webp",
+        image: "/blog-22.webp",
         locationLabel: "Togean",
         date: "Feb 15, 2026",
         category: "Journal",
@@ -56,7 +56,7 @@ While technically not a snorkeling reef, the stingless jellyfish lake is a surre
     },
     {
         slug: "village-visit-etiquette",
-        image: "/blog-3.webp",
+        image: "/blog-33.webp",
         locationLabel: "Togean",
         date: "Mar 10, 2026",
         category: "Journal",
