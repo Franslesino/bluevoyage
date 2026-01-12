@@ -31,10 +31,10 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         notesShort: "Endemic black macaque of Malenge. Groups of 5-10; sometimes seen in coconut plantations. Protected.",
         slug: "togian-monkey",
         images: {
-            hero: "/wildlife/land/togian-monkey/hero.webp",
+            hero: "/wildlife_real/land/togian-monkey/hero.webp",
             gallery: [
-                "/wildlife/land/togian-monkey/gallery-1.webp",
-                "/wildlife/land/togian-monkey/gallery-2.webp"
+                "/wildlife_real/land/togian-monkey/gallery-1.webp",
+                "/wildlife_real/land/togian-monkey/gallery-2.webp"
             ]
         },
         expandedContent: {
@@ -67,10 +67,10 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         notesShort: "Tiny primate (~12cm). Nocturnal with huge eyes. Local guides can help spot them.",
         slug: "togean-tarsier",
         images: {
-            hero: "/wildlife/land/togean-tarsier/hero.webp",
+            hero: "/wildlife_real/land/togean-tarsier/hero.webp",
             gallery: [
-                "/wildlife/land/togean-tarsier/gallery-1.webp",
-                "/wildlife/land/togean-tarsier/gallery-2.webp"
+                "/wildlife_real/land/togean-tarsier/gallery-1.webp",
+                "/wildlife_real/land/togean-tarsier/gallery-2.png"
             ]
         },
         expandedContent: {
@@ -103,10 +103,10 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         notesShort: "Endemic. Males have curved tusks. Very rare sightings; threatened status (<1,000 left).",
         slug: "togian-babirusa",
         images: {
-            hero: "/wildlife/land/togian-babirusa/hero.webp",
+            hero: "/wildlife_real/land/togian-babirusa/hero.webp",
             gallery: [
-                "/wildlife/land/togian-babirusa/gallery-1.webp",
-                "/wildlife/land/togian-babirusa/gallery-2.webp"
+                "/wildlife_real/land/togian-babirusa/gallery-1.webp",
+                "/wildlife_real/land/togian-babirusa/gallery-2.webp"
             ]
         },
         expandedContent: {
@@ -139,10 +139,10 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         notesShort: "Red casque (helmet) on males. Flies in pairs/groups. Easy to see morning/afternoon.",
         slug: "knobbed-hornbill",
         images: {
-            hero: "/wildlife/land/knobbed-hornbill/hero.webp",
+            hero: "/wildlife_real/land/knobbed-hornbill/hero.webp",
             gallery: [
-                "/wildlife/land/knobbed-hornbill/gallery-1.webp",
-                "/wildlife/land/knobbed-hornbill/gallery-2.webp"
+                "/wildlife_real/land/knobbed-hornbill/gallery-1.webp",
+                "/wildlife_real/land/knobbed-hornbill/gallery-2.webp"
             ]
         },
         expandedContent: {
@@ -175,10 +175,10 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         notesShort: "Endemic, ~1m long. Excellent swimmer. Sometimes seen near settlements.",
         slug: "togian-water-monitor",
         images: {
-            hero: "/wildlife/land/togian-water-monitor/hero.webp",
+            hero: "/wildlife_real/land/togian-water-monitor/hero.webp",
             gallery: [
-                "/wildlife/land/togian-water-monitor/gallery-1.webp",
-                "/wildlife/land/togian-water-monitor/gallery-2.webp"
+                "/wildlife_real/land/togian-water-monitor/gallery-1.webp",
+                "/wildlife_real/land/togian-water-monitor/gallery-2.webp"
             ]
         },
         expandedContent: {
@@ -211,10 +211,10 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         notesShort: "Largest land crab, nocturnal, climbs coconut trees. Very rare; strictly protected.",
         slug: "coconut-crab",
         images: {
-            hero: "/wildlife/land/coconut-crab/hero.webp",
+            hero: "/wildlife_real/land/coconut-crab/hero.webp",
             gallery: [
-                "/wildlife/land/coconut-crab/gallery-1.webp",
-                "/wildlife/land/coconut-crab/gallery-2.webp"
+                "/wildlife_real/land/coconut-crab/gallery-1.webp",
+                "/wildlife_real/land/coconut-crab/gallery-2.webp"
             ]
         },
         expandedContent: {
@@ -247,10 +247,10 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         notesShort: "Sulawesi endemic, lays eggs in hot sand. Luwuk Banggai mascot. Best seen in mornings with conservation guides.",
         slug: "burung-maleo",
         images: {
-            hero: "/wildlife/land/burung-maleo/hero.webp",
+            hero: "/wildlife_real/land/burung-maleo/hero.webp",
             gallery: [
-                "/wildlife/land/burung-maleo/gallery-1.webp",
-                "/wildlife/land/burung-maleo/gallery-2.webp"
+                "/wildlife_real/land/burung-maleo/gallery-1.webp",
+                "/wildlife_real/land/burung-maleo/gallery-2.webp"
             ]
         },
         expandedContent: {
@@ -283,10 +283,10 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         notesShort: "Endemic to Togean, described in 1999. Nocturnal, yellow eyes. Hard to find without experts.",
         slug: "togian-boobook",
         images: {
-            hero: "/wildlife/land/togian-boobook/hero.webp",
+            hero: "/wildlife_real/land/togian-boobook/hero.webp",
             gallery: [
-                "/wildlife/land/togian-boobook/gallery-1.webp",
-                "/wildlife/land/togian-boobook/gallery-2.webp"
+                "/wildlife_real/land/togian-boobook/gallery-1.webp",
+                "/wildlife_real/land/togian-boobook/gallery-2.webp"
             ]
         },
         expandedContent: {
