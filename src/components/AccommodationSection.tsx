@@ -33,33 +33,33 @@ const slides = [
 const features = [
     {
         id: "guest-house",
-        title: "Guest House Living, Not Onboard",
-        description: "You won’t sleep on the boat. Nights are spent in welcoming guest houses, with real rest, privacy, and a calmer rhythm.",
+        title: "By the sea at sunrise, under stars at night",
+        description: "Wake to soft sea light, fall asleep to waves. Open-air evenings, clear skies, and the slow island rhythm that resets your body clock.",
     },
     {
         id: "comfort",
-        title: "Clean Comfort Essentials",
-        description: "Fresh linens, good ventilation, and tidy rooms. Simple, dependable comfort that lets you recharge properly for tomorrow’s sea time.",
+        title: "Crafted with locally sourced woods",
+        description: "Built with local timber and island know-how. Natural textures, sturdy joinery, and a warm, grounded feel that fits the landscape.",
     },
     {
         id: "shared-spaces",
-        title: "Shared Spaces, Quiet Corners",
-        description: "Easy communal areas for tea and stories, plus quiet spots to read, journal, or disconnect when you want space.",
+        title: "Sleep easy & quiet comfort",
+        description: "Clean beds, good airflow, and low-noise nights. Simple comforts that help you rest deeply and wake ready for tomorrow’s boat time.",
     },
     {
         id: "hosts",
-        title: "Local Hosts, Thoughtful Care",
-        description: "Friendly hosts who know the islands. Expect warm greetings, helpful tips, and small touches that make you feel looked after.",
+        title: "Stay on preserved beaches, intentionally chosen",
+        description: "We choose beaches that stay quiet and cared for. Minimal footprint, fewer crowds, and settings that keep nature feeling untouched.",
     },
     {
         id: "meals",
-        title: "Island-Style Meals & Morning Coffee",
-        description: "Home-style breakfasts and local flavors. Light, satisfying meals that match the pace of slow travel.",
+        title: "Designed with care for thoughtful stays",
+        description: "Small details done right: shade, seating, storage, and lighting. Spaces that feel considerate, practical, and easy to live in.",
     },
     {
         id: "impact",
-        title: "Respectful, Low-Impact Stays",
-        description: "Mindful use of water and energy, local sourcing where possible, and simple practices that support community livelihoods and keep islands pristine.",
+        title: "Evenings made calm and intimate",
+        description: "Sunset tea, soft lamps, and quiet conversation. A gentle end to the day, where you can read, reflect, or simply listen to the sea.",
     },
 ];
 
