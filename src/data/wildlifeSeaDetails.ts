@@ -26,9 +26,9 @@ export const wildLifeSeaDetails: SeaWildlifeDetail[] = [
         nameEn: "Green Sea Turtle",
         nameId: "Penyu Hijau",
         scientificName: "Chelonia mydas",
-        habitat: "Reefs, Seagrass Beds",
-        commonLocations: "Shallow reefs around Togean islands (e.g., Kadidiri waters)",
-        notesShort: "Often seen surfacing to breathe; protected species. Nests on secluded sandy beaches.",
+        habitat: "Seagrass meadows, lagoons, shallow coral reefs",
+        commonLocations: "Calm, shallow areas around Kadidiri and sheltered lagoons",
+        notesShort: "Calm grazer; surfaces to breathe; rests under ledges.",
         slug: "green-sea-turtle",
         images: {
             hero: "/wildlife_real/sea/green-sea-turtle/hero.webp",
@@ -38,33 +38,33 @@ export const wildLifeSeaDetails: SeaWildlifeDetail[] = [
             ]
         },
         expandedContent: {
-            intro: "The Green Sea Turtle is a graceful mariner of the Togean archipelago, often spotted gliding effortlessly over shallow reefs or grazing on seagrass meadows. Known for their smooth, olive-colored shells and gentle demeanor, these ancient reptiles play a crucial role in maintaining the health of marine ecosystems.",
+            intro: "A large, gentle sea turtle often seen cruising reefs and grazing seagrass meadows. Adults are mostly herbivorous and spend long periods foraging in shallow coastal waters before surfacing calmly to breathe.",
             keyFacts: [
-                { label: "Habitat", value: "Coral reefs and seagrass beds" },
-                { label: "Diet", value: "Herbivorous (seagrass and algae)" },
+                { label: "Habitat", value: "Seagrass meadows, lagoons, shallow coral reefs" },
+                { label: "Diet", value: "Seagrass and algae (mostly herbivorous)" },
                 { label: "Size", value: "Up to 1.5 meters" },
-                { label: "Behavior", value: "Solitary, often seen surfacing to breathe" }
+                { label: "Behavior", value: "Calm grazer; surfaces to breathe; rests under ledges" }
             ],
-            whereToSee: "You are most likely to encounter Green Sea Turtles in the calm, shallow waters surrounding Kadidiri and Pangempa islands. They frequently visit the seagrass beds to feed during the day.",
-            howToSpot: "Look for a round, dark silhouette hovering just above the reef or a small head breaking the surface for a breath of air. They often rest under large coral overhangs.",
+            whereToSee: "Most likely in calm, shallow areas around Kadidiri and sheltered lagoons across the Togeans, especially where seagrass is present.",
+            howToSpot: "Scan seagrass edges and reef flats for a dark oval shell. Watch for a head surfacing briefly to breathe, then gliding back down.",
             responsibleGuidelines: [
-                "Maintain a respectful distance of at least 3 meters.",
-                "Do not touch, chase, or attempt to ride the turtles.",
-                "Avoid sudden movements that might startle them.",
-                "Do not block their path to the surface when they need to breathe.",
-                "Use reef-safe sunscreen to protect their habitat."
+                "Keep 3–5 m distance; never chase or block its path.",
+                "Do not touch, ride, or attempt selfies.",
+                "Maintain neutral buoyancy; don’t stand on coral/seagrass.",
+                "No flash; avoid loud splashing.",
+                "If it changes direction, you’re too close—back off."
             ],
-            conservationStatus: "Protected in Indonesia and globally recognized as Endangered. Their populations are recovering but remain vulnerable to habitat loss and poaching.",
-            quickSummary: "A gentle giant of the reefs, the Green Sea Turtle is a highlight of any snorkeling trip in Togean."
+            conservationStatus: "IUCN: Least Concern (2025 update); still protected, vulnerable locally to bycatch, habitat loss, and pollution.",
+            quickSummary: "A large, gentle sea turtle often seen cruising reefs and grazing seagrass meadows."
         }
     },
     {
         nameEn: "Hawksbill Turtle",
         nameId: "Penyu Sisik",
         scientificName: "Eretmochelys imbricata",
-        habitat: "Coral Reefs",
-        commonLocations: "Rocky coral reefs (e.g., Una-Una reef drop-offs)",
-        notesShort: "Beautiful patterned shell, critically endangered. Sometimes seen by divers feeding on sponges.",
+        habitat: "Coral reefs, rocky reefs, lagoons",
+        commonLocations: "Coral-rich snorkel and dive sites",
+        notesShort: "Shy; threads through reefs; often solitary.",
         slug: "hawksbill-turtle",
         images: {
             hero: "/wildlife_real/sea/hawksbill-turtle/hero.webp",
@@ -74,33 +74,33 @@ export const wildLifeSeaDetails: SeaWildlifeDetail[] = [
             ]
         },
         expandedContent: {
-            intro: "Distinguished by its narrow, pointed beak and beautifully patterned shell, the Hawksbill Turtle is a critical inhabitant of the Togean coral reefs. Unlike their vegetarian cousins, Hawksbills are specialized sponge feeders, helping to keep coral competition in check and maintaining reef diversity.",
+            intro: "A smaller, reef-loving turtle with a pointed “hawk-like” beak, often weaving through coral structure. Many populations remain severely depleted; it’s strongly associated with healthy reefs and is famous for feeding heavily on sponges.",
             keyFacts: [
-                { label: "Habitat", value: "Coral reefs, especially drop-offs" },
-                { label: "Diet", value: "Omnivorous (primarily sponges)" },
-                { label: "Size", value: "Up to 1 meter" },
-                { label: "Behavior", value: "Forages in crevices for sponges" }
+                { label: "Habitat", value: "Coral reefs, rocky reefs, lagoons" },
+                { label: "Diet", value: "Sea sponges (plus mixed reef invertebrates)" },
+                { label: "Size", value: "Up to ~1.0 meter" },
+                { label: "Behavior", value: "Shy; threads through reefs; often solitary" }
             ],
-            whereToSee: "Divers often spot Hawksbills along the dramatic walls and drop-offs of Una-Una, where sponges are abundant. They are also occasionally seen on the pristine reefs of Malenge.",
-            howToSpot: "Look for the serrated edges of their shell and their beak-like mouth. They are often found poking around coral crevices searching for food.",
+            whereToSee: "On coral-rich snorkel and dive sites across the Togeans look along reef walls, bommies, and crevices where it forages.",
+            howToSpot: "Search complex reef structure for a narrow beak and patterned shell. Check coral overhangs and cracks where it picks at sponges.",
             responsibleGuidelines: [
-                "Keep a distance and observe without crowding.",
-                "Do not disturb them while they are foraging.",
-                "Never touch the turtle or its shell.",
-                "Be mindful of your fins to avoid damaging the reef they rely on.",
-                "Report any nesting sightings to local conservation groups."
+                "Give it space hawksbills spook easily.",
+                "Never corner it in narrow reef passages.",
+                "No touching; avoid contact with reef while watching.",
+                "Keep fins up; don’t kick sand onto coral.",
+                "Skip flash; limit time with a single animal."
             ],
-            conservationStatus: "Critically Endangered. The Hawksbill is strictly protected due to the historical trade of its shell (tortoiseshell).",
-            quickSummary: "A critically endangered beauty, the Hawksbill is a vital guardian of coral reef health."
+            conservationStatus: "IUCN: Critically Endangered; threatened by illegal shell trade, bycatch, and reef loss.",
+            quickSummary: "A smaller, reef-loving turtle with a pointed “hawk-like” beak, often weaving through coral structure."
         }
     },
     {
         nameEn: "Napoleon Wrasse",
         nameId: "Ikan Napoleon",
         scientificName: "Cheilinus undulatus",
-        habitat: "Deep Reef Slopes",
-        commonLocations: "Deep reef slopes (e.g., dive sites in Una-Una)",
-        notesShort: "Largest reef fish (can be >1m); blue-green with forehead hump. Protected, declining population. Curious.",
+        habitat: "Outer reef slopes, channels, lagoons",
+        commonLocations: "Deep reef slopes and drop-offs",
+        notesShort: "Usually solitary; curious; slow, powerful swimmer.",
         slug: "napoleon-wrasse",
         images: {
             hero: "/wildlife_real/sea/napoleon-wrasse/hero.jpg",
@@ -110,33 +110,33 @@ export const wildLifeSeaDetails: SeaWildlifeDetail[] = [
             ]
         },
         expandedContent: {
-            intro: "The Maori Wrasse, or Napoleon Wrasse, is the colossus of the coral reef. With its intricate blue-green markings and distinctive prominent hump on the forehead, this intelligent fish can grow to enormous sizes. They are known for their inquisitive nature, often eyeing divers with a human-like curiosity.",
+            intro: "A massive, charismatic reef fish recognized by thick lips and an adult forehead “hump.” It patrols reef slopes and channels and is a highlight on deeper snorkel/dive sites. Slow-growing and heavily targeted in parts of its range.",
             keyFacts: [
-                { label: "Habitat", value: "Deep reef slopes and drop-offs" },
-                { label: "Diet", value: "Carnivorous (shellfish, sea stars)" },
+                { label: "Habitat", value: "Outer reef slopes, channels, lagoons" },
+                { label: "Diet", value: "Hard-shelled invertebrates, fish, reef fauna" },
                 { label: "Size", value: "Up to 2 meters" },
-                { label: "Behavior", value: "Solitary, curious, slow-moving" }
+                { label: "Behavior", value: "Usually solitary; curious; slow, powerful swimmer" }
             ],
-            whereToSee: "The deep, nutrient-rich walls around Una-Una are the best place to encounter large adults. Juveniles are sometimes seen in shallower lagoon patches.",
-            howToSpot: "Look for a massive, slow-moving fish with a geometric pattern on its face. The large hump on the head indicates a mature male.",
+            whereToSee: "Best chance on healthy coral reefs and drop-offs, especially around more exposed island reefs (including Una Una’s volcanic reef systems).",
+            howToSpot: "Look for a very large silhouette with thick lips and a blunt head. Adults often cruise along reef edges; juveniles stay shallower near sheltered reef areas.",
             responsibleGuidelines: [
-                "Do not feed them; this alters their natural behavior.",
-                "Avoid sudden movements that might startle this large fish.",
-                "Maintain a respectful distance, even if they approach you.",
-                "Do not touch or chase them.",
-                "Support sustainable tourism operators who respect marine life."
+                "Keep distance; don’t crowd for photos.",
+                "Never feed wildlife (changes behavior).",
+                "Avoid rapid descents/noise that startle it.",
+                "Maintain buoyancy; protect reef habitat.",
+                "Choose operators that discourage taking “trophy” shots."
             ],
-            conservationStatus: "Endangered and protected in Indonesia. Their slow reproduction rate makes them highly vulnerable to overfishing.",
-            quickSummary: "An inquisitive giant, the Napoleon Wrasse is an unforgettable encounter for divers in Togean."
+            conservationStatus: "IUCN: Endangered; also listed on CITES Appendix II (trade monitored).",
+            quickSummary: "A massive, charismatic reef fish recognized by thick lips and an adult forehead “hump.”"
         }
     },
     {
         nameEn: "Dugong",
         nameId: "Duyung",
         scientificName: "Dugong dugon",
-        habitat: "Seagrass Meadows",
-        commonLocations: "Shallow seagrass bays (e.g., around Talatakoh Island)",
-        notesShort: "Rare marine mammal, seagrass eater; solitary and shy. Protected, rare sightings but reported by locals.",
+        habitat: "Shallow seagrass meadows in sheltered bays",
+        commonLocations: "Calm, shallow seagrass areas",
+        notesShort: "Shy; slow grazer; surfaces quietly to breathe.",
         slug: "dugong",
         images: {
             hero: "/wildlife_real/sea/dugong/hero.webp",
@@ -146,33 +146,33 @@ export const wildLifeSeaDetails: SeaWildlifeDetail[] = [
             ]
         },
         expandedContent: {
-            intro: "The Dugong, or 'Sea Cow', is a legendary and elusive marine mammal found in the Togean islands. These gentle giants spend their days grazing peacefully on seagrass meadows. Solitary and shy, an encounter with a Dugong is a rare and magical privilege.",
+            intro: "A rare, gentle marine mammal that grazes seagrass in shallow bays. Dugongs are quiet, cautious, and most often seen where seagrass meadows are extensive and undisturbed making any sighting feel truly special.",
             keyFacts: [
-                { label: "Habitat", value: "Coastal seagrass meadows" },
-                { label: "Diet", value: "Herbivorous (seagrass specialist)" },
+                { label: "Habitat", value: "Shallow seagrass meadows in sheltered bays" },
+                { label: "Diet", value: "Seagrass (grazing herbivore)" },
                 { label: "Size", value: "Up to 3 meters" },
-                { label: "Behavior", value: "Shy, slow-swimming, solitary" }
+                { label: "Behavior", value: "Shy; slow grazer; surfaces quietly to breathe" }
             ],
-            whereToSee: "Sightings are rare and unpredictable, but they are known to inhabit the quiet, shallow bays around Talatakoh and the southern part of the Togean National Park where seagrass is plentiful.",
-            howToSpot: "Scan calm, shallow water for a surfacing snout or a cloud of sediment stirred up by their feeding. They are very quiet and easily missed.",
+            whereToSee: "If you’re lucky, in calm, shallow seagrass areas around the Togeans; sightings are uncommon and depend on conditions and disturbance levels.",
+            howToSpot: "Look for muddy “grazing trails” in seagrass and a gray shape moving low over the bottom. Watch for a subtle roll and nostrils breaking the surface.",
             responsibleGuidelines: [
-                "Cut boat engines immediately if a Dugong is spotted.",
-                "Maintain complete silence and stillness in the water.",
-                "Keep a distance of at least 50 meters.",
-                "Never chase or swim directly towards them.",
-                "Do not touch them under any circumstances."
+                "Keep very large distance; never pursue.",
+                "No motorboats over seagrass at speed.",
+                "If it dives/changes direction, you’re too close retreat.",
+                "Avoid loud splashing; keep group small.",
+                "Never separate mother and calf."
             ],
-            conservationStatus: "Vulnerable to extinction. Protected in Indonesia. They act as a flagship species for the health of coastal seagrass ecosystems.",
-            quickSummary: "The 'Ghost of the Seagrass', finding a Duyung is a rare gift requiring patience and luck."
+            conservationStatus: "IUCN: Vulnerable; CITES Appendix I (trade prohibited). Threatened by seagrass loss and net entanglement.",
+            quickSummary: "A rare, gentle marine mammal that grazes seagrass in shallow bays."
         }
     },
     {
         nameEn: "Giant Clam",
         nameId: "Kima",
         scientificName: "Tridacna spp.",
-        habitat: "Coral Reefs",
-        commonLocations: "Shallow reef areas (natural 'clam gardens' near some islands)",
-        notesShort: "Giant bivalve >50cm. Colorful mantle (green, blue). Protected, snorkeling attraction.",
+        habitat: "Shallow coral reefs and reef flats",
+        commonLocations: "Shallow coral gardens",
+        notesShort: "Sessile; mantle open in sunlight; closes when disturbed.",
         slug: "giant-clam",
         images: {
             hero: "/wildlife_real/sea/giant-clam/hero.webp",
@@ -182,96 +182,96 @@ export const wildLifeSeaDetails: SeaWildlifeDetail[] = [
             ]
         },
         expandedContent: {
-            intro: "The Togean Islands are home to impressive impressive Giant Clams, the largest living bivalve mollusks. Anchored into the coral, their fleshy mantles display a kaleidoscope of iridescent blues, greens, and purples, acting as solar panels for the algae living within their tissues.",
+            intro: "A spectacular reef bivalve that can be enormous and brightly colored, with a living mantle that hosts symbiotic algae. Giant clams help filter water and contribute to reef productivity, but many populations have been heavily depleted by harvesting.",
             keyFacts: [
-                { label: "Habitat", value: "Sunlit shallow coral reefs" },
-                { label: "Diet", value: "Filter feeder & photosynthesis" },
-                { label: "Size", value: "Can exceed 1 meter" },
-                { label: "Behavior", value: "Sessile (stationary)" }
+                { label: "Habitat", value: "Shallow coral reefs and reef flats" },
+                { label: "Diet", value: "Filter-feeding plus symbiotic algae photosynthates" },
+                { label: "Size", value: "Up to 1.2 meters" },
+                { label: "Behavior", value: "Sessile; mantle open in sunlight; closes when disturbed" }
             ],
-            whereToSee: "You can find them dotted across almost every shallow reef in Togean. Some areas, protected by locals as 'Kima Gardens', host high densities of very large individuals.",
-            howToSpot: "Look for large, wavy shells embedded in the reef with brightly colored fleshy lips. They will close quickly if a shadow passes over them.",
+            whereToSee: "On clear, shallow coral gardens around the Togeans, scan reef flats and bommies for large shells with vivid mantles, especially on less disturbed sites.",
+            howToSpot: "Look for a thick, ridged shell embedded in coral rock with a bright, wavy mantle. Approach slowly sudden shadows can make it clamp shut.",
             responsibleGuidelines: [
-                "Do not poke or touch the mantle; it can damage their delicate tissues.",
-                "Avoid blocking their sunlight for extended periods.",
-                "Be careful with your fins in shallow water to avoid kicking them.",
-                "Do not collect or remove them from the reef.",
-                "Admire their colors from a respectful distance."
+                "Never touch the mantle (it can stress the animal).",
+                "Don’t stand/kneel on reef to photograph it.",
+                "No souvenir collection clams are targeted.",
+                "Avoid stirring sediment over reef flats.",
+                "Use buoyancy control; keep fins up."
             ],
-            conservationStatus: "Protected species. Overharvesting has threatened them in many parts of the world, making Togean populations particularly valuable.",
-            quickSummary: "A stationary jewel of the reef, displaying nature's most vibrant neon colors."
+            conservationStatus: "Status varies by species; some giant clams are Critically Endangered due to overharvest and habitat decline.",
+            quickSummary: "A spectacular reef bivalve that can be enormous and brightly colored."
         }
     },
     {
         nameEn: "Seahorse",
         nameId: "Kuda Laut",
-        scientificName: "Hippocampus sp.",
-        habitat: "Seagrass, Mangroves, Coral",
-        commonLocations: "Seagrass beds and mangrove roots (e.g., around Kabalutan village)",
-        notesShort: "Small (~10cm) and master of camouflage. Sometimes found by dive guides. Vulnerable due to trade.",
+        scientificName: "Hippocampus spp.",
+        habitat: "Seagrass, mangroves, corals, sponges, seaweed",
+        commonLocations: "Sheltered shallows, seagrass patches",
+        notesShort: "Slow; hides; anchors with tail; ambush-feeds.",
         slug: "seahorse",
         images: {
-            hero: "/wildlife/sea/seahorse/hero.webp",
+            hero: "/wildlife_real/sea/seahorse/hero.webp",
             gallery: [
-                "/wildlife/sea/seahorse/gallery-1.webp",
-                "/wildlife/sea/seahorse/gallery-2.webp"
+                "/wildlife_real/sea/seahorse/gallery-1.webp",
+                "/wildlife_real/sea/seahorse/gallery-2.webp"
             ]
         },
         expandedContent: {
-            intro: "Masters of camouflage, the Seahorses of Togean are tiny marvels often hidden in plain sight. Clinging to seagrass blades or mangrove roots with their prehensile tails, these upright-swimming fish are a favorite find for macro photography enthusiasts.",
+            intro: "Small, camouflaged fish that cling to seagrass, sponges, and coral with a prehensile tail. Seahorses rely on stealth and blend into textured habitats, making sightings feel like a “treasure hunt” for patient snorkelers and divers.",
             keyFacts: [
-                { label: "Habitat", value: "Seagrass, mangroves, soft coral" },
-                { label: "Diet", value: "Tiny crustaceans (ambush predator)" },
-                { label: "Size", value: "2 to 15 cm" },
-                { label: "Behavior", value: "Stationary, relies on camouflage" }
+                { label: "Habitat", value: "Seagrass, mangroves, corals, sponges, seaweed" },
+                { label: "Diet", value: "Tiny crustaceans and plankton" },
+                { label: "Size", value: "Typically up to ~15 cm (species-dependent)" },
+                { label: "Behavior", value: "Slow; hides; anchors with tail; ambush-feeds" }
             ],
-            whereToSee: "The seagrass beds and shallow, silty areas near mangrove forests, such as those around Kabalutan village, are prime hunting grounds. You need a keen eye or a good guide.",
-            howToSpot: "Move very slowly and scan the stems of seagrass or gorgonian fans. Look for the curl of their tail or their distinctive snout profile.",
+            whereToSee: "In sheltered shallows seagrass patches, spongey reef edges, and coral rubble. Look in calm lagoons near mangroves or protected bays across the Togeans.",
+            howToSpot: "Slow down and scan for unusual “knobs” holding onto grass or sponges. Watch for tiny eye movement and a curled tail wrapped around a stem.",
             responsibleGuidelines: [
-                "Do not use a pointer stick to move or touch them.",
-                "Avoid using strong strobes or flash photography repeatedly.",
-                "Do not disturb the habitat they are holding onto.",
-                "Keep buoyancy control perfect to avoid stirring up silt.",
-                "Never attempt to capture or handle them."
+                "No touching seahorses stress easily.",
+                "Keep fins controlled; avoid silt-out.",
+                "No flash at close range; keep lights low.",
+                "Don’t move vegetation to “reveal” them.",
+                "Limit viewing time; rotate the group."
             ],
-            conservationStatus: "Vulnerable. Populations are threatened globally by the traditional medicine trade and habitat loss.",
-            quickSummary: "A tiny, hidden treasure that rewarding the most patient and observant explorers."
+            conservationStatus: "All seahorses are CITES Appendix II; many species are pressured by habitat loss and trade.",
+            quickSummary: "Small, camouflaged fish that cling to seagrass, sponges, and coral with a prehensile tail."
         }
     },
     {
         nameEn: "Stingless Jellyfish",
         nameId: "Ubur-ubur tak menyengat",
-        scientificName: "Mastigias papua",
-        habitat: "Marine Lakes",
-        commonLocations: "Mariona Lake, Togean Island (near Katupat)",
-        notesShort: "Thousands of orange spotted jellyfish. Evolved without sting due to no predators. Safe for swimming.",
+        scientificName: "Mastigias-type",
+        habitat: "Isolated marine lakes and enclosed lagoons",
+        commonLocations: "Lake Mariona (Jellyfish Lake)",
+        notesShort: "Slow drifters; gather in sunlit water; daily movements.",
         slug: "stingless-jellyfish",
         images: {
-            hero: "/wildlife/sea/stingless-jellyfish/hero.webp",
+            hero: "/wildlife_real/sea/stingless-jellyfish/hero.webp",
             gallery: [
-                "/wildlife/sea/stingless-jellyfish/gallery-1.webp",
-                "/wildlife/sea/stingless-jellyfish/gallery-2.webp"
+                "/wildlife_real/sea/stingless-jellyfish/gallery-1.webp",
+                "/wildlife_real/sea/stingless-jellyfish/gallery-2.webp"
             ]
         },
         expandedContent: {
-            intro: "In the isolated Mariona Lake, a unique evolutionary phenomenon has occurred. Cut off from the ocean and its predators for millennia, the Golden Jellyfish here have lost their ability to sting. Swimming amongst thousands of these pulsing, orange orbs is an ethereal and harmless experience.",
+            intro: "In sheltered marine lakes, Mastigias-type jellyfish can be abundant and largely harmless to swimmers. They’re often called “stingless,” though some populations have very mild stinging cells; the experience is typically gentle, surreal, and slow-paced.",
             keyFacts: [
-                { label: "Habitat", value: "Enclosed marine lakes" },
-                { label: "Diet", value: "Photosynthesis (via symbiotic algae)" },
-                { label: "Size", value: "5 to 20 cm" },
-                { label: "Behavior", value: "Migrates following the sun" }
+                { label: "Habitat", value: "Isolated marine lakes and enclosed lagoons" },
+                { label: "Diet", value: "Plankton plus symbiotic algae (zooxanthellae)" },
+                { label: "Size", value: "Usually ~8–10 cm bell diameter" },
+                { label: "Behavior", value: "Slow drifters; gather in sunlit water; daily movements" }
             ],
-            whereToSee: "Exclusively found in Mariona Lake, located near Katupat village on Togean Island. A short trek from the jetty brings you to this hidden lagoon.",
-            howToSpot: "You cannot miss them. Once you enter the water and swim towards the sunlit areas, you will be surrounded by thousands of them.",
+            whereToSee: "At Lake Mariona (Jellyfish Lake) in the Togean Islands, where swimmers can float among dense groups of gentle jellyfish in calm, enclosed water.",
+            howToSpot: "You’ll see soft, amber “dots” pulsing just below the surface in still water. Enter slowly and let your eyes adjust then they appear everywhere.",
             responsibleGuidelines: [
-                "Do not wear sunscreen (chemicals harm the jellyfish).",
-                "Do not wear fins (kicking tears their delicate bodies).",
-                "Enter the water slowly and swim gently.",
-                "Do not lift them out of the water; they will collapse.",
-                "Do not jump or dive into the lake."
+                "Don’t touch or scoop jellyfish.",
+                "No fins (can injure them); float gently.",
+                "Avoid sunscreen oils in the lake; cover up instead.",
+                "No soap/shampoo before swimming.",
+                "Keep noise low; respect local rules."
             ],
-            conservationStatus: "Protected locally. The ecosystem is fragile and dependent on maintaining the lake's chemical balance.",
-            quickSummary: "An otherworldly experience, swimming in a galaxy of harmless, golden jellyfish."
+            conservationStatus: "Often not formally assessed; highly sensitive to pollution, temperature shifts, and human impact in enclosed lake ecosystems.",
+            quickSummary: "In sheltered marine lakes, Mastigias-type jellyfish can be abundant and largely harmless to swimmers."
         }
     }
 ];
