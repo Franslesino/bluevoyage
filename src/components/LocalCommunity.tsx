@@ -21,7 +21,7 @@ import ExploreAllLink from "./ExploreAllLink";
 // Data for 3 Local Community blocks
 const localCommunityData = [
     {
-        imageSrc: "/local-community-1.webp",
+        imageSrc: "/local-communityy-1.jpg",
         title: "Engage with locals and embrace the warmth of Togean people",
         description: [
             "The Togean Islands are more than a tropical escape—they're a gateway to heartfelt connections and timeless traditions. Meet the Bajau 'Sea Gypsies,' who live in harmony with the ocean, and the Pamona and Saluan communities, whose warmth and hospitality make every visitor feel at home. From stilted sea villages to vibrant cultural traditions, the Togean people embody the serenity and authenticity of these remote islands.",
@@ -29,7 +29,7 @@ const localCommunityData = [
         ],
     },
     {
-        imageSrc: "/local-community-2.webp",
+        imageSrc: "/local-communityy-2.jpg",
         title: "Discover the traditional ways of island life",
         description: [
             "The Togean Islands are more than a tropical escape—they're a gateway to heartfelt connections and timeless traditions. Meet the Bajau 'Sea Gypsies,' who live in harmony with the ocean, and the Pamona and Saluan communities, whose warmth and hospitality make every visitor feel at home. From stilted sea villages to vibrant cultural traditions, the Togean people embody the serenity and authenticity of these remote islands.",
@@ -37,7 +37,7 @@ const localCommunityData = [
         ],
     },
     {
-        imageSrc: "/local-community-3.webp",
+        imageSrc: "/local-communityy-3.jpg",
         title: "Create lasting memories with the island community",
         description: [
             "The Togean Islands are more than a tropical escape—they're a gateway to heartfelt connections and timeless traditions. Meet the Bajau 'Sea Gypsies,' who live in harmony with the ocean, and the Pamona and Saluan communities, whose warmth and hospitality make every visitor feel at home. From stilted sea villages to vibrant cultural traditions, the Togean people embody the serenity and authenticity of these remote islands.",
