@@ -175,10 +175,10 @@ export const wildLifeSeaDetails: SeaWildlifeDetail[] = [
         notesShort: "Giant bivalve >50cm. Colorful mantle (green, blue). Protected, snorkeling attraction.",
         slug: "giant-clam",
         images: {
-            hero: "/wildlife/sea/giant-clam/hero.webp",
+            hero: "/wildlife_real/sea/giant-clam/hero.webp",
             gallery: [
-                "/wildlife/sea/giant-clam/gallery-1.webp",
-                "/wildlife/sea/giant-clam/gallery-2.webp"
+                "/wildlife_real/sea/giant-clam/gallery-1.webp",
+                "/wildlife_real/sea/giant-clam/gallery-2.webp"
             ]
         },
         expandedContent: {
