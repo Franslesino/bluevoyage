@@ -26,9 +26,9 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         nameEn: "Togian Monkey",
         nameId: "Monyet Togean",
         scientificName: "Macaca togeanus",
-        habitat: "Island Forests",
-        commonLocations: "Malenge Island Forests, Togean Islands",
-        notesShort: "Endemic black macaque of Malenge. Groups of 5-10; sometimes seen in coconut plantations. Protected.",
+        habitat: "Lowland island forest, forest edges",
+        commonLocations: "Malenge Island Forests",
+        notesShort: "A stocky, dark macaque with short tail and pale cheek tufts, known from the Togian Islands. Often seen in small-to-medium troops along forest edges and trails, foraging on fruits and other plant foods. Most reliably associated with Malenge’s forests.",
         slug: "togian-monkey",
         images: {
             hero: "/wildlife_real/land/togian-monkey/hero.webp",
@@ -38,33 +38,33 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
             ]
         },
         expandedContent: {
-            intro: "The Togian Macaque is a spirited and intelligent primate endemic to the archipelago, most notably found on the island of Malenge. Distinguishable by their jet-black fur and expressive faces, these macaques are a living treasure of Togian's evolutionary isolation. Often heard before they are seen, their calls echo through the dense canopy of the island forests.",
+            intro: "A stocky, dark macaque with short tail and pale cheek tufts, known from the Togian Islands. Often seen in small-to-medium troops along forest edges and trails, foraging on fruits and other plant foods. Most reliably associated with Malenge’s forests.",
             keyFacts: [
-                { label: "Habitat", value: "Primary & Secondary Forests" },
-                { label: "Diet", value: "Omnivorous (fruit, insects, crops)" },
-                { label: "Social", value: "Troops of 5-10 individuals" },
-                { label: "Activity", value: "Diurnal (Active during day)" }
+                { label: "Habitat", value: "Lowland island forest, forest edges" },
+                { label: "Diet", value: "Fruits, leaves, seeds, insects" },
+                { label: "Size", value: "~50–68 cm; tail ~3–7 cm; ~8–12 kg" },
+                { label: "Behavior", value: "Social troops; vocal; bold near fruiting trees" }
             ],
-            whereToSee: "The forests of Malenge Island offer the most consistent sightings. They are occasionally spotted on the fringes of coconut plantations where they forage for food.",
-            howToSpot: "Listen for the rustling of leaves in the canopy or their distinctive vocalizations. Early morning treks near the forest edge often yield the best encounters.",
+            whereToSee: "Best chance on Malenge forest walks and edges near gardens; early morning and late afternoon activity is most noticeable.",
+            howToSpot: "Listen for branch rustles and contact calls; scan mid-canopy near fruiting trees. Look for dark bodies with pale cheek tufts moving in groups.",
             responsibleGuidelines: [
-                "Keep a safe distance of at least 7 meters.",
-                "Never feed them; human food is harmful and alters behavior.",
-                "Do not stare directly into their eyes (a sign of aggression).",
-                "Secure your belongings; they are notoriously curious.",
-                "Keep noise levels low to observe natural behavior."
+                "Keep 10+ meters distance.",
+                "Never feed or show food.",
+                "Move slowly; avoid direct staring.",
+                "Don’t block their path on trails.",
+                "Pack out all trash; secure snacks."
             ],
-            conservationNotes: "Protected in Indonesa. As an island endemic with a small population, they are vulnerable to habitat loss and conflict with agriculture.",
+            conservationNotes: "Generally treated as Vulnerable (Tonkean macaque complex); habitat loss is the key threat.",
             quickSummary: "A charismatic and rare primate, the black macaque is the soul of Malenge's forests."
         }
     },
     {
         nameEn: "Togean Tarsier",
         nameId: "Tarsius Togean",
-        scientificName: "Tarsius togeanus",
-        habitat: "Forests (Nocturnal)",
-        commonLocations: "Forests of Malenge Island (and surrounding small islands)",
-        notesShort: "Tiny primate (~12cm). Nocturnal with huge eyes. Local guides can help spot them.",
+        scientificName: "Tarsius niemitzi",
+        habitat: "Lowland forest, scrubby woodland, gardens",
+        commonLocations: "Forest edges and mixed gardens",
+        notesShort: "A tiny nocturnal primate endemic to the Togian Islands, famous for huge eyes, powerful vertical leaps, and insect-hunting. It sleeps by day in dense vegetation and becomes active after dusk, moving quickly through understory and small trees.",
         slug: "togean-tarsier",
         images: {
             hero: "/wildlife_real/land/togean-tarsier/hero.webp",
@@ -74,23 +74,23 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
             ]
         },
         expandedContent: {
-            intro: "The Togean Tarsier is a miniature marvel of the nocturnal world. With eyes larger than its brain and the agility of a master acrobat, this tiny primate fits in the palm of a hand. Emerging only under the cover of darkness, they are the ghosts of the Togean jungle, leaping between vertical saplings with silent precision.",
+            intro: "A tiny nocturnal primate endemic to the Togian Islands, famous for huge eyes, powerful vertical leaps, and insect-hunting. It sleeps by day in dense vegetation and becomes active after dusk, moving quickly through understory and small trees.",
             keyFacts: [
-                { label: "Habitat", value: "Dense forest & bamboo thickets" },
-                { label: "Diet", value: "Insectivorous (crickets, moths)" },
-                { label: "Size", value: "Approx. 12 cm (body length)" },
-                { label: "Activity", value: "Strictly Nocturnal" }
+                { label: "Habitat", value: "Lowland forest, scrubby woodland, gardens" },
+                { label: "Diet", value: "Insectivorous: insects, spiders, small vertebrates" },
+                { label: "Size", value: "Body ~10–15 cm (very small)" },
+                { label: "Behavior", value: "Nocturnal; agile leaper; calls at dusk" }
             ],
-            whereToSee: "They are known to inhabit the forests of Malenge and some smaller surrounding islets. Specific sleeping trees are often known to local guides.",
-            howToSpot: "You need a guide. Without one, spotting them is nearly impossible. They are best seen at dusk as they wake up and emerge from their sleeping hollows or vine tangles.",
+            whereToSee: "Night walks on larger Togian islands’ forest edges and mixed gardens; reports note it’s absent from Una-Una.",
+            howToSpot: "Use a dim red light; look for eye-shine low in the understory. Pause often—tarsiers freeze, then leap suddenly.",
             responsibleGuidelines: [
-                "Use red-light flashlights only; white light hurts their sensitive eyes.",
-                "Maintain absolute silence near their roosting sites.",
-                "Do not use flash photography.",
-                "Do not shake trees or attempt to wake them during the day.",
-                "Limit observation time to avoid stressing the family group."
+                "Use red light only; no flash.",
+                "Keep voices low; no playback calls.",
+                "Limit viewing time per animal.",
+                "Don’t approach roost sites by day.",
+                "Stay on paths; avoid trampling understory."
             ],
-            conservationNotes: "Protected. Their reliance on specific forest structures makes them sensitive to logging and habitat disturbance.",
+            conservationNotes: "Endangered; highly sensitive to forest disturbance on small islands.",
             quickSummary: "The world's smallest primate, a wide-eyed nocturnal hunter of the Togean night."
         }
     },
@@ -98,9 +98,9 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         nameEn: "Togian Babirusa",
         nameId: "Babirusa Togean",
         scientificName: "Babyrousa togeanensis",
-        habitat: "Humid Forests",
-        commonLocations: "Primary forests of Togean & Malenge Islands",
-        notesShort: "Endemic. Males have curved tusks. Very rare sightings; threatened status (<1,000 left).",
+        habitat: "Lowland forest, riverine areas, edges",
+        commonLocations: "Malenge, Batudaka, Togean",
+        notesShort: "A rare, pig-like mammal with remarkable upward-curving tusks in males. Endemic to the Togian archipelago, it forages on roots, fallen fruit, and invertebrates in forest and near gardens, and can be wary where hunting pressure exists.",
         slug: "togian-babirusa",
         images: {
             hero: "/wildlife_real/land/togean-babirusa/hero.webp",
@@ -110,33 +110,33 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
             ]
         },
         expandedContent: {
-            intro: "The Babirusa, or 'Deer-Pig', is a prehistoric-looking creature unique to Sulawesi and its islands. The Togian subspecies is the largest and arguably most impressive, with males sporting distinctively curved upper tusks that grow through their snout. An encounter with this shy, forest-dwelling ungulate is the holy grail for wildlife enthusiasts in the region.",
+            intro: "A rare, pig-like mammal with remarkable upward-curving tusks in males. Endemic to the Togian archipelago, it forages on roots, fallen fruit, and invertebrates in forest and near gardens, and can be wary where hunting pressure exists.",
             keyFacts: [
-                { label: "Habitat", value: "Primary rainforests & wallows" },
-                { label: "Diet", value: "Omnivorous (roots, fruits, invertebrates)" },
-                { label: "Status", value: "Endangered (<1,000 individuals)" },
-                { label: "Activity", value: "Diurnal but elusive" }
+                { label: "Habitat", value: "Lowland forest, riverine areas, edges" },
+                { label: "Diet", value: "Roots, fallen fruit, worms, invertebrates" },
+                { label: "Size", value: "Largest babirusa; boar-sized" },
+                { label: "Behavior", value: "Shy; mostly crepuscular; uses forest cover" }
             ],
-            whereToSee: "Deep primary forests on Togean and Malenge Islands offer the best potential habitat, particularly near muddy wallows or fruiting trees.",
-            howToSpot: "Sightings are extremely rare and require patience, stealth, and luck. Look for tracks in the mud or listen for heavy movement in the undergrowth.",
+            whereToSee: "Only in Togian Islands; records emphasize Malenge, Batudaka, Togean, and nearby islands—never guaranteed and very local.",
+            howToSpot: "Look for tracks and rooting signs near muddy wallows and fruit fall; dawn/dusk quiet sits near forest-edge clearings can work better than hiking fast.",
             responsibleGuidelines: [
-                "Move silently and keep downwind.",
-                "Do not pursue them if they retreat.",
-                "Stay hidden and use binoculars for observation.",
-                "Do not disturb wallowing sites.",
-                "Report sightings to local conservation efforts."
+                "Keep 20+ meters distance.",
+                "Never corner animals on narrow trails.",
+                "No baiting, feeding, or spotlighting.",
+                "Respect community rules and gardens.",
+                "Use local guides; avoid sensitive areas."
             ],
-            conservationNotes: "Endangered. The population is small and fragmented, threatened by habitat loss and poaching. Every individual is precious effectively.",
+            conservationNotes: "Endangered; protected; threatened by hunting and habitat pressure/human–wildlife conflict.",
             quickSummary: "A rare, tusked wonder of the deep jungle, shrouded in mystery."
         }
     },
     {
         nameEn: "Knobbed Hornbill",
         nameId: "Rangkong Sulawesi",
-        scientificName: "Aceros cassidix",
-        habitat: "Canopy Forests",
-        commonLocations: "All Togean forests; also Luwuk highlands",
-        notesShort: "Red casque (helmet) on males. Flies in pairs/groups. Easy to see morning/afternoon.",
+        scientificName: "Rhyticeros cassidix",
+        habitat: "Lowland and hill forest canopy",
+        commonLocations: "Tall forest canopy",
+        notesShort: "A large Sulawesi endemic hornbill with an unmistakable casque (“knob”) and loud wingbeats. A key seed-disperser that spends much of its time in tall forest canopy, often traveling widely to follow fruiting fig trees.",
         slug: "knobbed-hornbill",
         images: {
             hero: "/wildlife_real/land/knobbed-hornbill/hero.webp",
@@ -146,23 +146,23 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
             ]
         },
         expandedContent: {
-            intro: "The Knobbed Hornbill is the icon of the Sulawesi skies. Large, colorful, and vocal, they are famous for the vibrant red casque (helmet) atop the male's bill. Their distinctive wing-beat sound—a rhythmic 'whoosh-whoosh'—can be heard long before they fly directly overhead, patrolling the canopy for figs.",
+            intro: "A large Sulawesi endemic hornbill with an unmistakable casque (“knob”) and loud wingbeats. A key seed-disperser that spends much of its time in tall forest canopy, often traveling widely to follow fruiting fig trees.",
             keyFacts: [
-                { label: "Habitat", value: "Tall forest canopy" },
-                { label: "Diet", value: "Frugivorous (figs are a staple)" },
-                { label: "Social", value: "Pairs or small flocks" },
-                { label: "Activity", value: "Diurnal (Morning/Afternoon)" }
+                { label: "Habitat", value: "Lowland and hill forest canopy" },
+                { label: "Diet", value: "Mostly fruit (figs), some insects" },
+                { label: "Size", value: "About 70–80 cm long" },
+                { label: "Behavior", value: "Canopy forager; wide-ranging; noisy flight" }
             ],
-            whereToSee: "They are widespread across the forested islands of Togean and the highlands of Luwuk. Look for tall, fruiting fig trees which act as magnets for these birds.",
-            howToSpot: "Scan the exposed upper branches of tall trees in the early morning. Listen for their loud, barking calls and the heavy sound of their wings in flight.",
+            whereToSee: "Most realistic around mainland Sulawesi forests (Luwuk/Banggai region) or protected areas with tall trees; sightings depend heavily on intact canopy and fruiting seasons.",
+            howToSpot: "Scan treetops at sunrise; listen for deep calls and heavy wingbeats. Watch fruiting figs—hornbills often dominate these feeding trees.",
             responsibleGuidelines: [
-                "Do not disturb nesting sites (sealed tree hollows).",
-                "Use binoculars to observe from a distance.",
-                "Do not make loud noises that could startle them into flight.",
-                "Avoid mimicking their calls repeatedly.",
-                "Support forest protection initiatives."
+                "Stay on trails; minimize canopy disturbance.",
+                "Keep distance from nesting cavities.",
+                "No drones near forest canopy.",
+                "Avoid playback calls.",
+                "Support local conservation-friendly guides."
             ],
-            conservationNotes: "Vulnerable. As large-bodied frugivores, they require large tracts of healthy forest and are indicators of ecosystem health.",
+            conservationNotes: "Vulnerable; forest loss is the primary driver of decline.",
             quickSummary: "The noisy, colorful kings of the canopy, impossible to miss and a joy to watch."
         }
     },
@@ -170,9 +170,9 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         nameEn: "Togian Water Monitor",
         nameId: "Biawak Togean",
         scientificName: "Varanus togianus",
-        habitat: "Coastal & Mangrove",
-        commonLocations: "Mangrove edges & village outskirts in Togean",
-        notesShort: "Endemic, ~1m long. Excellent swimmer. Sometimes seen near settlements.",
+        habitat: "Forest and mangroves",
+        commonLocations: "Mangrove creeks, muddy shorelines",
+        notesShort: "A monitor lizard endemic to the Togian Islands, often associated with forests and mangroves. Opportunistic and alert, it hunts invertebrates and also takes eggs. You may spot it basking, slipping into water, or moving along muddy mangrove edges.",
         slug: "togian-water-monitor",
         images: {
             hero: "/wildlife_real/land/togian-water-monitor/hero.webp",
@@ -182,23 +182,23 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
             ]
         },
         expandedContent: {
-            intro: "The Togian Water Monitor is a sleek, adaptable reptile perfectly commanded of the archipelago's interface between land and sea. Growing up to a meter or more, these lizards are often seen basking on mangrove roots or swimming effortlessly through the channels with a serpentine grace.",
+            intro: "A monitor lizard endemic to the Togian Islands, often associated with forests and mangroves. Opportunistic and alert, it hunts invertebrates and also takes eggs. You may spot it basking, slipping into water, or moving along muddy mangrove edges.",
             keyFacts: [
-                { label: "Habitat", value: "Mangroves, coasts, secondary forest" },
-                { label: "Diet", value: "Carnivorous/Scavenger" },
-                { label: "Size", value: "Up to 1.5 meters" },
-                { label: "Behavior", value: "Semi-aquatic, good climber" }
+                { label: "Habitat", value: "Forest and mangroves" },
+                { label: "Diet", value: "Invertebrates, insects, arachnids, eggs" },
+                { label: "Size", value: "Typically under ~1.5 m total length" },
+                { label: "Behavior", value: "Diurnal; wary; basks then dives to escape" }
             ],
-            whereToSee: "They frequent the edges of mangrove forests and quiet rocky shores. It is not uncommon to see them near village outskirts scavenging for scraps.",
-            howToSpot: "Look for a long, dark shape moving along the shoreline or sunning itself on fallen logs. Sudden splashes near the mangroves often indicate a monitor diving for cover.",
+            whereToSee: "Mangrove creeks, muddy shorelines, and forest edges on larger Togian islands—especially quiet coves where mangroves meet the sea.",
+            howToSpot: "Walk slowly near mangroves at low tide; watch sunlit logs and roots. Look for quick movement and a long tail sliding into water.",
             responsibleGuidelines: [
-                "Do not corner them; they can bite or whip with their tail if threatened.",
-                "Keep a respectful distance.",
-                "Do not feed them human food.",
-                "Observe them quietly as they forage.",
-                "Let them have the right of way on paths."
+                "Keep distance; monitors can bite.",
+                "Never try to handle or corner it.",
+                "Don’t block escape routes to water.",
+                "Avoid disturbing nesting/egg areas.",
+                "No feeding; it changes behavior."
             ],
-            conservationNotes: "Endemic subspecies. While adaptable, they are often misunderstood and persecuted near settlements.",
+            conservationNotes: "Least Concern (IUCN); small range but no major documented threats.",
             quickSummary: "A modern-day dragon of the mangroves, equally at home on land and in the sea."
         }
     },
@@ -206,9 +206,9 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         nameEn: "Coconut Crab",
         nameId: "Kepiting Kenari",
         scientificName: "Birgus latro",
-        habitat: "Rocky Coasts",
-        commonLocations: "Small rocky islets (e.g., Pulau Papan, Pulau Kayuadi)",
-        notesShort: "Largest land crab, nocturnal, climbs coconut trees. Very rare; strictly protected.",
+        habitat: "Coastal forest; burrows near shore",
+        commonLocations: "Small rocky islets",
+        notesShort: "The world’s largest land arthropod, active mainly at night in coastal forest. Despite the name, it mostly eats fruits, nuts, seeds, and scavenged food. It can climb and drag items surprisingly far—an unforgettable “wild island” highlight.",
         slug: "coconut-crab",
         images: {
             hero: "/wildlife_real/land/coconut-crab/hero.webp",
@@ -218,23 +218,23 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
             ]
         },
         expandedContent: {
-            intro: "The Coconut Crab is a true giant among arthropods—the largest land-living arthropod in the world. With claws powerful enough to crack open coconuts and a lifespan that can reach 60 years, they are legendary creatures of the night. Their presence is a sign of a pristine, undisturbed coastline.",
+            intro: "The world’s largest land arthropod, active mainly at night in coastal forest. Despite the name, it mostly eats fruits, nuts, seeds, and scavenged food. It can climb and drag items surprisingly far—an unforgettable “wild island” highlight.",
             keyFacts: [
-                { label: "Habitat", value: "Coastal rock/scrub forest" },
-                { label: "Diet", value: "Coconuts, fruits, carrion" },
-                { label: "Size", value: "Leg span up to 1 meter" },
-                { label: "Activity", value: "Strictly Nocturnal" }
+                { label: "Habitat", value: "Coastal forest; burrows near shore" },
+                { label: "Diet", value: "Fruits, nuts, seeds, carrion" },
+                { label: "Size", value: "Up to ~1 m leg span" },
+                { label: "Behavior", value: "Nocturnal; burrowing; cautious; strong-clawed scavenger" }
             ],
-            whereToSee: "They are rare and have been extirpated from many populated areas. Small, rocky, uninhabited islets like those around Pulau Papan offer the best chance of a sighting.",
-            howToSpot: "They emerge at night. Look for them around the bases of coconut trees or amongst limestone crevices using a flashlight.",
+            whereToSee: "Remote, lightly disturbed islands/coves with coastal forest—nighttime near fallen fruit trees or behind beaches. Sightings depend on local protection and low harvesting.",
+            howToSpot: "Night walk with red light; scan ground near roots and burrow entrances. Listen for scraping and look for large claws and a heavy, deliberate gait.",
             responsibleGuidelines: [
-                "Strictly protected: Do not capture, eat, or buy them.",
-                "Do not handle them; their claws are incredibly powerful.",
-                "Avoid using bright lights directly on them for long periods.",
-                "Watch your step on rocky islets at night.",
-                "Report any illegal trade to authorities."
+                "Do not touch—claws can crush.",
+                "No feeding or baiting.",
+                "Keep lights low; avoid long spotlighting.",
+                "Don’t block burrow entrances.",
+                "Never collect; it’s easily overharvested."
             ],
-            conservationNotes: "Vulnerable to Extinction. Their slow growth and lack of fear make them heavily targeted for food, requiring strict protection.",
+            conservationNotes: "Vulnerable (IUCN); threatened by harvesting and habitat loss on islands.",
             quickSummary: "An alien-like giant of the limestone rocks, powerful and ancient."
         }
     },
@@ -242,9 +242,9 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         nameEn: "Maleo",
         nameId: "Maleo Senkawor",
         scientificName: "Macrocephalon maleo",
-        habitat: "Coastal/Forest (Nesting)",
+        habitat: "Lowland/hill forest; nesting sandy sites",
         commonLocations: "Taima Sanctuary, Tompotika coast (Banggai)",
-        notesShort: "Sulawesi endemic, lays eggs in hot sand. Luwuk Banggai mascot. Best seen in mornings with conservation guides.",
+        notesShort: "A remarkable Sulawesi megapode that incubates huge eggs in warm sand or geothermal soils rather than sitting on a nest. It travels between forest feeding areas and communal nesting grounds, making it vulnerable to habitat loss and egg harvesting.",
         slug: "burung-maleo",
         images: {
             hero: "/wildlife_real/land/burung-maleo/hero.webp",
@@ -254,23 +254,23 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
             ]
         },
         expandedContent: {
-            intro: "The Maleo is a unique megapode bird found only in Sulawesi. Instead of incubating their eggs with body heat, they bury them in geothermal sands or sun-warmed beaches, leaving the earth to do the work. The chicks emerge fully feathered and ready to fly, a miracle of avian evolution.",
+            intro: "A remarkable Sulawesi megapode that incubates huge eggs in warm sand or geothermal soils rather than sitting on a nest. It travels between forest feeding areas and communal nesting grounds, making it vulnerable to habitat loss and egg harvesting.",
             keyFacts: [
-                { label: "Habitat", value: "Lowland forest & sandy nesting grounds" },
-                { label: "Diet", value: "Omnivorous (seeds, fruit, ants)" },
-                { label: "Behavior", value: "Communal nesting, monogamous pairs" },
-                { label: "Status", value: "Endangered" }
+                { label: "Habitat", value: "Lowland/hill forest; nesting sandy sites" },
+                { label: "Diet", value: "Fruits, seeds, invertebrates (generalist)" },
+                { label: "Size", value: "About 55–60 cm long" },
+                { label: "Behavior", value: "Ground-dwelling; communal nesting; wary near beaches" }
             ],
-            whereToSee: "The Taima Sanctuary on the Tompotika coast (accessible from Luwuk) is one of the best places in the world to observe them during the nesting season.",
-            howToSpot: "The nesting grounds are active in the early morning. You will see pairs digging deep pits in the sand. A guide is absolutely essential to visit these sensitive areas.",
+            whereToSee: "On Sulawesi mainland (not the small Togian resort beaches): visits depend on access to known protected nesting grounds—best treated as a special, location-specific excursion.",
+            howToSpot: "At authorized nesting sites, watch quietly from a distance for pairs arriving and digging. In forests, look for chicken-like tracks and brief ground movements near clearings.",
             responsibleGuidelines: [
-                "Visit only with official conservation guides.",
-                "Stay behind designated hides or observation points.",
-                "Do not approach the nesting pits.",
-                "Keep noise to a minimum.",
-                "Support the local community guardians who protect the eggs."
+                "Visit only official, permitted sites.",
+                "Never approach active nests or digging birds.",
+                "No flash or drones.",
+                "Keep group sizes small and quiet.",
+                "Do not buy/encourage egg trade."
             ],
-            conservationNotes: "Endangered. Egg poaching and habitat loss are major threats. Community-based protection programs nearby are critical to their survival.",
+            conservationNotes: "Critically Endangered (BirdLife/IUCN history); pressured by egg harvesting and habitat loss.",
             quickSummary: "The mascot of Banggai, a bird that entrusts its future to the volcanic heat of the earth."
         }
     },
@@ -278,9 +278,9 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
         nameEn: "Togian Boobook",
         nameId: "Togian Hawk-owl",
         scientificName: "Ninox burhani",
-        habitat: "Lowland Forest",
-        commonLocations: "Forests of Togean & Talatakoh Islands",
-        notesShort: "Endemic to Togean, described in 1999. Nocturnal, yellow eyes. Hard to find without experts.",
+        habitat: "Lowland/hill forest; degraded forest; gardens",
+        commonLocations: "Togian islands near forest edges",
+        notesShort: "A small owl endemic to the Togian Islands. It calls after dusk and hunts insects and small prey from perches along forest edges. Recorded in lowland and hill forest, including degraded forest and mixed gardens—good news for responsible night-walk tourism.",
         slug: "togian-boobook",
         images: {
             hero: "/wildlife_real/land/togean-boobook/hero.webp",
@@ -290,23 +290,23 @@ export const wildlifeLandDetails: LandWildlifeDetail[] = [
             ]
         },
         expandedContent: {
-            intro: "Defined by science only recently in 1999, the Togian Boobook is a testament to how much of Sulawesi's biodiversity remains to be discovered. This small, brown hawk-owl with piercing yellow eyes is endemic solely to the Togean Islands. Its distinct call is the soundtrack of the deep island night.",
+            intro: "A small owl endemic to the Togian Islands. It calls after dusk and hunts insects and small prey from perches along forest edges. Recorded in lowland and hill forest, including degraded forest and mixed gardens—good news for responsible night-walk tourism.",
             keyFacts: [
-                { label: "Habitat", value: "Disturbed & Primary Lowland Forest" },
-                { label: "Diet", value: "Insectivorous/Carnivorous" },
-                { label: "Size", value: "Small (approx. 25 cm)" },
-                { label: "Activity", value: "Nocturnal" }
+                { label: "Habitat", value: "Lowland/hill forest; degraded forest; gardens" },
+                { label: "Diet", value: "Insects and small vertebrates" },
+                { label: "Size", value: "Small owl (roughly 25–30 cm)" },
+                { label: "Behavior", value: "Nocturnal; perch-hunter; responds with distinct calls" }
             ],
-            whereToSee: "They are found in the forests of Togean, Malenge, and Talatakoh. They seem to tolerate some habitat disturbance and can be found in garden mosaics near forests.",
-            howToSpot: "Tracking their call—a series of specfic hoots—is the only reliable method. Spotlighting them requires patience and a sharp eye for movement in the mid-canopy.",
+            whereToSee: "Evening walks on Togian islands near forest edges, mixed gardens, and scrubby woodland surrounded by evergreen forest; best chances in quiet areas with minimal lighting.",
+            howToSpot: "Stop often and listen for rhythmic owl calls. Scan mid-level branches with a dim red light for eye-shine and a compact silhouette perched still.",
             responsibleGuidelines: [
-                "Use minimal lighting when observing.",
-                "Do not play playback of their calls (it stresses territorial birds).",
-                "Keep movements slow and quiet.",
-                "Respect the forest at night.",
-                "Share sightings with birding communities to help map their range."
+                "Red light only; no flash photography.",
+                "No playback calls near roosts.",
+                "Keep distance; don’t follow repeatedly.",
+                "Stay on paths; avoid breaking branches.",
+                "Limit viewing time per individual."
             ],
-            conservationNotes: "Near Threatened. Restricted range makes them vulnerable, though they appear somewhat adaptable to habitat shifting.",
+            conservationNotes: "Near Threatened (BirdLife); endemic with limited range, sensitive to forest loss.",
             quickSummary: "A mysterious and recently discovered owl, the secret watcher of the Togean night."
         }
     }
