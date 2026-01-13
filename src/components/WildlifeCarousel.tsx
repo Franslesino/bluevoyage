@@ -19,13 +19,13 @@ const wildlifeData = [
         name: "Monyet Togean",
         scientific: "Macaca tonkeana togeanus",
         description: "Endemic island macaque, curious forest forager.",
-        image: "/wildlife-macaque.webp",
+        image: "/wildlife_real/land/togian-monkey/hero.webp",
     },
     {
         name: "Babirusa Togean",
         scientific: "Babyrousa togeanensis",
         description: "Rare tusked pig, shy in dense forest.",
-        image: "/wildlife-babirusa.webp",
+        image: "/wildlife_real/land/togean-babirusa/hero.webp",
     },
     {
         name: "Togean Golden Bulbul",
@@ -37,19 +37,19 @@ const wildlifeData = [
         name: "Kima Raksasa",
         scientific: "Tridacna spp.",
         description: "Protected reef giant, vibrant mantle filters water.",
-        image: "/wildlife-giant-clam.webp",
+        image: "/wildlife_real/sea/giant-clam/hero.webp",
     },
     {
         name: "Biawak Togean",
         scientific: "Varanus togianus",
         description: "Large island monitor, basks near mangroves.",
-        image: "/wildlife-monitor.webp",
+        image: "/wildlife_real/land/togian-water-monitor/hero.webp",
     },
     {
         name: "Tarsius Togean",
         scientific: "Tarsius niemitzi",
         description: "Nocturnal big-eyed tarsier, best seen at night.",
-        image: "/wildlife-tarsier.webp",
+        image: "/wildlife_real/land/togean-tarsier/hero.webp",
     },
 ];
 
