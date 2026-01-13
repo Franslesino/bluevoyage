@@ -2,28 +2,28 @@ export const boatDetails = [
     {
         id: "safety",
         title: "Safety, without the fuss",
-        body: "Clear briefings, maintained gear, and practiced routines keep everything calm. From life jackets to radio checks, each crossing is handled with care, so you can relax, breathe, and enjoy the sea with confidence.",
+        body: "Clear briefings, reliable life jackets, and calm routines keep everything steady. From weather checks to safe transfers, each step is handled quietly, so you feel confident and free to enjoy the sea.",
         imageSrc: "/boat/zigzag/01.png",
         imageAlt: "Captain giving safety briefing on deck"
     },
     {
         id: "crew",
-        title: "A crew that anticipates",
-        body: "Your captain reads weather and water like a second language, while the crew quietly supports every moment. Expect gentle guidance, helpful hands, and thoughtful timing, so the day feels effortless from start to finish.",
+        title: "Comfort in shared spaces",
+        body: "A shaded lounge, soft seating, and an easy layout make the boat feel like a floating living room. Stretch out, snack, chat, or nap with good airflow and no cramped corners.",
         imageSrc: "/boat/zigzag/02.png",
         imageAlt: "Crew member serving guest on boat"
     },
     {
         id: "comfort",
-        title: "Comfort in motion",
-        body: "Shaded lounging, steady airflow, and space to stretch out make the ride genuinely comfortable. Sip tea, read, nap, or chat without feeling crowded, as the islands drift by at the pace slow travel deserves.",
+        title: "Seamanship you can feel",
+        body: "A captain who reads wind, current, and reef color at a glance. Smooth approaches, steady pacing, and smart route choices turn crossings into calm, predictable moments, even in changing conditions.",
         imageSrc: "/boat/zigzag/03.png",
         imageAlt: "Guest relaxing on shaded deck"
     },
     {
         id: "experience",
-        title: "Golden-hour experiences",
-        body: "Some highlights happen between destinations. Slow approaches, reef-blue shallows, and sunset rides turn the journey into the memory. We pause when it feels right, letting light, silence, and scenery do the work.",
+        title: "Golden water, slow moments",
+        body: "Some of the best memories happen between islands. Reef-blue shallows, glassy mornings, and sunset glides invite you to pause, breathe, and let the ocean set the mood for the day.",
         imageSrc: "/boat/zigzag/04.png",
         imageAlt: "Boat sailing into sunset"
     }
