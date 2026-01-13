@@ -20,10 +20,10 @@ import useEmblaCarousel from "embla-carousel-react";
 
 // Boat Slides Data
 const boatSlides = [
-    { src: "/boat/boat-1.webp", alt: "TogeanVoyage boat - exterior view" },
-    { src: "/boat/boat-2.webp", alt: "TogeanVoyage boat - deck and lounge" },
-    { src: "/boat/boat-3.webp", alt: "TogeanVoyage boat - cabins and comfort" },
-    { src: "/boat/boat-4.webp", alt: "TogeanVoyage boat - at sea golden hour" },
+    { src: "/boat/zigzig/01.jpeg", alt: "TogeanVoyage boat - exterior view" },
+    { src: "/boat/zigzig/02.jpeg", alt: "TogeanVoyage boat - deck and lounge" },
+    { src: "/boat/zigzig/03.jpeg", alt: "TogeanVoyage boat - cabins and comfort" },
+    { src: "/boat/zigzig/04.jpeg", alt: "TogeanVoyage boat - at sea golden hour" },
 ];
 
 function BoatCarousel({ className }: { className?: string }) {
