@@ -1,5 +1,5 @@
-import Link from "next/link";
 import React from "react";
+import LocaleLink from "./LocaleLink";
 
 interface ExploreAllLinkProps {
     href: string;
@@ -8,7 +8,7 @@ interface ExploreAllLinkProps {
 
 export default function ExploreAllLink({ href, label }: ExploreAllLinkProps) {
     return (
-        <Link
+        <LocaleLink
             href={href}
             className="inline-flex items-center gap-2 text-sm md:text-base uppercase tracking-wider font-avenir text-[#6b4c3b] visited:text-[#6b4c3b] active:text-[#4a3429] hover:text-[#4a3429] transition-colors group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6b4c3b]/30"
         >
@@ -28,6 +28,6 @@ export default function ExploreAllLink({ href, label }: ExploreAllLinkProps) {
                     d="M9 5l7 7-7 7"
                 />
             </svg>
-        </Link>
+        </LocaleLink>
     );
 }

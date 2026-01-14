@@ -2,8 +2,11 @@
 
 import Image from "next/image";
 import { CONTACT_INFO } from "@/config/contact";
+import { useTranslation } from "./I18nProvider";
 
 export default function FooterSection() {
+    const { t } = useTranslation();
+    
     return (
         <footer className="bg-[#CB9275] text-white pt-12 pb-8 md:pt-16 md:pb-12">
             <div className="mx-auto px-6 md:px-12 max-w-[1280px]">
@@ -29,29 +32,29 @@ export default function FooterSection() {
                     {/* Column A: Brand Info */}
                     <div className="md:col-span-4 lg:col-span-4">
                         <h3 className="font-canto text-2xl lg:text-3xl mb-6 text-white">
-                            Togean Voyages
+                            {t("footer.brandName")}
                         </h3>
                         <p className="font-avenir text-base leading-relaxed text-white/80 max-w-sm">
-                            Experience the untouched beauty of the Togean Islands. We curate slow travel journeys that connect you with nature, culture, and the serenity of the sea.
+                            {t("footer.brandDescription")}
                         </p>
                     </div>
 
                     {/* Column B: Infos */}
                     <div className="md:col-span-4 lg:col-span-4">
                         <h3 className="font-canto text-2xl lg:text-3xl mb-6 text-white">
-                            Infos
+                            {t("footer.infosTitle")}
                         </h3>
                         <ul className="font-avenir space-y-3 text-base text-white/80">
-                            <li>Graha STR, Jl. Ampera Raya No.11B, Jakarta</li>
-                            <li>Jl. Soekarno Hatta, No 13A, Manggarai Barat.</li>
-                            <li>PT Build Creative Realm</li>
+                            <li>{t("footer.address1")}</li>
+                            <li>{t("footer.address2")}</li>
+                            <li>{t("footer.company")}</li>
                         </ul>
                     </div>
 
                     {/* Column C: Contact Us */}
                     <div className="md:col-span-4 lg:col-span-4">
                         <h3 className="font-canto text-2xl lg:text-3xl mb-6 text-white">
-                            Contact Us
+                            {t("footer.contactTitle")}
                         </h3>
                         <ul className="font-avenir space-y-4 text-base text-white/80">
                             {/* WhatsApp */}

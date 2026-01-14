@@ -2,8 +2,11 @@
 
 import React from "react";
 import { CONTACT_INFO } from "@/config/contact";
+import { useTranslation } from "./I18nProvider";
 
 export default function HomepageCta() {
+    const { t } = useTranslation();
+    
     return (
         <section className="w-full bg-white py-20 md:py-28 relative text-center px-6">
             {/* Top Divider: Subtle and wide */}
@@ -13,17 +16,17 @@ export default function HomepageCta() {
             <div className="flex flex-col items-center">
                 {/* Eyebrow */}
                 <span className="font-avenir text-xs md:text-sm uppercase tracking-[0.2em] text-[#CB9275] mb-6 block">
-                    READY WHEN YOU ARE
+                    {t("cta.eyebrow")}
                 </span>
 
                 {/* Headline */}
                 <h2 className="font-canto text-4xl md:text-5xl lg:text-6xl text-neutral-800 leading-[1.1] mb-6 mx-auto max-w-3xl">
-                    Start your journey now — talk with our travel designer
+                    {t("cta.title")}
                 </h2>
 
                 {/* Supporting Text */}
                 <p className="font-avenir text-lg md:text-xl text-neutral-500 font-light leading-relaxed max-w-xl mx-auto mb-10">
-                    Share your dates and pace. We’ll shape a calm, island-led itinerary built around you.
+                    {t("cta.description")}
                 </p>
 
                 {/* CTA Button */}
@@ -40,7 +43,7 @@ export default function HomepageCta() {
                         transition-all duration-500 ease-out group
                     "
                 >
-                    <span>Chat on WhatsApp</span>
+                    <span>{t("cta.button")}</span>
                     {/* Arrow Icon */}
                     <svg
                         viewBox="0 0 24 24"

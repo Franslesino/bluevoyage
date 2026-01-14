@@ -1,78 +1,83 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useRef, useEffect, useCallback } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import useEmblaCarousel from "embla-carousel-react";
+import LocaleLink from "./LocaleLink";
+import { useTranslation } from "./I18nProvider";
 
 // --- Data ---
 
-const slides = [
+const slidesData = [
     {
-        title: "Pulau Puat",
-        description: "Simple seaside guest house calm, with sunrise views and easy boat access.",
+        titleKey: "accommodation.slides.pulatPuat.title",
+        descriptionKey: "accommodation.slides.pulatPuat.description",
         image: "/accommodation/accommodation-pulau-puat.webp",
     },
     {
-        title: "Malengue",
-        description: "A quiet village stay with breezy nights and warm local hosting.",
+        titleKey: "accommodation.slides.malengue.title",
+        descriptionKey: "accommodation.slides.malengue.description",
         image: "/accommodation/accommodation-malengue.webp",
     },
     {
-        title: "Walea Kodi",
-        description: "A restful base near reefs, perfect for slow mornings and early snorkels.",
+        titleKey: "accommodation.slides.waleaKodi.title",
+        descriptionKey: "accommodation.slides.waleaKodi.description",
         image: "/accommodation/accommodation-walea-kodi.webp",
     },
     {
-        title: "Una Una",
-        description: "Volcanic-island atmosphere, cool evenings, and a peaceful place to reset.",
+        titleKey: "accommodation.slides.unaUna.title",
+        descriptionKey: "accommodation.slides.unaUna.description",
         image: "/accommodation/accommodation-una-una.webp",
     },
 ];
 
-const features = [
+const featuresData = [
     {
         id: "guest-house",
-        title: "By the sea at sunrise, under stars at night",
-        description: "Wake to soft sea light, fall asleep to waves. Open-air evenings, clear skies, and the slow island rhythm that resets your body clock.",
+        titleKey: "accommodation.features.guestHouse.title",
+        descriptionKey: "accommodation.features.guestHouse.description",
     },
     {
         id: "comfort",
-        title: "Crafted with locally sourced woods",
-        description: "Built with local timber and island know-how. Natural textures, sturdy joinery, and a warm, grounded feel that fits the landscape.",
+        titleKey: "accommodation.features.comfort.title",
+        descriptionKey: "accommodation.features.comfort.description",
     },
     {
         id: "shared-spaces",
-        title: "Sleep easy & quiet comfort",
-        description: "Clean beds, good airflow, and low-noise nights. Simple comforts that help you rest deeply and wake ready for tomorrow’s boat time.",
+        titleKey: "accommodation.features.sharedSpaces.title",
+        descriptionKey: "accommodation.features.sharedSpaces.description",
     },
     {
         id: "hosts",
-        title: "Stay on preserved beaches, intentionally chosen",
-        description: "We choose beaches that stay quiet and cared for. Minimal footprint, fewer crowds, and settings that keep nature feeling untouched.",
+        titleKey: "accommodation.features.hosts.title",
+        descriptionKey: "accommodation.features.hosts.description",
     },
     {
         id: "meals",
-        title: "Designed with care for thoughtful stays",
-        description: "Small details done right: shade, seating, storage, and lighting. Spaces that feel considerate, practical, and easy to live in.",
+        titleKey: "accommodation.features.meals.title",
+        descriptionKey: "accommodation.features.meals.description",
     },
     {
         id: "impact",
-        title: "Evenings made calm and intimate",
-        description: "Sunset tea, soft lamps, and quiet conversation. A gentle end to the day, where you can read, reflect, or simply listen to the sea.",
+        titleKey: "accommodation.features.impact.title",
+        descriptionKey: "accommodation.features.impact.description",
     },
 ];
 
 // --- Components ---
 
+type FeatureType = typeof featuresData[0];
+
 function AccordionItem({
     feature,
     isOpen,
     onToggle,
+    t,
 }: {
-    feature: (typeof features)[0];
+    feature: FeatureType;
     isOpen: boolean;
     onToggle: () => void;
+    t: (key: string) => string;
 }) {
     const contentRef = useRef<HTMLDivElement>(null);
     const [maxHeight, setMaxHeight] = useState(0);
@@ -92,7 +97,7 @@ function AccordionItem({
                 className="w-full flex items-center justify-between py-4 px-2 text-left focus:outline-none focus:ring-2 focus:ring-[#6b4c3b] focus:ring-offset-2 rounded"
             >
                 <span className="font-canto text-lg text-neutral-900">
-                    {feature.title}
+                    {t(feature.titleKey)}
                 </span>
                 <svg
                     className={`w-5 h-5 text-neutral-500 transition-transform duration-300 ease-out ${isOpen ? "rotate-90" : ""
@@ -120,7 +125,7 @@ function AccordionItem({
             >
                 <div className="pt-3 pb-4 px-4">
                     <p className="font-avenir text-sm leading-relaxed text-neutral-600">
-                        {feature.description}
+                        {t(feature.descriptionKey)}
                     </p>
                 </div>
             </div>
@@ -129,6 +134,8 @@ function AccordionItem({
 }
 
 export default function AccommodationSection() {
+    const { t } = useTranslation();
+    
     // --- Desktop Carousel State ---
     const [desktopRef, desktopApi] = useEmblaCarousel({
         loop: true,
@@ -191,17 +198,17 @@ export default function AccommodationSection() {
             <div className="mx-auto max-w-7xl px-4 md:px-8">
                 {/* Section Header */}
                 <div className="text-center mb-10 md:mb-14 px-4">
-                    <Link href="/accommodation">
+                    <LocaleLink href="/accommodation">
                         <h2 className="font-canto text-3xl md:text-4xl lg:text-5xl mb-4 text-neutral-900 hover:text-neutral-700 transition-colors cursor-pointer">
-                            At rest: Island Guest Houses
+                            {t("accommodation.title")}
                         </h2>
-                    </Link>
-                    <Link
+                    </LocaleLink>
+                    <LocaleLink
                         href="/accommodation"
                         className="inline-flex items-center gap-2 text-sm md:text-base uppercase tracking-wider text-[#6b4c3b] hover:text-[#4a3429] transition-colors group font-avenir"
                     >
                         <span className="group-hover:underline underline-offset-4">
-                            Curated stays: Explore All
+                            {t("accommodation.subtitle")}
                         </span>
                         <svg
                             className="w-4 h-4 transition-transform group-hover:translate-x-1"
@@ -216,7 +223,7 @@ export default function AccommodationSection() {
                                 d="M9 5l7 7-7 7"
                             />
                         </svg>
-                    </Link>
+                    </LocaleLink>
                 </div>
 
                 {/* Desktop Layout */}
@@ -225,11 +232,11 @@ export default function AccommodationSection() {
                     <div className="relative h-[600px] lg:h-[750px] group">
                         <div className="overflow-hidden h-full rounded-sm" ref={desktopRef}>
                             <div className="flex h-full touch-pan-y">
-                                {slides.map((slide, idx) => (
+                                {slidesData.map((slide, idx) => (
                                     <div key={idx} className="flex-[0_0_100%] min-w-0 relative h-full">
                                         <Image
                                             src={slide.image}
-                                            alt={slide.title}
+                                            alt={t(slide.titleKey)}
                                             fill
                                             className="object-cover"
                                             sizes="(max-width: 1024px) 50vw, 50vw"
@@ -238,8 +245,8 @@ export default function AccommodationSection() {
                                         {/* Overlay */}
                                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />
                                         <div className="absolute bottom-0 left-0 p-8 w-full text-white">
-                                            <h3 className="font-canto text-3xl mb-2">{slide.title}</h3>
-                                            <p className="font-avenir text-sm text-gray-200">{slide.description}</p>
+                                            <h3 className="font-canto text-3xl mb-2">{t(slide.titleKey)}</h3>
+                                            <p className="font-avenir text-sm text-gray-200">{t(slide.descriptionKey)}</p>
                                         </div>
                                     </div>
                                 ))}
@@ -275,20 +282,20 @@ export default function AccommodationSection() {
                     {/* Right Column: Content */}
                     <div className="pr-6 lg:pr-8 pl-4 flex flex-col justify-center">
                         <h2 className="font-canto text-3xl md:text-4xl lg:text-5xl leading-tight text-neutral-900">
-                            Stay easy, feel at home
+                            {t("accommodation.contentTitle")}
                         </h2>
                         <p className="mt-6 md:mt-8 font-avenir text-sm md:text-base leading-relaxed text-neutral-600 max-w-lg">
-                            Unhurried stays, island-simple comfort, and warm hosts. You explore by day, then unwind on land in thoughtfully chosen guest houses.
+                            {t("accommodation.contentDescription")}
                         </p>
 
                         <div className="mt-10 md:mt-12 grid grid-cols-2 gap-x-8 gap-y-8 lg:gap-x-12 lg:gap-y-10">
-                            {features.map((feature) => (
+                            {featuresData.map((feature) => (
                                 <div key={feature.id}>
                                     <h3 className="font-canto text-xl md:text-2xl text-neutral-800">
-                                        {feature.title}
+                                        {t(feature.titleKey)}
                                     </h3>
                                     <p className="mt-3 font-avenir text-sm leading-relaxed text-neutral-500">
-                                        {feature.description}
+                                        {t(feature.descriptionKey)}
                                     </p>
                                 </div>
                             ))}
@@ -302,19 +309,19 @@ export default function AccommodationSection() {
                     <div className="relative aspect-[4/3] w-full mb-8 rounded-sm overflow-hidden text-white">
                         <div className="overflow-hidden h-full" ref={mobileRef}>
                             <div className="flex h-full touch-pan-y">
-                                {slides.map((slide, idx) => (
+                                {slidesData.map((slide, idx) => (
                                     <div key={idx} className="flex-[0_0_100%] min-w-0 relative h-full">
                                         <Image
                                             src={slide.image}
-                                            alt={slide.title}
+                                            alt={t(slide.titleKey)}
                                             fill
                                             className="object-cover"
                                             sizes="100vw"
                                         />
                                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />
                                         <div className="absolute bottom-0 left-0 p-6 w-full">
-                                            <h3 className="font-canto text-2xl mb-1">{slide.title}</h3>
-                                            <p className="font-avenir text-xs text-gray-200">{slide.description}</p>
+                                            <h3 className="font-canto text-2xl mb-1">{t(slide.titleKey)}</h3>
+                                            <p className="font-avenir text-xs text-gray-200">{t(slide.descriptionKey)}</p>
                                         </div>
                                     </div>
                                 ))}
@@ -335,19 +342,20 @@ export default function AccommodationSection() {
                     {/* Text Content */}
                     <div className="px-2">
                         <h2 className="font-canto text-3xl leading-tight text-neutral-900 text-center">
-                            Stay easy, feel at home
+                            {t("accommodation.contentTitle")}
                         </h2>
                         <p className="mt-6 font-avenir text-sm leading-relaxed text-neutral-600 text-center">
-                            Unhurried stays, island-simple comfort, and warm hosts. You explore by day, then unwind on land in thoughtfully chosen guest houses.
+                            {t("accommodation.contentDescription")}
                         </p>
 
                         <div className="mt-8">
-                            {features.map((feature) => (
+                            {featuresData.map((feature) => (
                                 <AccordionItem
                                     key={feature.id}
                                     feature={feature}
                                     isOpen={openAccordionId === feature.id}
                                     onToggle={() => toggleAccordion(feature.id)}
+                                    t={t}
                                 />
                             ))}
                         </div>
@@ -357,3 +365,4 @@ export default function AccommodationSection() {
         </section>
     );
 }
+
