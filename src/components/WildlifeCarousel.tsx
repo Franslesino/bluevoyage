@@ -10,9 +10,10 @@
  */
 
 import React, { useCallback, useEffect, useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
+import LocaleLink from "./LocaleLink";
+import { useTranslation } from "./I18nProvider";
 
 const wildlifeData = [
     {
@@ -54,6 +55,7 @@ const wildlifeData = [
 ];
 
 export default function WildlifeCarousel() {
+    const { t } = useTranslation();
     const [emblaRef, emblaApi] = useEmblaCarousel({
         loop: true,
         align: "center",
@@ -88,20 +90,20 @@ export default function WildlifeCarousel() {
                     {/* Left Column: Text Content */}
                     <div className="w-full lg:w-1/3 flex flex-col items-center lg:items-start text-center lg:text-left order-1">
                         <h2 className="font-canto text-4xl lg:text-5xl mb-6 leading-tight">
-                            Where to meet the wild
+                            {t("wildlife.title")}
                         </h2>
                         <p className="font-avenir text-lg text-gray-300 mb-8 max-w-lg leading-relaxed">
-                            A living archipelago of forests, reefs, and night sounds. Discover the native species that make Togean feel untouched and unforgettable.
+                            {t("wildlife.description")}
                         </p>
 
                         {/* Desktop Button Location */}
                         <div className="hidden lg:block">
-                            <Link
+                            <LocaleLink
                                 href="/wildlife"
                                 className="inline-block px-8 py-3 border border-gray-500 text-white font-avenir tracking-wide uppercase text-sm hover:border-white hover:bg-white/5 transition-all duration-300"
                             >
-                                Explore the wildlife
-                            </Link>
+                                {t("wildlife.exploreButton")}
+                            </LocaleLink>
                         </div>
                     </div>
 
@@ -179,12 +181,12 @@ export default function WildlifeCarousel() {
 
                     {/* Mobile Button Location (Last) */}
                     <div className="w-full flex justify-center lg:hidden order-3 mt-4">
-                        <Link
+                        <LocaleLink
                             href="/wildlife"
                             className="inline-block px-8 py-3 border border-gray-500 text-white font-avenir tracking-wide uppercase text-sm hover:border-white hover:bg-white/5 transition-all duration-300"
                         >
-                            Explore the wildlife
-                        </Link>
+                            {t("wildlife.exploreButton")}
+                        </LocaleLink>
                     </div>
 
                 </div>

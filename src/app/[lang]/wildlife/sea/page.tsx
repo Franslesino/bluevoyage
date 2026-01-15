@@ -5,6 +5,11 @@ import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { wildLifeSeaDetails } from "@/data/wildlifeSeaDetails";
 import BackLink from "@/components/BackLink";
+import { SUPPORTED_LOCALES } from "@/lib/i18n";
+
+export function generateStaticParams() {
+    return SUPPORTED_LOCALES.map((lang) => ({ lang }));
+}
 
 export default function SeaWildlifeListingPage() {
     return (

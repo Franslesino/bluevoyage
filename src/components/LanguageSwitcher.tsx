@@ -1,48 +1,47 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
-import { useRouter, usePathname, useParams } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import { createPortal } from "react-dom";
+import { 
+    Locale, 
+    ALL_LOCALES, 
+    LOCALE_NAMES, 
+    localizePath, 
+    stripLocalePrefix,
+    getLocaleFromPathname 
+} from "@/lib/i18n";
 
 /**
- * Language configuration
- * - code: 2-letter URL prefix (lowercase in URL, uppercase in UI)
- * - label: Display name in dropdown
- * - gt: Google Translate target code (may differ from URL code)
+ * Language configuration for the switcher
  */
-const LANGUAGES = [
-    { code: "en", label: "ENGLISH", gt: "en" },
-    { code: "fr", label: "FRANCE", gt: "fr" },
-    { code: "es", label: "SPANISH", gt: "es" },
-    { code: "ru", label: "RUSSIAN", gt: "ru" },
-    { code: "id", label: "INDONESIAN", gt: "id" },
-    { code: "ja", label: "JAPANESE", gt: "ja" },
-    { code: "ko", label: "KOREAN", gt: "ko" },
-    { code: "zh", label: "CHINESE", gt: "zh-CN" },
-    { code: "ar", label: "ARABIC (SAUDI)", gt: "ar" },
-    { code: "de", label: "GERMAN", gt: "de" },
-    { code: "it", label: "ITALIAN", gt: "it" },
-    { code: "tr", label: "TURKISH", gt: "tr" },
-];
+const LANGUAGES: { code: Locale; label: string }[] = ALL_LOCALES.map((code) => ({
+    code,
+    label: LOCALE_NAMES[code],
+}));
 
 /**
- * LanguageSwitcher - Custom language dropdown
- * - Dropdown anchored below navbar (not just button)
- * - Rectangular panel with shadow, no rounded corners
- * - Navigation only via router.push()
+ * LanguageSwitcher - Static i18n language dropdown
+ * 
+ * Switches the current page to the selected locale:
+ * - EN: strips prefix, navigates to root path (e.g., /destinations)
+ * - DE/FR: adds prefix (e.g., /de/destinations, /fr/destinations)
+ * 
+ * Does NOT use cookies or localStorage for redirects (SEO-first).
+ * URL is the source of truth for locale.
  */
 export default function LanguageSwitcher({ isTransparent = false }: { isTransparent?: boolean }) {
     const router = useRouter();
     const pathname = usePathname();
-    const params = useParams();
     const [isOpen, setIsOpen] = useState(false);
     const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0 });
     const triggerRef = useRef<HTMLButtonElement>(null);
     const dropdownRef = useRef<HTMLDivElement>(null);
     const [mounted, setMounted] = useState(false);
 
-    const currentLangCode = (params.lang as string) || "en";
-    const currentLang = LANGUAGES.find((l) => l.code === currentLangCode) || LANGUAGES[0];
+    // Get current locale from pathname
+    const currentLocale = getLocaleFromPathname(pathname);
+    const currentLang = LANGUAGES.find((l) => l.code === currentLocale) || LANGUAGES[0];
 
     // Mount check for portal
     useEffect(() => {
@@ -103,22 +102,31 @@ export default function LanguageSwitcher({ isTransparent = false }: { isTranspar
         return () => document.removeEventListener("keydown", handleEsc);
     }, []);
 
-    const handleLanguageSelect = (langCode: string) => {
+    /**
+     * Handle language selection
+     * - Strips current locale prefix from pathname
+     * - Adds new locale prefix (or none for English)
+     * - Navigates to the new URL
+     */
+    const handleLanguageSelect = (newLocale: Locale) => {
         setIsOpen(false);
 
-        if (langCode === currentLangCode) return;
+        if (newLocale === currentLocale) return;
 
-        const segments = pathname.split('/').filter(Boolean);
+        // Get the path without any locale prefix
+        const pathWithoutLocale = stripLocalePrefix(pathname);
+        
+        // Build the new path with the selected locale
+        const newPath = localizePath(pathWithoutLocale, newLocale);
 
-        if (segments[0] === currentLangCode) {
-            segments[0] = langCode;
-        } else {
-            segments.unshift(langCode);
-        }
-
-        const newPath = `/${segments.join('/')}`;
+        // Preserve query string and hash
         const url = new URL(window.location.href);
         const fullPath = `${newPath}${url.search}${url.hash}`;
+
+        // Optional: Store preference in localStorage (for UX, not for redirects)
+        if (typeof window !== "undefined") {
+            localStorage.setItem("preferred-locale", newLocale);
+        }
 
         router.push(fullPath);
     };
@@ -145,7 +153,6 @@ export default function LanguageSwitcher({ isTransparent = false }: { isTranspar
                 style={{ borderRadius: 0 }}
                 role="menu"
             >
-                {/* Dropdown items with comfortable spacing */}
                 {LANGUAGES.map((lang) => (
                     <button
                         key={lang.code}
@@ -158,7 +165,7 @@ export default function LanguageSwitcher({ isTransparent = false }: { isTranspar
                             uppercase tracking-wider
                             leading-relaxed
                             flex items-center gap-3
-                            ${currentLangCode === lang.code ? "bg-black/15 font-medium" : "font-normal"}
+                            ${currentLocale === lang.code ? "bg-black/15 font-medium" : "font-normal"}
                         `}
                         role="menuitem"
                     >

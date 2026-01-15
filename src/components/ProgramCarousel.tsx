@@ -12,14 +12,16 @@
  */
 
 import React, { useCallback, useEffect, useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 
 import { programs } from "@/data/programs";
 import ExploreAllLink from "./ExploreAllLink";
+import LocaleLink from "./LocaleLink";
+import { useTranslation } from "./I18nProvider";
 
 export default function ProgramCarousel() {
+    const { t } = useTranslation();
     const [emblaRef, emblaApi] = useEmblaCarousel({
         loop: true,
         align: "center",
@@ -52,9 +54,9 @@ export default function ProgramCarousel() {
                 {/* Header */}
                 <div className="text-center mb-10 md:mb-14 px-4">
                     <h2 className="font-canto text-3xl md:text-4xl lg:text-5xl mb-4 text-neutral-900 leading-tight">
-                        Ways to explore: Signature Programs
+                        {t("programs.title")}
                     </h2>
-                    <ExploreAllLink href="/programs" label="Curated Activities: Explore All" />
+                    <ExploreAllLink href="/programs" label={t("programs.subtitle")} />
                 </div>
 
                 {/* Carousel Wrapper */}
@@ -67,10 +69,10 @@ export default function ProgramCarousel() {
                                     key={index}
                                     className="flex-[0_0_100%] md:flex-[0_0_22%] min-w-0 pl-4 md:pl-6 relative"
                                 >
-                                    <Link
+                                    <LocaleLink
                                         href={`/programs/${program.slug}?from=home`}
                                         className="block aspect-square relative overflow-hidden group/card cursor-pointer rounded-sm"
-                                        aria-label={`View program: ${program.name}`}
+                                        aria-label={`${t("programs.viewProgram")}: ${program.name}`}
                                     >
                                         <Image
                                             src={program.image}
@@ -88,7 +90,7 @@ export default function ProgramCarousel() {
                                                 {program.name}
                                             </h3>
                                         </div>
-                                    </Link>
+                                    </LocaleLink>
                                 </div>
                             ))}
                         </div>

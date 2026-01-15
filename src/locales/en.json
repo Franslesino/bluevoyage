@@ -1,0 +1,250 @@
+{
+  "nav": {
+    "home": "Home",
+    "destinations": "Destinations",
+    "programs": "Programs",
+    "wildlife": "Wildlife",
+    "localCommunity": "Local Community",
+    "boatSafety": "Boat Safety & Experience",
+    "accommodation": "Accommodation",
+    "blog": "Blog",
+    "howToBook": "How to Book?",
+    "bookNow": "Book Now",
+    "close": "Close",
+    "bookYourTrip": "Book Your Trip",
+    "socialMedia": "Social Media"
+  },
+  "hero": {
+    "tagline": "Some places you visit. Others, you feel, by reconnecting with yourself, others, and the world around you."
+  },
+  "spotlight": {
+    "title": "In the spotlight: Signature Destinations",
+    "subtitle": "Curated Experiences: Signature Destinations",
+    "tagline": "TOGEAN ISLANDS",
+    "cta1": "Discover sunrise reefs",
+    "cta2": "Drift into calm bays",
+    "cta3": "Explore reef gardens",
+    "cta4": "Witness volcanic dawn",
+    "cta5": "Find golden solitude"
+  },
+  "programs": {
+    "title": "Ways to explore: Signature Programs",
+    "subtitle": "Curated Activities: Explore All",
+    "viewProgram": "View program",
+    "sectionLabel": "Togean Voyages",
+    "pageTitle": "Signature Programs",
+    "programsCount": "{{count}} Programs"
+  },
+  "wildlife": {
+    "title": "Where to meet the wild",
+    "description": "Encounter the extraordinary biodiversity of the Togean Islands. From playful dolphins to ancient turtles, vibrant reef fish to rare endemic birds – discover wildlife both above and below the water.",
+    "exploreButton": "Explore the wildlife",
+    "land": "Land Wildlife",
+    "sea": "Sea Wildlife",
+    "heroTitle": "Wildlife at Togean"
+  },
+  "accommodation": {
+    "sectionLabel": "Togean Voyages",
+    "title": "At rest: Island Guest Houses",
+    "subtitle": "Curated stays: Explore All",
+    "contentTitle": "Stay easy, feel at home",
+    "contentDescription": "Unhurried stays, island-simple comfort, and warm hosts. You explore by day, then unwind on land in thoughtfully chosen guest houses.",
+    "exploreAll": "View All Accommodations",
+    "pageTitle": "Accommodation",
+    "pageSubtitle": "Curated stays across the islands",
+    "slides": {
+      "pulatPuat": {
+        "title": "Pulau Puat",
+        "description": "Simple seaside guest house calm, with sunrise views and easy boat access."
+      },
+      "malengue": {
+        "title": "Malengue",
+        "description": "A quiet village stay with breezy nights and warm local hosting."
+      },
+      "waleaKodi": {
+        "title": "Walea Kodi",
+        "description": "A restful base near reefs, perfect for slow mornings and early snorkels."
+      },
+      "unaUna": {
+        "title": "Una Una",
+        "description": "Volcanic-island atmosphere, cool evenings, and a peaceful place to reset."
+      }
+    },
+    "features": {
+      "guestHouse": {
+        "title": "By the sea at sunrise, under stars at night",
+        "description": "Wake to soft sea light, fall asleep to waves. Open-air evenings, clear skies, and the slow island rhythm that resets your body clock."
+      },
+      "comfort": {
+        "title": "Crafted with locally sourced woods",
+        "description": "Built with local timber and island know-how. Natural textures, sturdy joinery, and a warm, grounded feel that fits the landscape."
+      },
+      "sharedSpaces": {
+        "title": "Sleep easy & quiet comfort",
+        "description": "Clean beds, good airflow, and low-noise nights. Simple comforts that help you rest deeply and wake ready for tomorrow's boat time."
+      },
+      "hosts": {
+        "title": "Stay on preserved beaches, intentionally chosen",
+        "description": "We choose beaches that stay quiet and cared for. Minimal footprint, fewer crowds, and settings that keep nature feeling untouched."
+      },
+      "meals": {
+        "title": "Designed with care for thoughtful stays",
+        "description": "Small details done right: shade, seating, storage, and lighting. Spaces that feel considerate, practical, and easy to live in."
+      },
+      "impact": {
+        "title": "Evenings made calm and intimate",
+        "description": "Sunset tea, soft lamps, and quiet conversation. A gentle end to the day, where you can read, reflect, or simply listen to the sea."
+      }
+    }
+  },
+  "localCommunity": {
+    "title": "Meet the locals",
+    "description": "Connect with the warm-hearted communities of the Togean Islands. Experience authentic village life, traditional crafts, and centuries-old customs passed down through generations.",
+    "exploreButton": "Discover local experiences"
+  },
+  "blog": {
+    "title": "Find inspiration here",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "backToHome": "BACK TO BLOG",
+    "pageTitle": "Find Inspiration Here",
+    "storiesCount": "{{count}} Stories"
+  },
+  "cta": {
+    "eyebrow": "READY WHEN YOU ARE",
+    "title": "Start your journey now — talk with our travel designer",
+    "description": "Share your dates and pace. We'll shape a calm, island-led itinerary built around you.",
+    "button": "Chat on WhatsApp"
+  },
+  "footer": {
+    "brandName": "Togean Voyages",
+    "brandDescription": "Experience the untouched beauty of the Togean Islands. We curate slow travel journeys that connect you with nature, culture, and the serenity of the sea.",
+    "infosTitle": "Infos",
+    "contactTitle": "Contact Us",
+    "address1": "Graha STR, Jl. Ampera Raya No.11B, Jakarta",
+    "address2": "Jl. Soekarno Hatta, No 13A, Manggarai Barat.",
+    "company": "PT Build Creative Realm"
+  },
+  "common": {
+    "backToHome": "BACK TO HOME",
+    "backToDestinations": "Back to Destinations",
+    "backToPrograms": "Back to Programs",
+    "backToBlog": "Back to Blog",
+    "backToWildlife": "Back to Wildlife",
+    "backToLocalCommunity": "Back to Local Community",
+    "discover": "Discover",
+    "explore": "Explore",
+    "learnMore": "Learn More",
+    "togeanArchipelago": "Togean Archipelago",
+    "togeanVoyages": "Togean Voyages",
+    "viewDetails": "View Details",
+    "readMore": "Read More",
+    "viewAll": "View All"
+  },
+  "destinations": {
+    "sectionLabel": "Togean Voyages",
+    "title": "Destinations",
+    "destinationsCount": "Destinations",
+    "pageTitle": "Destinations",
+    "count": "{{count}} Destinations",
+    "items": {
+      "pulau-puah": {
+        "name": "Pulau Puah",
+        "description": "A secluded island offering absolute tranquility, untouched white-sand beaches, and thriving coral reefs far from the crowds."
+      },
+      "malenge": {
+        "name": "Malenge",
+        "description": "A tropical paradise of dense jungles and unspoiled beaches, home to the fascinating Bajo sea gypsy culture."
+      },
+      "waleakodi": {
+        "name": "Walea Kodi",
+        "description": "An isolated hideaway with pristine coral reefs and eco-friendly resorts, perfect for a private castaway experience."
+      },
+      "una-una": {
+        "name": "Una Una",
+        "description": "A volcanic jewel with unique black sands and nutrient-rich waters teeming with spectacular marine life."
+      },
+      "kadidiri": {
+        "name": "Kadidiri",
+        "description": "The travel hub of the Togeans, featuring powdery white beaches, vibrant house reefs, and a friendly atmosphere."
+      },
+      "bomba": {
+        "name": "Bomba",
+        "description": "A quiet southern retreat with idyllic beaches, mangrove forests, and glorious sunsets over the bay."
+      },
+      "luwuk": {
+        "name": "Luwuk",
+        "description": "The scenic mainland gateway to the Togeans, offering dramatic coastal views and modern conveniences before your island adventure."
+      }
+    }
+  },
+  "boatExperience": {
+    "title": "Boat Safety & Experience",
+    "subtitle": "Your journey on the water",
+    "safetyFirst": "Safety First",
+    "comfortOnBoard": "Comfort on Board",
+    "experiencedCrew": "Experienced Crew"
+  },
+  "boat": {
+    "backToBoat": "BACK TO BOAT",
+    "heroLabel": "On Board Experience",
+    "heroTitle": "Safety, Service, & Simple Luxury",
+    "heroDescription": "Discover the details that make every journey smooth, safe, and memorable. From our captain's expertise to the quiet comfort of the deck."
+  },
+  "localCommunityPage": {
+    "backLabel": "Back",
+    "heroTitle": "Local Community",
+    "heroDescription": "Experience the heart of Togean and Luwuk through the people who call it home. Discover a culture built on warmth, shared stories, and the timeless rhythm of coastal life."
+  },
+  "howToBooking": {
+    "tagline": "Fast, simple, and personal",
+    "pageTitle": "How to book",
+    "pageDescription": "We believe in direct connection. All bookings are confirmed personally via WhatsApp or email to ensure your itinerary is perfectly tailored to your needs.",
+    "whatsappTitle": "Book via WhatsApp",
+    "whatsappDescription": "The fastest way to secure your spot. We usually reply within an hour during business days. Send us a quick message to check availability.",
+    "whatsappButton": "Message on WhatsApp",
+    "emailTitle": "Book via Email",
+    "emailDescription": "Prefer a detailed itinerary in your inbox? Send us your requirements and we will craft a custom proposal for you.",
+    "emailButton": "Email Us",
+    "detailsTitle": "Send these details",
+    "detailItem1": "Your preferred dates",
+    "detailItem2": "Group size",
+    "detailItem3": "Interests (snorkeling, village visits, wildlife, etc.)",
+    "detailItem4": "Dietary needs",
+    "detailItem5": "Pickup point (if any)",
+    "detailItem6": "Budget range (optional)",
+    "detailItem7": "Any special requests",
+    "paymentTitle": "Payment options",
+    "paymentDescription": "To secure your booking, we typically require a deposit with the remaining balance due closer to your trip date. We accept Bank Transfer and Debit Cards.",
+    "paymentNote": "Exact payment details and deadlines will be shared in your booking confirmation.",
+    "faqTitle": "Common Questions",
+    "faq1Question": "How long does confirmation take?",
+    "faq1Answer": "We aim to reply to all inquiries within 24 hours. For WhatsApp messages during business hours, you can expect a response within an hour.",
+    "faq2Question": "Can I change my dates?",
+    "faq2Answer": "Yes, we are flexible. Date changes are subject to availability. Please let us know as soon as possible if you need to reschedule.",
+    "faq3Question": "Do you accommodate dietary restrictions?",
+    "faq3Answer": "Absolutely. Whether vegetarian, vegan, or allergies, we ensure your meals are safe and delicious. Just mention it when you book.",
+    "faq4Question": "Is it private or shared?",
+    "faq4Answer": "We offer both options. Most of our itineraries are private for a personalized experience, but we can also arrange shared trips on request.",
+    "ctaTitle": "Ready when you are",
+    "ctaWhatsapp": "WhatsApp",
+    "ctaEmail": "Email Us"
+  },
+  "booking": {
+    "pageTitle": "How to Book",
+    "step1": "Choose Your Dates",
+    "step2": "Select Your Program",
+    "step3": "Contact Us",
+    "step4": "Confirm & Pay"
+  },
+  "meta": {
+    "siteTitle": "Togean Voyage",
+    "siteDescription": "Experience the beauty of Togean Islands",
+    "homeTitle": "Togean Voyage - Explore the Togean Islands",
+    "homeDescription": "Discover the untouched beauty of the Togean Islands. Slow travel, pristine reefs, and authentic island experiences.",
+    "destinationsTitle": "Destinations - Togean Voyage",
+    "destinationsDescription": "Explore signature destinations in the Togean Archipelago. From secluded beaches to vibrant coral reefs.",
+    "programsTitle": "Programs - Togean Voyage",
+    "programsDescription": "Curated travel programs and activities in the Togean Islands."
+  }
+}

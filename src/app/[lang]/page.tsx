@@ -1,74 +1,16 @@
+import HomePage from "@/app/_pages/HomePage";
+import { SUPPORTED_LOCALES } from "@/lib/i18n";
+
 /**
- * Homepage
- * 
- * Section naming convention:
- * - Hero: Top video section
- * - Destination: SpotlightCarousel section
- * - Safety & Experience Ship: KapalSafetyExperience section
- * - Local Community: LocalCommunity zig-zag parallax section
+ * Generate static params for all locale routes
  */
+export function generateStaticParams() {
+    return SUPPORTED_LOCALES.map((lang) => ({ lang }));
+}
 
-import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
-import SpotlightCarousel from "@/components/SpotlightCarousel";
-import ProgramCarousel from "@/components/ProgramCarousel";
-import WildlifeCarousel from "@/components/WildlifeCarousel";
-import KapalSafetyExperience from "@/components/KapalSafetyExperience";
-import AccommodationSection from "@/components/AccommodationSection";
-import LocalCommunity from "@/components/LocalCommunity";
-import BlogSection from "@/components/BlogSection";
-import FooterSection from "@/components/FooterSection";
-import MobileTripCtaBar from "@/components/MobileTripCtaBar";
-import HomepageCta from "@/components/HomepageCta";
-
-export default function Home() {
-  return (
-    <>
-      <Navbar />
-      <main>
-        <Hero />
-
-        {/* Destination Section */}
-        <div id="destinations" className="scroll-mt-24 md:scroll-mt-28">
-          <SpotlightCarousel />
-        </div>
-
-        {/* Program Section */}
-        <div id="programs" className="scroll-mt-24 md:scroll-mt-28">
-          <ProgramCarousel />
-        </div>
-
-        {/* Safety & Experience Ship Section */}
-        <div id="boat" className="scroll-mt-24 md:scroll-mt-28">
-          <KapalSafetyExperience />
-        </div>
-
-        {/* Accommodation Section */}
-        <AccommodationSection />
-
-        {/* Wildlife Section */}
-        <div id="wildlife" className="scroll-mt-24 md:scroll-mt-28">
-          <WildlifeCarousel />
-        </div>
-
-        {/* Local Community Section */}
-        <div id="local-community" className="scroll-mt-24 md:scroll-mt-28">
-          <LocalCommunity />
-        </div>
-
-        {/* Blog Section */}
-        <div id="blog" className="scroll-mt-24 md:scroll-mt-28">
-          <BlogSection />
-        </div>
-
-        {/* Homepage CTA */}
-        <HomepageCta />
-
-        {/* Footer Section */}
-        <FooterSection />
-
-        <MobileTripCtaBar targetId="wildlife" />
-      </main>
-    </>
-  );
+/**
+ * Non-English Homepage (/de, /fr)
+ */
+export default function Page() {
+    return <HomePage />;
 }

@@ -1,33 +1,38 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { destinations } from "@/data/destinations";
 import ExploreAllLink from "./ExploreAllLink";
+import LocaleLink from "./LocaleLink";
+import { useTranslation } from "./I18nProvider";
 
-// Carousel slide data
-const slides = destinations.slice(0, 5).map((dest, index) => {
-    const ctas = [
-        "Discover sunrise reefs",
-        "Drift into calm bays",
-        "Explore reef gardens",
-        "Witness volcanic dawn",
-        "Find golden solitude"
+// Carousel slide data - CTAs will be translated dynamically
+const getSlides = (t: (key: string) => string) => destinations.slice(0, 5).map((dest, index) => {
+    const ctaKeys = [
+        "spotlight.cta1",
+        "spotlight.cta2",
+        "spotlight.cta3",
+        "spotlight.cta4",
+        "spotlight.cta5"
     ];
 
     return {
         id: index + 1,
         image: dest.image,
-        title: dest.name,
-        description: dest.description,
-        actionText: ctas[index],
+        titleKey: `destinations.items.${dest.slug}.name`,
+        descriptionKey: `destinations.items.${dest.slug}.description`,
+        actionTextKey: ctaKeys[index],
         actionHref: `/destinations/${dest.slug}`,
+        slug: dest.slug,
     };
 });
 
 export default function SpotlightCarousel() {
+    const { t } = useTranslation();
+    const slides = getSlides(t);
+    
     // Embla Carousel State
     const [emblaRef, emblaApi] = useEmblaCarousel({
         loop: true,
@@ -67,9 +72,9 @@ export default function SpotlightCarousel() {
             {/* Header */}
             <div className="text-center mb-8 md:mb-12 px-4">
                 <h2 className="spotlight-carousel__heading text-3xl md:text-4xl lg:text-5xl mb-4">
-                    In the spotlight: Signature Destinations
+                    {t("spotlight.title")}
                 </h2>
-                <ExploreAllLink href="/destinations" label="Curated Experiences: Signature Destinations" />
+                <ExploreAllLink href="/destinations" label={t("spotlight.subtitle")} />
             </div>
 
             {/* Carousel Container */}
@@ -93,7 +98,7 @@ export default function SpotlightCarousel() {
                                     <div className="relative aspect-[16/9] md:aspect-[645/363] overflow-hidden rounded-sm">
                                         <Image
                                             src={slide.image}
-                                            alt={slide.title}
+                                            alt={t(slide.titleKey)}
                                             fill
                                             className="object-cover transition-transform duration-700 group-hover/card:scale-105"
                                             sizes="(max-width: 768px) 85vw, 676px"
@@ -106,18 +111,18 @@ export default function SpotlightCarousel() {
                                         {/* Mobile: Stack layout */}
                                         <div className="md:hidden">
                                             <p className="text-xs uppercase tracking-wider text-gray-500 mb-2">
-                                                TOGEAN ISLANDS
+                                                {t("spotlight.tagline")}
                                             </p>
-                                            <h3 className="font-canto text-xl mb-3 text-gray-900">{slide.title}</h3>
+                                            <h3 className="font-canto text-xl mb-3 text-gray-900">{t(slide.titleKey)}</h3>
                                             <p className="text-sm text-gray-600 leading-relaxed mb-4 line-clamp-2">
-                                                {slide.description}
+                                                {t(slide.descriptionKey)}
                                             </p>
-                                            <Link
+                                            <LocaleLink
                                                 href={slide.actionHref}
                                                 className="inline-flex items-center gap-2 text-sm uppercase tracking-wider text-[#6b4c3b] hover:text-[#4a3429] transition-colors group/link"
                                             >
                                                 <span className="group-hover/link:underline underline-offset-4">
-                                                    {slide.actionText}
+                                                    {t(slide.actionTextKey)}
                                                 </span>
                                                 <svg
                                                     className="w-4 h-4 transition-transform group-hover/link:translate-x-1"
@@ -132,7 +137,7 @@ export default function SpotlightCarousel() {
                                                         d="M9 5l7 7-7 7"
                                                     />
                                                 </svg>
-                                            </Link>
+                                            </LocaleLink>
                                         </div>
 
                                         {/* Desktop: 2-column layout */}
@@ -140,24 +145,24 @@ export default function SpotlightCarousel() {
                                             {/* Left column: Title */}
                                             <div className="flex flex-col justify-center">
                                                 <p className="text-xs uppercase tracking-wider text-gray-500 mb-2">
-                                                    TOGEAN ISLANDS
+                                                    {t("spotlight.tagline")}
                                                 </p>
                                                 <h3 className="font-canto text-2xl lg:text-3xl">
-                                                    {slide.title}
+                                                    {t(slide.titleKey)}
                                                 </h3>
                                             </div>
 
                                             {/* Right column: Description + Action */}
                                             <div className="flex flex-col">
                                                 <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                                                    {slide.description}
+                                                    {t(slide.descriptionKey)}
                                                 </p>
-                                                <Link
+                                                <LocaleLink
                                                     href={slide.actionHref}
                                                     className="inline-flex items-center gap-2 text-sm uppercase tracking-wider text-[#6b4c3b] hover:text-[#4a3429] transition-colors group/link"
                                                 >
                                                     <span className="group-hover/link:underline underline-offset-4">
-                                                        {slide.actionText}
+                                                        {t(slide.actionTextKey)}
                                                     </span>
                                                     <svg
                                                         className="w-4 h-4 transition-transform group-hover/link:translate-x-1"
@@ -172,7 +177,7 @@ export default function SpotlightCarousel() {
                                                             d="M9 5l7 7-7 7"
                                                         />
                                                     </svg>
-                                                </Link>
+                                                </LocaleLink>
                                             </div>
                                         </div>
                                     </div>

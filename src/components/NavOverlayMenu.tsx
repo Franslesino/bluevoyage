@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect } from "react";
-import Link from "next/link";
 import { CONTACT_INFO } from "@/config/contact";
+import LocaleLink from "./LocaleLink";
+import { useTranslation } from "./I18nProvider";
 
 interface NavOverlayMenuProps {
     isOpen: boolean;
@@ -10,21 +11,23 @@ interface NavOverlayMenuProps {
 }
 
 const LEFT_ITEMS = [
-    { label: "Home", href: "/" },
-    { label: "Destinations", href: "/destinations" },
-    { label: "Programs", href: "/programs" },
-    { label: "Wildlife", href: "/wildlife" },
+    { labelKey: "nav.home", href: "/" },
+    { labelKey: "nav.destinations", href: "/destinations" },
+    { labelKey: "nav.programs", href: "/programs" },
+    { labelKey: "nav.wildlife", href: "/wildlife" },
 ];
 
 const RIGHT_ITEMS = [
-    { label: "Local Community", href: "/local-community" },
-    { label: "Boat Safety & Experience", href: "/boat" },
-    { label: "Accommodation", href: "/accommodation" },
-    { label: "Blog", href: "/blog" },
-    { label: "How to Book?", href: "/how-to-booking" },
+    { labelKey: "nav.localCommunity", href: "/local-community" },
+    { labelKey: "nav.boatSafety", href: "/boat" },
+    { labelKey: "nav.accommodation", href: "/accommodation" },
+    { labelKey: "nav.blog", href: "/blog" },
+    { labelKey: "nav.howToBook", href: "/how-to-booking" },
 ];
 
 export default function NavOverlayMenu({ isOpen, onClose }: NavOverlayMenuProps) {
+    const { t } = useTranslation();
+    
     // Lock body scroll when open
     useEffect(() => {
         if (isOpen) {
@@ -50,27 +53,28 @@ export default function NavOverlayMenu({ isOpen, onClose }: NavOverlayMenuProps)
     const renderMenuItems = (items: typeof LEFT_ITEMS) => {
         return items.map((item) => {
             const isClickable = item.href !== null;
+            const label = t(item.labelKey);
 
             if (!isClickable) {
                 return (
                     <span
-                        key={item.label}
+                        key={item.labelKey}
                         className="font-canto text-[26px] sm:text-[28px] md:text-[34px] lg:text-[42px] leading-[1.1] text-center text-white opacity-60 cursor-default pointer-events-none"
                     >
-                        {item.label}
+                        {label}
                     </span>
                 );
             }
 
             return (
-                <Link
-                    key={item.label}
+                <LocaleLink
+                    key={item.labelKey}
                     href={item.href!}
                     onClick={onClose}
                     className="group relative flex items-center justify-center text-white"
                 >
                     <span className="font-canto text-[26px] sm:text-[28px] md:text-[34px] lg:text-[42px] leading-[1.1] text-center transition-opacity duration-300">
-                        {item.label}
+                        {label}
                     </span>
 
                     {/* Hover Arrow Wrapper */}
@@ -80,7 +84,7 @@ export default function NavOverlayMenu({ isOpen, onClose }: NavOverlayMenuProps)
                             <polyline points="9 18 15 12 9 6"></polyline>
                         </svg>
                     </span>
-                </Link>
+                </LocaleLink>
             );
         });
     };
@@ -99,7 +103,7 @@ export default function NavOverlayMenu({ isOpen, onClose }: NavOverlayMenuProps)
                     className="flex items-center gap-2 group text-white font-avenir text-sm uppercase tracking-widest hover:opacity-80 transition-opacity"
                     aria-label="Close menu"
                 >
-                    <span className="text-lg">Close</span>
+                    <span className="text-lg">{t("nav.close")}</span>
                     {/* X Icon */}
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
                         <line x1="18" y1="6" x2="6" y2="18"></line>
@@ -130,7 +134,7 @@ export default function NavOverlayMenu({ isOpen, onClose }: NavOverlayMenuProps)
                     {/* Left: Book Your Trip */}
                     <div className="flex flex-col items-center gap-4 flex-1">
                         <span className="font-avenir text-white text-xs md:text-sm uppercase tracking-widest opacity-80">
-                            Book Your Trip
+                            {t("nav.bookYourTrip")}
                         </span>
                         <div className="flex items-center gap-6">
                             {/* WhatsApp (Icon Only) */}
@@ -171,7 +175,7 @@ export default function NavOverlayMenu({ isOpen, onClose }: NavOverlayMenuProps)
                     {/* Right: Social Media */}
                     <div className="flex flex-col items-center gap-4 flex-1">
                         <span className="font-avenir text-white text-xs md:text-sm uppercase tracking-widest opacity-80">
-                            Social Media
+                            {t("nav.socialMedia")}
                         </span>
                         <div className="flex items-center gap-6 md:gap-8">
                             {/* Instagram */}

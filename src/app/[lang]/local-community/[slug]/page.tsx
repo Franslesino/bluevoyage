@@ -5,11 +5,15 @@ import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { localCommunityExperiences } from "@/data/localCommunityExperiences";
 import BackLink from "@/components/BackLink";
+import { SUPPORTED_LOCALES } from "@/lib/i18n";
 
 export function generateStaticParams() {
-    return localCommunityExperiences.map((exp) => ({
-        slug: exp.slug,
-    }));
+    return SUPPORTED_LOCALES.flatMap((lang) =>
+        localCommunityExperiences.map((exp) => ({
+            lang,
+            slug: exp.slug,
+        }))
+    );
 }
 
 export default async function LocalCommunityDetailPage({ params }: { params: Promise<{ slug: string }> }) {
