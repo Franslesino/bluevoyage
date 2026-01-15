@@ -130,18 +130,40 @@ export default function AccommodationDetails() {
                     {/* Section 1: Room Gallery */}
                     <div className="mb-24">
                         <h3 className="font-canto text-3xl mb-8 text-neutral-800">Room Gallery</h3>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
-                            {roomImages.map((src, index) => (
-                                <div key={index} className={`relative w-full aspect-[4/3] bg-neutral-100 overflow-hidden rounded-sm ${index === 0 ? "md:col-span-2 md:aspect-[2/1]" : ""}`}>
-                                    <Image
-                                        src={src}
-                                        alt={`${selectedRoom.name} image ${index + 1}`}
-                                        fill
-                                        className="object-cover hover:scale-105 transition-transform duration-700 ease-out"
-                                        sizes={index === 0 ? "90vw" : "(max-width: 768px) 100vw, 50vw"}
-                                    />
-                                </div>
-                            ))}
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 auto-rows-min">
+                            {roomImages.map((src, index) => {
+                                const isMain = index === 0;
+                                const isPortrait = selectedRoom.orientation === "portrait";
+
+                                // Dynamic classes based on orientation
+                                let containerClasses = "relative w-full bg-neutral-100 overflow-hidden rounded-sm";
+
+                                if (isMain) {
+                                    if (isPortrait) {
+                                        // Portrait Main: 1 column wide, portrait aspect ratio (3:4), span 2 rows to allow nice flow
+                                        containerClasses += " aspect-[3/4] md:col-span-1 md:row-span-2";
+                                    } else {
+                                        // Landscape Main: 2 columns wide, landscape aspect ratio (2:1)
+                                        containerClasses += " aspect-[4/3] md:col-span-2 md:aspect-[2/1]";
+                                    }
+                                } else {
+                                    // Other images: standard square-ish.
+                                    // If we are int portrait mode, these flow into the second column.
+                                    containerClasses += " aspect-[4/3]";
+                                }
+
+                                return (
+                                    <div key={index} className={containerClasses}>
+                                        <Image
+                                            src={src}
+                                            alt={`${selectedRoom.name} image ${index + 1}`}
+                                            fill
+                                            className="object-cover hover:scale-105 transition-transform duration-700 ease-out"
+                                            sizes={isMain && !isPortrait ? "90vw" : "(max-width: 768px) 100vw, 50vw"}
+                                        />
+                                    </div>
+                                );
+                            })}
                         </div>
                     </div>
 

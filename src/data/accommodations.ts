@@ -9,6 +9,7 @@ export type Room = {
     id: string;
     name: string;
     images: RoomImages;
+    orientation?: "landscape" | "portrait";
 };
 
 export type GuestHouse = {
@@ -165,17 +166,20 @@ export const accommodations: GuestHouse[] = [
                 images: {
                     main: "/accommodation/kadidiri/Villa_room/main.webp",
                     bed: "/accommodation/kadidiri/Villa_room/bed.webp",
-                    bath: "/accommodation/kadidiri/Villa_room/bath.webp"
+                    bath: "/accommodation/kadidiri/Villa_room/bath.webp",
+                    balcony: "/accommodation/kadidiri/Villa_room/balcony.webp"
                 }
             },
             {
                 id: "deluxe-double-seaview",
                 name: "Deluxe Double Room with Sea View",
                 images: {
-                    main: "/accommodation/kadidiri/Deluxe_Double_Room_with_Sea_View/main.webp",
+                    // Main image is missing in folder, mapping bed to main to ensure it shows up in portrait slot as requested user intent (showing "main" portrait)
+                    main: "/accommodation/kadidiri/Deluxe_Double_Room_with_Sea_View/balcony.webp",
+                    // Also showing balcony as the secondary image since bed is now main
                     bed: "/accommodation/kadidiri/Deluxe_Double_Room_with_Sea_View/bed.webp",
-                    bath: "/accommodation/kadidiri/Deluxe_Double_Room_with_Sea_View/bath.webp"
-                }
+                },
+                orientation: "portrait"
             },
             {
                 id: "standard-double",
@@ -183,7 +187,8 @@ export const accommodations: GuestHouse[] = [
                 images: {
                     main: "/accommodation/kadidiri/standar_double/main.webp",
                     bed: "/accommodation/kadidiri/standar_double/bed.webp"
-                }
+                },
+                orientation: "portrait"
             }
         ],
         otherImages: [
