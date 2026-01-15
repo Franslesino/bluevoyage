@@ -10,24 +10,24 @@ import { useTranslation } from "./I18nProvider";
 
 const slidesData = [
     {
-        titleKey: "accommodation.slides.pulatPuat.title",
-        descriptionKey: "accommodation.slides.pulatPuat.description",
-        image: "/accommodation/accommodation-pulau-puat.webp",
+        titleKey: "accommodation.slides.malenge.title",
+        descriptionKey: "accommodation.slides.malenge.description",
+        image: "/accommodation/malenge/other1.webp",
     },
     {
-        titleKey: "accommodation.slides.malengue.title",
-        descriptionKey: "accommodation.slides.malengue.description",
-        image: "/accommodation/accommodation-malengue.webp",
-    },
-    {
-        titleKey: "accommodation.slides.waleaKodi.title",
-        descriptionKey: "accommodation.slides.waleaKodi.description",
-        image: "/accommodation/accommodation-walea-kodi.webp",
+        titleKey: "accommodation.slides.kadidiri.title",
+        descriptionKey: "accommodation.slides.kadidiri.description",
+        image: "/accommodation/kadidiri/other1.webp",
     },
     {
         titleKey: "accommodation.slides.unaUna.title",
         descriptionKey: "accommodation.slides.unaUna.description",
-        image: "/accommodation/accommodation-una-una.webp",
+        image: "/accommodation/una-una/other1.webp",
+    },
+    {
+        titleKey: "accommodation.slides.luwuk.title",
+        descriptionKey: "accommodation.slides.luwuk.description",
+        image: "/accommodation/Luwuk/other1.webp",
     },
 ];
 
@@ -135,7 +135,7 @@ function AccordionItem({
 
 export default function AccommodationSection() {
     const { t } = useTranslation();
-    
+
     // --- Desktop Carousel State ---
     const [desktopRef, desktopApi] = useEmblaCarousel({
         loop: true,
