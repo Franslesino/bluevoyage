@@ -116,15 +116,17 @@ export const accommodations: GuestHouse[] = [
                 name: "Deluxe Seaview bungalow",
                 images: {
                     main: "/accommodation/una-una/Deluxe_Seaview_bungalow/main.webp",
-                    bed: "/accommodation/una-una/Deluxe_Seaview_bungalow/bed.webp"
+                    bed: "/accommodation/una-una/Deluxe_Seaview_bungalow/bed.jpeg",
+                    bath: "/accommodation/una-una/Deluxe_Seaview_bungalow/bath.webp",
+                    balcony: "/accommodation/una-una/Deluxe_Seaview_bungalow/balcon.jpeg"
                 }
             },
             {
                 id: "vip-family-room",
                 name: "VIP/Family Room",
                 images: {
-                    main: "/accommodation/una-una/VIPFamilyRoom/main.webp",
-                    bed: "/accommodation/una-una/VIPFamilyRoom/bed.webp"
+                    bed: "/accommodation/una-una/VIPFamilyRoom/bed.webp",
+                    balcony: "/accommodation/una-una/VIPFamilyRoom/balcony.webp"
                 }
             }
         ],
