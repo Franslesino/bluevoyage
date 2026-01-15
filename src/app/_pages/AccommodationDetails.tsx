@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { useParams, useRouter } from "next/navigation"; // Use next/navigation for app dir
+import { motion } from "framer-motion"; // Import motion
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { accommodations, GuestHouse } from "@/data/accommodations";
@@ -128,7 +129,13 @@ export default function AccommodationDetails() {
                     </div>
 
                     {/* Section 1: Room Gallery */}
-                    <div className="mb-24">
+                    <motion.div
+                        className="mb-24"
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, amount: 0.2 }}
+                        transition={{ duration: 0.8, ease: "easeOut" }}
+                    >
                         <h3 className="font-canto text-3xl mb-8 text-neutral-800">Room Gallery</h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 auto-rows-min">
                             {roomImages.map((src, index) => {
@@ -171,14 +178,47 @@ export default function AccommodationDetails() {
                                 );
                             })}
                         </div>
-                    </div>
+                    </motion.div>
 
                     {/* Section 2: Other Photos Gallery */}
-                    <div>
-                        <h3 className="font-canto text-3xl mb-8 text-neutral-800">Other Photos</h3>
-                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    <div className="mb-8">
+                        <motion.h3
+                            className="font-canto text-3xl mb-8 text-neutral-800"
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6 }}
+                        >
+                            Other Photos
+                        </motion.h3>
+                        <motion.div
+                            className="grid grid-cols-2 md:grid-cols-3 gap-4"
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true, amount: 0.1 }}
+                            variants={{
+                                hidden: { opacity: 0 },
+                                visible: {
+                                    opacity: 1,
+                                    transition: {
+                                        staggerChildren: 0.15
+                                    }
+                                }
+                            }}
+                        >
                             {guestHouse.otherImages.map((src, index) => (
-                                <div key={index} className="relative w-full aspect-square bg-neutral-100 overflow-hidden rounded-sm">
+                                <motion.div
+                                    key={index}
+                                    className="relative w-full aspect-square bg-neutral-100 overflow-hidden rounded-sm"
+                                    variants={{
+                                        hidden: { opacity: 0, y: 50 },
+                                        visible: {
+                                            opacity: 1,
+                                            y: 0,
+                                            transition: { duration: 0.6, ease: "easeOut" }
+                                        }
+                                    }}
+                                >
                                     <Image
                                         src={src}
                                         alt={`${guestHouse.guestHouseName} other image ${index + 1}`}
@@ -186,9 +226,9 @@ export default function AccommodationDetails() {
                                         className="object-cover hover:scale-105 transition-transform duration-700 ease-out"
                                         sizes="(max-width: 768px) 50vw, 33vw"
                                     />
-                                </div>
+                                </motion.div>
                             ))}
-                        </div>
+                        </motion.div>
                     </div>
 
                 </div>
