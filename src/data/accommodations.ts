@@ -263,50 +263,42 @@ export const accommodations: GuestHouse[] = [
                 id: "double-bed",
                 name: "Double Bed",
                 images: {
-                    main: "/accommodation/Luwuk/DoubleBed/main.webp",
-                    bed: "/accommodation/Luwuk/DoubleBed/bed.webp",
-                    bath: "/accommodation/Luwuk/DoubleBed/bath.webp",
-                    balcony: "/accommodation/Luwuk/DoubleBed/balcony.webp"
+                    main: "/accommodation/Luwuk/DoubleBed/bed.webp",
+                    bed: "/accommodation/Luwuk/DoubleBed/bath.webp",
                 }
             },
             {
                 id: "deluxe",
                 name: "Deluxe",
                 images: {
-                    main: "/accommodation/Luwuk/Delux/main.webp",
-                    bed: "/accommodation/Luwuk/Delux/bed.webp",
-                    bath: "/accommodation/Luwuk/Delux/bath.webp",
-                    balcony: "/accommodation/Luwuk/Delux/balcony.webp"
+                    main: "/accommodation/Luwuk/Delux/bed.webp",
+                    bed: "/accommodation/Luwuk/Delux/toilet.webp",
                 }
             },
             {
                 id: "business-garden-view",
                 name: "Business with garden view",
                 images: {
-                    main: "/accommodation/Luwuk/Business_with_garden_view/main.webp",
-                    bed: "/accommodation/Luwuk/Business_with_garden_view/bed.webp",
-                    bath: "/accommodation/Luwuk/Business_with_garden_view/bath.webp",
-                    balcony: "/accommodation/Luwuk/Business_with_garden_view/balcony.webp"
+                    main: "/accommodation/Luwuk/Business_with_garden_view/bed1.webp",
+                    bed: "/accommodation/Luwuk/Business_with_garden_view/bed2.webp",
+                    bath: "/accommodation/Luwuk/Business_with_garden_view/toilet.webp",
                 }
             },
             {
                 id: "grand-deluxe-garden-view",
                 name: "Grand deluxe with garden view",
                 images: {
-                    main: "/accommodation/Luwuk/Grand_deluxe_with_garden_view/main.webp",
-                    bed: "/accommodation/Luwuk/Grand_deluxe_with_garden_view/bed.webp",
-                    bath: "/accommodation/Luwuk/Grand_deluxe_with_garden_view/bath.webp",
-                    balcony: "/accommodation/Luwuk/Grand_deluxe_with_garden_view/balcony.webp"
+                    main: "/accommodation/Luwuk/Grand_deluxe_with_garden_view/bed.webp",
+                    bed: "/accommodation/Luwuk/Grand_deluxe_with_garden_view/toilet.webp",
                 }
             },
             {
                 id: "premier-balcony",
                 name: "Premier with balcony",
                 images: {
-                    main: "/accommodation/Luwuk/premier_with_balcony/main.webp",
-                    bed: "/accommodation/Luwuk/premier_with_balcony/bed.webp",
-                    bath: "/accommodation/Luwuk/premier_with_balcony/bath.webp",
-                    balcony: "/accommodation/Luwuk/premier_with_balcony/balcony.webp"
+                    main: "/accommodation/Luwuk/premier_with_balcony/bed.jpeg",
+                    bed: "/accommodation/Luwuk/premier_with_balcony/bed2.webp",
+                    bath: "/accommodation/Luwuk/premier_with_balcony/toilet.webp",
                 }
             }
         ],

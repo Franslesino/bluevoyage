@@ -150,6 +150,9 @@ export default function AccommodationDetails() {
                                 } else if (isSecond && isPortrait) {
                                     // Portrait Second Image (Bed): Also make it tall to match Main if possible
                                     containerClasses += " aspect-[3/4] md:col-span-1 md:row-span-2";
+                                } else if (!isPortrait && roomImages.length === 2) {
+                                    // Landscape with exactly 2 images: Make second image also full width for symmetry and "horizontal" focus
+                                    containerClasses += " aspect-[4/3] md:col-span-2 md:aspect-[2/1]";
                                 } else {
                                     // Other images: standard square-ish.
                                     containerClasses += " aspect-[4/3]";
