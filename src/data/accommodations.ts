@@ -216,9 +216,9 @@ export const accommodations: GuestHouse[] = [
                 images: {
                     main: "/accommodation/bomba/Deluxe_Bungalows/main.webp",
                     bed: "/accommodation/bomba/Deluxe_Bungalows/bed.webp",
-                    bath: "/accommodation/bomba/Deluxe_Bungalows/bath.webp",
                     balcony: "/accommodation/bomba/Deluxe_Bungalows/balcony.webp"
-                }
+                },
+                orientation: "portrait"
             },
             {
                 id: "superior-bungalow",
@@ -226,8 +226,8 @@ export const accommodations: GuestHouse[] = [
                 images: {
                     main: "/accommodation/bomba/Superior_Bungalows/main.webp",
                     bed: "/accommodation/bomba/Superior_Bungalows/bed.webp",
-                    bath: "/accommodation/bomba/Superior_Bungalows/bath.webp",
-                }
+                },
+                orientation: "portrait"
             },
             {
                 id: "standard-bungalow",
@@ -235,8 +235,8 @@ export const accommodations: GuestHouse[] = [
                 images: {
                     main: "/accommodation/bomba/Standard_Bungalows/main.webp",
                     bed: "/accommodation/bomba/Standard_Bungalows/bed.webp",
-                    bath: "/accommodation/bomba/Standard_Bungalows/bath.webp",
-                }
+                },
+                orientation: "portrait"
             }
         ],
         otherImages: [

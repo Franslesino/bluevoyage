@@ -133,6 +133,7 @@ export default function AccommodationDetails() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 auto-rows-min">
                             {roomImages.map((src, index) => {
                                 const isMain = index === 0;
+                                const isSecond = index === 1; // Usually the 'bed' image
                                 const isPortrait = selectedRoom.orientation === "portrait";
 
                                 // Dynamic classes based on orientation
@@ -146,9 +147,11 @@ export default function AccommodationDetails() {
                                         // Landscape Main: 2 columns wide, landscape aspect ratio (2:1)
                                         containerClasses += " aspect-[4/3] md:col-span-2 md:aspect-[2/1]";
                                     }
+                                } else if (isSecond && isPortrait) {
+                                    // Portrait Second Image (Bed): Also make it tall to match Main if possible
+                                    containerClasses += " aspect-[3/4] md:col-span-1 md:row-span-2";
                                 } else {
                                     // Other images: standard square-ish.
-                                    // If we are int portrait mode, these flow into the second column.
                                     containerClasses += " aspect-[4/3]";
                                 }
 
@@ -159,7 +162,7 @@ export default function AccommodationDetails() {
                                             alt={`${selectedRoom.name} image ${index + 1}`}
                                             fill
                                             className="object-cover hover:scale-105 transition-transform duration-700 ease-out"
-                                            sizes={isMain && !isPortrait ? "90vw" : "(max-width: 768px) 100vw, 50vw"}
+                                            sizes={(isMain || (isSecond && isPortrait)) && isPortrait ? "(max-width: 768px) 100vw, 50vw" : (isMain ? "90vw" : "(max-width: 768px) 100vw, 50vw")}
                                         />
                                     </div>
                                 );
