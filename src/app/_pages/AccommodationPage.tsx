@@ -12,6 +12,16 @@ import { useTranslation } from "@/components/I18nProvider";
 
 const TABS = ["All", "Malenge", "Una-una", "Kadidiri", "Bomba", "Luwuk"];
 
+// Tab key mapping for translations
+const TAB_KEYS: Record<string, string> = {
+    "All": "all",
+    "Malenge": "malenge",
+    "Una-una": "unaUna",
+    "Kadidiri": "kadidiri",
+    "Bomba": "bomba",
+    "Luwuk": "luwuk"
+};
+
 export default function AccommodationPage() {
     const { t } = useTranslation();
     const [isMobile, setIsMobile] = useState(false);
@@ -109,7 +119,7 @@ export default function AccommodationPage() {
                             aria-expanded={isDropdownOpen}
                             aria-haspopup="listbox"
                         >
-                            <span>All</span>
+                            <span>{t("accommodation.tabs.all")}</span>
                             <svg
                                 className={`w-5 h-5 text-neutral-400 transition-transform duration-300 ${isDropdownOpen ? "rotate-180" : "rotate-0"}`}
                                 fill="none"
@@ -125,42 +135,48 @@ export default function AccommodationPage() {
                                 }`}
                             role="listbox"
                         >
-                            {TABS.map((tab) => (
-                                <LocaleLink
-                                    key={tab}
-                                    href={tab === "All" ? "/accommodation" : `/accommodation/${tab.toLowerCase()}`}
-                                    onClick={() => setIsDropdownOpen(false)}
-                                    className={`block w-full text-left px-6 py-4 font-avenir text-sm uppercase tracking-widest transition-colors hover:bg-neutral-50 ${tab === "All"
-                                        ? "text-[#CB9275] font-semibold bg-neutral-50/50"
-                                        : "text-neutral-600"
-                                        }`}
-                                    role="option"
-                                >
-                                    {tab}
-                                </LocaleLink>
-                            ))}
+                            {TABS.map((tab) => {
+                                const tabKey = TAB_KEYS[tab] || tab.toLowerCase();
+                                return (
+                                    <LocaleLink
+                                        key={tab}
+                                        href={tab === "All" ? "/accommodation" : `/accommodation/${tab.toLowerCase()}`}
+                                        onClick={() => setIsDropdownOpen(false)}
+                                        className={`block w-full text-left px-6 py-4 font-avenir text-sm uppercase tracking-widest transition-colors hover:bg-neutral-50 ${tab === "All"
+                                            ? "text-[#CB9275] font-semibold bg-neutral-50/50"
+                                            : "text-neutral-600"
+                                            }`}
+                                        role="option"
+                                    >
+                                        {t(`accommodation.tabs.${tabKey}`) || tab}
+                                    </LocaleLink>
+                                );
+                            })}
                         </div>
                     </div>
 
                     {/* Desktop Tabs (>= md) */}
                     <div className="hidden md:flex items-center justify-center overflow-x-auto no-scrollbar space-x-12 border-b border-neutral-100 pb-1">
-                        {TABS.map((tab) => (
-                            <LocaleLink
-                                key={tab}
-                                href={tab === "All" ? "/accommodation" : `/accommodation/${tab.toLowerCase()}`}
-                                className={`font-avenir text-base uppercase tracking-widest pb-4 whitespace-nowrap transition-all duration-300 relative ${tab === "All"
-                                    ? "text-[#CB9275]"
-                                    : "text-neutral-400 hover:text-neutral-600"
-                                    }`}
-                            >
-                                {tab}
-                                {/* Active Indicator for All Tab */}
-                                <span
-                                    className={`absolute bottom-0 left-0 w-full h-[2px] bg-[#CB9275] transition-transform duration-300 origin-center ${tab === "All" ? "scale-x-100" : "scale-x-0"
+                        {TABS.map((tab) => {
+                            const tabKey = TAB_KEYS[tab] || tab.toLowerCase();
+                            return (
+                                <LocaleLink
+                                    key={tab}
+                                    href={tab === "All" ? "/accommodation" : `/accommodation/${tab.toLowerCase()}`}
+                                    className={`font-avenir text-base uppercase tracking-widest pb-4 whitespace-nowrap transition-all duration-300 relative ${tab === "All"
+                                        ? "text-[#CB9275]"
+                                        : "text-neutral-400 hover:text-neutral-600"
                                         }`}
-                                />
-                            </LocaleLink>
-                        ))}
+                                >
+                                    {t(`accommodation.tabs.${tabKey}`) || tab}
+                                    {/* Active Indicator for All Tab */}
+                                    <span
+                                        className={`absolute bottom-0 left-0 w-full h-[2px] bg-[#CB9275] transition-transform duration-300 origin-center ${tab === "All" ? "scale-x-100" : "scale-x-0"
+                                            }`}
+                                    />
+                                </LocaleLink>
+                            );
+                        })}
                     </div>
                 </div>
 

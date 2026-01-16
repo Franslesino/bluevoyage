@@ -235,28 +235,37 @@
     "exploreAll": "Ver Todos os Alojamentos",
     "pageTitle": "Alojamento",
     "pageSubtitle": "Estadias selecionadas nas ilhas",
+    "loading": "Carregando...",
+    "roomGallery": "Galeria de quartos",
+    "selectRoomType": "Selecionar tipo de quarto",
+    "otherPhotos": "Outras fotos",
     "tabs": {
       "all": "Todos",
+      "malenge": "Malenge",
+      "unaUna": "Una-una",
+      "kadidiri": "Kadidiri",
+      "bomba": "Bomba",
+      "luwuk": "Luwuk",
       "pulauPuat": "Pulau Puat",
       "malengue": "Malenge",
       "waleaKodi": "Walea Kodi"
     },
     "slides": {
-      "pulatPuat": {
-        "title": "Pulau Puat",
-        "description": "Casa de hóspedes costeira tranquila, com vistas do nascer do sol e fácil acesso de barco."
-      },
-      "malengue": {
+      "malenge": {
         "title": "Malenge",
-        "description": "Uma estadia tranquila na aldeia com noites frescas e hospitalidade local calorosa."
+        "description": "Um paraíso tropical de selvas densas e praias intocadas, lar da fascinante cultura cigana do mar Bajo."
       },
-      "waleaKodi": {
-        "title": "Walea Kodi",
-        "description": "Uma base relaxante perto de recifes, perfeita para manhãs lentas e snorkel cedo."
+      "kadidiri": {
+        "title": "Kadidiri",
+        "description": "O centro de viagens dos Togean, com praias de areia branca como pó, recifes caseiros vibrantes e uma atmosfera amigável."
       },
       "unaUna": {
         "title": "Una Una",
         "description": "Atmosfera de ilha vulcânica, tardes frescas e um lugar tranquilo para se reiniciar."
+      },
+      "luwuk": {
+        "title": "Luwuk",
+        "description": "O pitoresco portal continental para os Togean, oferecendo vistas costeiras dramáticas e comodidades modernas."
       }
     },
     "items": {
@@ -309,6 +318,58 @@
       "impact": {
         "title": "Noites feitas calmas e íntimas",
         "description": "Chá ao pôr do sol, lâmpadas suaves e conversa tranquila. Um final suave do dia, onde você pode ler, refletir ou simplesmente ouvir o mar."
+      }
+    },
+    "guestHouses": {
+      "malenge": {
+        "name": "The Cliff Dibe Resort",
+        "description": "Um resort na falésia na Ilha Malenge com vista panorâmica para o oceano, uma praia de areia branca pristína, pano de fundo de floresta tropical exuberante e um centro de mergulho no local, ideal tanto para mergulho quanto para relaxamento tropical sereno.",
+        "rooms": {
+          "deluxe-bungalow-ac": "Bangalô Deluxe com AC",
+          "deluxe-bungalow-fan": "Bangalô Deluxe com Ventilador",
+          "standard-bungalow-fan": "Bangalô Padrão com Ventilador",
+          "family-bungalow-fan": "Bangalô Familiar com Ventilador"
+        }
+      },
+      "una-una": {
+        "name": "Pristine",
+        "description": "Um resort de mergulho PADI à beira-mar na remota Ilha Una Una com aconchegantes bangalôs de madeira, redes com vista para o oceano e acesso aos melhores pontos de mergulho de Togean, além de refeições com tudo incluído e uma atmosfera calma e desconectada.",
+        "rooms": {
+          "standard-room": "Quarto Padrão",
+          "superior-bungalow": "Bangalô Superior",
+          "deluxe-seaview-bungalow": "Bangalô Deluxe com Vista Mar",
+          "vip-family-room": "Quarto VIP/Familiar"
+        }
+      },
+      "kadidiri": {
+        "name": "Kadidiri Paradise",
+        "description": "Um resort descontraído com bangalôs rústicos à beira-mar e um recife colorido logo ao lado do pier, perfeito para snorkel, mergulho, caiaque e desfrutar de uma estadia simples descalço na ilha.",
+        "rooms": {
+          "superior-double-twin": "Quarto Superior Duplo ou Twin com Vista Mar",
+          "villa-room": "Quarto Villa",
+          "deluxe-double-seaview": "Quarto Duplo Deluxe com Vista Mar",
+          "standard-double": "Duplo Padrão"
+        }
+      },
+      "bomba": {
+        "name": "Poya Lisa",
+        "description": "Um retiro tranquilo em ilha privada perto da Vila Bomba com chalés à beira-mar sobre águas cristalinas, excelente snorkel em recifes de coral, frutos do mar frescos e uma experiência de ilha sem pressa focada na natureza.",
+        "rooms": {
+          "deluxe-bungalow": "Bangalôs Deluxe",
+          "superior-bungalow": "Bangalôs Superiores",
+          "standard-bungalow": "Bangalôs Padrão"
+        }
+      },
+      "luwuk": {
+        "name": "Estrella",
+        "description": "Um hotel moderno de 4 estrelas em Luwuk com quartos confortáveis, espaços de conferência, duas piscinas ao ar livre, spa, academia e restaurante no local, combinando instalações estilo resort com fácil acesso à cidade e vista da baía.",
+        "rooms": {
+          "double-bed": "Cama de Casal",
+          "deluxe": "Deluxe",
+          "business-garden-view": "Business com Vista Jardim",
+          "grand-deluxe-garden-view": "Grand Deluxe com Vista Jardim",
+          "premier-balcony": "Premier com Varanda"
+        }
       }
     }
   },
@@ -368,6 +429,7 @@
     "backToBlog": "Voltar ao Blog",
     "backToWildlife": "VOLTAR À VIDA SELVAGEM",
     "backToLocalCommunity": "Voltar à Comunidade Local",
+    "backToAccommodations": "Voltar a Alojamentos",
     "discover": "Descobrir",
     "explore": "Explorar",
     "learnMore": "Saber Mais",

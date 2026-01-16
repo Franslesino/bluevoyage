@@ -13,6 +13,16 @@ import { useTranslation } from "@/components/I18nProvider";
 
 const TABS = ["All", "Malenge", "Una-una", "Kadidiri", "Bomba", "Luwuk"];
 
+// Tab key mapping for translations
+const TAB_KEYS: Record<string, string> = {
+    "All": "all",
+    "Malenge": "malenge",
+    "Una-una": "unaUna",
+    "Kadidiri": "kadidiri",
+    "Bomba": "bomba",
+    "Luwuk": "luwuk"
+};
+
 export default function AccommodationDetails() {
     const { t } = useTranslation();
     const params = useParams();
@@ -38,7 +48,7 @@ export default function AccommodationDetails() {
     }, [slug]);
 
     if (!guestHouse) {
-        return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
+        return <div className="min-h-screen flex items-center justify-center">{t("accommodation.loading")}</div>;
     }
 
     const selectedRoom = guestHouse.rooms.find(r => r.id === selectedRoomId) || guestHouse.rooms[0];
@@ -74,6 +84,7 @@ export default function AccommodationDetails() {
                         {TABS.map((tab) => {
                             const isActive = tab === guestHouse.island;
                             const href = tab === "All" ? "/accommodation" : `/accommodation/${tab.toLowerCase()}`;
+                            const tabKey = TAB_KEYS[tab] || tab.toLowerCase();
                             return (
                                 <LocaleLink
                                     key={tab}
@@ -81,7 +92,7 @@ export default function AccommodationDetails() {
                                     className={`font-avenir text-base uppercase tracking-widest pb-4 whitespace-nowrap transition-all duration-300 relative ${isActive ? "text-[#CB9275]" : "text-neutral-400 hover:text-neutral-600"
                                         }`}
                                 >
-                                    {tab}
+                                    {t(`accommodation.tabs.${tabKey}`) || tab}
                                     <span
                                         className={`absolute bottom-0 left-0 w-full h-[2px] bg-[#CB9275] transition-transform duration-300 origin-center ${isActive ? "scale-x-100" : "scale-x-0"
                                             }`}
@@ -96,17 +107,17 @@ export default function AccommodationDetails() {
                     {/* Guest House Title & Description */}
                     <div className="text-center mb-12">
                         <h2 className="font-canto text-4xl md:text-5xl text-neutral-900 mb-4">
-                            {guestHouse.guestHouseName}
+                            {t(`accommodation.guestHouses.${guestHouse.slug}.name`) || guestHouse.guestHouseName}
                         </h2>
                         <p className="font-avenir text-lg text-neutral-600 max-w-2xl mx-auto leading-relaxed">
-                            {guestHouse.shortDescription}
+                            {t(`accommodation.guestHouses.${guestHouse.slug}.description`) || guestHouse.shortDescription}
                         </p>
                     </div>
 
                     {/* Room Dropdown */}
                     <div className="max-w-xs mx-auto mb-16">
                         <label className="block text-xs font-avenir uppercase tracking-widest text-neutral-500 mb-2 text-center">
-                            Select Room Type
+                            {t("accommodation.selectRoomType")}
                         </label>
                         <div className="relative">
                             <select
@@ -116,7 +127,7 @@ export default function AccommodationDetails() {
                             >
                                 {guestHouse.rooms.map((room) => (
                                     <option key={room.id} value={room.id} className="font-sans text-base">
-                                        {room.name}
+                                        {t(`accommodation.guestHouses.${guestHouse.slug}.rooms.${room.id}`) || room.name}
                                     </option>
                                 ))}
                             </select>
@@ -136,7 +147,7 @@ export default function AccommodationDetails() {
                         viewport={{ once: true, amount: 0.2 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
                     >
-                        <h3 className="font-canto text-3xl mb-8 text-neutral-800">Room Gallery</h3>
+                        <h3 className="font-canto text-3xl mb-8 text-neutral-800">{t("accommodation.roomGallery")}</h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 auto-rows-min">
                             {roomImages.map((src, index) => {
                                 const isMain = index === 0;
@@ -189,7 +200,7 @@ export default function AccommodationDetails() {
                             viewport={{ once: true }}
                             transition={{ duration: 0.6 }}
                         >
-                            Other Photos
+                            {t("accommodation.otherPhotos")}
                         </motion.h3>
                         <motion.div
                             className="grid grid-cols-2 md:grid-cols-3 gap-4"

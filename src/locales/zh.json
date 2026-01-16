@@ -235,28 +235,37 @@
     "exploreAll": "查看所有住宿",
     "pageTitle": "住宿",
     "pageSubtitle": "岛屿各处的精选住宿",
+    "loading": "加载中...",
+    "roomGallery": "客房画廊",
+    "selectRoomType": "选择房型",
+    "otherPhotos": "其他照片",
     "tabs": {
       "all": "全部",
+      "malenge": "马伦格",
+      "unaUna": "乌纳乌纳",
+      "kadidiri": "卡迪迪里",
+      "bomba": "邦巴",
+      "luwuk": "卢武克",
       "pulauPuat": "普阿特岛",
       "malengue": "马伦格",
       "waleaKodi": "瓦莱亚科迪"
     },
     "slides": {
-      "pulatPuat": {
-        "title": "普阿特岛",
-        "description": "简单的海滨民宿宁静，日出美景和便捷的船只通行。"
-      },
-      "malengue": {
+      "malenge": {
         "title": "马伦格",
-        "description": "安静的村庄住宿，有凉爽的夜晚和热情的当地接待。"
+        "description": "一个拥有茂密丛林和原始海滩的热带天堂，迷人的巴维海上吉普赛文化的故乡。"
       },
-      "waleaKodi": {
-        "title": "瓦莱亚科迪",
-        "description": "珊瑚礁附近的宁静基地，非常适合慢悠悠的早晨和清晨浮潜。"
+      "kadidiri": {
+        "title": "卡迪迪里",
+        "description": "托吉安的旅游中心，拥有粉状的白色沙滩、充满活力的房礁和友好的氛围。"
       },
       "unaUna": {
         "title": "乌纳乌纳",
         "description": "火山岛氛围、凉爽的夜晚和一个宁静的重置之地。"
+      },
+      "luwuk": {
+        "title": "卢武克",
+        "description": "通往托吉安的风景秀丽的大陆门户，提供戴剧性的海岸景色和现代便利设施。"
       }
     },
     "items": {
@@ -309,6 +318,58 @@
       "impact": {
         "title": "宁静而私密的夜晚",
         "description": "日落茶、柔和的灯光和安静的交谈。一天的温柔结束，您可以阅读、反思或只是聆听大海。"
+      }
+    },
+    "guestHouses": {
+      "malenge": {
+        "name": "悬崖度假村",
+        "description": "马伦格岛上的悬崖度假村，拥有全景海景、原始白沙海滩、郁郁葱葱的热带雨林背景和现场潜水中心，是潜水和宁静热带放松的理想之地。",
+        "rooms": {
+          "deluxe-bungalow-ac": "豪华空调平房",
+          "deluxe-bungalow-fan": "豪华风扇平房",
+          "standard-bungalow-fan": "标准风扇平房",
+          "family-bungalow-fan": "家庭风扇平房"
+        }
+      },
+      "una-una": {
+        "name": "原始度假村",
+        "description": "位于偏远乌纳乌纳岛的海滨PADI潜水度假村，配有舒适的木制平房、海景吊床和通往托吉安顶级潜水点的通道，提供全包餐食和宁静的离网氛围。",
+        "rooms": {
+          "standard-room": "标准房",
+          "superior-bungalow": "高级平房",
+          "deluxe-seaview-bungalow": "豪华海景平房",
+          "vip-family-room": "VIP/家庭房"
+        }
+      },
+      "kadidiri": {
+        "name": "卡迪迪里天堂",
+        "description": "轻松的度假村，配有质朴的海滨平房和码头旁色彩缤纷的房礁，非常适合浮潜、潜水、皮划艇和享受简单的赤脚岛屿住宿。",
+        "rooms": {
+          "superior-double-twin": "高级海景双人房或双床房",
+          "villa-room": "别墅房",
+          "deluxe-double-seaview": "豪华海景双人房",
+          "standard-double": "标准双人房"
+        }
+      },
+      "bomba": {
+        "name": "波亚丽莎",
+        "description": "邦巴村附近安静的私人岛屿度假胜地，配有清澈水域上的海滨小屋、优质珊瑚礁浮潜、新鲜海鲜和从容不迫、以自然为先的岛屿体验。",
+        "rooms": {
+          "deluxe-bungalow": "豪华平房",
+          "superior-bungalow": "高级平房",
+          "standard-bungalow": "标准平房"
+        }
+      },
+      "luwuk": {
+        "name": "埃斯特雷拉",
+        "description": "卢武克的现代四星级酒店，配有舒适的客房、会议空间、两个室外泳池、水疗中心、健身房和现场餐饮，将度假村式设施与便捷的城市通道和海湾美景相结合。",
+        "rooms": {
+          "double-bed": "大床房",
+          "deluxe": "豪华房",
+          "business-garden-view": "园景商务房",
+          "grand-deluxe-garden-view": "园景豪华套房",
+          "premier-balcony": "带阳台尊贵房"
+        }
       }
     }
   },
@@ -368,6 +429,7 @@
     "backToBlog": "返回博客",
     "backToWildlife": "返回野生动物",
     "backToLocalCommunity": "返回当地社区",
+    "backToAccommodations": "返回住宿",
     "discover": "发现",
     "explore": "探索",
     "learnMore": "了解更多",

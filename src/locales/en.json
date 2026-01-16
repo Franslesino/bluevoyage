@@ -235,8 +235,17 @@
     "exploreAll": "View All Accommodations",
     "pageTitle": "Accommodation",
     "pageSubtitle": "Curated stays across the islands",
+    "loading": "Loading...",
+    "roomGallery": "Room Gallery",
+    "selectRoomType": "Select Room Type",
+    "otherPhotos": "Other Photos",
     "tabs": {
       "all": "All",
+      "malenge": "Malenge",
+      "unaUna": "Una-una",
+      "kadidiri": "Kadidiri",
+      "bomba": "Bomba",
+      "luwuk": "Luwuk",
       "pulauPuat": "Pulau Puat",
       "malengue": "Malengue",
       "waleaKodi": "Walea Kodi"
@@ -310,6 +319,58 @@
         "title": "Evenings made calm and intimate",
         "description": "Sunset tea, soft lamps, and quiet conversation. A gentle end to the day, where you can read, reflect, or simply listen to the sea."
       }
+    },
+    "guestHouses": {
+      "malenge": {
+        "name": "The Cliff dibe resort",
+        "description": "A cliffside resort on Malenge Island with panoramic ocean views, a pristine white-sand beach, lush rainforest backdrop, and an on-site dive center, ideal for both diving and serene tropical relaxation.",
+        "rooms": {
+          "deluxe-bungalow-ac": "Deluxe Bungalow AC",
+          "deluxe-bungalow-fan": "Deluxe Bungalow Fan",
+          "standard-bungalow-fan": "Standard Bungalow Fan",
+          "family-bungalow-fan": "Family Bungalow Fan"
+        }
+      },
+      "una-una": {
+        "name": "Pristine",
+        "description": "A beachfront PADI dive resort on remote Una Una Island with cozy wooden bungalows, ocean-view hammocks, and access to top Togean dive sites, plus all-inclusive meals and a calm, off-the-grid atmosphere.",
+        "rooms": {
+          "standard-room": "Standard room",
+          "superior-bungalow": "Superior Bungalow",
+          "deluxe-seaview-bungalow": "Deluxe Seaview bungalow",
+          "vip-family-room": "VIP/Family Room"
+        }
+      },
+      "kadidiri": {
+        "name": "Kadidiri Paradise",
+        "description": "A laid-back resort with rustic beachfront bungalows and a colorful house reef just off the jetty, perfect for snorkeling, diving, kayaking, and enjoying a simple barefoot island stay.",
+        "rooms": {
+          "superior-double-twin": "Superior Double or Twin Room with Sea View",
+          "villa-room": "Villa room",
+          "deluxe-double-seaview": "Deluxe Double Room with Sea View",
+          "standard-double": "Standard double"
+        }
+      },
+      "bomba": {
+        "name": "Poya Lisa",
+        "description": "A quiet private-island retreat near Bomba Village with seafront cottages over clear water, great coral reef snorkeling, fresh seafood, and an unhurried, nature-first island experience.",
+        "rooms": {
+          "deluxe-bungalow": "Deluxe Bungalows",
+          "superior-bungalow": "Superior Bungalows",
+          "standard-bungalow": "Standard bungalows"
+        }
+      },
+      "luwuk": {
+        "name": "Estrella",
+        "description": "A modern 4-star hotel in Luwuk with comfortable rooms, conference spaces, two outdoor pools, spa, gym, and on-site dining, combining resort-style facilities with easy access to town and bay views.",
+        "rooms": {
+          "double-bed": "Double Bed",
+          "deluxe": "Deluxe",
+          "business-garden-view": "Business with garden view",
+          "grand-deluxe-garden-view": "Grand deluxe with garden view",
+          "premier-balcony": "Premier with balcony"
+        }
+      }
     }
   },
   "localCommunity": {
@@ -368,6 +429,7 @@
     "backToBlog": "Back to Blog",
     "backToWildlife": "Back to Wildlife",
     "backToLocalCommunity": "Back to Local Community",
+    "backToAccommodations": "Back to Accommodations",
     "discover": "Discover",
     "explore": "Explore",
     "learnMore": "Learn More",

@@ -235,28 +235,37 @@
     "exploreAll": "Voir tous les hébergements",
     "pageTitle": "Hébergement",
     "pageSubtitle": "Séjours sélectionnés à travers les îles",
+    "loading": "Chargement...",
+    "roomGallery": "Galerie de chambres",
+    "selectRoomType": "Choisir le type de chambre",
+    "otherPhotos": "Autres photos",
     "tabs": {
       "all": "Tous",
+      "malenge": "Malenge",
+      "unaUna": "Una-una",
+      "kadidiri": "Kadidiri",
+      "bomba": "Bomba",
+      "luwuk": "Luwuk",
       "pulauPuat": "Pulau Puat",
       "malengue": "Malengue",
       "waleaKodi": "Walea Kodi"
     },
     "slides": {
-      "pulatPuat": {
-        "title": "Pulau Puat",
-        "description": "Maison d'hôtes simple en bord de mer, avec vue sur le lever du soleil et accès facile en bateau."
+      "malenge": {
+        "title": "Malenge",
+        "description": "Un paradis tropical de jungles denses et de plages immaculées, foyer de la fascinante culture des gitans de la mer Bajo."
       },
-      "malengue": {
-        "title": "Malengue",
-        "description": "Un séjour tranquille au village avec des nuits fraîches et un accueil local chaleureux."
-      },
-      "waleaKodi": {
-        "title": "Walea Kodi",
-        "description": "Une base reposante près des récifs, parfaite pour des matinées tranquilles et des plongées matinales."
+      "kadidiri": {
+        "title": "Kadidiri",
+        "description": "Le hub de voyage des Togeans, avec des plages de sable blanc poudreux, des récifs maison vibrants et une atmosphère conviviale."
       },
       "unaUna": {
         "title": "Una Una",
         "description": "Atmosphère d'île volcanique, soirées fraîches et un endroit paisible pour se ressourcer."
+      },
+      "luwuk": {
+        "title": "Luwuk",
+        "description": "La porte d'entrée panoramique du continent vers les Togeans, offrant des vues côtières spectaculaires et des commodités modernes."
       }
     },
     "items": {
@@ -309,6 +318,58 @@
       "impact": {
         "title": "Soirées calmes et intimes",
         "description": "Thé au coucher du soleil, lampes douces et conversation tranquille. Une fin de journée douce, où vous pouvez lire, réfléchir ou simplement écouter la mer."
+      }
+    },
+    "guestHouses": {
+      "malenge": {
+        "name": "The Cliff Dibe Resort",
+        "description": "Un complexe hôtelier sur falaise sur l'île de Malenge avec une vue panoramique sur l'océan, une plage de sable blanc immaculée, une forêt tropicale luxuriante en arrière-plan et un centre de plongée sur place, idéal pour la plongée et la détente tropicale sereine.",
+        "rooms": {
+          "deluxe-bungalow-ac": "Bungalow Deluxe climatisé",
+          "deluxe-bungalow-fan": "Bungalow Deluxe avec ventilateur",
+          "standard-bungalow-fan": "Bungalow Standard avec ventilateur",
+          "family-bungalow-fan": "Bungalow Familial avec ventilateur"
+        }
+      },
+      "una-una": {
+        "name": "Pristine",
+        "description": "Un complexe de plongée PADI en bord de plage sur l'île isolée d'Una Una avec des bungalows en bois confortables, des hamacs avec vue sur l'océan et un accès aux meilleurs sites de plongée de Togean, plus des repas tout compris et une atmosphère calme et déconnectée.",
+        "rooms": {
+          "standard-room": "Chambre Standard",
+          "superior-bungalow": "Bungalow Supérieur",
+          "deluxe-seaview-bungalow": "Bungalow Deluxe vue mer",
+          "vip-family-room": "Chambre VIP/Familiale"
+        }
+      },
+      "kadidiri": {
+        "name": "Kadidiri Paradise",
+        "description": "Un complexe décontracté avec des bungalows rustiques en bord de plage et un récif coloré juste à côté de la jetée, parfait pour la plongée avec tuba, la plongée, le kayak et profiter d'un séjour simple pieds nus sur l'île.",
+        "rooms": {
+          "superior-double-twin": "Chambre Double ou Twin Supérieure vue mer",
+          "villa-room": "Chambre Villa",
+          "deluxe-double-seaview": "Chambre Double Deluxe vue mer",
+          "standard-double": "Double Standard"
+        }
+      },
+      "bomba": {
+        "name": "Poya Lisa",
+        "description": "Une retraite tranquille sur île privée près du village de Bomba avec des cottages en bord de mer sur une eau claire, une excellente plongée avec tuba sur le récif corallien, des fruits de mer frais et une expérience d'île sans précipitation axée sur la nature.",
+        "rooms": {
+          "deluxe-bungalow": "Bungalows Deluxe",
+          "superior-bungalow": "Bungalows Supérieurs",
+          "standard-bungalow": "Bungalows Standard"
+        }
+      },
+      "luwuk": {
+        "name": "Estrella",
+        "description": "Un hôtel 4 étoiles moderne à Luwuk avec des chambres confortables, des espaces de conférence, deux piscines extérieures, spa, salle de sport et restauration sur place, combinant des installations de style resort avec un accès facile à la ville et une vue sur la baie.",
+        "rooms": {
+          "double-bed": "Lit Double",
+          "deluxe": "Deluxe",
+          "business-garden-view": "Business vue jardin",
+          "grand-deluxe-garden-view": "Grand Deluxe vue jardin",
+          "premier-balcony": "Premier avec balcon"
+        }
       }
     }
   },
@@ -368,6 +429,7 @@
     "backToBlog": "Retour au blog",
     "backToWildlife": "RETOUR À LA FAUNE",
     "backToLocalCommunity": "Retour à la communauté locale",
+    "backToAccommodations": "Retour aux hébergements",
     "discover": "Découvrir",
     "explore": "Explorer",
     "learnMore": "En savoir plus",

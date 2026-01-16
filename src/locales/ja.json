@@ -235,28 +235,37 @@
     "exploreAll": "すべての宿泊施設を見る",
     "pageTitle": "宿泊施設",
     "pageSubtitle": "島々の厳選された滞在先",
+    "loading": "読み込み中...",
+    "roomGallery": "客室ギャラリー",
+    "selectRoomType": "客室タイプを選択",
+    "otherPhotos": "その他の写真",
     "tabs": {
       "all": "すべて",
+      "malenge": "マレンゲ",
+      "unaUna": "ウナウナ",
+      "kadidiri": "カディディリ",
+      "bomba": "ボンバ",
+      "luwuk": "ルウック",
       "pulauPuat": "プラウ・プアット",
       "malengue": "マレンゲ",
       "waleaKodi": "ワレア・コディ"
     },
     "slides": {
-      "pulatPuat": {
-        "title": "プラウ・プアット",
-        "description": "日の出の眺めと簡単なボートアクセスを備えたシンプルな海辺のゲストハウスの静けさ。"
-      },
-      "malengue": {
+      "malenge": {
         "title": "マレンゲ",
-        "description": "そよ風の吹く夜と温かい地元のもてなしがある静かな村の滞在。"
+        "description": "密なジャングルと手つかずのビーチのトロピカルパラダイス、魅力的なバジョ海のジプシー文化の故郷。"
       },
-      "waleaKodi": {
-        "title": "ワレア・コディ",
-        "description": "リーフの近くの安らぎの拠点、ゆっくりとした朝と早朝のシュノーケリングに最適。"
+      "kadidiri": {
+        "title": "カディディリ",
+        "description": "トゲアンの旅のハブ、パウダーのような白いビーチ、活気あふれるハウスリーフ、そしてフレンドリーな雰囲気。"
       },
       "unaUna": {
         "title": "ウナ・ウナ",
         "description": "火山島の雰囲気、涼しい夜、リセットするための平和な場所。"
+      },
+      "luwuk": {
+        "title": "ルウック",
+        "description": "トゲアンへの景色の美しい本土の玄関口、ドラマチックな海岸の景色と現代的な便利さを提供。"
       }
     },
     "items": {
@@ -309,6 +318,58 @@
       "impact": {
         "title": "穏やかで親密な夜",
         "description": "サンセットティー、柔らかなランプ、静かな会話。読書、反省、または単に海を聴くことができる一日の穏やかな終わり。"
+      }
+    },
+    "guestHouses": {
+      "malenge": {
+        "name": "ザ・クリフ・ダイブ・リゾート",
+        "description": "マレンゲ島の崖の上にあるリゾートで、パノラマの海の景色、原始的な白い砂浜、青々とした熱帯雨林の背景、敵地内のダイブセンターを備え、ダイビングと静かなトロピカルリラクゼーションの両方に理想的です。",
+        "rooms": {
+          "deluxe-bungalow-ac": "デラックスバンガローエアコン",
+          "deluxe-bungalow-fan": "デラックスバンガローファン",
+          "standard-bungalow-fan": "スタンダードバンガローファン",
+          "family-bungalow-fan": "ファミリーバンガローファン"
+        }
+      },
+      "una-una": {
+        "name": "プリスティン",
+        "description": "辺鐓なウナウナ島のビーチフロントPADIダイブリゾートで、居心地の良い木造バンガロー、オーシャンビューハンモック、トゲアンのトップダイブスポットへのアクセス、オールインクルーシブ食事、静かなオフグリッドの雰囲気を提供します。",
+        "rooms": {
+          "standard-room": "スタンダードルーム",
+          "superior-bungalow": "スーペリアバンガロー",
+          "deluxe-seaview-bungalow": "デラックスシービューバンガロー",
+          "vip-family-room": "VIP/ファミリールーム"
+        }
+      },
+      "kadidiri": {
+        "name": "カディディリ・パラダイス",
+        "description": "素朴なビーチフロントのバンガローと桕橋のすぐそばにカラフルなハウスリーフがあるのんびりしたリゾートで、シュノーケリング、ダイビング、カヤック、シンプルな素足の島ステイに最適です。",
+        "rooms": {
+          "superior-double-twin": "スーペリアダブルまたはツインシービュー",
+          "villa-room": "ヴィラルーム",
+          "deluxe-double-seaview": "デラックスダブルシービュー",
+          "standard-double": "スタンダードダブル"
+        }
+      },
+      "bomba": {
+        "name": "ポヤ・リサ",
+        "description": "澄んだ水の上の海辺のコテージ、素晴らしいサンゴ礁のシュノーケリング、新鮮なシーフード、そしてのんびりとした自然優先の島体験を提供するボンバ村近くの静かなプライベートアイランドリトリート。",
+        "rooms": {
+          "deluxe-bungalow": "デラックスバンガロー",
+          "superior-bungalow": "スーペリアバンガロー",
+          "standard-bungalow": "スタンダードバンガロー"
+        }
+      },
+      "luwuk": {
+        "name": "エストレーラ",
+        "description": "快適な客室、会議スペース、2つの屋外プール、スパ、ジム、ダイニングを備えたルウックのモダンな4つ星ホテルで、リゾートスタイルの施設と産市への簡単なアクセス、湾の景色を組み合わせています。",
+        "rooms": {
+          "double-bed": "ダブルベッド",
+          "deluxe": "デラックス",
+          "business-garden-view": "ビジネスガーデンビュー",
+          "grand-deluxe-garden-view": "グランドデラックスガーデンビュー",
+          "premier-balcony": "プレミアバルコニー"
+        }
       }
     }
   },
@@ -368,6 +429,7 @@
     "backToBlog": "ブログに戻る",
     "backToWildlife": "野生動物に戻る",
     "backToLocalCommunity": "地元コミュニティに戻る",
+    "backToAccommodations": "宿泊施設に戻る",
     "discover": "発見",
     "explore": "探索",
     "learnMore": "詳しく見る",

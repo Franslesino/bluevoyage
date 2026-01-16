@@ -235,28 +235,37 @@
     "exploreAll": "Lihat Semua Akomodasi",
     "pageTitle": "Akomodasi",
     "pageSubtitle": "Penginapan terkurasi di seluruh pulau",
+    "loading": "Memuat...",
+    "roomGallery": "Galeri Kamar",
+    "selectRoomType": "Pilih Tipe Kamar",
+    "otherPhotos": "Foto Lainnya",
     "tabs": {
       "all": "Semua",
+      "malenge": "Malenge",
+      "unaUna": "Una-una",
+      "kadidiri": "Kadidiri",
+      "bomba": "Bomba",
+      "luwuk": "Luwuk",
       "pulauPuat": "Pulau Puat",
       "malengue": "Malenge",
       "waleaKodi": "Walea Kodi"
     },
     "slides": {
-      "pulatPuat": {
-        "title": "Pulau Puat",
-        "description": "Ketenangan rumah singgah tepi laut sederhana, dengan pemandangan matahari terbit dan akses perahu yang mudah."
-      },
-      "malengue": {
+      "malenge": {
         "title": "Malenge",
-        "description": "Penginapan desa tenang dengan malam berangin dan keramahan lokal yang hangat."
+        "description": "Surga tropis dengan hutan lebat dan pantai yang belum terjamah, rumah bagi budaya suku laut Bajo yang memesona."
       },
-      "waleaKodi": {
-        "title": "Walea Kodi",
-        "description": "Pangkalan istirahat dekat terumbu, sempurna untuk pagi santai dan snorkeling dini."
+      "kadidiri": {
+        "title": "Kadidiri",
+        "description": "Pusat perjalanan Togean dengan pantai pasir putih seperti bedak, terumbu karang rumah yang semarak, dan suasana ramah."
       },
       "unaUna": {
         "title": "Una Una",
         "description": "Suasana pulau vulkanik, malam sejuk, dan tempat damai untuk menyegarkan diri."
+      },
+      "luwuk": {
+        "title": "Luwuk",
+        "description": "Gerbang daratan yang indah ke Togean, menawarkan pemandangan pantai yang dramatis dan kenyamanan modern."
       }
     },
     "items": {
@@ -309,6 +318,58 @@
       "impact": {
         "title": "Malam dibuat tenang dan intim",
         "description": "Teh matahari terbenam, lampu lembut, dan percakapan tenang. Akhir hari yang lembut, di mana Anda bisa membaca, merenung, atau sekadar mendengarkan laut."
+      }
+    },
+    "guestHouses": {
+      "malenge": {
+        "name": "The Cliff dibe resort",
+        "description": "Resor tebing di Pulau Malenge dengan pemandangan laut panoramik, pantai pasir putih yang asli, latar belakang hutan hujan yang rimbun, dan pusat selam di lokasi, ideal untuk menyelam dan relaksasi tropis yang tenang.",
+        "rooms": {
+          "deluxe-bungalow-ac": "Bungalo Deluxe AC",
+          "deluxe-bungalow-fan": "Bungalo Deluxe Kipas",
+          "standard-bungalow-fan": "Bungalo Standar Kipas",
+          "family-bungalow-fan": "Bungalo Keluarga Kipas"
+        }
+      },
+      "una-una": {
+        "name": "Pristine",
+        "description": "Resor selam PADI tepi pantai di Pulau Una Una yang terpencil dengan bungalo kayu yang nyaman, hammock pemandangan laut, dan akses ke situs selam top Togean, plus makanan all-inclusive dan suasana tenang tanpa jaringan.",
+        "rooms": {
+          "standard-room": "Kamar Standar",
+          "superior-bungalow": "Bungalo Superior",
+          "deluxe-seaview-bungalow": "Bungalo Deluxe Pemandangan Laut",
+          "vip-family-room": "Kamar VIP/Keluarga"
+        }
+      },
+      "kadidiri": {
+        "name": "Kadidiri Paradise",
+        "description": "Resor santai dengan bungalo tepi pantai yang rustic dan terumbu karang berwarna-warni tepat di dermaga, sempurna untuk snorkeling, menyelam, berkayak, dan menikmati tinggal pulau tanpa alas kaki yang sederhana.",
+        "rooms": {
+          "superior-double-twin": "Kamar Superior Double atau Twin dengan Pemandangan Laut",
+          "villa-room": "Kamar Villa",
+          "deluxe-double-seaview": "Kamar Deluxe Double dengan Pemandangan Laut",
+          "standard-double": "Double Standar"
+        }
+      },
+      "bomba": {
+        "name": "Poya Lisa",
+        "description": "Retret pulau pribadi yang tenang dekat Desa Bomba dengan pondok tepi laut di atas air jernih, snorkeling terumbu karang yang luar biasa, makanan laut segar, dan pengalaman pulau yang santai dan mengutamakan alam.",
+        "rooms": {
+          "deluxe-bungalow": "Bungalo Deluxe",
+          "superior-bungalow": "Bungalo Superior",
+          "standard-bungalow": "Bungalo Standar"
+        }
+      },
+      "luwuk": {
+        "name": "Estrella",
+        "description": "Hotel bintang 4 modern di Luwuk dengan kamar nyaman, ruang konferensi, dua kolam renang outdoor, spa, gym, dan restoran di lokasi, menggabungkan fasilitas gaya resor dengan akses mudah ke kota dan pemandangan teluk.",
+        "rooms": {
+          "double-bed": "Tempat Tidur Double",
+          "deluxe": "Deluxe",
+          "business-garden-view": "Bisnis dengan Pemandangan Taman",
+          "grand-deluxe-garden-view": "Grand Deluxe dengan Pemandangan Taman",
+          "premier-balcony": "Premier dengan Balkon"
+        }
       }
     }
   },
@@ -368,6 +429,7 @@
     "backToBlog": "Kembali ke Blog",
     "backToWildlife": "KEMBALI KE SATWA LIAR",
     "backToLocalCommunity": "Kembali ke Komunitas Lokal",
+    "backToAccommodations": "Kembali ke Akomodasi",
     "discover": "Temukan",
     "explore": "Jelajahi",
     "learnMore": "Pelajari Lebih Lanjut",

@@ -235,28 +235,37 @@
     "exploreAll": "모든 숙소 보기",
     "pageTitle": "숙소",
     "pageSubtitle": "섬 곳곳의 큐레이션 숙소",
+    "loading": "로딩 중...",
+    "roomGallery": "객실 갤러리",
+    "selectRoomType": "객실 유형 선택",
+    "otherPhotos": "다른 사진들",
     "tabs": {
       "all": "전체",
+      "malenge": "말렝게",
+      "unaUna": "우나우나",
+      "kadidiri": "카디디리",
+      "bomba": "봄바",
+      "luwuk": "루웍",
       "pulauPuat": "풀라우 푸앗",
       "malengue": "말렝게",
       "waleaKodi": "왈레아 코디"
     },
     "slides": {
-      "pulatPuat": {
-        "title": "풀라우 푸앗",
-        "description": "일출 전망과 쉬운 보트 접근이 있는 단순한 해변 게스트하우스의 평온함."
+      "malenge": {
+        "title": "말렛게",
+        "description": "울창한 정글과 손대지 않은 해변의 트로피컬 파라다이스, 매혹적인 바죠 해상 집시 문화의 본거지."
       },
-      "malengue": {
-        "title": "말렝게",
-        "description": "시원한 밤과 따뜻한 현지 호스팅이 있는 조용한 마을 숙박."
-      },
-      "waleaKodi": {
-        "title": "왈레아 코디",
-        "description": "산호초 근처의 평온한 베이스, 느린 아침과 이른 스노클링에 완벽."
+      "kadidiri": {
+        "title": "카디디리",
+        "description": "토기안의 여행 허브, 파우더 같은 하얀 해변, 활기찬 하우스 리프, 그리고 친근한 분위기."
       },
       "unaUna": {
         "title": "우나우나",
         "description": "화산섬 분위기, 시원한 저녁, 재충전을 위한 평화로운 장소."
+      },
+      "luwuk": {
+        "title": "루웩",
+        "description": "토기안으로 가는 경치 좋은 본토 관문, 극적인 해안 전경과 현대적 편의시설 제공."
       }
     },
     "items": {
@@ -309,8 +318,58 @@
       "impact": {
         "title": "고요하고 친밀한 저녁",
         "description": "일몰 차, 은은한 조명, 조용한 대화. 읽고, 반성하거나, 단순히 바다를 듣는 하루의 부드러운 마무리."
-      }
-    }
+      }    },
+    "guestHouses": {
+      "malenge": {
+        "name": "더 클리프 디베 리조트",
+        "description": "파노라마 바다 전망, 원시 하얀 모래 해변, 울창한 열대 우림 배경 및 현장 다이빙 센터를 갖춘 말렇게 섬의 절벽 리조트로, 다이빙과 평온한 열대 휴식 모두에 이상적입니다.",
+        "rooms": {
+          "deluxe-bungalow-ac": "디럭스 방갈로 에어컨",
+          "deluxe-bungalow-fan": "디럭스 방갈로 팬",
+          "standard-bungalow-fan": "스탠다드 방갈로 팬",
+          "family-bungalow-fan": "패밀리 방갈로 팬"
+        }
+      },
+      "una-una": {
+        "name": "프리스턼",
+        "description": "외딴 우나우나 섬의 해변 PADI 다이빙 리조트로, 아늘한 목조 방갈로, 바다 전망 해먹, 토기안 최고의 다이빙 장소 접근, 올 인클루시브 식사 및 조용하고 오프그리드적인 분위기를 제공합니다.",
+        "rooms": {
+          "standard-room": "스탠다드 객실",
+          "superior-bungalow": "슈피리어 방갈로",
+          "deluxe-seaview-bungalow": "디럭스 시뷰 방갈로",
+          "vip-family-room": "VIP/패밀리 객실"
+        }
+      },
+      "kadidiri": {
+        "name": "카디디리 파라다이스",
+        "description": "소박한 해변 방갈로와 부두가 바로 옆의 색채로운 하우스 리프가 있는 여유로운 리조트로, 스노클링, 다이빙, 카약 및 간단한 맨발 섬 스테이를 즐기기에 완벽합니다.",
+        "rooms": {
+          "superior-double-twin": "슈피리어 더블 또는 트윈 시뷰",
+          "villa-room": "빌라 객실",
+          "deluxe-double-seaview": "디럭스 더블 시뷰",
+          "standard-double": "스탠다드 더블"
+        }
+      },
+      "bomba": {
+        "name": "포야 리사",
+        "description": "맑은 물 위의 해변 코티지, 뛰어난 산호초 스노클링, 신선한 해산물 및 여유로운 자연 우선 섬 경험을 제공하는 봄바 마을 근처의 조용한 사설 섬 히아웃.",
+        "rooms": {
+          "deluxe-bungalow": "디럭스 방갈로",
+          "superior-bungalow": "슈피리어 방갈로",
+          "standard-bungalow": "스탠다드 방갈로"
+        }
+      },
+      "luwuk": {
+        "name": "에스트렐라",
+        "description": "편안한 객실, 회의 공간, 두 개의 야외 수영장, 스파, 헬스장 및 현장 다이닝을 갖춘 루웅의 현대적인 4성급 호텔로, 리조트 스타일 시설과 도시 및 만 전망에 대한 쉽운 접근을 결합합니다.",
+        "rooms": {
+          "double-bed": "더블 베드",
+          "deluxe": "디럭스",
+          "business-garden-view": "비즈니스 가든 뷰",
+          "grand-deluxe-garden-view": "그랜드 디럭스 가든 뷰",
+          "premier-balcony": "프리미어 발코니"
+        }
+      }    }
   },
   "localCommunity": {
     "title": "현지인을 만나보세요",
@@ -368,6 +427,7 @@
     "backToBlog": "블로그로 돌아가기",
     "backToWildlife": "야생동물로 돌아가기",
     "backToLocalCommunity": "지역 커뮤니티로 돌아가기",
+    "backToAccommodations": "숙소로 돌아가기",
     "discover": "발견하기",
     "explore": "탐험하기",
     "learnMore": "더 알아보기",
