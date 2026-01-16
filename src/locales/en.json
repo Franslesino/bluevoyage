@@ -242,21 +242,21 @@
       "waleaKodi": "Walea Kodi"
     },
     "slides": {
-      "pulatPuat": {
-        "title": "Pulau Puat",
-        "description": "Simple seaside guest house calm, with sunrise views and easy boat access."
+      "malenge": {
+        "title": "Malenge",
+        "description": "A tropical paradise of dense jungles and unspoiled beaches, home to the fascinating Bajo sea gypsy culture."
       },
-      "malengue": {
-        "title": "Malengue",
-        "description": "A quiet village stay with breezy nights and warm local hosting."
-      },
-      "waleaKodi": {
-        "title": "Walea Kodi",
-        "description": "A restful base near reefs, perfect for slow mornings and early snorkels."
+      "kadidiri": {
+        "title": "Kadidiri",
+        "description": "The travel hub of the Togeans, featuring powdery white beaches, vibrant house reefs, and a friendly atmosphere."
       },
       "unaUna": {
         "title": "Una Una",
         "description": "Volcanic-island atmosphere, cool evenings, and a peaceful place to reset."
+      },
+      "luwuk": {
+        "title": "Luwuk",
+        "description": "The scenic mainland gateway to the Togeans, offering dramatic coastal views and modern conveniences."
       }
     },
     "items": {
