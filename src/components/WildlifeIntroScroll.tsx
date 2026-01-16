@@ -2,12 +2,14 @@
 
 import React, { useRef, useEffect } from "react";
 import Image from "next/image";
+import { useTranslation } from "./I18nProvider";
 
 const lerp = (start: number, end: number, factor: number) => {
     return start + (end - start) * factor;
 };
 
 export default function WildlifeIntroScroll() {
+    const { t } = useTranslation();
     const sectionRef = useRef<HTMLElement>(null);
     const textRef = useRef<HTMLDivElement>(null);
     const imageRef = useRef<HTMLDivElement>(null);
@@ -134,10 +136,10 @@ export default function WildlifeIntroScroll() {
                 className="w-full md:w-1/2 md:will-change-transform"
             >
                 <h2 className="font-canto text-4xl md:text-5xl lg:text-6xl text-neutral-900 leading-tight mb-8">
-                    Explore Togean’s reefs and forests through a living field guide
+                    {t("wildlifeIntro.title")}
                 </h2>
                 <p className="font-avenir text-lg md:text-xl text-neutral-600 leading-relaxed max-w-lg">
-                    From turtles and dugongs to endemic primates, these islands hold rare encounters. Discover what to look for, when to go, and how to observe responsibly.
+                    {t("wildlifeIntro.description")}
                 </p>
             </div>
 

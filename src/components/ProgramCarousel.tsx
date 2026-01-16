@@ -64,35 +64,39 @@ export default function ProgramCarousel() {
                     {/* Viewport */}
                     <div className="overflow-hidden" ref={emblaRef}>
                         <div className="flex touch-pan-y">
-                            {programs.map((program, index) => (
-                                <div
-                                    key={index}
-                                    className="flex-[0_0_100%] md:flex-[0_0_22%] min-w-0 pl-4 md:pl-6 relative"
-                                >
-                                    <LocaleLink
-                                        href={`/programs/${program.slug}?from=home`}
-                                        className="block aspect-square relative overflow-hidden group/card cursor-pointer rounded-sm"
-                                        aria-label={`${t("programs.viewProgram")}: ${program.name}`}
+                            {programs.map((program, index) => {
+                                const programName = t(`programs.items.${program.slug}.name`) || program.name;
+                                
+                                return (
+                                    <div
+                                        key={index}
+                                        className="flex-[0_0_100%] md:flex-[0_0_22%] min-w-0 pl-4 md:pl-6 relative"
                                     >
-                                        <Image
-                                            src={program.image}
-                                            alt={program.name}
-                                            fill
-                                            className="object-cover transition-transform duration-700 ease-out group-hover/card:scale-110"
-                                            sizes="(max-width: 768px) 80vw, 25vw"
-                                        />
-                                        {/* Gradient Overlay (Bottom only) */}
-                                        <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/60 via-black/20 to-transparent pointer-events-none" />
+                                        <LocaleLink
+                                            href={`/programs/${program.slug}?from=home`}
+                                            className="block aspect-square relative overflow-hidden group/card cursor-pointer rounded-sm"
+                                            aria-label={`${t("programs.viewProgram")}: ${programName}`}
+                                        >
+                                            <Image
+                                                src={program.image}
+                                                alt={programName}
+                                                fill
+                                                className="object-cover transition-transform duration-700 ease-out group-hover/card:scale-110"
+                                                sizes="(max-width: 768px) 80vw, 25vw"
+                                            />
+                                            {/* Gradient Overlay (Bottom only) */}
+                                            <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/60 via-black/20 to-transparent pointer-events-none" />
 
-                                        {/* Text Content */}
-                                        <div className="absolute inset-x-0 bottom-0 p-5 md:p-7 pointer-events-none">
-                                            <h3 className="font-canto font-bold text-white text-lg md:text-2xl leading-tight text-left max-w-[95%] drop-shadow-sm">
-                                                {program.name}
-                                            </h3>
-                                        </div>
-                                    </LocaleLink>
-                                </div>
-                            ))}
+                                            {/* Text Content */}
+                                            <div className="absolute inset-x-0 bottom-0 p-5 md:p-7 pointer-events-none">
+                                                <h3 className="font-canto font-bold text-white text-lg md:text-2xl leading-tight text-left max-w-[95%] drop-shadow-sm">
+                                                    {programName}
+                                                </h3>
+                                            </div>
+                                        </LocaleLink>
+                                    </div>
+                                );
+                            })}
                         </div>
                     </div>
 

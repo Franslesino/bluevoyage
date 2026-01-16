@@ -14,9 +14,10 @@
  */
 
 import Image from "next/image";
-import Link from "next/link";
 import { useState, useRef, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
+import { useTranslation } from "./I18nProvider";
+import LocaleLink from "./LocaleLink";
 
 // Boat Slides Data
 const boatSlides = [
@@ -146,53 +147,27 @@ function BoatCarousel({ className }: { className?: string }) {
     );
 }
 
-// Feature items data
-const features = [
-    {
-        id: "boat-cabins",
-        title: "Boat, Cabins & Shared Space",
-        description:
-            "Comfort-first layout with shaded lounging, breezy cabins, and social corners. Room to stretch out, read, nap, and gather without feeling crowded.",
-    },
-    {
-        id: "safety",
-        title: "Safety On Board",
-        description:
-            "Safety-first routines, clear briefings, and well-maintained gear. You can relax fully knowing every detail is planned and checked.",
-    },
-    {
-        id: "crew",
-        title: "The Crew & Your Captain",
-        description:
-            "A calm, capable captain and warm crew who anticipate needs. They guide, help, and host with genuine care from start to finish.",
-    },
-    {
-        id: "rhythm",
-        title: "Daily Rhythm & Atmosphere",
-        description:
-            "A smooth, flexible flow shaped around weather and energy. Sunrise starts, slow afternoons, and golden-hour stops that feel right each day.",
-    },
-    {
-        id: "cuisine",
-        title: "Fresh Cuisine",
-        description:
-            "Fresh, flavorful meals prepared with attention. Local ingredients, balanced options, and thoughtful touches that make dining onboard simple and satisfying.",
-    },
-    {
-        id: "purpose",
-        title: "Travel With Purpose",
-        description:
-            "Travel that gives back through respectful local partnerships and mindful routes. Small choices that support communities and protect the reefs we all come to love.",
-    },
-];
+// Feature items data - keys map to translation keys
+const featureKeys = [
+    "boatCabins",
+    "safety",
+    "crew",
+    "rhythm",
+    "cuisine",
+    "purpose",
+] as const;
 
 // Accordion Item Component (Mobile)
 function AccordionItem({
-    feature,
+    featureKey,
+    title,
+    description,
     isOpen,
     onToggle,
 }: {
-    feature: (typeof features)[0];
+    featureKey: string;
+    title: string;
+    description: string;
     isOpen: boolean;
     onToggle: () => void;
 }) {
@@ -210,11 +185,11 @@ function AccordionItem({
             <button
                 onClick={onToggle}
                 aria-expanded={isOpen}
-                aria-controls={`accordion-content-${feature.id}`}
+                aria-controls={`accordion-content-${featureKey}`}
                 className="w-full flex items-center justify-between py-4 px-2 text-left focus:outline-none focus:ring-2 focus:ring-[#6b4c3b] focus:ring-offset-2 rounded"
             >
                 <span className="font-canto text-lg text-neutral-900">
-                    {feature.title}
+                    {title}
                 </span>
                 <svg
                     className={`w-5 h-5 text-neutral-500 transition-transform duration-300 ease-out ${isOpen ? "rotate-90" : ""
@@ -232,7 +207,7 @@ function AccordionItem({
                 </svg>
             </button>
             <div
-                id={`accordion-content-${feature.id}`}
+                id={`accordion-content-${featureKey}`}
                 ref={contentRef}
                 className="overflow-hidden transition-all duration-300 ease-out"
                 style={{
@@ -242,7 +217,7 @@ function AccordionItem({
             >
                 <div className="pt-3 pb-4 px-4">
                     <p className="font-avenir text-sm leading-relaxed text-neutral-600">
-                        {feature.description}
+                        {description}
                     </p>
                 </div>
             </div>
@@ -252,6 +227,7 @@ function AccordionItem({
 
 export default function KapalSafetyExperience() {
     const [openAccordionId, setOpenAccordionId] = useState<string | null>(null);
+    const { t } = useTranslation();
 
     const toggleAccordion = (id: string) => {
         setOpenAccordionId((prev) => (prev === id ? null : id));
@@ -261,17 +237,17 @@ export default function KapalSafetyExperience() {
         <section id="boat-safety-experience" className="bg-white py-16 md:py-24 lg:py-32">
             {/* Section Header */}
             <div className="text-center mb-10 md:mb-14 px-4">
-                <Link href="/boat">
+                <LocaleLink href="/boat">
                     <h2 className="font-canto text-3xl md:text-4xl lg:text-5xl mb-4 text-neutral-900 hover:text-neutral-700 transition-colors cursor-pointer">
-                        In the details: Boat Safety & Experience
+                        {t("boatSection.sectionTitle")}
                     </h2>
-                </Link>
-                <Link
+                </LocaleLink>
+                <LocaleLink
                     href="/boat"
                     className="inline-flex items-center gap-2 text-sm md:text-base uppercase tracking-wider text-[#6B4C3B] hover:text-[#4A3429] transition-colors group font-avenir"
                 >
                     <span className="group-hover:underline underline-offset-4">
-                        Curated essentials: Explore All
+                        {t("boatSection.exploreAll")}
                     </span>
                     <svg
                         className="w-4 h-4 transition-transform group-hover:translate-x-1"
@@ -286,7 +262,7 @@ export default function KapalSafetyExperience() {
                             d="M9 5l7 7-7 7"
                         />
                     </svg>
-                </Link>
+                </LocaleLink>
             </div>
 
             {/* Desktop/Tablet Layout */}
@@ -297,25 +273,23 @@ export default function KapalSafetyExperience() {
                         <div className="pl-6 lg:pl-8 pr-4 flex flex-col justify-center">
                             {/* Title */}
                             <h2 className="font-canto text-3xl md:text-4xl lg:text-5xl leading-tight text-neutral-900">
-                                Sail easy, feel at home
+                                {t("boatSection.contentTitle")}
                             </h2>
 
                             {/* Intro */}
                             <p className="mt-6 md:mt-8 font-avenir text-sm md:text-base leading-relaxed text-neutral-600 max-w-lg">
-                                We travel unhurried. More sea, more silence, more care. These
-                                are the essentials that make every TogeanVoyage journey safe,
-                                comfortable, and deeply personal.
+                                {t("boatSection.contentDescription")}
                             </p>
 
                             {/* Feature Grid (2 columns × 3 rows) */}
                             <div className="mt-10 md:mt-12 grid grid-cols-2 gap-x-8 gap-y-8 lg:gap-x-12 lg:gap-y-10">
-                                {features.map((feature) => (
-                                    <div key={feature.id}>
+                                {featureKeys.map((featureKey) => (
+                                    <div key={featureKey}>
                                         <h3 className="font-canto text-xl md:text-2xl text-neutral-800">
-                                            {feature.title}
+                                            {t(`boatSection.features.${featureKey}.title`)}
                                         </h3>
                                         <p className="mt-3 font-avenir text-sm leading-relaxed text-neutral-500">
-                                            {feature.description}
+                                            {t(`boatSection.features.${featureKey}.description`)}
                                         </p>
                                     </div>
                                 ))}
@@ -334,14 +308,12 @@ export default function KapalSafetyExperience() {
             <div className="md:hidden px-4">
                 {/* Title */}
                 <h2 className="font-canto text-3xl leading-tight text-neutral-900 text-center">
-                    Sail easy, feel at home
+                    {t("boatSection.contentTitle")}
                 </h2>
 
                 {/* Intro */}
                 <p className="mt-6 font-avenir text-sm leading-relaxed text-neutral-600 text-center">
-                    We travel unhurried. More sea, more silence, more care. These are
-                    the essentials that make every TogeanVoyage journey safe,
-                    comfortable, and deeply personal.
+                    {t("boatSection.contentDescription")}
                 </p>
 
                 {/* Carousel */}
@@ -351,12 +323,14 @@ export default function KapalSafetyExperience() {
 
                 {/* Accordion */}
                 <div className="mt-8">
-                    {features.map((feature) => (
+                    {featureKeys.map((featureKey) => (
                         <AccordionItem
-                            key={feature.id}
-                            feature={feature}
-                            isOpen={openAccordionId === feature.id}
-                            onToggle={() => toggleAccordion(feature.id)}
+                            key={featureKey}
+                            featureKey={featureKey}
+                            title={t(`boatSection.features.${featureKey}.title`)}
+                            description={t(`boatSection.features.${featureKey}.description`)}
+                            isOpen={openAccordionId === featureKey}
+                            onToggle={() => toggleAccordion(featureKey)}
                         />
                     ))}
                 </div>

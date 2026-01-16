@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import LocaleLink from "@/components/LocaleLink";
 import { notFound } from "next/navigation";
 import { blogPosts } from "@/data/blogPosts";
 import Navbar from "@/components/Navbar";
@@ -201,12 +201,12 @@ export default async function BlogDetailPage({ params }: PageProps) {
 
                     {/* Bottom Nav */}
                     <div className="mt-20 pt-10 border-t border-neutral-200 flex justify-between items-center">
-                        <Link
+                        <LocaleLink
                             href="/"
                             className="font-avenir text-sm uppercase tracking-widest text-neutral-500 hover:text-neutral-900 transition-colors"
                         >
                             ← Back to Home
-                        </Link>
+                        </LocaleLink>
                         {/* Optional View All if /blog exists, otherwise could loop back to home or just be empty */}
                         {/* <Link 
                             href="/blog" 

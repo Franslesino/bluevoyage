@@ -13,37 +13,19 @@
  */
 
 import Image from "next/image";
-import Link from "next/link";
 import { useRef, useEffect, useCallback } from "react";
 import { truncateWords, mergeParagraphs } from "@/utils/textUtils";
 import ExploreAllLink from "./ExploreAllLink";
+import { useTranslation } from "./I18nProvider";
 
-// Data for 3 Local Community blocks
-const localCommunityData = [
-    {
-        imageSrc: "/local-communityy-1.jpg",
-        title: "Engage with locals and embrace the warmth of Togean people",
-        description: [
-            "The Togean Islands are more than a tropical escape—they're a gateway to heartfelt connections and timeless traditions. Meet the Bajau 'Sea Gypsies,' who live in harmony with the ocean, and the Pamona and Saluan communities, whose warmth and hospitality make every visitor feel at home. From stilted sea villages to vibrant cultural traditions, the Togean people embody the serenity and authenticity of these remote islands.",
-            "Let their stories, smiles, and traditions transform your trip into an unforgettable journey where nature and culture unite in perfect harmony.",
-        ],
-    },
-    {
-        imageSrc: "/local-communityy-2.jpg",
-        title: "Discover the traditional ways of island life",
-        description: [
-            "The Togean Islands are more than a tropical escape—they're a gateway to heartfelt connections and timeless traditions. Meet the Bajau 'Sea Gypsies,' who live in harmony with the ocean, and the Pamona and Saluan communities, whose warmth and hospitality make every visitor feel at home. From stilted sea villages to vibrant cultural traditions, the Togean people embody the serenity and authenticity of these remote islands.",
-            "Let their stories, smiles, and traditions transform your trip into an unforgettable journey where nature and culture unite in perfect harmony.",
-        ],
-    },
-    {
-        imageSrc: "/local-communityy-3.jpg",
-        title: "Create lasting memories with the island community",
-        description: [
-            "The Togean Islands are more than a tropical escape—they're a gateway to heartfelt connections and timeless traditions. Meet the Bajau 'Sea Gypsies,' who live in harmony with the ocean, and the Pamona and Saluan communities, whose warmth and hospitality make every visitor feel at home. From stilted sea villages to vibrant cultural traditions, the Togean people embody the serenity and authenticity of these remote islands.",
-            "Let their stories, smiles, and traditions transform your trip into an unforgettable journey where nature and culture unite in perfect harmony.",
-        ],
-    },
+// Block keys for translations
+const blockKeys = ["block1", "block2", "block3"] as const;
+
+// Image sources for the blocks
+const blockImages = [
+    "/local-communityy-1.jpg",
+    "/local-communityy-2.jpg",
+    "/local-communityy-3.jpg",
 ];
 
 // Parallax ranges in pixels per breakpoint
@@ -153,6 +135,8 @@ function LocalCommunityBlock({
 }
 
 export default function LocalCommunity() {
+    const { t } = useTranslation();
+    
     // Per-block refs for parallax
     const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
     const imageRefs = useRef<(HTMLDivElement | null)[]>([]);
@@ -231,7 +215,7 @@ export default function LocalCommunity() {
 
         let stillMoving = false;
 
-        for (let i = 0; i < localCommunityData.length; i++) {
+        for (let i = 0; i < blockKeys.length; i++) {
             const target = targetYValues.current[i];
             const current = currentYValues.current[i];
 
@@ -264,7 +248,7 @@ export default function LocalCommunity() {
         const scrollY = window.scrollY;
 
         // Compute target values for all blocks
-        for (let i = 0; i < localCommunityData.length; i++) {
+        for (let i = 0; i < blockKeys.length; i++) {
             targetYValues.current[i] = computeTargetY(i, scrollY);
         }
 
@@ -334,19 +318,22 @@ export default function LocalCommunity() {
                 {/* Section Heading */}
                 <div className="text-center mb-12 md:mb-20 lg:mb-24">
                     <h2 className="font-canto text-3xl md:text-4xl lg:text-5xl text-neutral-900 leading-tight">
-                        In the community: Local Encounters
+                        {t("localCommunitySection.sectionTitle")}
                     </h2>
-                    <ExploreAllLink href="/local-community" label="Curated Connections: Explore All" />
+                    <ExploreAllLink href="/local-community" label={t("localCommunitySection.exploreAll")} />
                 </div>
 
                 {/* Zig-Zag Blocks */}
                 <div className="space-y-16 md:space-y-24 lg:space-y-32">
-                    {localCommunityData.map((block, index) => (
+                    {blockKeys.map((blockKey, index) => (
                         <LocalCommunityBlock
-                            key={index}
-                            imageSrc={block.imageSrc}
-                            title={block.title}
-                            description={block.description}
+                            key={blockKey}
+                            imageSrc={blockImages[index]}
+                            title={t(`localCommunitySection.blocks.${blockKey}.title`)}
+                            description={[
+                                t(`localCommunitySection.blocks.${blockKey}.description1`),
+                                t(`localCommunitySection.blocks.${blockKey}.description2`)
+                            ]}
                             isReversed={index % 2 === 1}
                             index={index}
                             setSectionRef={(el) => { sectionRefs.current[index] = el; }}

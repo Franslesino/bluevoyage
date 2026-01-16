@@ -1,0 +1,578 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "destinations": "Destinasi",
+    "programs": "Program",
+    "wildlife": "Satwa Liar",
+    "localCommunity": "Komunitas Lokal",
+    "boatSafety": "Keamanan & Pengalaman Kapal",
+    "accommodation": "Akomodasi",
+    "blog": "Blog",
+    "howToBook": "Cara Memesan?",
+    "bookNow": "Pesan Sekarang",
+    "close": "Tutup",
+    "bookYourTrip": "Pesan Perjalanan Anda",
+    "socialMedia": "Media Sosial"
+  },
+  "hero": {
+    "tagline": "Beberapa tempat hanya dikunjungi. Yang lain, terasa, dengan menghubungkan kembali diri sendiri, orang lain, dan dunia di sekitar Anda."
+  },
+  "spotlight": {
+    "title": "Sorotan: Destinasi Unggulan",
+    "subtitle": "Pengalaman Terkurasi: Destinasi Unggulan",
+    "tagline": "KEPULAUAN TOGEAN",
+    "cta1": "Temukan terumbu matahari terbit",
+    "cta2": "Hanyut ke teluk tenang",
+    "cta3": "Jelajahi taman karang",
+    "cta4": "Saksikan fajar vulkanik",
+    "cta5": "Temukan ketenangan emas"
+  },
+  "programs": {
+    "title": "Cara menjelajah: Program Unggulan",
+    "subtitle": "Aktivitas Terkurasi: Jelajahi Semua",
+    "viewProgram": "Lihat program",
+    "sectionLabel": "Togean Voyages",
+    "pageTitle": "Program Unggulan",
+    "programsCount": "{{count}} Program",
+    "items": {
+      "snorkeling-diving": {
+        "name": "Snorkeling & menyelam",
+        "dateLabel": "Togean Voyages",
+        "description": "Jelajahi taman karang, dinding, dan bangkai kapal di Kadidiri, Una Una, dan Walea Kodi, dengan perairan hangat dan keanekaragaman hayati tinggi.",
+        "overview": "Sesi terpandu untuk pemula hingga penyelam mahir, mengutamakan keselamatan, kebiasaan ramah terumbu, dan lokasi visibilitas terbaik di Togean.",
+        "whatYoullDo": "Snorkeling di house reef, menyelam di drop-off dan bangkai B-24, latihan daya apung, dan belajar ekologi laut lokal dari instruktur.",
+        "bestTime": "Sepanjang tahun, namun laut paling tenang biasanya April-Oktober; banyak pemandu menilai Maret-Desember terbaik untuk menyelam.",
+        "notes": "Cocok untuk sebagian besar tingkat kebugaran. Bawa rashguard dan tabir surya ramah terumbu. Perlengkapan dapat diatur di resort; jadwal dapat bergeser dengan angin musiman."
+      },
+      "relaxing-sunbathing": {
+        "name": "Bersantai & berjemur",
+        "dateLabel": "Togean Voyages",
+        "description": "Tenang di pantai berpinggir pohon palem di Kadidiri, Malenge, Puat, dan Bomba—laguna jernih, pasir lembut, dan ketenangan pulau tanpa gangguan.",
+        "overview": "Program pantai yang mengutamakan kenyamanan dengan tempo fleksibel: berenang, membaca, tidur siang di hammock, dan menyegarkan diri di antara hari-hari berlayar dan aktivitas petualangan.",
+        "whatYoullDo": "Pilih berenang pagi, makan siang santai, jalan-jalan pantai, dan sesi matahari terbenam; pijat atau yoga opsional jika tersedia di resort.",
+        "bestTime": "Terbaik selama bulan-bulan kering April-Oktober untuk lebih banyak sinar matahari dan penyeberangan laut yang lebih mulus, meskipun waktu pantai memungkinkan sepanjang tahun.",
+        "notes": "Bawa tabir surya SPF tinggi, topi, dan botol air isi ulang. Matahari siang sangat terik; ambil istirahat di tempat teduh, tetap terhidrasi, dan lindungi kulit Anda setiap hari."
+      },
+      "hiking-viewpoints": {
+        "name": "Mendaki & titik pandang",
+        "dateLabel": "Togean Voyages",
+        "description": "Tukar terumbu dengan punggung bukit: jalan-jalan hutan di Malenge dan Batudaka, plus pendakian vulkanik Gunung Colo di Una Una untuk pemandangan teluk yang luas.",
+        "overview": "Pendakian pendek hingga sedang disesuaikan dengan tempo Anda, dengan pemandu lokal yang menyoroti geologi, flora, dan titik pandang matahari terbit atau terbenam terbaik.",
+        "whatYoullDo": "Mendaki puncak gunung berapi, jalur hutan, jalan setapak desa-ke-pantai, dan titik pandang tebing (termasuk sekitar Luwuk); banyak foto stop dan berenang menyegarkan setelahnya.",
+        "bestTime": "April-Oktober biasanya lebih kering untuk jalur; hindari bulan-bulan berangin ketika transfer kapal dan rencana pendakian dapat berubah.",
+        "notes": "Kenakan sepatu tertutup, bawa obat nyamuk dan 1-2 liter air. Mulai lebih awal untuk suhu lebih sejuk; pemandu direkomendasikan untuk Gunung Colo."
+      },
+      "local-community-immersion": {
+        "name": "Imersi komunitas lokal",
+        "dateLabel": "Togean Voyages",
+        "description": "Temui komunitas pulau: desa Bajau suku laut dekat Malenge, perkampungan nelayan seperti Bomba, dan kehidupan sehari-hari di pasar dan kafe Luwuk.",
+        "overview": "Kunjungan budaya dampak rendah yang berfokus pada rasa hormat: pelajari adat istiadat, berbagi cerita, dukung mata pencaharian lokal, dan pahami bagaimana pulau-pulau bergantung pada laut.",
+        "whatYoullDo": "Jalan-jalan di jembatan desa, bergabung makan masakan rumah, menonton nelayan dan pembuatan perahu, belanja produk lokal, dan berlatih salam Bahasa sederhana dengan tuan rumah.",
+        "bestTime": "Sepanjang tahun. Pilih bulan-bulan lebih tenang untuk transfer kapal yang lebih mudah, dan rencanakan kunjungan sesuai rutinitas komunitas (waktu memancing, sekolah, shalat).",
+        "notes": "Berpakaian sopan di desa, minta izin sebelum foto, dan bawa uang tunai kecil untuk kerajinan atau donasi. Pemandu Anda akan membantu dengan etiket dan terjemahan."
+      },
+      "wildlife-spotting": {
+        "name": "Pengamatan satwa liar",
+        "dateLabel": "Togean Voyages",
+        "description": "Temukan spesies endemik pulau dan megafauna laut: monyet Togean, kepiting kelapa, penyu laut, dan (dengan keberuntungan) dugong—selalu dari jarak yang terhormat.",
+        "overview": "Outing fokus satwa liar terpandu yang menggabungkan waktu di terumbu, jalan-jalan hutan, dan pencarian malam, mengutamakan pengamatan etis dan kesadaran konservasi.",
+        "whatYoullDo": "Snorkeling mencari penyu, memindai teluk lamun untuk dugong, bergabung jalan-jalan pantai senja, dan ikut jalan malam terpandu mencari kepiting kelapa.",
+        "bestTime": "Sepanjang tahun, tetapi laut lebih tenang April-Oktober meningkatkan akses kapal dan visibilitas; pengamatan malam sering membaik setelah hujan.",
+        "notes": "Gunakan lampu merah di malam hari, jaga kebisingan rendah, jangan pernah memberi makan satwa liar, dan ikuti instruksi pemandu. Bawa baju lengan panjang dan obat nyamuk untuk jalan-jalan hutan."
+      },
+      "beach-exploration-hidden-coves": {
+        "name": "Eksplorasi pantai & teluk tersembunyi",
+        "dateLabel": "Togean Voyages",
+        "description": "Jelajahi teluk tenang, gosong pasir, dan teluk rahasia dengan perahu atau kayak—sempurna untuk fotografi, berenang, dan menemukan pantai hampir tanpa jejak kaki.",
+        "overview": "Program island-hopping fleksibel yang dirancang sesuai pasang surut dan cuaca, menggabungkan transfer singkat dengan pemberhentian pantai panjang di Puat, Malenge, Kadidiri, dan Bomba.",
+        "whatYoullDo": "Berpindah pulau dengan perahu ke pulau tak berpenghuni, piknik di gosong pasir, snorkeling di antara pemberhentian, dan berjalan di garis pantai mencari tempat berenang dan sudut matahari terbenam terbaik.",
+        "bestTime": "April-Oktober untuk penyeberangan lebih tenang dan air lebih jernih; rencanakan sesuai pasang surut untuk gosong pasir dan laguna dangkal.",
+        "notes": "Bawa tas tahan air, sepatu air, dan air minum ekstra. Pantai terpencil tidak memiliki layanan; jangan tinggalkan apa pun dan hindari mengumpulkan karang atau kerang."
+      },
+      "stargazing": {
+        "name": "Mengamati bintang",
+        "dateLabel": "Togean Voyages",
+        "description": "Nikmati malam langit gelap di pulau terpencil: lihat Bima Sakti, hujan meteor, dan rasi bintang terang dari pantai tenang dengan polusi cahaya minimal.",
+        "overview": "Program malam tanpa gadget yang memadukan relaksasi pantai dengan pengamatan langit, bercerita, dan tips astrofotografi opsional dari pemandu.",
+        "whatYoullDo": "Bersiap di pantai menghadap barat, pelajari rasi bintang utama, amati satelit dan bintang jatuh, dan tangkap foto eksposur panjang dengan tripod atau ponsel.",
+        "bestTime": "Langit paling jernih biasanya di bulan-bulan kering April-Oktober; jadwalkan sesuai fase bulan untuk langit lebih gelap, dan hindari malam transfer paling berangin.",
+        "notes": "Bawa headlamp (mode merah), jaket ringan untuk angin laut, dan obat nyamuk. Hormati jam tenang; jaga cahaya rendah untuk melindungi penglihatan malam."
+      }
+    },
+    "detail": {
+      "signatureProgram": "Program Unggulan",
+      "overview": "Gambaran Umum",
+      "whatYoullDo": "Yang akan Anda lakukan",
+      "bestTime": "Waktu terbaik",
+      "notes": "Catatan",
+      "seeAllPrograms": "Lihat semua program"
+    }
+  },
+  "localCommunityPage": {
+    "heroTitle": "Wajah & Cerita: Komunitas Lokal",
+    "heroDescription": "Di mana sapaan hangat bertemu tradisi yang kaya. Masuki momen keseharian, pelajari ritme pulau, dan pulang dengan persahabatan, bukan hanya foto.",
+    "backLabel": "Kembali ke Beranda",
+    "items": {
+      "village-walks": {
+        "title": "Menyeimbangkan Keranjang, Senyum Pagi",
+        "body": "Berjalan di jalan desa saat tetangga membawa hasil panen dan barang rumah tangga dengan mudah. Sapa, berbagi tawa, dan lihat sekilas ritme pagi pulau di mana pekerjaan dan kehangatan berjalan bersama."
+      },
+      "sea-gypsy": {
+        "title": "Hiruk Pikuk Pasar Ikan Pelabuhan",
+        "body": "Masuki pasar tepi laut di mana tangkapan hari ini menjadi makan malam nanti. Saksikan tawar-menawar ramah, pelajari nama ikan, dan temui nelayan dan penjual yang menjaga kehidupan pesisir tetap hidup dan terhubung."
+      },
+      "shared-meals": {
+        "title": "Naik Perahu Pulau, Tawa Bersama",
+        "body": "Berlayar antara terumbu dan desa dengan awak perahu lokal dan sesama pelancong. Tukar cerita, ambil foto cepat, dan rasakan bagaimana waktu laut bersama mengubah orang asing menjadi tim kecil."
+      },
+      "respectful-photos": {
+        "title": "Lingkaran Tenun dan Kebanggaan Komunitas",
+        "body": "Duduk bersama pengrajin wanita saat mereka menjahit tekstil berani dengan tangan sementara anak-anak tertawa di dekatnya. Pelajari makna pola, dukung mata pencaharian lokal, dan pulang dengan cerita yang bisa Anda kenakan."
+      }
+    }
+  },
+  "wildlife": {
+    "title": "Di mana bertemu alam liar",
+    "description": "Temui keanekaragaman hayati luar biasa Kepulauan Togean. Dari lumba-lumba yang bermain hingga penyu purba, ikan terumbu berwarna-warni hingga burung endemik langka – temukan satwa liar baik di atas maupun di bawah air.",
+    "exploreButton": "Jelajahi satwa liar",
+    "land": "Satwa Darat",
+    "sea": "Satwa Laut",
+    "heroTitle": "Satwa Liar di Togean",
+    "seaPage": {
+      "title": "Satwa Laut",
+      "description": "Temukan penghuni Segitiga Karang"
+    },
+    "landPage": {
+      "title": "Satwa Darat",
+      "description": "Temukan spesies unik hutan hujan"
+    }
+  },
+  "wildlifeIntro": {
+    "title": "Jelajahi terumbu dan hutan Togean melalui panduan lapangan hidup",
+    "description": "Dari penyu dan dugong hingga primata endemik, pulau-pulau ini menyimpan perjumpaan langka. Temukan apa yang harus dicari, kapan harus pergi, dan bagaimana mengamati dengan bertanggung jawab."
+  },
+  "wildlifeGallery": {
+    "title": "Panduan lapangan Togean dan Luwuk",
+    "description": "Sekilas pandang ikon laut dan penghuni hutan yang mungkin Anda temui di terumbu, bakau, dan jalur pulau.",
+    "details": "Detail",
+    "species": {
+      "green-sea-turtle": { "name": "Penyu Hijau", "localName": "Penyu Hijau" },
+      "hawksbill-turtle": { "name": "Penyu Sisik", "localName": "Penyu Sisik" },
+      "napoleon-wrasse": { "name": "Ikan Napoleon", "localName": "Ikan Napoleon" },
+      "dugong": { "name": "Dugong", "localName": "Duyung" },
+      "giant-clam": { "name": "Kima Raksasa", "localName": "Kima" },
+      "seahorse": { "name": "Kuda Laut", "localName": "Kuda Laut" },
+      "stingless-jellyfish": { "name": "Ubur-ubur Tak Menyengat", "localName": "Ubur-ubur tak menyengat" },
+      "togian-monkey": { "name": "Monyet Togean", "localName": "Monyet Togean" },
+      "togean-tarsier": { "name": "Tarsius Togean", "localName": "Tarsius Togean" },
+      "togian-babirusa": { "name": "Babirusa Togean", "localName": "Babirusa Togean" },
+      "knobbed-hornbill": { "name": "Rangkong Sulawesi", "localName": "Rangkong Sulawesi" },
+      "coconut-crab": { "name": "Kepiting Kelapa", "localName": "Kepiting Kelapa" },
+      "sulawesi-cuscus": { "name": "Kuskus Sulawesi", "localName": "Kuskus Sulawesi" }
+    }
+  },
+  "wildlifeCarousel": {
+    "togean-monkey": {
+      "name": "Monyet Togean",
+      "scientific": "Macaca tonkeana togeanus",
+      "description": "Kera endemik pulau, pencari makan hutan yang ingin tahu."
+    },
+    "togean-babirusa": {
+      "name": "Babirusa Togean",
+      "scientific": "Babyrousa togeanensis",
+      "description": "Babi bertaring langka, pemalu di hutan lebat."
+    },
+    "togean-golden-bulbul": {
+      "name": "Cucak Emas Togean",
+      "scientific": "Hypsipetes aureus",
+      "description": "Burung penyanyi berbulu emas, penghuni kanopi endemik."
+    },
+    "giant-clam": {
+      "name": "Kima Raksasa",
+      "scientific": "Tridacna spp.",
+      "description": "Raksasa terumbu yang dilindungi, mantel berwarna menyaring air."
+    },
+    "togean-water-monitor": {
+      "name": "Biawak Togean",
+      "scientific": "Varanus togianus",
+      "description": "Biawak pulau besar, berjemur dekat bakau."
+    },
+    "togean-tarsier": {
+      "name": "Tarsius Togean",
+      "scientific": "Tarsius niemitzi",
+      "description": "Tarsius bermata besar nokturnal, paling baik dilihat di malam hari."
+    }
+  },
+  "blogPosts": {
+    "responsible-wildlife-encounters": {
+      "title": "Perjumpaan satwa liar yang bertanggung jawab dan etiket terumbu di Togean",
+      "excerpt": "Temukan kehidupan laut yang semarak di Kepulauan Togean. Dari taman karang berwarna-warni hingga ikan terumbu yang bermain, pelajari cara mengamati keajaiban ini dengan hormat tanpa mengganggu habitat alami mereka. Panduan kami memastikan petualangan berkelanjutan untuk semua orang.",
+      "locationLabel": "Togean",
+      "date": "03 Jan, 2026",
+      "category": "Jurnal"
+    },
+    "best-snorkeling-spots": {
+      "title": "Lokasi snorkeling terbaik dan apa yang mungkin Anda lihat",
+      "excerpt": "Terjun ke perairan jernih kristal Togean. Kami ungkap lokasi snorkeling teratas di mana Anda dapat melihat kima raksasa, penyu laut, dan varietas ikan tropis tanpa batas. Bersiaplah untuk perjalanan bawah air yang tak tertandingi.",
+      "locationLabel": "Togean",
+      "date": "15 Feb, 2026",
+      "category": "Jurnal"
+    },
+    "village-visit-etiquette": {
+      "title": "Etiket kunjungan desa dan cara mendukung komunitas lokal",
+      "excerpt": "Rasakan kehangatan masyarakat Bajau. Panduan ini menguraikan hal yang boleh dan tidak boleh dilakukan secara budaya saat mengunjungi desa lokal, memastikan interaksi Anda penuh hormat dan mendukung mata pencaharian komunitas pulau unik ini.",
+      "locationLabel": "Togean",
+      "date": "10 Mar, 2026",
+      "category": "Jurnal"
+    }
+  },
+  "accommodation": {
+    "sectionLabel": "Togean Voyages",
+    "title": "Beristirahat: Rumah Singgah Pulau",
+    "subtitle": "Penginapan Terkurasi: Jelajahi Semua",
+    "contentTitle": "Menginap nyaman, merasa di rumah",
+    "contentDescription": "Menginap tanpa terburu-buru, kenyamanan sederhana pulau, dan tuan rumah yang hangat. Anda menjelajah di siang hari, lalu bersantai di darat di rumah singgah yang dipilih dengan cermat.",
+    "exploreAll": "Lihat Semua Akomodasi",
+    "pageTitle": "Akomodasi",
+    "pageSubtitle": "Penginapan terkurasi di seluruh pulau",
+    "tabs": {
+      "all": "Semua",
+      "pulauPuat": "Pulau Puat",
+      "malengue": "Malenge",
+      "waleaKodi": "Walea Kodi"
+    },
+    "slides": {
+      "pulatPuat": {
+        "title": "Pulau Puat",
+        "description": "Ketenangan rumah singgah tepi laut sederhana, dengan pemandangan matahari terbit dan akses perahu yang mudah."
+      },
+      "malengue": {
+        "title": "Malenge",
+        "description": "Penginapan desa tenang dengan malam berangin dan keramahan lokal yang hangat."
+      },
+      "waleaKodi": {
+        "title": "Walea Kodi",
+        "description": "Pangkalan istirahat dekat terumbu, sempurna untuk pagi santai dan snorkeling dini."
+      },
+      "unaUna": {
+        "title": "Una Una",
+        "description": "Suasana pulau vulkanik, malam sejuk, dan tempat damai untuk menyegarkan diri."
+      }
+    },
+    "items": {
+      "pp-1": {
+        "title": "The Deck House",
+        "description": "Bertengger di atas air dengan akses langsung ke laguna. Tidur dengan suara ombak lembut."
+      },
+      "pp-2": {
+        "title": "Garden Villa",
+        "description": "Tersembunyi di antara pepohonan palem untuk privasi total. Tempat teduh dan sejuk beberapa langkah dari pasir."
+      },
+      "ma-1": {
+        "title": "Sunrise Room",
+        "description": "Menghadap timur untuk pagi keemasan. Lapang, penuh cahaya, dan difurnish sederhana untuk ketenangan."
+      },
+      "ma-2": {
+        "title": "The Loft",
+        "description": "Pemandangan tinggi dari kanopi dan laut. Langit-langit tinggi dan angin silang menjaganya tetap sejuk secara alami."
+      },
+      "wk-1": {
+        "title": "Veranda Suite",
+        "description": "Hidup di luar ruangan. Teras pribadi besar menjadi ruang tamu, ruang makan, dan tempat tidur siang Anda."
+      },
+      "wk-2": {
+        "title": "Reef Edge Cottage",
+        "description": "Paling dekat dengan drop-off yang bisa Anda dapatkan. Saksikan penyu lewat dari tempat kopi pagi Anda."
+      }
+    },
+    "features": {
+      "guestHouse": {
+        "title": "Di tepi laut saat matahari terbit, di bawah bintang saat malam",
+        "description": "Bangun dengan cahaya laut lembut, tertidur dengan ombak. Malam di udara terbuka, langit cerah, dan ritme pulau lambat yang mengatur ulang jam tubuh Anda."
+      },
+      "comfort": {
+        "title": "Dibuat dengan kayu lokal",
+        "description": "Dibangun dengan kayu lokal dan keahlian pulau. Tekstur alami, sambungan kokoh, dan nuansa hangat, membumi yang pas dengan lanskap."
+      },
+      "sharedSpaces": {
+        "title": "Tidur nyenyak & kenyamanan tenang",
+        "description": "Tempat tidur bersih, sirkulasi udara baik, dan malam tanpa kebisingan. Kenyamanan sederhana yang membantu Anda istirahat dalam dan bangun siap untuk waktu perahu esok hari."
+      },
+      "hosts": {
+        "title": "Menginap di pantai terjaga, dipilih dengan sengaja",
+        "description": "Kami memilih pantai yang tetap tenang dan terawat. Jejak minimal, lebih sedikit kerumunan, dan pengaturan yang menjaga alam tetap tak tersentuh."
+      },
+      "meals": {
+        "title": "Dirancang dengan kepedulian untuk penginapan yang thoughtful",
+        "description": "Detail kecil yang dilakukan dengan benar: keteduhan, tempat duduk, penyimpanan, dan pencahayaan. Ruang yang terasa penuh pertimbangan, praktis, dan mudah ditinggali."
+      },
+      "impact": {
+        "title": "Malam dibuat tenang dan intim",
+        "description": "Teh matahari terbenam, lampu lembut, dan percakapan tenang. Akhir hari yang lembut, di mana Anda bisa membaca, merenung, atau sekadar mendengarkan laut."
+      }
+    }
+  },
+  "localCommunity": {
+    "title": "Temui penduduk lokal",
+    "description": "Terhubung dengan komunitas berhati hangat di Kepulauan Togean. Rasakan kehidupan desa otentik, kerajinan tradisional, dan adat istiadat berusia berabad-abad yang diturunkan dari generasi ke generasi.",
+    "exploreButton": "Temukan pengalaman lokal"
+  },
+  "localCommunitySection": {
+    "sectionTitle": "Di komunitas: Perjumpaan Lokal",
+    "exploreAll": "Koneksi Terkurasi: Jelajahi Semua",
+    "blocks": {
+      "block1": {
+        "title": "Berinteraksi dengan penduduk lokal dan rasakan kehangatan masyarakat Togean",
+        "description1": "Kepulauan Togean lebih dari sekadar pelarian tropis—mereka adalah gerbang ke koneksi tulus dan tradisi abadi. Temui Bajau 'Suku Laut,' yang hidup selaras dengan laut, dan komunitas Pamona dan Saluan, yang kehangatan dan keramahannya membuat setiap pengunjung merasa di rumah. Dari desa laut di atas tiang hingga tradisi budaya yang semarak, masyarakat Togean mewujudkan ketenangan dan keaslian pulau-pulau terpencil ini.",
+        "description2": "Biarkan cerita, senyum, dan tradisi mereka mengubah perjalanan Anda menjadi pengalaman tak terlupakan di mana alam dan budaya bersatu dalam harmoni sempurna."
+      },
+      "block2": {
+        "title": "Temukan cara tradisional kehidupan pulau",
+        "description1": "Kepulauan Togean lebih dari sekadar pelarian tropis—mereka adalah gerbang ke koneksi tulus dan tradisi abadi. Temui Bajau 'Suku Laut,' yang hidup selaras dengan laut, dan komunitas Pamona dan Saluan, yang kehangatan dan keramahannya membuat setiap pengunjung merasa di rumah. Dari desa laut di atas tiang hingga tradisi budaya yang semarak, masyarakat Togean mewujudkan ketenangan dan keaslian pulau-pulau terpencil ini.",
+        "description2": "Biarkan cerita, senyum, dan tradisi mereka mengubah perjalanan Anda menjadi pengalaman tak terlupakan di mana alam dan budaya bersatu dalam harmoni sempurna."
+      },
+      "block3": {
+        "title": "Ciptakan kenangan abadi bersama komunitas pulau",
+        "description1": "Kepulauan Togean lebih dari sekadar pelarian tropis—mereka adalah gerbang ke koneksi tulus dan tradisi abadi. Temui Bajau 'Suku Laut,' yang hidup selaras dengan laut, dan komunitas Pamona dan Saluan, yang kehangatan dan keramahannya membuat setiap pengunjung merasa di rumah. Dari desa laut di atas tiang hingga tradisi budaya yang semarak, masyarakat Togean mewujudkan ketenangan dan keaslian pulau-pulau terpencil ini.",
+        "description2": "Biarkan cerita, senyum, dan tradisi mereka mengubah perjalanan Anda menjadi pengalaman tak terlupakan di mana alam dan budaya bersatu dalam harmoni sempurna."
+      }
+    }
+  },
+  "blog": {
+    "title": "Temukan inspirasi di sini",
+    "viewAll": "Lihat Semua",
+    "readMore": "Baca Selengkapnya",
+    "backToHome": "KEMBALI KE BLOG",
+    "pageTitle": "Temukan Inspirasi Di Sini",
+    "storiesCount": "{{count}} Cerita"
+  },
+  "cta": {
+    "eyebrow": "SIAP SAAT ANDA SIAP",
+    "title": "Mulai perjalanan Anda sekarang — bicara dengan perancang perjalanan kami",
+    "description": "Bagikan tanggal dan tempo Anda. Kami akan membentuk itinerari tenang, dipimpin pulau yang dibangun sesuai Anda.",
+    "button": "Chat di WhatsApp"
+  },
+  "footer": {
+    "brandName": "Togean Voyages",
+    "brandDescription": "Rasakan keindahan tak tersentuh Kepulauan Togean. Kami mengkurasi perjalanan lambat yang menghubungkan Anda dengan alam, budaya, dan ketenangan laut.",
+    "infosTitle": "Info",
+    "contactTitle": "Hubungi Kami",
+    "address1": "Graha STR, Jl. Ampera Raya No.11B, Jakarta",
+    "address2": "Jl. Soekarno Hatta, No 13A, Manggarai Barat.",
+    "company": "PT Build Creative Realm"
+  },
+  "common": {
+    "backToHome": "KEMBALI KE BERANDA",
+    "backToDestinations": "Kembali ke Destinasi",
+    "backToPrograms": "Kembali ke Program",
+    "backToBlog": "Kembali ke Blog",
+    "backToWildlife": "KEMBALI KE SATWA LIAR",
+    "backToLocalCommunity": "Kembali ke Komunitas Lokal",
+    "discover": "Temukan",
+    "explore": "Jelajahi",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "togeanArchipelago": "Kepulauan Togean",
+    "togeanVoyages": "Togean Voyages",
+    "viewDetails": "Lihat Detail",
+    "readMore": "Baca Selengkapnya",
+    "viewAll": "Lihat Semua",
+    "back": "Kembali",
+    "details": "Detail >",
+    "viewAllPosts": "Lihat Semua Artikel",
+    "seeAllDestinations": "Lihat semua destinasi",
+    "species": "Spesies"
+  },
+  "destinations": {
+    "sectionLabel": "Togean Voyages",
+    "title": "Destinasi",
+    "destinationsCount": "Destinasi",
+    "pageTitle": "Destinasi",
+    "count": "{{count}} Destinasi",
+    "items": {
+      "pulau-puah": {
+        "name": "Pulau Puah",
+        "description": "Pulau terpencil yang menawarkan ketenangan absolut, pantai pasir putih tak tersentuh, dan terumbu karang yang berkembang jauh dari keramaian."
+      },
+      "malenge": {
+        "name": "Malenge",
+        "description": "Surga tropis dengan hutan lebat dan pantai tak tersentuh, rumah bagi budaya suku laut Bajo yang menarik."
+      },
+      "waleakodi": {
+        "name": "Walea Kodi",
+        "description": "Tempat persembunyian terpencil dengan terumbu karang murni dan resort ramah lingkungan, sempurna untuk pengalaman terdampar pribadi."
+      },
+      "una-una": {
+        "name": "Una Una",
+        "description": "Permata vulkanik dengan pasir hitam unik dan perairan kaya nutrisi yang dipenuhi kehidupan laut spektakuler."
+      },
+      "kadidiri": {
+        "name": "Kadidiri",
+        "description": "Pusat perjalanan Togean, menampilkan pantai pasir putih halus, house reef berwarna-warni, dan suasana ramah."
+      },
+      "bomba": {
+        "name": "Bomba",
+        "description": "Tempat retreat tenang di selatan dengan pantai idilis, hutan bakau, dan matahari terbenam megah di atas teluk."
+      },
+      "luwuk": {
+        "name": "Luwuk",
+        "description": "Gerbang daratan indah ke Togean, menawarkan pemandangan pesisir dramatis dan kenyamanan modern sebelum petualangan pulau Anda."
+      }
+    }
+  },
+  "boatExperience": {
+    "title": "Keamanan & Pengalaman Kapal",
+    "subtitle": "Perjalanan Anda di atas air",
+    "safetyFirst": "Keamanan Utama",
+    "comfortOnBoard": "Kenyamanan di Kapal",
+    "experiencedCrew": "Awak Berpengalaman"
+  },
+  "boatSection": {
+    "sectionTitle": "Dalam detail: Keamanan & Pengalaman Kapal",
+    "exploreAll": "Esensial terkurasi: Jelajahi Semua",
+    "contentTitle": "Berlayar nyaman, merasa di rumah",
+    "contentDescription": "Kami bepergian tanpa terburu-buru. Lebih banyak laut, lebih banyak keheningan, lebih banyak kepedulian. Ini adalah hal-hal esensial yang membuat setiap perjalanan TogeanVoyage aman, nyaman, dan sangat personal.",
+    "features": {
+      "boatCabins": {
+        "title": "Kapal, Kabin & Ruang Bersama",
+        "description": "Tata letak mengutamakan kenyamanan dengan area bersantai teduh, kabin berangin, dan sudut sosial. Ruang untuk meregangkan badan, membaca, tidur siang, dan berkumpul tanpa merasa sesak."
+      },
+      "safety": {
+        "title": "Keamanan di Kapal",
+        "description": "Rutinitas mengutamakan keselamatan, briefing jelas, dan perlengkapan terawat baik. Anda bisa rileks sepenuhnya mengetahui setiap detail direncanakan dan diperiksa."
+      },
+      "crew": {
+        "title": "Awak & Kapten Anda",
+        "description": "Kapten tenang dan cakap serta awak hangat yang mengantisipasi kebutuhan. Mereka membimbing, membantu, dan menjadi tuan rumah dengan kepedulian tulus dari awal hingga akhir."
+      },
+      "rhythm": {
+        "title": "Ritme & Suasana Harian",
+        "description": "Alur mulus dan fleksibel yang dibentuk sesuai cuaca dan energi. Mulai matahari terbit, sore santai, dan pemberhentian golden-hour yang terasa pas setiap hari."
+      },
+      "cuisine": {
+        "title": "Masakan Segar",
+        "description": "Makanan segar dan beraroma yang disiapkan dengan perhatian. Bahan lokal, pilihan seimbang, dan sentuhan thoughtful yang membuat makan di kapal sederhana dan memuaskan."
+      },
+      "purpose": {
+        "title": "Bepergian dengan Tujuan",
+        "description": "Perjalanan yang memberi kembali melalui kemitraan lokal yang hormat dan rute yang penuh perhatian. Pilihan kecil yang mendukung komunitas dan melindungi terumbu yang kita semua cintai."
+      }
+    }
+  },
+  "boat": {
+    "backToBoat": "KEMBALI KE KAPAL",
+    "heroLabel": "Pengalaman di Kapal",
+    "heroTitle": "Keamanan, Layanan, & Kemewahan Sederhana",
+    "heroDescription": "Temukan detail yang membuat setiap perjalanan mulus, aman, dan berkesan. Dari keahlian kapten kami hingga kenyamanan tenang di dek.",
+    "items": {
+      "safety": {
+        "title": "Keamanan, tanpa ribet",
+        "body": "Briefing jelas, jaket pelampung andal, dan rutinitas tenang menjaga semuanya stabil. Dari pemeriksaan cuaca hingga transfer aman, setiap langkah ditangani dengan tenang, jadi Anda merasa percaya diri dan bebas menikmati laut."
+      },
+      "crew": {
+        "title": "Kenyamanan di ruang bersama",
+        "body": "Lounge teduh, tempat duduk lembut, dan tata letak mudah membuat kapal terasa seperti ruang tamu mengapung. Meregangkan badan, ngemil, ngobrol, atau tidur siang dengan sirkulasi udara baik dan tanpa sudut sempit."
+      },
+      "comfort": {
+        "title": "Kepelayaran yang bisa Anda rasakan",
+        "body": "Kapten yang membaca angin, arus, dan warna terumbu sekilas. Pendekatan mulus, tempo stabil, dan pilihan rute cerdas mengubah penyeberangan menjadi momen tenang dan dapat diprediksi, bahkan dalam kondisi berubah."
+      },
+      "experience": {
+        "title": "Air keemasan, momen lambat",
+        "body": "Beberapa kenangan terbaik terjadi di antara pulau-pulau. Perairan dangkal biru terumbu, pagi berkaca, dan meluncur matahari terbenam mengundang Anda untuk berhenti, bernapas, dan membiarkan laut mengatur suasana hari itu."
+      }
+    }
+  },
+  "boatAndAccommodations": {
+    "pageTitle": "Kapal & Penginapan",
+    "subtitle": "Keamanan, kenyamanan, dan istirahat di sisi pulau. Setiap perjalanan dan tidur terasa dipertimbangkan.",
+    "boatSectionTitle": "Kapal: Keamanan, Pengalaman & Kenyamanan",
+    "accommodationSectionTitle": "Akomodasi: Rumah Singgah Pulau",
+    "boatItems": {
+      "speed-of-silence": {
+        "title": "Kecepatan Keheningan",
+        "description": "Meluncur melalui kepulauan di speedboat kayu premium kami. Dirancang untuk transfer mulus dan cruise matahari terbenam."
+      },
+      "lounge-horizon": {
+        "title": "Lounge & Horizon",
+        "description": "Kenyamanan teduh, dek jati, dan biru tanpa akhir. Ideal untuk hari-hari malas panjang di antara penyelaman."
+      },
+      "safety-service": {
+        "title": "Keamanan & Layanan",
+        "description": "Keselamatan Anda adalah ritual kami. Awak ahli, perlengkapan top-tier, dan kepedulian tulus di setiap interaksi."
+      },
+      "lagoon-explorer": {
+        "title": "Penjelajah Laguna",
+        "description": "Navigasi terumbu dangkal dan laguna tersembunyi di mana kapal lebih besar tidak bisa menjangkau. Pencelupan murni."
+      }
+    },
+    "stayItems": {
+      "pulau-puat": {
+        "title": "Rumah Singgah Pulau Puat",
+        "description": "Kemewahan berkelanjutan yang terjalin dalam hutan. Bangun dengan suara ombak dan kicau burung."
+      },
+      "malenge": {
+        "title": "Rumah Singgah Malenge",
+        "description": "Kamar lapang dan penuh cahaya dengan pemandangan laut panorama. Kesederhanaan bertemu kenyamanan premium."
+      },
+      "walea-kodi": {
+        "title": "Rumah Singgah Walea Kodi",
+        "description": "Teras pribadi Anda sendiri untuk jam-jam keemasan. Bersantai di hammock di mana waktu berhenti."
+      },
+      "una-una": {
+        "title": "Rumah Singgah Una Una",
+        "description": "Berkumpul di bawah pohon palem untuk pesta komunal. Cahaya hangat, lantai pasir, dan cerita tak terlupakan."
+      }
+    }
+  },
+  "howToBooking": {
+    "tagline": "Cepat, sederhana, dan personal",
+    "pageTitle": "Cara memesan",
+    "pageDescription": "Kami percaya pada koneksi langsung. Semua pemesanan dikonfirmasi secara personal via WhatsApp atau email untuk memastikan itinerari Anda disesuaikan sempurna dengan kebutuhan Anda.",
+    "whatsappTitle": "Pesan via WhatsApp",
+    "whatsappDescription": "Cara tercepat untuk mengamankan tempat Anda. Kami biasanya membalas dalam satu jam selama hari kerja. Kirim pesan cepat untuk cek ketersediaan.",
+    "whatsappButton": "Pesan di WhatsApp",
+    "emailTitle": "Pesan via Email",
+    "emailDescription": "Lebih suka itinerari detail di inbox Anda? Kirim persyaratan Anda dan kami akan menyusun proposal khusus untuk Anda.",
+    "emailButton": "Email Kami",
+    "detailsTitle": "Kirim detail ini",
+    "detailItem1": "Tanggal pilihan Anda",
+    "detailItem2": "Ukuran grup",
+    "detailItem3": "Minat (snorkeling, kunjungan desa, satwa liar, dll.)",
+    "detailItem4": "Kebutuhan diet",
+    "detailItem5": "Titik jemput (jika ada)",
+    "detailItem6": "Kisaran budget (opsional)",
+    "detailItem7": "Permintaan khusus",
+    "paymentTitle": "Opsi pembayaran",
+    "paymentDescription": "Untuk mengamankan pemesanan Anda, kami biasanya memerlukan deposit dengan saldo tersisa jatuh tempo lebih dekat ke tanggal perjalanan Anda. Kami menerima Transfer Bank dan Kartu Debit.",
+    "paymentNote": "Detail pembayaran dan tenggat waktu yang tepat akan dibagikan dalam konfirmasi pemesanan Anda.",
+    "faqTitle": "Pertanyaan Umum",
+    "faq1Question": "Berapa lama konfirmasi memakan waktu?",
+    "faq1Answer": "Kami bertujuan untuk membalas semua pertanyaan dalam 24 jam. Untuk pesan WhatsApp selama jam kerja, Anda bisa mengharapkan respons dalam satu jam.",
+    "faq2Question": "Bisakah saya mengubah tanggal?",
+    "faq2Answer": "Ya, kami fleksibel. Perubahan tanggal tergantung ketersediaan. Mohon beritahu kami sesegera mungkin jika Anda perlu menjadwalkan ulang.",
+    "faq3Question": "Apakah Anda mengakomodasi pembatasan diet?",
+    "faq3Answer": "Tentu saja. Baik vegetarian, vegan, atau alergi, kami memastikan makanan Anda aman dan lezat. Cukup sebutkan saat Anda memesan.",
+    "faq4Question": "Apakah ini privat atau berbagi?",
+    "faq4Answer": "Kami menawarkan kedua opsi. Sebagian besar itinerari kami privat untuk pengalaman yang dipersonalisasi, tetapi kami juga bisa mengatur trip berbagi berdasarkan permintaan.",
+    "ctaTitle": "Siap saat Anda siap",
+    "ctaWhatsapp": "WhatsApp",
+    "ctaEmail": "Email Kami"
+  },
+  "booking": {
+    "pageTitle": "Cara Memesan",
+    "step1": "Pilih Tanggal Anda",
+    "step2": "Pilih Program Anda",
+    "step3": "Hubungi Kami",
+    "step4": "Konfirmasi & Bayar"
+  },
+  "meta": {
+    "siteTitle": "Togean Voyage",
+    "siteDescription": "Rasakan keindahan Kepulauan Togean",
+    "homeTitle": "Togean Voyage - Jelajahi Kepulauan Togean",
+    "homeDescription": "Temukan keindahan tak tersentuh Kepulauan Togean. Perjalanan lambat, terumbu murni, dan pengalaman pulau otentik.",
+    "destinationsTitle": "Destinasi - Togean Voyage",
+    "destinationsDescription": "Jelajahi destinasi unggulan di Kepulauan Togean. Dari pantai terpencil hingga terumbu karang berwarna-warni.",
+    "programsTitle": "Program - Togean Voyage",
+    "programsDescription": "Program dan aktivitas perjalanan terkurasi di Kepulauan Togean."
+  }
+}

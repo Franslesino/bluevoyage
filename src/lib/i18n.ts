@@ -5,11 +5,18 @@
  * - English at root "/" (no /en prefix)
  * - German at "/de"
  * - French at "/fr"
+ * - Indonesian at "/id"
+ * - Spanish at "/es"
+ * - Portuguese at "/pt"
+ * - Russian at "/ru"
+ * - Japanese at "/ja"
+ * - Korean at "/ko"
+ * - Chinese at "/zh"
  */
 
 // Supported locales (excluding English which is at root)
-export const SUPPORTED_LOCALES = ["de", "fr"] as const;
-export const ALL_LOCALES = ["en", "de", "fr"] as const;
+export const SUPPORTED_LOCALES = ["de", "fr", "id", "es", "pt", "ru", "ja", "ko", "zh"] as const;
+export const ALL_LOCALES = ["en", "de", "fr", "id", "es", "pt", "ru", "ja", "ko", "zh"] as const;
 export const DEFAULT_LOCALE = "en" as const;
 
 export type Locale = (typeof ALL_LOCALES)[number];
@@ -20,17 +27,38 @@ export const LOCALE_NAMES: Record<Locale, string> = {
     en: "English",
     de: "Deutsch",
     fr: "Français",
+    id: "Bahasa Indonesia",
+    es: "Español",
+    pt: "Português",
+    ru: "Русский",
+    ja: "日本語",
+    ko: "한국어",
+    zh: "中文",
 };
 
 // Static imports for dictionaries (required for static export)
 import enDict from "@/locales/en.json";
 import deDict from "@/locales/de.json";
 import frDict from "@/locales/fr.json";
+import idDict from "@/locales/id.json";
+import esDict from "@/locales/es.json";
+import ptDict from "@/locales/pt.json";
+import ruDict from "@/locales/ru.json";
+import jaDict from "@/locales/ja.json";
+import koDict from "@/locales/ko.json";
+import zhDict from "@/locales/zh.json";
 
 const dictionaries: Record<Locale, typeof enDict> = {
     en: enDict,
     de: deDict,
     fr: frDict,
+    id: idDict,
+    es: esDict,
+    pt: ptDict,
+    ru: ruDict,
+    ja: jaDict,
+    ko: koDict,
+    zh: zhDict,
 };
 
 /**

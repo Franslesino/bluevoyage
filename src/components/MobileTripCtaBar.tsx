@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
+import LocaleLink from "./LocaleLink";
+import { useTranslation } from "./I18nProvider";
 
 interface MobileTripCtaBarProps {
     targetId: string;
@@ -65,12 +66,12 @@ export default function MobileTripCtaBar({ targetId }: MobileTripCtaBarProps) {
                 </div>
 
                 {/* CTA Button */}
-                <Link
+                <LocaleLink
                     href="/how-to-booking"
                     className="flex-shrink-0 bg-[#CB9275] text-white font-avenir text-sm font-medium px-5 py-2.5 rounded-xl active:bg-[#B97F63] transition-colors shadow-sm"
                 >
                     Plan your trip
-                </Link>
+                </LocaleLink>
             </div>
         </div>
     );

@@ -2,7 +2,7 @@
 
 import React, { useCallback } from "react";
 import Image from "next/image";
-import Link from "next/link";
+import LocaleLink from "./LocaleLink";
 import useEmblaCarousel from "embla-carousel-react";
 
 type Item = {
@@ -58,7 +58,7 @@ export default function CollectionSlider({
                             </div>
 
                             {/* Content Overlay */}
-                            <Link href={item.href} className="group absolute inset-0 block">
+                            <LocaleLink href={item.href} className="group absolute inset-0 block">
                                 {/* Desktop Hover Overlay: Fades in dark bg */}
                                 <div className="absolute inset-0 bg-black/40 opacity-0 transition-opacity duration-500 ease-out md:group-hover:opacity-100 hidden md:block" />
 
@@ -79,7 +79,7 @@ export default function CollectionSlider({
                                         </span>
                                     </div>
                                 </div>
-                            </Link>
+                            </LocaleLink>
                         </div>
                     ))}
                 </div>

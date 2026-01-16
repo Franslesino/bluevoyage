@@ -10,6 +10,13 @@ import { useTranslation } from "@/components/I18nProvider";
 export default function BoatPage() {
     const { t } = useTranslation();
 
+    // Map boat details with translations
+    const translatedBoatDetails = boatDetails.map((item) => ({
+        ...item,
+        title: t(`boat.items.${item.id}.title`) || item.title,
+        body: t(`boat.items.${item.id}.body`) || item.body,
+    }));
+
     return (
         <div className="bg-white min-h-screen text-neutral-900 flex flex-col">
             <Navbar />
@@ -38,7 +45,7 @@ export default function BoatPage() {
                 </div>
 
                 {/* Zigzag Scroll Section */}
-                <ZigzagScrollSections items={boatDetails} />
+                <ZigzagScrollSections items={translatedBoatDetails} />
 
             </main>
 

@@ -1,61 +1,53 @@
 "use client";
 
-import React from "react";
+import React, { useMemo } from "react";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import CollectionSlider from "@/components/CollectionSlider";
 import LocaleLink from "@/components/LocaleLink";
 import { useTranslation } from "@/components/I18nProvider";
 
-const boatItems = [
+const boatItemsData = [
     {
-        title: "The Speed of Silence",
-        description: "Glide through the archipelago on our premium wooden speedboat. Designed for smooth transfers and sunset cruises.",
+        id: "speed-of-silence",
         imagePath: "/images/collection/boat-1.png",
         href: "#"
     },
     {
-        title: "Lounge & Horizon",
-        description: "Shaded comfort, teak decks, and the endless blue. Ideally suited for long lazy days between dives.",
+        id: "lounge-horizon",
         imagePath: "/images/collection/boat-2.png",
         href: "#"
     },
     {
-        title: "Safety & Service",
-        description: "Your safety is our ritual. Expert crew, top-tier gear, and genuine care in every interaction.",
+        id: "safety-service",
         imagePath: "/images/collection/boat-3.png",
         href: "#"
     },
     {
-        title: "Lagoon Explorer",
-        description: "Navigate shallow reefs and hidden lagoons where larger vessels cannot reach. Pure immersion.",
+        id: "lagoon-explorer",
         imagePath: "/images/collection/boat-4.png",
         href: "#"
     }
 ];
 
-const stayItems = [
+const stayItemsData = [
     {
-        title: "Pulau Puat Guest House",
-        description: "Sustainable luxury woven into the jungle. Wake up to the sound of waves and birdsong.",
+        id: "pulau-puat",
         imagePath: "/images/collection/stay-1.png",
         href: "#"
     },
     {
-        title: "Malenge Guest House",
-        description: "Airy, light-filled rooms with panoramic ocean views. Simplicity meets premium comfort.",
+        id: "malenge",
         imagePath: "/images/collection/stay-2.png",
         href: "#"
     },
     {
-        title: "Walea Kodi Guest House",
-        description: "Your own private terrace for golden hours. Unwind in a hammock where time stands still.",
+        id: "walea-kodi",
         imagePath: "/images/collection/stay-3.png",
         href: "#"
     },
     {
-        title: "Una Una Guest House",
-        description: "Gather under the palms for communal feasting. Warm lights, sand floors, and unforgettable stories.",
+        id: "una-una",
         imagePath: "/images/collection/stay-4.png",
         href: "#"
     }
@@ -63,6 +55,24 @@ const stayItems = [
 
 export default function BoatAndAccommodationsPage() {
     const { t } = useTranslation();
+
+    const boatItems = useMemo(() => 
+        boatItemsData.map(item => ({
+            title: t(`boatAndAccommodations.boatItems.${item.id}.title`),
+            description: t(`boatAndAccommodations.boatItems.${item.id}.description`),
+            imagePath: item.imagePath,
+            href: item.href
+        }))
+    , [t]);
+
+    const stayItems = useMemo(() => 
+        stayItemsData.map(item => ({
+            title: t(`boatAndAccommodations.stayItems.${item.id}.title`),
+            description: t(`boatAndAccommodations.stayItems.${item.id}.description`),
+            imagePath: item.imagePath,
+            href: item.href
+        }))
+    , [t]);
 
     return (
         <div className="bg-white min-h-screen text-neutral-900 flex flex-col">

@@ -18,14 +18,21 @@ export default function AccommodationPage() {
     const [filteredItems, setFilteredItems] = useState<Accommodation[]>(accommodations);
     const [isMobile, setIsMobile] = useState(false);
 
+    // Map accommodations with translations
+    const translatedAccommodations = accommodations.map((item) => ({
+        ...item,
+        title: t(`accommodation.items.${item.id}.title`) || item.title,
+        description: t(`accommodation.items.${item.id}.description`) || item.description,
+    }));
+
     // Filter items logic
     useEffect(() => {
         if (activeTab === "All") {
-            setFilteredItems(accommodations);
+            setFilteredItems(translatedAccommodations);
         } else {
-            setFilteredItems(accommodations.filter((item) => item.destination === activeTab));
+            setFilteredItems(translatedAccommodations.filter((item) => item.destination === activeTab));
         }
-    }, [activeTab]);
+    }, [activeTab, t]);
 
     // Mobile check
     useEffect(() => {

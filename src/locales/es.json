@@ -1,0 +1,577 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "destinations": "Destinos",
+    "programs": "Programas",
+    "wildlife": "Vida Silvestre",
+    "localCommunity": "Comunidad Local",
+    "boatSafety": "Seguridad y Experiencia en Barco",
+    "accommodation": "Alojamiento",
+    "blog": "Blog",
+    "howToBook": "¿Cómo Reservar?",
+    "bookNow": "Reservar Ahora",
+    "close": "Cerrar",
+    "bookYourTrip": "Reserva Tu Viaje",
+    "socialMedia": "Redes Sociales"
+  },
+  "hero": {
+    "tagline": "Algunos lugares los visitas. Otros, los sientes, al reconectarte contigo mismo, con los demás y con el mundo que te rodea."
+  },
+  "spotlight": {
+    "title": "En el foco: Destinos Exclusivos",
+    "subtitle": "Experiencias Curadas: Destinos Exclusivos",
+    "tagline": "ISLAS TOGEAN",
+    "cta1": "Descubre arrecifes al amanecer",
+    "cta2": "Déjate llevar a bahías tranquilas",
+    "cta3": "Explora jardines de coral",
+    "cta4": "Contempla el amanecer volcánico",
+    "cta5": "Encuentra soledad dorada"
+  },
+  "programs": {
+    "title": "Formas de explorar: Programas Exclusivos",
+    "subtitle": "Actividades Curadas: Explorar Todo",
+    "viewProgram": "Ver programa",
+    "sectionLabel": "Togean Voyages",
+    "pageTitle": "Programas Exclusivos",
+    "programsCount": "{{count}} Programas",
+    "items": {
+      "snorkeling-diving": {
+        "name": "Snorkel y buceo",
+        "dateLabel": "Togean Voyages",
+        "description": "Explora jardines de coral, paredes y naufragios en Kadidiri, Una Una y Walea Kodi, con aguas cálidas y alta biodiversidad.",
+        "overview": "Sesiones guiadas para principiantes hasta buceadores avanzados, priorizando seguridad, hábitos amigables con el arrecife y los mejores sitios de visibilidad en Togean.",
+        "whatYoullDo": "Snorkel en arrecifes de casa, buceo en caídas y el naufragio B-24, practica flotabilidad y aprende ecología marina local de instructores.",
+        "bestTime": "Todo el año, pero los mares más tranquilos suelen ser de abril a octubre; muchos guías califican de marzo a diciembre como mejor para bucear.",
+        "notes": "Adecuado para la mayoría de niveles de condición física. Trae rashguard y protector solar seguro para arrecifes. El equipo se puede organizar en los resorts; los horarios pueden cambiar con vientos estacionales."
+      },
+      "relaxing-sunbathing": {
+        "name": "Relajación y tomar el sol",
+        "dateLabel": "Togean Voyages",
+        "description": "Desacelera en playas bordeadas de palmeras en Kadidiri, Malenge, Puat y Bomba—lagunas cristalinas, arena suave y tranquilidad isleña ininterrumpida.",
+        "overview": "Un programa de playa enfocado en la comodidad con ritmo flexible: nadar, leer, dormir en hamacas y recargar entre días de barco y actividades de aventura.",
+        "whatYoullDo": "Elige natación matutina, almuerzos perezosos, caminatas por la playa y sesiones al atardecer; masajes u yoga opcionales donde estén disponibles en resorts.",
+        "bestTime": "Mejor durante los meses secos de abril a octubre para más sol y travesías marítimas más suaves, aunque el tiempo de playa es posible todo el año.",
+        "notes": "Trae protector solar de alto SPF, sombrero y botella de agua reutilizable. El sol del mediodía es intenso; toma descansos en la sombra, hidrátate y protege tu piel diariamente."
+      },
+      "hiking-viewpoints": {
+        "name": "Senderismo y miradores",
+        "dateLabel": "Togean Voyages",
+        "description": "Cambia arrecifes por crestas: caminatas por la selva en Malenge y Batudaka, más la caminata volcánica del Monte Colo en Una Una para vistas panorámicas de la bahía.",
+        "overview": "Caminatas cortas a moderadas adaptadas a tu ritmo, con guías locales destacando geología, flora y los mejores puntos de observación al amanecer o atardecer.",
+        "whatYoullDo": "Caminata a la cumbre del volcán, senderos forestales, caminos de pueblo a playa y miradores en acantilados (incluyendo alrededor de Luwuk); muchas paradas para fotos y baños refrescantes después.",
+        "bestTime": "Abril-octubre es típicamente más seco para senderos; evita meses ventosos cuando los traslados en barco y planes de caminata pueden cambiar.",
+        "notes": "Usa zapatos cerrados, trae repelente de insectos y 1-2 litros de agua. Comienza temprano para temperaturas más frescas; se recomiendan guías para el Monte Colo."
+      },
+      "local-community-immersion": {
+        "name": "Inmersión en la comunidad local",
+        "dateLabel": "Togean Voyages",
+        "description": "Conoce comunidades isleñas: aldeas de gitanos del mar Bajau cerca de Malenge, pueblos pesqueros como Bomba y la vida cotidiana en los mercados y cafés de Luwuk.",
+        "overview": "Visitas culturales de bajo impacto enfocadas en el respeto: aprende costumbres, comparte historias, apoya medios de vida locales y comprende cómo las islas dependen del mar.",
+        "whatYoullDo": "Camina por pasarelas de aldeas, únete a comidas caseras, observa pesca y construcción de barcos, compra productos locales y practica saludos simples en Bahasa con anfitriones.",
+        "bestTime": "Todo el año. Elige meses más tranquilos para traslados en barco más fáciles, y planifica visitas según rutinas comunitarias (pesca, escuela, horarios de oración).",
+        "notes": "Vístete modestamente en aldeas, pregunta antes de tomar fotos y trae dinero pequeño para artesanías o donaciones. Tu guía te ayudará con etiqueta y traducción."
+      },
+      "wildlife-spotting": {
+        "name": "Avistamiento de vida silvestre",
+        "dateLabel": "Togean Voyages",
+        "description": "Observa endémicos isleños y megafauna marina: macacos de Togean, cangrejos cocoteros, tortugas marinas y (con suerte) dugongos—siempre a distancia respetuosa.",
+        "overview": "Excursiones guiadas enfocadas en vida silvestre combinando tiempo de arrecife, caminatas por el bosque y búsquedas nocturnas, priorizando observación ética y conciencia de conservación.",
+        "whatYoullDo": "Snorkel para ver tortugas, escanea bahías de pastos marinos para dugongos, únete a caminatas al atardecer por la playa y realiza caminatas nocturnas guiadas buscando cangrejos cocoteros.",
+        "bestTime": "Todo el año, pero mares más tranquilos de abril a octubre mejoran acceso en barco y visibilidad; avistamiento nocturno a menudo mejora después de la lluvia.",
+        "notes": "Usa luz roja de noche, mantén bajo el ruido, nunca alimentes a la vida silvestre y sigue instrucciones de los guías. Trae mangas largas y repelente de insectos para caminatas por el bosque."
+      },
+      "beach-exploration-hidden-coves": {
+        "name": "Exploración de playas y calas ocultas",
+        "dateLabel": "Togean Voyages",
+        "description": "Explora bahías tranquilas, bancos de arena y calas secretas en barco o kayak—perfecto para fotografía, natación y descubrir playas casi sin huellas.",
+        "overview": "Un programa flexible de salto entre islas diseñado según mareas y clima, combinando traslados cortos con largas paradas en playas de Puat, Malenge, Kadidiri y Bomba.",
+        "whatYoullDo": "Salta entre islas en barco a islotes deshabitados, picnic en bancos de arena, snorkel entre paradas y camina por costas buscando las mejores entradas para nadar y ángulos del atardecer.",
+        "bestTime": "Abril-octubre para travesías más tranquilas y agua más clara; planifica según las mareas para bancos de arena y lagunas poco profundas.",
+        "notes": "Lleva bolsa seca, zapatos de agua y agua potable extra. Las playas remotas no tienen servicios; no dejes nada y evita recolectar coral o conchas."
+      },
+      "stargazing": {
+        "name": "Observación de estrellas",
+        "dateLabel": "Togean Voyages",
+        "description": "Disfruta noches de cielo oscuro en islas remotas: ve la Vía Láctea, lluvias de meteoros y constelaciones brillantes desde playas tranquilas con contaminación lumínica mínima.",
+        "overview": "Un programa nocturno desconectado que combina relajación en la playa con observación del cielo, narración de historias y consejos opcionales de astrofotografía de guías.",
+        "whatYoullDo": "Instálate en una playa mirando al oeste, aprende constelaciones clave, observa satélites y estrellas fugaces, y captura fotos de larga exposición usando trípode o teléfono.",
+        "bestTime": "Los cielos más despejados son comunes en meses secos de abril a octubre; programa según fases lunares para cielos más oscuros, y evita noches de traslado más ventosas.",
+        "notes": "Trae linterna frontal (modo rojo), chaqueta ligera para brisas marinas y repelente de insectos. Respeta horas tranquilas; mantén luces bajas para proteger la visión nocturna."
+      }
+    },
+    "detail": {
+      "signatureProgram": "Programa Exclusivo",
+      "overview": "Descripción general",
+      "whatYoullDo": "Lo que harás",
+      "bestTime": "Mejor época",
+      "notes": "Notas",
+      "seeAllPrograms": "Ver todos los programas"
+    }
+  },
+  "localCommunityPage": {
+    "heroTitle": "Rostros e Historias: Comunidad Local",
+    "heroDescription": "Donde saludos cálidos se encuentran con ricas tradiciones. Entra en momentos cotidianos, aprende ritmos isleños y llévate amistades, no solo fotos.",
+    "backLabel": "Volver al Inicio",
+    "items": {
+      "village-walks": {
+        "title": "Equilibrando Cestas, Sonrisas Matutinas",
+        "body": "Camina por senderos del pueblo mientras vecinos llevan cosecha y artículos del hogar con facilidad. Saluda, comparte una risa y vislumbra el ritmo de las mañanas isleñas donde trabajo y calidez viajan juntos."
+      },
+      "sea-gypsy": {
+        "title": "Bullicio del Mercado de Pescado del Puerto",
+        "body": "Entra al mercado costero donde la captura de hoy se convierte en la cena de esta noche. Observa el regateo amigable, aprende nombres de peces y conoce pescadores y vendedores que mantienen viva la vida costera."
+      },
+      "shared-meals": {
+        "title": "Paseos en Barco por la Isla, Risas Compartidas",
+        "body": "Navega entre arrecifes y aldeas con tripulaciones locales de barcos y compañeros viajeros. Intercambia historias, toma una foto rápida y siente cómo el tiempo compartido en el océano convierte extraños en un pequeño equipo."
+      },
+      "respectful-photos": {
+        "title": "Círculos de Tejido y Orgullo Comunitario",
+        "body": "Siéntate con artesanas mientras cosen textiles audaces a mano mientras los niños ríen cerca. Aprende el significado de los patrones, apoya medios de vida locales y llévate una historia que puedes vestir."
+      }
+    }
+  },
+  "wildlife": {
+    "title": "Dónde encontrar lo salvaje",
+    "description": "Encuentra la extraordinaria biodiversidad de las Islas Togean. Desde delfines juguetones hasta tortugas ancestrales, peces de arrecife vibrantes hasta aves endémicas raras – descubre vida silvestre tanto sobre como bajo el agua.",
+    "exploreButton": "Explorar la vida silvestre",
+    "land": "Vida Silvestre Terrestre",
+    "sea": "Vida Silvestre Marina",
+    "heroTitle": "Vida Silvestre en Togean",
+    "seaPage": {
+      "title": "Vida Silvestre Marina",
+      "description": "Descubre los habitantes del Triángulo de Coral"
+    },
+    "landPage": {
+      "title": "Vida Silvestre Terrestre",
+      "description": "Descubre las especies únicas de las selvas tropicales"
+    }
+  },
+  "wildlifeIntro": {
+    "title": "Explora los arrecifes y bosques de Togean a través de una guía de campo viviente",
+    "description": "Desde tortugas y dugongos hasta primates endémicos, estas islas albergan encuentros raros. Descubre qué buscar, cuándo ir y cómo observar responsablemente."
+  },
+  "wildlifeGallery": {
+    "title": "Guía de campo de Togean y Luwuk",
+    "description": "Un vistazo rápido a los íconos marinos y habitantes del bosque que puedes encontrar en arrecifes, manglares y senderos isleños.",
+    "details": "Detalles",
+    "species": {
+      "green-sea-turtle": { "name": "Tortuga Verde", "localName": "Penyu Hijau" },
+      "hawksbill-turtle": { "name": "Tortuga Carey", "localName": "Penyu Sisik" },
+      "napoleon-wrasse": { "name": "Pez Napoleón", "localName": "Ikan Napoleon" },
+      "dugong": { "name": "Dugongo", "localName": "Duyung" },
+      "giant-clam": { "name": "Almeja Gigante", "localName": "Kima" },
+      "seahorse": { "name": "Caballito de Mar", "localName": "Kuda Laut" },
+      "stingless-jellyfish": { "name": "Medusa sin Aguijón", "localName": "Ubur-ubur tak menyengat" },
+      "togian-monkey": { "name": "Mono de Togean", "localName": "Monyet Togean" },
+      "togean-tarsier": { "name": "Tarsero de Togean", "localName": "Tarsius Togean" },
+      "togian-babirusa": { "name": "Babirusa de Togean", "localName": "Babirusa Togean" },
+      "knobbed-hornbill": { "name": "Cálao de Sulawesi", "localName": "Rangkong Sulawesi" },
+      "coconut-crab": { "name": "Cangrejo Cocotero", "localName": "Kepiting Kelapa" },
+      "sulawesi-cuscus": { "name": "Cuscús de Sulawesi", "localName": "Kuskus Sulawesi" }
+    }
+  },
+  "wildlifeCarousel": {
+    "togean-monkey": {
+      "name": "Mono de Togean",
+      "scientific": "Macaca tonkeana togeanus",
+      "description": "Macaco isleño endémico, curioso forrajeador del bosque."
+    },
+    "togean-babirusa": {
+      "name": "Babirusa de Togean",
+      "scientific": "Babyrousa togeanensis",
+      "description": "Cerdo con colmillos raro, tímido en el bosque denso."
+    },
+    "togean-golden-bulbul": {
+      "name": "Bulbul Dorado de Togean",
+      "scientific": "Hypsipetes aureus",
+      "description": "Ave cantora de plumas doradas, residente endémico del dosel."
+    },
+    "giant-clam": {
+      "name": "Almeja Gigante",
+      "scientific": "Tridacna spp.",
+      "description": "Gigante del arrecife protegido, manto vibrante que filtra agua."
+    },
+    "togean-water-monitor": {
+      "name": "Varano de Togean",
+      "scientific": "Varanus togianus",
+      "description": "Gran lagarto isleño, toma el sol cerca de manglares."
+    },
+    "togean-tarsier": {
+      "name": "Tarsero de Togean",
+      "scientific": "Tarsius niemitzi",
+      "description": "Tarsero nocturno de ojos grandes, mejor visto de noche."
+    }
+  },
+  "blogPosts": {
+    "responsible-wildlife-encounters": {
+      "title": "Encuentros responsables con vida silvestre y etiqueta de arrecife en Togean",
+      "excerpt": "Descubre la vibrante vida marina de las Islas Togean. Desde coloridos jardines de coral hasta juguetones peces de arrecife, aprende cómo observar estas maravillas respetuosamente sin perturbar su hábitat natural. Nuestra guía asegura una aventura sostenible para todos.",
+      "locationLabel": "Togean",
+      "date": "03 Ene, 2026",
+      "category": "Diario"
+    },
+    "best-snorkeling-spots": {
+      "title": "Los mejores lugares para snorkel y lo que podrías ver",
+      "excerpt": "Sumérgete en las aguas cristalinas de los Togeans. Revelamos los mejores lugares de snorkel donde puedes ver almejas gigantes, tortugas marinas y una variedad infinita de peces tropicales. Prepárate para un viaje submarino sin igual.",
+      "locationLabel": "Togean",
+      "date": "15 Feb, 2026",
+      "category": "Diario"
+    },
+    "village-visit-etiquette": {
+      "title": "Etiqueta de visita a aldeas y cómo apoyar comunidades locales",
+      "excerpt": "Experimenta la calidez del pueblo Bajau. Esta guía describe los qué hacer y qué no hacer culturales al visitar aldeas locales, asegurando que tus interacciones sean respetuosas y apoyen el sustento de estas únicas comunidades isleñas.",
+      "locationLabel": "Togean",
+      "date": "10 Mar, 2026",
+      "category": "Diario"
+    }
+  },
+  "accommodation": {
+    "sectionLabel": "Togean Voyages",
+    "title": "En descanso: Casas de Huéspedes Isleñas",
+    "subtitle": "Estancias Curadas: Explorar Todo",
+    "contentTitle": "Hospédate tranquilo, siéntete en casa",
+    "contentDescription": "Estancias sin prisa, comodidad simple de isla y anfitriones cálidos. Exploras de día, luego te relajas en tierra en casas de huéspedes cuidadosamente elegidas.",
+    "exploreAll": "Ver Todos los Alojamientos",
+    "pageTitle": "Alojamiento",
+    "pageSubtitle": "Estancias curadas en las islas",
+    "tabs": {
+      "all": "Todos",
+      "pulauPuat": "Pulau Puat",
+      "malengue": "Malenge",
+      "waleaKodi": "Walea Kodi"
+    },
+    "slides": {
+      "pulatPuat": {
+        "title": "Pulau Puat",
+        "description": "Casa de huéspedes costera tranquila, con vistas al amanecer y fácil acceso en barco."
+      },
+      "malengue": {
+        "title": "Malenge",
+        "description": "Una estancia tranquila en el pueblo con noches frescas y cálida hospitalidad local."
+      },
+      "waleaKodi": {
+        "title": "Walea Kodi",
+        "description": "Una base relajante cerca de arrecifes, perfecta para mañanas lentas y snorkel temprano."
+      },
+      "unaUna": {
+        "title": "Una Una",
+        "description": "Atmósfera de isla volcánica, tardes frescas y un lugar tranquilo para reiniciarse."
+      }
+    },
+    "items": {
+      "pp-1": {
+        "title": "La Casa del Muelle",
+        "description": "Elevada sobre el agua con acceso directo a la laguna. Duerme con el sonido de las olas suaves."
+      },
+      "pp-2": {
+        "title": "Villa Jardín",
+        "description": "Escondida entre palmeras para privacidad completa. Un refugio fresco y sombreado a pasos de la arena."
+      },
+      "ma-1": {
+        "title": "Habitación del Amanecer",
+        "description": "Orientada al este para mañanas doradas. Amplia, llena de luz y amueblada simplemente para claridad."
+      },
+      "ma-2": {
+        "title": "El Loft",
+        "description": "Vistas elevadas del dosel y el mar. Techos altos y brisas cruzadas lo mantienen fresco naturalmente."
+      },
+      "wk-1": {
+        "title": "Suite Veranda",
+        "description": "Vida al aire libre. Una terraza privada enorme se convierte en tu sala, comedor y estación de siesta."
+      },
+      "wk-2": {
+        "title": "Cabaña Borde del Arrecife",
+        "description": "Lo más cerca que puedes estar del drop-off. Observa tortugas pasar desde tu lugar del café matutino."
+      }
+    },
+    "features": {
+      "guestHouse": {
+        "title": "Junto al mar al amanecer, bajo estrellas por la noche",
+        "description": "Despierta con suave luz marina, duerme con las olas. Tardes al aire libre, cielos despejados y el ritmo lento de la isla que reinicia tu reloj biológico."
+      },
+      "comfort": {
+        "title": "Elaborado con maderas de origen local",
+        "description": "Construido con madera local y conocimiento isleño. Texturas naturales, carpintería resistente y una sensación cálida y arraigada que encaja con el paisaje."
+      },
+      "sharedSpaces": {
+        "title": "Duerme tranquilo y comodidad silenciosa",
+        "description": "Camas limpias, buen flujo de aire y noches silenciosas. Comodidades simples que te ayudan a descansar profundamente y despertar listo para el tiempo de barco de mañana."
+      },
+      "hosts": {
+        "title": "Hospédate en playas preservadas, elegidas intencionalmente",
+        "description": "Elegimos playas que se mantienen tranquilas y cuidadas. Huella mínima, menos multitudes y entornos que mantienen la naturaleza intacta."
+      },
+      "meals": {
+        "title": "Diseñado con cuidado para estancias reflexivas",
+        "description": "Pequeños detalles bien hechos: sombra, asientos, almacenamiento e iluminación. Espacios que se sienten considerados, prácticos y fáciles de habitar."
+      },
+      "impact": {
+        "title": "Tardes hechas tranquilas e íntimas",
+        "description": "Té al atardecer, lámparas suaves y conversación tranquila. Un final suave del día, donde puedes leer, reflexionar o simplemente escuchar el mar."
+      }
+    }
+  },
+  "localCommunity": {
+    "title": "Conoce a los locales",
+    "description": "Conecta con las comunidades de corazón cálido de las Islas Togean. Experimenta la vida auténtica del pueblo, artesanías tradicionales y costumbres centenarias transmitidas de generación en generación.",
+    "exploreButton": "Descubre experiencias locales"
+  },
+  "localCommunitySection": {
+    "sectionTitle": "En la comunidad: Encuentros Locales",
+    "exploreAll": "Conexiones Curadas: Explorar Todo",
+    "blocks": {
+      "block1": {
+        "title": "Interactúa con locales y abraza la calidez del pueblo Togean",
+        "description1": "Las Islas Togean son más que un escape tropical—son una puerta a conexiones sinceras y tradiciones eternas. Conoce a los Bajau 'Gitanos del Mar', quienes viven en armonía con el océano, y las comunidades Pamona y Saluan, cuya calidez y hospitalidad hacen que cada visitante se sienta en casa. Desde aldeas marinas sobre pilotes hasta vibrantes tradiciones culturales, el pueblo Togean encarna la serenidad y autenticidad de estas islas remotas.",
+        "description2": "Deja que sus historias, sonrisas y tradiciones transformen tu viaje en una experiencia inolvidable donde naturaleza y cultura se unen en perfecta armonía."
+      },
+      "block2": {
+        "title": "Descubre las formas tradicionales de la vida isleña",
+        "description1": "Las Islas Togean son más que un escape tropical—son una puerta a conexiones sinceras y tradiciones eternas. Conoce a los Bajau 'Gitanos del Mar', quienes viven en armonía con el océano, y las comunidades Pamona y Saluan, cuya calidez y hospitalidad hacen que cada visitante se sienta en casa. Desde aldeas marinas sobre pilotes hasta vibrantes tradiciones culturales, el pueblo Togean encarna la serenidad y autenticidad de estas islas remotas.",
+        "description2": "Deja que sus historias, sonrisas y tradiciones transformen tu viaje en una experiencia inolvidable donde naturaleza y cultura se unen en perfecta armonía."
+      },
+      "block3": {
+        "title": "Crea recuerdos duraderos con la comunidad isleña",
+        "description1": "Las Islas Togean son más que un escape tropical—son una puerta a conexiones sinceras y tradiciones eternas. Conoce a los Bajau 'Gitanos del Mar', quienes viven en armonía con el océano, y las comunidades Pamona y Saluan, cuya calidez y hospitalidad hacen que cada visitante se sienta en casa. Desde aldeas marinas sobre pilotes hasta vibrantes tradiciones culturales, el pueblo Togean encarna la serenidad y autenticidad de estas islas remotas.",
+        "description2": "Deja que sus historias, sonrisas y tradiciones transformen tu viaje en una experiencia inolvidable donde naturaleza y cultura se unen en perfecta armonía."
+      }
+    }
+  },
+  "blog": {
+    "title": "Encuentra inspiración aquí",
+    "viewAll": "Ver Todo",
+    "readMore": "Leer Más",
+    "backToHome": "VOLVER AL BLOG",
+    "pageTitle": "Encuentra Inspiración Aquí",
+    "storiesCount": "{{count}} Historias"
+  },
+  "cta": {
+    "eyebrow": "LISTO CUANDO TÚ LO ESTÉS",
+    "title": "Comienza tu viaje ahora — habla con nuestro diseñador de viajes",
+    "description": "Comparte tus fechas y ritmo. Diseñaremos un itinerario tranquilo, guiado por las islas y construido alrededor de ti.",
+    "button": "Chatea en WhatsApp"
+  },
+  "footer": {
+    "brandName": "Togean Voyages",
+    "brandDescription": "Experimenta la belleza intacta de las Islas Togean. Curamos viajes lentos que te conectan con la naturaleza, la cultura y la serenidad del mar.",
+    "infosTitle": "Info",
+    "contactTitle": "Contáctanos",
+    "address1": "Graha STR, Jl. Ampera Raya No.11B, Jakarta",
+    "address2": "Jl. Soekarno Hatta, No 13A, Manggarai Barat.",
+    "company": "PT Build Creative Realm"
+  },
+  "common": {
+    "backToHome": "VOLVER AL INICIO",
+    "backToDestinations": "Volver a Destinos",
+    "backToPrograms": "Volver a Programas",
+    "backToBlog": "Volver al Blog",
+    "backToWildlife": "VOLVER A VIDA SILVESTRE",
+    "backToLocalCommunity": "Volver a Comunidad Local",
+    "discover": "Descubrir",
+    "explore": "Explorar",
+    "learnMore": "Saber Más",
+    "togeanArchipelago": "Archipiélago Togean",
+    "togeanVoyages": "Togean Voyages",
+    "viewDetails": "Ver Detalles",
+    "readMore": "Leer Más",
+    "viewAll": "Ver Todo",
+    "details": "Detalles >",
+    "viewAllPosts": "Ver Todos los Artículos",
+    "seeAllDestinations": "Ver todos los destinos",
+    "species": "Especies"
+  },
+  "destinations": {
+    "sectionLabel": "Togean Voyages",
+    "title": "Destinos",
+    "destinationsCount": "Destinos",
+    "pageTitle": "Destinos",
+    "count": "{{count}} Destinos",
+    "items": {
+      "pulau-puah": {
+        "name": "Pulau Puah",
+        "description": "Una isla aislada que ofrece tranquilidad absoluta, playas de arena blanca intactas y arrecifes de coral prósperos lejos de las multitudes."
+      },
+      "malenge": {
+        "name": "Malenge",
+        "description": "Un paraíso tropical de selvas densas y playas vírgenes, hogar de la fascinante cultura gitana del mar Bajo."
+      },
+      "waleakodi": {
+        "name": "Walea Kodi",
+        "description": "Un refugio aislado con arrecifes de coral prístinos y resorts ecológicos, perfecto para una experiencia privada de náufrago."
+      },
+      "una-una": {
+        "name": "Una Una",
+        "description": "Una joya volcánica con arenas negras únicas y aguas ricas en nutrientes rebosantes de espectacular vida marina."
+      },
+      "kadidiri": {
+        "name": "Kadidiri",
+        "description": "El centro de viajes de los Togeans, con playas de arena blanca polvorienta, vibrantes arrecifes de casa y un ambiente acogedor."
+      },
+      "bomba": {
+        "name": "Bomba",
+        "description": "Un retiro tranquilo del sur con playas idílicas, bosques de manglares y gloriosos atardeceres sobre la bahía."
+      },
+      "luwuk": {
+        "name": "Luwuk",
+        "description": "La pintoresca puerta continental a los Togeans, ofreciendo vistas costeras dramáticas y comodidades modernas antes de tu aventura isleña."
+      }
+    }
+  },
+  "boatExperience": {
+    "title": "Seguridad y Experiencia en Barco",
+    "subtitle": "Tu viaje en el agua",
+    "safetyFirst": "Seguridad Primero",
+    "comfortOnBoard": "Comodidad a Bordo",
+    "experiencedCrew": "Tripulación Experimentada"
+  },
+  "boatSection": {
+    "sectionTitle": "En los detalles: Seguridad y Experiencia en Barco",
+    "exploreAll": "Esenciales curados: Explorar Todo",
+    "contentTitle": "Navega tranquilo, siéntete en casa",
+    "contentDescription": "Viajamos sin prisa. Más mar, más silencio, más cuidado. Estos son los esenciales que hacen cada viaje TogeanVoyage seguro, cómodo y profundamente personal.",
+    "features": {
+      "boatCabins": {
+        "title": "Barco, Cabinas y Espacio Compartido",
+        "description": "Distribución enfocada en comodidad con salones sombreados, cabinas frescas y rincones sociales. Espacio para estirarse, leer, dormir siesta y reunirse sin sentirse apretado."
+      },
+      "safety": {
+        "title": "Seguridad a Bordo",
+        "description": "Rutinas de seguridad primero, instrucciones claras y equipo bien mantenido. Puedes relajarte completamente sabiendo que cada detalle está planeado y verificado."
+      },
+      "crew": {
+        "title": "La Tripulación y Tu Capitán",
+        "description": "Un capitán tranquilo y capaz y una tripulación cálida que anticipa necesidades. Guían, ayudan y hospedan con genuino cuidado de principio a fin."
+      },
+      "rhythm": {
+        "title": "Ritmo Diario y Atmósfera",
+        "description": "Un flujo suave y flexible moldeado según el clima y la energía. Inicios al amanecer, tardes lentas y paradas a la hora dorada que se sienten correctas cada día."
+      },
+      "cuisine": {
+        "title": "Cocina Fresca",
+        "description": "Comidas frescas y sabrosas preparadas con atención. Ingredientes locales, opciones balanceadas y toques considerados que hacen comer a bordo simple y satisfactorio."
+      },
+      "purpose": {
+        "title": "Viaja con Propósito",
+        "description": "Viajes que devuelven a través de asociaciones locales respetuosas y rutas conscientes. Pequeñas decisiones que apoyan comunidades y protegen los arrecifes que todos venimos a amar."
+      }
+    }
+  },
+  "boat": {
+    "backToBoat": "VOLVER AL BARCO",
+    "heroLabel": "Experiencia a Bordo",
+    "heroTitle": "Seguridad, Servicio y Lujo Simple",
+    "heroDescription": "Descubre los detalles que hacen cada viaje suave, seguro y memorable. Desde la experiencia de nuestro capitán hasta la comodidad tranquila de la cubierta.",
+    "items": {
+      "safety": {
+        "title": "Seguridad, sin complicaciones",
+        "body": "Instrucciones claras, chalecos salvavidas confiables y rutinas tranquilas mantienen todo estable. Desde revisiones del clima hasta traslados seguros, cada paso se maneja con calma, para que te sientas confiado y libre de disfrutar el mar."
+      },
+      "crew": {
+        "title": "Comodidad en espacios compartidos",
+        "body": "Un salón sombreado, asientos suaves y una distribución fácil hacen del barco una sala de estar flotante. Estírate, come algo, charla o duerme siesta con buen flujo de aire y sin rincones apretados."
+      },
+      "comfort": {
+        "title": "Navegación que puedes sentir",
+        "body": "Un capitán que lee viento, corriente y color del arrecife de un vistazo. Aproximaciones suaves, ritmo estable y elecciones de ruta inteligentes convierten travesías en momentos tranquilos y predecibles, incluso en condiciones cambiantes."
+      },
+      "experience": {
+        "title": "Agua dorada, momentos lentos",
+        "body": "Algunos de los mejores recuerdos suceden entre islas. Aguas poco profundas azul arrecife, mañanas cristalinas y deslizamientos al atardecer te invitan a pausar, respirar y dejar que el océano marque el tono del día."
+      }
+    }
+  },
+  "boatAndAccommodations": {
+    "pageTitle": "Barco y Estancias",
+    "subtitle": "Seguridad, comodidad y descanso junto a la isla. Cada viaje y sueño se siente considerado.",
+    "boatSectionTitle": "Barco: Seguridad, Experiencia y Comodidad",
+    "accommodationSectionTitle": "Alojamiento: Casas de Huéspedes Isleñas",
+    "boatItems": {
+      "speed-of-silence": {
+        "title": "La Velocidad del Silencio",
+        "description": "Deslízate por el archipiélago en nuestra lancha de madera premium. Diseñada para traslados suaves y cruceros al atardecer."
+      },
+      "lounge-horizon": {
+        "title": "Salón y Horizonte",
+        "description": "Comodidad sombreada, cubiertas de teca y el azul infinito. Ideal para largos días perezosos entre buceos."
+      },
+      "safety-service": {
+        "title": "Seguridad y Servicio",
+        "description": "Tu seguridad es nuestro ritual. Tripulación experta, equipo de primera y genuino cuidado en cada interacción."
+      },
+      "lagoon-explorer": {
+        "title": "Explorador de Lagunas",
+        "description": "Navega arrecifes poco profundos y lagunas ocultas donde embarcaciones más grandes no pueden llegar. Inmersión pura."
+      }
+    },
+    "stayItems": {
+      "pulau-puat": {
+        "title": "Casa de Huéspedes Pulau Puat",
+        "description": "Lujo sostenible tejido en la selva. Despierta con el sonido de las olas y el canto de los pájaros."
+      },
+      "malenge": {
+        "title": "Casa de Huéspedes Malenge",
+        "description": "Habitaciones amplias y llenas de luz con vistas panorámicas al océano. Simplicidad se encuentra con comodidad premium."
+      },
+      "walea-kodi": {
+        "title": "Casa de Huéspedes Walea Kodi",
+        "description": "Tu propia terraza privada para las horas doradas. Relájate en una hamaca donde el tiempo se detiene."
+      },
+      "una-una": {
+        "title": "Casa de Huéspedes Una Una",
+        "description": "Reúnete bajo las palmeras para festines comunales. Luces cálidas, pisos de arena e historias inolvidables."
+      }
+    }
+  },
+  "howToBooking": {
+    "tagline": "Rápido, simple y personal",
+    "pageTitle": "Cómo reservar",
+    "pageDescription": "Creemos en la conexión directa. Todas las reservas se confirman personalmente vía WhatsApp o email para asegurar que tu itinerario esté perfectamente adaptado a tus necesidades.",
+    "whatsappTitle": "Reserva vía WhatsApp",
+    "whatsappDescription": "La forma más rápida de asegurar tu lugar. Usualmente respondemos dentro de una hora durante días hábiles. Envíanos un mensaje rápido para verificar disponibilidad.",
+    "whatsappButton": "Mensaje en WhatsApp",
+    "emailTitle": "Reserva vía Email",
+    "emailDescription": "¿Prefieres un itinerario detallado en tu bandeja de entrada? Envíanos tus requisitos y elaboraremos una propuesta personalizada para ti.",
+    "emailButton": "Envíanos Email",
+    "detailsTitle": "Envía estos detalles",
+    "detailItem1": "Tus fechas preferidas",
+    "detailItem2": "Tamaño del grupo",
+    "detailItem3": "Intereses (snorkel, visitas a aldeas, vida silvestre, etc.)",
+    "detailItem4": "Necesidades dietéticas",
+    "detailItem5": "Punto de recogida (si aplica)",
+    "detailItem6": "Rango de presupuesto (opcional)",
+    "detailItem7": "Cualquier solicitud especial",
+    "paymentTitle": "Opciones de pago",
+    "paymentDescription": "Para asegurar tu reserva, típicamente requerimos un depósito con el saldo restante con fecha de vencimiento más cercana a tu viaje. Aceptamos Transferencia Bancaria y Tarjetas de Débito.",
+    "paymentNote": "Los detalles exactos de pago y plazos se compartirán en tu confirmación de reserva.",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Question": "¿Cuánto tiempo toma la confirmación?",
+    "faq1Answer": "Nos esforzamos por responder todas las consultas dentro de 24 horas. Para mensajes de WhatsApp durante horario laboral, puedes esperar una respuesta dentro de una hora.",
+    "faq2Question": "¿Puedo cambiar mis fechas?",
+    "faq2Answer": "Sí, somos flexibles. Los cambios de fecha están sujetos a disponibilidad. Por favor avísanos lo antes posible si necesitas reprogramar.",
+    "faq3Question": "¿Acomodan restricciones dietéticas?",
+    "faq3Answer": "Absolutamente. Ya sea vegetariano, vegano o alergias, nos aseguramos de que tus comidas sean seguras y deliciosas. Solo menciónalo cuando reserves.",
+    "faq4Question": "¿Es privado o compartido?",
+    "faq4Answer": "Ofrecemos ambas opciones. La mayoría de nuestros itinerarios son privados para una experiencia personalizada, pero también podemos organizar viajes compartidos bajo solicitud.",
+    "ctaTitle": "Listo cuando tú lo estés",
+    "ctaWhatsapp": "WhatsApp",
+    "ctaEmail": "Envíanos Email"
+  },
+  "booking": {
+    "pageTitle": "Cómo Reservar",
+    "step1": "Elige Tus Fechas",
+    "step2": "Selecciona Tu Programa",
+    "step3": "Contáctanos",
+    "step4": "Confirma y Paga"
+  },
+  "meta": {
+    "siteTitle": "Togean Voyage",
+    "siteDescription": "Experimenta la belleza de las Islas Togean",
+    "homeTitle": "Togean Voyage - Explora las Islas Togean",
+    "homeDescription": "Descubre la belleza intacta de las Islas Togean. Viaje lento, arrecifes prístinos y experiencias isleñas auténticas.",
+    "destinationsTitle": "Destinos - Togean Voyage",
+    "destinationsDescription": "Explora destinos exclusivos en el Archipiélago Togean. Desde playas aisladas hasta vibrantes arrecifes de coral.",
+    "programsTitle": "Programas - Togean Voyage",
+    "programsDescription": "Programas y actividades de viaje curados en las Islas Togean."
+  }
+}
