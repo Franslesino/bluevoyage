@@ -230,7 +230,7 @@ export default function AccommodationSection() {
                 <div className="hidden md:grid grid-cols-2 gap-8 lg:gap-12">
                     {/* Left Column: Carousel */}
                     <div className="relative h-[600px] lg:h-[750px] group">
-                        <div className="overflow-hidden h-full rounded-sm" ref={desktopRef}>
+                        <div className="overflow-hidden h-full rounded-sm" ref={desktopRef} dir="ltr" style={{ direction: "ltr" }}>
                             <div className="flex h-full touch-pan-y">
                                 {slidesData.map((slide, idx) => (
                                     <div key={idx} className="flex-[0_0_100%] min-w-0 relative h-full">
@@ -307,7 +307,7 @@ export default function AccommodationSection() {
                 <div className="md:hidden">
                     {/* Carousel on Top */}
                     <div className="relative aspect-[4/3] w-full mb-8 rounded-sm overflow-hidden text-white">
-                        <div className="overflow-hidden h-full" ref={mobileRef}>
+                        <div className="overflow-hidden h-full" ref={mobileRef} dir="ltr" style={{ direction: "ltr" }}>
                             <div className="flex h-full touch-pan-y">
                                 {slidesData.map((slide, idx) => (
                                     <div key={idx} className="flex-[0_0_100%] min-w-0 relative h-full">

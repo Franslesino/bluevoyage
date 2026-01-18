@@ -34,8 +34,8 @@ export default function CollectionSlider({
 
     return (
         <section className="relative w-full overflow-hidden bg-neutral-900 rounded-sm">
-            {/* Carousel Viewport */}
-            <div ref={emblaRef} className="h-[80vh] md:h-[90vh] w-full cursor-grab active:cursor-grabbing">
+            {/* Carousel Viewport - Force LTR for carousel */}
+            <div ref={emblaRef} className="h-[80vh] md:h-[90vh] w-full cursor-grab active:cursor-grabbing" dir="ltr" style={{ direction: "ltr" }}>
                 {/* Container */}
                 <div className="flex h-full touch-pan-y">
                     {items.map((item, index) => (

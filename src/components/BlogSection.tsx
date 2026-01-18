@@ -69,7 +69,7 @@ export default function BlogSection() {
                     {blogPostKeys.map((postKey, idx) => {
                         const post = blogPosts.find(p => p.slug === postKey);
                         if (!post) return null;
-                        
+
                         return (
                             <div key={postKey} className={`group flex flex-col h-full ${idx === 0 ? 'pr-8' : idx === 1 ? 'px-8' : 'pl-8'}`}>
                                 <LocaleLink href={`/blog/${post.slug}`} className="block relative aspect-[3/2] overflow-hidden rounded-sm bg-neutral-100 mb-6">
@@ -96,41 +96,41 @@ export default function BlogSection() {
                                         {truncateExcerpt(t(`blogPosts.${postKey}.excerpt`))}
                                     </p>
 
-                                <div className="mt-auto flex justify-end">
-                                    <LocaleLink
-                                        href={`/blog/${post.slug}`}
-                                        className="font-avenir inline-flex items-center text-xs uppercase tracking-[0.15em] border-b border-transparent hover:border-neutral-900 pb-0.5 transition-colors"
-                                    >
-                                        {t("blog.readMore")}
-                                        <svg
-                                            className="w-3 h-3 ml-2"
-                                            fill="none"
-                                            stroke="currentColor"
-                                            viewBox="0 0 24 24"
+                                    <div className="mt-auto flex justify-end">
+                                        <LocaleLink
+                                            href={`/blog/${post.slug}`}
+                                            className="font-avenir inline-flex items-center text-xs uppercase tracking-[0.15em] border-b border-transparent hover:border-neutral-900 pb-0.5 transition-colors"
                                         >
-                                            <path
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={1.5}
-                                                d="M17 8l4 4m0 0l-4 4m4-4H3"
-                                            />
-                                        </svg>
-                                    </LocaleLink>
+                                            {t("blog.readMore")}
+                                            <svg
+                                                className="w-3 h-3 ml-2"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    strokeWidth={1.5}
+                                                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                                                />
+                                            </svg>
+                                        </LocaleLink>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                         );
                     })}
                 </div>
 
                 {/* Mobile Carousel */}
                 <div className="md:hidden">
-                    <div className="overflow-hidden" ref={emblaRef}>
+                    <div className="overflow-hidden" ref={emblaRef} dir="ltr" style={{ direction: "ltr" }}>
                         <div className="flex touch-pan-y">
                             {blogPostKeys.map((postKey) => {
                                 const post = blogPosts.find(p => p.slug === postKey);
                                 if (!post) return null;
-                                
+
                                 return (
                                     <div key={postKey} className="flex-[0_0_100%] min-w-0 pl-4 pr-4">
                                         <div className="flex flex-col h-full">
@@ -153,29 +153,29 @@ export default function BlogSection() {
                                             <p className="font-avenir text-sm leading-relaxed text-gray-800 mb-6">
                                                 {truncateExcerpt(t(`blogPosts.${postKey}.excerpt`))}
                                             </p>
-                                        <div className="mt-auto flex justify-end">
-                                            <LocaleLink
-                                                href={`/blog/${post.slug}`}
-                                                className="font-avenir inline-flex items-center text-xs uppercase tracking-[0.15em] border-b border-transparent pb-0.5"
-                                            >
-                                                {t("blog.readMore")}
-                                                <svg
-                                                    className="w-3 h-3 ml-2"
-                                                    fill="none"
-                                                    stroke="currentColor"
-                                                    viewBox="0 0 24 24"
+                                            <div className="mt-auto flex justify-end">
+                                                <LocaleLink
+                                                    href={`/blog/${post.slug}`}
+                                                    className="font-avenir inline-flex items-center text-xs uppercase tracking-[0.15em] border-b border-transparent pb-0.5"
                                                 >
-                                                    <path
-                                                        strokeLinecap="round"
-                                                        strokeLinejoin="round"
-                                                        strokeWidth={1.5}
-                                                        d="M17 8l4 4m0 0l-4 4m4-4H3"
-                                                    />
-                                                </svg>
-                                            </LocaleLink>
+                                                    {t("blog.readMore")}
+                                                    <svg
+                                                        className="w-3 h-3 ml-2"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        viewBox="0 0 24 24"
+                                                    >
+                                                        <path
+                                                            strokeLinecap="round"
+                                                            strokeLinejoin="round"
+                                                            strokeWidth={1.5}
+                                                            d="M17 8l4 4m0 0l-4 4m4-4H3"
+                                                        />
+                                                    </svg>
+                                                </LocaleLink>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
                                 );
                             })}
                         </div>

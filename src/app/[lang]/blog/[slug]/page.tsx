@@ -5,16 +5,17 @@ import { blogPosts } from "@/data/blogPosts";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import BackLink from "@/components/BackLink";
+import { getDictionary, Locale, SUPPORTED_LOCALES } from "@/lib/i18n";
 
 interface PageProps {
     params: Promise<{
+        lang: string;
         slug: string;
     }>;
 }
 
 export async function generateStaticParams() {
-    const locales = ['en', 'fr', 'es', 'ru', 'id', 'ja', 'ko', 'zh', 'ar', 'de', 'it', 'tr'];
-    return locales.flatMap((lang) =>
+    return SUPPORTED_LOCALES.flatMap((lang) =>
         blogPosts.map((post) => ({
             lang,
             slug: post.slug,
@@ -23,8 +24,12 @@ export async function generateStaticParams() {
 }
 
 export default async function BlogDetailPage({ params }: PageProps) {
-    const { slug } = await params;
+    const { lang, slug } = await params;
     const post = blogPosts.find((p) => p.slug === slug);
+    const t = getDictionary(lang as Locale);
+
+    // Type-safe access to translated blog post
+    const translatedPost = (t.blogPosts as Record<string, { title?: string; excerpt?: string; locationLabel?: string; date?: string; category?: string; content?: string } | undefined>)?.[slug];
 
     if (!post) {
         notFound();
@@ -118,7 +123,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
                         if (trimLine.startsWith("### ")) {
                             // Heading 3
                             return (
-                                <h3 key={lineIndex} className="font-canto text-2xl md:text-3xl text-neutral-900 mt-10 mb-6">
+                                <h3 key={lineIndex} className="font-canto text-xl md:text-2xl lg:text-3xl text-neutral-900 mt-8 md:mt-10 mb-4 md:mb-6">
                                     {trimLine.replace("### ", "")}
                                 </h3>
                             );
@@ -127,7 +132,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
                         if (trimLine.startsWith("- ")) {
                             // List item
                             return (
-                                <ul key={lineIndex} className="list-disc pl-5 mb-4 font-avenir text-lg text-neutral-700 leading-relaxed">
+                                <ul key={lineIndex} className="list-disc pl-5 mb-4 font-avenir text-base md:text-lg text-neutral-700 leading-relaxed">
                                     <li className="pl-2">{trimLine.replace("- ", "")}</li>
                                 </ul>
                             );
@@ -139,7 +144,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
                             const [boldPart, ...rest] = trimLine.split(": ");
                             if (["The Vibe", "The Fix", "The Rule", "Pro Tip", "Don't", "Do", "Buy Local Products", "Be a Zero-Waste Warrior", "Hire Local Guides"].includes(boldPart)) {
                                 return (
-                                    <p key={lineIndex} className="font-avenir text-lg text-neutral-700 mb-6 leading-relaxed">
+                                    <p key={lineIndex} className="font-avenir text-base md:text-lg text-neutral-700 mb-4 md:mb-6 leading-relaxed">
                                         <strong className="font-medium text-neutral-900">{boldPart}:</strong> {rest.join(": ")}
                                     </p>
                                 );
@@ -148,7 +153,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
 
                         // Regular paragraph
                         return (
-                            <p key={lineIndex} className="font-avenir text-lg text-neutral-700 mb-6 leading-relaxed">
+                            <p key={lineIndex} className="font-avenir text-base md:text-lg text-neutral-700 mb-4 md:mb-6 leading-relaxed">
                                 {trimLine}
                             </p>
                         );
@@ -164,22 +169,22 @@ export default async function BlogDetailPage({ params }: PageProps) {
             <main className="pt-[calc(env(safe-area-inset-top)+24px)] md:pt-10 pb-24 px-4 md:px-8">
                 <article className="max-w-[900px] mx-auto">
                     <div className="pt-6 md:pt-8 mb-8">
-                        <BackLink href="/blog" label="Back to Blog" />
+                        <BackLink href="/blog" label={t.common?.backToBlog || t.blog?.backToHome || "Back to Blog"} />
                     </div>
                     {/* Header */}
                     <header className="mb-12 text-center">
                         <div className="font-avenir text-sm uppercase tracking-[0.2em] text-neutral-500 mb-6 flex justify-center gap-4">
-                            <span>{post.locationLabel}</span>
+                            <span>{translatedPost?.locationLabel || post.locationLabel}</span>
                             <span>|</span>
-                            <span>{post.date}</span>
+                            <span>{translatedPost?.date || post.date}</span>
                             <span>|</span>
-                            <span>{post.category}</span>
+                            <span>{translatedPost?.category || post.category}</span>
                         </div>
                         <h1 className="font-canto text-4xl md:text-5xl lg:text-6xl text-neutral-900 leading-tight mb-8">
-                            {post.title}
+                            {translatedPost?.title || post.title}
                         </h1>
                         <p className="font-avenir text-xl text-neutral-600 max-w-2xl mx-auto leading-relaxed">
-                            {post.excerpt}
+                            {translatedPost?.excerpt || post.excerpt}
                         </p>
                     </header>
 
@@ -187,7 +192,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
                     <div className="relative aspect-[16/9] w-full mb-16 rounded-sm overflow-hidden">
                         <Image
                             src={post.image}
-                            alt={post.title}
+                            alt={translatedPost?.title || post.title}
                             fill
                             className="object-cover"
                             priority
@@ -195,8 +200,8 @@ export default async function BlogDetailPage({ params }: PageProps) {
                     </div>
 
                     {/* Content */}
-                    <div className="prose prose-lg max-w-none">
-                        {renderContent(post.content)}
+                    <div className="prose prose-base md:prose-lg max-w-none">
+                        {renderContent(translatedPost?.content || post.content)}
                     </div>
 
                     {/* Bottom Nav */}
@@ -205,7 +210,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
                             href="/"
                             className="font-avenir text-sm uppercase tracking-widest text-neutral-500 hover:text-neutral-900 transition-colors"
                         >
-                            ← Back to Home
+                            ← {t.common?.backToHome || "Back to Home"}
                         </LocaleLink>
                         {/* Optional View All if /blog exists, otherwise could loop back to home or just be empty */}
                         {/* <Link 

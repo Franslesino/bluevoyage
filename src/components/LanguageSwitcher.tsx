@@ -3,13 +3,13 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import { createPortal } from "react-dom";
-import { 
-    Locale, 
-    ALL_LOCALES, 
-    LOCALE_NAMES, 
-    localizePath, 
+import {
+    Locale,
+    ALL_LOCALES,
+    LOCALE_NAMES,
+    localizePath,
     stripLocalePrefix,
-    getLocaleFromPathname 
+    getLocaleFromPathname
 } from "@/lib/i18n";
 
 /**
@@ -43,13 +43,16 @@ export default function LanguageSwitcher({ isTransparent = false }: { isTranspar
     const currentLocale = getLocaleFromPathname(pathname);
     const currentLang = LANGUAGES.find((l) => l.code === currentLocale) || LANGUAGES[0];
 
-    // Mount check for portal
+    // Mount check for portal and initial position calculation
     useEffect(() => {
         setMounted(true);
+        // Small delay to ensure DOM is ready
+        const timer = setTimeout(updatePosition, 0);
+        return () => clearTimeout(timer);
     }, []);
 
     // Calculate dropdown position based on navbar
-    const updatePosition = useCallback(() => {
+    const updatePosition = () => {
         if (!triggerRef.current) return;
 
         // Find the navbar header element
@@ -59,16 +62,37 @@ export default function LanguageSwitcher({ isTransparent = false }: { isTranspar
         const navbarRect = navbar.getBoundingClientRect();
         const triggerRect = triggerRef.current.getBoundingClientRect();
 
+        // Dropdown width (w-48 = 12rem = 192px)
+        const dropdownWidth = 192;
+        const viewportWidth = window.innerWidth;
+
+        // Calculate left position - ensure dropdown doesn't overflow viewport
+        let leftPos = triggerRect.left;
+
+        // Check if dropdown would overflow right edge
+        if (leftPos + dropdownWidth > viewportWidth - 16) {
+            // Align to right edge of trigger instead, with padding from viewport edge
+            leftPos = Math.max(16, triggerRect.right - dropdownWidth);
+        }
+
+        // Check if dropdown would overflow left edge (for RTL)
+        if (leftPos < 16) {
+            leftPos = 16;
+        }
+
         setDropdownPosition({
             top: navbarRect.bottom, // Position below navbar
-            left: triggerRect.left, // Align with trigger button
+            left: leftPos, // Clamped to stay within viewport
         });
-    }, []);
+    };
 
     // Update position when opening
     useEffect(() => {
         if (isOpen) {
+            // Calculate position immediately
             updatePosition();
+
+            // Add event listeners
             window.addEventListener('scroll', updatePosition, true);
             window.addEventListener('resize', updatePosition);
         }
@@ -76,7 +100,7 @@ export default function LanguageSwitcher({ isTransparent = false }: { isTranspar
             window.removeEventListener('scroll', updatePosition, true);
             window.removeEventListener('resize', updatePosition);
         };
-    }, [isOpen, updatePosition]);
+    }, [isOpen]);
 
     // Close on outside click
     useEffect(() => {
@@ -115,7 +139,7 @@ export default function LanguageSwitcher({ isTransparent = false }: { isTranspar
 
         // Get the path without any locale prefix
         const pathWithoutLocale = stripLocalePrefix(pathname);
-        
+
         // Build the new path with the selected locale
         const newPath = localizePath(pathWithoutLocale, newLocale);
 
@@ -143,11 +167,12 @@ export default function LanguageSwitcher({ isTransparent = false }: { isTranspar
         >
             <div
                 className={`
-                    w-48 max-h-[70vh] overflow-y-auto
+                    w-48 max-h-[288px] overflow-y-auto
                     bg-[#CB9275] 
                     shadow-[0_8px_30px_rgba(0,0,0,0.15)]
                     flex flex-col
                     transition-all duration-300 ease-out origin-top
+                    scrollbar-thin scrollbar-thumb-[#A67C5F] scrollbar-track-transparent
                     ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2"}
                 `}
                 style={{ borderRadius: 0 }}

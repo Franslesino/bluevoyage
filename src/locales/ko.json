@@ -156,19 +156,58 @@
     "description": "산호초, 맹그로브, 섬 트레일을 따라 만날 수 있는 해양 아이콘과 숲 거주자들을 빠르게 살펴보세요.",
     "details": "상세 정보",
     "species": {
-      "green-sea-turtle": { "name": "녹색 바다거북", "localName": "Penyu Hijau" },
-      "hawksbill-turtle": { "name": "대모거북", "localName": "Penyu Sisik" },
-      "napoleon-wrasse": { "name": "나폴레옹 놀래기", "localName": "Ikan Napoleon" },
-      "dugong": { "name": "듀공", "localName": "Duyung" },
-      "giant-clam": { "name": "대왕조개", "localName": "Kima" },
-      "seahorse": { "name": "해마", "localName": "Kuda Laut" },
-      "stingless-jellyfish": { "name": "무독 해파리", "localName": "Ubur-ubur tak menyengat" },
-      "togian-monkey": { "name": "토기안 원숭이", "localName": "Monyet Togean" },
-      "togean-tarsier": { "name": "토기안 안경원숭이", "localName": "Tarsius Togean" },
-      "togian-babirusa": { "name": "토기안 바비루사", "localName": "Babirusa Togean" },
-      "knobbed-hornbill": { "name": "혹코뿔새", "localName": "Rangkong Sulawesi" },
-      "coconut-crab": { "name": "야자집게", "localName": "Kepiting Kelapa" },
-      "sulawesi-cuscus": { "name": "술라웨시 쿠스쿠스", "localName": "Kuskus Sulawesi" }
+      "green-sea-turtle": {
+        "name": "녹색 바다거북",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "대모거북",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "나폴레옹 놀래기",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "듀공",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "대왕조개",
+        "localName": "Kima"
+      },
+      "seahorse": {
+        "name": "해마",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "무독 해파리",
+        "localName": "Ubur-ubur tak menyengat"
+      },
+      "togian-monkey": {
+        "name": "토기안 원숭이",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "토기안 안경원숭이",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "토기안 바비루사",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "혹코뿔새",
+        "localName": "Rangkong Sulawesi"
+      },
+      "coconut-crab": {
+        "name": "야자집게",
+        "localName": "Kepiting Kelapa"
+      },
+      "sulawesi-cuscus": {
+        "name": "술라웨시 쿠스쿠스",
+        "localName": "Kuskus Sulawesi"
+      }
     }
   },
   "wildlifeCarousel": {
@@ -209,21 +248,24 @@
       "excerpt": "토기안 제도의 생동감 넘치는 해양 생물을 발견하세요. 화려한 산호 정원부터 장난꾸러기 산호초 물고기까지, 자연 서식지를 방해하지 않고 이 경이로움을 존중하며 관찰하는 방법을 배우세요. 우리 가이드는 모두를 위한 지속 가능한 모험을 보장합니다.",
       "locationLabel": "토기안",
       "date": "2026년 1월 3일",
-      "category": "저널"
+      "category": "저널",
+      "content": "토게안 제도는 수상과 수중 모두에서 생물 다양성의 보고입니다. 이 원시적인 군도의 방문자로서 우리는 조심스럽게 행동할 책임이 있습니다.\n\n### 산호초 에티켓 101\n토게안의 산호초는 생명으로 가득하지만 동시에 연약합니다. 스노클링이나 다이빙 시 좋은 부력을 유지하는 것이 중요합니다.\n\n### 해양 생물과의 만남\n미끄러지듯 헤엄치는 바다거북이나 대형을 이루어 헤엄치는 바라쿠다 떼를 보는 것은 여행의 하이라이트입니다.\n\n- 쫓지 마세요: 해양 생물이 당신에게 오도록 하세요.\n- 먹이를 주지 마세요: 물고기에게 먹이를 주면 자연스러운 식단이 바뀝니다.\n- 플래시 촬영: 플래시는 최소한으로 사용하세요."
     },
     "best-snorkeling-spots": {
       "title": "최고의 스노클링 장소와 볼 수 있는 것들",
       "excerpt": "토기안의 수정처럼 맑은 물속으로 뛰어드세요. 대왕조개, 바다거북, 끝없는 종류의 열대어를 볼 수 있는 최고의 스노클링 장소를 공개합니다. 다른 곳에서는 경험할 수 없는 수중 여행을 준비하세요.",
       "locationLabel": "토기안",
       "date": "2026년 2월 15일",
-      "category": "저널"
+      "category": "저널",
+      "content": "토게안 제도는 산호 삼각지대의 중심에 위치해 있습니다. 스노클러에게 이것은 색상과 생명으로 가득 찬 따뜻하고 잔잔한 바다를 의미합니다.\n\n### 캘리포니아 리프\n생생한 산호를 따서 이름 붙여진 이 암초는 접근하기 쉽고 숨이 멎을 정도로 아름답습니다.\n\n### 리프 원\n말렝게 근처에 위치한 숨겨진 보석. 놀라운 시야로 유명합니다.\n\n### 해파리 호수\n엄밀히 말해 스노클링 리프는 아니지만, 쏘지 않는 해파리 호수는 초현실적 경험입니다."
     },
     "village-visit-etiquette": {
       "title": "마을 방문 예절과 지역 커뮤니티 지원 방법",
       "excerpt": "바자우 사람들의 따뜻함을 경험하세요. 이 가이드는 지역 마을 방문 시 문화적 주의사항을 안내하여, 여러분의 교류가 존중받고 이 독특한 섬 공동체의 생계를 지원하도록 합니다.",
       "locationLabel": "토기안",
       "date": "2026년 3월 10일",
-      "category": "저널"
+      "category": "저널",
+      "content": "토게안 제도의 지역 마을, 특히 바자우(바다의 집시) 정착지를 방문하는 것은 깊은 문화적 경험입니다.\n\n### 단정하게 입으세요\n수영복은 해변이나 보트에서는 괜찮지만, 마을에 들어갈 때는 가리는 것이 예의입니다.\n\n### 허락을 구하세요\n바자우 사람들은 매우 환영하지만, 그들의 집은 사적인 공간입니다.\n\n### 경제를 지원하세요\n감사를 표현하는 가장 좋은 방법은 지역 경제를 직접 지원하는 것입니다."
     }
   },
   "accommodation": {
@@ -318,7 +360,8 @@
       "impact": {
         "title": "고요하고 친밀한 저녁",
         "description": "일몰 차, 은은한 조명, 조용한 대화. 읽고, 반성하거나, 단순히 바다를 듣는 하루의 부드러운 마무리."
-      }    },
+      }
+    },
     "guestHouses": {
       "malenge": {
         "name": "더 클리프 디베 리조트",
@@ -369,7 +412,8 @@
           "grand-deluxe-garden-view": "그랜드 디럭스 가든 뷰",
           "premier-balcony": "프리미어 발코니"
         }
-      }    }
+      }
+    }
   },
   "localCommunity": {
     "title": "현지인을 만나보세요",
@@ -409,7 +453,9 @@
     "eyebrow": "준비되셨나요",
     "title": "지금 여정을 시작하세요 — 여행 디자이너와 상담하세요",
     "description": "날짜와 페이스를 공유하세요. 당신에게 맞춘 평온하고 섬 주도의 일정을 만들어 드립니다.",
-    "button": "WhatsApp으로 채팅하기"
+    "button": "WhatsApp으로 채팅하기",
+    "planYourTrip": "여행 계획하기",
+    "tagline": "섬. 바다. 고요함."
   },
   "footer": {
     "brandName": "토기안 보야지",
@@ -435,7 +481,9 @@
     "togeanVoyages": "토기안 보야지",
     "viewDetails": "상세 보기",
     "readMore": "더 읽기",
-    "viewAll": "모두 보기"
+    "viewAll": "모두 보기",
+    "species": "종",
+    "details": "세부사항"
   },
   "destinations": {
     "sectionLabel": "토기안 보야지",

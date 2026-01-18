@@ -185,8 +185,8 @@ export default function AccommodationPage() {
 
                     {/* All Tab - Carousel View */}
                     <div className="relative group/carousel">
-                        {/* Carousel Viewport */}
-                        <div className="overflow-hidden px-4 md:px-0" ref={emblaRef}>
+                        {/* Carousel Viewport - Force LTR for carousel */}
+                        <div className="overflow-hidden px-4 md:px-0" ref={emblaRef} dir="ltr" style={{ direction: "ltr" }}>
                             <div className="flex -ml-4 md:-ml-6 py-8">
                                 {accommodations.map((item, index) => (
                                     <div
@@ -207,13 +207,13 @@ export default function AccommodationPage() {
                                                 {/* Desktop Overlay Content */}
                                                 <div className="hidden md:flex absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500 flex-col justify-end p-8 text-white opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transform duration-500">
                                                     <span className="font-avenir text-xs uppercase tracking-widest mb-2 opacity-90">
-                                                        {item.island}
+                                                        {t(`accommodation.tabs.${item.slug === 'una-una' ? 'unaUna' : item.slug}`) || item.island}
                                                     </span>
                                                     <h3 className="font-canto text-3xl mb-2">
-                                                        {item.title}
+                                                        {t(`accommodation.guestHouses.${item.slug === 'una-una' ? 'una-una' : item.slug}.name`) || item.title}
                                                     </h3>
                                                     <p className="font-avenir text-sm opacity-90 leading-relaxed line-clamp-2">
-                                                        {item.description}
+                                                        {t(`accommodation.guestHouses.${item.slug === 'una-una' ? 'una-una' : item.slug}.description`) || item.description}
                                                     </p>
                                                 </div>
                                             </div>
@@ -221,13 +221,13 @@ export default function AccommodationPage() {
                                             {/* Mobile Content Underneath */}
                                             <div className="md:hidden mt-4 text-center px-2">
                                                 <span className="block font-avenir text-[10px] uppercase tracking-widest text-[#CB9275] mb-1">
-                                                    {item.island}
+                                                    {t(`accommodation.tabs.${item.slug === 'una-una' ? 'unaUna' : item.slug}`) || item.island}
                                                 </span>
                                                 <h3 className="font-canto text-2xl text-neutral-900 mb-2">
-                                                    {item.title}
+                                                    {t(`accommodation.guestHouses.${item.slug === 'una-una' ? 'una-una' : item.slug}.name`) || item.title}
                                                 </h3>
                                                 <p className="font-avenir text-sm text-neutral-500 leading-relaxed">
-                                                    {item.description}
+                                                    {t(`accommodation.guestHouses.${item.slug === 'una-una' ? 'una-una' : item.slug}.description`) || item.description}
                                                 </p>
                                             </div>
                                         </LocaleLink>

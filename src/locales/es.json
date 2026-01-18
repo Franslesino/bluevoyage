@@ -156,19 +156,58 @@
     "description": "Un vistazo rápido a los íconos marinos y habitantes del bosque que puedes encontrar en arrecifes, manglares y senderos isleños.",
     "details": "Detalles",
     "species": {
-      "green-sea-turtle": { "name": "Tortuga Verde", "localName": "Penyu Hijau" },
-      "hawksbill-turtle": { "name": "Tortuga Carey", "localName": "Penyu Sisik" },
-      "napoleon-wrasse": { "name": "Pez Napoleón", "localName": "Ikan Napoleon" },
-      "dugong": { "name": "Dugongo", "localName": "Duyung" },
-      "giant-clam": { "name": "Almeja Gigante", "localName": "Kima" },
-      "seahorse": { "name": "Caballito de Mar", "localName": "Kuda Laut" },
-      "stingless-jellyfish": { "name": "Medusa sin Aguijón", "localName": "Ubur-ubur tak menyengat" },
-      "togian-monkey": { "name": "Mono de Togean", "localName": "Monyet Togean" },
-      "togean-tarsier": { "name": "Tarsero de Togean", "localName": "Tarsius Togean" },
-      "togian-babirusa": { "name": "Babirusa de Togean", "localName": "Babirusa Togean" },
-      "knobbed-hornbill": { "name": "Cálao de Sulawesi", "localName": "Rangkong Sulawesi" },
-      "coconut-crab": { "name": "Cangrejo Cocotero", "localName": "Kepiting Kelapa" },
-      "sulawesi-cuscus": { "name": "Cuscús de Sulawesi", "localName": "Kuskus Sulawesi" }
+      "green-sea-turtle": {
+        "name": "Tortuga Verde",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "Tortuga Carey",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "Pez Napoleón",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "Dugongo",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "Almeja Gigante",
+        "localName": "Kima"
+      },
+      "seahorse": {
+        "name": "Caballito de Mar",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "Medusa sin Aguijón",
+        "localName": "Ubur-ubur tak menyengat"
+      },
+      "togian-monkey": {
+        "name": "Mono de Togean",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "Tarsero de Togean",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "Babirusa de Togean",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "Cálao de Sulawesi",
+        "localName": "Rangkong Sulawesi"
+      },
+      "coconut-crab": {
+        "name": "Cangrejo Cocotero",
+        "localName": "Kepiting Kelapa"
+      },
+      "sulawesi-cuscus": {
+        "name": "Cuscús de Sulawesi",
+        "localName": "Kuskus Sulawesi"
+      }
     }
   },
   "wildlifeCarousel": {
@@ -209,21 +248,24 @@
       "excerpt": "Descubre la vibrante vida marina de las Islas Togean. Desde coloridos jardines de coral hasta juguetones peces de arrecife, aprende cómo observar estas maravillas respetuosamente sin perturbar su hábitat natural. Nuestra guía asegura una aventura sostenible para todos.",
       "locationLabel": "Togean",
       "date": "03 Ene, 2026",
-      "category": "Diario"
+      "category": "Diario",
+      "content": "Las Islas Togean son un santuario de biodiversidad, tanto sobre como bajo el agua. Como visitantes de este archipiélago prístino, tenemos la responsabilidad de caminar con cuidado.\n\n### Etiqueta del Arrecife 101\nLos arrecifes de coral de Togean están llenos de vida, pero también son frágiles. Al hacer snorkel o bucear, mantener buena flotabilidad es crucial.\n\n### Encuentros con Vida Marina\nVer una tortuga marina deslizarse o un banco de barracudas nadar en formación es un momento destacado de cualquier viaje.\n\n- No perseguir: Deja que la vida marina venga a ti.\n- No alimentar: Alimentar peces altera su dieta natural.\n- Fotografía con flash: Usa flash mínimo."
     },
     "best-snorkeling-spots": {
       "title": "Los mejores lugares para snorkel y lo que podrías ver",
       "excerpt": "Sumérgete en las aguas cristalinas de los Togeans. Revelamos los mejores lugares de snorkel donde puedes ver almejas gigantes, tortugas marinas y una variedad infinita de peces tropicales. Prepárate para un viaje submarino sin igual.",
       "locationLabel": "Togean",
       "date": "15 Feb, 2026",
-      "category": "Diario"
+      "category": "Diario",
+      "content": "Las Islas Togean están ubicadas en el corazón del Triángulo de Coral. Para los snorkelers, esto significa aguas cálidas y tranquilas llenas de una explosión de colores y vida.\n\n### California Reef\nNombrado por sus vibrantes corales, este arrecife es accesible e impresionante.\n\n### Reef One\nUna joya oculta ubicada cerca de Malenge. Famoso por su increíble visibilidad.\n\n### El Lago de Medusas\nAunque técnicamente no es un arrecife de snorkel, el lago de medusas sin aguijón es una experiencia surrealista."
     },
     "village-visit-etiquette": {
       "title": "Etiqueta de visita a aldeas y cómo apoyar comunidades locales",
       "excerpt": "Experimenta la calidez del pueblo Bajau. Esta guía describe los qué hacer y qué no hacer culturales al visitar aldeas locales, asegurando que tus interacciones sean respetuosas y apoyen el sustento de estas únicas comunidades isleñas.",
       "locationLabel": "Togean",
       "date": "10 Mar, 2026",
-      "category": "Diario"
+      "category": "Diario",
+      "content": "Visitar las aldeas locales de las Islas Togean, particularmente los asentamientos de los Bajau (Gitanos del Mar), es una profunda experiencia cultural.\n\n### Vestirse con Modestia\nAunque la ropa de baño está bien en la playa o el barco, es respetuoso cubrirse al entrar a una aldea.\n\n### Pedir Permiso\nLos Bajau son increíblemente acogedores, pero sus hogares son espacios privados.\n\n### Apoyar la Economía\nLa mejor manera de decir gracias es apoyar directamente la economía local."
     }
   },
   "accommodation": {
@@ -411,7 +453,9 @@
     "eyebrow": "LISTO CUANDO TÚ LO ESTÉS",
     "title": "Comienza tu viaje ahora — habla con nuestro diseñador de viajes",
     "description": "Comparte tus fechas y ritmo. Diseñaremos un itinerario tranquilo, guiado por las islas y construido alrededor de ti.",
-    "button": "Chatea en WhatsApp"
+    "button": "Chatea en WhatsApp",
+    "planYourTrip": "Planifica tu viaje",
+    "tagline": "Islas. Mar. Quietud."
   },
   "footer": {
     "brandName": "Togean Voyages",

@@ -86,7 +86,7 @@ function BoatCarousel({ className }: { className?: string }) {
 
     return (
         <div className={`relative group ${className}`}>
-            <div className="overflow-hidden h-full rounded-sm" ref={emblaRef}>
+            <div className="overflow-hidden h-full rounded-sm" ref={emblaRef} dir="ltr" style={{ direction: "ltr" }}>
                 <div className="flex h-full touch-pan-y gap-4 md:gap-6">
                     {boatSlides.map((slide, index) => (
                         <div

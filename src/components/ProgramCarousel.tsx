@@ -61,16 +61,16 @@ export default function ProgramCarousel() {
 
                 {/* Carousel Wrapper */}
                 <div className="relative group">
-                    {/* Viewport */}
-                    <div className="overflow-hidden" ref={emblaRef}>
+                    {/* Viewport - Force LTR to prevent RTL layout issues */}
+                    <div className="overflow-hidden" ref={emblaRef} dir="ltr" style={{ direction: "ltr" }}>
                         <div className="flex touch-pan-y">
                             {programs.map((program, index) => {
                                 const programName = t(`programs.items.${program.slug}.name`) || program.name;
-                                
+
                                 return (
                                     <div
                                         key={index}
-                                        className="flex-[0_0_100%] md:flex-[0_0_22%] min-w-0 pl-4 md:pl-6 relative"
+                                        className="flex-[0_0_88%] md:flex-[0_0_22%] min-w-0 pl-4 md:pl-6 relative"
                                     >
                                         <LocaleLink
                                             href={`/programs/${program.slug}?from=home`}

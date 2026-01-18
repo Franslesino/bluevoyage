@@ -32,7 +32,7 @@ const getSlides = (t: (key: string) => string) => destinations.slice(0, 5).map((
 export default function SpotlightCarousel() {
     const { t } = useTranslation();
     const slides = getSlides(t);
-    
+
     // Embla Carousel State
     const [emblaRef, emblaApi] = useEmblaCarousel({
         loop: true,
@@ -80,8 +80,8 @@ export default function SpotlightCarousel() {
             {/* Carousel Container */}
             <div className="relative max-w-[1400px] mx-auto group">
                 {/* Scroll Wrapper (Viewport) */}
-                {/* Scroll Wrapper (Viewport) */}
-                <div className="overflow-hidden md:px-[calc((100%-676px)/2)]" ref={emblaRef}>
+                {/* Scroll Wrapper (Viewport) - Force LTR for carousel */}
+                <div className="overflow-hidden md:px-[calc((100%-676px)/2)]" ref={emblaRef} dir="ltr" style={{ direction: "ltr" }}>
                     {/* Container */}
                     <div className="flex touch-pan-y gap-6 ml-4 md:ml-0 pr-8 md:pr-0">
                         {slides.map((slide, index) => (

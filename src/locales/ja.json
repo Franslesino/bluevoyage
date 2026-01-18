@@ -156,19 +156,58 @@
     "description": "リーフ、マングローブ、島のトレイルで出会える海のアイコンと森の住人の概要。",
     "details": "詳細",
     "species": {
-      "green-sea-turtle": { "name": "アオウミガメ", "localName": "Penyu Hijau" },
-      "hawksbill-turtle": { "name": "タイマイ", "localName": "Penyu Sisik" },
-      "napoleon-wrasse": { "name": "ナポレオンフィッシュ", "localName": "Ikan Napoleon" },
-      "dugong": { "name": "ジュゴン", "localName": "Duyung" },
-      "giant-clam": { "name": "オオシャコガイ", "localName": "Kima" },
-      "seahorse": { "name": "タツノオトシゴ", "localName": "Kuda Laut" },
-      "stingless-jellyfish": { "name": "刺さないクラゲ", "localName": "Ubur-ubur tak menyengat" },
-      "togian-monkey": { "name": "トゲアンマカク", "localName": "Monyet Togean" },
-      "togean-tarsier": { "name": "トゲアンメガネザル", "localName": "Tarsius Togean" },
-      "togian-babirusa": { "name": "トゲアンバビルサ", "localName": "Babirusa Togean" },
-      "knobbed-hornbill": { "name": "スラウェシサイチョウ", "localName": "Rangkong Sulawesi" },
-      "coconut-crab": { "name": "ヤシガニ", "localName": "Kepiting Kelapa" },
-      "sulawesi-cuscus": { "name": "スラウェシクスクス", "localName": "Kuskus Sulawesi" }
+      "green-sea-turtle": {
+        "name": "アオウミガメ",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "タイマイ",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "ナポレオンフィッシュ",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "ジュゴン",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "オオシャコガイ",
+        "localName": "Kima"
+      },
+      "seahorse": {
+        "name": "タツノオトシゴ",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "刺さないクラゲ",
+        "localName": "Ubur-ubur tak menyengat"
+      },
+      "togian-monkey": {
+        "name": "トゲアンマカク",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "トゲアンメガネザル",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "トゲアンバビルサ",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "スラウェシサイチョウ",
+        "localName": "Rangkong Sulawesi"
+      },
+      "coconut-crab": {
+        "name": "ヤシガニ",
+        "localName": "Kepiting Kelapa"
+      },
+      "sulawesi-cuscus": {
+        "name": "スラウェシクスクス",
+        "localName": "Kuskus Sulawesi"
+      }
     }
   },
   "wildlifeCarousel": {
@@ -209,21 +248,24 @@
       "excerpt": "トゲアン諸島の鮮やかな海洋生物を発見。カラフルなコーラルガーデンから遊び好きなリーフフィッシュまで、自然の生息地を乱さずにこれらの驚異を敬意を持って観察する方法を学びましょう。私たちのガイドは皆のための持続可能な冒険を保証します。",
       "locationLabel": "トゲアン",
       "date": "2026年1月3日",
-      "category": "ジャーナル"
+      "category": "ジャーナル",
+      "content": "トゲアン諸島は、水上も水中も生物多様性の宝庫です。この手つかずの群島を訪れる者として、私たちは慎重に行動する責任があります。\n\n### リーフエチケット101\nトゲアンのサンゴ礁は生命に満ちていますが、同時に繊細でもあります。シュノーケリングやダイビングでは、良好な浮力を維持することが重要です。\n\n### 海洋生物との出会い\n滑るように泳ぐウミガメや、隊列を組んで泳ぐバラクーダの群れを見ることは、旅のハイライトです。\n\n- 追いかけない：海洋生物が近づいてくるのを待ちましょう。\n- 餌を与えない：魚への給餌は自然な食事パターンを変えてしまいます。\n- フラッシュ撮影：フラッシュは最小限に。"
     },
     "best-snorkeling-spots": {
       "title": "最高のシュノーケリングスポットと見られるもの",
       "excerpt": "トゲアンのクリスタルクリアな海に飛び込みましょう。オオシャコガイ、ウミガメ、そして無限の種類の熱帯魚を見ることができるトップシュノーケリングスポットをご紹介。他にはない水中の旅に備えてください。",
       "locationLabel": "トゲアン",
       "date": "2026年2月15日",
-      "category": "ジャーナル"
+      "category": "ジャーナル",
+      "content": "トゲアン諸島は、コーラルトライアングルの中心に位置しています。シュノーケラーにとって、これは色と生命があふれる温かく穏やかな海を意味します。\n\n### カリフォルニアリーフ\n鮮やかなサンゴにちなんで名付けられたこのリーフは、アクセスしやすく、息をのむほど美しいです。\n\n### リーフワン\nマレンゲ近くにある隠れた宝石。驚くほどの透明度で知られています。\n\n### クラゲの湖\n厳密にはシュノーケリングリーフではありませんが、刺さないクラゲの湖は超現実的な体験です。"
     },
     "village-visit-etiquette": {
       "title": "村訪問のエチケットと地元コミュニティのサポート方法",
       "excerpt": "バジャウの人々の温かさを体験してください。このガイドでは、地元の村を訪問する際の文化的なすべきこと・すべきでないことを説明し、あなたの交流が敬意を持ち、これらのユニークな島のコミュニティの生計を支援することを保証します。",
       "locationLabel": "トゲアン",
       "date": "2026年3月10日",
-      "category": "ジャーナル"
+      "category": "ジャーナル",
+      "content": "トゲアン諸島の地元の村、特にバジャウ族（海のジプシー）の集落を訪れることは、深い文化体験です。\n\n### 控えめな服装で\n水着はビーチやボートでは問題ありませんが、村に入る際はカバーするのが礼儀です。\n\n### 許可を求める\nバジャウ族は非常に歓迎的ですが、彼らの家はプライベートな空間です。\n\n### 経済を支援する\n感謝を伝える最良の方法は、地元経済を直接支援することです。"
     }
   },
   "accommodation": {
@@ -411,7 +453,9 @@
     "eyebrow": "準備ができたら",
     "title": "今すぐ旅を始めましょう—トラベルデザイナーとお話しください",
     "description": "日程とペースを共有してください。あなたを中心に構築された穏やかな島主導の旅程を作成します。",
-    "button": "WhatsAppでチャット"
+    "button": "WhatsAppでチャット",
+    "planYourTrip": "旅を計画する",
+    "tagline": "島々。海。静けさ。"
   },
   "footer": {
     "brandName": "Togean Voyages",
@@ -437,7 +481,9 @@
     "togeanVoyages": "Togean Voyages",
     "viewDetails": "詳細を見る",
     "readMore": "続きを読む",
-    "viewAll": "すべて見る"
+    "viewAll": "すべて見る",
+    "species": "種",
+    "details": "詳細"
   },
   "destinations": {
     "sectionLabel": "Togean Voyages",

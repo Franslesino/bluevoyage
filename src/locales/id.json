@@ -156,19 +156,58 @@
     "description": "Sekilas pandang ikon laut dan penghuni hutan yang mungkin Anda temui di terumbu, bakau, dan jalur pulau.",
     "details": "Detail",
     "species": {
-      "green-sea-turtle": { "name": "Penyu Hijau", "localName": "Penyu Hijau" },
-      "hawksbill-turtle": { "name": "Penyu Sisik", "localName": "Penyu Sisik" },
-      "napoleon-wrasse": { "name": "Ikan Napoleon", "localName": "Ikan Napoleon" },
-      "dugong": { "name": "Dugong", "localName": "Duyung" },
-      "giant-clam": { "name": "Kima Raksasa", "localName": "Kima" },
-      "seahorse": { "name": "Kuda Laut", "localName": "Kuda Laut" },
-      "stingless-jellyfish": { "name": "Ubur-ubur Tak Menyengat", "localName": "Ubur-ubur tak menyengat" },
-      "togian-monkey": { "name": "Monyet Togean", "localName": "Monyet Togean" },
-      "togean-tarsier": { "name": "Tarsius Togean", "localName": "Tarsius Togean" },
-      "togian-babirusa": { "name": "Babirusa Togean", "localName": "Babirusa Togean" },
-      "knobbed-hornbill": { "name": "Rangkong Sulawesi", "localName": "Rangkong Sulawesi" },
-      "coconut-crab": { "name": "Kepiting Kelapa", "localName": "Kepiting Kelapa" },
-      "sulawesi-cuscus": { "name": "Kuskus Sulawesi", "localName": "Kuskus Sulawesi" }
+      "green-sea-turtle": {
+        "name": "Penyu Hijau",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "Penyu Sisik",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "Ikan Napoleon",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "Dugong",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "Kima Raksasa",
+        "localName": "Kima"
+      },
+      "seahorse": {
+        "name": "Kuda Laut",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "Ubur-ubur Tak Menyengat",
+        "localName": "Ubur-ubur tak menyengat"
+      },
+      "togian-monkey": {
+        "name": "Monyet Togean",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "Tarsius Togean",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "Babirusa Togean",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "Rangkong Sulawesi",
+        "localName": "Rangkong Sulawesi"
+      },
+      "coconut-crab": {
+        "name": "Kepiting Kelapa",
+        "localName": "Kepiting Kelapa"
+      },
+      "sulawesi-cuscus": {
+        "name": "Kuskus Sulawesi",
+        "localName": "Kuskus Sulawesi"
+      }
     }
   },
   "wildlifeCarousel": {
@@ -209,21 +248,24 @@
       "excerpt": "Temukan kehidupan laut yang semarak di Kepulauan Togean. Dari taman karang berwarna-warni hingga ikan terumbu yang bermain, pelajari cara mengamati keajaiban ini dengan hormat tanpa mengganggu habitat alami mereka. Panduan kami memastikan petualangan berkelanjutan untuk semua orang.",
       "locationLabel": "Togean",
       "date": "03 Jan, 2026",
-      "category": "Jurnal"
+      "category": "Jurnal",
+      "content": "Kepulauan Togean adalah surga keanekaragaman hayati, baik di atas maupun di bawah air. Sebagai pengunjung kepulauan murni ini, kita memiliki tanggung jawab untuk berjalan dengan hati-hati.\n\n### Etiket Terumbu 101\nTerumbu karang Togean penuh dengan kehidupan, tetapi juga rapuh. Saat snorkeling atau menyelam, menjaga daya apung yang baik sangat penting.\n\n### Perjumpaan dengan Kehidupan Laut\nMelihat penyu laut meluncur atau kawanan barrakuda berenang dalam formasi adalah momen luar biasa.\n\n- Jangan mengejar: Biarkan kehidupan laut datang kepada Anda.\n- Jangan memberi makan: Memberi makan ikan mengubah pola makan alami mereka.\n- Fotografi flash: Gunakan flash minimal."
     },
     "best-snorkeling-spots": {
       "title": "Lokasi snorkeling terbaik dan apa yang mungkin Anda lihat",
       "excerpt": "Terjun ke perairan jernih kristal Togean. Kami ungkap lokasi snorkeling teratas di mana Anda dapat melihat kima raksasa, penyu laut, dan varietas ikan tropis tanpa batas. Bersiaplah untuk perjalanan bawah air yang tak tertandingi.",
       "locationLabel": "Togean",
       "date": "15 Feb, 2026",
-      "category": "Jurnal"
+      "category": "Jurnal",
+      "content": "Kepulauan Togean terletak di jantung Segitiga Karang. Bagi snorkeler, ini berarti perairan hangat dan tenang penuh warna dan kehidupan.\n\n### California Reef\nDinamai karena karangnya yang semarak, terumbu ini mudah diakses dan menakjubkan.\n\n### Reef One\nPermata tersembunyi yang terletak dekat Malenge. Terkenal dengan visibilitas luar biasa.\n\n### Danau Ubur-ubur\nMeskipun secara teknis bukan terumbu snorkeling, danau ubur-ubur tanpa sengat adalah pengalaman surreal."
     },
     "village-visit-etiquette": {
       "title": "Etiket kunjungan desa dan cara mendukung komunitas lokal",
       "excerpt": "Rasakan kehangatan masyarakat Bajau. Panduan ini menguraikan hal yang boleh dan tidak boleh dilakukan secara budaya saat mengunjungi desa lokal, memastikan interaksi Anda penuh hormat dan mendukung mata pencaharian komunitas pulau unik ini.",
       "locationLabel": "Togean",
       "date": "10 Mar, 2026",
-      "category": "Jurnal"
+      "category": "Jurnal",
+      "content": "Mengunjungi desa-desa lokal Kepulauan Togean, terutama pemukiman Bajau (Suku Laut), adalah pengalaman budaya yang mendalam.\n\n### Berpakaian Sopan\nMeskipun pakaian renang boleh di pantai atau perahu, berbusana sopan saat memasuki desa sangat dihargai.\n\n### Minta Izin\nMasyarakat Bajau sangat ramah, tetapi rumah mereka adalah ruang pribadi.\n\n### Dukung Ekonomi\nCara terbaik untuk berterima kasih adalah mendukung ekonomi lokal secara langsung."
     }
   },
   "accommodation": {
@@ -411,7 +453,9 @@
     "eyebrow": "SIAP SAAT ANDA SIAP",
     "title": "Mulai perjalanan Anda sekarang — bicara dengan perancang perjalanan kami",
     "description": "Bagikan tanggal dan tempo Anda. Kami akan membentuk itinerari tenang, dipimpin pulau yang dibangun sesuai Anda.",
-    "button": "Chat di WhatsApp"
+    "button": "Chat di WhatsApp",
+    "planYourTrip": "Rencanakan perjalanan",
+    "tagline": "Pulau. Laut. Ketenangan."
   },
   "footer": {
     "brandName": "Togean Voyages",

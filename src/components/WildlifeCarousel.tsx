@@ -97,8 +97,8 @@ export default function WildlifeCarousel() {
 
                     {/* Right Column: Carousel */}
                     <div className="w-full lg:w-2/3 relative order-2">
-                        {/* Carousel Wrapper */}
-                        <div className="overflow-hidden" ref={emblaRef}>
+                        {/* Carousel Wrapper - Force LTR for carousel */}
+                        <div className="overflow-hidden" ref={emblaRef} dir="ltr" style={{ direction: "ltr" }}>
                             <div className="flex touch-pan-y -ml-4">
                                 {wildlifeDataKeys.map((item, index) => (
                                     <div
@@ -158,8 +158,8 @@ export default function WildlifeCarousel() {
                                     key={index}
                                     onClick={() => scrollTo(index)}
                                     className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${index === selectedIndex
-                                            ? "bg-white scale-110"
-                                            : "bg-gray-600 hover:bg-gray-500"
+                                        ? "bg-white scale-110"
+                                        : "bg-gray-600 hover:bg-gray-500"
                                         }`}
                                     aria-label={`Go to slide ${index + 1}`}
                                 />

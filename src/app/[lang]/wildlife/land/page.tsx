@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { wildlifeLandDetails } from "@/data/wildlifeLandDetails";
 import BackLink from "@/components/BackLink";
-import { SUPPORTED_LOCALES, getDictionary } from "@/lib/i18n";
+import { SUPPORTED_LOCALES, getDictionary, Locale } from "@/lib/i18n";
 
 export function generateStaticParams() {
     return SUPPORTED_LOCALES.map((lang) => ({ lang }));
@@ -13,7 +13,7 @@ export function generateStaticParams() {
 
 export default async function LandWildlifeListingPage({ params }: { params: Promise<{ lang: string }> }) {
     const { lang } = await params;
-    const t = await getDictionary(lang);
+    const t = getDictionary(lang as Locale);
 
     return (
         <div className="bg-white min-h-screen text-neutral-900 flex flex-col">

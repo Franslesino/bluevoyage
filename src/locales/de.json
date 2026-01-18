@@ -156,19 +156,58 @@
     "description": "Ein kurzer Blick auf die marinen Ikonen und Waldbewohner, denen Sie an Riffen, Mangroven und Inselpfaden begegnen können.",
     "details": "Details",
     "species": {
-      "green-sea-turtle": { "name": "Grüne Meeresschildkröte", "localName": "Penyu Hijau" },
-      "hawksbill-turtle": { "name": "Echte Karettschildkröte", "localName": "Penyu Sisik" },
-      "napoleon-wrasse": { "name": "Napoleon-Lippfisch", "localName": "Ikan Napoleon" },
-      "dugong": { "name": "Dugong", "localName": "Duyung" },
-      "giant-clam": { "name": "Riesenmuschel", "localName": "Kima" },
-      "seahorse": { "name": "Seepferdchen", "localName": "Kuda Laut" },
-      "stingless-jellyfish": { "name": "Stachellose Qualle", "localName": "Ubur-ubur tak menyengat" },
-      "togian-monkey": { "name": "Togean-Affe", "localName": "Monyet Togean" },
-      "togean-tarsier": { "name": "Togean-Koboldmaki", "localName": "Tarsius Togean" },
-      "togian-babirusa": { "name": "Togean-Hirscheber", "localName": "Babirusa Togean" },
-      "knobbed-hornbill": { "name": "Helmhornvogel", "localName": "Rangkong Sulawesi" },
-      "coconut-crab": { "name": "Palmendieb", "localName": "Kepiting Kelapa" },
-      "sulawesi-cuscus": { "name": "Sulawesi-Kuskus", "localName": "Kuskus Sulawesi" }
+      "green-sea-turtle": {
+        "name": "Grüne Meeresschildkröte",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "Echte Karettschildkröte",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "Napoleon-Lippfisch",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "Dugong",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "Riesenmuschel",
+        "localName": "Kima"
+      },
+      "seahorse": {
+        "name": "Seepferdchen",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "Stachellose Qualle",
+        "localName": "Ubur-ubur tak menyengat"
+      },
+      "togian-monkey": {
+        "name": "Togean-Affe",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "Togean-Koboldmaki",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "Togean-Hirscheber",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "Helmhornvogel",
+        "localName": "Rangkong Sulawesi"
+      },
+      "coconut-crab": {
+        "name": "Palmendieb",
+        "localName": "Kepiting Kelapa"
+      },
+      "sulawesi-cuscus": {
+        "name": "Sulawesi-Kuskus",
+        "localName": "Kuskus Sulawesi"
+      }
     }
   },
   "wildlifeCarousel": {
@@ -209,21 +248,24 @@
       "excerpt": "Entdecken Sie das lebendige Meeresleben der Togean-Inseln. Von farbenfrohen Korallengärten bis zu verspielten Rifffischen lernen Sie, wie Sie diese Wunder respektvoll beobachten, ohne ihren natürlichen Lebensraum zu stören. Unser Leitfaden garantiert ein nachhaltiges Abenteuer für alle.",
       "locationLabel": "Togean",
       "date": "03. Jan, 2026",
-      "category": "Journal"
+      "category": "Journal",
+      "content": "Die Togean-Inseln sind ein Heiligtum der Biodiversität, sowohl über als auch unter Wasser. Als Besucher dieses unberührten Archipels haben wir die Verantwortung, behutsam aufzutreten und sicherzustellen, dass unsere Anwesenheit die empfindlichen Ökosysteme nicht schädigt.\n\n### Riff-Etikette 101\nDie Korallenriffe der Togeans wimmeln von Leben, sind aber auch zerbrechlich. Beim Schnorcheln oder Tauchen ist gute Tarierung entscheidend. Vermeiden Sie es, die Korallen mit Flossen oder Händen zu berühren.\n\n### Begegnungen mit Meereslebewesen\nEine Meeresschildkröte gleiten zu sehen oder einen Schwarm Barrakudas in Formation ist ein Highlight jeder Reise. Wir müssen uns jedoch daran erinnern, dass wir Gäste in ihrem Zuhause sind.\n\n- Nicht jagen: Lassen Sie das Meeresleben zu Ihnen kommen.\n- Nicht füttern: Das Füttern von Fischen verändert ihre natürliche Ernährung.\n- Blitzfotografie: Verwenden Sie minimalen Blitz."
     },
     "best-snorkeling-spots": {
       "title": "Die besten Schnorchelplätze und was Sie sehen könnten",
       "excerpt": "Tauchen Sie ein in die kristallklaren Gewässer der Togeans. Wir enthüllen die besten Schnorchelplätze, an denen Sie Riesenmuscheln, Meeresschildkröten und eine endlose Vielfalt tropischer Fische entdecken können. Bereiten Sie sich auf eine Unterwasserreise wie keine andere vor.",
       "locationLabel": "Togean",
       "date": "15. Feb, 2026",
-      "category": "Journal"
+      "category": "Journal",
+      "content": "Die Togean-Inseln befinden sich im Herzen des Korallendreiecks. Für Schnorchler bedeutet dies warme, ruhige Gewässer voller Farben und Leben.\n\n### California Reef\nBenannt nach seinen lebhaften Korallen, ist dieses Riff zugänglich und atemberaubend.\n\n### Reef One\nEin verborgenes Juwel in der Nähe von Malenge. Berühmt für seine unglaubliche Sichtweite.\n\n### Der Quallensee\nObwohl technisch kein Schnorchelriff, ist der stachellose Quallensee ein surreales Erlebnis."
     },
     "village-visit-etiquette": {
       "title": "Dorf-Besuchs-Etikette und wie man lokale Gemeinschaften unterstützt",
       "excerpt": "Erleben Sie die Wärme der Bajau-Menschen. Dieser Leitfaden umreißt die kulturellen Dos und Don'ts beim Besuch lokaler Dörfer und stellt sicher, dass Ihre Interaktionen respektvoll sind und den Lebensunterhalt dieser einzigartigen Inselgemeinschaften unterstützen.",
       "locationLabel": "Togean",
       "date": "10. Mär, 2026",
-      "category": "Journal"
+      "category": "Journal",
+      "content": "Der Besuch der lokalen Dörfer der Togean-Inseln, insbesondere der Siedlungen der Bajau (Seezigeuner), ist eine tiefgreifende kulturelle Erfahrung.\n\n### Bescheiden kleiden\nWährend Badebekleidung am Strand oder Boot in Ordnung ist, ist es respektvoll, sich beim Betreten eines Dorfes zu bedecken.\n\n### Um Erlaubnis fragen\nDie Bajau sind unglaublich einladend, aber ihre Häuser sind private Räume.\n\n### Die Wirtschaft unterstützen\nDer beste Weg, Danke zu sagen, ist die lokale Wirtschaft direkt zu unterstützen."
     }
   },
   "accommodation": {
@@ -411,7 +453,9 @@
     "eyebrow": "BEREIT, WENN SIE ES SIND",
     "title": "Starten Sie jetzt Ihre Reise — sprechen Sie mit unserem Reisedesigner",
     "description": "Teilen Sie Ihre Termine und Ihr Tempo mit. Wir gestalten eine ruhige, inselgeleitete Reiseroute, die um Sie herum aufgebaut ist.",
-    "button": "Per WhatsApp chatten"
+    "button": "Per WhatsApp chatten",
+    "planYourTrip": "Reise planen",
+    "tagline": "Inseln. Meer. Stille."
   },
   "footer": {
     "brandName": "Togean Voyages",

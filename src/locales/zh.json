@@ -156,19 +156,58 @@
     "description": "快速浏览您可能在珊瑚礁、红树林和岛屿小径上遇到的海洋图标和森林居民。",
     "details": "详情",
     "species": {
-      "green-sea-turtle": { "name": "绿海龟", "localName": "Penyu Hijau" },
-      "hawksbill-turtle": { "name": "玳瑁", "localName": "Penyu Sisik" },
-      "napoleon-wrasse": { "name": "拿破仑鱼", "localName": "Ikan Napoleon" },
-      "dugong": { "name": "儒艮", "localName": "Duyung" },
-      "giant-clam": { "name": "巨蚌", "localName": "Kima" },
-      "seahorse": { "name": "海马", "localName": "Kuda Laut" },
-      "stingless-jellyfish": { "name": "无毒水母", "localName": "Ubur-ubur tak menyengat" },
-      "togian-monkey": { "name": "托吉安猴", "localName": "Monyet Togean" },
-      "togean-tarsier": { "name": "托吉安眼镜猴", "localName": "Tarsius Togean" },
-      "togian-babirusa": { "name": "托吉安鹿豚", "localName": "Babirusa Togean" },
-      "knobbed-hornbill": { "name": "苏拉威西犀鸟", "localName": "Rangkong Sulawesi" },
-      "coconut-crab": { "name": "椰子蟹", "localName": "Kepiting Kelapa" },
-      "sulawesi-cuscus": { "name": "苏拉威西袋貂", "localName": "Kuskus Sulawesi" }
+      "green-sea-turtle": {
+        "name": "绿海龟",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "玳瑁",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "拿破仑鱼",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "儒艮",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "巨蚌",
+        "localName": "Kima"
+      },
+      "seahorse": {
+        "name": "海马",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "无毒水母",
+        "localName": "Ubur-ubur tak menyengat"
+      },
+      "togian-monkey": {
+        "name": "托吉安猴",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "托吉安眼镜猴",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "托吉安鹿豚",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "苏拉威西犀鸟",
+        "localName": "Rangkong Sulawesi"
+      },
+      "coconut-crab": {
+        "name": "椰子蟹",
+        "localName": "Kepiting Kelapa"
+      },
+      "sulawesi-cuscus": {
+        "name": "苏拉威西袋貂",
+        "localName": "Kuskus Sulawesi"
+      }
     }
   },
   "wildlifeCarousel": {
@@ -209,21 +248,24 @@
       "excerpt": "发现托吉安群岛充满活力的海洋生物。从色彩斑斓的珊瑚花园到嬉戏的珊瑚礁鱼，学习如何在不打扰其自然栖息地的情况下尊重地观察这些奇观。我们的指南确保每个人都有可持续的冒险体验。",
       "locationLabel": "托吉安",
       "date": "2026年1月3日",
-      "category": "日志"
+      "category": "日志",
+      "content": "托根群岛是水上水下生物多样性的宝库。作为这片原始群岛的访客，我们有责任谨慎行事。\n\n### 珊瑚礁礼仪101\n托根的珊瑚礁充满生机，但也很脆弱。浮潜或潜水时，保持良好的浮力至关重要。\n\n### 与海洋生物相遇\n看到滑行的海龟或列队游泳的梭鱼群是任何旅程的亮点。\n\n- 不要追逐：让海洋生物主动靠近你。\n- 不要喂食：喂鱼会改变它们的自然饮食。\n- 闪光摄影：尽量少用闪光灯。"
     },
     "best-snorkeling-spots": {
       "title": "最佳浮潜地点及您可能看到的生物",
       "excerpt": "跳入托吉安清澈见底的水中。我们揭示您可以看到巨蚌、海龟和无尽种类热带鱼的顶级浮潜地点。准备好一次无与伦比的水下之旅。",
       "locationLabel": "托吉安",
       "date": "2026年2月15日",
-      "category": "日志"
+      "category": "日志",
+      "content": "托根群岛位于珊瑚三角区的中心。对于浮潜者来说，这意味着温暖、平静的海水中充满了色彩和生命。\n\n### 加利福尼亚礁\n以其鲜艳的珊瑚命名，这个礁石易于到达且令人叹为观止。\n\n### 一号礁\n位于马伦格附近的隐藏宝石。以惊人的能见度而闻名。\n\n### 水母湖\n虽然严格来说不是浮潜礁，但无毒水母湖是一种超现实的体验。"
     },
     "village-visit-etiquette": {
       "title": "村庄访问礼仪及如何支持当地社区",
       "excerpt": "体验巴瑶人的热情。本指南概述了访问当地村庄时的文化注意事项，确保您的互动尊重他人并支持这些独特岛屿社区的生计。",
       "locationLabel": "托吉安",
       "date": "2026年3月10日",
-      "category": "日志"
+      "category": "日志",
+      "content": "参观托根群岛当地村庄，尤其是巴瑶族（海上吉普赛人）定居点，是一种深刻的文化体验。\n\n### 穿着得体\n虽然泳装在海滩或船上没问题，但进入村庄时最好穿着保守一些。\n\n### 请求许可\n巴瑶人非常热情好客，但他们的家是私人空间。\n\n### 支持经济\n表达感谢的最佳方式是直接支持当地经济。"
     }
   },
   "accommodation": {
@@ -411,7 +453,9 @@
     "eyebrow": "随时准备好",
     "title": "现在开始您的旅程——与我们的旅行设计师交谈",
     "description": "分享您的日期和节奏。我们将为您量身定制一个平静的、以岛屿为主导的行程。",
-    "button": "通过WhatsApp聊天"
+    "button": "通过WhatsApp聊天",
+    "planYourTrip": "规划您的旅行",
+    "tagline": "岛屿。大海。宁静。"
   },
   "footer": {
     "brandName": "托吉安之旅",
@@ -437,7 +481,9 @@
     "togeanVoyages": "托吉安之旅",
     "viewDetails": "查看详情",
     "readMore": "阅读更多",
-    "viewAll": "查看全部"
+    "viewAll": "查看全部",
+    "species": "物种",
+    "details": "详情"
   },
   "destinations": {
     "sectionLabel": "托吉安之旅",
