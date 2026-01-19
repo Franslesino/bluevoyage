@@ -41,6 +41,15 @@ export default async function LandWildlifeDetailPage({ params }: { params: Promi
         notFound();
     }
 
+    // Get translated content if available, fallback to default
+    const translatedContent = (t as any).wildlifeLandContent?.[slug];
+    const intro = translatedContent?.intro || species.expandedContent.intro;
+    const keyFacts = translatedContent?.keyFacts || species.expandedContent.keyFacts;
+    const whereToSee = translatedContent?.whereToSee || species.expandedContent.whereToSee;
+    const howToSpot = translatedContent?.howToSpot || species.expandedContent.howToSpot;
+    const responsibleGuidelines = translatedContent?.responsibleGuidelines || species.expandedContent.responsibleGuidelines;
+    const conservationNotes = translatedContent?.conservationNotes || species.expandedContent.conservationNotes;
+
     return (
         <div className="bg-white min-h-screen text-neutral-900 flex flex-col">
             <Navbar />
@@ -52,7 +61,7 @@ export default async function LandWildlifeDetailPage({ params }: { params: Promi
                     {/* Title Block */}
                     <div className="text-center max-w-4xl mx-auto mb-12">
                         <h1 className="font-canto text-5xl md:text-7xl text-neutral-900 mb-4 tracking-tight">
-                            {species.nameEn} <span className="text-neutral-400 font-light">({species.nameId})</span>
+                            {(t as any).wildlifeNames?.land?.[slug]?.name || species.nameEn} <span className="text-neutral-400 font-light">({(t as any).wildlifeNames?.land?.[slug]?.localName || species.nameId})</span>
                         </h1>
                         <p className="font-avenir text-xl md:text-2xl text-neutral-500 italic font-light">
                             {species.scientificName}
@@ -74,7 +83,7 @@ export default async function LandWildlifeDetailPage({ params }: { params: Promi
                     {/* Intro Text */}
                     <div className="max-w-3xl mx-auto text-center">
                         <p className="font-avenir text-lg md:text-xl text-neutral-800 leading-relaxed">
-                            {species.expandedContent.intro}
+                            {intro}
                         </p>
                     </div>
                 </section>
@@ -83,7 +92,7 @@ export default async function LandWildlifeDetailPage({ params }: { params: Promi
                 <section className="bg-neutral-50 py-16 mb-24">
                     <div className="max-w-[1280px] mx-auto px-6 md:px-12">
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
-                            {species.expandedContent.keyFacts.map((fact, idx) => (
+                            {keyFacts.map((fact: { label: string; value: string }, idx: number) => (
                                 <div key={idx} className="flex flex-col">
                                     <span className="font-canto text-xl text-neutral-400 mb-2">{fact.label}</span>
                                     <span className="font-avenir text-lg text-neutral-900 font-medium">{fact.value}</span>
@@ -103,7 +112,7 @@ export default async function LandWildlifeDetailPage({ params }: { params: Promi
                                 {t.wildlifeDetail?.whereYouMightSeeIt || "Where you might see it"}
                             </h2>
                             <p className="font-avenir text-lg text-neutral-600 leading-relaxed">
-                                {species.expandedContent.whereToSee}
+                                {whereToSee}
                             </p>
                         </div>
                         <div>
@@ -111,7 +120,7 @@ export default async function LandWildlifeDetailPage({ params }: { params: Promi
                                 {t.wildlifeDetail?.howToSpotIt || "How to spot it"}
                             </h2>
                             <p className="font-avenir text-lg text-neutral-600 leading-relaxed">
-                                {species.expandedContent.howToSpot}
+                                {howToSpot}
                             </p>
                         </div>
                     </div>
@@ -123,7 +132,7 @@ export default async function LandWildlifeDetailPage({ params }: { params: Promi
                         </h2>
                         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                             <ul className="space-y-4">
-                                {species.expandedContent.responsibleGuidelines.slice(0, Math.ceil(species.expandedContent.responsibleGuidelines.length / 2)).map((guide, idx) => (
+                                {responsibleGuidelines.slice(0, Math.ceil(responsibleGuidelines.length / 2)).map((guide: string, idx: number) => (
                                     <li key={idx} className="font-avenir text-lg text-neutral-300 flex gap-3">
                                         <span className="text-emerald-400">•</span>
                                         {guide}
@@ -131,7 +140,7 @@ export default async function LandWildlifeDetailPage({ params }: { params: Promi
                                 ))}
                             </ul>
                             <ul className="space-y-4">
-                                {species.expandedContent.responsibleGuidelines.slice(Math.ceil(species.expandedContent.responsibleGuidelines.length / 2)).map((guide, idx) => (
+                                {responsibleGuidelines.slice(Math.ceil(responsibleGuidelines.length / 2)).map((guide: string, idx: number) => (
                                     <li key={idx} className="font-avenir text-lg text-neutral-300 flex gap-3">
                                         <span className="text-emerald-400">•</span>
                                         {guide}
@@ -165,7 +174,7 @@ export default async function LandWildlifeDetailPage({ params }: { params: Promi
                     <div className="max-w-2xl text-center">
                         <h3 className="font-canto text-2xl text-neutral-900 mb-4">{t.wildlifeDetail?.conservationStatus || "Conservation Status"}</h3>
                         <p className="font-avenir text-lg text-neutral-600 leading-relaxed">
-                            {species.expandedContent.conservationNotes}
+                            {conservationNotes}
                         </p>
                     </div>
 

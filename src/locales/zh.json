@@ -707,5 +707,821 @@
     "responsibleGuidelines": "负责任的接触指南",
     "gallery": "画廊",
     "conservationStatus": "保护状态"
+  },
+  "destinationContent": {
+    "pulau-puah": {
+      "tagline": "一座拥有绝对宁静和原始自然的僻静岛屿。",
+      "intro": "普劳普阿是一颗几乎未开发的明珠，拥有未受污染的白色沙滩和繁茂的珊瑚礁。",
+      "whyItMatters": [
+        "远离人迹的空旷海滩真正逃离。",
+        "被健康的珊瑚花园所环绕。",
+        "提供私人岛屿的感觉。"
+      ],
+      "experiences": [
+        {
+          "title": "无人海滩野餐",
+          "text": "在沙滩上享用新鲜海鲜烧烤。"
+        },
+        {
+          "title": "珊瑚礁浮潜",
+          "text": "从海滩游泳观看充满活力的珊瑚。"
+        },
+        {
+          "title": "丛林漫步",
+          "text": "在椰子树下散步。"
+        },
+        {
+          "title": "船上日落",
+          "text": "观赏染红天空的日落。"
+        }
+      ],
+      "signatureMoment": "在无人海滩上野餐，意识到整个岛屿只属于你。",
+      "routeFit": {
+        "idealTiming": "跳岛路线的中午停留。",
+        "suggestedDuration": "半天。",
+        "notes": [
+          "只能乘坐私人船只到达。",
+          "没有商店；自带物资。",
+          "在平静的海面时访问。"
+        ]
+      },
+      "practicalNotes": [
+        "不留痕迹。",
+        "与同伴浮潜。",
+        "取决于天气和潮汐。"
+      ]
+    },
+    "malenge": {
+      "tagline": "热带丛林天堂与正宗海上游牧民文化的交汇。",
+      "intro": "马伦格是茂密丛林和原始海滩的避风港，通过一座长长的木桥与迷人的巴乔海上游牧民村庄相连。",
+      "whyItMatters": [
+        "传统海上游牧民社区的家园。",
+        "提供拥有珊瑚花园的壮丽海滩。",
+        "茂密的森林庇护着稀有的托盖安猕猴。"
+      ],
+      "experiences": [
+        {
+          "title": "普劳帕潘桥漫步",
+          "text": "穿越1.8公里的标志性木桥。"
+        },
+        {
+          "title": "塞拉海滩休憩",
+          "text": "在群岛最好的海滩之一放松。"
+        },
+        {
+          "title": "丛林徒步",
+          "text": "步行观看托盖安特有猕猴。"
+        },
+        {
+          "title": "文化民宿",
+          "text": "体验岛上的日常生活。"
+        }
+      ],
+      "signatureMoment": "走过碧绿海水上的木桥前往普劳帕潘。",
+      "routeFit": {
+        "idealTiming": "东托盖安的旅途中途逃离。",
+        "suggestedDuration": "2-3天。",
+        "notes": [
+          "偏远地区没有ATM。",
+          "有限的电力。",
+          "查看渡轮时刻表。"
+        ]
+      },
+      "practicalNotes": [
+        "在村庄穿着得体。",
+        "基本住宿。",
+        "夜生活是看星星。"
+      ]
+    },
+    "waleakodi": {
+      "tagline": "一个远离尘嚣的热带隐居地。",
+      "intro": "瓦莱亚科迪是一个拥有宁静白色沙滩和受保护珊瑚礁的孤立圣地。",
+      "whyItMatters": [
+        "最与世隔绝的地方之一。",
+        "原始受保护的珊瑚礁。",
+        "未受破坏的岛屿风光。"
+      ],
+      "experiences": [
+        {
+          "title": "鲁滨逊漂流记海滩日",
+          "text": "在私人海滩放松。"
+        },
+        {
+          "title": "珊瑚花园浮潜",
+          "text": "探索海洋保护区。"
+        },
+        {
+          "title": "多隆村访问",
+          "text": "在渔村与当地人见面。"
+        },
+        {
+          "title": "日落与星空",
+          "text": "观看日落和银河。"
+        }
+      ],
+      "signatureMoment": "在完全静默中从安静的海滩凝望银河。",
+      "routeFit": {
+        "idealTiming": "行程结束时的离网逃离。",
+        "suggestedDuration": "2天。",
+        "notes": [
+          "稀少的渡轮。",
+          "没有ATM。",
+          "发电机电力。"
+        ]
+      },
+      "practicalNotes": [
+        "提前预订住宿。",
+        "环保意识行为。",
+        "接受数字排毒。"
+      ]
+    },
+    "una-una": {
+      "tagline": "拥有壮观海洋生物的火山明珠。",
+      "intro": "乌纳乌纳是一座戏剧性的火山岛，黑色沙滩与茂密的绿色植被相遇。",
+      "whyItMatters": [
+        "攀登活火山口的罕见机会。",
+        "拥有健康珊瑚礁的最佳潜水点。",
+        "原始真实的岛屿体验。"
+      ],
+      "experiences": [
+        {
+          "title": "科洛火山徒步",
+          "text": "攀登火山欣赏海景。"
+        },
+        {
+          "title": "潜水或浮潜",
+          "text": "观看巨大的鱼群和珊瑚花园。"
+        },
+        {
+          "title": "黑沙滩探索",
+          "text": "探索独特的火山海滩。"
+        },
+        {
+          "title": "度假村日落",
+          "text": "在日落时分在海滩放松。"
+        }
+      ],
+      "signatureMoment": "站在科洛山边缘，眺望无尽的蓝色海洋。",
+      "routeFit": {
+        "idealTiming": "专门的冒险环节。",
+        "suggestedDuration": "2-4天。",
+        "notes": [
+          "稀少的渡轮通道。",
+          "没有ATM。",
+          "发电机电力。"
+        ]
+      },
+      "practicalNotes": [
+        "提前预订潜水度假村。",
+        "携带旅行保险。",
+        "浮潜时穿防晒衣。"
+      ]
+    },
+    "kadidiri": {
+      "tagline": "拥有完美白沙的热闹旅行中心。",
+      "intro": "卡迪迪里是托盖安最受欢迎的旅行中心，拥有柔软的沙滩。",
+      "whyItMatters": [
+        "对游客友好的基地。",
+        "海岸附近丰富的珊瑚礁。",
+        "童话般的热带风光。"
+      ],
+      "experiences": [
+        {
+          "title": "家门口珊瑚礁浮潜",
+          "text": "进入有珊瑚花园的清澈水域。"
+        },
+        {
+          "title": "二战轰炸机潜水",
+          "text": "潜入B-24残骸。"
+        },
+        {
+          "title": "岛间皮划艇",
+          "text": "划向隐藏的海湾。"
+        },
+        {
+          "title": "码头日落聚会",
+          "text": "看天空燃烧。"
+        }
+      ],
+      "signatureMoment": "当星星出现时，从码头观看日落。",
+      "routeFit": {
+        "idealTiming": "第一站。",
+        "suggestedDuration": "2-4天。",
+        "notes": [
+          "从瓦凯乘30分钟船。",
+          "现金经济。",
+          "有限的电力。"
+        ]
+      },
+      "practicalNotes": [
+        "旺季时预订。",
+        "共进餐以结识旅行者。",
+        "保护食物免受野生动物侵害。"
+      ]
+    },
+    "bomba": {
+      "tagline": "拥有红树林和日落的宁静南方隐居地。",
+      "intro": "邦巴是巴图达卡岛南端的一个宁静海岸村庄。",
+      "whyItMatters": [
+        "从安帕纳出发的重要南部门户。",
+        "令人惊叹的风景。",
+        "潜水和浮潜的热点。"
+      ],
+      "experiences": [
+        {
+          "title": "波亚丽莎岛逃离",
+          "text": "在这个小型私人岛屿度过一天。"
+        },
+        {
+          "title": "环礁浮潜",
+          "text": "前往浅环礁观看霓虹蛤蜊。"
+        },
+        {
+          "title": "日落沙洲之旅",
+          "text": "从沙洲观看360度日落。"
+        },
+        {
+          "title": "村庄漫步",
+          "text": "看看友好的当地人。"
+        }
+      ],
+      "signatureMoment": "站在日落时分的临时沙洲上。",
+      "routeFit": {
+        "idealTiming": "过境点。",
+        "suggestedDuration": "1-2天。",
+        "notes": [
+          "从安帕纳进入。",
+          "没有ATM。",
+          "仅晚上有电。"
+        ]
+      },
+      "practicalNotes": [
+        "提前预订民宿。",
+        "协调潜水时间表。",
+        "在村庄穿着得体。"
+      ]
+    },
+    "luwuk": {
+      "tagline": "通往岛屿冒险的风景如画的海岸门户。",
+      "intro": "卢武克是一座宜人的海岸城市，也是托盖安的主要物流中心。",
+      "whyItMatters": [
+        "最近的机场。",
+        "美丽的海岸风光。",
+        "ATM等现代设施。"
+      ],
+      "experiences": [
+        {
+          "title": "海岸公路全景",
+          "text": "驱车前往基洛利马观景点。"
+        },
+        {
+          "title": "基洛利马海滩",
+          "text": "在热门的当地海滩放松。"
+        },
+        {
+          "title": "传统市场参观",
+          "text": "看异国水果和新鲜海鲜。"
+        },
+        {
+          "title": "瀑布远足",
+          "text": "在萨洛迪克瀑布游泳。"
+        }
+      ],
+      "signatureMoment": "日出时从基洛利马观景点眺望。",
+      "routeFit": {
+        "idealTiming": "过境逗留。",
+        "suggestedDuration": "1天。",
+        "notes": [
+          "在这里取现金。",
+          "每日航班。",
+          "预留交通时间。"
+        ]
+      },
+      "practicalNotes": [
+        "品尝苏拉威西当地特色。",
+        "用信号下载地图。",
+        "最后采购。"
+      ]
+    }
+  },
+  "wildlifeSeaContent": {
+    "green-sea-turtle": {
+      "intro": "一种大型温和的海龟，常在珊瑚礁中游弋并在海草草原上觅食。",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "海草草原、泻湖、珊瑚礁"
+        },
+        {
+          "label": "食物",
+          "value": "海草和藻类"
+        },
+        {
+          "label": "体型",
+          "value": "可达1.5米"
+        },
+        {
+          "label": "行为",
+          "value": "平静的食草者；浮出水面呼吸"
+        }
+      ],
+      "whereToSee": "在卡迪迪里周围和有海草的泻湖的平静浅水区。",
+      "howToSpot": "在海草边缘寻找深色椭圆形龟壳。观察海龟头部浮出水面呼吸。",
+      "responsibleGuidelines": [
+        "保持3-5米距离。",
+        "不要触摸或追逐。",
+        "禁止闪光摄影。",
+        "保持中性浮力。",
+        "如果它游走，说明你太近了。"
+      ],
+      "conservationStatus": "IUCN：无危；当地仍受保护。"
+    },
+    "hawksbill-turtle": {
+      "intro": "一种较小的喜爱珊瑚礁的海龟，有着像鹰一样的尖嘴。",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "珊瑚礁、岩礁、泻湖"
+        },
+        {
+          "label": "食物",
+          "value": "海绵和珊瑚礁无脊椎动物"
+        },
+        {
+          "label": "体型",
+          "value": "可达1.0米"
+        },
+        {
+          "label": "行为",
+          "value": "害羞；穿梭于珊瑚礁间；独居"
+        }
+      ],
+      "whereToSee": "在珊瑚丰富的浮潜和潜水点，沿着礁壁。",
+      "howToSpot": "在珊瑚礁结构中寻找细嘴和有图案的龟壳。",
+      "responsibleGuidelines": [
+        "给它空间；玳瑁容易受惊。",
+        "不要在狭窄通道中围堵。",
+        "不要触摸。",
+        "保持蛙鞋向上。",
+        "不要使用闪光灯。"
+      ],
+      "conservationStatus": "IUCN：极度濒危。"
+    },
+    "napoleon-wrasse": {
+      "intro": "一种巨大而有魅力的珊瑚礁鱼，有厚嘴唇和前额隆起。",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "外礁坡、水道、泻湖"
+        },
+        {
+          "label": "食物",
+          "value": "硬壳无脊椎动物、鱼类"
+        },
+        {
+          "label": "体型",
+          "value": "可达2米"
+        },
+        {
+          "label": "行为",
+          "value": "通常独居；好奇"
+        }
+      ],
+      "whereToSee": "在健康的珊瑚礁和落差处机会最好。",
+      "howToSpot": "寻找有厚嘴唇和钝头的非常大的轮廓。",
+      "responsibleGuidelines": [
+        "保持距离。",
+        "不要喂食。",
+        "避免快速下降。",
+        "控制浮力。",
+        "选择负责任的运营商。"
+      ],
+      "conservationStatus": "IUCN：濒危；CITES附录II。"
+    },
+    "dugong": {
+      "intro": "一种稀有温和的海洋哺乳动物，在浅湾中吃海草。",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "受保护海湾的浅海草草原"
+        },
+        {
+          "label": "食物",
+          "value": "海草（食草动物）"
+        },
+        {
+          "label": "体型",
+          "value": "可达3米"
+        },
+        {
+          "label": "行为",
+          "value": "害羞；缓慢吃草；安静地浮出水面"
+        }
+      ],
+      "whereToSee": "在平静浅水的海草区；目击罕见。",
+      "howToSpot": "寻找泥泞的觅食痕迹和低处移动的灰色身影。",
+      "responsibleGuidelines": [
+        "保持很大距离；不要追逐。",
+        "海草上方禁止快艇。",
+        "如果它潜水，你太近了。",
+        "安静行为。",
+        "不要分开母子。"
+      ],
+      "conservationStatus": "IUCN：易危。"
+    },
+    "giant-clam": {
+      "intro": "一种壮观的珊瑚礁双壳类，可以非常巨大且色彩鲜艳。",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "浅水珊瑚礁和礁坪"
+        },
+        {
+          "label": "食物",
+          "value": "滤食加共生藻类"
+        },
+        {
+          "label": "体型",
+          "value": "可达1.2米"
+        },
+        {
+          "label": "行为",
+          "value": "固着；阳光下外套膜张开"
+        }
+      ],
+      "whereToSee": "在清澈浅水珊瑚园，扫描礁坪寻找大贝壳。",
+      "howToSpot": "寻找有明亮波浪状外套膜的厚棱纹贝壳。",
+      "responsibleGuidelines": [
+        "不要触摸外套膜。",
+        "不要站在珊瑚礁上。",
+        "禁止收集纪念品。",
+        "避免搅动沉积物。",
+        "控制浮力。"
+      ],
+      "conservationStatus": "某些物种极度濒危。"
+    },
+    "seahorse": {
+      "intro": "用抓握尾巴抓住海草和海绵的小型伪装鱼。",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "海草、红树林、珊瑚、海绵"
+        },
+        {
+          "label": "食物",
+          "value": "小型甲壳类和浮游生物"
+        },
+        {
+          "label": "体型",
+          "value": "通常可达15厘米"
+        },
+        {
+          "label": "行为",
+          "value": "缓慢；隐藏；伏击捕食"
+        }
+      ],
+      "whereToSee": "在有海草和海绵边缘的受保护浅水区。",
+      "howToSpot": "慢下来，在草或海绵上寻找不寻常的凸起。",
+      "responsibleGuidelines": [
+        "不要触摸；海马容易受惊。",
+        "控制蛙鞋。",
+        "近距离禁止闪光灯。",
+        "不要移动植被。",
+        "限制观察时间。"
+      ],
+      "conservationStatus": "所有海马都在CITES附录II。"
+    },
+    "stingless-jellyfish": {
+      "intro": "在受保护的海洋湖中，Mastigias型水母丰富且对游泳者无害。",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "孤立的海洋湖和封闭泻湖"
+        },
+        {
+          "label": "食物",
+          "value": "浮游生物加共生藻类"
+        },
+        {
+          "label": "体型",
+          "value": "通常8-10厘米直径"
+        },
+        {
+          "label": "行为",
+          "value": "缓慢漂浮；聚集在阳光照射的水中"
+        }
+      ],
+      "whereToSee": "在马里奥纳湖（水母湖），游泳者可以在温和的水母中漂浮。",
+      "howToSpot": "你会看到水面下脉动的柔软琥珀色光点。",
+      "responsibleGuidelines": [
+        "不要触摸水母。",
+        "不用蛙鞋；温和漂浮。",
+        "避免防晒油进入湖中。",
+        "游泳前不用肥皂。",
+        "遵守当地规则。"
+      ],
+      "conservationStatus": "对污染和温度变化非常敏感。"
+    }
+  },
+  "wildlifeLandContent": {
+    "togian-monkey": {
+      "intro": "Un macaco oscuro y robusto con cola corta de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "Bosque de tierras bajas"
+        },
+        {
+          "label": "食物",
+          "value": "Frutas, hojas, semillas, insectos"
+        },
+        {
+          "label": "体型",
+          "value": "50-68 cm; 8-12 kg"
+        },
+        {
+          "label": "行为",
+          "value": "Grupos sociales; vocales"
+        }
+      ],
+      "whereToSee": "Mejor en caminatas forestales de Malenge; mañana temprano y tarde.",
+      "howToSpot": "Escucha el crujido de ramas y llamadas de contacto.",
+      "responsibleGuidelines": [
+        "Mantén +10m de distancia.",
+        "Nunca alimentes.",
+        "Muévete lento.",
+        "Lleva tu basura."
+      ],
+      "conservationNotes": "Vulnerable; pérdida de hábitat es amenaza clave."
+    },
+    "togean-tarsier": {
+      "intro": "Un pequeño primate nocturno endémico de las Islas Togean con ojos enormes.",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "Bosque, jardines"
+        },
+        {
+          "label": "食物",
+          "value": "Insectos, arañas, vertebrados pequeños"
+        },
+        {
+          "label": "体型",
+          "value": "10-15 cm"
+        },
+        {
+          "label": "行为",
+          "value": "Nocturno; saltador ágil"
+        }
+      ],
+      "whereToSee": "Caminatas nocturnas en bordes del bosque.",
+      "howToSpot": "Usa luz roja tenue; busca el brillo de ojos.",
+      "responsibleGuidelines": [
+        "Solo luz roja.",
+        "Voces bajas.",
+        "Limita tiempo de observación."
+      ],
+      "conservationNotes": "En peligro; sensible a perturbación forestal."
+    },
+    "togian-babirusa": {
+      "intro": "Un mamífero raro parecido a un cerdo con colmillos curvados hacia arriba, endémico de Togean.",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "Bosque de tierras bajas"
+        },
+        {
+          "label": "食物",
+          "value": "Raíces, frutas caídas, gusanos"
+        },
+        {
+          "label": "体型",
+          "value": "El babirusa más grande"
+        },
+        {
+          "label": "行为",
+          "value": "Tímido; crepuscular"
+        }
+      ],
+      "whereToSee": "Solo en Islas Togean; Malenge, Batudaka.",
+      "howToSpot": "Busca huellas y signos de excavación.",
+      "responsibleGuidelines": [
+        "Mantén +20m de distancia.",
+        "Sin cebo.",
+        "Usa guías locales."
+      ],
+      "conservationNotes": "En peligro; protegido."
+    },
+    "knobbed-hornbill": {
+      "intro": "Un gran cálao endémico de Sulawesi con casco inconfundible.",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "Dosel forestal de tierras bajas"
+        },
+        {
+          "label": "食物",
+          "value": "Frutas (higos), algunos insectos"
+        },
+        {
+          "label": "体型",
+          "value": "70-80 cm"
+        },
+        {
+          "label": "行为",
+          "value": "Forrajeo de dosel; vuelo ruidoso"
+        }
+      ],
+      "whereToSee": "Bosques de Sulawesi continental (región Luwuk/Banggai).",
+      "howToSpot": "Escanea copas al amanecer; escucha llamadas profundas.",
+      "responsibleGuidelines": [
+        "Quédate en senderos.",
+        "Sin drones.",
+        "Apoya guías de conservación."
+      ],
+      "conservationNotes": "Vulnerable; pérdida forestal es causa principal."
+    },
+    "togian-water-monitor": {
+      "intro": "Un lagarto monitor endémico de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "Bosque y manglares"
+        },
+        {
+          "label": "食物",
+          "value": "Invertebrados, insectos, huevos"
+        },
+        {
+          "label": "体型",
+          "value": "Hasta 1.5 m"
+        },
+        {
+          "label": "行为",
+          "value": "Diurno; cauteloso"
+        }
+      ],
+      "whereToSee": "Arroyos de manglar, costas lodosas.",
+      "howToSpot": "Camina lento cerca de manglares en marea baja.",
+      "responsibleGuidelines": [
+        "Mantén distancia; pueden morder.",
+        "No manipules.",
+        "No alimentes."
+      ],
+      "conservationNotes": "Preocupación menor; rango pequeño."
+    },
+    "coconut-crab": {
+      "intro": "El artrópodo terrestre más grande del mundo, activo de noche.",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "Bosque costero"
+        },
+        {
+          "label": "食物",
+          "value": "Frutas, nueces, carroña"
+        },
+        {
+          "label": "体型",
+          "value": "Hasta 1 m de envergadura"
+        },
+        {
+          "label": "行为",
+          "value": "Nocturno; excavador"
+        }
+      ],
+      "whereToSee": "Islas remotas con bosque costero; de noche.",
+      "howToSpot": "Caminata nocturna con luz roja.",
+      "responsibleGuidelines": [
+        "No toques - las pinzas aplastan.",
+        "No alimentes.",
+        "Nunca colectes."
+      ],
+      "conservationNotes": "Vulnerable; amenazado por recolección."
+    },
+    "burung-maleo": {
+      "intro": "Un megápodo de Sulawesi que incuba huevos en arena caliente.",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "Bosque; sitios de anidación arenosos"
+        },
+        {
+          "label": "食物",
+          "value": "Frutas, semillas, invertebrados"
+        },
+        {
+          "label": "体型",
+          "value": "55-60 cm"
+        },
+        {
+          "label": "行为",
+          "value": "Terrestre; anidación comunal"
+        }
+      ],
+      "whereToSee": "Sulawesi continental en sitios protegidos.",
+      "howToSpot": "En sitios autorizados, observa parejas cavando.",
+      "responsibleGuidelines": [
+        "Solo sitios oficiales.",
+        "Sin flash ni drones.",
+        "No compres huevos."
+      ],
+      "conservationNotes": "En peligro crítico."
+    },
+    "togian-boobook": {
+      "intro": "Un pequeño búho endémico de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "栖息地",
+          "value": "Bosque; jardines"
+        },
+        {
+          "label": "食物",
+          "value": "Insectos y pequeños vertebrados"
+        },
+        {
+          "label": "体型",
+          "value": "25-30 cm"
+        },
+        {
+          "label": "行为",
+          "value": "Nocturno; cazador de percha"
+        }
+      ],
+      "whereToSee": "Caminatas vespertinas cerca de bordes forestales.",
+      "howToSpot": "Para y escucha llamadas rítmicas.",
+      "responsibleGuidelines": [
+        "Solo luz roja.",
+        "Sin reproducción de llamadas.",
+        "Limita tiempo de observación."
+      ],
+      "conservationNotes": "Casi amenazado; endémico."
+    }
+  },
+  "wildlifeNames": {
+    "sea": {
+      "green-sea-turtle": {
+        "name": "绿海龟",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "玳瑁",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "拿破仑鱼",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "儒艮",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "巨蛤",
+        "localName": "Kima Raksasa"
+      },
+      "seahorse": {
+        "name": "海马",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "无刺水母",
+        "localName": "Ubur-ubur Tidak Menyengat"
+      }
+    },
+    "land": {
+      "togian-monkey": {
+        "name": "托盖安猕猴",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "托盖安眼镜猴",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "托盖安鹿豚",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "苏拉威西犀鸟",
+        "localName": "Julang Sulawesi"
+      },
+      "togian-water-monitor": {
+        "name": "托盖安巨蜥",
+        "localName": "Biawak Air Togean"
+      },
+      "coconut-crab": {
+        "name": "椰子蟹",
+        "localName": "Kepiting Kelapa"
+      },
+      "burung-maleo": {
+        "name": "营冢鸟",
+        "localName": "Burung Maleo"
+      },
+      "togian-boobook": {
+        "name": "托盖安鹰鸮",
+        "localName": "Burung Hantu Togean"
+      }
+    }
   }
 }

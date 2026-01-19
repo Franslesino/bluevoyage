@@ -707,5 +707,836 @@
     "responsibleGuidelines": "Responsible Encounter Guidelines",
     "gallery": "Gallery",
     "conservationStatus": "Conservation Status"
+  },
+  "destinationContent": {
+    "pulau-puah": {
+      "tagline": "A secluded island of absolute tranquility and pristine nature.",
+      "intro": "Pulau Puah is a largely undeveloped gem in the southeastern Togeans, boasting untouched white-sand beaches and thriving coral reefs. Far from crowds, it offers a rare chance to enjoy nature's silence on a pristine tropical shore where tranquility reigns supreme.",
+      "whyItMatters": [
+        "A true off-the-beaten-path escape with empty beaches ideal for private swimming.",
+        "Surrounded by healthy coral gardens, making it a dream for snorkelers to spot turtles.",
+        "Offers an exclusive private island feel, perfect for picnics without another soul in sight."
+      ],
+      "experiences": [
+        {
+          "title": "Deserted Beach Picnic",
+          "text": "Enjoy a BBQ picnic of fresh seafood on the powdery sand, with just you, the palms, and the gentle waves."
+        },
+        {
+          "title": "Coral Reef Snorkeling",
+          "text": "Swim right off the beach to encounter vibrant coral formations and diverse marine life in remarkably clear waters."
+        },
+        {
+          "title": "Jungle Stroll",
+          "text": "Take a short walk inland beneath towering coconut palms to glimpse the untouched rainforest ecosystem thriving in silence."
+        },
+        {
+          "title": "Sunset on the Boat",
+          "text": "Linger offshore to watch the sunset paint the sky in breathtaking orange and purple hues over the silhouetted island."
+        }
+      ],
+      "signatureMoment": "Enjoying a deserted beach picnic on powdery white sand, realizing you have the entire island to yourself.",
+      "routeFit": {
+        "idealTiming": "Midday stopover on an island-hopping route.",
+        "suggestedDuration": "Half-day (lunch or swim).",
+        "notes": [
+          "Accessible only by private boat or tour; no public ferries.",
+          "No shops or facilities—bring all water and supplies.",
+          "Visit in calm seas for a safe landing."
+        ]
+      },
+      "practicalNotes": [
+        "Leave no trace to preserve the pristine condition.",
+        "Snorkel with a buddy and avoid stepping on coral.",
+        "Visits are weather- and tide-dependent; check with guides."
+      ]
+    },
+    "malenge": {
+      "tagline": "Tropical jungle paradise meets authentic sea gypsy culture.",
+      "intro": "Malenge is a haven of dense jungles and unspoiled beaches, connected to the fascinating Bajo sea gypsy village by a long wooden bridge.",
+      "whyItMatters": [
+        "Home to a traditional sea gypsy community living in stilt houses.",
+        "Offers stunning beaches with coral gardens for easy snorkeling.",
+        "Lush forests shelter rare Togean macaques and coconut crabs."
+      ],
+      "experiences": [
+        {
+          "title": "Pulau Papan Bridge Walk",
+          "text": "Stroll across the iconic wooden bridge over crystal-clear water."
+        },
+        {
+          "title": "Sera Beach Retreat",
+          "text": "Relax on white sand with excellent snorkeling steps away."
+        },
+        {
+          "title": "Jungle Trek",
+          "text": "Hike through rainforest to spot endemic Togean macaques."
+        },
+        {
+          "title": "Cultural Homestay",
+          "text": "Experience daily island life and warm local hospitality."
+        }
+      ],
+      "signatureMoment": "Walking the wooden bridge to Pulau Papan over turquoise water.",
+      "routeFit": {
+        "idealTiming": "Mid-journey escape in the eastern Togeans.",
+        "suggestedDuration": "2-3 days.",
+        "notes": [
+          "Remote with no ATMs; bring supplies.",
+          "Limited electricity at night.",
+          "Check ferry schedules."
+        ]
+      },
+      "practicalNotes": [
+        "Dress modestly in villages.",
+        "Accommodation is basic.",
+        "Nightlife is stargazing."
+      ]
+    },
+    "waleakodi": {
+      "tagline": "A far-flung tropical hideaway for ultimate seclusion.",
+      "intro": "Walea Kodi is an isolated sanctuary with quiet white-sand beaches and protected coral reefs.",
+      "whyItMatters": [
+        "One of the most isolated spots for peace and privacy.",
+        "Pristine protected reefs for world-class snorkeling.",
+        "Untouched island scenery where greenery meets shore."
+      ],
+      "experiences": [
+        {
+          "title": "Robinson Crusoe Beach Day",
+          "text": "Lounge on private beach with soft white sand."
+        },
+        {
+          "title": "Coral Garden Snorkeling",
+          "text": "Explore marine reserve for coral and turtles."
+        },
+        {
+          "title": "Village Visit in Dolong",
+          "text": "Meet locals in the tiny fishing hamlet."
+        },
+        {
+          "title": "Sunset Stargazing",
+          "text": "Watch sunset then gaze at the Milky Way."
+        }
+      ],
+      "signatureMoment": "Gazing at the Milky Way from a quiet beach in total silence.",
+      "routeFit": {
+        "idealTiming": "End-of-itinerary off-grid escape.",
+        "suggestedDuration": "2 days (2 nights).",
+        "notes": [
+          "Infrequent ferries.",
+          "No ATM or shops.",
+          "Limited generator electricity."
+        ]
+      },
+      "practicalNotes": [
+        "Reserve accommodation in advance.",
+        "Practice eco-conscious behavior.",
+        "Embrace digital detox."
+      ]
+    },
+    "una-una": {
+      "tagline": "A volcanic jewel with spectacular marine life.",
+      "intro": "Una Una is a dramatic volcanic island where black sands meet lush greenery, dominated by the active Mount Colo.",
+      "whyItMatters": [
+        "Rare chance to trek an active volcano crater.",
+        "Best diving in the Togeans with healthy reefs.",
+        "Raw, authentic island experience."
+      ],
+      "experiences": [
+        {
+          "title": "Volcano Hike to Mount Colo",
+          "text": "Trek up the volcano slopes for ocean views."
+        },
+        {
+          "title": "Diving or Snorkeling",
+          "text": "See huge fish schools and coral gardens."
+        },
+        {
+          "title": "Beachcombing Black Sands",
+          "text": "Explore unique volcanic beaches."
+        },
+        {
+          "title": "Sunset at Resort",
+          "text": "Relax beachfront as the sun dips."
+        }
+      ],
+      "signatureMoment": "Standing on the rim of Mount Colo with endless blue ocean below.",
+      "routeFit": {
+        "idealTiming": "Dedicated adventure segment.",
+        "suggestedDuration": "2-4 days.",
+        "notes": [
+          "Infrequent ferry access.",
+          "No ATMs; bring cash.",
+          "Generator electricity."
+        ]
+      },
+      "practicalNotes": [
+        "Book dive resorts in advance.",
+        "Bring travel insurance.",
+        "Use rash guard when snorkeling."
+      ]
+    },
+    "kadidiri": {
+      "tagline": "The vibrant travel hub with perfect white sands.",
+      "intro": "Kadidiri is the Togeans beloved travel hub, famous for its powder-soft white beaches and vibrant house reefs.",
+      "whyItMatters": [
+        "Tourist-friendly base with social vibe.",
+        "Rich coral reefs just off the shore.",
+        "Storybook tropical scenery with spectacular sunsets."
+      ],
+      "experiences": [
+        {
+          "title": "House Reef Snorkeling",
+          "text": "Step off beach into gin-clear water with coral gardens."
+        },
+        {
+          "title": "WWII Bomber Dive",
+          "text": "Dive to the B-24 Liberator wreck."
+        },
+        {
+          "title": "Kayaking Island Hopping",
+          "text": "Paddle to hidden coves."
+        },
+        {
+          "title": "Sunset Pier Gathering",
+          "text": "Watch the sky ignite at sunset."
+        }
+      ],
+      "signatureMoment": "Watching sunset from the pier as stars come out.",
+      "routeFit": {
+        "idealTiming": "First stop to adjust to island time.",
+        "suggestedDuration": "2-4 days.",
+        "notes": [
+          "30 min boat from Wakai.",
+          "Cash only economy.",
+          "Limited electricity and internet."
+        ]
+      },
+      "practicalNotes": [
+        "Book ahead in high season.",
+        "Communal dining is great for meeting travelers.",
+        "Secure food from wildlife."
+      ]
+    },
+    "bomba": {
+      "tagline": "A quiet southern retreat of mangroves and sunsets.",
+      "intro": "Bomba is a peaceful coastal village at the southern tip of Batudaka Island.",
+      "whyItMatters": [
+        "Important southern gateway from Ampana.",
+        "Stunning scenery with sandy beaches and jungle.",
+        "Hotspot for diving and snorkeling."
+      ],
+      "experiences": [
+        {
+          "title": "Poya Lisa Island Escape",
+          "text": "Spend a day on this tiny private islet."
+        },
+        {
+          "title": "Snorkeling the Atolls",
+          "text": "Tour shallow atolls for neon clams."
+        },
+        {
+          "title": "Sunset Sandbar Trip",
+          "text": "Watch 360 degree sunset from sandbar."
+        },
+        {
+          "title": "Village Stroll",
+          "text": "See friendly locals and traditional houses."
+        }
+      ],
+      "signatureMoment": "Standing on a temporary sandbar watching sunset.",
+      "routeFit": {
+        "idealTiming": "Transit point or wind-down spot.",
+        "suggestedDuration": "1-2 days.",
+        "notes": [
+          "Accessed from Ampana or Wakai.",
+          "No ATMs.",
+          "Electricity at night only."
+        ]
+      },
+      "practicalNotes": [
+        "Book homestays in advance.",
+        "Coordinate diving schedules.",
+        "Dress modestly in village."
+      ]
+    },
+    "luwuk": {
+      "tagline": "The scenic coastal gateway to your island adventure.",
+      "intro": "Luwuk is a pleasant coastal city and the primary logistics hub for the Togeans.",
+      "whyItMatters": [
+        "Closest airport and staging point for islands.",
+        "Gorgeous coastal scenery from viewpoints.",
+        "Modern conveniences like ATMs and markets."
+      ],
+      "experiences": [
+        {
+          "title": "Coastal Drive Panorama",
+          "text": "Drive to Kilo Lima Viewpoint for sweeping views."
+        },
+        {
+          "title": "Kilo Lima Beach",
+          "text": "Relax at the popular local beach."
+        },
+        {
+          "title": "Traditional Market Visit",
+          "text": "See fresh exotic fruits and seafood."
+        },
+        {
+          "title": "Waterfall Excursion",
+          "text": "Swim at Salodik Waterfall."
+        }
+      ],
+      "signatureMoment": "Looking from Kilo Lima Viewpoint at sunrise.",
+      "routeFit": {
+        "idealTiming": "Transit stay before or after islands.",
+        "suggestedDuration": "1 day (1-2 nights).",
+        "notes": [
+          "Stock up on cash here.",
+          "Daily flights available.",
+          "Allow time for traffic."
+        ]
+      },
+      "practicalNotes": [
+        "Try local Sulawesi specialties.",
+        "Use good signal to download maps.",
+        "Last-minute shopping for gear."
+      ]
+    }
+  },
+  "wildlifeSeaContent": {
+    "green-sea-turtle": {
+      "intro": "A large, gentle sea turtle often seen cruising reefs and grazing seagrass meadows. Adults are mostly herbivorous and spend long periods foraging in shallow coastal waters before surfacing calmly to breathe.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Seagrass meadows, lagoons, shallow coral reefs"
+        },
+        {
+          "label": "Diet",
+          "value": "Seagrass and algae (mostly herbivorous)"
+        },
+        {
+          "label": "Size",
+          "value": "Up to 1.5 meters"
+        },
+        {
+          "label": "Behavior",
+          "value": "Calm grazer; surfaces to breathe; rests under ledges"
+        }
+      ],
+      "whereToSee": "Most likely in calm, shallow areas around Kadidiri and sheltered lagoons across the Togeans, especially where seagrass is present.",
+      "howToSpot": "Scan seagrass edges and reef flats for a dark oval shell. Watch for a head surfacing briefly to breathe, then gliding back down.",
+      "responsibleGuidelines": [
+        "Keep 3–5 m distance; never chase or block its path.",
+        "Do not touch, ride, or attempt selfies.",
+        "Maintain neutral buoyancy; don't stand on coral/seagrass.",
+        "No flash; avoid loud splashing.",
+        "If it changes direction, you're too close—back off."
+      ],
+      "conservationStatus": "IUCN: Least Concern (2025 update); still protected, vulnerable locally to bycatch, habitat loss, and pollution."
+    },
+    "hawksbill-turtle": {
+      "intro": "A smaller, reef-loving turtle with a pointed hawk-like beak, often weaving through coral structure.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Coral reefs, rocky reefs, lagoons"
+        },
+        {
+          "label": "Diet",
+          "value": "Sea sponges and reef invertebrates"
+        },
+        {
+          "label": "Size",
+          "value": "Up to 1.0 meter"
+        },
+        {
+          "label": "Behavior",
+          "value": "Shy; threads through reefs; often solitary"
+        }
+      ],
+      "whereToSee": "On coral-rich snorkel and dive sites, look along reef walls and crevices where it forages.",
+      "howToSpot": "Search complex reef structure for a narrow beak and patterned shell. Check coral overhangs and cracks.",
+      "responsibleGuidelines": [
+        "Give it space; hawksbills spook easily.",
+        "Never corner it in narrow passages.",
+        "No touching; avoid contact with reef.",
+        "Keep fins up; dont kick sand.",
+        "Skip flash; limit time with animal."
+      ],
+      "conservationStatus": "IUCN: Critically Endangered; threatened by illegal shell trade and reef loss."
+    },
+    "napoleon-wrasse": {
+      "intro": "A massive, charismatic reef fish recognized by thick lips and an adult forehead hump.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Outer reef slopes, channels, lagoons"
+        },
+        {
+          "label": "Diet",
+          "value": "Hard-shelled invertebrates, fish, reef fauna"
+        },
+        {
+          "label": "Size",
+          "value": "Up to 2 meters"
+        },
+        {
+          "label": "Behavior",
+          "value": "Usually solitary; curious; slow powerful swimmer"
+        }
+      ],
+      "whereToSee": "Best chance on healthy coral reefs and drop-offs, especially around exposed island reefs.",
+      "howToSpot": "Look for a very large silhouette with thick lips and blunt head. Adults cruise along reef edges.",
+      "responsibleGuidelines": [
+        "Keep distance; dont crowd for photos.",
+        "Never feed wildlife.",
+        "Avoid rapid descents that startle it.",
+        "Maintain buoyancy; protect reef habitat.",
+        "Choose operators that discourage trophy shots."
+      ],
+      "conservationStatus": "IUCN: Endangered; also listed on CITES Appendix II."
+    },
+    "dugong": {
+      "intro": "A rare, gentle marine mammal that grazes seagrass in shallow bays.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Shallow seagrass meadows in sheltered bays"
+        },
+        {
+          "label": "Diet",
+          "value": "Seagrass (grazing herbivore)"
+        },
+        {
+          "label": "Size",
+          "value": "Up to 3 meters"
+        },
+        {
+          "label": "Behavior",
+          "value": "Shy; slow grazer; surfaces quietly to breathe"
+        }
+      ],
+      "whereToSee": "In calm, shallow seagrass areas around the Togeans; sightings are uncommon.",
+      "howToSpot": "Look for muddy grazing trails in seagrass and a gray shape moving low. Watch for nostrils breaking surface.",
+      "responsibleGuidelines": [
+        "Keep very large distance; never pursue.",
+        "No motorboats over seagrass at speed.",
+        "If it dives, youre too close - retreat.",
+        "Avoid loud splashing; keep group small.",
+        "Never separate mother and calf."
+      ],
+      "conservationStatus": "IUCN: Vulnerable; threatened by seagrass loss and net entanglement."
+    },
+    "giant-clam": {
+      "intro": "A spectacular reef bivalve that can be enormous and brightly colored, with a living mantle.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Shallow coral reefs and reef flats"
+        },
+        {
+          "label": "Diet",
+          "value": "Filter-feeding plus symbiotic algae"
+        },
+        {
+          "label": "Size",
+          "value": "Up to 1.2 meters"
+        },
+        {
+          "label": "Behavior",
+          "value": "Sessile; mantle open in sunlight; closes when disturbed"
+        }
+      ],
+      "whereToSee": "On clear, shallow coral gardens, scan reef flats and bommies for large shells with vivid mantles.",
+      "howToSpot": "Look for a thick, ridged shell embedded in coral rock with a bright, wavy mantle. Approach slowly.",
+      "responsibleGuidelines": [
+        "Never touch the mantle (stresses the animal).",
+        "Dont stand on reef to photograph.",
+        "No souvenir collection.",
+        "Avoid stirring sediment.",
+        "Use buoyancy control; keep fins up."
+      ],
+      "conservationStatus": "Some species Critically Endangered due to overharvest and habitat decline."
+    },
+    "seahorse": {
+      "intro": "Small, camouflaged fish that cling to seagrass, sponges, and coral with a prehensile tail.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Seagrass, mangroves, corals, sponges"
+        },
+        {
+          "label": "Diet",
+          "value": "Tiny crustaceans and plankton"
+        },
+        {
+          "label": "Size",
+          "value": "Typically up to 15 cm"
+        },
+        {
+          "label": "Behavior",
+          "value": "Slow; hides; anchors with tail; ambush-feeds"
+        }
+      ],
+      "whereToSee": "In sheltered shallows seagrass patches, spongey reef edges. Look in calm lagoons near mangroves.",
+      "howToSpot": "Slow down and scan for unusual knobs holding onto grass or sponges. Watch for tiny eye movement.",
+      "responsibleGuidelines": [
+        "No touching; seahorses stress easily.",
+        "Keep fins controlled; avoid silt-out.",
+        "No flash at close range.",
+        "Dont move vegetation to reveal them.",
+        "Limit viewing time."
+      ],
+      "conservationStatus": "All seahorses are CITES Appendix II; pressured by habitat loss and trade."
+    },
+    "stingless-jellyfish": {
+      "intro": "In sheltered marine lakes, Mastigias-type jellyfish can be abundant and largely harmless to swimmers.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Isolated marine lakes and enclosed lagoons"
+        },
+        {
+          "label": "Diet",
+          "value": "Plankton plus symbiotic algae"
+        },
+        {
+          "label": "Size",
+          "value": "Usually 8-10 cm bell diameter"
+        },
+        {
+          "label": "Behavior",
+          "value": "Slow drifters; gather in sunlit water; daily movements"
+        }
+      ],
+      "whereToSee": "At Lake Mariona (Jellyfish Lake) where swimmers can float among dense groups of gentle jellyfish.",
+      "howToSpot": "You will see soft, amber dots pulsing just below the surface in still water. Enter slowly and let eyes adjust.",
+      "responsibleGuidelines": [
+        "Dont touch or scoop jellyfish.",
+        "No fins (can injure them); float gently.",
+        "Avoid sunscreen oils in lake.",
+        "No soap or shampoo before swimming.",
+        "Keep noise low; respect local rules."
+      ],
+      "conservationStatus": "Highly sensitive to pollution and temperature shifts in enclosed lake ecosystems."
+    }
+  },
+  "wildlifeLandContent": {
+    "togian-monkey": {
+      "intro": "A stocky, dark macaque with short tail and pale cheek tufts, known from the Togian Islands.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Lowland island forest, forest edges"
+        },
+        {
+          "label": "Diet",
+          "value": "Fruits, leaves, seeds, insects"
+        },
+        {
+          "label": "Size",
+          "value": "50-68 cm; 8-12 kg"
+        },
+        {
+          "label": "Behavior",
+          "value": "Social troops; vocal; bold near fruiting trees"
+        }
+      ],
+      "whereToSee": "Best chance on Malenge forest walks; early morning and late afternoon.",
+      "howToSpot": "Listen for branch rustles and contact calls; scan mid-canopy near fruiting trees.",
+      "responsibleGuidelines": [
+        "Keep 10+ meters distance.",
+        "Never feed or show food.",
+        "Move slowly; avoid direct staring.",
+        "Dont block trails.",
+        "Pack out all trash."
+      ],
+      "conservationNotes": "Vulnerable; habitat loss is the key threat."
+    },
+    "togean-tarsier": {
+      "intro": "A tiny nocturnal primate endemic to the Togian Islands, famous for huge eyes and powerful leaps.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Lowland forest, scrubby woodland, gardens"
+        },
+        {
+          "label": "Diet",
+          "value": "Insects, spiders, small vertebrates"
+        },
+        {
+          "label": "Size",
+          "value": "Body 10-15 cm (very small)"
+        },
+        {
+          "label": "Behavior",
+          "value": "Nocturnal; agile leaper; calls at dusk"
+        }
+      ],
+      "whereToSee": "Night walks on forest edges and mixed gardens; absent from Una-Una.",
+      "howToSpot": "Use dim red light; look for eye-shine low in understory. Pause often.",
+      "responsibleGuidelines": [
+        "Use red light only; no flash.",
+        "Keep voices low; no playback.",
+        "Limit viewing time.",
+        "Dont approach roost sites by day.",
+        "Stay on paths."
+      ],
+      "conservationNotes": "Endangered; highly sensitive to forest disturbance."
+    },
+    "togian-babirusa": {
+      "intro": "A rare, pig-like mammal with remarkable upward-curving tusks in males, endemic to Togian.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Lowland forest, riverine areas, edges"
+        },
+        {
+          "label": "Diet",
+          "value": "Roots, fallen fruit, worms, invertebrates"
+        },
+        {
+          "label": "Size",
+          "value": "Largest babirusa; boar-sized"
+        },
+        {
+          "label": "Behavior",
+          "value": "Shy; mostly crepuscular; uses forest cover"
+        }
+      ],
+      "whereToSee": "Only in Togian Islands; records on Malenge, Batudaka, Togean.",
+      "howToSpot": "Look for tracks and rooting signs near muddy wallows; dawn/dusk quiet sits work best.",
+      "responsibleGuidelines": [
+        "Keep 20+ meters distance.",
+        "Never corner on narrow trails.",
+        "No baiting or feeding.",
+        "Respect community rules.",
+        "Use local guides."
+      ],
+      "conservationNotes": "Endangered; protected; threatened by hunting and habitat loss."
+    },
+    "knobbed-hornbill": {
+      "intro": "A large Sulawesi endemic hornbill with unmistakable casque and loud wingbeats.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Lowland and hill forest canopy"
+        },
+        {
+          "label": "Diet",
+          "value": "Mostly fruit (figs), some insects"
+        },
+        {
+          "label": "Size",
+          "value": "About 70-80 cm long"
+        },
+        {
+          "label": "Behavior",
+          "value": "Canopy forager; wide-ranging; noisy flight"
+        }
+      ],
+      "whereToSee": "Around mainland Sulawesi forests (Luwuk/Banggai region) with tall trees.",
+      "howToSpot": "Scan treetops at sunrise; listen for deep calls and heavy wingbeats.",
+      "responsibleGuidelines": [
+        "Stay on trails.",
+        "Keep distance from nesting cavities.",
+        "No drones near canopy.",
+        "Avoid playback calls.",
+        "Support local conservation guides."
+      ],
+      "conservationNotes": "Vulnerable; forest loss is the primary driver of decline."
+    },
+    "togian-water-monitor": {
+      "intro": "A monitor lizard endemic to Togian Islands, often associated with forests and mangroves.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Forest and mangroves"
+        },
+        {
+          "label": "Diet",
+          "value": "Invertebrates, insects, arachnids, eggs"
+        },
+        {
+          "label": "Size",
+          "value": "Typically under 1.5 m total length"
+        },
+        {
+          "label": "Behavior",
+          "value": "Diurnal; wary; basks then dives to escape"
+        }
+      ],
+      "whereToSee": "Mangrove creeks, muddy shorelines, forest edges on larger islands.",
+      "howToSpot": "Walk slowly near mangroves at low tide; watch sunlit logs for quick movement.",
+      "responsibleGuidelines": [
+        "Keep distance; monitors can bite.",
+        "Never handle or corner.",
+        "Dont block escape routes.",
+        "Avoid nesting areas.",
+        "No feeding."
+      ],
+      "conservationNotes": "Least Concern; small range but no major documented threats."
+    },
+    "coconut-crab": {
+      "intro": "The worlds largest land arthropod, active mainly at night in coastal forest.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Coastal forest; burrows near shore"
+        },
+        {
+          "label": "Diet",
+          "value": "Fruits, nuts, seeds, carrion"
+        },
+        {
+          "label": "Size",
+          "value": "Up to 1 m leg span"
+        },
+        {
+          "label": "Behavior",
+          "value": "Nocturnal; burrowing; cautious"
+        }
+      ],
+      "whereToSee": "Remote islands with coastal forest; nighttime near fallen fruit trees.",
+      "howToSpot": "Night walk with red light; scan ground near roots and burrow entrances.",
+      "responsibleGuidelines": [
+        "Do not touch - claws can crush.",
+        "No feeding or baiting.",
+        "Keep lights low.",
+        "Dont block burrow entrances.",
+        "Never collect."
+      ],
+      "conservationNotes": "Vulnerable; threatened by harvesting and habitat loss."
+    },
+    "burung-maleo": {
+      "intro": "A remarkable Sulawesi megapode that incubates eggs in warm sand or geothermal soils.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Lowland/hill forest; nesting sandy sites"
+        },
+        {
+          "label": "Diet",
+          "value": "Fruits, seeds, invertebrates"
+        },
+        {
+          "label": "Size",
+          "value": "About 55-60 cm long"
+        },
+        {
+          "label": "Behavior",
+          "value": "Ground-dwelling; communal nesting; wary"
+        }
+      ],
+      "whereToSee": "Sulawesi mainland at protected nesting grounds - special excursion required.",
+      "howToSpot": "At authorized sites, watch quietly for pairs arriving and digging.",
+      "responsibleGuidelines": [
+        "Visit only official sites.",
+        "Never approach active nests.",
+        "No flash or drones.",
+        "Keep groups small and quiet.",
+        "Do not buy eggs."
+      ],
+      "conservationNotes": "Critically Endangered; pressured by egg harvesting and habitat loss."
+    },
+    "togian-boobook": {
+      "intro": "A small owl endemic to the Togian Islands, calling after dusk to hunt insects.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Lowland/hill forest; degraded forest; gardens"
+        },
+        {
+          "label": "Diet",
+          "value": "Insects and small vertebrates"
+        },
+        {
+          "label": "Size",
+          "value": "Small owl roughly 25-30 cm"
+        },
+        {
+          "label": "Behavior",
+          "value": "Nocturnal; perch-hunter; responds with distinct calls"
+        }
+      ],
+      "whereToSee": "Evening walks near forest edges and mixed gardens on Togian islands.",
+      "howToSpot": "Stop often and listen for rhythmic owl calls. Scan branches with dim red light.",
+      "responsibleGuidelines": [
+        "Red light only; no flash.",
+        "No playback calls near roosts.",
+        "Keep distance; dont follow repeatedly.",
+        "Stay on paths.",
+        "Limit viewing time."
+      ],
+      "conservationNotes": "Near Threatened; endemic with limited range, sensitive to forest loss."
+    }
+  },
+  "wildlifeNames": {
+    "sea": {
+      "green-sea-turtle": {
+        "name": "Green Sea Turtle",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "Hawksbill Turtle",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "Napoleon Wrasse",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "Dugong",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "Giant Clam",
+        "localName": "Kima Raksasa"
+      },
+      "seahorse": {
+        "name": "Seahorse",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "Stingless Jellyfish",
+        "localName": "Ubur-ubur Tidak Menyengat"
+      }
+    },
+    "land": {
+      "togian-monkey": {
+        "name": "Togean Macaque",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "Togean Tarsier",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "Togean Babirusa",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "Knobbed Hornbill",
+        "localName": "Julang Sulawesi"
+      },
+      "togian-water-monitor": {
+        "name": "Togean Water Monitor",
+        "localName": "Biawak Air Togean"
+      },
+      "coconut-crab": {
+        "name": "Coconut Crab",
+        "localName": "Kepiting Kelapa"
+      },
+      "burung-maleo": {
+        "name": "Maleo",
+        "localName": "Burung Maleo"
+      },
+      "togian-boobook": {
+        "name": "Togean Boobook",
+        "localName": "Burung Hantu Togean"
+      }
+    }
   }
 }
