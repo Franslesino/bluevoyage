@@ -13,7 +13,7 @@ interface NavOverlayMenuProps {
 const LEFT_ITEMS = [
     { labelKey: "nav.home", href: "/" },
     { labelKey: "nav.destinations", href: "/destinations" },
-    { labelKey: "nav.programs", href: "/programs" },
+    { labelKey: "nav.activities", href: "/activities" },
     { labelKey: "nav.wildlife", href: "/wildlife" },
 ];
 
@@ -27,7 +27,7 @@ const RIGHT_ITEMS = [
 
 export default function NavOverlayMenu({ isOpen, onClose }: NavOverlayMenuProps) {
     const { t } = useTranslation();
-    
+
     // Lock body scroll when open
     useEffect(() => {
         if (isOpen) {

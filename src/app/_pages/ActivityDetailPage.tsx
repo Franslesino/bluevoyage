@@ -9,11 +9,11 @@ import BackLink from "@/components/BackLink";
 import FooterSection from "@/components/FooterSection";
 import { useTranslation } from "@/components/I18nProvider";
 
-interface ProgramDetailPageProps {
+interface ActivityDetailPageProps {
     slug: string;
 }
 
-export default function ProgramDetailPage({ slug }: ProgramDetailPageProps) {
+export default function ActivityDetailPage({ slug }: ActivityDetailPageProps) {
     const { t } = useTranslation();
     const program = programs.find((p) => p.slug === slug);
 
@@ -22,22 +22,22 @@ export default function ProgramDetailPage({ slug }: ProgramDetailPageProps) {
     }
 
     // Get translated content
-    const programName = t(`programs.items.${slug}.name`) || program.name;
-    const programDescription = t(`programs.items.${slug}.description`) || program.description;
-    const programOverview = t(`programs.items.${slug}.overview`) || program.overview;
-    const programWhatYoullDo = t(`programs.items.${slug}.whatYoullDo`) || program.whatYoullDo;
-    const programBestTime = t(`programs.items.${slug}.bestTime`) || program.bestTime;
-    const programNotes = t(`programs.items.${slug}.notes`) || program.notes;
+    const programName = t(`activities.items.${slug}.name`) || program.name;
+    const programDescription = t(`activities.items.${slug}.description`) || program.description;
+    const programOverview = t(`activities.items.${slug}.overview`) || program.overview;
+    const programWhatYoullDo = t(`activities.items.${slug}.whatYoullDo`) || program.whatYoullDo;
+    const programBestTime = t(`activities.items.${slug}.bestTime`) || program.bestTime;
+    const programNotes = t(`activities.items.${slug}.notes`) || program.notes;
 
     // Labels
-    const signatureProgramLabel = t("programs.detail.signatureProgram") || "Signature Program";
-    const overviewLabel = t("programs.detail.overview") || "Overview";
-    const whatYoullDoLabel = t("programs.detail.whatYoullDo") || "What you'll do";
-    const bestTimeLabel = t("programs.detail.bestTime") || "Best time";
-    const notesLabel = t("programs.detail.notes") || "Notes";
+    const signatureProgramLabel = t("activities.detail.signatureActivity") || "Signature Activity";
+    const overviewLabel = t("activities.detail.overview") || "Overview";
+    const whatYoullDoLabel = t("activities.detail.whatYoullDo") || "What you'll do";
+    const bestTimeLabel = t("activities.detail.bestTime") || "Best time";
+    const notesLabel = t("activities.detail.notes") || "Notes";
     const bookNowLabel = t("nav.bookNow") || "Book Now";
-    const seeAllProgramsLabel = t("programs.detail.seeAllPrograms") || "See all programs";
-    const backLabel = t("common.backToPrograms") || "BACK TO PROGRAMS";
+    const seeAllProgramsLabel = t("activities.detail.seeAllActivities") || "See all activities";
+    const backLabel = t("common.backToActivities") || "BACK TO ACTIVITIES";
 
     return (
         <div className="bg-white min-h-screen text-neutral-900">
@@ -46,7 +46,7 @@ export default function ProgramDetailPage({ slug }: ProgramDetailPageProps) {
                 {/* Hero Section */}
                 <div className="relative h-[60vh] md:h-[70vh] w-full">
                     <div className="absolute z-50 top-24 left-4 md:left-8">
-                        <BackLink href="/programs" label={backLabel} variant="light" />
+                        <BackLink href="/activities" label={backLabel} variant="light" />
                     </div>
                     <Image
                         src={program.image}
@@ -124,7 +124,7 @@ export default function ProgramDetailPage({ slug }: ProgramDetailPageProps) {
                                 </svg>
                             </LocaleLink>
 
-                            <LocaleLink href="/programs" className="inline-block font-avenir text-sm uppercase tracking-widest text-neutral-500 hover:text-[#6b4c3b] transition-colors border-b border-transparent hover:border-[#6b4c3b] pb-1">
+                            <LocaleLink href="/activities" className="inline-block font-avenir text-sm uppercase tracking-widest text-neutral-500 hover:text-[#6b4c3b] transition-colors border-b border-transparent hover:border-[#6b4c3b] pb-1">
                                 {seeAllProgramsLabel}
                             </LocaleLink>
                         </div>

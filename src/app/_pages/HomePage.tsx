@@ -35,7 +35,7 @@ export default function HomePage() {
                 </div>
 
                 {/* Program Section */}
-                <div id="programs" className="scroll-mt-24 md:scroll-mt-28">
+                <div id="activities" className="scroll-mt-24 md:scroll-mt-28">
                     <ProgramCarousel />
                 </div>
 

@@ -2,7 +2,7 @@
   "nav": {
     "home": "Beranda",
     "destinations": "Destinasi",
-    "programs": "Program",
+    "activities": "Aktivitas",
     "wildlife": "Satwa Liar",
     "localCommunity": "Komunitas Lokal",
     "boatSafety": "Keamanan & Pengalaman Kapal",
@@ -27,13 +27,13 @@
     "cta4": "Saksikan fajar vulkanik",
     "cta5": "Temukan ketenangan emas"
   },
-  "programs": {
-    "title": "Cara menjelajah: Program Unggulan",
+  "activities": {
+    "title": "Cara menjelajah: Aktivitas Unggulan",
     "subtitle": "Aktivitas Terkurasi: Jelajahi Semua",
-    "viewProgram": "Lihat program",
+    "viewActivity": "Lihat aktivitas",
     "sectionLabel": "Togean Voyages",
-    "pageTitle": "Program Unggulan",
-    "programsCount": "{{count}} Program",
+    "pageTitle": "Aktivitas Unggulan",
+    "activitiesCount": "{{count}} Aktivitas",
     "items": {
       "snorkeling-diving": {
         "name": "Snorkeling & menyelam",
@@ -48,7 +48,7 @@
         "name": "Bersantai & berjemur",
         "dateLabel": "Togean Voyages",
         "description": "Tenang di pantai berpinggir pohon palem di Kadidiri, Malenge, Puat, dan Bomba—laguna jernih, pasir lembut, dan ketenangan pulau tanpa gangguan.",
-        "overview": "Program pantai yang mengutamakan kenyamanan dengan tempo fleksibel: berenang, membaca, tidur siang di hammock, dan menyegarkan diri di antara hari-hari berlayar dan aktivitas petualangan.",
+        "overview": "Aktivitas pantai yang mengutamakan kenyamanan dengan tempo fleksibel: berenang, membaca, tidur siang di hammock, dan menyegarkan diri di antara hari-hari berlayar dan aktivitas petualangan.",
         "whatYoullDo": "Pilih berenang pagi, makan siang santai, jalan-jalan pantai, dan sesi matahari terbenam; pijat atau yoga opsional jika tersedia di resort.",
         "bestTime": "Terbaik selama bulan-bulan kering April-Oktober untuk lebih banyak sinar matahari dan penyeberangan laut yang lebih mulus, meskipun waktu pantai memungkinkan sepanjang tahun.",
         "notes": "Bawa tabir surya SPF tinggi, topi, dan botol air isi ulang. Matahari siang sangat terik; ambil istirahat di tempat teduh, tetap terhidrasi, dan lindungi kulit Anda setiap hari."
@@ -84,7 +84,7 @@
         "name": "Eksplorasi pantai & teluk tersembunyi",
         "dateLabel": "Togean Voyages",
         "description": "Jelajahi teluk tenang, gosong pasir, dan teluk rahasia dengan perahu atau kayak—sempurna untuk fotografi, berenang, dan menemukan pantai hampir tanpa jejak kaki.",
-        "overview": "Program island-hopping fleksibel yang dirancang sesuai pasang surut dan cuaca, menggabungkan transfer singkat dengan pemberhentian pantai panjang di Puat, Malenge, Kadidiri, dan Bomba.",
+        "overview": "Aktivitas island-hopping fleksibel yang dirancang sesuai pasang surut dan cuaca, menggabungkan transfer singkat dengan pemberhentian pantai panjang di Puat, Malenge, Kadidiri, dan Bomba.",
         "whatYoullDo": "Berpindah pulau dengan perahu ke pulau tak berpenghuni, piknik di gosong pasir, snorkeling di antara pemberhentian, dan berjalan di garis pantai mencari tempat berenang dan sudut matahari terbenam terbaik.",
         "bestTime": "April-Oktober untuk penyeberangan lebih tenang dan air lebih jernih; rencanakan sesuai pasang surut untuk gosong pasir dan laguna dangkal.",
         "notes": "Bawa tas tahan air, sepatu air, dan air minum ekstra. Pantai terpencil tidak memiliki layanan; jangan tinggalkan apa pun dan hindari mengumpulkan karang atau kerang."
@@ -93,19 +93,19 @@
         "name": "Mengamati bintang",
         "dateLabel": "Togean Voyages",
         "description": "Nikmati malam langit gelap di pulau terpencil: lihat Bima Sakti, hujan meteor, dan rasi bintang terang dari pantai tenang dengan polusi cahaya minimal.",
-        "overview": "Program malam tanpa gadget yang memadukan relaksasi pantai dengan pengamatan langit, bercerita, dan tips astrofotografi opsional dari pemandu.",
+        "overview": "Aktivitas malam tanpa gadget yang memadukan relaksasi pantai dengan pengamatan langit, bercerita, dan tips astrofotografi opsional dari pemandu.",
         "whatYoullDo": "Bersiap di pantai menghadap barat, pelajari rasi bintang utama, amati satelit dan bintang jatuh, dan tangkap foto eksposur panjang dengan tripod atau ponsel.",
         "bestTime": "Langit paling jernih biasanya di bulan-bulan kering April-Oktober; jadwalkan sesuai fase bulan untuk langit lebih gelap, dan hindari malam transfer paling berangin.",
         "notes": "Bawa headlamp (mode merah), jaket ringan untuk angin laut, dan obat nyamuk. Hormati jam tenang; jaga cahaya rendah untuk melindungi penglihatan malam."
       }
     },
     "detail": {
-      "signatureProgram": "Program Unggulan",
+      "signatureActivity": "Aktivitas Unggulan",
       "overview": "Gambaran Umum",
       "whatYoullDo": "Yang akan Anda lakukan",
       "bestTime": "Waktu terbaik",
       "notes": "Catatan",
-      "seeAllPrograms": "Lihat semua program"
+      "seeAllActivities": "Lihat semua aktivitas"
     }
   },
   "localCommunityPage": {
@@ -469,7 +469,7 @@
   "common": {
     "backToHome": "KEMBALI KE BERANDA",
     "backToDestinations": "Kembali ke Destinasi",
-    "backToPrograms": "Kembali ke Program",
+    "backToActivities": "Kembali ke Aktivitas",
     "backToBlog": "Kembali ke Blog",
     "backToWildlife": "KEMBALI KE SATWA LIAR",
     "backToLocalCommunity": "Kembali ke Komunitas Lokal",
@@ -667,7 +667,7 @@
   "booking": {
     "pageTitle": "Cara Memesan",
     "step1": "Pilih Tanggal Anda",
-    "step2": "Pilih Program Anda",
+    "step2": "Pilih Aktivitas Anda",
     "step3": "Hubungi Kami",
     "step4": "Konfirmasi & Bayar"
   },
@@ -678,8 +678,8 @@
     "homeDescription": "Temukan keindahan tak tersentuh Kepulauan Togean. Perjalanan lambat, terumbu murni, dan pengalaman pulau otentik.",
     "destinationsTitle": "Destinasi - Togean Voyage",
     "destinationsDescription": "Jelajahi destinasi unggulan di Kepulauan Togean. Dari pantai terpencil hingga terumbu karang berwarna-warni.",
-    "programsTitle": "Program - Togean Voyage",
-    "programsDescription": "Program dan aktivitas perjalanan terkurasi di Kepulauan Togean."
+    "activitiesTitle": "Aktivitas - Togean Voyage",
+    "activitiesDescription": "Aktivitas perjalanan terkurasi di Kepulauan Togean."
   },
   "destinationDetail": {
     "backToDestinations": "Kembali ke Destinasi",

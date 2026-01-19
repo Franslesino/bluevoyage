@@ -2,7 +2,7 @@
   "nav": {
     "home": "Início",
     "destinations": "Destinos",
-    "programs": "Programas",
+    "activities": "Atividades",
     "wildlife": "Vida Selvagem",
     "localCommunity": "Comunidade Local",
     "boatSafety": "Segurança e Experiência de Barco",
@@ -27,13 +27,13 @@
     "cta4": "Testemunhe o amanhecer vulcânico",
     "cta5": "Encontre solidão dourada"
   },
-  "programs": {
-    "title": "Formas de explorar: Programas Exclusivos",
+  "activities": {
+    "title": "Formas de explorar: Atividades Exclusivas",
     "subtitle": "Atividades Selecionadas: Explorar Tudo",
-    "viewProgram": "Ver programa",
+    "viewActivity": "Ver atividade",
     "sectionLabel": "Togean Voyages",
-    "pageTitle": "Programas Exclusivos",
-    "programsCount": "{{count}} Programas",
+    "pageTitle": "Atividades Exclusivas",
+    "activitiesCount": "{{count}} Atividades",
     "items": {
       "snorkeling-diving": {
         "name": "Snorkel e mergulho",
@@ -48,7 +48,7 @@
         "name": "Relaxamento e banho de sol",
         "dateLabel": "Togean Voyages",
         "description": "Desacelere em praias emolduradas por palmeiras em Kadidiri, Malenge, Puat e Bomba—lagoas cristalinas, areia macia e tranquilidade insular ininterrupta.",
-        "overview": "Um programa de praia focado no conforto com ritmo flexível: nadar, ler, cochilar em redes e recarregar entre dias de barco e atividades de aventura.",
+        "overview": "Uma atividade de praia focado no conforto com ritmo flexível: nadar, ler, cochilar em redes e recarregar entre dias de barco e atividades de aventura.",
         "whatYoullDo": "Escolha natação matinal, almoços preguiçosos, caminhadas na praia e sessões ao pôr do sol; massagens ou yoga opcionais onde disponíveis nos resorts.",
         "bestTime": "Melhor durante os meses secos de abril a outubro para mais sol e travessias marítimas mais suaves, embora tempo de praia seja possível o ano todo.",
         "notes": "Traga protetor solar de alto FPS, chapéu e garrafa de água reutilizável. O sol do meio-dia é intenso; faça pausas na sombra, hidrate-se e proteja sua pele diariamente."
@@ -84,7 +84,7 @@
         "name": "Exploração de praias e enseadas escondidas",
         "dateLabel": "Togean Voyages",
         "description": "Explore baías tranquilas, bancos de areia e enseadas secretas de barco ou caiaque—perfeito para fotografia, natação e descoberta de praias quase sem pegadas.",
-        "overview": "Um programa flexível de ilha em ilha projetado em torno das marés e clima, combinando transferências curtas com longas paradas em praias de Puat, Malenge, Kadidiri e Bomba.",
+        "overview": "Uma atividade flexível de ilha em ilha projetado em torno das marés e clima, combinando transferências curtas com longas paradas em praias de Puat, Malenge, Kadidiri e Bomba.",
         "whatYoullDo": "Pule de barco para ilhéus desabitados, faça piquenique em bancos de areia, snorkel entre paradas e caminhe por costas procurando as melhores entradas para nadar e ângulos do pôr do sol.",
         "bestTime": "Abril-outubro para travessias mais calmas e água mais clara; planeje em torno das marés para bancos de areia e lagoas rasas.",
         "notes": "Leve bolsa seca, sapatos aquáticos e água potável extra. Praias remotas não têm serviços; não deixe nada para trás e evite coletar coral ou conchas."
@@ -93,19 +93,19 @@
         "name": "Observação de estrelas",
         "dateLabel": "Togean Voyages",
         "description": "Aproveite noites de céu escuro em ilhas remotas: veja a Via Láctea, chuvas de meteoros e constelações brilhantes de praias tranquilas com poluição luminosa mínima.",
-        "overview": "Um programa noturno desconectado que combina relaxamento na praia com observação do céu, contação de histórias e dicas opcionais de astrofotografia dos guias.",
+        "overview": "Uma atividade noturna desconectado que combina relaxamento na praia com observação do céu, contação de histórias e dicas opcionais de astrofotografia dos guias.",
         "whatYoullDo": "Instale-se em uma praia voltada para oeste, aprenda constelações-chave, observe satélites e estrelas cadentes, e capture fotos de longa exposição usando tripé ou telefone.",
         "bestTime": "Os céus mais claros são comuns nos meses secos de abril a outubro; programe em torno das fases da lua para céus mais escuros, e evite noites de transferência mais ventosas.",
         "notes": "Traga lanterna de cabeça (modo vermelho), jaqueta leve para brisas do mar e repelente de insetos. Respeite horas tranquilas; mantenha as luzes baixas para proteger a visão noturna."
       }
     },
     "detail": {
-      "signatureProgram": "Programa Exclusivo",
+      "signatureActivity": "Atividade Exclusiva",
       "overview": "Visão geral",
       "whatYoullDo": "O que você fará",
       "bestTime": "Melhor época",
       "notes": "Notas",
-      "seeAllPrograms": "Ver todos os programas"
+      "seeAllActivities": "Ver todas as atividades"
     }
   },
   "localCommunityPage": {
@@ -469,7 +469,7 @@
   "common": {
     "backToHome": "VOLTAR AO INÍCIO",
     "backToDestinations": "Voltar a Destinos",
-    "backToPrograms": "Voltar a Programas",
+    "backToActivities": "Voltar a Atividades",
     "backToBlog": "Voltar ao Blog",
     "backToWildlife": "VOLTAR À VIDA SELVAGEM",
     "backToLocalCommunity": "Voltar à Comunidade Local",
@@ -666,7 +666,7 @@
   "booking": {
     "pageTitle": "Como Reservar",
     "step1": "Escolha Suas Datas",
-    "step2": "Selecione Seu Programa",
+    "step2": "Selecione Sua Atividade",
     "step3": "Contate-nos",
     "step4": "Confirme e Pague"
   },
@@ -677,8 +677,8 @@
     "homeDescription": "Descubra a beleza intocada das Ilhas Togean. Viagem lenta, recifes prístinos e experiências insulares autênticas.",
     "destinationsTitle": "Destinos - Togean Voyage",
     "destinationsDescription": "Explore destinos exclusivos no Arquipélago Togean. De praias isoladas a vibrantes recifes de coral.",
-    "programsTitle": "Programas - Togean Voyage",
-    "programsDescription": "Programas e atividades de viagem selecionados nas Ilhas Togean."
+    "activitiesTitle": "Atividades - Togean Voyage",
+    "activitiesDescription": "Atividades de viagem selecionadas nas Ilhas Togean."
   },
   "destinationDetail": {
     "backToDestinations": "Voltar para Destinos",

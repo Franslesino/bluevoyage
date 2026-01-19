@@ -54,9 +54,9 @@ export default function ProgramCarousel() {
                 {/* Header */}
                 <div className="text-center mb-10 md:mb-14 px-4">
                     <h2 className="font-canto text-3xl md:text-4xl lg:text-5xl mb-4 text-neutral-900 leading-tight">
-                        {t("programs.title")}
+                        {t("activities.title")}
                     </h2>
-                    <ExploreAllLink href="/programs" label={t("programs.subtitle")} />
+                    <ExploreAllLink href="/activities" label={t("activities.subtitle")} />
                 </div>
 
                 {/* Carousel Wrapper */}
@@ -65,7 +65,7 @@ export default function ProgramCarousel() {
                     <div className="overflow-hidden" ref={emblaRef} dir="ltr" style={{ direction: "ltr" }}>
                         <div className="flex touch-pan-y">
                             {programs.map((program, index) => {
-                                const programName = t(`programs.items.${program.slug}.name`) || program.name;
+                                const programName = t(`activities.items.${program.slug}.name`) || program.name;
 
                                 return (
                                     <div
@@ -73,9 +73,9 @@ export default function ProgramCarousel() {
                                         className="flex-[0_0_88%] md:flex-[0_0_22%] min-w-0 pl-4 md:pl-6 relative"
                                     >
                                         <LocaleLink
-                                            href={`/programs/${program.slug}?from=home`}
+                                            href={`/activities/${program.slug}?from=home`}
                                             className="block aspect-square relative overflow-hidden group/card cursor-pointer rounded-sm"
-                                            aria-label={`${t("programs.viewProgram")}: ${programName}`}
+                                            aria-label={`${t("activities.viewActivity")}: ${programName}`}
                                         >
                                             <Image
                                                 src={program.image}

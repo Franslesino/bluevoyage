@@ -1,10 +1,10 @@
 {
   "nav": {
-    "home": "Home",
-    "destinations": "Destinations",
-    "activities": "Activities",
+    "home": "Ana Sayfa",
+    "destinations": "Destinasyonlar",
+    "activities": "Aktiviteler",
     "wildlife": "Wildlife",
-    "localCommunity": "Local Community",
+    "localCommunity": "Yerel Topluluk",
     "boatSafety": "Boat Safety & Experience",
     "accommodation": "Accommodation",
     "blog": "Blog",
@@ -28,12 +28,12 @@
     "cta5": "Find golden solitude"
   },
   "activities": {
-    "title": "Ways to explore: Signature Activities",
-    "subtitle": "Curated Activities: Explore All",
-    "viewActivity": "View Activity",
+    "title": "Keşfetmenin Yolları: İmza Aktiviteler",
+    "subtitle": "Küratörlü Aktiviteler: Hepsini Keşfet",
+    "viewActivity": "Aktiviteyi Görüntüle",
     "sectionLabel": "Togean Voyages",
-    "pageTitle": "Signature Activities",
-    "activitiesCount": "{{count}} Activities",
+    "pageTitle": "İmza Aktiviteler",
+    "activitiesCount": "{{count}} Aktivite",
     "items": {
       "snorkeling-diving": {
         "name": "Snorkeling & diving",
@@ -100,12 +100,12 @@
       }
     },
     "detail": {
-      "signatureActivity": "Signature Activity",
-      "overview": "Overview",
-      "whatYoullDo": "What you'll do",
-      "bestTime": "Best time",
-      "notes": "Notes",
-      "seeAllActivities": "See all activities"
+      "signatureActivity": "İmza Aktivitesi",
+      "overview": "Genel Bakış",
+      "whatYoullDo": "Ne Yapacaksınız",
+      "bestTime": "En İyi Zaman",
+      "notes": "Notlar",
+      "seeAllActivities": "Tüm aktiviteleri gör"
     }
   },
   "localCommunityPage": {
@@ -469,7 +469,7 @@
   "common": {
     "backToHome": "BACK TO HOME",
     "backToDestinations": "Back to Destinations",
-    "backToActivities": "Back to Activities",
+    "backToActivities": "Aktivitelere Dön",
     "backToBlog": "Back to Blog",
     "backToWildlife": "Back to Wildlife",
     "backToLocalCommunity": "Back to Local Community",
@@ -662,21 +662,21 @@
     "ctaEmail": "Email Us"
   },
   "booking": {
-    "pageTitle": "How to Book",
-    "step1": "Choose Your Dates",
-    "step2": "Select Your Activity",
-    "step3": "Contact Us",
-    "step4": "Confirm & Pay"
+    "pageTitle": "Nasıl Rezervasyon Yapılır",
+    "step1": "Tarihlerinizi Seçin",
+    "step2": "Aktivitenizi Seçin",
+    "step3": "Bize Ulaşın",
+    "step4": "Onayla ve Öde"
   },
   "meta": {
     "siteTitle": "Togean Voyage",
     "siteDescription": "Experience the beauty of Togean Islands",
     "homeTitle": "Togean Voyage - Explore the Togean Islands",
-    "homeDescription": "Discover the untouched beauty of the Togean Islands. Slow travel, pristine reefs, and authentic island experiences.",
-    "destinationsTitle": "Destinations - Togean Voyage",
-    "destinationsDescription": "Explore signature destinations in the Togean Archipelago. From secluded beaches to vibrant coral reefs.",
-    "activitiesTitle": "Activities - Togean Voyage",
-    "activitiesDescription": "Curated travel activities in the Togean Islands."
+    "homeDescription": "Togean Adaları'nın el değmemiş güzelliğini keşfedin. Yavaş seyahat, bozulmamış resifler ve otantik ada deneyimleri.",
+    "destinationsTitle": "Destinasyonlar - Togean Voyage",
+    "destinationsDescription": "Togean Takımadaları'ndaki imza destinasyonları keşfedin. Gözlerden uzak plajlardan canlı mercan resiflerine.",
+    "activitiesTitle": "Aktiviteler - Togean Voyage",
+    "activitiesDescription": "Togean Adaları'nda küratörlü seyahat aktiviteleri."
   },
   "destinationDetail": {
     "backToDestinations": "Back to Destinations",

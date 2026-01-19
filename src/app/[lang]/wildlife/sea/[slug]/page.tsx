@@ -8,7 +8,7 @@ import BackLink from "@/components/BackLink";
 import { getDictionary, Locale } from "@/lib/i18n";
 
 export async function generateStaticParams() {
-    const locales = ['en', 'fr', 'es', 'ru', 'id', 'ja', 'ko', 'zh', 'ar', 'de', 'it', 'pt'];
+    const locales = ['en', 'fr', 'es', 'ru', 'id', 'ja', 'ko', 'zh', 'ar', 'de', 'it', 'pt', 'tr'];
     return locales.flatMap((lang) =>
         wildLifeSeaDetails.map((species) => ({
             lang,

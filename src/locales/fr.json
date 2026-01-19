@@ -2,7 +2,7 @@
   "nav": {
     "home": "Accueil",
     "destinations": "Destinations",
-    "programs": "Programmes",
+    "activities": "Activités",
     "wildlife": "Faune",
     "localCommunity": "Communauté locale",
     "boatSafety": "Sécurité et expérience en bateau",
@@ -27,13 +27,13 @@
     "cta4": "Assister à l'aube volcanique",
     "cta5": "Trouver la solitude dorée"
   },
-  "programs": {
-    "title": "Façons d'explorer : Programmes signature",
+  "activities": {
+    "title": "Façons d'explorer : Activités signature",
     "subtitle": "Activités sélectionnées : Tout explorer",
-    "viewProgram": "Voir le programme",
+    "viewActivity": "Voir l'activité",
     "sectionLabel": "Togean Voyages",
-    "pageTitle": "Programmes Signature",
-    "programsCount": "{{count}} Programmes",
+    "pageTitle": "Activités Signature",
+    "activitiesCount": "{{count}} Activités",
     "items": {
       "snorkeling-diving": {
         "name": "Plongée & snorkeling",
@@ -48,7 +48,7 @@
         "name": "Détente & bain de soleil",
         "dateLabel": "Togean Voyages",
         "description": "Ralentissez sur les plages bordées de palmiers à Kadidiri, Malenge, Puat et Bomba – lagons clairs, sable fin et tranquillité insulaire ininterrompue.",
-        "overview": "Un programme de plage axé sur le confort avec un rythme flexible : nager, lire, faire la sieste dans les hamacs et se ressourcer entre les journées en bateau et les activités d'aventure.",
+        "overview": "Une activité de plage axé sur le confort avec un rythme flexible : nager, lire, faire la sieste dans les hamacs et se ressourcer entre les journées en bateau et les activités d'aventure.",
         "whatYoullDo": "Choisissez baignades matinales, déjeuners tranquilles, promenades sur la plage et sessions au coucher du soleil ; massages ou yoga optionnels selon disponibilité dans les resorts.",
         "bestTime": "Idéal pendant les mois plus secs d'avril à octobre pour plus de soleil et des traversées plus douces, bien que le temps de plage soit possible toute l'année.",
         "notes": "Apportez crème solaire haute protection, chapeau et bouteille d'eau réutilisable. Le soleil de midi est intense ; faites des pauses à l'ombre, hydratez-vous et protégez votre peau quotidiennement."
@@ -84,7 +84,7 @@
         "name": "Exploration de plages & criques cachées",
         "dateLabel": "Togean Voyages",
         "description": "Explorez des baies tranquilles, des bancs de sable et des criques secrètes en bateau ou en kayak – idéal pour la photographie, la baignade et la découverte de plages presque vierges.",
-        "overview": "Un programme flexible de saut d'île en île conçu autour des marées et de la météo, combinant courts transferts et longs arrêts plage sur Puat, Malenge, Kadidiri et Bomba.",
+        "overview": "Une activité flexible de saut d'île en île conçu autour des marées et de la météo, combinant courts transferts et longs arrêts plage sur Puat, Malenge, Kadidiri et Bomba.",
         "whatYoullDo": "Sauter en bateau vers des îlots inhabités, pique-niquer sur des bancs de sable, faire du snorkeling entre les arrêts et explorer les côtes pour repérer les meilleurs accès de baignade et angles de coucher de soleil.",
         "bestTime": "Avril-octobre pour des traversées plus calmes et une eau plus claire ; planifiez autour des marées pour les bancs de sable et lagons peu profonds.",
         "notes": "Emportez un sac étanche, des chaussures d'eau et de l'eau potable supplémentaire. Les plages isolées n'ont pas de services ; ne laissez rien derrière et évitez de collecter coraux ou coquillages."
@@ -93,19 +93,19 @@
         "name": "Observation des étoiles",
         "dateLabel": "Togean Voyages",
         "description": "Profitez de nuits sans pollution lumineuse sur des îles isolées : admirez la Voie lactée, les pluies de météores et les constellations brillantes depuis des plages tranquilles.",
-        "overview": "Un programme de soirée débranché combinant détente sur la plage avec observation du ciel, narration et conseils optionnels d'astrophotographie de la part des guides.",
+        "overview": "Une activité de soirée débranché combinant détente sur la plage avec observation du ciel, narration et conseils optionnels d'astrophotographie de la part des guides.",
         "whatYoullDo": "Installez-vous sur une plage orientée à l'ouest, apprenez les constellations clés, observez les satellites et les étoiles filantes, et prenez des photos en longue exposition avec un trépied ou un téléphone.",
         "bestTime": "Les ciels les plus clairs sont courants pendant les mois les plus secs d'avril à octobre ; planifiez autour des phases de lune pour des ciels plus sombres et évitez les nuits de transfert les plus venteuses.",
         "notes": "Apportez une lampe frontale (mode rouge), une veste légère pour les brises marines et un répulsif contre les insectes. Respectez les heures calmes ; gardez les lumières basses pour protéger la vision nocturne."
       }
     },
     "detail": {
-      "signatureProgram": "Programme Signature",
+      "signatureActivity": "Activité Signature",
       "overview": "Aperçu",
       "whatYoullDo": "Ce que vous ferez",
-      "bestTime": "Meilleure période",
+      "bestTime": "Meilleurs Période",
       "notes": "Notes",
-      "seeAllPrograms": "Voir tous les programmes"
+      "seeAllActivities": "Voir toutes les activités"
     }
   },
   "localCommunityPage": {
@@ -469,7 +469,7 @@
   "common": {
     "backToHome": "RETOUR À L'ACCUEIL",
     "backToDestinations": "Retour aux destinations",
-    "backToPrograms": "Retour aux programmes",
+    "backToActivities": "Retour aux activités",
     "backToBlog": "Retour au blog",
     "backToWildlife": "RETOUR À LA FAUNE",
     "backToLocalCommunity": "Retour à la communauté locale",
@@ -667,7 +667,7 @@
   "booking": {
     "pageTitle": "Comment réserver",
     "step1": "Choisissez vos dates",
-    "step2": "Sélectionnez votre programme",
+    "step2": "Sélectionnez votre activité",
     "step3": "Contactez-nous",
     "step4": "Confirmez et payez"
   },
@@ -678,8 +678,8 @@
     "homeDescription": "Découvrez la beauté intacte des îles Togean. Voyage lent, récifs immaculés et expériences insulaires authentiques.",
     "destinationsTitle": "Destinations - Togean Voyage",
     "destinationsDescription": "Explorez les destinations signature de l'archipel de Togean. Des plages isolées aux récifs coralliens vibrants.",
-    "programsTitle": "Programmes - Togean Voyage",
-    "programsDescription": "Programmes de voyage et activités sélectionnés dans les îles Togean."
+    "activitiesTitle": "Activités - Togean Voyage",
+    "activitiesDescription": "Activités de voyage sélectionnées dans les îles Togean."
   },
   "destinationDetail": {
     "backToDestinations": "Retour aux Destinations",

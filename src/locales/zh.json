@@ -2,7 +2,7 @@
   "nav": {
     "home": "首页",
     "destinations": "目的地",
-    "programs": "项目",
+    "activities": "活动",
     "wildlife": "野生动物",
     "localCommunity": "当地社区",
     "boatSafety": "船只安全与体验",
@@ -27,13 +27,13 @@
     "cta4": "见证火山黎明",
     "cta5": "寻找金色孤独"
   },
-  "programs": {
-    "title": "探索方式：标志性项目",
+  "activities": {
+    "title": "探索方式：标志性活动",
     "subtitle": "精选活动：全部探索",
-    "viewProgram": "查看项目",
+    "viewActivity": "查看活动",
     "sectionLabel": "托吉安之旅",
-    "pageTitle": "标志性项目",
-    "programsCount": "{{count}}个项目",
+    "pageTitle": "标志性活动",
+    "activitiesCount": "{{count}}个活动",
     "items": {
       "snorkeling-diving": {
         "name": "浮潜与潜水",
@@ -48,7 +48,7 @@
         "name": "休闲与日光浴",
         "dateLabel": "托吉安之旅",
         "description": "在卡迪迪里、马伦格、普阿特和邦巴的棕榈环绕海滩上放慢脚步——清澈的泻湖、柔软的沙滩和不受打扰的岛屿宁静。",
-        "overview": "以舒适为主的海滩项目，节奏灵活：游泳、阅读、在吊床上小憩，在船行和冒险活动之间重新充电。",
+        "overview": "以舒适为主的海滩活动，节奏灵活：游泳、阅读、在吊床上小憩，在船行和冒险活动之间重新充电。",
         "whatYoullDo": "选择晨泳、悠闲午餐、海滩漫步和日落时光；度假村可提供按摩或瑜伽选项。",
         "bestTime": "4月至10月干季最佳，阳光更多、海上航行更平稳，但海滩时光全年可享。",
         "notes": "请携带高倍防晒霜、帽子和可重复使用的水瓶。正午阳光强烈；请在阴凉处休息、补充水分并每天保护皮肤。"
@@ -84,7 +84,7 @@
         "name": "海滩探索与隐秘海湾",
         "dateLabel": "托吉安之旅",
         "description": "乘船或皮划艇探索安静的海湾、沙洲和秘密洞穴——非常适合摄影、游泳和发现几乎无人踏足的海滩。",
-        "overview": "根据潮汐和天气设计的灵活跳岛项目，结合短途转运和在普阿特、马伦格、卡迪迪里和邦巴的长时间海滩停留。",
+        "overview": "根据潮汐和天气设计的灵活跳岛活动，结合短途转运和在普阿特、马伦格、卡迪迪里和邦巴的长时间海滩停留。",
         "whatYoullDo": "乘船前往无人小岛、在沙洲野餐、在停靠点之间浮潜、沿海岸线寻找最佳游泳入口和日落角度。",
         "bestTime": "4月至10月航行更平稳、水更清澈；根据潮汐安排沙洲和浅泻湖行程。",
         "notes": "携带防水袋、水鞋和额外的饮用水。偏远海滩没有服务设施；不要留下任何东西，避免收集珊瑚或贝壳。"
@@ -93,19 +93,19 @@
         "name": "观星",
         "dateLabel": "托吉安之旅",
         "description": "在偏远岛屿享受暗夜天空：在光污染极少的安静海滩上观看银河、流星雨和明亮的星座。",
-        "overview": "将海滩休闲与观星、讲故事和向导的天文摄影技巧相结合的数字排毒夜间项目。",
+        "overview": "将海滩休闲与观星、讲故事和向导的天文摄影技巧相结合的数字排毒夜间活动。",
         "whatYoullDo": "在朝西的海滩上安顿下来，学习主要星座，观看卫星和流星，使用三脚架或手机拍摄长曝光照片。",
         "bestTime": "4月至10月干季通常天空最清澈；根据月相安排以获得更暗的天空，避免最大风的转运夜晚。",
         "notes": "携带头灯（红光模式）、防海风的轻便外套和防虫剂。尊重安静时间；保持灯光低亮度以保护夜视能力。"
       }
     },
     "detail": {
-      "signatureProgram": "标志性项目",
+      "signatureActivity": "标志性活动",
       "overview": "概述",
       "whatYoullDo": "活动内容",
       "bestTime": "最佳时间",
       "notes": "注意事项",
-      "seeAllPrograms": "查看所有项目"
+      "seeAllActivities": "查看所有活动"
     }
   },
   "localCommunityPage": {
@@ -469,7 +469,7 @@
   "common": {
     "backToHome": "返回首页",
     "backToDestinations": "返回目的地",
-    "backToPrograms": "返回项目",
+    "backToActivities": "返回活动",
     "backToBlog": "返回博客",
     "backToWildlife": "返回野生动物",
     "backToLocalCommunity": "返回当地社区",
@@ -664,7 +664,7 @@
   "booking": {
     "pageTitle": "如何预订",
     "step1": "选择日期",
-    "step2": "选择项目",
+    "step2": "选择活动",
     "step3": "联系我们",
     "step4": "确认并付款"
   },
@@ -675,8 +675,8 @@
     "homeDescription": "发现托吉安群岛的原始之美。慢旅行、原始珊瑚礁和真实的岛屿体验。",
     "destinationsTitle": "目的地 - 托吉安之旅",
     "destinationsDescription": "探索托吉安群岛的标志性目的地。从僻静的海滩到充满活力的珊瑚礁。",
-    "programsTitle": "项目 - 托吉安之旅",
-    "programsDescription": "托吉安群岛的精选旅行项目和活动。"
+    "activitiesTitle": "活动 - 托吉安之旅",
+    "activitiesDescription": "托吉安群岛的精选旅行活动。"
   },
   "destinationDetail": {
     "backToDestinations": "返回目的地",

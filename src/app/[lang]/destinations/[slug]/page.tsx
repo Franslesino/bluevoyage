@@ -8,7 +8,7 @@ import FooterSection from "@/components/FooterSection";
 import { getDictionary, Locale } from "@/lib/i18n";
 
 export function generateStaticParams() {
-    const locales = ['en', 'fr', 'es', 'ru', 'id', 'ja', 'ko', 'zh', 'ar', 'de', 'it', 'pt'];
+    const locales = ['en', 'fr', 'es', 'ru', 'id', 'ja', 'ko', 'zh', 'ar', 'de', 'it', 'pt', 'tr'];
     return locales.flatMap((lang) =>
         Object.keys(destinationDetails).map((slug) => ({
             lang,

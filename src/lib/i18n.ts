@@ -15,8 +15,8 @@
  */
 
 // Supported locales (excluding English which is at root)
-export const SUPPORTED_LOCALES = ["de", "fr", "id", "es", "pt", "ru", "ja", "ko", "zh", "ar", "it"] as const;
-export const ALL_LOCALES = ["en", "de", "fr", "id", "es", "pt", "ru", "ja", "ko", "zh", "ar", "it"] as const;
+export const SUPPORTED_LOCALES = ["de", "fr", "id", "es", "pt", "ru", "ja", "ko", "zh", "ar", "it", "tr"] as const;
+export const ALL_LOCALES = ["en", "de", "fr", "id", "es", "pt", "ru", "ja", "ko", "zh", "ar", "it", "tr"] as const;
 export const DEFAULT_LOCALE = "en" as const;
 
 export type Locale = (typeof ALL_LOCALES)[number];
@@ -36,6 +36,7 @@ export const LOCALE_NAMES: Record<Locale, string> = {
     zh: "中文",
     ar: "العربية",
     it: "Italiano",
+    tr: "Türkçe",
 };
 
 // Static imports for dictionaries (required for static export)
@@ -51,6 +52,7 @@ import koDict from "@/locales/ko.json";
 import zhDict from "@/locales/zh.json";
 import arDict from "@/locales/ar.json";
 import itDict from "@/locales/it.json";
+import trDict from "@/locales/tr.json";
 
 const dictionaries: Record<Locale, typeof enDict> = {
     en: enDict,
@@ -65,6 +67,7 @@ const dictionaries: Record<Locale, typeof enDict> = {
     zh: zhDict,
     ar: arDict,
     it: itDict,
+    tr: trDict,
 };
 
 /**

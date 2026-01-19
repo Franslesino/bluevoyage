@@ -1,4 +1,4 @@
-import ProgramDetailPage from "@/app/_pages/ProgramDetailPage";
+import ActivityDetailPage from "@/app/_pages/ActivityDetailPage";
 import { programs } from "@/data/programs";
 import { SUPPORTED_LOCALES } from "@/lib/i18n";
 
@@ -19,5 +19,5 @@ export async function generateStaticParams() {
 
 export default async function Page({ params }: PageProps) {
     const { slug } = await params;
-    return <ProgramDetailPage slug={slug} />;
+    return <ActivityDetailPage slug={slug} />;
 }

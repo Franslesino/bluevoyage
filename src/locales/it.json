@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "destinations": "Destinazioni",
-    "programs": "Programmi",
+    "activities": "Attività",
     "wildlife": "Fauna Selvatica",
     "localCommunity": "Comunità Locale",
     "boatSafety": "Sicurezza in Barca ed Esperienza",
@@ -27,13 +27,13 @@
     "cta4": "Assisti all'alba vulcanica",
     "cta5": "Trova la solitudine dorata"
   },
-  "programs": {
-    "title": "Modi per esplorare: Programmi Esclusivi",
+  "activities": {
+    "title": "Modi per esplorare: Attività Esclusive",
     "subtitle": "Attività Curate: Esplora Tutto",
-    "viewProgram": "Vedi programma",
+    "viewActivity": "Visualizza attività",
     "sectionLabel": "Viaggi Togean",
-    "pageTitle": "Programmi Esclusivi",
-    "programsCount": "{{count}} Programmi",
+    "pageTitle": "Attività Esclusive",
+    "activitiesCount": "{{count}} Attività",
     "items": {
       "snorkeling-diving": {
         "name": "Snorkeling e immersioni",
@@ -48,7 +48,7 @@
         "name": "Relax e sole",
         "dateLabel": "Viaggi Togean",
         "description": "Rilassati sulle spiagge bordate di palme a Kadidiri, Malenge, Puat e Bomba.",
-        "overview": "Un programma da spiaggia rilassato con ritmo flessibile: nuota, leggi, fai un pisolino.",
+        "overview": "Un'attività da spiaggia rilassato con ritmo flessibile: nuota, leggi, fai un pisolino.",
         "whatYoullDo": "Scegli nuotate mattutine, pranzi pigri, passeggiate sulla spiaggia e sessioni al tramonto.",
         "bestTime": "Meglio nei mesi secchi da aprile a ottobre.",
         "notes": "Porta crema solare ad alta protezione, cappello e borraccia riutilizzabile."
@@ -84,7 +84,7 @@
         "name": "Esplorazione spiagge e calette nascoste",
         "dateLabel": "Viaggi Togean",
         "description": "Esplora baie tranquille, banchi di sabbia e calette segrete in barca o kayak.",
-        "overview": "Un programma flessibile di island-hopping progettato intorno a maree e meteo.",
+        "overview": "Un'attività flessibile di island-hopping progettato intorno a maree e meteo.",
         "whatYoullDo": "Spostamenti in barca verso isolotti disabitati, picnic sui banchi di sabbia.",
         "bestTime": "Da aprile a ottobre per traversate più calme e acqua più limpida.",
         "notes": "Porta una borsa impermeabile, scarpe da acqua e acqua potabile extra."
@@ -93,19 +93,19 @@
         "name": "Osservazione stellare",
         "dateLabel": "Viaggi Togean",
         "description": "Goditi notti con cieli bui sulle isole remote: vedi la Via Lattea e piogge di meteore.",
-        "overview": "Un programma serale disconnesso che abbina relax in spiaggia con osservazione del cielo.",
+        "overview": "Un'attività serale disconnesso che abbina relax in spiaggia con osservazione del cielo.",
         "whatYoullDo": "Sistemati su una spiaggia rivolta a ovest, impara le costellazioni principali, cattura foto a lunga esposizione.",
         "bestTime": "Cieli sereni comuni nei mesi secchi da aprile a ottobre.",
         "notes": "Porta una torcia frontale (modalità rossa), giacca leggera e repellente per insetti."
       }
     },
     "detail": {
-      "signatureProgram": "Programma Esclusivo",
+      "signatureActivity": "Attività Esclusiva",
       "overview": "Panoramica",
       "whatYoullDo": "Cosa farai",
       "bestTime": "Periodo migliore",
       "notes": "Note",
-      "seeAllPrograms": "Vedi tutti i programmi"
+      "seeAllActivities": "Vedi tutte le attività"
     }
   },
   "localCommunityPage": {
@@ -469,7 +469,7 @@
   "common": {
     "backToHome": "TORNA ALLA HOME",
     "backToDestinations": "Torna alle Destinazioni",
-    "backToPrograms": "Torna ai Programmi",
+    "backToActivities": "Torna alle Attività",
     "backToBlog": "Torna al Blog",
     "backToWildlife": "Torna alla Fauna",
     "backToLocalCommunity": "Torna alla Comunità Locale",
@@ -664,7 +664,7 @@
   "booking": {
     "pageTitle": "Come Prenotare",
     "step1": "Scegli le Tue Date",
-    "step2": "Seleziona il Tuo Programma",
+    "step2": "Seleziona la Tua Attività",
     "step3": "Contattaci",
     "step4": "Conferma e Paga"
   },
@@ -675,8 +675,8 @@
     "homeDescription": "Scopri la bellezza incontaminata delle Isole Togean. Viaggi lenti, barriere incontaminate ed esperienze autentiche dell'isola.",
     "destinationsTitle": "Destinazioni - Viaggio Togean",
     "destinationsDescription": "Esplora le destinazioni esclusive nell'arcipelago Togean. Dalle spiagge appartate alle vivaci barriere coralline.",
-    "programsTitle": "Programmi - Viaggio Togean",
-    "programsDescription": "Programmi di viaggio e attività curate nelle Isole Togean."
+    "activitiesTitle": "Attività - Viaggio Togean",
+    "activitiesDescription": "Attività di viaggio curate nelle Isole Togean."
   },
   "destinationDetail": {
     "backToDestinations": "Torna alle Destinazioni",

@@ -2,7 +2,7 @@
   "nav": {
     "home": "Startseite",
     "destinations": "Reiseziele",
-    "programs": "Programme",
+    "activities": "Aktivitäten",
     "wildlife": "Tierwelt",
     "localCommunity": "Lokale Gemeinschaft",
     "boatSafety": "Bootsicherheit & Erlebnis",
@@ -27,13 +27,13 @@
     "cta4": "Vulkanischen Sonnenaufgang erleben",
     "cta5": "Goldene Einsamkeit finden"
   },
-  "programs": {
-    "title": "Entdeckungswege: Signature-Programme",
+  "activities": {
+    "title": "Entdeckungswege: Signature-Aktivitäten",
     "subtitle": "Kuratierte Aktivitäten: Alle erkunden",
-    "viewProgram": "Programm ansehen",
+    "viewActivity": "Aktivität ansehen",
     "sectionLabel": "Togean Voyages",
-    "pageTitle": "Signature-Programme",
-    "programsCount": "{{count}} Programme",
+    "pageTitle": "Signature-Aktivitäten",
+    "activitiesCount": "{{count}} Aktivitäten",
     "items": {
       "snorkeling-diving": {
         "name": "Schnorcheln & Tauchen",
@@ -48,7 +48,7 @@
         "name": "Entspannen & Sonnenbaden",
         "dateLabel": "Togean Voyages",
         "description": "Entschleunigen Sie an palmengesäumten Stränden in Kadidiri, Malenge, Puat und Bomba – klare Lagunen, weicher Sand und ungestörte Inselruhe.",
-        "overview": "Ein komfortorientiertes Strandprogramm mit flexiblem Tempo: schwimmen, lesen, in Hängematten dösen und zwischen Bootstagen und Abenteueraktivitäten auftanken.",
+        "overview": "Ein komfortorientiertes Strandaktivität mit flexiblem Tempo: schwimmen, lesen, in Hängematten dösen und zwischen Bootstagen und Abenteueraktivitäten auftanken.",
         "whatYoullDo": "Wählen Sie Morgenschwimmen, gemütliche Mittagessen, Strandspaziergänge und Sonnenuntergangs-Sessions; optionale Massagen oder Yoga wo verfügbar in Resorts.",
         "bestTime": "Am besten in den trockeneren Monaten April-Oktober für mehr Sonne und ruhigere Überfahrten, obwohl Strandzeit ganzjährig möglich ist.",
         "notes": "Bringen Sie Sonnenschutz mit hohem LSF, Hut und wiederverwendbare Wasserflasche mit. Mittagssonne ist intensiv; machen Sie Schattenpausen, trinken Sie viel und schützen Sie täglich Ihre Haut."
@@ -84,7 +84,7 @@
         "name": "Stranderkundung & versteckte Buchten",
         "dateLabel": "Togean Voyages",
         "description": "Erkunden Sie ruhige Buchten, Sandbänke und geheime Buchten per Boot oder Kajak – ideal zum Fotografieren, Schwimmen und Entdecken von Stränden fast ohne Fußspuren.",
-        "overview": "Ein flexibles Inselhopping-Programm, das sich an Gezeiten und Wetter orientiert und kurze Transfers mit langen Strandaufenthalten auf Puat, Malenge, Kadidiri und Bomba kombiniert.",
+        "overview": "Ein flexibles Inselhopping-Aktivität, das sich an Gezeiten und Wetter orientiert und kurze Transfers mit langen Strandaufenthalten auf Puat, Malenge, Kadidiri und Bomba kombiniert.",
         "whatYoullDo": "Per Boot zu unbewohnten Inselchen hüpfen, auf Sandbänken picknicken, zwischen Stopps schnorcheln und Küstenlinien erkunden für die besten Schwimmeinstiege und Sonnenuntergangswinkel.",
         "bestTime": "April-Oktober für ruhigere Überfahrten und klareres Wasser; planen Sie um Gezeiten für Sandbänke und flache Lagunen.",
         "notes": "Packen Sie eine wasserdichte Tasche, Wasserschuhe und zusätzliches Trinkwasser ein. Abgelegene Strände haben keine Einrichtungen; hinterlassen Sie nichts und vermeiden Sie das Sammeln von Korallen oder Muscheln."
@@ -93,19 +93,19 @@
         "name": "Sternenbeobachtung",
         "dateLabel": "Togean Voyages",
         "description": "Genießen Sie dunkle Nächte auf abgelegenen Inseln: Sehen Sie die Milchstraße, Sternschnuppen und helle Sternbilder von ruhigen Stränden mit minimaler Lichtverschmutzung.",
-        "overview": "Ein ungestecktes Abendprogramm, das Strandentspannung mit Himmelsbeobachtung, Geschichtenerzählen und optionalen Astrofotografie-Tipps von Guides verbindet.",
+        "overview": "Ein ungestecktes Abendaktivität, das Strandentspannung mit Himmelsbeobachtung, Geschichtenerzählen und optionalen Astrofotografie-Tipps von Guides verbindet.",
         "whatYoullDo": "Richten Sie sich an einem nach Westen ausgerichteten Strand ein, lernen Sie wichtige Sternbilder, beobachten Sie Satelliten und Sternschnuppen und machen Sie Langzeitbelichtungsfotos mit Stativ oder Handy.",
         "bestTime": "Klarste Himmel sind in den trockeneren Monaten April-Oktober üblich; planen Sie um Mondphasen für dunklere Himmel und vermeiden Sie windigste Transfernächte.",
         "notes": "Bringen Sie eine Stirnlampe (Rotmodus), leichte Jacke für Meerbrisen und Insektenschutzmittel mit. Respektieren Sie Ruhezeiten; halten Sie Lichter niedrig, um die Nachtsicht zu schützen."
       }
     },
     "detail": {
-      "signatureProgram": "Signature-Programm",
+      "signatureActivity": "Signature-Aktivität",
       "overview": "Überblick",
       "whatYoullDo": "Was Sie tun werden",
       "bestTime": "Beste Zeit",
       "notes": "Hinweise",
-      "seeAllPrograms": "Alle Programme ansehen"
+      "seeAllActivities": "Alle Aktivitäten ansehen"
     }
   },
   "localCommunityPage": {
@@ -469,7 +469,7 @@
   "common": {
     "backToHome": "ZURÜCK ZUR STARTSEITE",
     "backToDestinations": "Zurück zu den Reisezielen",
-    "backToPrograms": "Zurück zu den Programmen",
+    "backToActivities": "Zurück zu den Aktivitäten",
     "backToBlog": "Zurück zum Blog",
     "backToWildlife": "ZURÜCK ZUR TIERWELT",
     "backToLocalCommunity": "Zurück zur lokalen Gemeinschaft",
@@ -667,7 +667,7 @@
   "booking": {
     "pageTitle": "Wie buchen",
     "step1": "Wählen Sie Ihre Termine",
-    "step2": "Wählen Sie Ihr Programm",
+    "step2": "Wählen Sie Ihre Aktivität",
     "step3": "Kontaktieren Sie uns",
     "step4": "Bestätigen & Bezahlen"
   },
@@ -678,8 +678,8 @@
     "homeDescription": "Entdecken Sie die unberührte Schönheit der Togean-Inseln. Langsames Reisen, unberührte Riffe und authentische Inselerlebnisse.",
     "destinationsTitle": "Reiseziele - Togean Voyage",
     "destinationsDescription": "Erkunden Sie Signature-Reiseziele im Togean-Archipel. Von abgelegenen Stränden bis zu lebhaften Korallenriffen.",
-    "programsTitle": "Programme - Togean Voyage",
-    "programsDescription": "Kuratierte Reiseprogramme und Aktivitäten auf den Togean-Inseln."
+    "activitiesTitle": "Aktivitäten - Togean Voyage",
+    "activitiesDescription": "Kuratierte Reiseaktivitäten auf den Togean-Inseln."
   },
   "destinationDetail": {
     "backToDestinations": "Zurück zu Reiseziele",

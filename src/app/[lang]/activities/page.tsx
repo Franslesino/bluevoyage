@@ -1,4 +1,4 @@
-import ProgramsPage from "@/app/_pages/ProgramsPage";
+import ActivitiesPage from "@/app/_pages/ActivitiesPage";
 import { SUPPORTED_LOCALES } from "@/lib/i18n";
 
 export async function generateStaticParams() {
@@ -6,5 +6,5 @@ export async function generateStaticParams() {
 }
 
 export default function Page() {
-    return <ProgramsPage />;
+    return <ActivitiesPage />;
 }
