@@ -677,5 +677,35 @@
     "destinationsDescription": "Explore signature destinations in the Togean Archipelago. From secluded beaches to vibrant coral reefs.",
     "programsTitle": "Programs - Togean Voyage",
     "programsDescription": "Curated travel programs and activities in the Togean Islands."
+  },
+  "destinationDetail": {
+    "backToDestinations": "Back to Destinations",
+    "whyItMatters": "Why it matters",
+    "signatureExperiences": "Signature Experiences",
+    "curatedFor": "Curated for",
+    "theSignatureMoment": "The Signature Moment",
+    "textureDetail": "Texture & Detail",
+    "atmosphereMood": "Atmosphere & Mood",
+    "routePlanning": "Route Planning",
+    "idealTiming": "Ideal Timing",
+    "suggestedDuration": "Suggested Duration",
+    "pairsWellWith": "Pairs well with",
+    "notes": "Notes",
+    "practicalities": "Practicalities",
+    "makeItPartOfRoute": "Make it part of your route",
+    "bookNow": "Book Now",
+    "seeAllDestinations": "See all destinations"
+  },
+  "wildlifeDetail": {
+    "comingSoonText": "More details regarding the {{name}} and where to find them in Togean will be coming soon.",
+    "backToWildlife": "Back to Wildlife",
+    "backToSeaWildlife": "Back to Sea Wildlife",
+    "backToLandWildlife": "Back to Land Wildlife",
+    "backToWildlifeGallery": "Back to Wildlife Gallery",
+    "whereYouMightSeeIt": "Where you might see it",
+    "howToSpotIt": "How to spot it",
+    "responsibleGuidelines": "Responsible Encounter Guidelines",
+    "gallery": "Gallery",
+    "conservationStatus": "Conservation Status"
   }
 }

@@ -500,27 +500,27 @@
       },
       "malenge": {
         "name": "Malenge",
-        "description": "Um paraíso tropical de selvas densas e praias virgens, lar da fascinante cultura cigana do mar Bajo."
+        "description": "Um paraíso tropical de selvas densas e praias intocadas, lar da fascinante cultura dos ciganos do mar Bajo."
       },
       "waleakodi": {
         "name": "Walea Kodi",
-        "description": "Um refúgio isolado com recifes de coral prístinos e resorts ecológicos, perfeito para uma experiência privada de náufrago."
+        "description": "Um refúgio isolado com recifes de coral pristinos e resorts ecológicos, perfeito para uma experiência privada de náufrago."
       },
       "una-una": {
         "name": "Una Una",
-        "description": "Uma joia vulcânica com areias negras únicas e águas ricas em nutrientes repletas de espetacular vida marinha."
+        "description": "Uma joia vulcânica com areias negras únicas e águas ricas em nutrientes repletas de vida marinha espetacular."
       },
       "kadidiri": {
         "name": "Kadidiri",
-        "description": "O centro de viagens dos Togeans, apresentando praias de areia branca como pó, vibrantes recifes da casa e uma atmosfera acolhedora."
+        "description": "O centro de viagens dos Togeans, com praias de areia branca em pó, recifes vibrantes e atmosfera amigável."
       },
       "bomba": {
         "name": "Bomba",
-        "description": "Um retiro tranquilo do sul com praias idílicas, florestas de mangue e gloriosos pores do sol sobre a baía."
+        "description": "Um retiro sul tranquilo com praias idílicas, florestas de mangue e gloriosos pôr do sol sobre a baía."
       },
       "luwuk": {
         "name": "Luwuk",
-        "description": "A pitoresca porta continental para os Togeans, oferecendo vistas costeiras dramáticas e conveniências modernas antes de sua aventura insular."
+        "description": "A porta continental cênica para os Togeans, oferecendo vistas costeiras dramáticas e conveniências modernas antes de sua aventura insular."
       }
     }
   },
@@ -679,5 +679,35 @@
     "destinationsDescription": "Explore destinos exclusivos no Arquipélago Togean. De praias isoladas a vibrantes recifes de coral.",
     "programsTitle": "Programas - Togean Voyage",
     "programsDescription": "Programas e atividades de viagem selecionados nas Ilhas Togean."
+  },
+  "destinationDetail": {
+    "backToDestinations": "Voltar para Destinos",
+    "whyItMatters": "Por que é importante",
+    "signatureExperiences": "Experiências Signature",
+    "curatedFor": "Curado para",
+    "theSignatureMoment": "O Momento Signature",
+    "textureDetail": "Textura e Detalhe",
+    "atmosphereMood": "Atmosfera e Clima",
+    "routePlanning": "Planejamento de Rota",
+    "idealTiming": "Momento Ideal",
+    "suggestedDuration": "Duração Sugerida",
+    "pairsWellWith": "Combina bem com",
+    "notes": "Notas",
+    "practicalities": "Aspectos Práticos",
+    "makeItPartOfRoute": "Faça parte da sua rota",
+    "bookNow": "Reserve Agora",
+    "seeAllDestinations": "Ver todos os destinos"
+  },
+  "wildlifeDetail": {
+    "comingSoonText": "Mais detalhes sobre {{name}} e onde encontrá-los em Togean estarão disponíveis em breve.",
+    "backToWildlife": "Voltar à Vida Selvagem",
+    "backToSeaWildlife": "Voltar à Vida Marinha",
+    "backToLandWildlife": "Voltar à Vida Terrestre",
+    "backToWildlifeGallery": "Voltar à Galeria de Vida Selvagem",
+    "whereYouMightSeeIt": "Onde você pode vê-lo",
+    "howToSpotIt": "Como identificá-lo",
+    "responsibleGuidelines": "Diretrizes de Encontro Responsável",
+    "gallery": "Galeria",
+    "conservationStatus": "Status de Conservação"
   }
 }

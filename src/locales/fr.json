@@ -497,31 +497,31 @@
     "items": {
       "pulau-puah": {
         "name": "Pulau Puah",
-        "description": "Une île isolée offrant une tranquillité absolue, des plages de sable blanc intactes et des récifs coralliens florissants loin de la foule."
+        "description": "Une île isolée offrant une tranquillité absolue, des plages de sable blanc intactes et des récifs coralliens prospères loin des foules."
       },
       "malenge": {
         "name": "Malenge",
-        "description": "Un paradis tropical de jungles denses et de plages préservées, foyer de la fascinante culture des nomades de la mer Bajo."
+        "description": "Un paradis tropical de jungles denses et de plages préservées, patrie de la fascinante culture des gitans de la mer Bajo."
       },
       "waleakodi": {
         "name": "Walea Kodi",
-        "description": "Une retraite isolée avec des récifs coralliens immaculés et des complexes écologiques, parfaite pour une expérience de naufragé privé."
+        "description": "Un refuge isolé avec des récifs coralliens immaculés et des complexes écologiques, parfait pour une expérience de naufragé privée."
       },
       "una-una": {
         "name": "Una Una",
-        "description": "Un joyau volcanique avec des sables noirs uniques et des eaux riches en nutriments regorgeant d'une vie marine spectaculaire."
+        "description": "Un joyau volcanique avec des sables noirs uniques et des eaux riches en nutriments regorgeant de vie marine spectaculaire."
       },
       "kadidiri": {
         "name": "Kadidiri",
-        "description": "Le centre de voyage des Togeans, avec des plages de sable blanc poudreux, des récifs domestiques vibrants et une atmosphère conviviale."
+        "description": "Le centre de voyage des Togeans, avec des plages de sable fin, des récifs maison vibrants et une atmosphère conviviale."
       },
       "bomba": {
         "name": "Bomba",
-        "description": "Une retraite tranquille au sud avec des plages idylliques, des forêts de mangroves et de glorieux couchers de soleil sur la baie."
+        "description": "Une retraite méridionale paisible avec des plages idylliques, des forêts de mangroves et de glorieux couchers de soleil sur la baie."
       },
       "luwuk": {
         "name": "Luwuk",
-        "description": "La porte d'entrée pittoresque du continent vers les Togeans, offrant des vues côtières spectaculaires et des commodités modernes avant votre aventure insulaire."
+        "description": "La porte continentale pittoresque des Togeans, offrant des vues côtières dramatiques et des commodités modernes avant votre aventure insulaire."
       }
     }
   },
@@ -680,5 +680,35 @@
     "destinationsDescription": "Explorez les destinations signature de l'archipel de Togean. Des plages isolées aux récifs coralliens vibrants.",
     "programsTitle": "Programmes - Togean Voyage",
     "programsDescription": "Programmes de voyage et activités sélectionnés dans les îles Togean."
+  },
+  "destinationDetail": {
+    "backToDestinations": "Retour aux Destinations",
+    "whyItMatters": "Pourquoi c'est important",
+    "signatureExperiences": "Expériences Signature",
+    "curatedFor": "Organisé pour",
+    "theSignatureMoment": "Le Moment Signature",
+    "textureDetail": "Texture & Détail",
+    "atmosphereMood": "Atmosphère & Ambiance",
+    "routePlanning": "Planification d'itinéraire",
+    "idealTiming": "Moment idéal",
+    "suggestedDuration": "Durée suggérée",
+    "pairsWellWith": "Se marie bien avec",
+    "notes": "Notes",
+    "practicalities": "Aspects pratiques",
+    "makeItPartOfRoute": "Intégrez-le à votre itinéraire",
+    "bookNow": "Réserver",
+    "seeAllDestinations": "Voir toutes les destinations"
+  },
+  "wildlifeDetail": {
+    "comingSoonText": "Plus de détails concernant {{name}} et où les trouver à Togean seront bientôt disponibles.",
+    "backToWildlife": "Retour à la Faune",
+    "backToSeaWildlife": "Retour à la Faune Marine",
+    "backToLandWildlife": "Retour à la Faune Terrestre",
+    "backToWildlifeGallery": "Retour à la Galerie Faune",
+    "whereYouMightSeeIt": "Où vous pourriez le voir",
+    "howToSpotIt": "Comment le repérer",
+    "responsibleGuidelines": "Directives de Rencontre Responsable",
+    "gallery": "Galerie",
+    "conservationStatus": "Statut de Conservation"
   }
 }

@@ -4,10 +4,11 @@ import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { wildlifeSpecies } from "@/data/wildlifeSpecies";
+import { getDictionary, Locale } from "@/lib/i18n";
 
 export async function generateStaticParams() {
-    const locales = ['en', 'fr', 'es', 'ru', 'id', 'ja', 'ko', 'zh', 'ar', 'de', 'it', 'tr'];
-    return locales.flatMap((lang) => 
+    const locales = ['en', 'fr', 'es', 'ru', 'id', 'ja', 'ko', 'zh', 'ar', 'de', 'it', 'pt'];
+    return locales.flatMap((lang) =>
         wildlifeSpecies.map((species) => ({
             lang,
             slug: species.slug,
@@ -15,13 +16,18 @@ export async function generateStaticParams() {
     );
 }
 
-export default async function WildlifeDetailPage({ params }: { params: Promise<{ slug: string }> }) {
-    const { slug } = await params;
+export default async function WildlifeDetailPage({ params }: { params: Promise<{ lang: string; slug: string }> }) {
+    const { lang, slug } = await params;
     const species = wildlifeSpecies.find((s) => s.slug === slug);
+    const t = getDictionary(lang as Locale);
 
     if (!species) {
         notFound();
     }
+
+    // Get translated coming soon text and replace placeholder
+    const comingSoonText = (t.wildlifeDetail?.comingSoonText || "More details regarding the {{name}} and where to find them in Togean will be coming soon.")
+        .replace("{{name}}", species.name);
 
     return (
         <div className="bg-white min-h-screen text-neutral-900 flex flex-col">
@@ -49,7 +55,7 @@ export default async function WildlifeDetailPage({ params }: { params: Promise<{
 
                 <div className="max-w-prose mx-auto">
                     <p className="font-avenir text-lg text-neutral-600 leading-relaxed border-t border-neutral-200 pt-8">
-                        More details regarding the {species.name} and where to find them in Togean will be coming soon.
+                        {comingSoonText}
                     </p>
                 </div>
             </main>

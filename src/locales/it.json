@@ -494,31 +494,31 @@
     "items": {
       "pulau-puah": {
         "name": "Pulau Puah",
-        "description": "Un'isola appartata che offre assoluta tranquillità, spiagge di sabbia bianca incontaminate e barriere coralline fiorenti lontano dalla folla."
+        "description": "Un'isola appartata che offre tranquillità assoluta, spiagge di sabbia bianca incontaminate e rigogliose barriere coralline lontano dalla folla."
       },
       "malenge": {
         "name": "Malenge",
-        "description": "Un paradiso tropicale di giungle dense e spiagge incontaminate, patria dell'affascinante cultura degli zingari del mare Bajo."
+        "description": "Un paradiso tropicale di giungle dense e spiagge incontaminate, patria dell'affascinante cultura dei nomadi del mare Bajo."
       },
       "waleakodi": {
         "name": "Walea Kodi",
-        "description": "Un rifugio isolato con barriere coralline incontaminate e resort eco-friendly, perfetto per un'esperienza da naufrago privata."
+        "description": "Un rifugio isolato con barriere coralline incontaminate e resort ecologici, perfetto per un'esperienza privata da naufrago."
       },
       "una-una": {
         "name": "Una Una",
-        "description": "Un gioiello vulcanico con sabbie nere uniche e acque ricche di nutrienti brulicanti di spettacolare vita marina."
+        "description": "Un gioiello vulcanico con sabbie nere uniche e acque ricche di nutrienti pullulanti di vita marina spettacolare."
       },
       "kadidiri": {
         "name": "Kadidiri",
-        "description": "Il centro turistico delle Togean, con spiagge bianche come cipria, vivaci barriere coralline e un'atmosfera amichevole."
+        "description": "Il centro di viaggio dei Togean, con spiagge di sabbia bianca, vivaci reef e un'atmosfera accogliente."
       },
       "bomba": {
         "name": "Bomba",
-        "description": "Un tranquillo rifugio meridionale con spiagge idilliache, foreste di mangrovie e tramonti gloriosi sulla baia."
+        "description": "Un tranquillo rifugio meridionale con spiagge idilliache, foreste di mangrovie e gloriosi tramonti sulla baia."
       },
       "luwuk": {
         "name": "Luwuk",
-        "description": "La pittoresca porta d'accesso dalla terraferma alle Togean, che offre viste costiere drammatiche e comodità moderne prima della tua avventura sull'isola."
+        "description": "La pittoresca porta continentale ai Togean, che offre viste costiere drammatiche e comodità moderne prima della tua avventura insulare."
       }
     }
   },
@@ -677,5 +677,35 @@
     "destinationsDescription": "Esplora le destinazioni esclusive nell'arcipelago Togean. Dalle spiagge appartate alle vivaci barriere coralline.",
     "programsTitle": "Programmi - Viaggio Togean",
     "programsDescription": "Programmi di viaggio e attività curate nelle Isole Togean."
+  },
+  "destinationDetail": {
+    "backToDestinations": "Torna alle Destinazioni",
+    "whyItMatters": "Perché è importante",
+    "signatureExperiences": "Esperienze Signature",
+    "curatedFor": "Curato per",
+    "theSignatureMoment": "Il Momento Signature",
+    "textureDetail": "Texture e Dettaglio",
+    "atmosphereMood": "Atmosfera e Umore",
+    "routePlanning": "Pianificazione del Percorso",
+    "idealTiming": "Momento Ideale",
+    "suggestedDuration": "Durata Consigliata",
+    "pairsWellWith": "Si abbina bene con",
+    "notes": "Note",
+    "practicalities": "Aspetti Pratici",
+    "makeItPartOfRoute": "Rendilo parte del tuo percorso",
+    "bookNow": "Prenota Ora",
+    "seeAllDestinations": "Vedi tutte le destinazioni"
+  },
+  "wildlifeDetail": {
+    "comingSoonText": "Ulteriori dettagli riguardo {{name}} e dove trovarli a Togean saranno presto disponibili.",
+    "backToWildlife": "Torna alla Fauna Selvatica",
+    "backToSeaWildlife": "Torna alla Fauna Marina",
+    "backToLandWildlife": "Torna alla Fauna Terrestre",
+    "backToWildlifeGallery": "Torna alla Galleria Fauna Selvatica",
+    "whereYouMightSeeIt": "Dove potresti vederlo",
+    "howToSpotIt": "Come individuarlo",
+    "responsibleGuidelines": "Linee Guida per Incontri Responsabili",
+    "gallery": "Galleria",
+    "conservationStatus": "Stato di Conservazione"
   }
 }

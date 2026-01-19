@@ -493,32 +493,32 @@
     "count": "{{count}}个目的地",
     "items": {
       "pulau-puah": {
-        "name": "普阿岛",
-        "description": "一座僻静的岛屿，提供绝对的宁静、未受触碰的白沙海滩和远离人群的繁茂珊瑚礁。"
+        "name": "普拉乌·普阿",
+        "description": "一座隐蔽的岛屿，提供绝对的宁静、未受触及的白沙滩和远离人群的繁茂珊瑚礁。"
       },
       "malenge": {
         "name": "马伦格",
-        "description": "茂密丛林和原始海滩的热带天堂，是迷人的巴瑶海上游牧民文化的家园。"
+        "description": "茂密丛林和原始海滩的热带天堂，神秘的巴瑶海上吉普赛文化的故乡。"
       },
       "waleakodi": {
-        "name": "瓦莱亚科迪",
-        "description": "拥有原始珊瑚礁和生态度假村的隐世之所，非常适合私人荒岛体验。"
+        "name": "瓦利亚·科迪",
+        "description": "拥有原始珊瑚礁和生态友好度假村的孤立避风港，是私人荒岛体验的完美之选。"
       },
       "una-una": {
-        "name": "乌纳乌纳",
-        "description": "火山明珠，有独特的黑沙和充满壮观海洋生物的营养丰富的海水。"
+        "name": "乌纳·乌纳",
+        "description": "火山珍珠，拥有独特的黑沙和营养丰富的海域，充满壮观的海洋生物。"
       },
       "kadidiri": {
         "name": "卡迪迪里",
-        "description": "托吉安的旅游枢纽，拥有粉状白沙海滩、充满活力的岸礁和友好的氛围。"
+        "description": "托根群岛的旅行枢纽，拥有粉状白色海滩、充满活力的珊瑚礁和友好的氛围。"
       },
       "bomba": {
         "name": "邦巴",
-        "description": "安静的南部休憩之地，有田园诗般的海滩、红树林和海湾上壮丽的日落。"
+        "description": "安静的南部避风港，拥有田园诗般的海滩、红树林和壮观的海湾日落。"
       },
       "luwuk": {
-        "name": "卢武克",
-        "description": "通往托吉安的风景优美的大陆门户，在您的岛屿冒险之前提供壮观的海岸景色和现代便利设施。"
+        "name": "鲁武克",
+        "description": "通往托根群岛的风景如画的大陆门户，在您的岛屿冒险之前提供戏剧性的海岸景观和现代便利设施。"
       }
     }
   },
@@ -677,5 +677,35 @@
     "destinationsDescription": "探索托吉安群岛的标志性目的地。从僻静的海滩到充满活力的珊瑚礁。",
     "programsTitle": "项目 - 托吉安之旅",
     "programsDescription": "托吉安群岛的精选旅行项目和活动。"
+  },
+  "destinationDetail": {
+    "backToDestinations": "返回目的地",
+    "whyItMatters": "为什么重要",
+    "signatureExperiences": "招牌体验",
+    "curatedFor": "精心策划",
+    "theSignatureMoment": "招牌时刻",
+    "textureDetail": "纹理与细节",
+    "atmosphereMood": "氛围与情调",
+    "routePlanning": "路线规划",
+    "idealTiming": "理想时间",
+    "suggestedDuration": "建议时长",
+    "pairsWellWith": "搭配推荐",
+    "notes": "备注",
+    "practicalities": "实用信息",
+    "makeItPartOfRoute": "将其纳入您的路线",
+    "bookNow": "立即预订",
+    "seeAllDestinations": "查看所有目的地"
+  },
+  "wildlifeDetail": {
+    "comingSoonText": "有关{{name}}及其在托根的栖息地的更多详情即将推出。",
+    "backToWildlife": "返回野生动物",
+    "backToSeaWildlife": "返回海洋野生动物",
+    "backToLandWildlife": "返回陆地野生动物",
+    "backToWildlifeGallery": "返回野生动物画廊",
+    "whereYouMightSeeIt": "可能看到的地方",
+    "howToSpotIt": "如何发现",
+    "responsibleGuidelines": "负责任的接触指南",
+    "gallery": "画廊",
+    "conservationStatus": "保护状态"
   }
 }

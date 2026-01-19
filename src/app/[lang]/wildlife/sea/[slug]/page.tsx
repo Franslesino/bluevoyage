@@ -5,10 +5,11 @@ import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { wildLifeSeaDetails } from "@/data/wildlifeSeaDetails";
 import BackLink from "@/components/BackLink";
+import { getDictionary, Locale } from "@/lib/i18n";
 
 export async function generateStaticParams() {
-    const locales = ['en', 'fr', 'es', 'ru', 'id', 'ja', 'ko', 'zh', 'ar', 'de', 'it', 'tr'];
-    return locales.flatMap((lang) => 
+    const locales = ['en', 'fr', 'es', 'ru', 'id', 'ja', 'ko', 'zh', 'ar', 'de', 'it', 'pt'];
+    return locales.flatMap((lang) =>
         wildLifeSeaDetails.map((species) => ({
             lang,
             slug: species.slug,
@@ -16,9 +17,10 @@ export async function generateStaticParams() {
     );
 }
 
-export default async function SeaWildlifeDetailPage({ params }: { params: Promise<{ slug: string }> }) {
-    const { slug } = await params;
+export default async function SeaWildlifeDetailPage({ params }: { params: Promise<{ lang: string; slug: string }> }) {
+    const { lang, slug } = await params;
     const species = wildLifeSeaDetails.find((s) => s.slug === slug);
+    const t = getDictionary(lang as Locale);
 
     if (!species) {
         notFound();
@@ -31,7 +33,7 @@ export default async function SeaWildlifeDetailPage({ params }: { params: Promis
             <main className="flex-grow pt-[calc(env(safe-area-inset-top)+24px)] md:pt-10 pb-24 w-full">
                 {/* HERO SECTION */}
                 <section className="px-6 md:px-12 max-w-[1280px] mx-auto mb-16 md:mb-24">
-                    <BackLink href="/wildlife/sea" label="Back to Sea Wildlife" />
+                    <BackLink href="/wildlife/sea" label={t.wildlifeDetail?.backToSeaWildlife || "Back to Sea Wildlife"} />
                     {/* Title Block */}
                     <div className="text-center max-w-4xl mx-auto mb-12">
                         <h1 className="font-canto text-5xl md:text-7xl text-neutral-900 mb-4 tracking-tight">
@@ -83,7 +85,7 @@ export default async function SeaWildlifeDetailPage({ params }: { params: Promis
                     <div className="grid md:grid-cols-2 gap-16 w-full">
                         <div>
                             <h2 className="font-canto text-3xl md:text-4xl text-neutral-900 mb-6">
-                                Where you might see it
+                                {t.wildlifeDetail?.whereYouMightSeeIt || "Where you might see it"}
                             </h2>
                             <p className="font-avenir text-lg text-neutral-600 leading-relaxed">
                                 {species.expandedContent.whereToSee}
@@ -91,7 +93,7 @@ export default async function SeaWildlifeDetailPage({ params }: { params: Promis
                         </div>
                         <div>
                             <h2 className="font-canto text-3xl md:text-4xl text-neutral-900 mb-6">
-                                How to spot it
+                                {t.wildlifeDetail?.howToSpotIt || "How to spot it"}
                             </h2>
                             <p className="font-avenir text-lg text-neutral-600 leading-relaxed">
                                 {species.expandedContent.howToSpot}
@@ -102,7 +104,7 @@ export default async function SeaWildlifeDetailPage({ params }: { params: Promis
                     {/* Responsible Guidelines */}
                     <div className="w-full bg-neutral-900 text-white p-8 md:p-16 rounded-sm">
                         <h2 className="font-canto text-3xl md:text-4xl text-white mb-8 text-center">
-                            Responsible Encounter Guidelines
+                            {t.wildlifeDetail?.responsibleGuidelines || "Responsible Encounter Guidelines"}
                         </h2>
                         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                             <ul className="space-y-4">
@@ -127,7 +129,7 @@ export default async function SeaWildlifeDetailPage({ params }: { params: Promis
                     {/* Gallery */}
                     <div className="w-full">
                         <h2 className="font-canto text-3xl md:text-4xl text-neutral-900 mb-8 text-center">
-                            Gallery
+                            {t.wildlifeDetail?.gallery || "Gallery"}
                         </h2>
                         <div className="grid md:grid-cols-2 gap-8">
                             {species.images.gallery.map((img, idx) => (
@@ -146,7 +148,7 @@ export default async function SeaWildlifeDetailPage({ params }: { params: Promis
 
                     {/* Conservation Note */}
                     <div className="max-w-2xl text-center">
-                        <h3 className="font-canto text-2xl text-neutral-900 mb-4">Conservation Status</h3>
+                        <h3 className="font-canto text-2xl text-neutral-900 mb-4">{t.wildlifeDetail?.conservationStatus || "Conservation Status"}</h3>
                         <p className="font-avenir text-lg text-neutral-600 leading-relaxed">
                             {species.expandedContent.conservationStatus}
                         </p>
@@ -161,13 +163,13 @@ export default async function SeaWildlifeDetailPage({ params }: { params: Promis
                             href="/wildlife/sea"
                             className="w-full md:w-auto text-center px-8 py-3 border border-[#CB9275] text-[#CB9275] font-avenir tracking-wider uppercase text-sm hover:bg-[#CB9275]/10 transition-colors rounded-sm"
                         >
-                            Back to Sea Wildlife
+                            {t.wildlifeDetail?.backToSeaWildlife || "Back to Sea Wildlife"}
                         </LocaleLink>
                         <LocaleLink
                             href="/wildlife"
                             className="w-full md:w-auto text-center px-8 py-3 bg-[#CB9275] text-white font-avenir tracking-wider uppercase text-sm hover:bg-[#B67F63] transition-colors rounded-sm"
                         >
-                            Back to Wildlife Gallery
+                            {t.wildlifeDetail?.backToWildlifeGallery || "Back to Wildlife Gallery"}
                         </LocaleLink>
                     </div>
                 </div>

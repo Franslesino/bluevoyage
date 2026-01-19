@@ -497,15 +497,15 @@
     "items": {
       "pulau-puah": {
         "name": "Pulau Puah",
-        "description": "Pulau terpencil yang menawarkan ketenangan absolut, pantai pasir putih tak tersentuh, dan terumbu karang yang berkembang jauh dari keramaian."
+        "description": "Pulau terpencil yang menawarkan ketenangan mutlak, pantai pasir putih yang masih alami, dan terumbu karang yang berkembang jauh dari keramaian."
       },
       "malenge": {
         "name": "Malenge",
-        "description": "Surga tropis dengan hutan lebat dan pantai tak tersentuh, rumah bagi budaya suku laut Bajo yang menarik."
+        "description": "Surga tropis dengan hutan lebat dan pantai yang masih asli, rumah bagi budaya Bajo yang mempesona."
       },
       "waleakodi": {
         "name": "Walea Kodi",
-        "description": "Tempat persembunyian terpencil dengan terumbu karang murni dan resort ramah lingkungan, sempurna untuk pengalaman terdampar pribadi."
+        "description": "Tempat persembunyian terisolasi dengan terumbu karang murni dan resor ramah lingkungan, sempurna untuk pengalaman terdampar pribadi."
       },
       "una-una": {
         "name": "Una Una",
@@ -513,15 +513,15 @@
       },
       "kadidiri": {
         "name": "Kadidiri",
-        "description": "Pusat perjalanan Togean, menampilkan pantai pasir putih halus, house reef berwarna-warni, dan suasana ramah."
+        "description": "Pusat wisata Togean dengan pantai pasir putih halus, terumbu karang rumah yang semarak, dan suasana ramah."
       },
       "bomba": {
         "name": "Bomba",
-        "description": "Tempat retreat tenang di selatan dengan pantai idilis, hutan bakau, dan matahari terbenam megah di atas teluk."
+        "description": "Tempat peristirahatan selatan yang tenang dengan pantai idilis, hutan bakau, dan matahari terbenam yang indah di atas teluk."
       },
       "luwuk": {
         "name": "Luwuk",
-        "description": "Gerbang daratan indah ke Togean, menawarkan pemandangan pesisir dramatis dan kenyamanan modern sebelum petualangan pulau Anda."
+        "description": "Gerbang daratan utama yang indah ke Togean, menawarkan pemandangan pantai yang dramatis dan fasilitas modern sebelum petualangan pulau Anda."
       }
     }
   },
@@ -680,5 +680,35 @@
     "destinationsDescription": "Jelajahi destinasi unggulan di Kepulauan Togean. Dari pantai terpencil hingga terumbu karang berwarna-warni.",
     "programsTitle": "Program - Togean Voyage",
     "programsDescription": "Program dan aktivitas perjalanan terkurasi di Kepulauan Togean."
+  },
+  "destinationDetail": {
+    "backToDestinations": "Kembali ke Destinasi",
+    "whyItMatters": "Mengapa ini penting",
+    "signatureExperiences": "Pengalaman Signature",
+    "curatedFor": "Dikurasi untuk",
+    "theSignatureMoment": "Momen Signature",
+    "textureDetail": "Tekstur & Detail",
+    "atmosphereMood": "Atmosfer & Suasana",
+    "routePlanning": "Perencanaan Rute",
+    "idealTiming": "Waktu Ideal",
+    "suggestedDuration": "Durasi yang Disarankan",
+    "pairsWellWith": "Cocok dikombinasikan dengan",
+    "notes": "Catatan",
+    "practicalities": "Hal Praktis",
+    "makeItPartOfRoute": "Jadikan bagian dari rute Anda",
+    "bookNow": "Pesan Sekarang",
+    "seeAllDestinations": "Lihat semua destinasi"
+  },
+  "wildlifeDetail": {
+    "comingSoonText": "Detail lebih lanjut mengenai {{name}} dan di mana menemukannya di Togean akan segera hadir.",
+    "backToWildlife": "Kembali ke Satwa Liar",
+    "backToSeaWildlife": "Kembali ke Satwa Laut",
+    "backToLandWildlife": "Kembali ke Satwa Darat",
+    "backToWildlifeGallery": "Kembali ke Galeri Satwa Liar",
+    "whereYouMightSeeIt": "Di mana Anda mungkin melihatnya",
+    "howToSpotIt": "Cara mengenalinya",
+    "responsibleGuidelines": "Panduan Pertemuan yang Bertanggung Jawab",
+    "gallery": "Galeri",
+    "conservationStatus": "Status Konservasi"
   }
 }
