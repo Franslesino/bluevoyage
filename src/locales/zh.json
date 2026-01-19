@@ -1,0 +1,681 @@
+{
+  "nav": {
+    "home": "首页",
+    "destinations": "目的地",
+    "programs": "项目",
+    "wildlife": "野生动物",
+    "localCommunity": "当地社区",
+    "boatSafety": "船只安全与体验",
+    "accommodation": "住宿",
+    "blog": "博客",
+    "howToBook": "如何预订",
+    "bookNow": "立即预订",
+    "close": "关闭",
+    "bookYourTrip": "预订您的旅程",
+    "socialMedia": "社交媒体"
+  },
+  "hero": {
+    "tagline": "有些地方你只是参观，而另一些地方，你会在与自己、他人和周围世界重新连接的过程中真切感受。"
+  },
+  "spotlight": {
+    "title": "聚焦：标志性目的地",
+    "subtitle": "精选体验：标志性目的地",
+    "tagline": "托吉安群岛",
+    "cta1": "探索日出珊瑚礁",
+    "cta2": "漂流入宁静海湾",
+    "cta3": "探索珊瑚花园",
+    "cta4": "见证火山黎明",
+    "cta5": "寻找金色孤独"
+  },
+  "programs": {
+    "title": "探索方式：标志性项目",
+    "subtitle": "精选活动：全部探索",
+    "viewProgram": "查看项目",
+    "sectionLabel": "托吉安之旅",
+    "pageTitle": "标志性项目",
+    "programsCount": "{{count}}个项目",
+    "items": {
+      "snorkeling-diving": {
+        "name": "浮潜与潜水",
+        "dateLabel": "托吉安之旅",
+        "description": "探索卡迪迪里、乌纳乌纳和瓦莱亚科迪的珊瑚花园、峭壁和沉船，温暖的海水和丰富的生物多样性。",
+        "overview": "为初学者到高级潜水员提供的向导课程，优先考虑安全、珊瑚礁友好习惯以及托吉安最佳能见度的潜点。",
+        "whatYoullDo": "在礁石浮潜、在峭壁和B-24沉船潜水、练习浮力控制，并向教练学习当地海洋生态学。",
+        "bestTime": "全年可进行，但通常4月至10月海况最平静。许多向导认为3月至12月是潜水的最佳时期。",
+        "notes": "适合大多数体能水平。请携带防晒衣和珊瑚礁友好防晒霜。装备可在度假村安排；行程可能会根据季风调整。"
+      },
+      "relaxing-sunbathing": {
+        "name": "休闲与日光浴",
+        "dateLabel": "托吉安之旅",
+        "description": "在卡迪迪里、马伦格、普阿特和邦巴的棕榈环绕海滩上放慢脚步——清澈的泻湖、柔软的沙滩和不受打扰的岛屿宁静。",
+        "overview": "以舒适为主的海滩项目，节奏灵活：游泳、阅读、在吊床上小憩，在船行和冒险活动之间重新充电。",
+        "whatYoullDo": "选择晨泳、悠闲午餐、海滩漫步和日落时光；度假村可提供按摩或瑜伽选项。",
+        "bestTime": "4月至10月干季最佳，阳光更多、海上航行更平稳，但海滩时光全年可享。",
+        "notes": "请携带高倍防晒霜、帽子和可重复使用的水瓶。正午阳光强烈；请在阴凉处休息、补充水分并每天保护皮肤。"
+      },
+      "hiking-viewpoints": {
+        "name": "徒步与观景点",
+        "dateLabel": "托吉安之旅",
+        "description": "从珊瑚礁转向山脊：马伦格和巴图达卡的丛林漫步，以及乌纳乌纳科洛山的火山徒步，俯瞰海湾全景。",
+        "overview": "根据您的节奏安排的短途到中等难度徒步，当地向导会介绍地质、植物和最佳日出或日落观景点。",
+        "whatYoullDo": "火山山顶徒步、森林小径、村庄到海滩的步道和悬崖观景点（包括卢武克周边）；充足的拍照机会和之后的清凉游泳。",
+        "bestTime": "4月至10月通常步道更干燥；避免风大的月份，因为船只转运和徒步计划可能会改变。",
+        "notes": "穿闭口鞋，带防虫剂和1-2升水。早起出发享受凉爽的温度；科洛山建议请向导。"
+      },
+      "local-community-immersion": {
+        "name": "当地社区体验",
+        "dateLabel": "托吉安之旅",
+        "description": "认识岛屿社区：马伦格附近的巴瑶海上游牧民村落、邦巴等渔村，以及卢武克市场和咖啡馆的日常生活。",
+        "overview": "注重尊重的低影响文化访问：了解习俗、分享故事、支持当地生计，理解岛屿如何依赖大海。",
+        "whatYoullDo": "漫步村庄栈道、参与家常餐、观看捕鱼和造船、购买当地农产品、与主人练习简单的印尼语问候。",
+        "bestTime": "全年皆可。选择平静的月份以便于船只转运，并根据社区作息（捕鱼、上学、祈祷时间）安排访问。",
+        "notes": "在村庄穿着得体，拍照前请先询问，并带些零钱购买工艺品或捐赠。向导会帮助您处理礼仪和翻译问题。"
+      },
+      "wildlife-spotting": {
+        "name": "野生动物观察",
+        "dateLabel": "托吉安之旅",
+        "description": "观察岛屿特有物种和海洋大型动物：托吉安猴、椰子蟹、海龟，以及（运气好的话）儒艮——始终保持适当距离。",
+        "overview": "结合珊瑚礁时间、森林漫步和夜间搜索的向导野生动物之旅，优先考虑道德观察和保护意识。",
+        "whatYoullDo": "浮潜寻找海龟、在海草湾观察儒艮、参加黄昏海滩漫步，以及寻找椰子蟹的夜间向导漫步。",
+        "bestTime": "全年皆可，但4月至10月平静的海况改善船只通行和能见度；雨后夜间观察效果往往更好。",
+        "notes": "夜间使用红光，保持低噪音，不要喂食野生动物，并遵循向导的指示。森林漫步请带长袖和防虫剂。"
+      },
+      "beach-exploration-hidden-coves": {
+        "name": "海滩探索与隐秘海湾",
+        "dateLabel": "托吉安之旅",
+        "description": "乘船或皮划艇探索安静的海湾、沙洲和秘密洞穴——非常适合摄影、游泳和发现几乎无人踏足的海滩。",
+        "overview": "根据潮汐和天气设计的灵活跳岛项目，结合短途转运和在普阿特、马伦格、卡迪迪里和邦巴的长时间海滩停留。",
+        "whatYoullDo": "乘船前往无人小岛、在沙洲野餐、在停靠点之间浮潜、沿海岸线寻找最佳游泳入口和日落角度。",
+        "bestTime": "4月至10月航行更平稳、水更清澈；根据潮汐安排沙洲和浅泻湖行程。",
+        "notes": "携带防水袋、水鞋和额外的饮用水。偏远海滩没有服务设施；不要留下任何东西，避免收集珊瑚或贝壳。"
+      },
+      "stargazing": {
+        "name": "观星",
+        "dateLabel": "托吉安之旅",
+        "description": "在偏远岛屿享受暗夜天空：在光污染极少的安静海滩上观看银河、流星雨和明亮的星座。",
+        "overview": "将海滩休闲与观星、讲故事和向导的天文摄影技巧相结合的数字排毒夜间项目。",
+        "whatYoullDo": "在朝西的海滩上安顿下来，学习主要星座，观看卫星和流星，使用三脚架或手机拍摄长曝光照片。",
+        "bestTime": "4月至10月干季通常天空最清澈；根据月相安排以获得更暗的天空，避免最大风的转运夜晚。",
+        "notes": "携带头灯（红光模式）、防海风的轻便外套和防虫剂。尊重安静时间；保持灯光低亮度以保护夜视能力。"
+      }
+    },
+    "detail": {
+      "signatureProgram": "标志性项目",
+      "overview": "概述",
+      "whatYoullDo": "活动内容",
+      "bestTime": "最佳时间",
+      "notes": "注意事项",
+      "seeAllPrograms": "查看所有项目"
+    }
+  },
+  "localCommunityPage": {
+    "heroTitle": "面孔与故事：当地社区",
+    "heroDescription": "温暖的问候与丰富的传统相遇之地。走进日常时刻，学习岛屿节奏，带走的是友谊而非仅仅是照片。",
+    "backLabel": "返回首页",
+    "items": {
+      "village-walks": {
+        "title": "平衡篮筐，清晨微笑",
+        "body": "走在村庄小路上，看邻居们轻松地搬运收获物和家居用品。打个招呼，分享一个笑容，一瞥工作与温暖同行的岛屿清晨节奏。"
+      },
+      "sea-gypsy": {
+        "title": "港口鱼市的热闹",
+        "body": "走进海滨市场，今天的渔获将成为今晚的晚餐。观看友好的讨价还价，学习鱼的名字，认识让沿海生活充满活力和联系的渔民和卖家。"
+      },
+      "shared-meals": {
+        "title": "岛屿船行，共享欢笑",
+        "body": "与当地船员和旅伴一起在珊瑚礁和村庄之间航行。交换故事，拍张快照，感受共享的海上时光如何将陌生人变成小团队。"
+      },
+      "respectful-photos": {
+        "title": "编织圈与社区自豪感",
+        "body": "与女性工匠们坐在一起，看她们手工缝制大胆的纺织品，孩子们在旁边嬉笑。了解图案的含义，支持当地生计，带走一个可以穿在身上的故事。"
+      }
+    }
+  },
+  "wildlife": {
+    "title": "邂逅野生动物之地",
+    "description": "体验托吉安群岛惊人的生物多样性。从嬉戏的海豚到古老的海龟，从色彩斑斓的珊瑚礁鱼到稀有的特有鸟类——在水上和水下发现野生动物。",
+    "exploreButton": "探索野生动物",
+    "land": "陆地野生动物",
+    "sea": "海洋野生动物",
+    "heroTitle": "托吉安的野生动物",
+    "seaPage": {
+      "title": "海洋野生动物",
+      "description": "探索珊瑚三角区的居民"
+    },
+    "landPage": {
+      "title": "陆地野生动物",
+      "description": "发现热带雨林的独特物种"
+    }
+  },
+  "wildlifeIntro": {
+    "title": "通过活生生的野外指南探索托吉安的珊瑚礁和森林",
+    "description": "从海龟和儒艮到特有灵长类动物，这些岛屿蕴藏着罕见的邂逅。了解要寻找什么、何时前往以及如何负责任地观察。"
+  },
+  "wildlifeGallery": {
+    "title": "托吉安和卢武克野外指南",
+    "description": "快速浏览您可能在珊瑚礁、红树林和岛屿小径上遇到的海洋图标和森林居民。",
+    "details": "详情",
+    "species": {
+      "green-sea-turtle": {
+        "name": "绿海龟",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "玳瑁",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "拿破仑鱼",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "儒艮",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "巨蚌",
+        "localName": "Kima"
+      },
+      "seahorse": {
+        "name": "海马",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "无毒水母",
+        "localName": "Ubur-ubur tak menyengat"
+      },
+      "togian-monkey": {
+        "name": "托吉安猴",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "托吉安眼镜猴",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "托吉安鹿豚",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "苏拉威西犀鸟",
+        "localName": "Rangkong Sulawesi"
+      },
+      "coconut-crab": {
+        "name": "椰子蟹",
+        "localName": "Kepiting Kelapa"
+      },
+      "sulawesi-cuscus": {
+        "name": "苏拉威西袋貂",
+        "localName": "Kuskus Sulawesi"
+      }
+    }
+  },
+  "wildlifeCarousel": {
+    "togean-monkey": {
+      "name": "托吉安猴",
+      "scientific": "Macaca tonkeana togeanus",
+      "description": "特有岛屿猕猴，好奇的森林觅食者。"
+    },
+    "togean-babirusa": {
+      "name": "托吉安鹿豚",
+      "scientific": "Babyrousa togeanensis",
+      "description": "稀有的獠牙猪，在密林中害羞。"
+    },
+    "togean-golden-bulbul": {
+      "name": "托吉安金鹎",
+      "scientific": "Hypsipetes aureus",
+      "description": "金色羽毛的鸣禽，特有林冠居民。"
+    },
+    "giant-clam": {
+      "name": "巨蚌",
+      "scientific": "Tridacna spp.",
+      "description": "受保护的珊瑚礁巨人，鲜艳的外套膜过滤海水。"
+    },
+    "togean-water-monitor": {
+      "name": "托吉安水巨蜥",
+      "scientific": "Varanus togianus",
+      "description": "大型岛屿巨蜥，在红树林附近晒太阳。"
+    },
+    "togean-tarsier": {
+      "name": "托吉安眼镜猴",
+      "scientific": "Tarsius niemitzi",
+      "description": "夜行性大眼眼镜猴，夜间观察最佳。"
+    }
+  },
+  "blogPosts": {
+    "responsible-wildlife-encounters": {
+      "title": "托吉安负责任的野生动物邂逅与珊瑚礁礼仪",
+      "excerpt": "发现托吉安群岛充满活力的海洋生物。从色彩斑斓的珊瑚花园到嬉戏的珊瑚礁鱼，学习如何在不打扰其自然栖息地的情况下尊重地观察这些奇观。我们的指南确保每个人都有可持续的冒险体验。",
+      "locationLabel": "托吉安",
+      "date": "2026年1月3日",
+      "category": "日志",
+      "content": "托根群岛是水上水下生物多样性的宝库。作为这片原始群岛的访客，我们有责任谨慎行事。\n\n### 珊瑚礁礼仪101\n托根的珊瑚礁充满生机，但也很脆弱。浮潜或潜水时，保持良好的浮力至关重要。\n\n### 与海洋生物相遇\n看到滑行的海龟或列队游泳的梭鱼群是任何旅程的亮点。\n\n- 不要追逐：让海洋生物主动靠近你。\n- 不要喂食：喂鱼会改变它们的自然饮食。\n- 闪光摄影：尽量少用闪光灯。"
+    },
+    "best-snorkeling-spots": {
+      "title": "最佳浮潜地点及您可能看到的生物",
+      "excerpt": "跳入托吉安清澈见底的水中。我们揭示您可以看到巨蚌、海龟和无尽种类热带鱼的顶级浮潜地点。准备好一次无与伦比的水下之旅。",
+      "locationLabel": "托吉安",
+      "date": "2026年2月15日",
+      "category": "日志",
+      "content": "托根群岛位于珊瑚三角区的中心。对于浮潜者来说，这意味着温暖、平静的海水中充满了色彩和生命。\n\n### 加利福尼亚礁\n以其鲜艳的珊瑚命名，这个礁石易于到达且令人叹为观止。\n\n### 一号礁\n位于马伦格附近的隐藏宝石。以惊人的能见度而闻名。\n\n### 水母湖\n虽然严格来说不是浮潜礁，但无毒水母湖是一种超现实的体验。"
+    },
+    "village-visit-etiquette": {
+      "title": "村庄访问礼仪及如何支持当地社区",
+      "excerpt": "体验巴瑶人的热情。本指南概述了访问当地村庄时的文化注意事项，确保您的互动尊重他人并支持这些独特岛屿社区的生计。",
+      "locationLabel": "托吉安",
+      "date": "2026年3月10日",
+      "category": "日志",
+      "content": "参观托根群岛当地村庄，尤其是巴瑶族（海上吉普赛人）定居点，是一种深刻的文化体验。\n\n### 穿着得体\n虽然泳装在海滩或船上没问题，但进入村庄时最好穿着保守一些。\n\n### 请求许可\n巴瑶人非常热情好客，但他们的家是私人空间。\n\n### 支持经济\n表达感谢的最佳方式是直接支持当地经济。"
+    }
+  },
+  "accommodation": {
+    "sectionLabel": "托吉安之旅",
+    "title": "休憩之所：岛屿民宿",
+    "subtitle": "精选住宿：全部探索",
+    "contentTitle": "轻松入住，宾至如归",
+    "contentDescription": "从容的住宿、岛式简约舒适和热情的主人。白天探索，然后在精心挑选的民宿里安然入睡。",
+    "exploreAll": "查看所有住宿",
+    "pageTitle": "住宿",
+    "pageSubtitle": "岛屿各处的精选住宿",
+    "loading": "加载中...",
+    "roomGallery": "客房画廊",
+    "selectRoomType": "选择房型",
+    "otherPhotos": "其他照片",
+    "tabs": {
+      "all": "全部",
+      "malenge": "马伦格",
+      "unaUna": "乌纳乌纳",
+      "kadidiri": "卡迪迪里",
+      "bomba": "邦巴",
+      "luwuk": "卢武克",
+      "pulauPuat": "普阿特岛",
+      "malengue": "马伦格",
+      "waleaKodi": "瓦莱亚科迪"
+    },
+    "slides": {
+      "malenge": {
+        "title": "马伦格",
+        "description": "一个拥有茂密丛林和原始海滩的热带天堂，迷人的巴维海上吉普赛文化的故乡。"
+      },
+      "kadidiri": {
+        "title": "卡迪迪里",
+        "description": "托吉安的旅游中心，拥有粉状的白色沙滩、充满活力的房礁和友好的氛围。"
+      },
+      "unaUna": {
+        "title": "乌纳乌纳",
+        "description": "火山岛氛围、凉爽的夜晚和一个宁静的重置之地。"
+      },
+      "luwuk": {
+        "title": "卢武克",
+        "description": "通往托吉安的风景秀丽的大陆门户，提供戴剧性的海岸景色和现代便利设施。"
+      }
+    },
+    "items": {
+      "pp-1": {
+        "title": "甲板屋",
+        "description": "悬于水上，可直达泻湖。伴着轻柔的波浪声入睡。"
+      },
+      "pp-2": {
+        "title": "花园别墅",
+        "description": "隐藏在棕榈树中，完全私密。距离沙滩几步之遥的凉爽遮荫休憩处。"
+      },
+      "ma-1": {
+        "title": "日出房",
+        "description": "朝东迎接金色的早晨。通风、光线充足，简单陈设以获得清晰感。"
+      },
+      "ma-2": {
+        "title": "阁楼",
+        "description": "树冠和海洋的高处视野。高天花板和穿堂风自然保持凉爽。"
+      },
+      "wk-1": {
+        "title": "阳台套房",
+        "description": "户外生活。宽敞的私人露台成为您的客厅、餐厅和小憩站。"
+      },
+      "wk-2": {
+        "title": "礁边小屋",
+        "description": "最接近断崖的位置。从您的早餐咖啡点看海龟游过。"
+      }
+    },
+    "features": {
+      "guestHouse": {
+        "title": "日出时在海边，夜晚在星空下",
+        "description": "在柔和的海光中醒来，伴着波浪声入睡。露天的夜晚、晴朗的天空和重置您生物钟的缓慢岛屿节奏。"
+      },
+      "comfort": {
+        "title": "采用当地木材精心打造",
+        "description": "用当地木材和岛屿技艺建造。自然的纹理、牢固的榫接和温暖、踏实的感觉，与景观相得益彰。"
+      },
+      "sharedSpaces": {
+        "title": "安心入睡，静谧舒适",
+        "description": "干净的床铺、良好的通风和低噪音的夜晚。简单的舒适让您深度休息，醒来准备好迎接明天的船程。"
+      },
+      "hosts": {
+        "title": "入住精心挑选的原始海滩",
+        "description": "我们选择安静且维护良好的海滩。最小的足迹、更少的人群和保持自然原始感的环境。"
+      },
+      "meals": {
+        "title": "为贴心住宿精心设计",
+        "description": "细节做得恰到好处：遮阳、座椅、储物和照明。体贴、实用且易于居住的空间。"
+      },
+      "impact": {
+        "title": "宁静而私密的夜晚",
+        "description": "日落茶、柔和的灯光和安静的交谈。一天的温柔结束，您可以阅读、反思或只是聆听大海。"
+      }
+    },
+    "guestHouses": {
+      "malenge": {
+        "name": "悬崖度假村",
+        "description": "马伦格岛上的悬崖度假村，拥有全景海景、原始白沙海滩、郁郁葱葱的热带雨林背景和现场潜水中心，是潜水和宁静热带放松的理想之地。",
+        "rooms": {
+          "deluxe-bungalow-ac": "豪华空调平房",
+          "deluxe-bungalow-fan": "豪华风扇平房",
+          "standard-bungalow-fan": "标准风扇平房",
+          "family-bungalow-fan": "家庭风扇平房"
+        }
+      },
+      "una-una": {
+        "name": "原始度假村",
+        "description": "位于偏远乌纳乌纳岛的海滨PADI潜水度假村，配有舒适的木制平房、海景吊床和通往托吉安顶级潜水点的通道，提供全包餐食和宁静的离网氛围。",
+        "rooms": {
+          "standard-room": "标准房",
+          "superior-bungalow": "高级平房",
+          "deluxe-seaview-bungalow": "豪华海景平房",
+          "vip-family-room": "VIP/家庭房"
+        }
+      },
+      "kadidiri": {
+        "name": "卡迪迪里天堂",
+        "description": "轻松的度假村，配有质朴的海滨平房和码头旁色彩缤纷的房礁，非常适合浮潜、潜水、皮划艇和享受简单的赤脚岛屿住宿。",
+        "rooms": {
+          "superior-double-twin": "高级海景双人房或双床房",
+          "villa-room": "别墅房",
+          "deluxe-double-seaview": "豪华海景双人房",
+          "standard-double": "标准双人房"
+        }
+      },
+      "bomba": {
+        "name": "波亚丽莎",
+        "description": "邦巴村附近安静的私人岛屿度假胜地，配有清澈水域上的海滨小屋、优质珊瑚礁浮潜、新鲜海鲜和从容不迫、以自然为先的岛屿体验。",
+        "rooms": {
+          "deluxe-bungalow": "豪华平房",
+          "superior-bungalow": "高级平房",
+          "standard-bungalow": "标准平房"
+        }
+      },
+      "luwuk": {
+        "name": "埃斯特雷拉",
+        "description": "卢武克的现代四星级酒店，配有舒适的客房、会议空间、两个室外泳池、水疗中心、健身房和现场餐饮，将度假村式设施与便捷的城市通道和海湾美景相结合。",
+        "rooms": {
+          "double-bed": "大床房",
+          "deluxe": "豪华房",
+          "business-garden-view": "园景商务房",
+          "grand-deluxe-garden-view": "园景豪华套房",
+          "premier-balcony": "带阳台尊贵房"
+        }
+      }
+    }
+  },
+  "localCommunity": {
+    "title": "认识当地人",
+    "description": "与托吉安群岛热心的社区建立联系。体验真实的村庄生活、传统工艺和代代相传的百年习俗。",
+    "exploreButton": "探索当地体验"
+  },
+  "localCommunitySection": {
+    "sectionTitle": "在社区中：当地邂逅",
+    "exploreAll": "精选联系：全部探索",
+    "blocks": {
+      "block1": {
+        "title": "与当地人交流，感受托吉安人民的热情",
+        "description1": "托吉安群岛不仅仅是热带度假胜地——它是通往真挚联系和永恒传统的大门。认识与大海和谐相处的巴瑶'海上吉普赛人'，以及用热情好客让每位访客都有宾至如归之感的帕莫纳和萨卢安社区。从水上高脚村到生动的文化传统，托吉安人民体现了这些偏远岛屿的宁静和真实。",
+        "description2": "让他们的故事、微笑和传统将您的旅行转变为一次难忘的旅程，在这里自然与文化完美和谐地结合。"
+      },
+      "block2": {
+        "title": "发现岛屿生活的传统方式",
+        "description1": "托吉安群岛不仅仅是热带度假胜地——它是通往真挚联系和永恒传统的大门。认识与大海和谐相处的巴瑶'海上吉普赛人'，以及用热情好客让每位访客都有宾至如归之感的帕莫纳和萨卢安社区。从水上高脚村到生动的文化传统，托吉安人民体现了这些偏远岛屿的宁静和真实。",
+        "description2": "让他们的故事、微笑和传统将您的旅行转变为一次难忘的旅程，在这里自然与文化完美和谐地结合。"
+      },
+      "block3": {
+        "title": "与岛屿社区共创持久回忆",
+        "description1": "托吉安群岛不仅仅是热带度假胜地——它是通往真挚联系和永恒传统的大门。认识与大海和谐相处的巴瑶'海上吉普赛人'，以及用热情好客让每位访客都有宾至如归之感的帕莫纳和萨卢安社区。从水上高脚村到生动的文化传统，托吉安人民体现了这些偏远岛屿的宁静和真实。",
+        "description2": "让他们的故事、微笑和传统将您的旅行转变为一次难忘的旅程，在这里自然与文化完美和谐地结合。"
+      }
+    }
+  },
+  "blog": {
+    "title": "在这里寻找灵感",
+    "viewAll": "查看全部",
+    "readMore": "阅读更多",
+    "backToHome": "返回博客",
+    "pageTitle": "在这里寻找灵感",
+    "storiesCount": "{{count}}篇故事"
+  },
+  "cta": {
+    "eyebrow": "随时准备好",
+    "title": "现在开始您的旅程——与我们的旅行设计师交谈",
+    "description": "分享您的日期和节奏。我们将为您量身定制一个平静的、以岛屿为主导的行程。",
+    "button": "通过WhatsApp聊天",
+    "planYourTrip": "规划您的旅行",
+    "tagline": "岛屿。大海。宁静。"
+  },
+  "footer": {
+    "brandName": "托吉安之旅",
+    "brandDescription": "体验托吉安群岛原始之美。我们策划慢旅行之旅，让您与自然、文化和大海的宁静相连。",
+    "infosTitle": "信息",
+    "contactTitle": "联系我们",
+    "address1": "Graha STR, Jl. Ampera Raya No.11B, Jakarta",
+    "address2": "Jl. Soekarno Hatta, No 13A, Manggarai Barat.",
+    "company": "PT Build Creative Realm"
+  },
+  "common": {
+    "backToHome": "返回首页",
+    "backToDestinations": "返回目的地",
+    "backToPrograms": "返回项目",
+    "backToBlog": "返回博客",
+    "backToWildlife": "返回野生动物",
+    "backToLocalCommunity": "返回当地社区",
+    "backToAccommodations": "返回住宿",
+    "discover": "发现",
+    "explore": "探索",
+    "learnMore": "了解更多",
+    "togeanArchipelago": "托吉安群岛",
+    "togeanVoyages": "托吉安之旅",
+    "viewDetails": "查看详情",
+    "readMore": "阅读更多",
+    "viewAll": "查看全部",
+    "species": "物种",
+    "details": "详情"
+  },
+  "destinations": {
+    "sectionLabel": "托吉安之旅",
+    "title": "目的地",
+    "destinationsCount": "目的地",
+    "pageTitle": "目的地",
+    "count": "{{count}}个目的地",
+    "items": {
+      "pulau-puah": {
+        "name": "普阿岛",
+        "description": "一座僻静的岛屿，提供绝对的宁静、未受触碰的白沙海滩和远离人群的繁茂珊瑚礁。"
+      },
+      "malenge": {
+        "name": "马伦格",
+        "description": "茂密丛林和原始海滩的热带天堂，是迷人的巴瑶海上游牧民文化的家园。"
+      },
+      "waleakodi": {
+        "name": "瓦莱亚科迪",
+        "description": "拥有原始珊瑚礁和生态度假村的隐世之所，非常适合私人荒岛体验。"
+      },
+      "una-una": {
+        "name": "乌纳乌纳",
+        "description": "火山明珠，有独特的黑沙和充满壮观海洋生物的营养丰富的海水。"
+      },
+      "kadidiri": {
+        "name": "卡迪迪里",
+        "description": "托吉安的旅游枢纽，拥有粉状白沙海滩、充满活力的岸礁和友好的氛围。"
+      },
+      "bomba": {
+        "name": "邦巴",
+        "description": "安静的南部休憩之地，有田园诗般的海滩、红树林和海湾上壮丽的日落。"
+      },
+      "luwuk": {
+        "name": "卢武克",
+        "description": "通往托吉安的风景优美的大陆门户，在您的岛屿冒险之前提供壮观的海岸景色和现代便利设施。"
+      }
+    }
+  },
+  "boatExperience": {
+    "title": "船只安全与体验",
+    "subtitle": "您的水上之旅",
+    "safetyFirst": "安全第一",
+    "comfortOnBoard": "船上舒适",
+    "experiencedCrew": "经验丰富的船员"
+  },
+  "boatSection": {
+    "sectionTitle": "在细节中：船只安全与体验",
+    "exploreAll": "精选必备：全部探索",
+    "contentTitle": "轻松航行，宾至如归",
+    "contentDescription": "我们从容旅行。更多大海、更多宁静、更多关怀。这些是让每一次托吉安之旅都安全、舒适和极具个人化的必备要素。",
+    "features": {
+      "boatCabins": {
+        "title": "船只、客舱与共享空间",
+        "description": "以舒适为先的布局，有遮阳休息区、通风客舱和社交角落。有足够的空间伸展、阅读、小憩和聚会而不感到拥挤。"
+      },
+      "safety": {
+        "title": "船上安全",
+        "description": "安全优先的程序、清晰的说明会和维护良好的装备。您可以完全放松，知道每个细节都已计划和检查。"
+      },
+      "crew": {
+        "title": "船员与船长",
+        "description": "一位冷静、能干的船长和热情的船员，能预判您的需求。从始至终以真诚的关怀引导、帮助和接待。"
+      },
+      "rhythm": {
+        "title": "每日节奏与氛围",
+        "description": "根据天气和精力调整的顺畅、灵活的节奏。日出启航、悠闲的下午和每天恰到好处的黄金时刻停靠。"
+      },
+      "cuisine": {
+        "title": "新鲜美食",
+        "description": "用心准备的新鲜、美味餐食。当地食材、均衡的选择和贴心的小细节，让船上用餐简单而满足。"
+      },
+      "purpose": {
+        "title": "有目的的旅行",
+        "description": "通过尊重的当地合作伙伴关系和周到的路线回馈的旅行。支持社区和保护我们都爱上的珊瑚礁的小选择。"
+      }
+    }
+  },
+  "boat": {
+    "backToBoat": "返回船只",
+    "heroLabel": "船上体验",
+    "heroTitle": "安全、服务与简约奢华",
+    "heroDescription": "发现让每次旅程顺畅、安全、难忘的细节。从船长的专业知识到甲板的宁静舒适。",
+    "items": {
+      "safety": {
+        "title": "安全，无需繁琐",
+        "body": "清晰的说明会、可靠的救生衣和平静的程序保持一切稳定。从天气检查到安全转运，每一步都被静静处理，让您自信并自由地享受大海。"
+      },
+      "crew": {
+        "title": "共享空间的舒适",
+        "body": "有遮阳的休息区、柔软的座椅和轻松的布局使船感觉像一个漂浮的客厅。有良好的通风和没有拥挤的角落，可以伸展、吃零食、聊天或小憩。"
+      },
+      "comfort": {
+        "title": "可以感受到的航海技术",
+        "body": "一位一眼就能读懂风、流和珊瑚颜色的船长。平稳的靠近、稳定的节奏和明智的路线选择，即使在变化的条件下也能将航行变成平静、可预测的时刻。"
+      },
+      "experience": {
+        "title": "金色海水，缓慢时刻",
+        "body": "一些最美好的回忆发生在岛屿之间。珊瑚蓝色的浅滩、玻璃般的早晨和日落滑行邀请您暂停、呼吸，让大海为这一天定调。"
+      }
+    }
+  },
+  "boatAndAccommodations": {
+    "pageTitle": "船只与住宿",
+    "subtitle": "安全、舒适和岛边休憩。每一次旅程和睡眠都经过精心考虑。",
+    "boatSectionTitle": "船只：安全、体验与舒适",
+    "accommodationSectionTitle": "住宿：岛屿民宿",
+    "boatItems": {
+      "speed-of-silence": {
+        "title": "宁静的速度",
+        "description": "乘坐我们的高级木质快艇滑过群岛。专为平稳转运和日落巡航而设计。"
+      },
+      "lounge-horizon": {
+        "title": "休息区与地平线",
+        "description": "遮阳的舒适、柚木甲板和无尽的蔚蓝。非常适合潜水间隙的悠长慵懒时光。"
+      },
+      "safety-service": {
+        "title": "安全与服务",
+        "description": "您的安全是我们的仪式。专业船员、顶级装备和每次互动中的真诚关怀。"
+      },
+      "lagoon-explorer": {
+        "title": "泻湖探险家",
+        "description": "航行到大船无法到达的浅礁和隐秘泻湖。纯粹的沉浸。"
+      }
+    },
+    "stayItems": {
+      "pulau-puat": {
+        "title": "普阿特岛民宿",
+        "description": "融入丛林的可持续奢华。伴着海浪声和鸟鸣声醒来。"
+      },
+      "malenge": {
+        "title": "马伦格民宿",
+        "description": "通风明亮的房间，全景海景。简约与高端舒适相遇。"
+      },
+      "walea-kodi": {
+        "title": "瓦莱亚科迪民宿",
+        "description": "您自己的私人露台享受黄金时刻。在时间静止的地方躺在吊床上放松。"
+      },
+      "una-una": {
+        "title": "乌纳乌纳民宿",
+        "description": "在棕榈树下聚集享用公共盛宴。温暖的灯光、沙地和难忘的故事。"
+      }
+    }
+  },
+  "howToBooking": {
+    "tagline": "快速、简单、个性化",
+    "pageTitle": "如何预订",
+    "pageDescription": "我们相信直接联系。所有预订都通过WhatsApp或电子邮件亲自确认，确保您的行程完美符合您的需求。",
+    "whatsappTitle": "通过WhatsApp预订",
+    "whatsappDescription": "确保您位置的最快方式。我们通常在工作日一小时内回复。发送快速消息检查可用性。",
+    "whatsappButton": "WhatsApp消息",
+    "emailTitle": "通过电子邮件预订",
+    "emailDescription": "更喜欢在收件箱中收到详细行程？发送您的需求，我们将为您制定定制方案。",
+    "emailButton": "发送电子邮件",
+    "detailsTitle": "请发送这些详情",
+    "detailItem1": "您的首选日期",
+    "detailItem2": "团队人数",
+    "detailItem3": "兴趣（浮潜、村庄参观、野生动物等）",
+    "detailItem4": "饮食需求",
+    "detailItem5": "接送点（如有）",
+    "detailItem6": "预算范围（可选）",
+    "detailItem7": "任何特殊要求",
+    "paymentTitle": "付款方式",
+    "paymentDescription": "为确保您的预订，我们通常需要押金，余款在您的旅行日期临近时支付。我们接受银行转账和借记卡。",
+    "paymentNote": "具体的付款详情和截止日期将在您的预订确认书中提供。",
+    "faqTitle": "常见问题",
+    "faq1Question": "确认需要多长时间？",
+    "faq1Answer": "我们的目标是在24小时内回复所有询问。对于工作时间内的WhatsApp消息，您可以期待在一小时内得到回复。",
+    "faq2Question": "我可以更改日期吗？",
+    "faq2Answer": "可以，我们很灵活。日期更改取决于可用性。如果您需要重新安排，请尽快告诉我们。",
+    "faq3Question": "你们能满足饮食限制吗？",
+    "faq3Answer": "当然可以。无论是素食、纯素还是过敏，我们确保您的餐食安全美味。预订时请告知。",
+    "faq4Question": "是私人还是拼团？",
+    "faq4Answer": "我们提供两种选择。我们的大多数行程都是私人的，以获得个性化体验，但我们也可以根据要求安排拼团旅行。",
+    "ctaTitle": "随时准备好",
+    "ctaWhatsapp": "WhatsApp",
+    "ctaEmail": "发送电子邮件"
+  },
+  "booking": {
+    "pageTitle": "如何预订",
+    "step1": "选择日期",
+    "step2": "选择项目",
+    "step3": "联系我们",
+    "step4": "确认并付款"
+  },
+  "meta": {
+    "siteTitle": "托吉安之旅",
+    "siteDescription": "体验托吉安群岛之美",
+    "homeTitle": "托吉安之旅 - 探索托吉安群岛",
+    "homeDescription": "发现托吉安群岛的原始之美。慢旅行、原始珊瑚礁和真实的岛屿体验。",
+    "destinationsTitle": "目的地 - 托吉安之旅",
+    "destinationsDescription": "探索托吉安群岛的标志性目的地。从僻静的海滩到充满活力的珊瑚礁。",
+    "programsTitle": "项目 - 托吉安之旅",
+    "programsDescription": "托吉安群岛的精选旅行项目和活动。"
+  }
+}

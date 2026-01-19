@@ -6,7 +6,7 @@ import { useTranslation } from "./I18nProvider";
 
 export default function FooterSection() {
     const { t } = useTranslation();
-    
+
     return (
         <footer className="bg-[#CB9275] text-white pt-12 pb-8 md:pt-16 md:pb-12">
             <div className="mx-auto px-6 md:px-12 max-w-[1280px]">

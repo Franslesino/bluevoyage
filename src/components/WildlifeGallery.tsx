@@ -2,9 +2,10 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+import LocaleLink from "./LocaleLink";
 import { motion, AnimatePresence } from "framer-motion";
 import { WildlifeSpecies } from "@/data/wildlifeSpecies";
+import { useTranslation } from "./I18nProvider";
 
 interface WildlifeGalleryProps {
     species: WildlifeSpecies[];
@@ -13,6 +14,7 @@ interface WildlifeGalleryProps {
 type Habitat = "sea" | "land";
 
 export default function WildlifeGallery({ species }: WildlifeGalleryProps) {
+    const { t } = useTranslation();
     const [activeHabitat, setActiveHabitat] = useState<Habitat>("sea");
 
     const filteredSpecies = species.filter((s) => s.habitat === activeHabitat);
@@ -64,10 +66,10 @@ export default function WildlifeGallery({ species }: WildlifeGalleryProps) {
             {/* Gallery Header */}
             <div className="mb-12 text-center max-w-2xl mx-auto">
                 <h2 className="font-canto text-4xl md:text-5xl text-neutral-900 mb-6">
-                    A field guide to Togean and Luwuk
+                    {t("wildlifeGallery.title")}
                 </h2>
                 <p className="font-avenir text-lg text-neutral-600 leading-relaxed mb-8">
-                    A quick look at the marine icons and forest dwellers you may encounter across reefs, mangroves, and island trails.
+                    {t("wildlifeGallery.description")}
                 </p>
 
                 {/* Toggle */}
@@ -82,7 +84,7 @@ export default function WildlifeGallery({ species }: WildlifeGalleryProps) {
                             }
                         `}
                     >
-                        Sea Wildlife
+                        {t("wildlife.sea")}
                     </button>
                     <button
                         onClick={() => setActiveHabitat("land")}
@@ -94,7 +96,7 @@ export default function WildlifeGallery({ species }: WildlifeGalleryProps) {
                             }
                         `}
                     >
-                        Land Wildlife
+                        {t("wildlife.land")}
                     </button>
                 </div>
             </div>
@@ -109,44 +111,49 @@ export default function WildlifeGallery({ species }: WildlifeGalleryProps) {
                 viewport={{ once: true, margin: "-100px" }}
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-12"
             >
-                {filteredSpecies.map((species) => (
-                    <motion.div
-                        key={species.id}
-                        variants={cardVariants}
-                        className="group flex flex-col h-full"
-                    >
-                        {/* Image Card */}
-                        <div className="aspect-[4/5] relative overflow-hidden rounded-sm bg-neutral-100 mb-6">
-                            <Image
-                                src={species.image}
-                                alt={species.name}
-                                fill
-                                className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                            />
-                        </div>
-
-                        {/* Text Info */}
-                        <div className="flex flex-col flex-grow text-center sm:text-left">
-                            <h3 className="font-canto text-2xl text-neutral-900 mb-1">
-                                {species.name}
-                            </h3>
-                            <p className="font-avenir text-sm text-neutral-500 italic mb-4">
-                                {species.localName}
-                            </p>
-
-                            {/* Details Button */}
-                            <div className="mt-auto pt-2">
-                                <Link
-                                    href={`/wildlife/${species.habitat}/${species.slug}`}
-                                    className="font-avenir text-sm font-medium text-neutral-900 hover:text-neutral-600 hover:underline underline-offset-4 transition-colors inline-flex items-center gap-1"
-                                >
-                                    Details &gt;
-                                </Link>
+                {filteredSpecies.map((species) => {
+                    const speciesName = t(`wildlifeGallery.species.${species.slug}.name`) || species.name;
+                    const speciesLocalName = t(`wildlifeGallery.species.${species.slug}.localName`) || species.localName;
+                    
+                    return (
+                        <motion.div
+                            key={species.id}
+                            variants={cardVariants}
+                            className="group flex flex-col h-full"
+                        >
+                            {/* Image Card */}
+                            <div className="aspect-[4/5] relative overflow-hidden rounded-sm bg-neutral-100 mb-6">
+                                <Image
+                                    src={species.image}
+                                    alt={speciesName}
+                                    fill
+                                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                                />
                             </div>
-                        </div>
-                    </motion.div>
-                ))}
+
+                            {/* Text Info */}
+                            <div className="flex flex-col flex-grow text-center sm:text-left">
+                                <h3 className="font-canto text-2xl text-neutral-900 mb-1">
+                                    {speciesName}
+                                </h3>
+                                <p className="font-avenir text-sm text-neutral-500 italic mb-4">
+                                    {speciesLocalName}
+                                </p>
+
+                                {/* Details Button */}
+                                <div className="mt-auto pt-2">
+                                    <LocaleLink
+                                        href={`/wildlife/${species.habitat}/${species.slug}`}
+                                        className="font-avenir text-sm font-medium text-neutral-900 hover:text-neutral-600 hover:underline underline-offset-4 transition-colors inline-flex items-center gap-1"
+                                    >
+                                        {t("wildlifeGallery.details")} &gt;
+                                    </LocaleLink>
+                                </div>
+                            </div>
+                        </motion.div>
+                    );
+                })}
             </motion.div>
         </section>
     );

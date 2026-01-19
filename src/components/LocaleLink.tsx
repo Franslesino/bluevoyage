@@ -12,6 +12,7 @@ interface LocaleLinkProps extends Omit<LinkProps, "href"> {
     "aria-label"?: string;
     target?: string;
     rel?: string;
+    role?: string;
     onClick?: (e: React.MouseEvent<HTMLAnchorElement>) => void;
 }
 
@@ -31,18 +32,18 @@ interface LocaleLinkProps extends Omit<LinkProps, "href"> {
 const LocaleLink = forwardRef<HTMLAnchorElement, LocaleLinkProps>(
     function LocaleLink({ href, children, className, onClick, ...props }, ref) {
         const { locale } = useTranslation();
-        
+
         // Handle external links (http://, https://, mailto:, tel:, etc.)
         const isExternal = href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("tel:");
-        
+
         // Handle hash-only links (e.g., #section)
         const isHashOnly = href.startsWith("#");
-        
+
         // Handle hash links with path (e.g., /#section or /page#section)
         const hasHash = href.includes("#") && !isHashOnly;
-        
+
         let localizedHref = href;
-        
+
         if (!isExternal && !isHashOnly) {
             if (hasHash) {
                 // Split path and hash, localize path, then rejoin
@@ -52,7 +53,7 @@ const LocaleLink = forwardRef<HTMLAnchorElement, LocaleLinkProps>(
                 localizedHref = localizePath(href, locale);
             }
         }
-        
+
         return (
             <Link
                 href={localizedHref}
@@ -75,20 +76,20 @@ export default LocaleLink;
  */
 export function useLocalizedHref(href: string): string {
     const { locale } = useTranslation();
-    
+
     const isExternal = href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("tel:");
     const isHashOnly = href.startsWith("#");
-    
+
     if (isExternal || isHashOnly) {
         return href;
     }
-    
+
     const hasHash = href.includes("#");
-    
+
     if (hasHash) {
         const [path, hash] = href.split("#");
         return `${localizePath(path, locale)}#${hash}`;
     }
-    
+
     return localizePath(href, locale);
 }

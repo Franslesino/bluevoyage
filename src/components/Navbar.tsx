@@ -199,7 +199,12 @@ export default function Navbar() {
                             ${isHomePage && !isSolid ? "text-white" : "text-[#CB9275]"}
                         `}
                     >
-                        {t("nav.bookNow")} &gt;
+                        <span className="flex flex-col text-right leading-tight">
+                            {t("nav.bookNow").split(" ").map((word, index) => (
+                                <span key={index}>{word}</span>
+                            ))}
+                        </span>
+                        <span>&gt;</span>
                     </LocaleLink>
                 </div>
             </header>

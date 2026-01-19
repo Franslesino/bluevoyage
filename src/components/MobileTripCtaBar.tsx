@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
+import LocaleLink from "./LocaleLink";
+import { useTranslation } from "./I18nProvider";
 
 interface MobileTripCtaBarProps {
     targetId: string;
@@ -9,6 +10,7 @@ interface MobileTripCtaBarProps {
 
 export default function MobileTripCtaBar({ targetId }: MobileTripCtaBarProps) {
     const [isVisible, setIsVisible] = useState(false);
+    const { t } = useTranslation();
 
     useEffect(() => {
         const targetElement = document.getElementById(targetId);
@@ -49,8 +51,8 @@ export default function MobileTripCtaBar({ targetId }: MobileTripCtaBarProps) {
     return (
         <div
             className={`md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#F6F1EA] border-t border-neutral-200 px-4 py-3 shadow-[0_-4px_10px_rgba(0,0,0,0.03)] transition-all duration-300 ease-out will-change-transform ${isVisible
-                    ? "translate-y-0 opacity-100 pointer-events-auto"
-                    : "translate-y-full opacity-0 pointer-events-none"
+                ? "translate-y-0 opacity-100 pointer-events-auto"
+                : "translate-y-full opacity-0 pointer-events-none"
                 }`}
         >
             <div className="flex items-center justify-between gap-4">
@@ -60,18 +62,19 @@ export default function MobileTripCtaBar({ targetId }: MobileTripCtaBarProps) {
                         TogeanVoyages
                     </span>
                     <span className="font-avenir text-sm text-neutral-600 leading-none">
-                        Islands. Sea. Stillness.
+                        {t("cta.tagline")}
                     </span>
                 </div>
 
                 {/* CTA Button */}
-                <Link
+                <LocaleLink
                     href="/how-to-booking"
                     className="flex-shrink-0 bg-[#CB9275] text-white font-avenir text-sm font-medium px-5 py-2.5 rounded-xl active:bg-[#B97F63] transition-colors shadow-sm"
                 >
-                    Plan your trip
-                </Link>
+                    {t("cta.planYourTrip")}
+                </LocaleLink>
             </div>
         </div>
     );
 }
+

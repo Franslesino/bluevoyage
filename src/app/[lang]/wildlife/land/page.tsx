@@ -1,17 +1,20 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+import LocaleLink from "@/components/LocaleLink";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { wildlifeLandDetails } from "@/data/wildlifeLandDetails";
 import BackLink from "@/components/BackLink";
-import { SUPPORTED_LOCALES } from "@/lib/i18n";
+import { SUPPORTED_LOCALES, getDictionary, Locale } from "@/lib/i18n";
 
 export function generateStaticParams() {
     return SUPPORTED_LOCALES.map((lang) => ({ lang }));
 }
 
-export default function LandWildlifeListingPage() {
+export default async function LandWildlifeListingPage({ params }: { params: Promise<{ lang: string }> }) {
+    const { lang } = await params;
+    const t = getDictionary(lang as Locale);
+
     return (
         <div className="bg-white min-h-screen text-neutral-900 flex flex-col">
             <Navbar />
@@ -19,28 +22,28 @@ export default function LandWildlifeListingPage() {
             <main className="flex-grow pt-[calc(env(safe-area-inset-top)+24px)] md:pt-10 pb-24 px-6 md:px-12 w-full max-w-[1280px] mx-auto">
                 {/* Back Link */}
                 <div className="mb-8">
-                    <BackLink href="/wildlife#land" label="BACK TO WILDLIFE" />
+                    <BackLink href="/wildlife#land" label={t.common.backToWildlife} />
                 </div>
 
                 {/* Header */}
                 <div className="mb-16 border-b border-neutral-200 pb-8 flex flex-col md:flex-row md:items-end justify-between gap-4">
                     <div>
                         <h1 className="font-canto text-5xl md:text-6xl text-neutral-900 mb-2">
-                            Land Wildlife
+                            {t.wildlife.landPage.title}
                         </h1>
                         <p className="font-avenir text-lg text-neutral-500">
-                            Discover the unique species of the rainforests
+                            {t.wildlife.landPage.description}
                         </p>
                     </div>
                     <div className="font-avenir text-xl text-neutral-400">
-                        {wildlifeLandDetails.length} Species
+                        {wildlifeLandDetails.length} {t.common.species}
                     </div>
                 </div>
 
                 {/* Grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-12">
                     {wildlifeLandDetails.map((species) => (
-                        <Link
+                        <LocaleLink
                             key={species.slug}
                             href={`/wildlife/land/${species.slug}`}
                             className="group flex flex-col block"
@@ -66,10 +69,10 @@ export default function LandWildlifeListingPage() {
                                 </p>
 
                                 <span className="font-avenir text-sm font-medium text-neutral-900 mt-auto inline-flex items-center gap-1 opacity-100 transition-opacity">
-                                    Details &gt;
+                                    {t.common.details}
                                 </span>
                             </div>
-                        </Link>
+                        </LocaleLink>
                     ))}
                 </div>
             </main>

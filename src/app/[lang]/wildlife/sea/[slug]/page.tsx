@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import LocaleLink from "@/components/LocaleLink";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
@@ -157,18 +157,18 @@ export default async function SeaWildlifeDetailPage({ params }: { params: Promis
                 {/* DISCLAIMER / CTA */}
                 <div className="border-t border-neutral-200 mt-12 py-12 px-6">
                     <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 w-full max-w-xl mx-auto">
-                        <Link
+                        <LocaleLink
                             href="/wildlife/sea"
                             className="w-full md:w-auto text-center px-8 py-3 border border-[#CB9275] text-[#CB9275] font-avenir tracking-wider uppercase text-sm hover:bg-[#CB9275]/10 transition-colors rounded-sm"
                         >
                             Back to Sea Wildlife
-                        </Link>
-                        <Link
+                        </LocaleLink>
+                        <LocaleLink
                             href="/wildlife"
                             className="w-full md:w-auto text-center px-8 py-3 bg-[#CB9275] text-white font-avenir tracking-wider uppercase text-sm hover:bg-[#B67F63] transition-colors rounded-sm"
                         >
                             Back to Wildlife Gallery
-                        </Link>
+                        </LocaleLink>
                     </div>
                 </div>
             </main>
