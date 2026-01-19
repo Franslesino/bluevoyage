@@ -710,5 +710,836 @@
     "responsibleGuidelines": "Panduan Pertemuan yang Bertanggung Jawab",
     "gallery": "Galeri",
     "conservationStatus": "Status Konservasi"
+  },
+  "destinationContent": {
+    "pulau-puah": {
+      "tagline": "Pulau terpencil dengan ketenangan mutlak dan alam yang masih asli.",
+      "intro": "Pulau Puah adalah permata yang sebagian besar belum dikembangkan di tenggara Togean, dengan pantai pasir putih yang masih alami dan terumbu karang yang berkembang. Jauh dari keramaian, pulau ini menawarkan kesempatan langka untuk menikmati keheningan alam di pantai tropis yang masih murni.",
+      "whyItMatters": [
+        "Pelarian sejati yang jauh dari jalan biasa dengan pantai kosong ideal untuk berenang pribadi.",
+        "Dikelilingi oleh taman karang yang sehat, menjadikannya impian bagi penyelam untuk melihat penyu.",
+        "Menawarkan nuansa pulau pribadi yang eksklusif, sempurna untuk piknik tanpa ada orang lain."
+      ],
+      "experiences": [
+        {
+          "title": "Piknik Pantai Terpencil",
+          "text": "Nikmati piknik BBQ dengan makanan laut segar di atas pasir halus, hanya Anda, pohon palem, dan ombak lembut."
+        },
+        {
+          "title": "Snorkeling Terumbu Karang",
+          "text": "Berenang langsung dari pantai untuk menemukan formasi karang yang semarak dan kehidupan laut yang beragam di perairan yang sangat jernih."
+        },
+        {
+          "title": "Jalan-jalan di Hutan",
+          "text": "Lakukan perjalanan singkat ke pedalaman di bawah pohon kelapa menjulang untuk melihat ekosistem hutan hujan yang masih alami berkembang dalam keheningan."
+        },
+        {
+          "title": "Matahari Terbenam di Perahu",
+          "text": "Berlama-lama di lepas pantai untuk menyaksikan matahari terbenam melukis langit dengan warna oranye dan ungu yang menakjubkan di atas siluet pulau."
+        }
+      ],
+      "signatureMoment": "Menikmati piknik pantai terpencil di pasir putih halus, menyadari bahwa Anda memiliki seluruh pulau untuk diri sendiri.",
+      "routeFit": {
+        "idealTiming": "Singgah siang hari pada rute island-hopping.",
+        "suggestedDuration": "Setengah hari (makan siang atau berenang).",
+        "notes": [
+          "Hanya dapat dicapai dengan perahu pribadi atau tur; tidak ada feri publik.",
+          "Tidak ada toko atau fasilitas—bawa semua air dan persediaan.",
+          "Kunjungi saat laut tenang untuk pendaratan yang aman."
+        ]
+      },
+      "practicalNotes": [
+        "Jangan tinggalkan jejak untuk menjaga kondisi asli.",
+        "Snorkeling dengan teman dan hindari menginjak karang.",
+        "Kunjungan tergantung cuaca dan pasang surut; periksa dengan pemandu."
+      ]
+    },
+    "malenge": {
+      "tagline": "Surga hutan tropis bertemu budaya suku laut autentik.",
+      "intro": "Malenge adalah surga hutan lebat dan pantai alami, terhubung dengan desa suku laut Bajo melalui jembatan kayu.",
+      "whyItMatters": [
+        "Rumah komunitas suku laut tradisional.",
+        "Pantai menakjubkan dengan taman karang.",
+        "Hutan lebat dengan monyet Togean langka."
+      ],
+      "experiences": [
+        {
+          "title": "Jalan Jembatan Pulau Papan",
+          "text": "Berjalan melintasi jembatan kayu ikonik di atas air jernih."
+        },
+        {
+          "title": "Istirahat di Sera Beach",
+          "text": "Bersantai di pasir putih dengan snorkeling."
+        },
+        {
+          "title": "Trekking Hutan",
+          "text": "Mendaki untuk melihat monyet endemik Togean."
+        },
+        {
+          "title": "Homestay Budaya",
+          "text": "Rasakan kehidupan pulau dan keramahan lokal."
+        }
+      ],
+      "signatureMoment": "Berjalan di jembatan kayu menuju Pulau Papan di atas air biru.",
+      "routeFit": {
+        "idealTiming": "Pelarian pertengahan perjalanan di Togean timur.",
+        "suggestedDuration": "2-3 hari.",
+        "notes": [
+          "Terpencil tanpa ATM.",
+          "Listrik terbatas.",
+          "Periksa jadwal feri."
+        ]
+      },
+      "practicalNotes": [
+        "Berpakaian sopan di desa.",
+        "Akomodasi sederhana.",
+        "Kehidupan malam adalah melihat bintang."
+      ]
+    },
+    "waleakodi": {
+      "tagline": "Tempat persembunyian tropis terpencil untuk ketenangan maksimal.",
+      "intro": "Walea Kodi adalah tempat suci terisolasi dengan pantai pasir putih tenang dan terumbu dilindungi.",
+      "whyItMatters": [
+        "Tempat paling terisolasi untuk ketenangan.",
+        "Terumbu dilindungi yang masih asli.",
+        "Pemandangan pulau tak tersentuh."
+      ],
+      "experiences": [
+        {
+          "title": "Hari Pantai Robinson Crusoe",
+          "text": "Bersantai di pantai pribadi."
+        },
+        {
+          "title": "Snorkeling Taman Karang",
+          "text": "Jelajahi cagar laut."
+        },
+        {
+          "title": "Kunjungan Desa Dolong",
+          "text": "Temui penduduk di dusun nelayan."
+        },
+        {
+          "title": "Matahari Terbenam dan Bintang",
+          "text": "Lihat matahari terbenam dan Bima Sakti."
+        }
+      ],
+      "signatureMoment": "Memandang Bima Sakti dari pantai tenang dalam keheningan.",
+      "routeFit": {
+        "idealTiming": "Pelarian off-grid di akhir perjalanan.",
+        "suggestedDuration": "2 hari.",
+        "notes": [
+          "Feri jarang.",
+          "Tidak ada ATM.",
+          "Listrik generator."
+        ]
+      },
+      "practicalNotes": [
+        "Pesan akomodasi terlebih dahulu.",
+        "Perilaku ramah lingkungan.",
+        "Nikmati detoks digital."
+      ]
+    },
+    "una-una": {
+      "tagline": "Permata vulkanik dengan kehidupan laut spektakuler.",
+      "intro": "Una Una adalah pulau vulkanik dramatis di mana pasir hitam bertemu kehijauan.",
+      "whyItMatters": [
+        "Kesempatan langka mendaki kawah vulkanik aktif.",
+        "Penyelaman terbaik dengan terumbu sehat.",
+        "Pengalaman pulau mentah dan autentik."
+      ],
+      "experiences": [
+        {
+          "title": "Pendakian Gunung Colo",
+          "text": "Mendaki lereng gunung untuk pemandangan laut."
+        },
+        {
+          "title": "Diving atau Snorkeling",
+          "text": "Lihat kawanan ikan besar dan taman karang."
+        },
+        {
+          "title": "Menyisir Pantai Pasir Hitam",
+          "text": "Jelajahi pantai vulkanik unik."
+        },
+        {
+          "title": "Matahari Terbenam di Resort",
+          "text": "Bersantai di pantai saat matahari terbenam."
+        }
+      ],
+      "signatureMoment": "Berdiri di tepi Gunung Colo dengan lautan biru tanpa batas.",
+      "routeFit": {
+        "idealTiming": "Segmen petualangan khusus.",
+        "suggestedDuration": "2-4 hari.",
+        "notes": [
+          "Akses feri jarang.",
+          "Tidak ada ATM.",
+          "Listrik generator."
+        ]
+      },
+      "practicalNotes": [
+        "Pesan resort diving terlebih dahulu.",
+        "Bawa asuransi perjalanan.",
+        "Gunakan rashguard saat snorkeling."
+      ]
+    },
+    "kadidiri": {
+      "tagline": "Pusat perjalanan yang semarak dengan pasir putih sempurna.",
+      "intro": "Kadidiri adalah pusat perjalanan Togeans yang disukai dengan pantai pasir halus.",
+      "whyItMatters": [
+        "Basis ramah turis dengan suasana sosial.",
+        "Terumbu karang kaya tepat di lepas pantai.",
+        "Pemandangan tropis seperti dongeng."
+      ],
+      "experiences": [
+        {
+          "title": "Snorkeling Terumbu Rumah",
+          "text": "Masuk ke air jernih dengan taman karang."
+        },
+        {
+          "title": "Penyelaman Bomber WWII",
+          "text": "Selam ke bangkai kapal B-24."
+        },
+        {
+          "title": "Kayaking Hopping Pulau",
+          "text": "Dayung ke teluk tersembunyi."
+        },
+        {
+          "title": "Berkumpul Matahari Terbenam di Dermaga",
+          "text": "Lihat langit menyala saat matahari terbenam."
+        }
+      ],
+      "signatureMoment": "Melihat matahari terbenam dari dermaga saat bintang muncul.",
+      "routeFit": {
+        "idealTiming": "Pemberhentian pertama untuk menyesuaikan waktu pulau.",
+        "suggestedDuration": "2-4 hari.",
+        "notes": [
+          "30 menit perahu dari Wakai.",
+          "Ekonomi tunai.",
+          "Listrik dan internet terbatas."
+        ]
+      },
+      "practicalNotes": [
+        "Pesan di musim ramai.",
+        "Makan bersama untuk bertemu pelancong.",
+        "Amankan makanan dari satwa liar."
+      ]
+    },
+    "bomba": {
+      "tagline": "Retret selatan yang tenang dengan mangrove dan matahari terbenam.",
+      "intro": "Bomba adalah desa pantai damai di ujung selatan Pulau Batudaka.",
+      "whyItMatters": [
+        "Gerbang selatan penting dari Ampana.",
+        "Pemandangan menakjubkan.",
+        "Hotspot untuk diving dan snorkeling."
+      ],
+      "experiences": [
+        {
+          "title": "Pelarian Pulau Poya Lisa",
+          "text": "Habiskan satu hari di pulau kecil pribadi ini."
+        },
+        {
+          "title": "Snorkeling di Atol",
+          "text": "Tur ke atol dangkal untuk kerang neon."
+        },
+        {
+          "title": "Trip Pasir Matahari Terbenam",
+          "text": "Matahari terbenam 360 derajat dari gundukan pasir."
+        },
+        {
+          "title": "Jalan-jalan Desa",
+          "text": "Lihat penduduk ramah."
+        }
+      ],
+      "signatureMoment": "Berdiri di gundukan pasir sementara saat matahari terbenam.",
+      "routeFit": {
+        "idealTiming": "Titik transit atau tempat bersantai.",
+        "suggestedDuration": "1-2 hari.",
+        "notes": [
+          "Akses dari Ampana.",
+          "Tidak ada ATM.",
+          "Listrik malam saja."
+        ]
+      },
+      "practicalNotes": [
+        "Pesan homestay terlebih dahulu.",
+        "Koordinasikan jadwal diving.",
+        "Berpakaian sopan di desa."
+      ]
+    },
+    "luwuk": {
+      "tagline": "Gerbang pantai indah menuju petualangan pulau Anda.",
+      "intro": "Luwuk adalah kota pantai yang menyenangkan dan hub logistik utama untuk Togeans.",
+      "whyItMatters": [
+        "Bandara terdekat dan titik pemberangkatan.",
+        "Pemandangan pantai yang indah.",
+        "Fasilitas modern seperti ATM."
+      ],
+      "experiences": [
+        {
+          "title": "Panorama Jalan Pantai",
+          "text": "Berkendara ke Titik Pandang Kilo Lima."
+        },
+        {
+          "title": "Pantai Kilo Lima",
+          "text": "Bersantai di pantai lokal populer."
+        },
+        {
+          "title": "Kunjungan Pasar Tradisional",
+          "text": "Lihat buah eksotis dan makanan laut segar."
+        },
+        {
+          "title": "Wisata Air Terjun",
+          "text": "Berenang di Air Terjun Salodik."
+        }
+      ],
+      "signatureMoment": "Melihat dari Titik Pandang Kilo Lima saat matahari terbit.",
+      "routeFit": {
+        "idealTiming": "Singgah transit sebelum atau sesudah pulau.",
+        "suggestedDuration": "1 hari.",
+        "notes": [
+          "Ambil uang tunai di sini.",
+          "Penerbangan harian tersedia.",
+          "Siapkan waktu untuk lalu lintas."
+        ]
+      },
+      "practicalNotes": [
+        "Coba spesialitas Sulawesi lokal.",
+        "Gunakan sinyal untuk mengunduh peta.",
+        "Belanja menit terakhir untuk perlengkapan."
+      ]
+    }
+  },
+  "wildlifeSeaContent": {
+    "green-sea-turtle": {
+      "intro": "Penyu laut besar dan lembut yang sering terlihat berselancar di terumbu karang dan merumput di padang lamun. Dewasa kebanyakan herbivora dan menghabiskan waktu lama mencari makan di perairan pantai dangkal sebelum muncul dengan tenang untuk bernapas.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Padang lamun, laguna, terumbu karang dangkal"
+        },
+        {
+          "label": "Makanan",
+          "value": "Lamun dan alga (sebagian besar herbivora)"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Hingga 1,5 meter"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Pemakan tenang; muncul untuk bernapas; beristirahat di bawah tepi"
+        }
+      ],
+      "whereToSee": "Paling mungkin di daerah tenang dan dangkal sekitar Kadidiri dan laguna terlindung di seluruh Togean, terutama di mana lamun hadir.",
+      "howToSpot": "Amati tepi lamun dan dataran terumbu untuk cangkang oval gelap. Perhatikan kepala yang muncul sebentar untuk bernapas, lalu meluncur turun kembali.",
+      "responsibleGuidelines": [
+        "Jaga jarak 3-5 m; jangan pernah mengejar atau menghalangi jalannya.",
+        "Jangan menyentuh, menunggangi, atau mencoba selfie.",
+        "Pertahankan daya apung netral; jangan berdiri di atas karang/lamun.",
+        "Tanpa flash; hindari percikan keras.",
+        "Jika berubah arah, Anda terlalu dekat—mundurlah."
+      ],
+      "conservationStatus": "IUCN: Risiko Rendah (update 2025); masih dilindungi, rentan secara lokal terhadap tangkapan sampingan, kehilangan habitat, dan polusi."
+    },
+    "hawksbill-turtle": {
+      "intro": "Penyu lebih kecil yang menyukai terumbu dengan paruh runcing seperti elang.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Terumbu karang, terumbu berbatu, laguna"
+        },
+        {
+          "label": "Makanan",
+          "value": "Spons laut dan invertebrata terumbu"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Hingga 1,0 meter"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Pemalu; sering soliter"
+        }
+      ],
+      "whereToSee": "Di situs snorkeling dan diving kaya karang, sepanjang dinding terumbu dan celah.",
+      "howToSpot": "Cari struktur terumbu kompleks untuk paruh sempit dan cangkang bermotif.",
+      "responsibleGuidelines": [
+        "Beri ruang; penyu sisik mudah kaget.",
+        "Jangan pernah mengurung di lorong sempit.",
+        "Jangan menyentuh.",
+        "Jaga sirip tetap di atas.",
+        "Jangan gunakan flash."
+      ],
+      "conservationStatus": "IUCN: Sangat Terancam Punah; terancam oleh perdagangan cangkang ilegal."
+    },
+    "napoleon-wrasse": {
+      "intro": "Ikan terumbu besar dan karismatik dengan bibir tebal dan benjolan dahi.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Lereng terumbu luar, saluran, laguna"
+        },
+        {
+          "label": "Makanan",
+          "value": "Invertebrata bercangkang keras, ikan"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Hingga 2 meter"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Biasanya soliter; penasaran"
+        }
+      ],
+      "whereToSee": "Kesempatan terbaik di terumbu karang sehat dan drop-off.",
+      "howToSpot": "Cari siluet sangat besar dengan bibir tebal dan kepala tumpul.",
+      "responsibleGuidelines": [
+        "Jaga jarak.",
+        "Jangan pernah memberi makan.",
+        "Hindari turunan cepat.",
+        "Kontrol daya apung.",
+        "Pilih operator bertanggung jawab."
+      ],
+      "conservationStatus": "IUCN: Terancam Punah; terdaftar di CITES Lampiran II."
+    },
+    "dugong": {
+      "intro": "Mamalia laut langka dan lembut yang merumput lamun di teluk dangkal.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Padang lamun dangkal di teluk terlindung"
+        },
+        {
+          "label": "Makanan",
+          "value": "Lamun (herbivora pemakan rumput)"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Hingga 3 meter"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Pemalu; pemakan lambat; muncul tenang untuk bernapas"
+        }
+      ],
+      "whereToSee": "Di area lamun tenang dan dangkal; pengamatan jarang.",
+      "howToSpot": "Cari jejak merumput berlumpur dan bentuk abu-abu. Perhatikan lubang hidung di permukaan.",
+      "responsibleGuidelines": [
+        "Jaga jarak sangat besar; jangan pernah mengejar.",
+        "Tidak ada perahu motor di atas lamun dengan kecepatan.",
+        "Jika menyelam, Anda terlalu dekat.",
+        "Perilaku tenang.",
+        "Jangan pisahkan ibu dan anak."
+      ],
+      "conservationStatus": "IUCN: Rentan; terancam oleh kehilangan lamun dan jerat jaring."
+    },
+    "giant-clam": {
+      "intro": "Kerang terumbu spektakuler yang bisa sangat besar dan berwarna cerah.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Terumbu karang dangkal dan dataran terumbu"
+        },
+        {
+          "label": "Makanan",
+          "value": "Penyaring plus alga simbiosis"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Hingga 1,2 meter"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Sessil; mantel terbuka di bawah sinar matahari"
+        }
+      ],
+      "whereToSee": "Di taman karang jernih dangkal, pindai dataran untuk cangkang besar dengan mantel cerah.",
+      "howToSpot": "Cari cangkang tebal beralur dengan mantel bergelombang cerah. Dekati perlahan.",
+      "responsibleGuidelines": [
+        "Jangan pernah menyentuh mantel.",
+        "Jangan berdiri di terumbu untuk foto.",
+        "Tidak ada koleksi suvenir.",
+        "Jangan aduk sedimen.",
+        "Kontrol daya apung."
+      ],
+      "conservationStatus": "Beberapa spesies Sangat Terancam karena eksploitasi berlebihan."
+    },
+    "seahorse": {
+      "intro": "Ikan kecil tersamar yang menempel di rumput dan spons dengan ekor prehensil.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Lamun, mangrove, karang, spons"
+        },
+        {
+          "label": "Makanan",
+          "value": "Krustasea kecil dan plankton"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Biasanya hingga 15 cm"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Lambat; bersembunyi; pemburu mengintai"
+        }
+      ],
+      "whereToSee": "Di area dangkal terlindung dengan patch lamun dan tepi spons.",
+      "howToSpot": "Perlambat dan cari benjolan tidak biasa. Perhatikan gerakan mata kecil.",
+      "responsibleGuidelines": [
+        "Jangan menyentuh; kuda laut mudah stres.",
+        "Kontrol sirip.",
+        "Tidak ada flash dari dekat.",
+        "Jangan pindahkan vegetasi.",
+        "Batasi waktu pengamatan."
+      ],
+      "conservationStatus": "Semua kuda laut CITES Lampiran II; tertekan oleh kehilangan habitat."
+    },
+    "stingless-jellyfish": {
+      "intro": "Di danau laut terlindung, ubur-ubur Mastigias bisa melimpah dan tidak berbahaya bagi perenang.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Danau laut terisolasi dan laguna tertutup"
+        },
+        {
+          "label": "Makanan",
+          "value": "Plankton plus alga simbiosis"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Biasanya diameter lonceng 8-10 cm"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Pengembara lambat; berkumpul di air terang"
+        }
+      ],
+      "whereToSee": "Di Danau Mariona (Danau Ubur-Ubur) di mana perenang bisa mengapung di antara ubur-ubur lembut.",
+      "howToSpot": "Anda akan melihat titik-titik amber lembut berdenyut tepat di bawah permukaan.",
+      "responsibleGuidelines": [
+        "Jangan menyentuh ubur-ubur.",
+        "Tanpa sirip (bisa melukai mereka); mengapung lembut.",
+        "Hindari minyak tabir surya di danau.",
+        "Tidak ada sabun sebelum berenang.",
+        "Tetap tenang; hormati aturan lokal."
+      ],
+      "conservationStatus": "Sangat sensitif terhadap polusi dan perubahan suhu."
+    }
+  },
+  "wildlifeLandContent": {
+    "togian-monkey": {
+      "intro": "Monyet makak gelap dan kekar dengan ekor pendek dan jambul pipi pucat dari Kepulauan Togean.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Hutan dataran rendah pulau, pinggir hutan"
+        },
+        {
+          "label": "Makanan",
+          "value": "Buah, daun, biji, serangga"
+        },
+        {
+          "label": "Ukuran",
+          "value": "50-68 cm; 8-12 kg"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Kelompok sosial; vokal; berani dekat pohon berbuah"
+        }
+      ],
+      "whereToSee": "Kesempatan terbaik saat jalan kaki di hutan Malenge; pagi dan sore hari.",
+      "howToSpot": "Dengarkan gemeresik dahan dan panggilan kontak; amati kanopi tengah dekat pohon berbuah.",
+      "responsibleGuidelines": [
+        "Jaga jarak 10+ meter.",
+        "Jangan pernah memberi makan.",
+        "Bergerak perlahan.",
+        "Jangan blokir jalan.",
+        "Bawa pulang semua sampah."
+      ],
+      "conservationNotes": "Rentan; kehilangan habitat adalah ancaman utama."
+    },
+    "togean-tarsier": {
+      "intro": "Primata nokturnal kecil endemik Kepulauan Togean, terkenal dengan mata besar dan lompatan kuat.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Hutan dataran rendah, semak belukar, kebun"
+        },
+        {
+          "label": "Makanan",
+          "value": "Serangga, laba-laba, vertebrata kecil"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Tubuh 10-15 cm (sangat kecil)"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Nokturnal; pelompat lincah; bersuara saat senja"
+        }
+      ],
+      "whereToSee": "Jalan malam di pinggir hutan dan kebun campuran; tidak ada di Una-Una.",
+      "howToSpot": "Gunakan cahaya merah redup; cari pantulan mata rendah di semak bawah.",
+      "responsibleGuidelines": [
+        "Hanya cahaya merah; tanpa flash.",
+        "Suara pelan; tanpa playback.",
+        "Batasi waktu pengamatan.",
+        "Jangan dekati tempat istirahat di siang hari.",
+        "Tetap di jalan."
+      ],
+      "conservationNotes": "Terancam Punah; sangat sensitif terhadap gangguan hutan."
+    },
+    "togian-babirusa": {
+      "intro": "Mamalia langka mirip babi dengan taring melengkung ke atas yang luar biasa, endemik Togean.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Hutan dataran rendah, area sungai, pinggiran"
+        },
+        {
+          "label": "Makanan",
+          "value": "Akar, buah jatuh, cacing, invertebrata"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Babirusa terbesar; seukuran babi hutan"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Pemalu; kebanyakan krepuskular"
+        }
+      ],
+      "whereToSee": "Hanya di Kepulauan Togean; catatan di Malenge, Batudaka, Togean.",
+      "howToSpot": "Cari jejak dan tanda penggalian; duduk tenang saat fajar/senja paling efektif.",
+      "responsibleGuidelines": [
+        "Jaga jarak 20+ meter.",
+        "Jangan pernah mengurung di jalan sempit.",
+        "Tanpa umpan.",
+        "Hormati aturan komunitas.",
+        "Gunakan pemandu lokal."
+      ],
+      "conservationNotes": "Terancam Punah; dilindungi; terancam oleh perburuan dan kehilangan habitat."
+    },
+    "knobbed-hornbill": {
+      "intro": "Rangkong besar endemik Sulawesi dengan helm yang tidak salah lagi dan kepakan sayap keras.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Kanopi hutan dataran rendah dan bukit"
+        },
+        {
+          "label": "Makanan",
+          "value": "Kebanyakan buah (ara), beberapa serangga"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Sekitar 70-80 cm panjang"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Pencari kanopi; jangkauan luas; terbang berisik"
+        }
+      ],
+      "whereToSee": "Di sekitar hutan daratan Sulawesi (wilayah Luwuk/Banggai) dengan pohon tinggi.",
+      "howToSpot": "Amati puncak pohon saat matahari terbit; dengarkan panggilan dalam dan kepakan sayap berat.",
+      "responsibleGuidelines": [
+        "Tetap di jalan.",
+        "Jaga jarak dari rongga sarang.",
+        "Tanpa drone.",
+        "Hindari panggilan playback.",
+        "Dukung pemandu konservasi lokal."
+      ],
+      "conservationNotes": "Rentan; kehilangan hutan adalah penyebab utama penurunan."
+    },
+    "togian-water-monitor": {
+      "intro": "Kadal biawak endemik Kepulauan Togean, sering di hutan dan mangrove.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Hutan dan mangrove"
+        },
+        {
+          "label": "Makanan",
+          "value": "Invertebrata, serangga, arakhnida, telur"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Biasanya di bawah 1,5 m panjang total"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Diurnal; waspada; berjemur lalu menyelam untuk melarikan diri"
+        }
+      ],
+      "whereToSee": "Sungai mangrove, pantai berlumpur, pinggir hutan di pulau-pulau besar.",
+      "howToSpot": "Jalan perlahan dekat mangrove saat air surut; amati batang kayu yang terkena sinar matahari.",
+      "responsibleGuidelines": [
+        "Jaga jarak; biawak bisa menggigit.",
+        "Jangan pernah memegang atau mengurung.",
+        "Jangan blokir rute pelarian.",
+        "Hindari area bersarang.",
+        "Jangan memberi makan."
+      ],
+      "conservationNotes": "Risiko Rendah; jangkauan kecil tapi tidak ada ancaman besar terdokumentasi."
+    },
+    "coconut-crab": {
+      "intro": "Artropoda darat terbesar di dunia, aktif terutama di malam hari di hutan pantai.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Hutan pantai; liang dekat pantai"
+        },
+        {
+          "label": "Makanan",
+          "value": "Buah, kacang, biji, bangkai"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Hingga 1 m rentang kaki"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Nokturnal; menggali; berhati-hati"
+        }
+      ],
+      "whereToSee": "Pulau terpencil dengan hutan pantai; malam hari dekat pohon buah.",
+      "howToSpot": "Jalan malam dengan cahaya merah; amati tanah dekat akar dan pintu masuk liang.",
+      "responsibleGuidelines": [
+        "Jangan menyentuh - capit bisa menghancurkan.",
+        "Tanpa memberi makan atau mengumpan.",
+        "Jaga cahaya rendah.",
+        "Jangan blokir pintu masuk liang.",
+        "Jangan pernah mengumpulkan."
+      ],
+      "conservationNotes": "Rentan; terancam oleh pemanenan dan kehilangan habitat."
+    },
+    "burung-maleo": {
+      "intro": "Megapoda Sulawesi yang luar biasa yang mengerami telur di pasir hangat atau tanah geotermal.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Hutan dataran rendah/bukit; tempat bersarang berpasir"
+        },
+        {
+          "label": "Makanan",
+          "value": "Buah, biji, invertebrata"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Sekitar 55-60 cm panjang"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Tinggal di tanah; bersarang komunal; waspada"
+        }
+      ],
+      "whereToSee": "Daratan Sulawesi di tempat bersarang yang dilindungi - diperlukan eksekusi khusus.",
+      "howToSpot": "Di situs resmi, amati dengan tenang pasangan yang datang dan menggali.",
+      "responsibleGuidelines": [
+        "Kunjungi hanya situs resmi.",
+        "Jangan pernah mendekati sarang aktif.",
+        "Tanpa flash atau drone.",
+        "Jaga kelompok kecil dan tenang.",
+        "Jangan membeli telur."
+      ],
+      "conservationNotes": "Sangat Terancam Punah; tertekan oleh pemanenan telur dan kehilangan habitat."
+    },
+    "togian-boobook": {
+      "intro": "Burung hantu kecil endemik Kepulauan Togean, memanggil setelah senja untuk berburu serangga.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Hutan dataran rendah/bukit; hutan terdegradasi; kebun"
+        },
+        {
+          "label": "Makanan",
+          "value": "Serangga dan vertebrata kecil"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Burung hantu kecil sekitar 25-30 cm"
+        },
+        {
+          "label": "Perilaku",
+          "value": "Nokturnal; pemburu bertengger; merespons dengan panggilan khas"
+        }
+      ],
+      "whereToSee": "Jalan sore dekat pinggir hutan dan kebun campuran di pulau Togean.",
+      "howToSpot": "Sering berhenti dan dengarkan panggilan burung hantu berirama. Amati cabang dengan cahaya merah redup.",
+      "responsibleGuidelines": [
+        "Hanya cahaya merah; tanpa flash.",
+        "Tanpa panggilan playback dekat tempat istirahat.",
+        "Jaga jarak.",
+        "Tetap di jalan.",
+        "Batasi waktu pengamatan."
+      ],
+      "conservationNotes": "Hampir Terancam; endemik dengan jangkauan terbatas, sensitif terhadap kehilangan hutan."
+    }
+  },
+  "wildlifeNames": {
+    "sea": {
+      "green-sea-turtle": {
+        "name": "Penyu Hijau",
+        "localName": "Green Sea Turtle"
+      },
+      "hawksbill-turtle": {
+        "name": "Penyu Sisik",
+        "localName": "Hawksbill Turtle"
+      },
+      "napoleon-wrasse": {
+        "name": "Ikan Napoleon",
+        "localName": "Napoleon Wrasse"
+      },
+      "dugong": {
+        "name": "Duyung",
+        "localName": "Dugong"
+      },
+      "giant-clam": {
+        "name": "Kima Raksasa",
+        "localName": "Giant Clam"
+      },
+      "seahorse": {
+        "name": "Kuda Laut",
+        "localName": "Seahorse"
+      },
+      "stingless-jellyfish": {
+        "name": "Ubur-ubur Tidak Menyengat",
+        "localName": "Stingless Jellyfish"
+      }
+    },
+    "land": {
+      "togian-monkey": {
+        "name": "Monyet Togean",
+        "localName": "Togean Macaque"
+      },
+      "togean-tarsier": {
+        "name": "Tarsius Togean",
+        "localName": "Togean Tarsier"
+      },
+      "togian-babirusa": {
+        "name": "Babirusa Togean",
+        "localName": "Togean Babirusa"
+      },
+      "knobbed-hornbill": {
+        "name": "Julang Sulawesi",
+        "localName": "Knobbed Hornbill"
+      },
+      "togian-water-monitor": {
+        "name": "Biawak Air Togean",
+        "localName": "Togean Water Monitor"
+      },
+      "coconut-crab": {
+        "name": "Kepiting Kelapa",
+        "localName": "Coconut Crab"
+      },
+      "burung-maleo": {
+        "name": "Burung Maleo",
+        "localName": "Maleo"
+      },
+      "togian-boobook": {
+        "name": "Burung Hantu Togean",
+        "localName": "Togean Boobook"
+      }
+    }
   }
 }

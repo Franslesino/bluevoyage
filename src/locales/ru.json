@@ -707,5 +707,821 @@
     "responsibleGuidelines": "Правила ответственных встреч",
     "gallery": "Галерея",
     "conservationStatus": "Охранный статус"
+  },
+  "destinationContent": {
+    "pulau-puah": {
+      "tagline": "Уединенный остров абсолютного спокойствия и нетронутой природы.",
+      "intro": "Пулау Пуах — неразработанная жемчужина с нетронутыми белыми песчаными пляжами и процветающими коралловыми рифами.",
+      "whyItMatters": [
+        "Настоящий уединенный побег с пустынными пляжами.",
+        "Окружен здоровыми коралловыми садами.",
+        "Предлагает атмосферу частного острова."
+      ],
+      "experiences": [
+        {
+          "title": "Пикник на безлюдном пляже",
+          "text": "Насладитесь барбекю из свежих морепродуктов на песке."
+        },
+        {
+          "title": "Снорклинг на коралловом рифе",
+          "text": "Плавайте с пляжа, чтобы увидеть яркие кораллы."
+        },
+        {
+          "title": "Прогулка по джунглям",
+          "text": "Прогуляйтесь под кокосовыми пальмами."
+        },
+        {
+          "title": "Закат на лодке",
+          "text": "Наблюдайте за закатом, раскрашивающим небо."
+        }
+      ],
+      "signatureMoment": "Наслаждаться пикником на пустынном пляже, осознавая, что весь остров принадлежит только вам.",
+      "routeFit": {
+        "idealTiming": "Остановка в полдень на маршруте между островами.",
+        "suggestedDuration": "Полдня.",
+        "notes": [
+          "Доступен только на частной лодке.",
+          "Нет магазинов; возьмите припасы.",
+          "Посещайте при спокойном море."
+        ]
+      },
+      "practicalNotes": [
+        "Не оставляйте следов.",
+        "Занимайтесь снорклингом с напарником.",
+        "Зависит от погоды и приливов."
+      ]
+    },
+    "malenge": {
+      "tagline": "Рай тропических джунглей встречается с аутентичной культурой морских кочевников.",
+      "intro": "Маленге — убежище густых джунглей и нетронутых пляжей, связанное с завораживающей деревней морских кочевников Баджо длинным деревянным мостом.",
+      "whyItMatters": [
+        "Дом традиционного сообщества морских кочевников.",
+        "Предлагает потрясающие пляжи с коралловыми садами.",
+        "Пышные леса укрывают редких макак Тогеан."
+      ],
+      "experiences": [
+        {
+          "title": "Прогулка по мосту Пулау Папан",
+          "text": "Пересеките знаменитый деревянный мост длиной 1.8 км."
+        },
+        {
+          "title": "Отдых на пляже Сера",
+          "text": "Отдохните на одном из лучших пляжей архипелага."
+        },
+        {
+          "title": "Треккинг в джунглях",
+          "text": "Прогулка для осмотра эндемичных макак Тогеан."
+        },
+        {
+          "title": "Культурное проживание",
+          "text": "Испытайте ежедневную жизнь острова."
+        }
+      ],
+      "signatureMoment": "Прогулка по деревянному мосту к Пулау Папан над бирюзовыми водами.",
+      "routeFit": {
+        "idealTiming": "Побег в середине путешествия в восточном Тогеане.",
+        "suggestedDuration": "2-3 дня.",
+        "notes": [
+          "Удаленно без банкоматов.",
+          "Ограниченное электричество.",
+          "Проверьте расписание паромов."
+        ]
+      },
+      "practicalNotes": [
+        "Одевайтесь скромно в деревнях.",
+        "Базовое размещение.",
+        "Ночная жизнь — это наблюдение за звездами."
+      ]
+    },
+    "waleakodi": {
+      "tagline": "Удаленное тропическое убежище для максимального уединения.",
+      "intro": "Валеа Коди — изолированное святилище с тихими пляжами белого песка и охраняемыми рифами.",
+      "whyItMatters": [
+        "Одно из самых изолированных мест.",
+        "Нетронутые охраняемые рифы.",
+        "Нетронутый островной пейзаж."
+      ],
+      "experiences": [
+        {
+          "title": "Пляжный день Робинзона Крузо",
+          "text": "Отдохните на частном пляже."
+        },
+        {
+          "title": "Снорклинг в коралловом саду",
+          "text": "Исследуйте морской заповедник."
+        },
+        {
+          "title": "Посещение деревни Долонг",
+          "text": "Познакомьтесь с местными жителями в рыбацкой деревне."
+        },
+        {
+          "title": "Закат и звезды",
+          "text": "Наблюдайте за закатом и Млечным Путем."
+        }
+      ],
+      "signatureMoment": "Созерцание Млечного Пути с тихого пляжа в полной тишине.",
+      "routeFit": {
+        "idealTiming": "Побег без связи в конце маршрута.",
+        "suggestedDuration": "2 дня.",
+        "notes": [
+          "Редкие паромы.",
+          "Нет банкомата.",
+          "Электричество от генератора."
+        ]
+      },
+      "practicalNotes": [
+        "Бронируйте жилье заранее.",
+        "Экологичное поведение.",
+        "Примите цифровой детокс."
+      ]
+    },
+    "una-una": {
+      "tagline": "Вулканическая жемчужина со впечатляющей морской жизнью.",
+      "intro": "Уна Уна — драматический вулканический остров, где черные пески встречаются с пышной зеленью.",
+      "whyItMatters": [
+        "Редкая возможность подняться на активный вулканический кратер.",
+        "Лучший дайвинг с здоровыми рифами.",
+        "Аутентичный островной опыт."
+      ],
+      "experiences": [
+        {
+          "title": "Восхождение на вулкан Коло",
+          "text": "Поднимитесь на вулкан для видов на океан."
+        },
+        {
+          "title": "Дайвинг или снорклинг",
+          "text": "Увидьте огромные косяки рыб и коралловые сады."
+        },
+        {
+          "title": "Исследование черных пляжей",
+          "text": "Исследуйте уникальные вулканические пляжи."
+        },
+        {
+          "title": "Закат в курорте",
+          "text": "Отдохните на пляже на закате."
+        }
+      ],
+      "signatureMoment": "Стоять на краю Горы Коло с бесконечным синим океаном.",
+      "routeFit": {
+        "idealTiming": "Выделенный сегмент приключений.",
+        "suggestedDuration": "2-4 дня.",
+        "notes": [
+          "Редкий паромный доступ.",
+          "Нет банкомата.",
+          "Электричество от генератора."
+        ]
+      },
+      "practicalNotes": [
+        "Бронируйте дайв-курорты заранее.",
+        "Возьмите страховку.",
+        "Используйте рашгард для снорклинга."
+      ]
+    },
+    "kadidiri": {
+      "tagline": "Оживленный центр путешествий с идеальными белыми песками.",
+      "intro": "Кадидири — любимый центр путешествий Тогеанов с мягкими песчаными пляжами.",
+      "whyItMatters": [
+        "Дружелюбная база для туристов.",
+        "Богатые коралловые рифы у берега.",
+        "Сказочный тропический пейзаж."
+      ],
+      "experiences": [
+        {
+          "title": "Снорклинг на домашнем рифе",
+          "text": "Войдите в прозрачную воду с коралловыми садами."
+        },
+        {
+          "title": "Дайвинг к бомбардировщику WWII",
+          "text": "Погрузитесь к обломкам B-24."
+        },
+        {
+          "title": "Каякинг между островами",
+          "text": "Гребите к скрытым бухтам."
+        },
+        {
+          "title": "Встреча заката на пирсе",
+          "text": "Смотрите, как загорается небо."
+        }
+      ],
+      "signatureMoment": "Наблюдать закат с пирса, когда появляются звезды.",
+      "routeFit": {
+        "idealTiming": "Первая остановка.",
+        "suggestedDuration": "2-4 дня.",
+        "notes": [
+          "30 мин на лодке от Вакаи.",
+          "Наличная экономика.",
+          "Ограниченное электричество."
+        ]
+      },
+      "practicalNotes": [
+        "Бронируйте в высокий сезон.",
+        "Общие обеды для знакомства с путешественниками.",
+        "Защитите еду от диких животных."
+      ]
+    },
+    "bomba": {
+      "tagline": "Тихое убежище на юге с мангровыми зарослями и закатами.",
+      "intro": "Бомба — спокойная прибрежная деревня на южной оконечности острова Батудака.",
+      "whyItMatters": [
+        "Важные южные ворота из Ампаны.",
+        "Потрясающие пейзажи.",
+        "Горячая точка для дайвинга и снорклинга."
+      ],
+      "experiences": [
+        {
+          "title": "Побег на остров Пойя Лиса",
+          "text": "Проведите день на этом маленьком частном островке."
+        },
+        {
+          "title": "Снорклинг на атоллах",
+          "text": "Тур к мелководным атоллам для неоновых моллюсков."
+        },
+        {
+          "title": "Поездка на песчаную отмель на закате",
+          "text": "Закат 360 градусов с песчаной отмели."
+        },
+        {
+          "title": "Прогулка по деревне",
+          "text": "Увидьте дружелюбных местных."
+        }
+      ],
+      "signatureMoment": "Стоять на временной песчаной отмели на закате.",
+      "routeFit": {
+        "idealTiming": "Транзитная точка.",
+        "suggestedDuration": "1-2 дня.",
+        "notes": [
+          "Доступ из Ампаны.",
+          "Нет банкоматов.",
+          "Электричество только ночью."
+        ]
+      },
+      "practicalNotes": [
+        "Бронируйте гостевые дома заранее.",
+        "Координируйте расписание дайвинга.",
+        "Одевайтесь скромно в деревне."
+      ]
+    },
+    "luwuk": {
+      "tagline": "Живописные прибрежные ворота к вашему островному приключению.",
+      "intro": "Лувук — приятный прибрежный город и главный логистический центр для Тогеанов.",
+      "whyItMatters": [
+        "Ближайший аэропорт.",
+        "Красивый прибрежный пейзаж.",
+        "Современные удобства, такие как банкоматы."
+      ],
+      "experiences": [
+        {
+          "title": "Панорама прибрежной дороги",
+          "text": "Доехать до смотровой площадки Кило Лима."
+        },
+        {
+          "title": "Пляж Кило Лима",
+          "text": "Отдохните на популярном местном пляже."
+        },
+        {
+          "title": "Посещение традиционного рынка",
+          "text": "Увидьте экзотические фрукты и свежие морепродукты."
+        },
+        {
+          "title": "Экскурсия к водопаду",
+          "text": "Искупайтесь в водопаде Салодик."
+        }
+      ],
+      "signatureMoment": "Смотреть со смотровой площадки Кило Лима на рассвете.",
+      "routeFit": {
+        "idealTiming": "Транзитное пребывание.",
+        "suggestedDuration": "1 день.",
+        "notes": [
+          "Снимите наличные здесь.",
+          "Ежедневные рейсы.",
+          "Запланируйте время на трафик."
+        ]
+      },
+      "practicalNotes": [
+        "Попробуйте местные деликатесы Сулавеси.",
+        "Используйте сигнал для загрузки карт.",
+        "Покупки в последнюю минуту."
+      ]
+    }
+  },
+  "wildlifeSeaContent": {
+    "green-sea-turtle": {
+      "intro": "Крупная нежная морская черепаха, часто встречающаяся на рифах и пастбищах морской травы.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Луга морской травы, лагуны, коралловые рифы"
+        },
+        {
+          "label": "Питание",
+          "value": "Морская трава и водоросли"
+        },
+        {
+          "label": "Размер",
+          "value": "До 1.5 метров"
+        },
+        {
+          "label": "Поведение",
+          "value": "Спокойный пастух; поднимается дышать"
+        }
+      ],
+      "whereToSee": "В спокойных мелководных районах вокруг Кадидири и лагунах с морской травой.",
+      "howToSpot": "Ищите темный овальный панцирь на краях травы. Следите за головой на поверхности.",
+      "responsibleGuidelines": [
+        "Держитесь на 3-5м.",
+        "Никогда не трогайте и не преследуйте.",
+        "Без вспышки.",
+        "Нейтральная плавучесть.",
+        "Если уплывает - вы слишком близко."
+      ],
+      "conservationStatus": "МСОП: Вызывающий наименьшие опасения; защищен локально."
+    },
+    "hawksbill-turtle": {
+      "intro": "Меньшая рифовая черепаха с острым клювом как у ястреба.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Коралловые рифы, скалистые рифы, лагуны"
+        },
+        {
+          "label": "Питание",
+          "value": "Морские губки и рифовые беспозвоночные"
+        },
+        {
+          "label": "Размер",
+          "value": "До 1.0 метра"
+        },
+        {
+          "label": "Поведение",
+          "value": "Пугливая; одиночная"
+        }
+      ],
+      "whereToSee": "На участках снорклинга и дайвинга богатых кораллами.",
+      "howToSpot": "Ищите структуры рифов с узким клювом и узорчатым панцирем.",
+      "responsibleGuidelines": [
+        "Дайте пространство.",
+        "Не загоняйте в проходы.",
+        "Не трогать.",
+        "Ласты вверх.",
+        "Без вспышки."
+      ],
+      "conservationStatus": "МСОП: На грани исчезновения."
+    },
+    "napoleon-wrasse": {
+      "intro": "Массивная харизматичная рифовая рыба с толстыми губами и лобным горбом.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Внешние склоны рифов, каналы, лагуны"
+        },
+        {
+          "label": "Питание",
+          "value": "Твердопанцирные беспозвоночные, рыба"
+        },
+        {
+          "label": "Размер",
+          "value": "До 2 метров"
+        },
+        {
+          "label": "Поведение",
+          "value": "Обычно одиночная; любопытная"
+        }
+      ],
+      "whereToSee": "Лучший шанс на здоровых коралловых рифах и уступах.",
+      "howToSpot": "Ищите очень большой силуэт с толстыми губами и тупой головой.",
+      "responsibleGuidelines": [
+        "Держите дистанцию.",
+        "Не кормить.",
+        "Избегайте быстрых спусков.",
+        "Контролируйте плавучесть.",
+        "Выбирайте ответственных операторов."
+      ],
+      "conservationStatus": "МСОП: Под угрозой исчезновения; СИТЕС Приложение II."
+    },
+    "dugong": {
+      "intro": "Редкое нежное морское млекопитающее, пасущееся на морской траве в мелких заливах.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Мелководные луга морской травы"
+        },
+        {
+          "label": "Питание",
+          "value": "Морская трава (травоядное)"
+        },
+        {
+          "label": "Размер",
+          "value": "До 3 метров"
+        },
+        {
+          "label": "Поведение",
+          "value": "Пугливый; медленный; тихо всплывает"
+        }
+      ],
+      "whereToSee": "В спокойных мелководных зонах; встречается редко.",
+      "howToSpot": "Ищите грязные следы выпаса и серую форму, движущуюся низко.",
+      "responsibleGuidelines": [
+        "Держите большую дистанцию.",
+        "Без моторных лодок над травой.",
+        "Если ныряет - вы слишком близко.",
+        "Тихое поведение.",
+        "Не разделяйте мать и детёныша."
+      ],
+      "conservationStatus": "МСОП: Уязвимый."
+    },
+    "giant-clam": {
+      "intro": "Впечатляющий рифовый моллюск, который может быть огромным и ярко окрашенным.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Мелководные коралловые рифы"
+        },
+        {
+          "label": "Питание",
+          "value": "Фильтратор плюс симбиотические водоросли"
+        },
+        {
+          "label": "Размер",
+          "value": "До 1.2 метров"
+        },
+        {
+          "label": "Поведение",
+          "value": "Сидячий; мантия открыта на солнце"
+        }
+      ],
+      "whereToSee": "На чистых мелководных коралловых садах ищите большие раковины.",
+      "howToSpot": "Ищите толстую ребристую раковину с яркой волнистой мантией.",
+      "responsibleGuidelines": [
+        "Не трогайте мантию.",
+        "Не стойте на рифе.",
+        "Без сбора сувениров.",
+        "Не взмучивайте осадок.",
+        "Контролируйте плавучесть."
+      ],
+      "conservationStatus": "Некоторые виды на грани исчезновения."
+    },
+    "seahorse": {
+      "intro": "Маленькая камуфлированная рыба, цепляющаяся за травы и губки хватательным хвостом.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Морская трава, мангры, кораллы, губки"
+        },
+        {
+          "label": "Питание",
+          "value": "Мелкие ракообразные и планктон"
+        },
+        {
+          "label": "Размер",
+          "value": "Обычно до 15 см"
+        },
+        {
+          "label": "Поведение",
+          "value": "Медленный; прячется; засадный охотник"
+        }
+      ],
+      "whereToSee": "На защищённом мелководье с травой и губками.",
+      "howToSpot": "Замедлитесь и ищите необычные выпуклости на траве или губках.",
+      "responsibleGuidelines": [
+        "Не трогать; легко стрессуют.",
+        "Контролируйте ласты.",
+        "Без вспышки вблизи.",
+        "Не двигайте растительность.",
+        "Ограничьте время наблюдения."
+      ],
+      "conservationStatus": "Все морские коньки в СИТЕС Приложение II."
+    },
+    "stingless-jellyfish": {
+      "intro": "В защищённых морских озёрах медузы типа Мастигиас многочисленны и безвредны.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Изолированные морские озёра"
+        },
+        {
+          "label": "Питание",
+          "value": "Планктон плюс симбиотические водоросли"
+        },
+        {
+          "label": "Размер",
+          "value": "Обычно 8-10 см в диаметре"
+        },
+        {
+          "label": "Поведение",
+          "value": "Медленно дрейфуют; собираются на свету"
+        }
+      ],
+      "whereToSee": "На озере Мариона (Озеро Медуз) где можно плавать среди нежных медуз.",
+      "howToSpot": "Увидите мягкие янтарные точки, пульсирующие под поверхностью.",
+      "responsibleGuidelines": [
+        "Не трогайте медуз.",
+        "Без ласт; плавайте мягко.",
+        "Избегайте масел для загара.",
+        "Без мыла перед плаванием.",
+        "Соблюдайте местные правила."
+      ],
+      "conservationStatus": "Очень чувствительны к загрязнению и температуре."
+    }
+  },
+  "wildlifeLandContent": {
+    "togian-monkey": {
+      "intro": "Un macaco oscuro y robusto con cola corta de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Bosque de tierras bajas"
+        },
+        {
+          "label": "Питание",
+          "value": "Frutas, hojas, semillas, insectos"
+        },
+        {
+          "label": "Размер",
+          "value": "50-68 cm; 8-12 kg"
+        },
+        {
+          "label": "Поведение",
+          "value": "Grupos sociales; vocales"
+        }
+      ],
+      "whereToSee": "Mejor en caminatas forestales de Malenge; mañana temprano y tarde.",
+      "howToSpot": "Escucha el crujido de ramas y llamadas de contacto.",
+      "responsibleGuidelines": [
+        "Mantén +10m de distancia.",
+        "Nunca alimentes.",
+        "Muévete lento.",
+        "Lleva tu basura."
+      ],
+      "conservationNotes": "Vulnerable; pérdida de hábitat es amenaza clave."
+    },
+    "togean-tarsier": {
+      "intro": "Un pequeño primate nocturno endémico de las Islas Togean con ojos enormes.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Bosque, jardines"
+        },
+        {
+          "label": "Питание",
+          "value": "Insectos, arañas, vertebrados pequeños"
+        },
+        {
+          "label": "Размер",
+          "value": "10-15 cm"
+        },
+        {
+          "label": "Поведение",
+          "value": "Nocturno; saltador ágil"
+        }
+      ],
+      "whereToSee": "Caminatas nocturnas en bordes del bosque.",
+      "howToSpot": "Usa luz roja tenue; busca el brillo de ojos.",
+      "responsibleGuidelines": [
+        "Solo luz roja.",
+        "Voces bajas.",
+        "Limita tiempo de observación."
+      ],
+      "conservationNotes": "En peligro; sensible a perturbación forestal."
+    },
+    "togian-babirusa": {
+      "intro": "Un mamífero raro parecido a un cerdo con colmillos curvados hacia arriba, endémico de Togean.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Bosque de tierras bajas"
+        },
+        {
+          "label": "Питание",
+          "value": "Raíces, frutas caídas, gusanos"
+        },
+        {
+          "label": "Размер",
+          "value": "El babirusa más grande"
+        },
+        {
+          "label": "Поведение",
+          "value": "Tímido; crepuscular"
+        }
+      ],
+      "whereToSee": "Solo en Islas Togean; Malenge, Batudaka.",
+      "howToSpot": "Busca huellas y signos de excavación.",
+      "responsibleGuidelines": [
+        "Mantén +20m de distancia.",
+        "Sin cebo.",
+        "Usa guías locales."
+      ],
+      "conservationNotes": "En peligro; protegido."
+    },
+    "knobbed-hornbill": {
+      "intro": "Un gran cálao endémico de Sulawesi con casco inconfundible.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Dosel forestal de tierras bajas"
+        },
+        {
+          "label": "Питание",
+          "value": "Frutas (higos), algunos insectos"
+        },
+        {
+          "label": "Размер",
+          "value": "70-80 cm"
+        },
+        {
+          "label": "Поведение",
+          "value": "Forrajeo de dosel; vuelo ruidoso"
+        }
+      ],
+      "whereToSee": "Bosques de Sulawesi continental (región Luwuk/Banggai).",
+      "howToSpot": "Escanea copas al amanecer; escucha llamadas profundas.",
+      "responsibleGuidelines": [
+        "Quédate en senderos.",
+        "Sin drones.",
+        "Apoya guías de conservación."
+      ],
+      "conservationNotes": "Vulnerable; pérdida forestal es causa principal."
+    },
+    "togian-water-monitor": {
+      "intro": "Un lagarto monitor endémico de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Bosque y manglares"
+        },
+        {
+          "label": "Питание",
+          "value": "Invertebrados, insectos, huevos"
+        },
+        {
+          "label": "Размер",
+          "value": "Hasta 1.5 m"
+        },
+        {
+          "label": "Поведение",
+          "value": "Diurno; cauteloso"
+        }
+      ],
+      "whereToSee": "Arroyos de manglar, costas lodosas.",
+      "howToSpot": "Camina lento cerca de manglares en marea baja.",
+      "responsibleGuidelines": [
+        "Mantén distancia; pueden morder.",
+        "No manipules.",
+        "No alimentes."
+      ],
+      "conservationNotes": "Preocupación menor; rango pequeño."
+    },
+    "coconut-crab": {
+      "intro": "El artrópodo terrestre más grande del mundo, activo de noche.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Bosque costero"
+        },
+        {
+          "label": "Питание",
+          "value": "Frutas, nueces, carroña"
+        },
+        {
+          "label": "Размер",
+          "value": "Hasta 1 m de envergadura"
+        },
+        {
+          "label": "Поведение",
+          "value": "Nocturno; excavador"
+        }
+      ],
+      "whereToSee": "Islas remotas con bosque costero; de noche.",
+      "howToSpot": "Caminata nocturna con luz roja.",
+      "responsibleGuidelines": [
+        "No toques - las pinzas aplastan.",
+        "No alimentes.",
+        "Nunca colectes."
+      ],
+      "conservationNotes": "Vulnerable; amenazado por recolección."
+    },
+    "burung-maleo": {
+      "intro": "Un megápodo de Sulawesi que incuba huevos en arena caliente.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Bosque; sitios de anidación arenosos"
+        },
+        {
+          "label": "Питание",
+          "value": "Frutas, semillas, invertebrados"
+        },
+        {
+          "label": "Размер",
+          "value": "55-60 cm"
+        },
+        {
+          "label": "Поведение",
+          "value": "Terrestre; anidación comunal"
+        }
+      ],
+      "whereToSee": "Sulawesi continental en sitios protegidos.",
+      "howToSpot": "En sitios autorizados, observa parejas cavando.",
+      "responsibleGuidelines": [
+        "Solo sitios oficiales.",
+        "Sin flash ni drones.",
+        "No compres huevos."
+      ],
+      "conservationNotes": "En peligro crítico."
+    },
+    "togian-boobook": {
+      "intro": "Un pequeño búho endémico de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "Среда обитания",
+          "value": "Bosque; jardines"
+        },
+        {
+          "label": "Питание",
+          "value": "Insectos y pequeños vertebrados"
+        },
+        {
+          "label": "Размер",
+          "value": "25-30 cm"
+        },
+        {
+          "label": "Поведение",
+          "value": "Nocturno; cazador de percha"
+        }
+      ],
+      "whereToSee": "Caminatas vespertinas cerca de bordes forestales.",
+      "howToSpot": "Para y escucha llamadas rítmicas.",
+      "responsibleGuidelines": [
+        "Solo luz roja.",
+        "Sin reproducción de llamadas.",
+        "Limita tiempo de observación."
+      ],
+      "conservationNotes": "Casi amenazado; endémico."
+    }
+  },
+  "wildlifeNames": {
+    "sea": {
+      "green-sea-turtle": {
+        "name": "Зелёная черепаха",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "Бисса",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "Губан-Наполеон",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "Дюгонь",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "Гигантская тридакна",
+        "localName": "Kima Raksasa"
+      },
+      "seahorse": {
+        "name": "Морской конёк",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "Безжальная медуза",
+        "localName": "Ubur-ubur Tidak Menyengat"
+      }
+    },
+    "land": {
+      "togian-monkey": {
+        "name": "Тогеанский макак",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "Тогеанский долгопят",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "Тогеанский бабирусса",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "Сулавесийский калао",
+        "localName": "Julang Sulawesi"
+      },
+      "togian-water-monitor": {
+        "name": "Тогеанский варан",
+        "localName": "Biawak Air Togean"
+      },
+      "coconut-crab": {
+        "name": "Пальмовый вор",
+        "localName": "Kepiting Kelapa"
+      },
+      "burung-maleo": {
+        "name": "Малео",
+        "localName": "Burung Maleo"
+      },
+      "togian-boobook": {
+        "name": "Тогеанская совка",
+        "localName": "Burung Hantu Togean"
+      }
+    }
   }
 }

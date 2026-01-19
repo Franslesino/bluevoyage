@@ -26,6 +26,18 @@ export default async function DestinationPage({ params }: { params: Promise<{ la
         notFound();
     }
 
+    // Get translated content if available, fallback to default
+    const translatedContent = (t as any).destinationContent?.[slug];
+    const tagline = translatedContent?.tagline || destination.tagline;
+    const intro = translatedContent?.intro || destination.intro;
+    const whyItMatters = translatedContent?.whyItMatters || destination.whyItMatters;
+    const experiences = translatedContent?.experiences || destination.experiences;
+    const signatureMoment = translatedContent?.signatureMoment || destination.signatureMoment;
+    const routeFitNotes = translatedContent?.routeFit?.notes || destination.routeFit.notes;
+    const routeFitIdealTiming = translatedContent?.routeFit?.idealTiming || destination.routeFit.idealTiming;
+    const routeFitSuggestedDuration = translatedContent?.routeFit?.suggestedDuration || destination.routeFit.suggestedDuration;
+    const practicalNotes = translatedContent?.practicalNotes || destination.practicalNotes;
+
     return (
         <>
             <Navbar />
@@ -52,11 +64,11 @@ export default async function DestinationPage({ params }: { params: Promise<{ la
                             {destination.name}
                         </h1>
                         <p className="font-avenir text-lg md:text-2xl font-light tracking-wider mb-8 italic opacity-90">
-                            {destination.tagline}
+                            {tagline}
                         </p>
                         <div className="max-w-2xl mx-auto">
                             <p className="font-avenir text-base md:text-lg leading-relaxed opacity-90 drop-shadow-md">
-                                {destination.intro}
+                                {intro}
                             </p>
                         </div>
                     </div>
@@ -69,7 +81,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ la
                     <section className="max-w-4xl mx-auto text-center">
                         <h2 className="font-canto text-3xl md:text-4xl mb-10 text-[#2C3E50]">{t.destinationDetail?.whyItMatters || "Why it matters"}</h2>
                         <ul className="grid gap-4 md:gap-6">
-                            {destination.whyItMatters.map((item, idx) => (
+                            {whyItMatters.map((item: string, idx: number) => (
                                 <li key={idx} className="font-avenir text-lg md:text-xl text-gray-700 leading-relaxed">
                                     &bull; {item}
                                 </li>
@@ -87,7 +99,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ la
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
-                            {destination.experiences.map((exp, idx) => (
+                            {experiences.map((exp: { title: string; text: string }, idx: number) => (
                                 <div key={idx} className="group">
                                     <div className="flex items-center gap-4 mb-4">
                                         <span className="font-avenir text-xs font-bold text-gray-400 tracking-widest">0{idx + 1}</span>
@@ -104,7 +116,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ la
                         <div className="mt-16 bg-white p-8 md:p-10 rounded-sm border border-gray-100 shadow-sm">
                             <h4 className="font-canto text-xl md:text-2xl mb-2 text-gray-800">{t.destinationDetail?.theSignatureMoment || "The Signature Moment"}</h4>
                             <p className="font-avenir text-lg italic text-gray-600">
-                                "{destination.signatureMoment}"
+                                "{signatureMoment}"
                             </p>
                         </div>
                     </section>
@@ -150,11 +162,11 @@ export default async function DestinationPage({ params }: { params: Promise<{ la
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                                 <div>
                                     <span className="font-avenir text-xs uppercase text-gray-400 tracking-wider block mb-1">{t.destinationDetail?.idealTiming || "Ideal Timing"}</span>
-                                    <p className="font-avenir text-lg text-gray-800">{destination.routeFit.idealTiming}</p>
+                                    <p className="font-avenir text-lg text-gray-800">{routeFitIdealTiming}</p>
                                 </div>
                                 <div>
                                     <span className="font-avenir text-xs uppercase text-gray-400 tracking-wider block mb-1">{t.destinationDetail?.suggestedDuration || "Suggested Duration"}</span>
-                                    <p className="font-avenir text-lg text-gray-800">{destination.routeFit.suggestedDuration}</p>
+                                    <p className="font-avenir text-lg text-gray-800">{routeFitSuggestedDuration}</p>
                                 </div>
                             </div>
 
@@ -172,7 +184,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ la
                             <div>
                                 <span className="font-avenir text-xs uppercase text-gray-400 tracking-wider block mb-2">{t.destinationDetail?.notes || "Notes"}</span>
                                 <ul className="space-y-1">
-                                    {destination.routeFit.notes.map((note, idx) => (
+                                    {routeFitNotes.map((note: string, idx: number) => (
                                         <li key={idx} className="font-avenir text-gray-600 text-sm">
                                             &mdash; {note}
                                         </li>
@@ -185,7 +197,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ la
                         <div className="md:col-span-5 space-y-6 md:border-l md:border-gray-100 md:pl-12">
                             <h3 className="font-canto text-2xl text-[#2C3E50]">{t.destinationDetail?.practicalities || "Practicalities"}</h3>
                             <ul className="space-y-3">
-                                {destination.practicalNotes.map((note, idx) => (
+                                {practicalNotes.map((note: string, idx: number) => (
                                     <li key={idx} className="font-avenir text-sm text-gray-600 flex items-start gap-2">
                                         <span className="text-gray-300 mt-0.5">&bull;</span>
                                         <span>{note}</span>

@@ -707,5 +707,821 @@
     "responsibleGuidelines": "Linee Guida per Incontri Responsabili",
     "gallery": "Galleria",
     "conservationStatus": "Stato di Conservazione"
+  },
+  "destinationContent": {
+    "pulau-puah": {
+      "tagline": "Un'isola appartata di assoluta tranquillità e natura incontaminata.",
+      "intro": "Pulau Puah è una gemma in gran parte non sviluppata con spiagge di sabbia bianca incontaminate e barriere coralline fiorenti.",
+      "whyItMatters": [
+        "Una vera fuga fuori dai sentieri battuti con spiagge deserte.",
+        "Circondato da giardini di coralli sani.",
+        "Offre la sensazione di un'isola privata."
+      ],
+      "experiences": [
+        {
+          "title": "Picnic su spiaggia deserta",
+          "text": "Goditi un barbecue di frutti di mare freschi sulla sabbia."
+        },
+        {
+          "title": "Snorkeling alla barriera corallina",
+          "text": "Nuota dalla spiaggia per vedere coralli vibranti."
+        },
+        {
+          "title": "Passeggiata nella giungla",
+          "text": "Cammina sotto le palme da cocco."
+        },
+        {
+          "title": "Tramonto in barca",
+          "text": "Osserva il tramonto dipingere il cielo."
+        }
+      ],
+      "signatureMoment": "Goderti un picnic su una spiaggia deserta rendendoti conto che tutta l'isola è tua.",
+      "routeFit": {
+        "idealTiming": "Sosta di mezzogiorno nel percorso island-hopping.",
+        "suggestedDuration": "Mezza giornata.",
+        "notes": [
+          "Accessibile solo in barca privata.",
+          "Niente negozi; porta provviste.",
+          "Visita con mare calmo."
+        ]
+      },
+      "practicalNotes": [
+        "Non lasciare tracce.",
+        "Fai snorkeling con un compagno.",
+        "Dipende dal tempo e dalle maree."
+      ]
+    },
+    "malenge": {
+      "tagline": "Il paradiso della giungla tropicale incontra l'autentica cultura dei nomadi del mare.",
+      "intro": "Malenge è un rifugio di fitte giungle e spiagge incontaminate, collegato all'affascinante villaggio dei nomadi del mare Bajo da un lungo ponte di legno.",
+      "whyItMatters": [
+        "Casa di una comunità tradizionale di nomadi del mare.",
+        "Offre splendide spiagge con giardini di coralli.",
+        "Foreste lussureggianti ospitano rari macachi di Togean."
+      ],
+      "experiences": [
+        {
+          "title": "Passeggiata sul ponte di Pulau Papan",
+          "text": "Attraversa l'iconico ponte di legno di 1.8 km."
+        },
+        {
+          "title": "Ritiro a Sera Beach",
+          "text": "Rilassati su una delle migliori spiagge dell'arcipelago."
+        },
+        {
+          "title": "Trekking nella giungla",
+          "text": "Cammina per vedere i macachi endemici di Togean."
+        },
+        {
+          "title": "Soggiorno culturale",
+          "text": "Vivi la vita quotidiana dell'isola."
+        }
+      ],
+      "signatureMoment": "Camminare sul ponte di legno verso Pulau Papan sopra acque turchesi.",
+      "routeFit": {
+        "idealTiming": "Fuga a metà viaggio nel Togean orientale.",
+        "suggestedDuration": "2-3 giorni.",
+        "notes": [
+          "Remoto senza bancomat.",
+          "Elettricità limitata.",
+          "Verifica gli orari dei traghetti."
+        ]
+      },
+      "practicalNotes": [
+        "Vestiti modestamente nei villaggi.",
+        "Alloggio basico.",
+        "La vita notturna è osservare le stelle."
+      ]
+    },
+    "waleakodi": {
+      "tagline": "Un rifugio tropicale remoto per l'isolamento definitivo.",
+      "intro": "Walea Kodi è un santuario isolato con tranquille spiagge di sabbia bianca e barriere coralline protette.",
+      "whyItMatters": [
+        "Uno dei luoghi più isolati.",
+        "Barriere protette incontaminate.",
+        "Paesaggio insulare intatto."
+      ],
+      "experiences": [
+        {
+          "title": "Giornata spiaggia Robinson Crusoe",
+          "text": "Rilassati su una spiaggia privata."
+        },
+        {
+          "title": "Snorkeling nel giardino di coralli",
+          "text": "Esplora la riserva marina."
+        },
+        {
+          "title": "Visita al villaggio di Dolong",
+          "text": "Incontra la gente del posto nel villaggio di pescatori."
+        },
+        {
+          "title": "Tramonto e stelle",
+          "text": "Osserva il tramonto e la Via Lattea."
+        }
+      ],
+      "signatureMoment": "Contemplare la Via Lattea da una spiaggia tranquilla in completo silenzio.",
+      "routeFit": {
+        "idealTiming": "Fuga off-grid alla fine dell'itinerario.",
+        "suggestedDuration": "2 giorni.",
+        "notes": [
+          "Traghetti rari.",
+          "Niente bancomat.",
+          "Elettricità da generatore."
+        ]
+      },
+      "practicalNotes": [
+        "Prenota l'alloggio in anticipo.",
+        "Comportamento eco-consapevole.",
+        "Accetta la disintossicazione digitale."
+      ]
+    },
+    "una-una": {
+      "tagline": "Una gemma vulcanica con vita marina spettacolare.",
+      "intro": "Una Una è un'isola vulcanica drammatica dove le sabbie nere incontrano la vegetazione lussureggiante.",
+      "whyItMatters": [
+        "Rara opportunità di scalare un cratere vulcanico attivo.",
+        "Migliore immersione con barriere sane.",
+        "Esperienza insulare autentica e cruda."
+      ],
+      "experiences": [
+        {
+          "title": "Escursione al vulcano Monte Colo",
+          "text": "Sali il vulcano per viste sull'oceano."
+        },
+        {
+          "title": "Immersione o Snorkeling",
+          "text": "Vedi enormi banchi di pesci e giardini di coralli."
+        },
+        {
+          "title": "Esplorazione spiagge nere",
+          "text": "Esplora spiagge vulcaniche uniche."
+        },
+        {
+          "title": "Tramonto al resort",
+          "text": "Rilassati sulla spiaggia al tramonto."
+        }
+      ],
+      "signatureMoment": "Stare sul bordo del Monte Colo con oceano blu infinito.",
+      "routeFit": {
+        "idealTiming": "Segmento dedicato all'avventura.",
+        "suggestedDuration": "2-4 giorni.",
+        "notes": [
+          "Accesso raro in traghetto.",
+          "Niente bancomat.",
+          "Elettricità da generatore."
+        ]
+      },
+      "practicalNotes": [
+        "Prenota resort di immersione in anticipo.",
+        "Porta assicurazione di viaggio.",
+        "Usa rashguard per snorkeling."
+      ]
+    },
+    "kadidiri": {
+      "tagline": "Il vivace centro di viaggio con sabbie bianche perfette.",
+      "intro": "Kadidiri è il centro di viaggio preferito dei Togean con spiagge di sabbia soffice.",
+      "whyItMatters": [
+        "Base accogliente per i turisti.",
+        "Ricche barriere coralline vicino alla costa.",
+        "Paesaggio tropicale da fiaba."
+      ],
+      "experiences": [
+        {
+          "title": "Snorkeling alla barriera di casa",
+          "text": "Entra nell'acqua limpida con giardini di coralli."
+        },
+        {
+          "title": "Immersione al bombardiere WWII",
+          "text": "Immergiti nel relitto B-24."
+        },
+        {
+          "title": "Kayak tra le isole",
+          "text": "Pagaia verso insenature nascoste."
+        },
+        {
+          "title": "Ritrovo al tramonto sul molo",
+          "text": "Guarda il cielo incendiarsi."
+        }
+      ],
+      "signatureMoment": "Guardare il tramonto dal molo mentre appaiono le stelle.",
+      "routeFit": {
+        "idealTiming": "Prima tappa.",
+        "suggestedDuration": "2-4 giorni.",
+        "notes": [
+          "30 min in barca da Wakai.",
+          "Economia in contanti.",
+          "Elettricità limitata."
+        ]
+      },
+      "practicalNotes": [
+        "Prenota in alta stagione.",
+        "Pasti in comune per conoscere viaggiatori.",
+        "Proteggi il cibo dalla fauna selvatica."
+      ]
+    },
+    "bomba": {
+      "tagline": "Un tranquillo rifugio meridionale con mangrovie e tramonti.",
+      "intro": "Bomba è un tranquillo villaggio costiero sulla punta meridionale dell'isola di Batudaka.",
+      "whyItMatters": [
+        "Importante porta meridionale da Ampana.",
+        "Paesaggio mozzafiato.",
+        "Hotspot per immersioni e snorkeling."
+      ],
+      "experiences": [
+        {
+          "title": "Fuga all'isola Poya Lisa",
+          "text": "Passa una giornata su questa piccola isola privata."
+        },
+        {
+          "title": "Snorkeling agli atolli",
+          "text": "Tour agli atolli bassi per vongole neon."
+        },
+        {
+          "title": "Escursione al banco di sabbia al tramonto",
+          "text": "Tramonto a 360 gradi dal banco di sabbia."
+        },
+        {
+          "title": "Passeggiata nel villaggio",
+          "text": "Vedi i simpatici abitanti del posto."
+        }
+      ],
+      "signatureMoment": "Stare su un banco di sabbia temporaneo al tramonto.",
+      "routeFit": {
+        "idealTiming": "Punto di transito.",
+        "suggestedDuration": "1-2 giorni.",
+        "notes": [
+          "Accesso da Ampana.",
+          "Niente bancomat.",
+          "Elettricità solo di notte."
+        ]
+      },
+      "practicalNotes": [
+        "Prenota case alloggio in anticipo.",
+        "Coordina gli orari di immersione.",
+        "Vestiti modestamente nel villaggio."
+      ]
+    },
+    "luwuk": {
+      "tagline": "La pittoresca porta costiera per la tua avventura insulare.",
+      "intro": "Luwuk è una piacevole città costiera e il principale centro logistico per i Togean.",
+      "whyItMatters": [
+        "Aeroporto più vicino.",
+        "Splendido paesaggio costiero.",
+        "Servizi moderni come bancomat."
+      ],
+      "experiences": [
+        {
+          "title": "Panorama della strada costiera",
+          "text": "Guida fino al punto panoramico Kilo Lima."
+        },
+        {
+          "title": "Spiaggia Kilo Lima",
+          "text": "Rilassati sulla popolare spiaggia locale."
+        },
+        {
+          "title": "Visita al mercato tradizionale",
+          "text": "Vedi frutta esotica e frutti di mare freschi."
+        },
+        {
+          "title": "Escursione alla cascata",
+          "text": "Nuota alla cascata Salodik."
+        }
+      ],
+      "signatureMoment": "Guardare dal punto panoramico Kilo Lima all'alba.",
+      "routeFit": {
+        "idealTiming": "Soggiorno di transito.",
+        "suggestedDuration": "1 giorno.",
+        "notes": [
+          "Preleva contanti qui.",
+          "Voli giornalieri.",
+          "Prevedi tempo per il traffico."
+        ]
+      },
+      "practicalNotes": [
+        "Prova le specialità locali del Sulawesi.",
+        "Usa il segnale per scaricare mappe.",
+        "Shopping dell'ultimo minuto."
+      ]
+    }
+  },
+  "wildlifeSeaContent": {
+    "green-sea-turtle": {
+      "intro": "Una grande e gentile tartaruga marina spesso vista nuotare tra le barriere e pascolare nelle praterie marine.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Praterie marine, lagune, barriere coralline"
+        },
+        {
+          "label": "Dieta",
+          "value": "Alghe e fanerogame marine"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "Fino a 1.5 metri"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Pascolatrice tranquilla; sale a respirare"
+        }
+      ],
+      "whereToSee": "Nelle acque basse e calme intorno a Kadidiri e lagune con fanerogame.",
+      "howToSpot": "Cerca un guscio ovale scuro ai bordi delle praterie. Osserva la testa che emerge per respirare.",
+      "responsibleGuidelines": [
+        "Mantieni 3-5m di distanza.",
+        "Mai toccare o inseguire.",
+        "No fotografia con flash.",
+        "Mantieni galleggiabilità neutra.",
+        "Se si allontana, sei troppo vicino."
+      ],
+      "conservationStatus": "IUCN: Minor Preoccupazione; ancora protetta localmente."
+    },
+    "hawksbill-turtle": {
+      "intro": "Una tartaruga più piccola amante delle barriere con becco appuntito come un falco.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Barriere coralline, barriere rocciose, lagune"
+        },
+        {
+          "label": "Dieta",
+          "value": "Spugne marine e invertebrati di barriera"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "Fino a 1.0 metro"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Timida; si muove tra le barriere; solitaria"
+        }
+      ],
+      "whereToSee": "In siti di snorkeling e immersione ricchi di coralli lungo le pareti.",
+      "howToSpot": "Cerca nella struttura della barriera un becco stretto e guscio pattern.",
+      "responsibleGuidelines": [
+        "Dagli spazio; si spaventano facilmente.",
+        "Mai intrappolare nei passaggi.",
+        "Non toccare.",
+        "Tieni le pinne in alto.",
+        "Senza flash."
+      ],
+      "conservationStatus": "IUCN: In Pericolo Critico."
+    },
+    "napoleon-wrasse": {
+      "intro": "Un massiccio e carismatico pesce di barriera con labbra spesse e gobba frontale.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Pendii esterni, canali, lagune"
+        },
+        {
+          "label": "Dieta",
+          "value": "Invertebrati con guscio duro, pesci"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "Fino a 2 metri"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Solitamente solitario; curioso"
+        }
+      ],
+      "whereToSee": "Migliore possibilità su barriere sane e drop-off.",
+      "howToSpot": "Cerca una sagoma molto grande con labbra spesse e testa smussata.",
+      "responsibleGuidelines": [
+        "Mantieni distanza.",
+        "Mai alimentare.",
+        "Evita discese rapide.",
+        "Controlla galleggiabilità.",
+        "Scegli operatori responsabili."
+      ],
+      "conservationStatus": "IUCN: In Pericolo; CITES Appendice II."
+    },
+    "dugong": {
+      "intro": "Un raro e gentile mammifero marino che pascola fanerogame in baie poco profonde.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Praterie poco profonde in baie protette"
+        },
+        {
+          "label": "Dieta",
+          "value": "Fanerogame marine (erbivoro)"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "Fino a 3 metri"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Timido; pascolatore lento; emerge silenziosamente"
+        }
+      ],
+      "whereToSee": "In aree calme e poco profonde con fanerogame; avvistamenti rari.",
+      "howToSpot": "Cerca tracce di pascolo fangose e forma grigia che si muove bassa.",
+      "responsibleGuidelines": [
+        "Mantieni grande distanza.",
+        "No barche a motore sulle praterie.",
+        "Se si immerge, sei troppo vicino.",
+        "Comportamento silenzioso.",
+        "Mai separare madre e cucciolo."
+      ],
+      "conservationStatus": "IUCN: Vulnerabile."
+    },
+    "giant-clam": {
+      "intro": "Uno spettacolare bivalve di barriera che può essere enorme e coloratissimo.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Barriere coralline poco profonde"
+        },
+        {
+          "label": "Dieta",
+          "value": "Filtratore più alghe simbiotiche"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "Fino a 1.2 metri"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Sessile; mantello aperto al sole"
+        }
+      ],
+      "whereToSee": "In giardini di corallo chiari e poco profondi, cerca grandi conchiglie.",
+      "howToSpot": "Cerca un guscio spesso costolato con mantello ondulato luminoso.",
+      "responsibleGuidelines": [
+        "Mai toccare il mantello.",
+        "Non stare sulla barriera.",
+        "No collezione di souvenir.",
+        "Evita di sollevare sedimenti.",
+        "Controlla galleggiabilità."
+      ],
+      "conservationStatus": "Alcune specie In Pericolo Critico."
+    },
+    "seahorse": {
+      "intro": "Piccolo pesce mimetizzato che si aggrappa a erbe e spugne con coda prensile.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Fanerogame, mangrovie, coralli, spugne"
+        },
+        {
+          "label": "Dieta",
+          "value": "Piccoli crostacei e plancton"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "Tipicamente fino a 15 cm"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Lento; si nasconde; caccia all'agguato"
+        }
+      ],
+      "whereToSee": "In acque basse protette con erbe e bordi spugnosi.",
+      "howToSpot": "Rallenta e cerca protuberanze insolite su erbe o spugne.",
+      "responsibleGuidelines": [
+        "Non toccare; i cavallucci si stressano facilmente.",
+        "Controlla le pinne.",
+        "No flash da vicino.",
+        "Non muovere la vegetazione.",
+        "Limita il tempo di osservazione."
+      ],
+      "conservationStatus": "Tutti i cavallucci in CITES Appendice II."
+    },
+    "stingless-jellyfish": {
+      "intro": "In laghi marini protetti, le meduse tipo Mastigias sono abbondanti e innocue.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Laghi marini isolati e lagune chiuse"
+        },
+        {
+          "label": "Dieta",
+          "value": "Plancton più alghe simbiotiche"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "Solitamente 8-10 cm di diametro"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Galleggiano lentamente; si raccolgono in acqua illuminata"
+        }
+      ],
+      "whereToSee": "Al Lago Mariona (Lago delle Meduse) dove si può nuotare tra meduse gentili.",
+      "howToSpot": "Vedrai punti ambrati morbidi pulsare appena sotto la superficie.",
+      "responsibleGuidelines": [
+        "Non toccare le meduse.",
+        "No pinne; galleggia dolcemente.",
+        "Evita oli solari nel lago.",
+        "No sapone prima di nuotare.",
+        "Rispetta le regole locali."
+      ],
+      "conservationStatus": "Molto sensibili all'inquinamento e ai cambiamenti di temperatura."
+    }
+  },
+  "wildlifeLandContent": {
+    "togian-monkey": {
+      "intro": "Un macaco oscuro y robusto con cola corta de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Bosque de tierras bajas"
+        },
+        {
+          "label": "Dieta",
+          "value": "Frutas, hojas, semillas, insectos"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "50-68 cm; 8-12 kg"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Grupos sociales; vocales"
+        }
+      ],
+      "whereToSee": "Mejor en caminatas forestales de Malenge; mañana temprano y tarde.",
+      "howToSpot": "Escucha el crujido de ramas y llamadas de contacto.",
+      "responsibleGuidelines": [
+        "Mantén +10m de distancia.",
+        "Nunca alimentes.",
+        "Muévete lento.",
+        "Lleva tu basura."
+      ],
+      "conservationNotes": "Vulnerable; pérdida de hábitat es amenaza clave."
+    },
+    "togean-tarsier": {
+      "intro": "Un pequeño primate nocturno endémico de las Islas Togean con ojos enormes.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Bosque, jardines"
+        },
+        {
+          "label": "Dieta",
+          "value": "Insectos, arañas, vertebrados pequeños"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "10-15 cm"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Nocturno; saltador ágil"
+        }
+      ],
+      "whereToSee": "Caminatas nocturnas en bordes del bosque.",
+      "howToSpot": "Usa luz roja tenue; busca el brillo de ojos.",
+      "responsibleGuidelines": [
+        "Solo luz roja.",
+        "Voces bajas.",
+        "Limita tiempo de observación."
+      ],
+      "conservationNotes": "En peligro; sensible a perturbación forestal."
+    },
+    "togian-babirusa": {
+      "intro": "Un mamífero raro parecido a un cerdo con colmillos curvados hacia arriba, endémico de Togean.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Bosque de tierras bajas"
+        },
+        {
+          "label": "Dieta",
+          "value": "Raíces, frutas caídas, gusanos"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "El babirusa más grande"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Tímido; crepuscular"
+        }
+      ],
+      "whereToSee": "Solo en Islas Togean; Malenge, Batudaka.",
+      "howToSpot": "Busca huellas y signos de excavación.",
+      "responsibleGuidelines": [
+        "Mantén +20m de distancia.",
+        "Sin cebo.",
+        "Usa guías locales."
+      ],
+      "conservationNotes": "En peligro; protegido."
+    },
+    "knobbed-hornbill": {
+      "intro": "Un gran cálao endémico de Sulawesi con casco inconfundible.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Dosel forestal de tierras bajas"
+        },
+        {
+          "label": "Dieta",
+          "value": "Frutas (higos), algunos insectos"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "70-80 cm"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Forrajeo de dosel; vuelo ruidoso"
+        }
+      ],
+      "whereToSee": "Bosques de Sulawesi continental (región Luwuk/Banggai).",
+      "howToSpot": "Escanea copas al amanecer; escucha llamadas profundas.",
+      "responsibleGuidelines": [
+        "Quédate en senderos.",
+        "Sin drones.",
+        "Apoya guías de conservación."
+      ],
+      "conservationNotes": "Vulnerable; pérdida forestal es causa principal."
+    },
+    "togian-water-monitor": {
+      "intro": "Un lagarto monitor endémico de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Bosque y manglares"
+        },
+        {
+          "label": "Dieta",
+          "value": "Invertebrados, insectos, huevos"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "Hasta 1.5 m"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Diurno; cauteloso"
+        }
+      ],
+      "whereToSee": "Arroyos de manglar, costas lodosas.",
+      "howToSpot": "Camina lento cerca de manglares en marea baja.",
+      "responsibleGuidelines": [
+        "Mantén distancia; pueden morder.",
+        "No manipules.",
+        "No alimentes."
+      ],
+      "conservationNotes": "Preocupación menor; rango pequeño."
+    },
+    "coconut-crab": {
+      "intro": "El artrópodo terrestre más grande del mundo, activo de noche.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Bosque costero"
+        },
+        {
+          "label": "Dieta",
+          "value": "Frutas, nueces, carroña"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "Hasta 1 m de envergadura"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Nocturno; excavador"
+        }
+      ],
+      "whereToSee": "Islas remotas con bosque costero; de noche.",
+      "howToSpot": "Caminata nocturna con luz roja.",
+      "responsibleGuidelines": [
+        "No toques - las pinzas aplastan.",
+        "No alimentes.",
+        "Nunca colectes."
+      ],
+      "conservationNotes": "Vulnerable; amenazado por recolección."
+    },
+    "burung-maleo": {
+      "intro": "Un megápodo de Sulawesi que incuba huevos en arena caliente.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Bosque; sitios de anidación arenosos"
+        },
+        {
+          "label": "Dieta",
+          "value": "Frutas, semillas, invertebrados"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "55-60 cm"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Terrestre; anidación comunal"
+        }
+      ],
+      "whereToSee": "Sulawesi continental en sitios protegidos.",
+      "howToSpot": "En sitios autorizados, observa parejas cavando.",
+      "responsibleGuidelines": [
+        "Solo sitios oficiales.",
+        "Sin flash ni drones.",
+        "No compres huevos."
+      ],
+      "conservationNotes": "En peligro crítico."
+    },
+    "togian-boobook": {
+      "intro": "Un pequeño búho endémico de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Bosque; jardines"
+        },
+        {
+          "label": "Dieta",
+          "value": "Insectos y pequeños vertebrados"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "25-30 cm"
+        },
+        {
+          "label": "Comportamento",
+          "value": "Nocturno; cazador de percha"
+        }
+      ],
+      "whereToSee": "Caminatas vespertinas cerca de bordes forestales.",
+      "howToSpot": "Para y escucha llamadas rítmicas.",
+      "responsibleGuidelines": [
+        "Solo luz roja.",
+        "Sin reproducción de llamadas.",
+        "Limita tiempo de observación."
+      ],
+      "conservationNotes": "Casi amenazado; endémico."
+    }
+  },
+  "wildlifeNames": {
+    "sea": {
+      "green-sea-turtle": {
+        "name": "Tartaruga verde",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "Tartaruga embricata",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "Pesce Napoleone",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "Dugongo",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "Tridacna gigante",
+        "localName": "Kima Raksasa"
+      },
+      "seahorse": {
+        "name": "Cavalluccio marino",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "Medusa non urticante",
+        "localName": "Ubur-ubur Tidak Menyengat"
+      }
+    },
+    "land": {
+      "togian-monkey": {
+        "name": "Macaco di Togean",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "Tarsio di Togean",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "Babirussa di Togean",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "Bucero di Sulawesi",
+        "localName": "Julang Sulawesi"
+      },
+      "togian-water-monitor": {
+        "name": "Varano di Togean",
+        "localName": "Biawak Air Togean"
+      },
+      "coconut-crab": {
+        "name": "Granchio del cocco",
+        "localName": "Kepiting Kelapa"
+      },
+      "burung-maleo": {
+        "name": "Maleo",
+        "localName": "Burung Maleo"
+      },
+      "togian-boobook": {
+        "name": "Civetta di Togean",
+        "localName": "Burung Hantu Togean"
+      }
+    }
   }
 }
