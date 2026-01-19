@@ -19,8 +19,10 @@ import BlogSection from "@/components/BlogSection";
 import FooterSection from "@/components/FooterSection";
 import MobileTripCtaBar from "@/components/MobileTripCtaBar";
 import HomepageCta from "@/components/HomepageCta";
+import { useHashScroll } from "@/hooks/useHashScroll";
 
 export default function HomePage() {
+    useHashScroll();
     return (
         <>
             <Navbar />

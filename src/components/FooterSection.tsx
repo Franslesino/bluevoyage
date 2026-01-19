@@ -8,10 +8,10 @@ export default function FooterSection() {
     const { t } = useTranslation();
 
     return (
-        <footer className="bg-[#CB9275] text-white pt-12 pb-8 md:pt-16 md:pb-12">
+        <footer className="bg-[#CB9275] text-white pt-8 pb-6 md:pt-10 md:pb-8">
             <div className="mx-auto px-6 md:px-12 max-w-[1280px]">
                 {/* Top Row: Logo */}
-                <div className="flex flex-col md:flex-row justify-between items-start mb-12 md:mb-16">
+                <div className="flex flex-col md:flex-row justify-between items-start mb-8 md:mb-10">
                     {/* Logo */}
                     <div className="relative w-[140px] md:w-[200px] lg:w-[280px] h-auto aspect-square">
                         <Image
@@ -31,7 +31,7 @@ export default function FooterSection() {
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8">
                     {/* Column A: Brand Info */}
                     <div className="md:col-span-4 lg:col-span-4">
-                        <h3 className="font-canto text-2xl lg:text-3xl mb-6 text-white">
+                        <h3 className="font-canto text-2xl lg:text-3xl mb-4 text-white">
                             {t("footer.brandName")}
                         </h3>
                         <p className="font-avenir text-base leading-relaxed text-white/80 max-w-sm">
@@ -41,10 +41,10 @@ export default function FooterSection() {
 
                     {/* Column B: Infos */}
                     <div className="md:col-span-4 lg:col-span-4">
-                        <h3 className="font-canto text-2xl lg:text-3xl mb-6 text-white">
+                        <h3 className="font-canto text-2xl lg:text-3xl mb-4 text-white">
                             {t("footer.infosTitle")}
                         </h3>
-                        <ul className="font-avenir space-y-3 text-base text-white/80">
+                        <ul className="font-avenir space-y-2 text-base text-white/80">
                             <li>{t("footer.address1")}</li>
                             <li>{t("footer.address2")}</li>
                             <li>{t("footer.company")}</li>
@@ -53,10 +53,10 @@ export default function FooterSection() {
 
                     {/* Column C: Contact Us */}
                     <div className="md:col-span-4 lg:col-span-4">
-                        <h3 className="font-canto text-2xl lg:text-3xl mb-6 text-white">
+                        <h3 className="font-canto text-2xl lg:text-3xl mb-4 text-white">
                             {t("footer.contactTitle")}
                         </h3>
-                        <ul className="font-avenir space-y-4 text-base text-white/80">
+                        <ul className="font-avenir space-y-3 text-base text-white/80">
                             {/* WhatsApp */}
                             <li className="flex items-center gap-3">
                                 <span className="shrink-0 w-5 flex justify-center">

@@ -95,7 +95,7 @@ export default function AccommodationPage() {
                 {/* Back Button & Header */}
                 <div className="max-w-[1280px] mx-auto px-4 md:px-8 mb-12">
                     <div className="mb-12 md:mb-16">
-                        <BackLink href="/" label={t("common.backToHome")} />
+                        <BackLink href="/#accommodation" label={t("common.backToHome")} />
                     </div>
 
                     <div className="text-center max-w-4xl mx-auto">

@@ -707,5 +707,821 @@
     "responsibleGuidelines": "責任ある遭遇ガイドライン",
     "gallery": "ギャラリー",
     "conservationStatus": "保全状況"
+  },
+  "destinationContent": {
+    "pulau-puah": {
+      "tagline": "絶対的な静けさと手つかずの自然の孤島。",
+      "intro": "プラウ・プアは、手つかずの白砂のビーチと繁栄するサンゴ礁を持つ、ほとんど開発されていない宝石です。",
+      "whyItMatters": [
+        "人里離れた空のビーチへの本格的な逃避。",
+        "健康なサンゴ園に囲まれています。",
+        "プライベートアイランドの雰囲気を提供。"
+      ],
+      "experiences": [
+        {
+          "title": "無人ビーチピクニック",
+          "text": "砂浜で新鮮なシーフードバーベキューを楽しみます。"
+        },
+        {
+          "title": "サンゴ礁シュノーケリング",
+          "text": "ビーチから泳いで鮮やかなサンゴを見ます。"
+        },
+        {
+          "title": "ジャングル散歩",
+          "text": "ココナッツヤシの下を歩きます。"
+        },
+        {
+          "title": "ボートでの夕日",
+          "text": "空を染める夕日を眺めます。"
+        }
+      ],
+      "signatureMoment": "無人ビーチでピクニックを楽しみ、島全体があなただけのものだと気づく瞬間。",
+      "routeFit": {
+        "idealTiming": "アイランドホッピングルートでの昼の立ち寄り。",
+        "suggestedDuration": "半日。",
+        "notes": [
+          "プライベートボートでのみアクセス可能。",
+          "店がない; 必需品を持参。",
+          "穏やかな海で訪問。"
+        ]
+      },
+      "practicalNotes": [
+        "痕跡を残さない。",
+        "バディとシュノーケル。",
+        "天候と潮汐に依存。"
+      ]
+    },
+    "malenge": {
+      "tagline": "熱帯ジャングルの楽園が本物の海の遊牧民文化と出会う。",
+      "intro": "マレンゲは、長い木製の橋でバジョ海遊牧民の村につながる、密林と手つかずのビーチの避難所です。",
+      "whyItMatters": [
+        "伝統的な海の遊牧民コミュニティの故郷。",
+        "サンゴ園がある素晴らしいビーチを提供。",
+        "緑豊かな森が希少なトゲアンマカクを保護。"
+      ],
+      "experiences": [
+        {
+          "title": "プラウ・パパン橋散歩",
+          "text": "1.8kmの象徴的な木製の橋を渡ります。"
+        },
+        {
+          "title": "セラビーチリトリート",
+          "text": "群島最高のビーチの1つでリラックス。"
+        },
+        {
+          "title": "ジャングルトレッキング",
+          "text": "固有種のトゲアンマカクを見るために歩きます。"
+        },
+        {
+          "title": "文化的なホームステイ",
+          "text": "島の日常生活を体験。"
+        }
+      ],
+      "signatureMoment": "ターコイズブルーの水の上を木製の橋を渡ってプラウ・パパンへ。",
+      "routeFit": {
+        "idealTiming": "東トゲアンでの旅の途中の逃避。",
+        "suggestedDuration": "2-3日。",
+        "notes": [
+          "ATMのない遠隔地。",
+          "限られた電力。",
+          "フェリーのスケジュールを確認。"
+        ]
+      },
+      "practicalNotes": [
+        "村では控えめな服装を。",
+        "基本的な宿泊施設。",
+        "ナイトライフは星空観察。"
+      ]
+    },
+    "waleakodi": {
+      "tagline": "究極の隠遁のための遠く離れた熱帯の隠れ家。",
+      "intro": "ワレアコディは、静かな白砂のビーチと保護されたサンゴ礁を持つ孤立した聖域です。",
+      "whyItMatters": [
+        "最も孤立した場所の1つ。",
+        "手つかずの保護されたサンゴ礁。",
+        "手つかずの島の景色。"
+      ],
+      "experiences": [
+        {
+          "title": "ロビンソン・クルーソービーチデー",
+          "text": "プライベートビーチでリラックス。"
+        },
+        {
+          "title": "サンゴ園シュノーケリング",
+          "text": "海洋保護区を探索。"
+        },
+        {
+          "title": "ドロン村訪問",
+          "text": "漁村で地元の人々に会います。"
+        },
+        {
+          "title": "夕日と星空",
+          "text": "夕日と天の川を観察。"
+        }
+      ],
+      "signatureMoment": "完全な静寂の中で静かなビーチから天の川を眺める。",
+      "routeFit": {
+        "idealTiming": "旅程の終わりのオフグリッド逃避。",
+        "suggestedDuration": "2日。",
+        "notes": [
+          "稀なフェリー。",
+          "ATMなし。",
+          "発電機の電力。"
+        ]
+      },
+      "practicalNotes": [
+        "宿泊は事前予約。",
+        "エコ意識のある行動。",
+        "デジタルデトックスを受け入れる。"
+      ]
+    },
+    "una-una": {
+      "tagline": "壮大な海洋生物を持つ火山の宝石。",
+      "intro": "ウナウナは、黒い砂が緑豊かな植生と出会う劇的な火山島です。",
+      "whyItMatters": [
+        "活火山のクレーターに登る稀な機会。",
+        "健康なサンゴ礁での最高のダイビング。",
+        "生の本物の島体験。"
+      ],
+      "experiences": [
+        {
+          "title": "コロ山への火山ハイキング",
+          "text": "海の景色のために火山を登ります。"
+        },
+        {
+          "title": "ダイビングまたはシュノーケリング",
+          "text": "巨大な魚群とサンゴ園を見ます。"
+        },
+        {
+          "title": "黒砂ビーチ探索",
+          "text": "ユニークな火山ビーチを探索。"
+        },
+        {
+          "title": "リゾートでの夕日",
+          "text": "夕日時にビーチでリラックス。"
+        }
+      ],
+      "signatureMoment": "無限の青い海を背景にコロ山の縁に立つ。",
+      "routeFit": {
+        "idealTiming": "専用のアドベンチャーセグメント。",
+        "suggestedDuration": "2-4日。",
+        "notes": [
+          "稀なフェリーアクセス。",
+          "ATMなし。",
+          "発電機の電力。"
+        ]
+      },
+      "practicalNotes": [
+        "ダイブリゾートを事前予約。",
+        "旅行保険を持参。",
+        "シュノーケリング用ラッシュガードを使用。"
+      ]
+    },
+    "kadidiri": {
+      "tagline": "完璧な白砂を持つ活気ある旅行ハブ。",
+      "intro": "カディディリは、柔らかい砂のビーチを持つトゲアンお気に入りの旅行ハブです。",
+      "whyItMatters": [
+        "観光客に優しい拠点。",
+        "海岸近くの豊かなサンゴ礁。",
+        "おとぎ話のような熱帯の景色。"
+      ],
+      "experiences": [
+        {
+          "title": "ハウスリーフシュノーケリング",
+          "text": "サンゴ園のある透明な水に入ります。"
+        },
+        {
+          "title": "WWII爆撃機ダイビング",
+          "text": "B-24の残骸にダイブ。"
+        },
+        {
+          "title": "島間カヤック",
+          "text": "隠れた入り江へパドル。"
+        },
+        {
+          "title": "桟橋での夕日の集い",
+          "text": "空が燃えるのを見ます。"
+        }
+      ],
+      "signatureMoment": "星が現れる中、桟橋から夕日を見る。",
+      "routeFit": {
+        "idealTiming": "最初の立ち寄り。",
+        "suggestedDuration": "2-4日。",
+        "notes": [
+          "ワカイから30分のボート。",
+          "現金経済。",
+          "限られた電力。"
+        ]
+      },
+      "practicalNotes": [
+        "ハイシーズンは予約。",
+        "旅行者と会うための共同食事。",
+        "野生動物から食べ物を守る。"
+      ]
+    },
+    "bomba": {
+      "tagline": "マングローブと夕日を持つ静かな南の隠れ家。",
+      "intro": "ボンバは、バトゥダカ島の南端にある穏やかな海岸の村です。",
+      "whyItMatters": [
+        "アンパナからの重要な南の玄関口。",
+        "素晴らしい景色。",
+        "ダイビングとシュノーケリングのホットスポット。"
+      ],
+      "experiences": [
+        {
+          "title": "ポヤリサ島への逃避",
+          "text": "この小さなプライベート島で一日を過ごします。"
+        },
+        {
+          "title": "環礁でのシュノーケリング",
+          "text": "ネオン貝のための浅い環礁へツアー。"
+        },
+        {
+          "title": "夕日の砂州ツアー",
+          "text": "砂州から360度の夕日。"
+        },
+        {
+          "title": "村の散歩",
+          "text": "フレンドリーな地元の人々を見ます。"
+        }
+      ],
+      "signatureMoment": "夕日時に一時的な砂州に立つ。",
+      "routeFit": {
+        "idealTiming": "トランジットポイント。",
+        "suggestedDuration": "1-2日。",
+        "notes": [
+          "アンパナからアクセス。",
+          "ATMなし。",
+          "夜の電力のみ。"
+        ]
+      },
+      "practicalNotes": [
+        "ゲストハウスを事前予約。",
+        "ダイビングスケジュールを調整。",
+        "村では控えめな服装を。"
+      ]
+    },
+    "luwuk": {
+      "tagline": "島の冒険への絵のように美しい海岸の玄関口。",
+      "intro": "ルウクは、トゲアンの主要な物流ハブである快適な海岸都市です。",
+      "whyItMatters": [
+        "最寄りの空港。",
+        "美しい海岸の景色。",
+        "ATMなどの近代的な設備。"
+      ],
+      "experiences": [
+        {
+          "title": "海岸道路パノラマ",
+          "text": "キロリマ展望ポイントまでドライブ。"
+        },
+        {
+          "title": "キロリマビーチ",
+          "text": "人気の地元ビーチでリラックス。"
+        },
+        {
+          "title": "伝統的な市場訪問",
+          "text": "エキゾチックな果物と新鮮なシーフードを見ます。"
+        },
+        {
+          "title": "滝への遠足",
+          "text": "サロディク滝で泳ぎます。"
+        }
+      ],
+      "signatureMoment": "日の出時にキロリマ展望ポイントから見る。",
+      "routeFit": {
+        "idealTiming": "トランジット滞在。",
+        "suggestedDuration": "1日。",
+        "notes": [
+          "ここで現金を引き出す。",
+          "毎日のフライト。",
+          "交通渋滞の時間を見込む。"
+        ]
+      },
+      "practicalNotes": [
+        "スラウェシの地元料理を試す。",
+        "地図をダウンロードするために電波を使う。",
+        "最後の買い物。"
+      ]
+    }
+  },
+  "wildlifeSeaContent": {
+    "green-sea-turtle": {
+      "intro": "サンゴ礁を泳ぎ、海草の草原で草を食む、大きくて穏やかなウミガメ。",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "海草の草原、ラグーン、サンゴ礁"
+        },
+        {
+          "label": "食事",
+          "value": "海草と藻類"
+        },
+        {
+          "label": "サイズ",
+          "value": "最大1.5メートル"
+        },
+        {
+          "label": "行動",
+          "value": "穏やかな採食者；呼吸のため浮上"
+        }
+      ],
+      "whereToSee": "カディディリ周辺や海草のあるラグーンの穏やかな浅瀬で。",
+      "howToSpot": "海草の縁で暗い楕円形の甲羅を探してください。呼吸のために頭が出るのを見守って。",
+      "responsibleGuidelines": [
+        "3-5m離れて。",
+        "触ったり追いかけたりしない。",
+        "フラッシュ禁止。",
+        "中立浮力を維持。",
+        "逃げたら近すぎ。"
+      ],
+      "conservationStatus": "IUCN：低危険種；地域で保護。"
+    },
+    "hawksbill-turtle": {
+      "intro": "鷹のような尖った嘴を持つ、サンゴ礁を好む小型のウミガメ。",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "サンゴ礁、岩礁、ラグーン"
+        },
+        {
+          "label": "食事",
+          "value": "海綿と無脊椎動物"
+        },
+        {
+          "label": "サイズ",
+          "value": "最大1.0メートル"
+        },
+        {
+          "label": "行動",
+          "value": "臆病；単独行動"
+        }
+      ],
+      "whereToSee": "サンゴが豊富なスノーケリングとダイビングサイトで。",
+      "howToSpot": "細い嘴と模様のある甲羅を持つサンゴ礁構造を探してください。",
+      "responsibleGuidelines": [
+        "スペースを与えて。",
+        "狭い通路で追い詰めない。",
+        "触らない。",
+        "フィンを上げて。",
+        "フラッシュなし。"
+      ],
+      "conservationStatus": "IUCN：深刻な危機。"
+    },
+    "napoleon-wrasse": {
+      "intro": "厚い唇と額のこぶを持つ、巨大で魅力的なサンゴ礁の魚。",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "外側のサンゴ礁斜面、水路、ラグーン"
+        },
+        {
+          "label": "食事",
+          "value": "硬い殻の無脊椎動物、魚"
+        },
+        {
+          "label": "サイズ",
+          "value": "最大2メートル"
+        },
+        {
+          "label": "行動",
+          "value": "通常は単独；好奇心旺盛"
+        }
+      ],
+      "whereToSee": "健康なサンゴ礁とドロップオフで最良のチャンス。",
+      "howToSpot": "厚い唇と鈍い頭を持つ非常に大きなシルエットを探してください。",
+      "responsibleGuidelines": [
+        "距離を保つ。",
+        "餌をやらない。",
+        "急な降下を避ける。",
+        "浮力をコントロール。",
+        "責任あるオペレーターを選ぶ。"
+      ],
+      "conservationStatus": "IUCN：絶滅危惧；CITES付属書II。"
+    },
+    "dugong": {
+      "intro": "浅い湾で海草を食む、希少で穏やかな海洋哺乳類。",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "保護された湾の浅い海草草原"
+        },
+        {
+          "label": "食事",
+          "value": "海草（草食動物）"
+        },
+        {
+          "label": "サイズ",
+          "value": "最大3メートル"
+        },
+        {
+          "label": "行動",
+          "value": "臆病；ゆっくり採食；静かに浮上"
+        }
+      ],
+      "whereToSee": "穏やかで浅い海草エリアで；目撃はまれ。",
+      "howToSpot": "泥だらけの採食跡と低く動く灰色の形を探してください。",
+      "responsibleGuidelines": [
+        "大きな距離を保つ。",
+        "海草の上でモーターボート禁止。",
+        "潜ったら近すぎ。",
+        "静かな行動。",
+        "母子を分けない。"
+      ],
+      "conservationStatus": "IUCN：危急。"
+    },
+    "giant-clam": {
+      "intro": "巨大で鮮やかな色彩を持つ壮観なサンゴ礁の二枚貝。",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "浅いサンゴ礁とリーフフラット"
+        },
+        {
+          "label": "食事",
+          "value": "濾過摂食と共生藻"
+        },
+        {
+          "label": "サイズ",
+          "value": "最大1.2メートル"
+        },
+        {
+          "label": "行動",
+          "value": "固着性；日光でマントル開放"
+        }
+      ],
+      "whereToSee": "透明な浅いサンゴ園で大きな殻を探してください。",
+      "howToSpot": "明るい波状のマントルを持つ厚くうねった殻を探してください。",
+      "responsibleGuidelines": [
+        "マントルに触らない。",
+        "サンゴ礁の上に立たない。",
+        "お土産収集禁止。",
+        "堆積物を巻き上げない。",
+        "浮力コントロール。"
+      ],
+      "conservationStatus": "一部の種は深刻な危機。"
+    },
+    "seahorse": {
+      "intro": "把握尾で海草やスポンジにしがみつく小さなカモフラージュ魚。",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "海草、マングローブ、サンゴ、スポンジ"
+        },
+        {
+          "label": "食事",
+          "value": "小さな甲殻類とプランクトン"
+        },
+        {
+          "label": "サイズ",
+          "value": "通常15cmまで"
+        },
+        {
+          "label": "行動",
+          "value": "ゆっくり；隠れる；待ち伏せ捕食"
+        }
+      ],
+      "whereToSee": "海草とスポンジ縁のある保護された浅瀬で。",
+      "howToSpot": "ゆっくり進み、草やスポンジの珍しい突起を探してください。",
+      "responsibleGuidelines": [
+        "触らない；タツノオトシゴはストレスを受けやすい。",
+        "フィンをコントロール。",
+        "近くでフラッシュなし。",
+        "植生を動かさない。",
+        "観察時間を制限。"
+      ],
+      "conservationStatus": "すべてのタツノオトシゴはCITES付属書II。"
+    },
+    "stingless-jellyfish": {
+      "intro": "保護された海洋湖では、マスティギアス型のクラゲが豊富で無害です。",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "孤立した海洋湖と閉鎖ラグーン"
+        },
+        {
+          "label": "食事",
+          "value": "プランクトンと共生藻"
+        },
+        {
+          "label": "サイズ",
+          "value": "通常8-10cm直径"
+        },
+        {
+          "label": "行動",
+          "value": "ゆっくり漂う；日光の当たる水に集まる"
+        }
+      ],
+      "whereToSee": "マリオナ湖（クラゲ湖）で穏やかなクラゲの中を泳げます。",
+      "howToSpot": "水面下で脈動する柔らかい琥珀色の点が見えます。",
+      "responsibleGuidelines": [
+        "クラゲに触らない。",
+        "フィンなし；穏やかに浮かぶ。",
+        "日焼け止めオイルを避ける。",
+        "泳ぐ前に石鹸なし。",
+        "地元のルールを尊重。"
+      ],
+      "conservationStatus": "汚染と温度変化に非常に敏感。"
+    }
+  },
+  "wildlifeLandContent": {
+    "togian-monkey": {
+      "intro": "Un macaco oscuro y robusto con cola corta de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "Bosque de tierras bajas"
+        },
+        {
+          "label": "食事",
+          "value": "Frutas, hojas, semillas, insectos"
+        },
+        {
+          "label": "サイズ",
+          "value": "50-68 cm; 8-12 kg"
+        },
+        {
+          "label": "行動",
+          "value": "Grupos sociales; vocales"
+        }
+      ],
+      "whereToSee": "Mejor en caminatas forestales de Malenge; mañana temprano y tarde.",
+      "howToSpot": "Escucha el crujido de ramas y llamadas de contacto.",
+      "responsibleGuidelines": [
+        "Mantén +10m de distancia.",
+        "Nunca alimentes.",
+        "Muévete lento.",
+        "Lleva tu basura."
+      ],
+      "conservationNotes": "Vulnerable; pérdida de hábitat es amenaza clave."
+    },
+    "togean-tarsier": {
+      "intro": "Un pequeño primate nocturno endémico de las Islas Togean con ojos enormes.",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "Bosque, jardines"
+        },
+        {
+          "label": "食事",
+          "value": "Insectos, arañas, vertebrados pequeños"
+        },
+        {
+          "label": "サイズ",
+          "value": "10-15 cm"
+        },
+        {
+          "label": "行動",
+          "value": "Nocturno; saltador ágil"
+        }
+      ],
+      "whereToSee": "Caminatas nocturnas en bordes del bosque.",
+      "howToSpot": "Usa luz roja tenue; busca el brillo de ojos.",
+      "responsibleGuidelines": [
+        "Solo luz roja.",
+        "Voces bajas.",
+        "Limita tiempo de observación."
+      ],
+      "conservationNotes": "En peligro; sensible a perturbación forestal."
+    },
+    "togian-babirusa": {
+      "intro": "Un mamífero raro parecido a un cerdo con colmillos curvados hacia arriba, endémico de Togean.",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "Bosque de tierras bajas"
+        },
+        {
+          "label": "食事",
+          "value": "Raíces, frutas caídas, gusanos"
+        },
+        {
+          "label": "サイズ",
+          "value": "El babirusa más grande"
+        },
+        {
+          "label": "行動",
+          "value": "Tímido; crepuscular"
+        }
+      ],
+      "whereToSee": "Solo en Islas Togean; Malenge, Batudaka.",
+      "howToSpot": "Busca huellas y signos de excavación.",
+      "responsibleGuidelines": [
+        "Mantén +20m de distancia.",
+        "Sin cebo.",
+        "Usa guías locales."
+      ],
+      "conservationNotes": "En peligro; protegido."
+    },
+    "knobbed-hornbill": {
+      "intro": "Un gran cálao endémico de Sulawesi con casco inconfundible.",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "Dosel forestal de tierras bajas"
+        },
+        {
+          "label": "食事",
+          "value": "Frutas (higos), algunos insectos"
+        },
+        {
+          "label": "サイズ",
+          "value": "70-80 cm"
+        },
+        {
+          "label": "行動",
+          "value": "Forrajeo de dosel; vuelo ruidoso"
+        }
+      ],
+      "whereToSee": "Bosques de Sulawesi continental (región Luwuk/Banggai).",
+      "howToSpot": "Escanea copas al amanecer; escucha llamadas profundas.",
+      "responsibleGuidelines": [
+        "Quédate en senderos.",
+        "Sin drones.",
+        "Apoya guías de conservación."
+      ],
+      "conservationNotes": "Vulnerable; pérdida forestal es causa principal."
+    },
+    "togian-water-monitor": {
+      "intro": "Un lagarto monitor endémico de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "Bosque y manglares"
+        },
+        {
+          "label": "食事",
+          "value": "Invertebrados, insectos, huevos"
+        },
+        {
+          "label": "サイズ",
+          "value": "Hasta 1.5 m"
+        },
+        {
+          "label": "行動",
+          "value": "Diurno; cauteloso"
+        }
+      ],
+      "whereToSee": "Arroyos de manglar, costas lodosas.",
+      "howToSpot": "Camina lento cerca de manglares en marea baja.",
+      "responsibleGuidelines": [
+        "Mantén distancia; pueden morder.",
+        "No manipules.",
+        "No alimentes."
+      ],
+      "conservationNotes": "Preocupación menor; rango pequeño."
+    },
+    "coconut-crab": {
+      "intro": "El artrópodo terrestre más grande del mundo, activo de noche.",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "Bosque costero"
+        },
+        {
+          "label": "食事",
+          "value": "Frutas, nueces, carroña"
+        },
+        {
+          "label": "サイズ",
+          "value": "Hasta 1 m de envergadura"
+        },
+        {
+          "label": "行動",
+          "value": "Nocturno; excavador"
+        }
+      ],
+      "whereToSee": "Islas remotas con bosque costero; de noche.",
+      "howToSpot": "Caminata nocturna con luz roja.",
+      "responsibleGuidelines": [
+        "No toques - las pinzas aplastan.",
+        "No alimentes.",
+        "Nunca colectes."
+      ],
+      "conservationNotes": "Vulnerable; amenazado por recolección."
+    },
+    "burung-maleo": {
+      "intro": "Un megápodo de Sulawesi que incuba huevos en arena caliente.",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "Bosque; sitios de anidación arenosos"
+        },
+        {
+          "label": "食事",
+          "value": "Frutas, semillas, invertebrados"
+        },
+        {
+          "label": "サイズ",
+          "value": "55-60 cm"
+        },
+        {
+          "label": "行動",
+          "value": "Terrestre; anidación comunal"
+        }
+      ],
+      "whereToSee": "Sulawesi continental en sitios protegidos.",
+      "howToSpot": "En sitios autorizados, observa parejas cavando.",
+      "responsibleGuidelines": [
+        "Solo sitios oficiales.",
+        "Sin flash ni drones.",
+        "No compres huevos."
+      ],
+      "conservationNotes": "En peligro crítico."
+    },
+    "togian-boobook": {
+      "intro": "Un pequeño búho endémico de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "生息地",
+          "value": "Bosque; jardines"
+        },
+        {
+          "label": "食事",
+          "value": "Insectos y pequeños vertebrados"
+        },
+        {
+          "label": "サイズ",
+          "value": "25-30 cm"
+        },
+        {
+          "label": "行動",
+          "value": "Nocturno; cazador de percha"
+        }
+      ],
+      "whereToSee": "Caminatas vespertinas cerca de bordes forestales.",
+      "howToSpot": "Para y escucha llamadas rítmicas.",
+      "responsibleGuidelines": [
+        "Solo luz roja.",
+        "Sin reproducción de llamadas.",
+        "Limita tiempo de observación."
+      ],
+      "conservationNotes": "Casi amenazado; endémico."
+    }
+  },
+  "wildlifeNames": {
+    "sea": {
+      "green-sea-turtle": {
+        "name": "アオウミガメ",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "タイマイ",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "ナポレオンフィッシュ",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "ジュゴン",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "オオシャコガイ",
+        "localName": "Kima Raksasa"
+      },
+      "seahorse": {
+        "name": "タツノオトシゴ",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "無刺クラゲ",
+        "localName": "Ubur-ubur Tidak Menyengat"
+      }
+    },
+    "land": {
+      "togian-monkey": {
+        "name": "トゲアンマカク",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "トゲアンメガネザル",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "トゲアンバビルサ",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "スラウェシサイチョウ",
+        "localName": "Julang Sulawesi"
+      },
+      "togian-water-monitor": {
+        "name": "トゲアンミズオオトカゲ",
+        "localName": "Biawak Air Togean"
+      },
+      "coconut-crab": {
+        "name": "ヤシガニ",
+        "localName": "Kepiting Kelapa"
+      },
+      "burung-maleo": {
+        "name": "マレオ",
+        "localName": "Burung Maleo"
+      },
+      "togian-boobook": {
+        "name": "トゲアンアオバズク",
+        "localName": "Burung Hantu Togean"
+      }
+    }
   }
 }

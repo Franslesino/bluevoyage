@@ -707,5 +707,821 @@
     "responsibleGuidelines": "책임감 있는 만남 가이드라인",
     "gallery": "갤러리",
     "conservationStatus": "보존 상태"
+  },
+  "destinationContent": {
+    "pulau-puah": {
+      "tagline": "절대적인 평온함과 순수한 자연의 한적한 섬.",
+      "intro": "풀라우 푸아는 손상되지 않은 백사장 해변과 번성하는 산호초를 가진 거의 개발되지 않은 보석입니다.",
+      "whyItMatters": [
+        "빈 해변으로의 진정한 탈출.",
+        "건강한 산호 정원으로 둘러싸임.",
+        "프라이빗 아일랜드 느낌 제공."
+      ],
+      "experiences": [
+        {
+          "title": "무인도 해변 피크닉",
+          "text": "모래사장에서 신선한 해산물 바베큐를 즐기세요."
+        },
+        {
+          "title": "산호초 스노클링",
+          "text": "해변에서 수영하여 생생한 산호를 봅니다."
+        },
+        {
+          "title": "정글 산책",
+          "text": "코코넛 야자수 아래를 걸어보세요."
+        },
+        {
+          "title": "보트에서 일몰",
+          "text": "하늘을 물들이는 일몰을 바라봅니다."
+        }
+      ],
+      "signatureMoment": "무인도 해변에서 피크닉을 즐기며 온 섬이 당신 것임을 깨닫는 순간.",
+      "routeFit": {
+        "idealTiming": "섬 호핑 경로에서 정오 정차.",
+        "suggestedDuration": "반나절.",
+        "notes": [
+          "개인 보트로만 접근 가능.",
+          "상점 없음; 물품 지참.",
+          "잔잔한 바다에서 방문."
+        ]
+      },
+      "practicalNotes": [
+        "흔적을 남기지 마세요.",
+        "버디와 스노클링.",
+        "날씨와 조수에 따라 달라집니다."
+      ]
+    },
+    "malenge": {
+      "tagline": "열대 정글 낙원이 진정한 바다 유목민 문화와 만나다.",
+      "intro": "말렌게는 긴 나무 다리로 바조 바다 유목민 마을과 연결된 울창한 정글과 손상되지 않은 해변의 안식처입니다.",
+      "whyItMatters": [
+        "전통적인 바다 유목민 공동체의 고향.",
+        "산호 정원이 있는 멋진 해변 제공.",
+        "희귀한 토게안 마카크를 보호하는 무성한 숲."
+      ],
+      "experiences": [
+        {
+          "title": "풀라우 파판 다리 산책",
+          "text": "1.8km의 상징적인 목조 다리를 건너세요."
+        },
+        {
+          "title": "세라 비치 휴식",
+          "text": "군도 최고의 해변 중 하나에서 휴식."
+        },
+        {
+          "title": "정글 트레킹",
+          "text": "고유종 토게안 마카크를 보기 위해 걸어보세요."
+        },
+        {
+          "title": "문화 홈스테이",
+          "text": "섬의 일상생활을 경험하세요."
+        }
+      ],
+      "signatureMoment": "청록색 물 위의 나무 다리를 건너 풀라우 파판으로 향하는 순간.",
+      "routeFit": {
+        "idealTiming": "동부 토게안에서 여행 중간 탈출.",
+        "suggestedDuration": "2-3일.",
+        "notes": [
+          "ATM이 없는 외진 곳.",
+          "제한된 전기.",
+          "페리 일정 확인."
+        ]
+      },
+      "practicalNotes": [
+        "마을에서 단정한 복장.",
+        "기본적인 숙박.",
+        "나이트라이프는 별 관찰."
+      ]
+    },
+    "waleakodi": {
+      "tagline": "궁극의 은둔을 위한 먼 열대 은신처.",
+      "intro": "왈레아 코디는 고요한 백사장 해변과 보호된 산호초가 있는 고립된 성지입니다.",
+      "whyItMatters": [
+        "가장 고립된 장소 중 하나.",
+        "손상되지 않은 보호된 산호초.",
+        "손상되지 않은 섬 경관."
+      ],
+      "experiences": [
+        {
+          "title": "로빈슨 크루소 해변 데이",
+          "text": "개인 해변에서 휴식."
+        },
+        {
+          "title": "산호 정원 스노클링",
+          "text": "해양 보호구역 탐험."
+        },
+        {
+          "title": "돌롱 마을 방문",
+          "text": "어촌에서 현지인들을 만나세요."
+        },
+        {
+          "title": "일몰과 별",
+          "text": "일몰과 은하수를 관찰."
+        }
+      ],
+      "signatureMoment": "완전한 침묵 속에서 조용한 해변에서 은하수를 바라보는 순간.",
+      "routeFit": {
+        "idealTiming": "여정 끝의 오프그리드 탈출.",
+        "suggestedDuration": "2일.",
+        "notes": [
+          "드문 페리.",
+          "ATM 없음.",
+          "발전기 전기."
+        ]
+      },
+      "practicalNotes": [
+        "숙박 미리 예약.",
+        "환경 의식적인 행동.",
+        "디지털 디톡스 수용."
+      ]
+    },
+    "una-una": {
+      "tagline": "장엄한 해양 생물이 있는 화산 보석.",
+      "intro": "우나우나는 검은 모래가 무성한 녹지와 만나는 극적인 화산섬입니다.",
+      "whyItMatters": [
+        "활화산 분화구를 등반할 희귀한 기회.",
+        "건강한 산호초에서 최고의 다이빙.",
+        "날것의 진정한 섬 경험."
+      ],
+      "experiences": [
+        {
+          "title": "콜로 화산 하이킹",
+          "text": "바다 전망을 위해 화산을 오르세요."
+        },
+        {
+          "title": "다이빙 또는 스노클링",
+          "text": "거대한 물고기 무리와 산호 정원을 봅니다."
+        },
+        {
+          "title": "검은 해변 탐험",
+          "text": "독특한 화산 해변을 탐험."
+        },
+        {
+          "title": "리조트에서 일몰",
+          "text": "일몰에 해변에서 휴식."
+        }
+      ],
+      "signatureMoment": "무한한 푸른 바다를 배경으로 콜로 산의 가장자리에 서는 순간.",
+      "routeFit": {
+        "idealTiming": "전용 어드벤처 세그먼트.",
+        "suggestedDuration": "2-4일.",
+        "notes": [
+          "드문 페리 접근.",
+          "ATM 없음.",
+          "발전기 전기."
+        ]
+      },
+      "practicalNotes": [
+        "다이브 리조트 미리 예약.",
+        "여행 보험 지참.",
+        "스노클링용 래시가드 사용."
+      ]
+    },
+    "kadidiri": {
+      "tagline": "완벽한 백사장이 있는 활기찬 여행 허브.",
+      "intro": "카디디리는 부드러운 모래 해변이 있는 토게안에서 가장 인기 있는 여행 허브입니다.",
+      "whyItMatters": [
+        "관광객 친화적인 거점.",
+        "해안 근처의 풍부한 산호초.",
+        "동화 같은 열대 풍경."
+      ],
+      "experiences": [
+        {
+          "title": "하우스 리프 스노클링",
+          "text": "산호 정원이 있는 맑은 물에 들어갑니다."
+        },
+        {
+          "title": "WWII 폭격기 다이빙",
+          "text": "B-24 난파선으로 다이빙."
+        },
+        {
+          "title": "섬 간 카약",
+          "text": "숨겨진 만으로 패들."
+        },
+        {
+          "title": "부두에서 일몰 모임",
+          "text": "하늘이 불타오르는 것을 봅니다."
+        }
+      ],
+      "signatureMoment": "별이 나타나는 동안 부두에서 일몰을 바라보는 순간.",
+      "routeFit": {
+        "idealTiming": "첫 번째 정거장.",
+        "suggestedDuration": "2-4일.",
+        "notes": [
+          "와카이에서 30분 보트.",
+          "현금 경제.",
+          "제한된 전기."
+        ]
+      },
+      "practicalNotes": [
+        "성수기에는 예약.",
+        "여행자를 만나기 위한 공동 식사.",
+        "야생동물로부터 음식 보호."
+      ]
+    },
+    "bomba": {
+      "tagline": "맹그로브와 일몰이 있는 남쪽의 조용한 휴양지.",
+      "intro": "봄바는 바투다카 섬의 남단에 있는 평화로운 해안 마을입니다.",
+      "whyItMatters": [
+        "암파나로부터의 중요한 남쪽 관문.",
+        "놀라운 풍경.",
+        "다이빙과 스노클링의 핫스팟."
+      ],
+      "experiences": [
+        {
+          "title": "포야 리사 섬 탈출",
+          "text": "이 작은 개인 섬에서 하루를 보내세요."
+        },
+        {
+          "title": "환초에서 스노클링",
+          "text": "네온 조개를 위한 얕은 환초 투어."
+        },
+        {
+          "title": "일몰 모래톱 여행",
+          "text": "모래톱에서 360도 일몰."
+        },
+        {
+          "title": "마을 산책",
+          "text": "친절한 현지인들을 만나보세요."
+        }
+      ],
+      "signatureMoment": "일몰에 임시 모래톱에 서는 순간.",
+      "routeFit": {
+        "idealTiming": "환승 지점.",
+        "suggestedDuration": "1-2일.",
+        "notes": [
+          "암파나에서 접근.",
+          "ATM 없음.",
+          "밤에만 전기."
+        ]
+      },
+      "practicalNotes": [
+        "게스트하우스 미리 예약.",
+        "다이빙 일정 조정.",
+        "마을에서 단정한 복장."
+      ]
+    },
+    "luwuk": {
+      "tagline": "섬 모험으로 가는 그림 같은 해안 관문.",
+      "intro": "루욱은 토게안의 주요 물류 허브인 쾌적한 해안 도시입니다.",
+      "whyItMatters": [
+        "가장 가까운 공항.",
+        "아름다운 해안 풍경.",
+        "ATM 같은 현대적인 편의시설."
+      ],
+      "experiences": [
+        {
+          "title": "해안 도로 파노라마",
+          "text": "킬로 리마 전망대까지 드라이브."
+        },
+        {
+          "title": "킬로 리마 해변",
+          "text": "인기 있는 현지 해변에서 휴식."
+        },
+        {
+          "title": "전통 시장 방문",
+          "text": "이국적인 과일과 신선한 해산물을 봅니다."
+        },
+        {
+          "title": "폭포 소풍",
+          "text": "살로딕 폭포에서 수영."
+        }
+      ],
+      "signatureMoment": "일출에 킬로 리마 전망대에서 바라보는 순간.",
+      "routeFit": {
+        "idealTiming": "환승 체류.",
+        "suggestedDuration": "1일.",
+        "notes": [
+          "여기서 현금 인출.",
+          "일일 항공편.",
+          "교통 체증 시간 고려."
+        ]
+      },
+      "practicalNotes": [
+        "술라웨시 현지 특산물 시도.",
+        "지도 다운로드에 신호 사용.",
+        "막바지 쇼핑."
+      ]
+    }
+  },
+  "wildlifeSeaContent": {
+    "green-sea-turtle": {
+      "intro": "산호초를 헤엄치고 해초 초원에서 풀을 뜯는 크고 온순한 바다거북.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "해초 초원, 석호, 산호초"
+        },
+        {
+          "label": "먹이",
+          "value": "해초와 조류"
+        },
+        {
+          "label": "크기",
+          "value": "최대 1.5미터"
+        },
+        {
+          "label": "행동",
+          "value": "조용한 풀 뜯기; 호흡을 위해 수면으로 올라옴"
+        }
+      ],
+      "whereToSee": "카디디리 주변과 해초가 있는 석호의 잔잔하고 얕은 지역에서.",
+      "howToSpot": "해초 가장자리에서 어두운 타원형 등딱지를 찾으세요. 호흡을 위해 머리가 나오는 것을 주시하세요.",
+      "responsibleGuidelines": [
+        "3-5m 거리 유지.",
+        "절대 만지거나 쫓지 마세요.",
+        "플래시 촬영 금지.",
+        "중성 부력 유지.",
+        "도망가면 너무 가까운 것입니다."
+      ],
+      "conservationStatus": "IUCN: 관심대상; 지역적으로 보호됨."
+    },
+    "hawksbill-turtle": {
+      "intro": "매처럼 뾰족한 부리를 가진 산호초를 좋아하는 작은 바다거북.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "산호초, 암초, 석호"
+        },
+        {
+          "label": "먹이",
+          "value": "바다 스펀지와 산호초 무척추동물"
+        },
+        {
+          "label": "크기",
+          "value": "최대 1.0미터"
+        },
+        {
+          "label": "행동",
+          "value": "수줍음; 단독 생활"
+        }
+      ],
+      "whereToSee": "산호가 풍부한 스노클링 및 다이빙 장소에서.",
+      "howToSpot": "좁은 부리와 무늬가 있는 등딱지가 있는 산호초 구조를 찾으세요.",
+      "responsibleGuidelines": [
+        "공간을 주세요.",
+        "좁은 통로에서 가두지 마세요.",
+        "만지지 마세요.",
+        "지느러미를 위로.",
+        "플래시 없이."
+      ],
+      "conservationStatus": "IUCN: 극심한 위기."
+    },
+    "napoleon-wrasse": {
+      "intro": "두꺼운 입술과 이마 혹이 있는 거대하고 카리스마 있는 산호초 물고기.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "외부 산호초 경사면, 해협, 석호"
+        },
+        {
+          "label": "먹이",
+          "value": "딱딱한 껍질의 무척추동물, 물고기"
+        },
+        {
+          "label": "크기",
+          "value": "최대 2미터"
+        },
+        {
+          "label": "행동",
+          "value": "보통 단독; 호기심 많음"
+        }
+      ],
+      "whereToSee": "건강한 산호초와 드롭오프에서 최고의 기회.",
+      "howToSpot": "두꺼운 입술과 뭉툭한 머리를 가진 매우 큰 실루엣을 찾으세요.",
+      "responsibleGuidelines": [
+        "거리 유지.",
+        "먹이 주지 마세요.",
+        "빠른 하강 피하기.",
+        "부력 조절.",
+        "책임감 있는 운영자 선택."
+      ],
+      "conservationStatus": "IUCN: 멸종위기; CITES 부록 II."
+    },
+    "dugong": {
+      "intro": "얕은 만에서 해초를 뜯는 희귀하고 온순한 해양 포유류.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "보호된 만의 얕은 해초 초원"
+        },
+        {
+          "label": "먹이",
+          "value": "해초 (초식 동물)"
+        },
+        {
+          "label": "크기",
+          "value": "최대 3미터"
+        },
+        {
+          "label": "행동",
+          "value": "수줍음; 느린 풀 뜯기; 조용히 수면으로"
+        }
+      ],
+      "whereToSee": "잔잔하고 얕은 해초 지역에서; 목격은 드묾.",
+      "howToSpot": "진흙투성이 풀 뜯기 흔적과 낮게 움직이는 회색 형체를 찾으세요.",
+      "responsibleGuidelines": [
+        "매우 큰 거리 유지.",
+        "해초 위에서 모터보트 금지.",
+        "잠수하면 너무 가까운 것.",
+        "조용한 행동.",
+        "어미와 새끼 분리 금지."
+      ],
+      "conservationStatus": "IUCN: 취약."
+    },
+    "giant-clam": {
+      "intro": "거대하고 밝은 색상을 가진 화려한 산호초 이매패.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "얕은 산호초와 리프 플랫"
+        },
+        {
+          "label": "먹이",
+          "value": "여과 섭식 및 공생 조류"
+        },
+        {
+          "label": "크기",
+          "value": "최대 1.2미터"
+        },
+        {
+          "label": "행동",
+          "value": "고착성; 햇빛 아래 맨틀 개방"
+        }
+      ],
+      "whereToSee": "맑고 얕은 산호 정원에서 큰 조개를 찾으세요.",
+      "howToSpot": "밝고 물결 모양의 맨틀이 있는 두껍고 골이 파인 껍질을 찾으세요.",
+      "responsibleGuidelines": [
+        "맨틀을 만지지 마세요.",
+        "산호초 위에 서지 마세요.",
+        "기념품 수집 금지.",
+        "침전물 휘젓기 피하기.",
+        "부력 조절."
+      ],
+      "conservationStatus": "일부 종은 극심한 위기."
+    },
+    "seahorse": {
+      "intro": "꼬리로 해초와 스펀지에 매달리는 작은 위장 물고기.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "해초, 맹그로브, 산호, 스펀지"
+        },
+        {
+          "label": "먹이",
+          "value": "작은 갑각류와 플랑크톤"
+        },
+        {
+          "label": "크기",
+          "value": "보통 15cm까지"
+        },
+        {
+          "label": "행동",
+          "value": "느림; 숨음; 매복 사냥"
+        }
+      ],
+      "whereToSee": "해초와 스펀지 가장자리가 있는 보호된 얕은 곳에서.",
+      "howToSpot": "천천히 가며 풀이나 스펀지에서 특이한 돌기를 찾으세요.",
+      "responsibleGuidelines": [
+        "만지지 마세요; 해마는 쉽게 스트레스 받음.",
+        "지느러미 조절.",
+        "가까이서 플래시 금지.",
+        "식물 움직이지 마세요.",
+        "관찰 시간 제한."
+      ],
+      "conservationStatus": "모든 해마는 CITES 부록 II."
+    },
+    "stingless-jellyfish": {
+      "intro": "보호된 해양 호수에서 마스티기아스 유형 해파리가 풍부하고 무해합니다.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "고립된 해양 호수와 폐쇄 석호"
+        },
+        {
+          "label": "먹이",
+          "value": "플랑크톤과 공생 조류"
+        },
+        {
+          "label": "크기",
+          "value": "보통 8-10cm 직경"
+        },
+        {
+          "label": "행동",
+          "value": "천천히 떠다님; 햇빛이 비치는 물에 모임"
+        }
+      ],
+      "whereToSee": "마리오나 호수(해파리 호수)에서 온순한 해파리 사이를 수영할 수 있습니다.",
+      "howToSpot": "수면 바로 아래에서 맥동하는 부드러운 호박색 점들이 보입니다.",
+      "responsibleGuidelines": [
+        "해파리 만지지 마세요.",
+        "지느러미 없이; 부드럽게 떠다니세요.",
+        "자외선 차단제 오일 피하기.",
+        "수영 전 비누 금지.",
+        "현지 규칙 존중."
+      ],
+      "conservationStatus": "오염과 온도 변화에 매우 민감."
+    }
+  },
+  "wildlifeLandContent": {
+    "togian-monkey": {
+      "intro": "Un macaco oscuro y robusto con cola corta de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "Bosque de tierras bajas"
+        },
+        {
+          "label": "먹이",
+          "value": "Frutas, hojas, semillas, insectos"
+        },
+        {
+          "label": "크기",
+          "value": "50-68 cm; 8-12 kg"
+        },
+        {
+          "label": "행동",
+          "value": "Grupos sociales; vocales"
+        }
+      ],
+      "whereToSee": "Mejor en caminatas forestales de Malenge; mañana temprano y tarde.",
+      "howToSpot": "Escucha el crujido de ramas y llamadas de contacto.",
+      "responsibleGuidelines": [
+        "Mantén +10m de distancia.",
+        "Nunca alimentes.",
+        "Muévete lento.",
+        "Lleva tu basura."
+      ],
+      "conservationNotes": "Vulnerable; pérdida de hábitat es amenaza clave."
+    },
+    "togean-tarsier": {
+      "intro": "Un pequeño primate nocturno endémico de las Islas Togean con ojos enormes.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "Bosque, jardines"
+        },
+        {
+          "label": "먹이",
+          "value": "Insectos, arañas, vertebrados pequeños"
+        },
+        {
+          "label": "크기",
+          "value": "10-15 cm"
+        },
+        {
+          "label": "행동",
+          "value": "Nocturno; saltador ágil"
+        }
+      ],
+      "whereToSee": "Caminatas nocturnas en bordes del bosque.",
+      "howToSpot": "Usa luz roja tenue; busca el brillo de ojos.",
+      "responsibleGuidelines": [
+        "Solo luz roja.",
+        "Voces bajas.",
+        "Limita tiempo de observación."
+      ],
+      "conservationNotes": "En peligro; sensible a perturbación forestal."
+    },
+    "togian-babirusa": {
+      "intro": "Un mamífero raro parecido a un cerdo con colmillos curvados hacia arriba, endémico de Togean.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "Bosque de tierras bajas"
+        },
+        {
+          "label": "먹이",
+          "value": "Raíces, frutas caídas, gusanos"
+        },
+        {
+          "label": "크기",
+          "value": "El babirusa más grande"
+        },
+        {
+          "label": "행동",
+          "value": "Tímido; crepuscular"
+        }
+      ],
+      "whereToSee": "Solo en Islas Togean; Malenge, Batudaka.",
+      "howToSpot": "Busca huellas y signos de excavación.",
+      "responsibleGuidelines": [
+        "Mantén +20m de distancia.",
+        "Sin cebo.",
+        "Usa guías locales."
+      ],
+      "conservationNotes": "En peligro; protegido."
+    },
+    "knobbed-hornbill": {
+      "intro": "Un gran cálao endémico de Sulawesi con casco inconfundible.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "Dosel forestal de tierras bajas"
+        },
+        {
+          "label": "먹이",
+          "value": "Frutas (higos), algunos insectos"
+        },
+        {
+          "label": "크기",
+          "value": "70-80 cm"
+        },
+        {
+          "label": "행동",
+          "value": "Forrajeo de dosel; vuelo ruidoso"
+        }
+      ],
+      "whereToSee": "Bosques de Sulawesi continental (región Luwuk/Banggai).",
+      "howToSpot": "Escanea copas al amanecer; escucha llamadas profundas.",
+      "responsibleGuidelines": [
+        "Quédate en senderos.",
+        "Sin drones.",
+        "Apoya guías de conservación."
+      ],
+      "conservationNotes": "Vulnerable; pérdida forestal es causa principal."
+    },
+    "togian-water-monitor": {
+      "intro": "Un lagarto monitor endémico de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "Bosque y manglares"
+        },
+        {
+          "label": "먹이",
+          "value": "Invertebrados, insectos, huevos"
+        },
+        {
+          "label": "크기",
+          "value": "Hasta 1.5 m"
+        },
+        {
+          "label": "행동",
+          "value": "Diurno; cauteloso"
+        }
+      ],
+      "whereToSee": "Arroyos de manglar, costas lodosas.",
+      "howToSpot": "Camina lento cerca de manglares en marea baja.",
+      "responsibleGuidelines": [
+        "Mantén distancia; pueden morder.",
+        "No manipules.",
+        "No alimentes."
+      ],
+      "conservationNotes": "Preocupación menor; rango pequeño."
+    },
+    "coconut-crab": {
+      "intro": "El artrópodo terrestre más grande del mundo, activo de noche.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "Bosque costero"
+        },
+        {
+          "label": "먹이",
+          "value": "Frutas, nueces, carroña"
+        },
+        {
+          "label": "크기",
+          "value": "Hasta 1 m de envergadura"
+        },
+        {
+          "label": "행동",
+          "value": "Nocturno; excavador"
+        }
+      ],
+      "whereToSee": "Islas remotas con bosque costero; de noche.",
+      "howToSpot": "Caminata nocturna con luz roja.",
+      "responsibleGuidelines": [
+        "No toques - las pinzas aplastan.",
+        "No alimentes.",
+        "Nunca colectes."
+      ],
+      "conservationNotes": "Vulnerable; amenazado por recolección."
+    },
+    "burung-maleo": {
+      "intro": "Un megápodo de Sulawesi que incuba huevos en arena caliente.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "Bosque; sitios de anidación arenosos"
+        },
+        {
+          "label": "먹이",
+          "value": "Frutas, semillas, invertebrados"
+        },
+        {
+          "label": "크기",
+          "value": "55-60 cm"
+        },
+        {
+          "label": "행동",
+          "value": "Terrestre; anidación comunal"
+        }
+      ],
+      "whereToSee": "Sulawesi continental en sitios protegidos.",
+      "howToSpot": "En sitios autorizados, observa parejas cavando.",
+      "responsibleGuidelines": [
+        "Solo sitios oficiales.",
+        "Sin flash ni drones.",
+        "No compres huevos."
+      ],
+      "conservationNotes": "En peligro crítico."
+    },
+    "togian-boobook": {
+      "intro": "Un pequeño búho endémico de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "서식지",
+          "value": "Bosque; jardines"
+        },
+        {
+          "label": "먹이",
+          "value": "Insectos y pequeños vertebrados"
+        },
+        {
+          "label": "크기",
+          "value": "25-30 cm"
+        },
+        {
+          "label": "행동",
+          "value": "Nocturno; cazador de percha"
+        }
+      ],
+      "whereToSee": "Caminatas vespertinas cerca de bordes forestales.",
+      "howToSpot": "Para y escucha llamadas rítmicas.",
+      "responsibleGuidelines": [
+        "Solo luz roja.",
+        "Sin reproducción de llamadas.",
+        "Limita tiempo de observación."
+      ],
+      "conservationNotes": "Casi amenazado; endémico."
+    }
+  },
+  "wildlifeNames": {
+    "sea": {
+      "green-sea-turtle": {
+        "name": "푸른바다거북",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "매부리바다거북",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "나폴레옹피쉬",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "듀공",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "대왕조개",
+        "localName": "Kima Raksasa"
+      },
+      "seahorse": {
+        "name": "해마",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "무독성 해파리",
+        "localName": "Ubur-ubur Tidak Menyengat"
+      }
+    },
+    "land": {
+      "togian-monkey": {
+        "name": "토게안원숭이",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "토게안안경원숭이",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "토게안바비루사",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "술라웨시코뿔새",
+        "localName": "Julang Sulawesi"
+      },
+      "togian-water-monitor": {
+        "name": "토게안왕도마뱀",
+        "localName": "Biawak Air Togean"
+      },
+      "coconut-crab": {
+        "name": "야자게",
+        "localName": "Kepiting Kelapa"
+      },
+      "burung-maleo": {
+        "name": "말레오",
+        "localName": "Burung Maleo"
+      },
+      "togian-boobook": {
+        "name": "토게안올빼미",
+        "localName": "Burung Hantu Togean"
+      }
+    }
   }
 }

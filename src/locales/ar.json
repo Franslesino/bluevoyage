@@ -707,5 +707,821 @@
     "responsibleGuidelines": "إرشادات اللقاء المسؤول",
     "gallery": "معرض الصور",
     "conservationStatus": "حالة الحفظ"
+  },
+  "destinationContent": {
+    "pulau-puah": {
+      "tagline": "جزيرة منعزلة ذات هدوء مطلق وطبيعة بكر.",
+      "intro": "بولاو بواه جوهرة غير مطورة إلى حد كبير مع شواطئ رملية بيضاء نقية وشعاب مرجانية مزدهرة.",
+      "whyItMatters": [
+        "هروب حقيقي بعيد عن المألوف مع شواطئ فارغة.",
+        "محاطة بحدائق مرجانية صحية.",
+        "توفر شعوراً بجزيرة خاصة."
+      ],
+      "experiences": [
+        {
+          "title": "نزهة على شاطئ مهجور",
+          "text": "استمتع بشواء المأكولات البحرية الطازجة على الرمال."
+        },
+        {
+          "title": "غطس في الشعاب المرجانية",
+          "text": "اسبح من الشاطئ لرؤية الشعاب المرجانية النابضة بالحياة."
+        },
+        {
+          "title": "جولة في الغابة",
+          "text": "تمشى تحت أشجار جوز الهند."
+        },
+        {
+          "title": "غروب الشمس على القارب",
+          "text": "شاهد غروب الشمس وهو يصبغ السماء."
+        }
+      ],
+      "signatureMoment": "الاستمتاع بنزهة على شاطئ مهجور مدركاً أن الجزيرة بأكملها لك.",
+      "routeFit": {
+        "idealTiming": "توقف منتصف النهار في طريق التنقل بين الجزر.",
+        "suggestedDuration": "نصف يوم.",
+        "notes": [
+          "يمكن الوصول فقط بقارب خاص.",
+          "لا توجد متاجر؛ أحضر المستلزمات.",
+          "زيارة في البحر الهادئ."
+        ]
+      },
+      "practicalNotes": [
+        "لا تترك أثراً.",
+        "الغطس مع رفيق.",
+        "يعتمد على الطقس والمد."
+      ]
+    },
+    "malenge": {
+      "tagline": "جنة الغابة الاستوائية تلتقي بثقافة البدو البحريين الأصيلة.",
+      "intro": "ماليني ملاذ من الأدغال الكثيفة والشواطئ البكر، متصلة بقرية البدو البحريين باجو الساحرة بجسر خشبي طويل.",
+      "whyItMatters": [
+        "موطن مجتمع البدو البحريين التقليدي.",
+        "تقدم شواطئ مذهلة مع حدائق مرجانية.",
+        "غابات خصبة تأوي قرود توجيان النادرة."
+      ],
+      "experiences": [
+        {
+          "title": "جولة جسر بولاو بابان",
+          "text": "اعبر الجسر الخشبي الأيقوني بطول 1.8 كم."
+        },
+        {
+          "title": "استراحة شاطئ سيرا",
+          "text": "استرخِ على أحد أفضل شواطئ الأرخبيل."
+        },
+        {
+          "title": "رحلة في الغابة",
+          "text": "امشِ لرؤية قرود توجيان المتوطنة."
+        },
+        {
+          "title": "إقامة ثقافية",
+          "text": "اختبر الحياة اليومية للجزيرة."
+        }
+      ],
+      "signatureMoment": "المشي عبر الجسر الخشبي نحو بولاو بابان فوق المياه الفيروزية.",
+      "routeFit": {
+        "idealTiming": "هروب في منتصف الرحلة في شرق توجيان.",
+        "suggestedDuration": "2-3 أيام.",
+        "notes": [
+          "منطقة نائية بدون صرافات.",
+          "كهرباء محدودة.",
+          "تحقق من جداول العبارات."
+        ]
+      },
+      "practicalNotes": [
+        "ارتدِ ملابس محتشمة في القرى.",
+        "إقامة بسيطة.",
+        "الحياة الليلية هي مراقبة النجوم."
+      ]
+    },
+    "waleakodi": {
+      "tagline": "ملاذ استوائي بعيد للعزلة القصوى.",
+      "intro": "واليا كودي ملاذ معزول مع شواطئ رملية بيضاء هادئة وشعاب محمية.",
+      "whyItMatters": [
+        "من أكثر الأماكن عزلة.",
+        "شعاب محمية نقية.",
+        "مناظر جزيرة بكر."
+      ],
+      "experiences": [
+        {
+          "title": "يوم شاطئ روبنسون كروزو",
+          "text": "استرخِ على شاطئ خاص."
+        },
+        {
+          "title": "غطس في حديقة المرجان",
+          "text": "استكشف المحمية البحرية."
+        },
+        {
+          "title": "زيارة قرية دولونج",
+          "text": "التقِ بالسكان المحليين في قرية الصيد."
+        },
+        {
+          "title": "غروب الشمس والنجوم",
+          "text": "شاهد غروب الشمس ودرب التبانة."
+        }
+      ],
+      "signatureMoment": "التأمل في درب التبانة من شاطئ هادئ في صمت تام.",
+      "routeFit": {
+        "idealTiming": "هروب خارج الشبكة في نهاية الرحلة.",
+        "suggestedDuration": "يومان.",
+        "notes": [
+          "عبّارات نادرة.",
+          "لا يوجد صراف.",
+          "كهرباء مولد."
+        ]
+      },
+      "practicalNotes": [
+        "احجز الإقامة مسبقاً.",
+        "سلوك صديق للبيئة.",
+        "تقبّل التخلص من السموم الرقمية."
+      ]
+    },
+    "una-una": {
+      "tagline": "جوهرة بركانية مع حياة بحرية مذهلة.",
+      "intro": "أونا أونا جزيرة بركانية دراماتيكية حيث تلتقي الرمال السوداء بالخضرة الكثيفة.",
+      "whyItMatters": [
+        "فرصة نادرة لتسلق فوهة بركان نشط.",
+        "أفضل غوص مع شعاب صحية.",
+        "تجربة جزيرة أصيلة خام."
+      ],
+      "experiences": [
+        {
+          "title": "رحلة بركان كولو",
+          "text": "اصعد البركان لإطلالات على المحيط."
+        },
+        {
+          "title": "غوص أو غطس",
+          "text": "شاهد أسراب الأسماك الضخمة وحدائق المرجان."
+        },
+        {
+          "title": "استكشاف الشواطئ السوداء",
+          "text": "استكشف الشواطئ البركانية الفريدة."
+        },
+        {
+          "title": "غروب في المنتجع",
+          "text": "استرخِ على الشاطئ عند الغروب."
+        }
+      ],
+      "signatureMoment": "الوقوف على حافة جبل كولو مع محيط أزرق لا نهائي.",
+      "routeFit": {
+        "idealTiming": "جزء مخصص للمغامرة.",
+        "suggestedDuration": "2-4 أيام.",
+        "notes": [
+          "وصول نادر بالعبارة.",
+          "لا يوجد صراف.",
+          "كهرباء مولد."
+        ]
+      },
+      "practicalNotes": [
+        "احجز منتجعات الغوص مسبقاً.",
+        "أحضر تأمين السفر.",
+        "استخدم ملابس الحماية للغطس."
+      ]
+    },
+    "kadidiri": {
+      "tagline": "مركز سفر نابض بالحياة مع رمال بيضاء مثالية.",
+      "intro": "كاديديري مركز السفر المفضل في توجيان مع شواطئ رملية ناعمة.",
+      "whyItMatters": [
+        "قاعدة صديقة للسياح.",
+        "شعاب مرجانية غنية بالقرب من الشاطئ.",
+        "مناظر استوائية خيالية."
+      ],
+      "experiences": [
+        {
+          "title": "غطس في الشعاب المنزلية",
+          "text": "ادخل الماء الصافي مع حدائق المرجان."
+        },
+        {
+          "title": "غوص قاذفة الحرب العالمية الثانية",
+          "text": "غص إلى حطام B-24."
+        },
+        {
+          "title": "تجديف بين الجزر",
+          "text": "جدّف نحو الخلجان المخفية."
+        },
+        {
+          "title": "تجمع الغروب على الرصيف",
+          "text": "شاهد السماء تشتعل."
+        }
+      ],
+      "signatureMoment": "مشاهدة غروب الشمس من الرصيف بينما تظهر النجوم.",
+      "routeFit": {
+        "idealTiming": "المحطة الأولى.",
+        "suggestedDuration": "2-4 أيام.",
+        "notes": [
+          "30 دقيقة بالقارب من واكاي.",
+          "اقتصاد نقدي.",
+          "كهرباء محدودة."
+        ]
+      },
+      "practicalNotes": [
+        "احجز في الموسم العالي.",
+        "وجبات مشتركة للتعرف على المسافرين.",
+        "احمِ الطعام من الحياة البرية."
+      ]
+    },
+    "bomba": {
+      "tagline": "ملاذ جنوبي هادئ مع أشجار القرم وغروب الشمس.",
+      "intro": "بومبا قرية ساحلية هادئة في الطرف الجنوبي من جزيرة باتوداكا.",
+      "whyItMatters": [
+        "بوابة جنوبية مهمة من أمبانا.",
+        "مناظر طبيعية مذهلة.",
+        "نقطة ساخنة للغوص والغطس."
+      ],
+      "experiences": [
+        {
+          "title": "الهروب إلى جزيرة بويا ليزا",
+          "text": "اقضِ يوماً في هذه الجزيرة الخاصة الصغيرة."
+        },
+        {
+          "title": "غطس في الجُزُر المرجانية",
+          "text": "جولة إلى الجزر المرجانية الضحلة للمحار النيون."
+        },
+        {
+          "title": "رحلة شريط رملي عند الغروب",
+          "text": "غروب 360 درجة من الشريط الرملي."
+        },
+        {
+          "title": "جولة في القرية",
+          "text": "شاهد السكان المحليين الودودين."
+        }
+      ],
+      "signatureMoment": "الوقوف على شريط رملي مؤقت عند غروب الشمس.",
+      "routeFit": {
+        "idealTiming": "نقطة عبور.",
+        "suggestedDuration": "1-2 يوم.",
+        "notes": [
+          "الوصول من أمبانا.",
+          "لا توجد صرافات.",
+          "كهرباء ليلية فقط."
+        ]
+      },
+      "practicalNotes": [
+        "احجز بيوت الضيافة مسبقاً.",
+        "نسّق جداول الغوص.",
+        "ارتدِ ملابس محتشمة في القرية."
+      ]
+    },
+    "luwuk": {
+      "tagline": "البوابة الساحلية الخلابة لمغامرتك الجزرية.",
+      "intro": "لووك مدينة ساحلية ممتعة ومركز اللوجستيات الرئيسي لتوجيان.",
+      "whyItMatters": [
+        "أقرب مطار.",
+        "مناظر ساحلية جميلة.",
+        "وسائل راحة حديثة مثل الصرافات."
+      ],
+      "experiences": [
+        {
+          "title": "بانوراما الطريق الساحلي",
+          "text": "قُد إلى نقطة مشاهدة كيلو ليما."
+        },
+        {
+          "title": "شاطئ كيلو ليما",
+          "text": "استرخِ على الشاطئ المحلي الشهير."
+        },
+        {
+          "title": "زيارة السوق التقليدي",
+          "text": "شاهد الفواكه الغريبة والمأكولات البحرية الطازجة."
+        },
+        {
+          "title": "رحلة الشلال",
+          "text": "اسبح في شلال سالوديك."
+        }
+      ],
+      "signatureMoment": "النظر من نقطة مشاهدة كيلو ليما عند شروق الشمس.",
+      "routeFit": {
+        "idealTiming": "إقامة عابرة.",
+        "suggestedDuration": "يوم واحد.",
+        "notes": [
+          "اسحب نقداً هنا.",
+          "رحلات يومية.",
+          "خصص وقتاً للمرور."
+        ]
+      },
+      "practicalNotes": [
+        "جرب تخصصات سولاويسي المحلية.",
+        "استخدم الإشارة لتنزيل الخرائط.",
+        "تسوق اللحظة الأخيرة."
+      ]
+    }
+  },
+  "wildlifeSeaContent": {
+    "green-sea-turtle": {
+      "intro": "سلحفاة بحرية كبيرة ولطيفة تُرى غالباً وهي تسبح في الشعاب وترعى في مروج الأعشاب البحرية.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "مروج الأعشاب البحرية، البحيرات، الشعاب المرجانية"
+        },
+        {
+          "label": "الغذاء",
+          "value": "الأعشاب البحرية والطحالب"
+        },
+        {
+          "label": "الحجم",
+          "value": "حتى 1.5 متر"
+        },
+        {
+          "label": "السلوك",
+          "value": "راعية هادئة؛ تطفو للتنفس"
+        }
+      ],
+      "whereToSee": "في المناطق الضحلة الهادئة حول كاديديري والبحيرات ذات الأعشاب البحرية.",
+      "howToSpot": "ابحث عن صدفة بيضاوية داكنة على حواف الأعشاب. راقب الرأس يظهر للتنفس.",
+      "responsibleGuidelines": [
+        "احتفظ بمسافة 3-5 أمتار.",
+        "لا تلمس أو تطارد أبداً.",
+        "ممنوع التصوير بالفلاش.",
+        "حافظ على الطفو المحايد.",
+        "إذا ابتعدت، فأنت قريب جداً."
+      ],
+      "conservationStatus": "IUCN: أقل قلق؛ لا تزال محمية محلياً."
+    },
+    "hawksbill-turtle": {
+      "intro": "سلحفاة أصغر محبة للشعاب مع منقار مدبب كالصقر.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "الشعاب المرجانية، الشعاب الصخرية، البحيرات"
+        },
+        {
+          "label": "الغذاء",
+          "value": "الإسفنج البحري واللافقاريات"
+        },
+        {
+          "label": "الحجم",
+          "value": "حتى 1.0 متر"
+        },
+        {
+          "label": "السلوك",
+          "value": "خجولة؛ تسبح بين الشعاب؛ انفرادية"
+        }
+      ],
+      "whereToSee": "في مواقع الغطس والغوص الغنية بالمرجان على طول جدران الشعاب.",
+      "howToSpot": "ابحث في بنية الشعاب عن منقار ضيق وصدفة مزخرفة.",
+      "responsibleGuidelines": [
+        "أعطها مساحة؛ تفزع بسهولة.",
+        "لا تحاصرها في الممرات.",
+        "لا تلمس.",
+        "أبقِ الزعانف لأعلى.",
+        "بدون فلاش."
+      ],
+      "conservationStatus": "IUCN: مهددة بشكل حرج."
+    },
+    "napoleon-wrasse": {
+      "intro": "سمكة شعاب ضخمة وجذابة مع شفاه سميكة وحدبة أمامية.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "منحدرات الشعاب الخارجية، القنوات، البحيرات"
+        },
+        {
+          "label": "الغذاء",
+          "value": "لافقاريات صلبة القشرة، أسماك"
+        },
+        {
+          "label": "الحجم",
+          "value": "حتى 2 متر"
+        },
+        {
+          "label": "السلوك",
+          "value": "عادة انفرادية؛ فضولية"
+        }
+      ],
+      "whereToSee": "أفضل فرصة على الشعاب المرجانية الصحية والمنحدرات.",
+      "howToSpot": "ابحث عن صورة ظلية كبيرة جداً مع شفاه سميكة ورأس كليل.",
+      "responsibleGuidelines": [
+        "حافظ على المسافة.",
+        "لا تطعم أبداً.",
+        "تجنب النزول السريع.",
+        "تحكم في الطفو.",
+        "اختر مشغلين مسؤولين."
+      ],
+      "conservationStatus": "IUCN: مهددة؛ ملحق CITES II."
+    },
+    "dugong": {
+      "intro": "ثديي بحري نادر ولطيف يرعى الأعشاب البحرية في الخلجان الضحلة.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "مروج أعشاب بحرية ضحلة في خلجان محمية"
+        },
+        {
+          "label": "الغذاء",
+          "value": "أعشاب بحرية (عاشب)"
+        },
+        {
+          "label": "الحجم",
+          "value": "حتى 3 أمتار"
+        },
+        {
+          "label": "السلوك",
+          "value": "خجول؛ راعٍ بطيء؛ يطفو بهدوء"
+        }
+      ],
+      "whereToSee": "في مناطق الأعشاب البحرية الهادئة والضحلة؛ المشاهدات نادرة.",
+      "howToSpot": "ابحث عن مسارات رعي طينية وشكل رمادي يتحرك منخفضاً.",
+      "responsibleGuidelines": [
+        "حافظ على مسافة كبيرة جداً.",
+        "لا قوارب آلية فوق الأعشاب.",
+        "إذا غطست، فأنت قريب جداً.",
+        "سلوك هادئ.",
+        "لا تفصل الأم عن الصغير."
+      ],
+      "conservationStatus": "IUCN: معرضة للخطر."
+    },
+    "giant-clam": {
+      "intro": "محار شعاب مذهل يمكن أن يكون ضخماً وملوناً بشكل زاهٍ.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "شعاب مرجانية ضحلة ومسطحات شعابية"
+        },
+        {
+          "label": "الغذاء",
+          "value": "ترشيح مع طحالب تكافلية"
+        },
+        {
+          "label": "الحجم",
+          "value": "حتى 1.2 متر"
+        },
+        {
+          "label": "السلوك",
+          "value": "مستقر؛ الوشاح مفتوح في ضوء الشمس"
+        }
+      ],
+      "whereToSee": "في حدائق مرجانية صافية وضحلة، امسح المسطحات بحثاً عن أصداف كبيرة.",
+      "howToSpot": "ابحث عن صدفة سميكة مضلعة مع وشاح متموج لامع.",
+      "responsibleGuidelines": [
+        "لا تلمس الوشاح أبداً.",
+        "لا تقف على الشعاب.",
+        "ممنوع جمع الهدايا التذكارية.",
+        "تجنب إثارة الرواسب.",
+        "تحكم في الطفو."
+      ],
+      "conservationStatus": "بعض الأنواع مهددة بشكل حرج."
+    },
+    "seahorse": {
+      "intro": "سمكة صغيرة متخفية تتمسك بالأعشاب والإسفنج بذيل قابض.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "أعشاب بحرية، أشجار قرم، مرجان، إسفنج"
+        },
+        {
+          "label": "الغذاء",
+          "value": "قشريات صغيرة وعوالق"
+        },
+        {
+          "label": "الحجم",
+          "value": "عادة حتى 15 سم"
+        },
+        {
+          "label": "السلوك",
+          "value": "بطيء؛ يختبئ؛ صياد كمين"
+        }
+      ],
+      "whereToSee": "في المياه الضحلة المحمية مع أعشاب وحواف إسفنجية.",
+      "howToSpot": "أبطئ وابحث عن نتوءات غير عادية على الأعشاب أو الإسفنج.",
+      "responsibleGuidelines": [
+        "لا تلمس؛ فرس البحر يتوتر بسهولة.",
+        "تحكم في الزعانف.",
+        "لا فلاش من قريب.",
+        "لا تحرك النباتات.",
+        "حدد وقت المشاهدة."
+      ],
+      "conservationStatus": "كل فرس البحر في ملحق CITES II."
+    },
+    "stingless-jellyfish": {
+      "intro": "في البحيرات البحرية المحمية، قناديل ماستيجياس وفيرة وغير ضارة للسباحين.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "بحيرات بحرية معزولة وبحيرات مغلقة"
+        },
+        {
+          "label": "الغذاء",
+          "value": "عوالق مع طحالب تكافلية"
+        },
+        {
+          "label": "الحجم",
+          "value": "عادة 8-10 سم قطر"
+        },
+        {
+          "label": "السلوك",
+          "value": "تطفو ببطء؛ تتجمع في الماء المضاء"
+        }
+      ],
+      "whereToSee": "في بحيرة ماريونا (بحيرة قناديل البحر) حيث يمكن للسباحين الطفو بين القناديل اللطيفة.",
+      "howToSpot": "سترى نقاطاً كهرمانية ناعمة تنبض تحت السطح.",
+      "responsibleGuidelines": [
+        "لا تلمس القناديل.",
+        "لا زعانف؛ اطفُ برفق.",
+        "تجنب زيوت الواقي الشمسي في البحيرة.",
+        "لا صابون قبل السباحة.",
+        "احترم القواعد المحلية."
+      ],
+      "conservationStatus": "حساسة جداً للتلوث وتغيرات الحرارة."
+    }
+  },
+  "wildlifeLandContent": {
+    "togian-monkey": {
+      "intro": "Un macaco oscuro y robusto con cola corta de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "Bosque de tierras bajas"
+        },
+        {
+          "label": "الغذاء",
+          "value": "Frutas, hojas, semillas, insectos"
+        },
+        {
+          "label": "الحجم",
+          "value": "50-68 cm; 8-12 kg"
+        },
+        {
+          "label": "السلوك",
+          "value": "Grupos sociales; vocales"
+        }
+      ],
+      "whereToSee": "Mejor en caminatas forestales de Malenge; mañana temprano y tarde.",
+      "howToSpot": "Escucha el crujido de ramas y llamadas de contacto.",
+      "responsibleGuidelines": [
+        "Mantén +10m de distancia.",
+        "Nunca alimentes.",
+        "Muévete lento.",
+        "Lleva tu basura."
+      ],
+      "conservationNotes": "Vulnerable; pérdida de hábitat es amenaza clave."
+    },
+    "togean-tarsier": {
+      "intro": "Un pequeño primate nocturno endémico de las Islas Togean con ojos enormes.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "Bosque, jardines"
+        },
+        {
+          "label": "الغذاء",
+          "value": "Insectos, arañas, vertebrados pequeños"
+        },
+        {
+          "label": "الحجم",
+          "value": "10-15 cm"
+        },
+        {
+          "label": "السلوك",
+          "value": "Nocturno; saltador ágil"
+        }
+      ],
+      "whereToSee": "Caminatas nocturnas en bordes del bosque.",
+      "howToSpot": "Usa luz roja tenue; busca el brillo de ojos.",
+      "responsibleGuidelines": [
+        "Solo luz roja.",
+        "Voces bajas.",
+        "Limita tiempo de observación."
+      ],
+      "conservationNotes": "En peligro; sensible a perturbación forestal."
+    },
+    "togian-babirusa": {
+      "intro": "Un mamífero raro parecido a un cerdo con colmillos curvados hacia arriba, endémico de Togean.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "Bosque de tierras bajas"
+        },
+        {
+          "label": "الغذاء",
+          "value": "Raíces, frutas caídas, gusanos"
+        },
+        {
+          "label": "الحجم",
+          "value": "El babirusa más grande"
+        },
+        {
+          "label": "السلوك",
+          "value": "Tímido; crepuscular"
+        }
+      ],
+      "whereToSee": "Solo en Islas Togean; Malenge, Batudaka.",
+      "howToSpot": "Busca huellas y signos de excavación.",
+      "responsibleGuidelines": [
+        "Mantén +20m de distancia.",
+        "Sin cebo.",
+        "Usa guías locales."
+      ],
+      "conservationNotes": "En peligro; protegido."
+    },
+    "knobbed-hornbill": {
+      "intro": "Un gran cálao endémico de Sulawesi con casco inconfundible.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "Dosel forestal de tierras bajas"
+        },
+        {
+          "label": "الغذاء",
+          "value": "Frutas (higos), algunos insectos"
+        },
+        {
+          "label": "الحجم",
+          "value": "70-80 cm"
+        },
+        {
+          "label": "السلوك",
+          "value": "Forrajeo de dosel; vuelo ruidoso"
+        }
+      ],
+      "whereToSee": "Bosques de Sulawesi continental (región Luwuk/Banggai).",
+      "howToSpot": "Escanea copas al amanecer; escucha llamadas profundas.",
+      "responsibleGuidelines": [
+        "Quédate en senderos.",
+        "Sin drones.",
+        "Apoya guías de conservación."
+      ],
+      "conservationNotes": "Vulnerable; pérdida forestal es causa principal."
+    },
+    "togian-water-monitor": {
+      "intro": "Un lagarto monitor endémico de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "Bosque y manglares"
+        },
+        {
+          "label": "الغذاء",
+          "value": "Invertebrados, insectos, huevos"
+        },
+        {
+          "label": "الحجم",
+          "value": "Hasta 1.5 m"
+        },
+        {
+          "label": "السلوك",
+          "value": "Diurno; cauteloso"
+        }
+      ],
+      "whereToSee": "Arroyos de manglar, costas lodosas.",
+      "howToSpot": "Camina lento cerca de manglares en marea baja.",
+      "responsibleGuidelines": [
+        "Mantén distancia; pueden morder.",
+        "No manipules.",
+        "No alimentes."
+      ],
+      "conservationNotes": "Preocupación menor; rango pequeño."
+    },
+    "coconut-crab": {
+      "intro": "El artrópodo terrestre más grande del mundo, activo de noche.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "Bosque costero"
+        },
+        {
+          "label": "الغذاء",
+          "value": "Frutas, nueces, carroña"
+        },
+        {
+          "label": "الحجم",
+          "value": "Hasta 1 m de envergadura"
+        },
+        {
+          "label": "السلوك",
+          "value": "Nocturno; excavador"
+        }
+      ],
+      "whereToSee": "Islas remotas con bosque costero; de noche.",
+      "howToSpot": "Caminata nocturna con luz roja.",
+      "responsibleGuidelines": [
+        "No toques - las pinzas aplastan.",
+        "No alimentes.",
+        "Nunca colectes."
+      ],
+      "conservationNotes": "Vulnerable; amenazado por recolección."
+    },
+    "burung-maleo": {
+      "intro": "Un megápodo de Sulawesi que incuba huevos en arena caliente.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "Bosque; sitios de anidación arenosos"
+        },
+        {
+          "label": "الغذاء",
+          "value": "Frutas, semillas, invertebrados"
+        },
+        {
+          "label": "الحجم",
+          "value": "55-60 cm"
+        },
+        {
+          "label": "السلوك",
+          "value": "Terrestre; anidación comunal"
+        }
+      ],
+      "whereToSee": "Sulawesi continental en sitios protegidos.",
+      "howToSpot": "En sitios autorizados, observa parejas cavando.",
+      "responsibleGuidelines": [
+        "Solo sitios oficiales.",
+        "Sin flash ni drones.",
+        "No compres huevos."
+      ],
+      "conservationNotes": "En peligro crítico."
+    },
+    "togian-boobook": {
+      "intro": "Un pequeño búho endémico de las Islas Togean.",
+      "keyFacts": [
+        {
+          "label": "الموطن",
+          "value": "Bosque; jardines"
+        },
+        {
+          "label": "الغذاء",
+          "value": "Insectos y pequeños vertebrados"
+        },
+        {
+          "label": "الحجم",
+          "value": "25-30 cm"
+        },
+        {
+          "label": "السلوك",
+          "value": "Nocturno; cazador de percha"
+        }
+      ],
+      "whereToSee": "Caminatas vespertinas cerca de bordes forestales.",
+      "howToSpot": "Para y escucha llamadas rítmicas.",
+      "responsibleGuidelines": [
+        "Solo luz roja.",
+        "Sin reproducción de llamadas.",
+        "Limita tiempo de observación."
+      ],
+      "conservationNotes": "Casi amenazado; endémico."
+    }
+  },
+  "wildlifeNames": {
+    "sea": {
+      "green-sea-turtle": {
+        "name": "السلحفاة الخضراء",
+        "localName": "Penyu Hijau"
+      },
+      "hawksbill-turtle": {
+        "name": "سلحفاة منقار الصقر",
+        "localName": "Penyu Sisik"
+      },
+      "napoleon-wrasse": {
+        "name": "سمكة نابليون",
+        "localName": "Ikan Napoleon"
+      },
+      "dugong": {
+        "name": "الدُّيُوغونغ",
+        "localName": "Duyung"
+      },
+      "giant-clam": {
+        "name": "المحار العملاق",
+        "localName": "Kima Raksasa"
+      },
+      "seahorse": {
+        "name": "فرس البحر",
+        "localName": "Kuda Laut"
+      },
+      "stingless-jellyfish": {
+        "name": "قنديل البحر غير اللاسع",
+        "localName": "Ubur-ubur Tidak Menyengat"
+      }
+    },
+    "land": {
+      "togian-monkey": {
+        "name": "قرد توجيان",
+        "localName": "Monyet Togean"
+      },
+      "togean-tarsier": {
+        "name": "الترسير التوجياني",
+        "localName": "Tarsius Togean"
+      },
+      "togian-babirusa": {
+        "name": "البابيروسا التوجياني",
+        "localName": "Babirusa Togean"
+      },
+      "knobbed-hornbill": {
+        "name": "أبو قرن سولاويزي",
+        "localName": "Julang Sulawesi"
+      },
+      "togian-water-monitor": {
+        "name": "الورل التوجياني",
+        "localName": "Biawak Air Togean"
+      },
+      "coconut-crab": {
+        "name": "سرطان جوز الهند",
+        "localName": "Kepiting Kelapa"
+      },
+      "burung-maleo": {
+        "name": "ماليو",
+        "localName": "Burung Maleo"
+      },
+      "togian-boobook": {
+        "name": "بومة توجيان",
+        "localName": "Burung Hantu Togean"
+      }
+    }
   }
 }

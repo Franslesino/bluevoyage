@@ -37,7 +37,9 @@ export default function MobileTripCtaBar({ targetId }: MobileTripCtaBarProps) {
 
     // Handle body padding to prevent content overlap
     useEffect(() => {
-        if (isVisible) {
+        const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+        if (isVisible && isMobile) {
             document.body.classList.add("pb-[84px]");
         } else {
             document.body.classList.remove("pb-[84px]");

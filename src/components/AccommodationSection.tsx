@@ -194,7 +194,7 @@ export default function AccommodationSection() {
     };
 
     return (
-        <section id="accommodation" className="bg-white py-12 md:py-20 lg:py-28">
+        <section id="accommodation" className="bg-white py-12 md:py-20 lg:py-28 scroll-mt-24 md:scroll-mt-28">
             <div className="mx-auto max-w-7xl px-4 md:px-8">
                 {/* Section Header */}
                 <div className="text-center mb-10 md:mb-14 px-4">
