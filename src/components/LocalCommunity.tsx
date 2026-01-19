@@ -22,7 +22,7 @@ import ExploreAllLink from "./ExploreAllLink";
 const localCommunityData = [
     {
         imageSrc: "/local-communityy-1.jpg",
-        title: "Engage with locals and embrace the warmth of Togean people",
+        title: "Engage with locals and embrace the warmth of Togean peopleasdasdaadsa",
         description: [
             "The Togean Islands are more than a tropical escape—they're a gateway to heartfelt connections and timeless traditions. Meet the Bajau 'Sea Gypsies,' who live in harmony with the ocean, and the Pamona and Saluan communities, whose warmth and hospitality make every visitor feel at home. From stilted sea villages to vibrant cultural traditions, the Togean people embody the serenity and authenticity of these remote islands.",
             "Let their stories, smiles, and traditions transform your trip into an unforgettable journey where nature and culture unite in perfect harmony.",
