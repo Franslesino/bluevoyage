@@ -497,23 +497,23 @@
     "items": {
       "pulau-puah": {
         "name": "Pulau Puah",
-        "description": "Eine abgelegene Insel, die absolute Ruhe, unberührte weiße Sandstrände und blühende Korallenriffe abseits der Massen bietet."
+        "description": "Eine abgeschiedene Insel mit absoluter Ruhe, unberührten weißen Sandstränden und blühenden Korallenriffen fernab der Menschenmassen."
       },
       "malenge": {
         "name": "Malenge",
-        "description": "Ein tropisches Paradies aus dichten Dschungeln und unberührten Stränden, Heimat der faszinierenden Bajo-Seenomaden-Kultur."
+        "description": "Ein tropisches Paradies aus dichten Dschungeln und unberührten Stränden, Heimat der faszinierenden Bajo-Seezigeunerkultur."
       },
       "waleakodi": {
         "name": "Walea Kodi",
-        "description": "Ein isoliertes Versteck mit unberührten Korallenriffen und umweltfreundlichen Resorts, perfekt für ein privates Robinson-Erlebnis."
+        "description": "Ein isolierter Rückzugsort mit unberührten Korallenriffen und umweltfreundlichen Resorts, perfekt für ein privates Gestrandeter-Erlebnis."
       },
       "una-una": {
         "name": "Una Una",
-        "description": "Ein vulkanisches Juwel mit einzigartigem schwarzem Sand und nährstoffreichen Gewässern voller spektakulärem Meeresleben."
+        "description": "Ein vulkanisches Juwel mit einzigartigem schwarzen Sand und nährstoffreichen Gewässern voller spektakulärem Meeresleben."
       },
       "kadidiri": {
         "name": "Kadidiri",
-        "description": "Das Reisezentrum der Togeans mit pudrigen weißen Stränden, lebhaften Hausriffen und freundlicher Atmosphäre."
+        "description": "Das Reisezentrum der Togeans mit pudrigen weißen Stränden, lebhaften Hausriffen und einer freundlichen Atmosphäre."
       },
       "bomba": {
         "name": "Bomba",
@@ -680,5 +680,35 @@
     "destinationsDescription": "Erkunden Sie Signature-Reiseziele im Togean-Archipel. Von abgelegenen Stränden bis zu lebhaften Korallenriffen.",
     "programsTitle": "Programme - Togean Voyage",
     "programsDescription": "Kuratierte Reiseprogramme und Aktivitäten auf den Togean-Inseln."
+  },
+  "destinationDetail": {
+    "backToDestinations": "Zurück zu Reiseziele",
+    "whyItMatters": "Warum es wichtig ist",
+    "signatureExperiences": "Signature-Erlebnisse",
+    "curatedFor": "Kuratiert für",
+    "theSignatureMoment": "Der Signature-Moment",
+    "textureDetail": "Textur & Detail",
+    "atmosphereMood": "Atmosphäre & Stimmung",
+    "routePlanning": "Routenplanung",
+    "idealTiming": "Idealer Zeitpunkt",
+    "suggestedDuration": "Empfohlene Dauer",
+    "pairsWellWith": "Passt gut zu",
+    "notes": "Hinweise",
+    "practicalities": "Praktisches",
+    "makeItPartOfRoute": "Machen Sie es Teil Ihrer Route",
+    "bookNow": "Jetzt buchen",
+    "seeAllDestinations": "Alle Reiseziele ansehen"
+  },
+  "wildlifeDetail": {
+    "comingSoonText": "Weitere Details über {{name}} und wo man sie in Togean finden kann, folgen in Kürze.",
+    "backToWildlife": "Zurück zur Tierwelt",
+    "backToSeaWildlife": "Zurück zu Meereswildtieren",
+    "backToLandWildlife": "Zurück zu Landwildtieren",
+    "backToWildlifeGallery": "Zurück zur Tierwelt-Galerie",
+    "whereYouMightSeeIt": "Wo Sie es sehen könnten",
+    "howToSpotIt": "Wie man es erkennt",
+    "responsibleGuidelines": "Verantwortungsvolle Begegnungsrichtlinien",
+    "gallery": "Galerie",
+    "conservationStatus": "Schutzstatus"
   }
 }
