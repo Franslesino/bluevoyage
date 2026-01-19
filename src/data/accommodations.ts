@@ -33,7 +33,7 @@ export const accommodations: GuestHouse[] = [
         island: "Malenge",
         slug: "malenge",
         guestHouseName: "The Cliff dibe resort",
-        shortDescription: "Perched on the cliffs of Malenge, offering breathtaking views and serene isolation.",
+        shortDescription: "A cliffside resort on Malenge Island with panoramic ocean views, a pristine white-sand beach, lush rainforest backdrop, and an on-site dive center, ideal for both diving and serene tropical relaxation.",
         rooms: [
             {
                 id: "deluxe-bungalow-ac",
@@ -94,7 +94,7 @@ export const accommodations: GuestHouse[] = [
         island: "Una-una",
         slug: "una-una",
         guestHouseName: "Pristine",
-        shortDescription: "A pristine getaway on Una-una, perfect for divers and nature lovers seeking tranquility.",
+        shortDescription: "A beachfront PADI dive resort on remote Una Una Island with cozy wooden bungalows, ocean-view hammocks, and access to top Togean dive sites, plus all-inclusive meals and a calm, off-the-grid atmosphere.",
         rooms: [
             {
                 id: "standard-room",
@@ -149,7 +149,7 @@ export const accommodations: GuestHouse[] = [
         island: "Kadidiri",
         slug: "kadidiri",
         guestHouseName: "Kadidiri Paradise",
-        shortDescription: "Experience the paradise of Kadidiri with vibrant coral reefs right at your doorstep.",
+        shortDescription: "A laid-back resort with rustic beachfront bungalows and a colorful house reef just off the jetty, perfect for snorkeling, diving, kayaking, and enjoying a simple barefoot island stay.",
         rooms: [
             {
                 id: "superior-double-twin",
@@ -208,7 +208,7 @@ export const accommodations: GuestHouse[] = [
         island: "Bomba",
         slug: "bomba",
         guestHouseName: "Poya Lisa",
-        shortDescription: "An intimate island retreat in Bomba, offering private bungalows and crystal clear waters.",
+        shortDescription: "A quiet private-island retreat near Bomba Village with seafront cottages over clear water, great coral reef snorkeling, fresh seafood, and an unhurried, nature-first island experience.",
         rooms: [
             {
                 id: "deluxe-bungalow",
@@ -257,7 +257,7 @@ export const accommodations: GuestHouse[] = [
         island: "Luwuk",
         slug: "luwuk",
         guestHouseName: "Estrella",
-        shortDescription: "Luxury and comfort in Luwuk, featuring modern amenities and stunning garden views.",
+        shortDescription: "A modern 4-star hotel in Luwuk with comfortable rooms, conference spaces, two outdoor pools, spa, gym, and on-site dining, combining resort-style facilities with easy access to town and bay views.",
         rooms: [
             {
                 id: "double-bed",

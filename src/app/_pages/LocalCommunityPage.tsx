@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import Image from "next/image";
 import BackLink from "@/components/BackLink";
 import Navbar from "@/components/Navbar";
@@ -7,32 +8,24 @@ import FooterSection from "@/components/FooterSection";
 import ZigzagScrollSections, { ZigzagItem } from "@/components/ZigzagScrollSections";
 import { useTranslation } from "@/components/I18nProvider";
 
-const localCommunityItems: ZigzagItem[] = [
+const localCommunityItemsData = [
     {
         id: "village-walks",
-        title: "Basket Balancing, Morning Smiles",
-        body: "Walk the village paths as neighbors carry harvest and household goods with ease. Say hello, share a laugh, and glimpse the rhythm of island mornings where work and warmth travel together.",
         imageSrc: "/local-community/gambarpertamax.webp",
         imageAlt: "Village walks and interactions in Togean",
     },
     {
         id: "sea-gypsy",
-        title: "Harbor Fish Market Buzz",
-        body: "Step into the waterfront market where today's catch becomes tonight's dinner. Watch friendly bargaining, learn fish names, and meet fishers and sellers who keep coastal life lively and connected.",
         imageSrc: "/local-community/gambarkeduax.webp",
         imageAlt: "Bajau sea gypsy culture and boats",
     },
     {
         id: "shared-meals",
-        title: "Island Boat Rides, Shared Laughs",
-        body: "Cruise between reefs and villages with local boat crews and fellow travelers. Swap stories, snap a quick photo, and feel how shared ocean time turns strangers into a small team.",
         imageSrc: "/local-community/gambarketigax.webp",
         imageAlt: "Shared meal with locals",
     },
     {
         id: "respectful-photos",
-        title: "Weaving Circles and Community Pride",
-        body: "Sit with women artisans as they stitch bold textiles by hand while children giggle nearby. Learn the meaning of patterns, support local livelihoods, and leave with a story you can wear.",
         imageSrc: "/local-community/gambarkeempatx.webp",
         imageAlt: "Respectful photography and connection",
     },
@@ -40,6 +33,16 @@ const localCommunityItems: ZigzagItem[] = [
 
 export default function LocalCommunityPage() {
     const { t } = useTranslation();
+
+    const localCommunityItems: ZigzagItem[] = useMemo(() => 
+        localCommunityItemsData.map(item => ({
+            id: item.id,
+            title: t(`localCommunityPage.items.${item.id}.title`),
+            body: t(`localCommunityPage.items.${item.id}.body`),
+            imageSrc: item.imageSrc,
+            imageAlt: item.imageAlt,
+        }))
+    , [t]);
 
     return (
         <div className="bg-white min-h-screen text-neutral-900 flex flex-col">

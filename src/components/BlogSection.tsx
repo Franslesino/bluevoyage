@@ -7,6 +7,13 @@ import { blogPosts } from "@/data/blogPosts";
 import LocaleLink from "./LocaleLink";
 import { useTranslation } from "./I18nProvider";
 
+// Blog post keys for translation
+const blogPostKeys = [
+    "responsible-wildlife-encounters",
+    "best-snorkeling-spots",
+    "village-visit-etiquette"
+];
+
 // --- Helper: Truncate Excerpt ---
 function truncateExcerpt(text: string, maxWords: number = 23): string {
     const words = text.trim().split(/\s+/);
@@ -59,108 +66,118 @@ export default function BlogSection() {
 
                 {/* Desktop Grid */}
                 <div className="hidden md:grid grid-cols-3 divide-x divide-gray-200">
-                    {blogPosts.map((post, idx) => (
-                        <div key={post.slug} className={`group flex flex-col h-full ${idx === 0 ? 'pr-8' : idx === 1 ? 'px-8' : 'pl-8'}`}>
-                            <LocaleLink href={`/blog/${post.slug}`} className="block relative aspect-[3/2] overflow-hidden rounded-sm bg-neutral-100 mb-6">
-                                <Image
-                                    src={post.image}
-                                    alt={post.title}
-                                    fill
-                                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                                />
-                            </LocaleLink>
+                    {blogPostKeys.map((postKey, idx) => {
+                        const post = blogPosts.find(p => p.slug === postKey);
+                        if (!post) return null;
 
-                            <div className="flex flex-col flex-grow">
-                                <div className="font-avenir text-xs text-neutral-400 uppercase tracking-widest mb-3">
-                                    {post.locationLabel} | {post.date} | {post.category}
-                                </div>
-
-                                <LocaleLink href={`/blog/${post.slug}`} className="block">
-                                    <h3 className="font-canto text-2xl text-neutral-900 leading-tight mb-4 group-hover:underline underline-offset-4 decoration-neutral-300 transition-all">
-                                        {post.title}
-                                    </h3>
+                        return (
+                            <div key={postKey} className={`group flex flex-col h-full ${idx === 0 ? 'pr-8' : idx === 1 ? 'px-8' : 'pl-8'}`}>
+                                <LocaleLink href={`/blog/${post.slug}`} className="block relative aspect-[3/2] overflow-hidden rounded-sm bg-neutral-100 mb-6">
+                                    <Image
+                                        src={post.image}
+                                        alt={t(`blogPosts.${postKey}.title`)}
+                                        fill
+                                        className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                                    />
                                 </LocaleLink>
 
-                                <p className="font-avenir text-sm text-neutral-600 leading-relaxed mb-6 flex-grow">
-                                    {truncateExcerpt(post.excerpt)}
-                                </p>
+                                <div className="flex flex-col flex-grow">
+                                    <div className="font-avenir text-xs text-neutral-400 uppercase tracking-widest mb-3">
+                                        {t(`blogPosts.${postKey}.locationLabel`)} | {t(`blogPosts.${postKey}.date`)} | {t(`blogPosts.${postKey}.category`)}
+                                    </div>
 
-                                <div className="mt-auto flex justify-end">
-                                    <LocaleLink
-                                        href={`/blog/${post.slug}`}
-                                        className="font-avenir inline-flex items-center text-xs uppercase tracking-[0.15em] border-b border-transparent hover:border-neutral-900 pb-0.5 transition-colors"
-                                    >
-                                        {t("blog.readMore")}
-                                        <svg
-                                            className="w-3 h-3 ml-2"
-                                            fill="none"
-                                            stroke="currentColor"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={1.5}
-                                                d="M17 8l4 4m0 0l-4 4m4-4H3"
-                                            />
-                                        </svg>
+                                    <LocaleLink href={`/blog/${post.slug}`} className="block">
+                                        <h3 className="font-canto text-2xl text-neutral-900 leading-tight mb-4 group-hover:underline underline-offset-4 decoration-neutral-300 transition-all">
+                                            {t(`blogPosts.${postKey}.title`)}
+                                        </h3>
                                     </LocaleLink>
+
+                                    <p className="font-avenir text-sm text-neutral-600 leading-relaxed mb-6 flex-grow">
+                                        {truncateExcerpt(t(`blogPosts.${postKey}.excerpt`))}
+                                    </p>
+
+                                    <div className="mt-auto flex justify-end">
+                                        <LocaleLink
+                                            href={`/blog/${post.slug}`}
+                                            className="font-avenir inline-flex items-center text-xs uppercase tracking-[0.15em] border-b border-transparent hover:border-neutral-900 pb-0.5 transition-colors"
+                                        >
+                                            {t("blog.readMore")}
+                                            <svg
+                                                className="w-3 h-3 ml-2"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    strokeWidth={1.5}
+                                                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                                                />
+                                            </svg>
+                                        </LocaleLink>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        );
+                    })}
                 </div>
 
                 {/* Mobile Carousel */}
                 <div className="md:hidden">
-                    <div className="overflow-hidden" ref={emblaRef}>
+                    <div className="overflow-hidden" ref={emblaRef} dir="ltr" style={{ direction: "ltr" }}>
                         <div className="flex touch-pan-y">
-                            {blogPosts.map((post) => (
-                                <div key={post.slug} className="flex-[0_0_100%] min-w-0 pl-4 pr-4">
-                                    <div className="flex flex-col h-full">
-                                        <LocaleLink href={`/blog/${post.slug}`} className="block overflow-hidden mb-6 relative aspect-[3/2] w-full">
-                                            <Image
-                                                src={post.image}
-                                                alt={post.title}
-                                                fill
-                                                className="object-cover"
-                                            />
-                                        </LocaleLink>
-                                        <div className="font-avenir text-xs text-gray-500 uppercase tracking-widest mb-3">
-                                            {post.locationLabel} | {post.date} | {post.category}
-                                        </div>
-                                        <LocaleLink href={`/blog/${post.slug}`} className="block">
-                                            <h3 className="font-canto text-2xl leading-tight mb-3 line-clamp-3">
-                                                {post.title}
-                                            </h3>
-                                        </LocaleLink>
-                                        <p className="font-avenir text-sm leading-relaxed text-gray-800 mb-6">
-                                            {truncateExcerpt(post.excerpt)}
-                                        </p>
-                                        <div className="mt-auto flex justify-end">
-                                            <LocaleLink
-                                                href={`/blog/${post.slug}`}
-                                                className="font-avenir inline-flex items-center text-xs uppercase tracking-[0.15em] border-b border-transparent pb-0.5"
-                                            >
-                                                {t("blog.readMore")}
-                                                <svg
-                                                    className="w-3 h-3 ml-2"
-                                                    fill="none"
-                                                    stroke="currentColor"
-                                                    viewBox="0 0 24 24"
-                                                >
-                                                    <path
-                                                        strokeLinecap="round"
-                                                        strokeLinejoin="round"
-                                                        strokeWidth={1.5}
-                                                        d="M17 8l4 4m0 0l-4 4m4-4H3"
-                                                    />
-                                                </svg>
+                            {blogPostKeys.map((postKey) => {
+                                const post = blogPosts.find(p => p.slug === postKey);
+                                if (!post) return null;
+
+                                return (
+                                    <div key={postKey} className="flex-[0_0_100%] min-w-0 pl-4 pr-4">
+                                        <div className="flex flex-col h-full">
+                                            <LocaleLink href={`/blog/${post.slug}`} className="block overflow-hidden mb-6 relative aspect-[3/2] w-full">
+                                                <Image
+                                                    src={post.image}
+                                                    alt={t(`blogPosts.${postKey}.title`)}
+                                                    fill
+                                                    className="object-cover"
+                                                />
                                             </LocaleLink>
+                                            <div className="font-avenir text-xs text-gray-500 uppercase tracking-widest mb-3">
+                                                {t(`blogPosts.${postKey}.locationLabel`)} | {t(`blogPosts.${postKey}.date`)} | {t(`blogPosts.${postKey}.category`)}
+                                            </div>
+                                            <LocaleLink href={`/blog/${post.slug}`} className="block">
+                                                <h3 className="font-canto text-2xl leading-tight mb-3 line-clamp-3">
+                                                    {t(`blogPosts.${postKey}.title`)}
+                                                </h3>
+                                            </LocaleLink>
+                                            <p className="font-avenir text-sm leading-relaxed text-gray-800 mb-6">
+                                                {truncateExcerpt(t(`blogPosts.${postKey}.excerpt`))}
+                                            </p>
+                                            <div className="mt-auto flex justify-end">
+                                                <LocaleLink
+                                                    href={`/blog/${post.slug}`}
+                                                    className="font-avenir inline-flex items-center text-xs uppercase tracking-[0.15em] border-b border-transparent pb-0.5"
+                                                >
+                                                    {t("blog.readMore")}
+                                                    <svg
+                                                        className="w-3 h-3 ml-2"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        viewBox="0 0 24 24"
+                                                    >
+                                                        <path
+                                                            strokeLinecap="round"
+                                                            strokeLinejoin="round"
+                                                            strokeWidth={1.5}
+                                                            d="M17 8l4 4m0 0l-4 4m4-4H3"
+                                                        />
+                                                    </svg>
+                                                </LocaleLink>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            ))}
+                                );
+                            })}
                         </div>
                     </div>
 

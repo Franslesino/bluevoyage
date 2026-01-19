@@ -15,41 +15,29 @@ import useEmblaCarousel from "embla-carousel-react";
 import LocaleLink from "./LocaleLink";
 import { useTranslation } from "./I18nProvider";
 
-const wildlifeData = [
+const wildlifeDataKeys = [
     {
-        name: "Monyet Togean",
-        scientific: "Macaca tonkeana togeanus",
-        description: "Endemic island macaque, curious forest forager.",
+        key: "togean-monkey",
         image: "/wildlife_real/land/togian-monkey/hero.webp",
     },
     {
-        name: "Babirusa Togean",
-        scientific: "Babyrousa togeanensis",
-        description: "Rare tusked pig, shy in dense forest.",
+        key: "togean-babirusa",
         image: "/wildlife_real/land/togean-babirusa/hero.webp",
     },
     {
-        name: "Togean Golden Bulbul",
-        scientific: "Hypsipetes aureus",
-        description: "Golden-feathered songbird, endemic canopy resident.",
+        key: "togean-golden-bulbul",
         image: "/wildlife-bulbul.webp",
     },
     {
-        name: "Kima Raksasa",
-        scientific: "Tridacna spp.",
-        description: "Protected reef giant, vibrant mantle filters water.",
+        key: "giant-clam",
         image: "/wildlife_real/sea/giant-clam/hero.webp",
     },
     {
-        name: "Biawak Togean",
-        scientific: "Varanus togianus",
-        description: "Large island monitor, basks near mangroves.",
+        key: "togean-water-monitor",
         image: "/wildlife_real/land/togian-water-monitor/hero.webp",
     },
     {
-        name: "Tarsius Togean",
-        scientific: "Tarsius niemitzi",
-        description: "Nocturnal big-eyed tarsier, best seen at night.",
+        key: "togean-tarsier",
         image: "/wildlife_real/land/togean-tarsier/hero.webp",
     },
 ];
@@ -109,10 +97,10 @@ export default function WildlifeCarousel() {
 
                     {/* Right Column: Carousel */}
                     <div className="w-full lg:w-2/3 relative order-2">
-                        {/* Carousel Wrapper */}
-                        <div className="overflow-hidden" ref={emblaRef}>
+                        {/* Carousel Wrapper - Force LTR for carousel */}
+                        <div className="overflow-hidden" ref={emblaRef} dir="ltr" style={{ direction: "ltr" }}>
                             <div className="flex touch-pan-y -ml-4">
-                                {wildlifeData.map((item, index) => (
+                                {wildlifeDataKeys.map((item, index) => (
                                     <div
                                         key={index}
                                         className="flex-[0_0_85%] md:flex-[0_0_26%] min-w-0 pl-4 relative"
@@ -120,7 +108,7 @@ export default function WildlifeCarousel() {
                                         <div className="relative aspect-[3/5] md:aspect-[3/5] overflow-hidden group/card bg-neutral-800 rounded-sm">
                                             <Image
                                                 src={item.image}
-                                                alt={item.name}
+                                                alt={t(`wildlifeCarousel.${item.key}.name`)}
                                                 fill
                                                 className="object-cover transition-transform duration-700 ease-out group-hover/card:scale-110"
                                                 sizes="(max-width: 768px) 85vw, 25vw"
@@ -131,10 +119,10 @@ export default function WildlifeCarousel() {
                                             {/* Text Content */}
                                             <div className="absolute inset-x-0 bottom-0 p-6 pointer-events-none">
                                                 <h3 className="font-canto font-bold text-white text-2xl mb-1 leading-tight text-left">
-                                                    {item.name}
+                                                    {t(`wildlifeCarousel.${item.key}.name`)}
                                                 </h3>
                                                 <p className="font-avenir text-sm text-white/80 leading-snug text-left max-w-[90%]">
-                                                    {item.description}
+                                                    {t(`wildlifeCarousel.${item.key}.description`)}
                                                 </p>
                                             </div>
                                         </div>
@@ -170,8 +158,8 @@ export default function WildlifeCarousel() {
                                     key={index}
                                     onClick={() => scrollTo(index)}
                                     className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${index === selectedIndex
-                                            ? "bg-white scale-110"
-                                            : "bg-gray-600 hover:bg-gray-500"
+                                        ? "bg-white scale-110"
+                                        : "bg-gray-600 hover:bg-gray-500"
                                         }`}
                                     aria-label={`Go to slide ${index + 1}`}
                                 />

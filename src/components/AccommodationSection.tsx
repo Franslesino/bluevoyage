@@ -10,24 +10,24 @@ import { useTranslation } from "./I18nProvider";
 
 const slidesData = [
     {
-        titleKey: "accommodation.slides.pulatPuat.title",
-        descriptionKey: "accommodation.slides.pulatPuat.description",
-        image: "/accommodation/accommodation-pulau-puat.webp",
+        titleKey: "accommodation.slides.malenge.title",
+        descriptionKey: "accommodation.slides.malenge.description",
+        image: "/accommodation/malenge/other1.webp",
     },
     {
-        titleKey: "accommodation.slides.malengue.title",
-        descriptionKey: "accommodation.slides.malengue.description",
-        image: "/accommodation/accommodation-malengue.webp",
-    },
-    {
-        titleKey: "accommodation.slides.waleaKodi.title",
-        descriptionKey: "accommodation.slides.waleaKodi.description",
-        image: "/accommodation/accommodation-walea-kodi.webp",
+        titleKey: "accommodation.slides.kadidiri.title",
+        descriptionKey: "accommodation.slides.kadidiri.description",
+        image: "/accommodation/kadidiri/other1.webp",
     },
     {
         titleKey: "accommodation.slides.unaUna.title",
         descriptionKey: "accommodation.slides.unaUna.description",
-        image: "/accommodation/accommodation-una-una.webp",
+        image: "/accommodation/una-una/other1.webp",
+    },
+    {
+        titleKey: "accommodation.slides.luwuk.title",
+        descriptionKey: "accommodation.slides.luwuk.description",
+        image: "/accommodation/Luwuk/other1.webp",
     },
 ];
 
@@ -135,7 +135,7 @@ function AccordionItem({
 
 export default function AccommodationSection() {
     const { t } = useTranslation();
-    
+
     // --- Desktop Carousel State ---
     const [desktopRef, desktopApi] = useEmblaCarousel({
         loop: true,
@@ -230,7 +230,7 @@ export default function AccommodationSection() {
                 <div className="hidden md:grid grid-cols-2 gap-8 lg:gap-12">
                     {/* Left Column: Carousel */}
                     <div className="relative h-[600px] lg:h-[750px] group">
-                        <div className="overflow-hidden h-full rounded-sm" ref={desktopRef}>
+                        <div className="overflow-hidden h-full rounded-sm" ref={desktopRef} dir="ltr" style={{ direction: "ltr" }}>
                             <div className="flex h-full touch-pan-y">
                                 {slidesData.map((slide, idx) => (
                                     <div key={idx} className="flex-[0_0_100%] min-w-0 relative h-full">
@@ -307,7 +307,7 @@ export default function AccommodationSection() {
                 <div className="md:hidden">
                     {/* Carousel on Top */}
                     <div className="relative aspect-[4/3] w-full mb-8 rounded-sm overflow-hidden text-white">
-                        <div className="overflow-hidden h-full" ref={mobileRef}>
+                        <div className="overflow-hidden h-full" ref={mobileRef} dir="ltr" style={{ direction: "ltr" }}>
                             <div className="flex h-full touch-pan-y">
                                 {slidesData.map((slide, idx) => (
                                     <div key={idx} className="flex-[0_0_100%] min-w-0 relative h-full">

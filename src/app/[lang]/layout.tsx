@@ -19,19 +19,20 @@ export default function LocaleLayout({
     params: Promise<{ lang: string }>;
 }) {
     const { lang } = use(params);
-    
+
     // Validate locale - only de and fr are valid here
     if (!SUPPORTED_LOCALES.includes(lang as typeof SUPPORTED_LOCALES[number])) {
         notFound();
     }
-    
+
     const locale = lang as Locale;
-    
+
     // Set lang attribute on html element
     useEffect(() => {
         document.documentElement.lang = locale;
+        document.documentElement.dir = locale === "ar" ? "rtl" : "ltr";
     }, [locale]);
-    
+
     return (
         <I18nProvider locale={locale}>
             {children}

@@ -16,12 +16,13 @@ export default function EnglishLayout({
     children: React.ReactNode;
 }) {
     const locale: Locale = "en";
-    
+
     // Set lang attribute on html element
     useEffect(() => {
         document.documentElement.lang = locale;
+        document.documentElement.dir = "ltr";
     }, [locale]);
-    
+
     return (
         <I18nProvider locale={locale}>
             {children}

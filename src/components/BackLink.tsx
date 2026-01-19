@@ -1,4 +1,4 @@
-import Link from "next/link";
+import LocaleLink from "./LocaleLink";
 import React from "react";
 
 interface BackLinkProps {
@@ -14,7 +14,7 @@ export default function BackLink({ href, label, variant = "dark", className = ""
         : "text-white hover:text-white/80";
 
     return (
-        <Link
+        <LocaleLink
             href={href}
             className={`inline-flex items-center gap-2 text-sm uppercase tracking-widest font-avenir transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6b4c3b]/30 ${colorClasses} ${className}`}
         >
@@ -32,6 +32,6 @@ export default function BackLink({ href, label, variant = "dark", className = ""
                 />
             </svg>
             {label}
-        </Link>
+        </LocaleLink>
     );
 }
