@@ -494,31 +494,31 @@
     "items": {
       "pulau-puah": {
         "name": "풀라우 푸아",
-        "description": "절대적인 평온함, 손대지 않은 백사장 해변, 그리고 인파에서 멀리 떨어진 번성하는 산호초를 제공하는 외딴 섬."
+        "description": "인파에서 멀리 떨어진 절대적인 평온함, 손대지 않은 백사장, 번성하는 산호초를 제공하는 외딴 섬."
       },
       "malenge": {
         "name": "말렝게",
-        "description": "울창한 정글과 손대지 않은 해변의 열대 낙원, 매혹적인 바자우 해상 유목민 문화의 본고장."
+        "description": "울창한 정글과 손대지 않은 해변이 있는 열대 낙원, 매혹적인 바조 해상 집시 문화의 고향."
       },
       "waleakodi": {
         "name": "왈레아 코디",
-        "description": "깨끗한 산호초와 친환경 리조트가 있는 고립된 은신처, 개인적인 무인도 경험에 완벽."
+        "description": "순수한 산호초와 친환경 리조트가 있는 고립된 은신처, 개인 표류 경험에 완벽."
       },
       "una-una": {
-        "name": "우나우나",
-        "description": "독특한 검은 모래와 장관의 해양 생물로 가득한 영양분이 풍부한 바다를 가진 화산의 보석."
+        "name": "우나 우나",
+        "description": "독특한 검은 모래와 장관을 이루는 해양 생물로 가득한 영양이 풍부한 바다를 가진 화산 보석."
       },
       "kadidiri": {
         "name": "카디디리",
-        "description": "토기안의 여행 허브, 가루 같은 흰 모래 해변, 생동감 넘치는 하우스 리프, 친근한 분위기가 특징."
+        "description": "분말 같은 백사장, 활기찬 하우스 리프, 친근한 분위기를 특징으로 하는 토게안의 여행 허브."
       },
       "bomba": {
         "name": "봄바",
-        "description": "목가적인 해변, 맹그로브 숲, 그리고 만 위로 영광스러운 일몰이 있는 조용한 남쪽 휴식처."
+        "description": "목가적인 해변, 맹그로브 숲, 만 위로 지는 영광스러운 일몰이 있는 조용한 남부 은신처."
       },
       "luwuk": {
         "name": "루욱",
-        "description": "토기안으로 가는 경치 좋은 본토 관문, 섬 모험 전에 극적인 해안 전망과 현대적인 편의시설 제공."
+        "description": "섬 모험 전에 극적인 해안 전망과 현대적 편의 시설을 제공하는 토게안으로 가는 그림 같은 본토 관문."
       }
     }
   },
@@ -677,5 +677,35 @@
     "destinationsDescription": "토기안 군도의 시그니처 여행지를 탐험하세요. 한적한 해변부터 생동감 넘치는 산호초까지.",
     "programsTitle": "프로그램 - 토기안 보야지",
     "programsDescription": "토기안 제도의 큐레이션 여행 프로그램과 활동."
+  },
+  "destinationDetail": {
+    "backToDestinations": "목적지로 돌아가기",
+    "whyItMatters": "왜 중요한가",
+    "signatureExperiences": "시그니처 체험",
+    "curatedFor": "큐레이션",
+    "theSignatureMoment": "시그니처 모먼트",
+    "textureDetail": "텍스처와 디테일",
+    "atmosphereMood": "분위기와 무드",
+    "routePlanning": "루트 계획",
+    "idealTiming": "이상적인 시기",
+    "suggestedDuration": "권장 기간",
+    "pairsWellWith": "잘 어울리는",
+    "notes": "참고",
+    "practicalities": "실용적 정보",
+    "makeItPartOfRoute": "여행 루트에 추가하세요",
+    "bookNow": "지금 예약",
+    "seeAllDestinations": "모든 목적지 보기"
+  },
+  "wildlifeDetail": {
+    "comingSoonText": "{{name}}에 대한 자세한 정보와 토게안에서 찾을 수 있는 장소는 곧 제공될 예정입니다.",
+    "backToWildlife": "야생동물로 돌아가기",
+    "backToSeaWildlife": "해양 야생동물로 돌아가기",
+    "backToLandWildlife": "육지 야생동물로 돌아가기",
+    "backToWildlifeGallery": "야생동물 갤러리로 돌아가기",
+    "whereYouMightSeeIt": "볼 수 있는 곳",
+    "howToSpotIt": "발견하는 방법",
+    "responsibleGuidelines": "책임감 있는 만남 가이드라인",
+    "gallery": "갤러리",
+    "conservationStatus": "보존 상태"
   }
 }

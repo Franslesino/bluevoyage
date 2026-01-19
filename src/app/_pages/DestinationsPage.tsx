@@ -10,7 +10,7 @@ import { useTranslation } from "@/components/I18nProvider";
 
 export default function DestinationsPage() {
     const { t } = useTranslation();
-    
+
     return (
         <>
             <Navbar />
@@ -44,7 +44,7 @@ export default function DestinationsPage() {
                                         <LocaleLink href={`/destinations/${destination.slug}`} className="block h-full w-full cursor-pointer">
                                             <Image
                                                 src={destination.image}
-                                                alt={destination.name}
+                                                alt={t(`destinations.items.${destination.slug}.name`) || destination.name}
                                                 fill
                                                 className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                                                 priority={index < 2}
@@ -57,11 +57,11 @@ export default function DestinationsPage() {
                                     <div className="flex flex-col">
                                         <LocaleLink href={`/destinations/${destination.slug}`} className="block cursor-pointer">
                                             <h2 className="font-canto text-3xl md:text-4xl lg:text-5xl text-neutral-900 mb-4 md:mb-6 group-hover:text-[#6b4c3b] transition-colors">
-                                                {destination.name}
+                                                {t(`destinations.items.${destination.slug}.name`) || destination.name}
                                             </h2>
                                         </LocaleLink>
                                         <p className="font-avenir text-neutral-600 text-base md:text-lg leading-relaxed max-w-2xl mb-6 md:mb-8">
-                                            {destination.description}
+                                            {t(`destinations.items.${destination.slug}.description`) || destination.description}
                                         </p>
                                         <LocaleLink
                                             href={`/destinations/${destination.slug}`}

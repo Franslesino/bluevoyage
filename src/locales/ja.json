@@ -494,31 +494,31 @@
     "items": {
       "pulau-puah": {
         "name": "プラウ・プア",
-        "description": "絶対的な静けさ、手つかずの白砂のビーチ、人混みから離れた繁栄するコーラルリーフを提供する隠れた島。"
+        "description": "人混みから離れた、手つかずの白砂のビーチと繁栄するサンゴ礁を持つ、絶対的な静けさを提供する隠れた島。"
       },
       "malenge": {
         "name": "マレンゲ",
-        "description": "密集したジャングルと手つかずのビーチのトロピカルパラダイス、魅力的なバジャウ海上遊牧民文化の故郷。"
+        "description": "密集したジャングルと手つかずのビーチを持つ熱帯の楽園、魅力的なバジョ海のジプシー文化の故郷。"
       },
       "waleakodi": {
         "name": "ワレア・コディ",
-        "description": "原始的なコーラルリーフとエコフレンドリーなリゾートを備えた孤立した隠れ家、プライベートな漂流者体験に最適。"
+        "description": "手つかずのサンゴ礁とエコフレンドリーなリゾートを持つ孤立した隠れ家、プライベートな漂流体験に最適。"
       },
       "una-una": {
         "name": "ウナ・ウナ",
-        "description": "ユニークな黒砂と壮観な海洋生物であふれる栄養豊富な水域を持つ火山の宝石。"
+        "description": "ユニークな黒砂と栄養豊富な水域を持ち、壮大な海洋生物で溢れる火山の宝石。"
       },
       "kadidiri": {
         "name": "カディディリ",
-        "description": "パウダー状の白いビーチ、活気あるハウスリーフ、フレンドリーな雰囲気を備えたトゲアンの旅行ハブ。"
+        "description": "パウダー状の白いビーチ、活気あるハウスリーフ、フレンドリーな雰囲気を特徴とするトゲアンの旅行ハブ。"
       },
       "bomba": {
         "name": "ボンバ",
-        "description": "のどかなビーチ、マングローブ林、湾に沈む壮大な夕日のある静かな南部の隠れ家。"
+        "description": "牧歌的なビーチ、マングローブの森、湾に沈む素晴らしい夕日を持つ静かな南部の隠れ家。"
       },
       "luwuk": {
         "name": "ルウク",
-        "description": "トゲアンへの風光明媚な本土の玄関口、島の冒険の前にドラマチックな海岸の眺めと現代的な便利さを提供。"
+        "description": "島の冒険の前に、ドラマチックな海岸の景色と現代的な便利さを提供する、トゲアンへの風光明媚な本土の玄関口。"
       }
     }
   },
@@ -677,5 +677,35 @@
     "destinationsDescription": "トゲアン諸島のシグネチャー目的地を探索。隠れたビーチから鮮やかなコーラルリーフまで。",
     "programsTitle": "プログラム - Togean Voyage",
     "programsDescription": "トゲアン諸島での厳選されたトラベルプログラムとアクティビティ。"
+  },
+  "destinationDetail": {
+    "backToDestinations": "目的地に戻る",
+    "whyItMatters": "なぜ重要なのか",
+    "signatureExperiences": "シグネチャー体験",
+    "curatedFor": "厳選された",
+    "theSignatureMoment": "シグネチャーモーメント",
+    "textureDetail": "テクスチャーとディテール",
+    "atmosphereMood": "雰囲気とムード",
+    "routePlanning": "ルート計画",
+    "idealTiming": "理想的なタイミング",
+    "suggestedDuration": "推奨期間",
+    "pairsWellWith": "相性が良い",
+    "notes": "メモ",
+    "practicalities": "実用的な情報",
+    "makeItPartOfRoute": "あなたのルートに加えましょう",
+    "bookNow": "今すぐ予約",
+    "seeAllDestinations": "すべての目的地を見る"
+  },
+  "wildlifeDetail": {
+    "comingSoonText": "{{name}}の詳細とトゲアンでの発見場所については、近日公開予定です。",
+    "backToWildlife": "野生動物に戻る",
+    "backToSeaWildlife": "海の野生動物に戻る",
+    "backToLandWildlife": "陸の野生動物に戻る",
+    "backToWildlifeGallery": "野生動物ギャラリーに戻る",
+    "whereYouMightSeeIt": "見られる場所",
+    "howToSpotIt": "見つけ方",
+    "responsibleGuidelines": "責任ある遭遇ガイドライン",
+    "gallery": "ギャラリー",
+    "conservationStatus": "保全状況"
   }
 }

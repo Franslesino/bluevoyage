@@ -500,7 +500,7 @@
       },
       "malenge": {
         "name": "Malenge",
-        "description": "Un paraíso tropical de selvas densas y playas vírgenes, hogar de la fascinante cultura gitana del mar Bajo."
+        "description": "Un paraíso tropical de densas selvas y playas vírgenes, hogar de la fascinante cultura de los gitanos del mar Bajo."
       },
       "waleakodi": {
         "name": "Walea Kodi",
@@ -508,15 +508,15 @@
       },
       "una-una": {
         "name": "Una Una",
-        "description": "Una joya volcánica con arenas negras únicas y aguas ricas en nutrientes rebosantes de espectacular vida marina."
+        "description": "Una joya volcánica con arenas negras únicas y aguas ricas en nutrientes repletas de espectacular vida marina."
       },
       "kadidiri": {
         "name": "Kadidiri",
-        "description": "El centro de viajes de los Togeans, con playas de arena blanca polvorienta, vibrantes arrecifes de casa y un ambiente acogedor."
+        "description": "El centro de viajes de los Togeans, con playas de arena blanca, vibrantes arrecifes y un ambiente acogedor."
       },
       "bomba": {
         "name": "Bomba",
-        "description": "Un retiro tranquilo del sur con playas idílicas, bosques de manglares y gloriosos atardeceres sobre la bahía."
+        "description": "Un tranquilo refugio sureño con playas idílicas, bosques de manglares y gloriosos atardeceres sobre la bahía."
       },
       "luwuk": {
         "name": "Luwuk",
@@ -679,5 +679,35 @@
     "destinationsDescription": "Explora destinos exclusivos en el Archipiélago Togean. Desde playas aisladas hasta vibrantes arrecifes de coral.",
     "programsTitle": "Programas - Togean Voyage",
     "programsDescription": "Programas y actividades de viaje curados en las Islas Togean."
+  },
+  "destinationDetail": {
+    "backToDestinations": "Volver a Destinos",
+    "whyItMatters": "Por qué es importante",
+    "signatureExperiences": "Experiencias Signature",
+    "curatedFor": "Seleccionado para",
+    "theSignatureMoment": "El Momento Signature",
+    "textureDetail": "Textura y Detalle",
+    "atmosphereMood": "Atmósfera y Ambiente",
+    "routePlanning": "Planificación de Ruta",
+    "idealTiming": "Momento Ideal",
+    "suggestedDuration": "Duración Sugerida",
+    "pairsWellWith": "Combina bien con",
+    "notes": "Notas",
+    "practicalities": "Aspectos Prácticos",
+    "makeItPartOfRoute": "Hazlo parte de tu ruta",
+    "bookNow": "Reservar Ahora",
+    "seeAllDestinations": "Ver todos los destinos"
+  },
+  "wildlifeDetail": {
+    "comingSoonText": "Más detalles sobre {{name}} y dónde encontrarlos en Togean estarán disponibles pronto.",
+    "backToWildlife": "Volver a Vida Silvestre",
+    "backToSeaWildlife": "Volver a Vida Marina",
+    "backToLandWildlife": "Volver a Vida Terrestre",
+    "backToWildlifeGallery": "Volver a la Galería de Vida Silvestre",
+    "whereYouMightSeeIt": "Dónde podrías verlo",
+    "howToSpotIt": "Cómo identificarlo",
+    "responsibleGuidelines": "Directrices de Encuentro Responsable",
+    "gallery": "Galería",
+    "conservationStatus": "Estado de Conservación"
   }
 }
