@@ -23,7 +23,7 @@ const BoatsHospitalityIntro = () => {
                 {/* Body Text */}
                 <div className="mx-auto mt-8 md:mt-10 max-w-2xl md:max-w-3xl font-avenir text-sm md:text-base leading-relaxed text-neutral-700">
                     <p>
-                        Our boats are crafted with love and designed for your ultimate comfort. With spacious lounging areas, a sunbathing deck, and room for up to 8 guests, you’ll have plenty of space to relax and enjoy the stunning views. Each boat is equipped with a toilet and thoughtfully designed features you won’t find anywhere else.
+                        Our boats are crafted with love, warm, and designed for your ultimate comfort. With spacious lounging areas, a sunbathing deck, and room for up to 8 guests, you’ll have plenty of space to relax and enjoy the stunning views. Each boat is equipped with a toilet and thoughtfully designed features you won’t find anywhere else.
                     </p>
                     <p className="mt-6">
                         What truly sets us apart is our crew. Trained to serve with heart, they ensure every moment of your journey is seamless and memorable, from warm welcomes to attentive care throughout the trip.
