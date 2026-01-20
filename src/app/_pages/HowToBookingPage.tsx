@@ -56,16 +56,16 @@ export default function HowToBookingPage() {
             <main className="flex-grow w-full pt-8 md:pt-12 pb-24 px-4 md:px-8">
                 <div className="max-w-[1200px] mx-auto">
 
-                    {/* Top Section: Back + Title + Booking Cards */}
-                    <div className="flex flex-col md:flex-row gap-8 md:gap-16 lg:gap-24 mb-16 md:mb-24 min-h-[calc(100vh-120px)] md:items-center">
+                    {/* Top Section: Title + Booking Cards */}
+                    <div className="flex flex-col md:flex-row gap-4 md:gap-16 lg:gap-24 mb-16 md:mb-24 min-h-[calc(100vh-180px)]">
 
-                        {/* Left Column: Back + Title + Intro (Vertically Centered on Desktop) */}
-                        <div className="flex-1 md:max-w-xl flex flex-col justify-center">
-                            {/* Back Button - tighter spacing */}
-                            <div className="mb-6 md:mb-8">
+                        {/* Left Column: Back + Title + Intro */}
+                        <div className="flex-1 md:max-w-xl flex flex-col h-full">
+                            {/* Back Button */}
+                            <div className="mb-8 md:mb-0">
                                 <LocaleLink
                                     href="/"
-                                    className="inline-flex items-center gap-2 text-xs md:text-sm uppercase tracking-widest text-neutral-500 hover:text-[#CB9275] transition-colors duration-300"
+                                    className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-neutral-500 hover:text-[#CB9275] transition-colors duration-300"
                                 >
                                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 19l-7-7 7-7m8 14l-7-7 7-7" />
@@ -74,15 +74,17 @@ export default function HowToBookingPage() {
                                 </LocaleLink>
                             </div>
 
-                            <span className="block font-avenir text-xs md:text-sm uppercase tracking-[0.2em] text-[#CB9275] mb-3 md:mb-4">
-                                {t("howToBooking.tagline")}
-                            </span>
-                            <h1 className="font-canto text-4xl md:text-6xl text-neutral-900 mb-4 md:mb-6 leading-tight">
-                                {t("howToBooking.pageTitle")}
-                            </h1>
-                            <p className="font-avenir text-base md:text-xl text-neutral-600 leading-relaxed max-w-lg mb-8 md:mb-0">
-                                {t("howToBooking.pageDescription")}
-                            </p>
+                            <div className="flex-1 flex flex-col justify-center py-0 md:py-0 md:mt-24">
+                                <span className="block font-avenir text-xs md:text-sm uppercase tracking-[0.2em] text-[#CB9275] mb-3 md:mb-4">
+                                    {t("howToBooking.tagline")}
+                                </span>
+                                <h1 className="font-canto text-4xl md:text-7xl lg:text-8xl text-neutral-900 mb-4 md:mb-6 leading-tight">
+                                    {t("howToBooking.pageTitle")}
+                                </h1>
+                                <p className="font-avenir text-base md:text-xl text-neutral-600 leading-relaxed max-w-lg mb-4 md:mb-0">
+                                    {t("howToBooking.pageDescription")}
+                                </p>
+                            </div>
                         </div>
 
                         {/* Right Column: Booking Cards - Visible immediately on mobile */}
