@@ -8,6 +8,20 @@ import { theTogeanOdyssey } from "@/data/journeys/theTogeanOdyssey";
 import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
+import { CONTACT_INFO } from "@/config/contact";
+
+// Helper to create WhatsApp link with prefilled message
+const createWaLink = (intent: string) => {
+    const phoneNumber = "6285282296450"; // Using standard format without + for wa.me links usually, but CONTACT_INFO might match. 
+    // Actually CONTACT_INFO.whatsapp.url is "https://wa.me/6285282296450", so the number is 6285282296450.
+    const message = `Hi TogeanVoyage team! I’m interested in The Togean Odyssey (From 10 Days).
+Intent: ${intent}
+Preferred month: [your month]
+Group size: [your group size]
+Link: /journeys/the-togean-odyssey`;
+
+    return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+};
 
 export default function TheTogeanOdysseyPage() {
     const {
@@ -77,18 +91,20 @@ export default function TheTogeanOdysseyPage() {
                         </p>
 
                         <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
+                            <a
+                                href={createWaLink("Check Availability")}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-8 py-4 bg-[#CB9275] hover:bg-[#B67F63] text-white font-avenir tracking-widest uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[200px]"
+                            >
+                                Chat on WhatsApp
+                            </a>
                             <button
                                 onClick={scrollToItinerary}
-                                className="px-8 py-4 bg-[#CB9275] hover:bg-[#B67F63] text-white font-avenir tracking-widest uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[200px]"
+                                className="px-8 py-4 border border-white text-white hover:bg-white hover:text-black font-avenir tracking-widest uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[200px]"
                             >
                                 View Itinerary
                             </button>
-                            <Link
-                                href="/how-to-book"
-                                className="px-8 py-4 border border-white text-white hover:bg-white hover:text-black font-avenir tracking-widest uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[200px]"
-                            >
-                                Check Availability
-                            </Link>
                         </div>
                     </div>
                 </section>
@@ -296,8 +312,8 @@ export default function TheTogeanOdysseyPage() {
                                         key={tab}
                                         onClick={() => setActiveTab(tab as "villa" | "boat")}
                                         className={`px-8 py-3 rounded-full text-sm font-avenir tracking-widest uppercase transition-all duration-300 ${activeTab === tab
-                                                ? "bg-[#CB9275] text-white shadow-md"
-                                                : "text-foreground/50 hover:text-foreground"
+                                            ? "bg-[#CB9275] text-white shadow-md"
+                                            : "text-foreground/50 hover:text-foreground"
                                             }`}
                                     >
                                         {tab === "villa" ? "Your Villa" : "Your Boat"}
@@ -388,19 +404,21 @@ export default function TheTogeanOdysseyPage() {
                                 </div>
 
                                 <div className="flex flex-col gap-4">
-                                    <Link
-                                        href="/how-to-book"
+                                    <a
+                                        href={createWaLink("Check availability")}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         className="block w-full py-4 bg-[#CB9275] hover:bg-[#B67F63] text-white text-center font-avenir tracking-widest uppercase text-sm transition-all shadow-lg hover:shadow-xl"
                                     >
-                                        Check Availability
-                                    </Link>
+                                        Check availability on WhatsApp
+                                    </a>
                                     <a
-                                        href="https://wa.me/62812345678"
+                                        href={createWaLink("Customize")}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="block w-full py-4 border border-foreground/10 hover:border-[#CB9275] text-foreground hover:text-[#CB9275] text-center font-avenir tracking-widest uppercase text-sm transition-all"
                                     >
-                                        Chat to Customize
+                                        Customize this journey on WhatsApp
                                     </a>
                                 </div>
                             </div>
@@ -444,18 +462,21 @@ export default function TheTogeanOdysseyPage() {
                 </div>
                 <div className="flex gap-2">
                     <a
-                        href="https://wa.me/62812345678"
+                        href={createWaLink("Customize")}
                         target="_blank"
+                        rel="noopener noreferrer"
                         className="px-4 py-3 bg-gray-100 rounded text-foreground text-xs font-bold uppercase tracking-wide"
                     >
                         Chat
                     </a>
-                    <Link
-                        href="/how-to-book"
+                    <a
+                        href={createWaLink("Check availability")}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="px-6 py-3 bg-[#CB9275] rounded text-white text-xs font-bold uppercase tracking-wide shadow-md"
                     >
                         Check
-                    </Link>
+                    </a>
                 </div>
             </div>
         </>
