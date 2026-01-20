@@ -19,6 +19,7 @@ import BlogSection from "@/components/BlogSection";
 import FooterSection from "@/components/FooterSection";
 import MobileTripCtaBar from "@/components/MobileTripCtaBar";
 import HomepageCta from "@/components/HomepageCta";
+import ProgramsSection from "@/components/ProgramsSection";
 import { useHashScroll } from "@/hooks/useHashScroll";
 
 export default function HomePage() {
@@ -28,6 +29,9 @@ export default function HomePage() {
             <Navbar />
             <main>
                 <Hero />
+
+                {/* Programs Section */}
+                <ProgramsSection />
 
                 {/* Destination Section */}
                 <div id="destinations" className="scroll-mt-24 md:scroll-mt-28">
