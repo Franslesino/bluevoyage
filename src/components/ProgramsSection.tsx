@@ -48,17 +48,29 @@ const ProgramsSection = () => {
 
                 {/* Section Header */}
                 <div className="mb-10 md:mb-12 text-center max-w-4xl mx-auto">
-                    <h2 className="font-canto text-4xl md:text-5xl lg:text-5xl text-foreground mb-3 font-normal">
-                        In the spotlight: Signature Programs
+                    <h2 className="font-canto text-3xl md:text-4xl lg:text-5xl text-foreground mb-4 font-normal">
+                        Choose your journey: Signature Programs
                     </h2>
                     <Link
                         href="/journeys/the-togean-odyssey" // Temporary link
-                        className="group inline-flex items-center text-sm font-avenir font-bold text-[#6B4C3B] hover:text-[#6B4C3B] transition-colors uppercase tracking-widest"
+                        className="inline-flex items-center gap-2 text-sm md:text-base uppercase tracking-wider font-avenir text-[#6b4c3b] visited:text-[#6b4c3b] active:text-[#4a3429] hover:text-[#4a3429] transition-colors group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6b4c3b]/30"
                     >
-                        <span className="border-b border-transparent group-hover:border-[#6B4C3B] transition-all duration-300">
-                            Curated Experiences: Explore Programs
+                        <span className="group-hover:underline underline-offset-4">
+                            Discover our programs: Explore All
                         </span>
-                        <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&gt;</span>
+                        <svg
+                            className="w-4 h-4 transition-transform group-hover:translate-x-1"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M9 5l7 7-7 7"
+                            />
+                        </svg>
                     </Link>
                 </div>
 
