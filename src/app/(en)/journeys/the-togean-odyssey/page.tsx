@@ -75,6 +75,17 @@ export default function TheTogeanOdysseyPage() {
                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30" />
                     </div>
 
+                    {/* Back Link */}
+                    <div className="absolute top-24 left-6 md:left-12 z-20">
+                        <Link
+                            href="/#programs"
+                            className="inline-flex items-center gap-2 font-avenir text-xs md:text-sm text-white/80 hover:text-white uppercase tracking-widest transition-colors duration-300 group"
+                        >
+                            <span className="group-hover:-translate-x-1 transition-transform duration-300">{"<"}</span>
+                            <span className="border-b border-transparent group-hover:border-white/80 pb-0.5">Back to Programs</span>
+                        </Link>
+                    </div>
+
                     {/* Hero Content */}
                     <div className="relative z-10 container mx-auto px-6 text-center text-white mt-10">
                         <span className="inline-block py-1 px-3 border border-white/30 rounded-full text-xs md:text-sm font-avenir tracking-widest uppercase backdrop-blur-sm mb-6">

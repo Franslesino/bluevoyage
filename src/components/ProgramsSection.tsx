@@ -43,7 +43,7 @@ const ProgramsSection = () => {
     const accentColor = "#CB9275";
 
     return (
-        <section className="relative w-full py-20 bg-background overflow-hidden">
+        <section id="programs" className="relative w-full py-20 bg-background overflow-hidden">
             <div className="container mx-auto px-6 md:px-12 lg:px-20">
 
                 {/* Section Header */}
