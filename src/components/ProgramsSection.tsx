@@ -121,18 +121,12 @@ const ProgramsSection = () => {
                                                 </p>
                                             </div>
 
-                                            <div className="flex flex-wrap gap-4">
+                                            <div className="w-full md:w-auto">
                                                 <Link
                                                     href={`/journeys/${program.slug}`}
-                                                    className="px-8 py-3 border border-foreground/20 font-avenir text-sm tracking-wider uppercase hover:bg-foreground hover:text-background transition-all duration-300"
+                                                    className="block w-full md:w-[360px] text-center py-4 border border-[#CB9275] font-avenir text-sm tracking-[0.2em] uppercase text-[#CB9275] hover:bg-[#CB9275] hover:text-white transition-all duration-200"
                                                 >
-                                                    Info
-                                                </Link>
-                                                <Link
-                                                    href="/how-to-book"
-                                                    className="px-8 py-3 bg-[#CB9275] text-white border border-[#CB9275] font-avenir text-sm tracking-wider uppercase hover:bg-[#B67F63] hover:border-[#B67F63] transition-all duration-300"
-                                                >
-                                                    Book Now
+                                                    INFO
                                                 </Link>
                                             </div>
                                         </div>
