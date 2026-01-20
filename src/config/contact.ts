@@ -5,8 +5,8 @@ export const CONTACT_INFO = {
         url: "https://wa.me/6285282296450"
     },
     email: {
-        address: "support@komodocruises.com",
-        url: "mailto:support@komodocruises.com"
+        address: "contact@togeanvoyages.com",
+        url: "mailto:contact@togeanvoyages.com"
     },
     socials: {
         instagram: "https://instagram.com", // Placeholder found in existing overlay

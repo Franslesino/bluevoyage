@@ -266,7 +266,7 @@ export default function TheTogeanOdysseyPage() {
                                             </h3>
 
                                             <p className="font-avenir text-foreground/60 text-lg leading-relaxed max-w-lg mb-8">
-                                                We tailor the final route to weather, sea conditions, and your pace. Chat with us to receive the complete day-by-day plan and availability.
+                                                The first 3 days are just the beginning. The remaining 7 days are flexible and tailored to the season. Chat with us to receive the complete day-by-day itinerary PDF. It’s free and creates no obligation to book.
                                             </p>
 
                                             <div className="flex flex-col md:flex-row gap-4 w-full justify-center">
@@ -276,7 +276,7 @@ export default function TheTogeanOdysseyPage() {
                                                     rel="noopener noreferrer"
                                                     className="px-8 py-4 bg-[#CB9275] hover:bg-[#B67F63] text-white font-avenir tracking-widest uppercase text-sm transition-all duration-300 shadow-md hover:shadow-lg rounded-sm text-center"
                                                 >
-                                                    Chat on WhatsApp to Get Full Itinerary
+                                                    GET FULL ITINERARY VIA WHATSAPP (FREE)
                                                 </a>
                                             </div>
 
@@ -457,15 +457,19 @@ export default function TheTogeanOdysseyPage() {
                                         rel="noopener noreferrer"
                                         className="block w-full py-4 bg-[#CB9275] hover:bg-[#B67F63] text-white text-center font-avenir tracking-widest uppercase text-sm transition-all shadow-lg hover:shadow-xl"
                                     >
-                                        Check availability on WhatsApp
+                                        CHECK AVAILABILITY ON WHATSAPP
                                     </a>
+
+                                    <div className="flex items-center justify-center gap-3 my-2">
+                                        <div className="flex-1 h-px bg-[#CB9275]/50"></div>
+                                        <span className="text-xs font-avenir tracking-widest uppercase text-[#CB9275]/80">OR</span>
+                                        <div className="flex-1 h-px bg-[#CB9275]/50"></div>
+                                    </div>
                                     <a
-                                        href={createWaLink("Customize")}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
+                                        href={`mailto:contact@togeanvoyages.com?subject=${encodeURIComponent("Inquiry: The Togean Odyssey (10 Days)")}&body=${encodeURIComponent("Hi TogeanVoyage team,\n\nI’m interested in The Togean Odyssey (10 Days). Please share availability, pricing, and next steps.\n\nThanks!")}`}
                                         className="block w-full py-4 border border-foreground/10 hover:border-[#CB9275] text-foreground hover:text-[#CB9275] text-center font-avenir tracking-widest uppercase text-sm transition-all"
                                     >
-                                        Customize this journey on WhatsApp
+                                        REQUEST DETAILS BY EMAIL
                                     </a>
                                 </div>
                             </div>
