@@ -123,36 +123,23 @@ export default function TheTogeanOdysseyPage() {
                         </p>
 
                         {/* Journey Balance Visual */}
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-4 max-w-4xl mx-auto">
+                        {/* Journey Balance Visual */}
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mb-8 max-w-4xl mx-auto py-8">
                             {stats.map((stat, idx) => (
-                                <div key={idx} className="flex flex-col items-center">
-                                    <div className="relative w-24 h-24 md:w-32 md:h-32 mb-4">
-                                        <svg className="w-full h-full transform -rotate-90">
-                                            <circle
-                                                cx="50%"
-                                                cy="50%"
-                                                r="40%"
-                                                fill="none"
-                                                stroke="#e5e5e5"
-                                                strokeWidth="4"
-                                            />
-                                            <circle
-                                                cx="50%"
-                                                cy="50%"
-                                                r="40%"
-                                                fill="none"
-                                                stroke="#CB9275"
-                                                strokeWidth="4"
-                                                strokeDasharray={`${(stat.value / 100) * 251} 251`}
-                                                strokeLinecap="round"
-                                                className="transition-all duration-1000 ease-out"
-                                            />
-                                        </svg>
-                                        <div className="absolute inset-0 flex items-center justify-center flex-col">
-                                            <span className="font-canto text-2xl md:text-3xl text-foreground">{stat.value}%</span>
-                                        </div>
+                                <div key={idx} className="flex flex-col items-center text-center group">
+                                    <div className="relative w-16 h-16 md:w-20 md:h-20 mb-6 transition-transform duration-500 group-hover:scale-110">
+                                        <Image
+                                            src={stat.icon}
+                                            alt={stat.label}
+                                            fill
+                                            className="object-contain"
+                                        />
                                     </div>
-                                    <span className="font-avenir text-sm uppercase tracking-widest text-[#CB9275] text-center h-10 flex items-center">{stat.label}</span>
+                                    <div className="flex flex-col gap-3">
+                                        <span className="font-avenir text-xs uppercase tracking-[0.2em] text-[#CB9275]">
+                                            {stat.label}
+                                        </span>
+                                    </div>
                                 </div>
                             ))}
                         </div>

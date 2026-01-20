@@ -10,10 +10,10 @@ export const theTogeanOdyssey = {
     vibeTags: ["Ultimate", "Iconic", "Unforgettable"],
 
     stats: [
-        { label: "Reefs & Beaches", value: 35 },
-        { label: "Relaxation", value: 25 },
-        { label: "Culture", value: 25 },
-        { label: "Hiking & Viewpoints", value: 15 }
+        { label: "Reefs & Beaches", value: 35, icon: "/icons/odyssey/reefs-beaches.svg" },
+        { label: "Relaxation", value: 25, icon: "/icons/odyssey/relaxation.svg" },
+        { label: "Culture", value: 25, icon: "/icons/odyssey/culture.svg" },
+        { label: "Hiking & Viewpoints", value: 15, icon: "/icons/odyssey/hiking-viewpoints.svg" }
     ],
 
     description: "Odyssey is for travelers who want the full Togean legend—beyond a single island or a quick highlight. Over 10+ days, you move deeper through reefs, beaches, villages, and viewpoints without rushing the days or sacrificing comfort. It’s built like an expedition, but felt like a private escape.",
