@@ -76,7 +76,7 @@ export default function TheTogeanOdysseyPage() {
                     </div>
 
                     {/* Back Link */}
-                    <div className="absolute top-24 left-6 md:left-12 z-20">
+                    <div className="absolute top-6 left-6 md:top-10 md:left-12 z-20">
                         <Link
                             href="/#programs"
                             className="inline-flex items-center gap-2 font-avenir text-xs md:text-sm text-white/80 hover:text-white uppercase tracking-widest transition-colors duration-300 group"
@@ -87,7 +87,7 @@ export default function TheTogeanOdysseyPage() {
                     </div>
 
                     {/* Hero Content */}
-                    <div className="relative z-10 container mx-auto px-6 text-center text-white mt-10">
+                    <div className="relative z-10 container mx-auto px-6 text-center text-white -translate-y-16 md:-translate-y-12">
                         <span className="inline-block py-1 px-3 border border-white/30 rounded-full text-xs md:text-sm font-avenir tracking-widest uppercase backdrop-blur-sm mb-6">
                             {subline}
                         </span>
