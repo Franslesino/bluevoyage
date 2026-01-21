@@ -12,10 +12,10 @@ export const theTogeanMosaic = {
 
     // Core experience pillars - NO percentages, just icons + labels
     stats: [
-        { label: "Reefs", icon: "/icons/mosaic/reefs.png", description: "Curated coral gardens, turtles, clarity-first routes" },
-        { label: "Relaxation", icon: "/icons/mosaic/relaxation.png", description: "Sandbars, quiet coves, long afternoons" },
-        { label: "Culture", icon: "/icons/mosaic/culture.png", description: "Village rhythm, local flavors, gentle connection" },
-        { label: "Hiking", icon: "/icons/mosaic/hiking.png", description: "A viewpoint or two—earned, not exhausting" }
+        { label: "Reefs", icon: "/icons/mosaic/reefs_v2.png", description: "Curated coral gardens, turtles, clarity-first routes" },
+        { label: "Relaxation", icon: "/icons/mosaic/relaxation_v2.png", description: "Sandbars, quiet coves, long afternoons" },
+        { label: "Culture", icon: "/icons/mosaic/culture_v2.png", description: "Village rhythm, local flavors, gentle connection" },
+        { label: "Hiking", icon: "/icons/mosaic/hiking_v2.png", description: "A viewpoint or two—earned, not exhausting" }
     ],
 
     // Program snapshot (floating card on desktop)

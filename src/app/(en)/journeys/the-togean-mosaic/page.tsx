@@ -9,6 +9,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { CONTACT_INFO } from "@/config/contact";
+import WhyExistsSection from "@/components/WhyExistsSection";
 import FullItineraryCard from "@/components/FullItineraryCard";
 
 // Helper to create WhatsApp link
@@ -168,48 +169,13 @@ export default function TheTogeanMosaicPage() {
                 </section>
 
                 {/* WHY MOSAIC - Premium Editorial Section */}
-                <section className="py-24 md:py-32 bg-background relative overflow-hidden">
-                    <div className="container mx-auto px-6 md:px-12 max-w-6xl">
-                        <div className="text-center mb-16 max-w-4xl mx-auto">
-                            <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
-                                WHY MOSAIC EXISTS
-                            </span>
-                            <h2 className="font-canto text-4xl md:text-[48px] mb-8 text-foreground leading-tight">
-                                {concept.headline}
-                            </h2>
-                            <p className="font-avenir text-base md:text-[20px] text-foreground/70 leading-relaxed font-light">
-                                {concept.description}
-                            </p>
-                        </div>
-
-                        {/* 4 Icons Row - NO percentages, stroke style */}
-                        {/* 4 Icons Row - Label ONLY (no descriptions), Regular weight */}
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-12 max-w-4xl mx-auto pt-8">
-                            {stats.map((stat, idx) => (
-                                <motion.div
-                                    key={idx}
-                                    initial={{ opacity: 0, y: 20 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: idx * 0.1, duration: 0.5 }}
-                                    className="flex flex-col items-center text-center group"
-                                >
-                                    <div className="w-16 h-16 md:w-20 md:h-20 mb-6 relative transition-transform duration-500 group-hover:-translate-y-2">
-                                        <Image
-                                            src={stat.icon}
-                                            alt={stat.label}
-                                            fill
-                                            className="object-contain"
-                                        />
-                                    </div>
-                                    <span className="font-avenir text-xs md:text-sm uppercase tracking-[0.2em] text-foreground font-normal">
-                                        {stat.label}
-                                    </span>
-                                </motion.div>
-                            ))}
-                        </div>
-                    </div>
-                </section>
+                <WhyExistsSection
+                    subtitle="WHY MOSAIC EXISTS"
+                    headline={concept.headline}
+                    description={concept.description}
+                    stats={stats}
+                    quote="A signature balance: reefs, slow beach time, and cultural moments—without the rush."
+                />
 
                 {/* ITINERARY - Premium Day Cards */}
                 <section id="itinerary" className="py-32 bg-[#FAFAFA] relative">
