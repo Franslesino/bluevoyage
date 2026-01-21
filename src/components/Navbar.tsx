@@ -8,6 +8,7 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import LocaleLink from "./LocaleLink";
 import { useTranslation } from "./I18nProvider";
 import { getLocaleFromPathname, SUPPORTED_LOCALES, stripLocalePrefix } from "@/lib/i18n";
+import ScrollProgressBar from "./ScrollProgressBar";
 
 export default function Navbar() {
     // Component for main navigation
@@ -111,7 +112,7 @@ export default function Navbar() {
     // Text colors
     // When transparent (over hero), text should be white to contrast with video
     // When solid, text is dark
-    const textColorClass = isSolid ? "text-neutral-900" : "text-white";
+
     const hamburgerColorClass = isSolid ? "bg-neutral-900" : "bg-white";
 
     // Logo: Invert brightness when on transparent dark background
@@ -190,8 +191,10 @@ export default function Navbar() {
                             strokeLinejoin="round"
                             className="w-[16px] h-[16px] md:w-[18px] md:h-[18px]"
                         >
-                            <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" />
-                            <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+                            <path d="M2 18h20" />
+                            <path d="M12 18v-3" />
+                            <path d="M17 15a5 5 0 1 0-10 0" />
+                            <circle cx="12" cy="7" r="1" />
                         </svg>
 
                         {t("nav.planTrip")}
@@ -212,6 +215,7 @@ export default function Navbar() {
                         <span>&gt;</span>
                     </LocaleLink>
                 </div>
+                <ScrollProgressBar />
             </header>
         </>
     );
