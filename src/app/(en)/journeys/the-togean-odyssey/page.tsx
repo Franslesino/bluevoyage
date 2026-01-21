@@ -9,6 +9,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { CONTACT_INFO } from "@/config/contact";
+import WhyExistsSection from "@/components/WhyExistsSection";
+import FullItineraryCard from "@/components/FullItineraryCard";
+import ProgramSnapshotCard from "@/components/ProgramSnapshotCard";
 
 // Helper to create WhatsApp link with prefilled message
 const createWaLink = (intent: string) => {
@@ -60,7 +63,8 @@ export default function TheTogeanOdysseyPage() {
 
                 {/* PHASE 1: THE HOOK */}
                 {/* Hero Section */}
-                <section className="relative h-[95vh] w-full flex items-center justify-center overflow-hidden">
+                {/* Hero Section */}
+                <section className="relative h-[100vh] w-full flex items-center justify-center overflow-hidden">
                     {/* Background Image */}
                     <div className="absolute inset-0 z-0 select-none">
                         <Image
@@ -71,94 +75,73 @@ export default function TheTogeanOdysseyPage() {
                             priority
                             quality={90}
                         />
-                        <div className="absolute inset-0 bg-black/30 md:bg-black/20" />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30" />
+                        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60" />
                     </div>
 
                     {/* Back Link */}
-                    <div className="absolute top-24 left-6 md:left-12 z-20">
+                    <div className="absolute top-3 left-6 md:top-4 md:left-12 z-20">
                         <Link
                             href="/#programs"
-                            className="inline-flex items-center gap-2 font-avenir text-xs md:text-sm text-white/80 hover:text-white uppercase tracking-widest transition-colors duration-300 group"
+                            className="inline-flex items-center gap-2 font-avenir text-xs md:text-sm text-white/90 hover:text-white uppercase tracking-[0.15em] transition-colors duration-300 group"
                         >
                             <span className="group-hover:-translate-x-1 transition-transform duration-300">{"<"}</span>
-                            <span className="border-b border-transparent group-hover:border-white/80 pb-0.5">Back to Programs</span>
+                            <span className="border-b border-transparent group-hover:border-white/90 pb-0.5">Back to Programs</span>
                         </Link>
                     </div>
 
-                    {/* Hero Content */}
-                    <div className="relative z-10 container mx-auto px-6 text-center text-white mt-10">
-                        <span className="inline-block py-1 px-3 border border-white/30 rounded-full text-xs md:text-sm font-avenir tracking-widest uppercase backdrop-blur-sm mb-6">
+                    {/* Hero Content - Centered & Luxurious */}
+                    <div className="relative z-10 container mx-auto px-6 md:px-12 text-center text-white max-w-5xl">
+                        <span className="inline-block py-2 px-5 border border-white/40 rounded-full text-xs md:text-sm font-avenir tracking-[0.2em] uppercase backdrop-blur-md mb-8 bg-white/5">
                             {subline}
                         </span>
-                        <h1 className="font-canto text-5xl md:text-7xl lg:text-8xl mb-6 leading-tight drop-shadow-lg">
+                        <h1 className="font-canto text-6xl md:text-7xl lg:text-8xl mb-8 leading-[0.95] drop-shadow-2xl tracking-tight">
                             {headline}
                         </h1>
-                        <p className="font-avenir text-lg md:text-2xl max-w-2xl mx-auto leading-relaxed mb-6 font-light text-white/90">
+
+                        {/* Odyssey maps shortDescription to the main tagline slot */}
+                        <p className="font-avenir text-base md:text-xl max-w-3xl mx-auto leading-relaxed mb-8 font-light text-white/95 px-4">
                             {shortDescription}
                         </p>
-                        <p className="font-avenir text-xs md:text-sm uppercase tracking-wider text-white/70 mb-10 max-w-xl mx-auto border-t border-white/20 pt-6 mt-6">
+
+                        <p className="font-avenir text-xs md:text-sm uppercase tracking-[0.15em] text-white/80 mb-12 max-w-2xl mx-auto border-t border-white/30 pt-8 mt-8">
                             {modelConfirmation}
                         </p>
 
-                        <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
+                        <div className="flex flex-col md:flex-row gap-5 justify-center items-center">
                             <a
                                 href={createWaLink("Check Availability")}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="px-8 py-4 bg-[#CB9275] hover:bg-[#B67F63] text-white font-avenir tracking-widest uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[200px]"
+                                className="group px-10 py-5 bg-[#CB9275] hover:bg-[#B67F63] text-white font-avenir tracking-[0.15em] uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[240px] shadow-2xl hover:shadow-[#CB9275]/30"
                             >
-                                Chat on WhatsApp
+                                <span className="inline-block group-hover:scale-105 transition-transform duration-300">Chat on WhatsApp</span>
                             </a>
                             <button
                                 onClick={scrollToItinerary}
-                                className="px-8 py-4 border border-white text-white hover:bg-white hover:text-black font-avenir tracking-widest uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[200px]"
+                                className="group px-10 py-5 border-2 border-white/90 text-white hover:bg-white/10 hover:border-white font-avenir tracking-[0.15em] uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[240px] backdrop-blur-sm"
                             >
-                                View Itinerary
+                                <span className="inline-block group-hover:scale-105 transition-transform duration-300">View Itinerary</span>
                             </button>
                         </div>
                     </div>
+
+                    {/* Floating Snapshot Card - Desktop Only */}
+                    <ProgramSnapshotCard
+                        duration="From 10 Days"
+                        bestFor="Adventure seekers / First-time Togean / Friends"
+                        style="Expedition / Iconic / Ocean-first"
+                        stats={stats}
+                    />
                 </section>
 
                 {/* The Concept Section */}
-                <section className="py-24 md:py-32 bg-background relative">
-                    <div className="container mx-auto px-6 md:px-12 max-w-5xl text-center">
-                        <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
-                            Why Odyssey Exists
-                        </span>
-                        <h2 className="font-canto text-4xl md:text-5xl mb-10 text-foreground">
-                            Built like an expedition, <span className="italic text-[#CB9275]">felt like a private escape.</span>
-                        </h2>
-                        <p className="font-avenir text-lg md:text-xl text-foreground/70 leading-relaxed mb-16 max-w-3xl mx-auto">
-                            {description}
-                        </p>
-
-                        {/* Journey Balance Visual */}
-                        {/* Journey Balance Visual */}
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mb-8 max-w-4xl mx-auto py-8">
-                            {stats.map((stat, idx) => (
-                                <div key={idx} className="flex flex-col items-center text-center group">
-                                    <div className="relative w-16 h-16 md:w-20 md:h-20 mb-6 transition-transform duration-500 group-hover:scale-110">
-                                        <Image
-                                            src={stat.icon}
-                                            alt={stat.label}
-                                            fill
-                                            className="object-contain"
-                                        />
-                                    </div>
-                                    <div className="flex flex-col gap-3">
-                                        <span className="font-avenir text-xs uppercase tracking-[0.2em] text-[#CB9275]">
-                                            {stat.label}
-                                        </span>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                        <p className="font-avenir text-sm text-foreground/50 mt-8 italic">
-                            “A true expedition: ocean-first, culture-rich, with just enough hiking to earn the views.”
-                        </p>
-                    </div>
-                </section>
+                <WhyExistsSection
+                    subtitle="Why Odyssey Exists"
+                    headline={<>Built like an expedition, <span className="italic text-[#CB9275]">felt like a private escape.</span></>}
+                    description={description}
+                    stats={stats}
+                    quote="A true expedition: ocean-first, culture-rich, with just enough hiking to earn the views."
+                />
 
                 {/* PHASE 2: THE JOURNEY */}
                 <section id="itinerary" className="py-24 bg-[#F9F9F9]">
@@ -180,7 +163,7 @@ export default function TheTogeanOdysseyPage() {
                             <div className="absolute left-[19px] md:left-1/2 top-0 bottom-0 w-[1px] bg-[#CB9275]/20 hidden md:block"></div>
 
                             <div className="space-y-12 md:space-y-0">
-                                {itinerary.map((day, index) => (
+                                {itinerary.slice(0, 3).map((day, index) => (
                                     <div key={day.day} className={`flex flex-col md:flex-row gap-8 items-start relative ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
 
                                         {/* Desktop Center Marker */}
@@ -239,6 +222,17 @@ export default function TheTogeanOdysseyPage() {
 
                                     </div>
                                 ))}
+
+                                {/* Locked Days Block */}
+                                <FullItineraryCard
+                                    title="Get the Full 10-Day Odyssey"
+                                    description="The first 3 days are just the beginning. The remaining 7 days are tailored to sea conditions and your pace. Message us and we’ll send the full itinerary."
+                                    whatsappHref={createWaLink("Get full 10-day itinerary")}
+                                    emailHref={`mailto:contact@togeanvoyages.com?subject=${encodeURIComponent("Full Itinerary Request")}&body=${encodeURIComponent("Hi TogeanVoyage, I’d love the full itinerary for Odyssey. Travel month: ____. Group size: ____. Preferences: ____.")}`}
+                                    whatsappLabel="Message Us for the Full Itinerary"
+                                    emailLabel="Email Us for the Full Itinerary"
+                                    durationLabel="+ 7 More Days Available"
+                                />
                             </div>
                         </div>
                     </div>
@@ -408,15 +402,19 @@ export default function TheTogeanOdysseyPage() {
                                         rel="noopener noreferrer"
                                         className="block w-full py-4 bg-[#CB9275] hover:bg-[#B67F63] text-white text-center font-avenir tracking-widest uppercase text-sm transition-all shadow-lg hover:shadow-xl"
                                     >
-                                        Check availability on WhatsApp
+                                        CHECK AVAILABILITY ON WHATSAPP
                                     </a>
+
+                                    <div className="flex items-center justify-center gap-3 my-2">
+                                        <div className="flex-1 h-px bg-[#CB9275]/50"></div>
+                                        <span className="text-xs font-avenir tracking-widest uppercase text-[#CB9275]/80">OR</span>
+                                        <div className="flex-1 h-px bg-[#CB9275]/50"></div>
+                                    </div>
                                     <a
-                                        href={createWaLink("Customize")}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
+                                        href={`mailto:contact@togeanvoyages.com?subject=${encodeURIComponent("Inquiry: The Togean Odyssey (10 Days)")}&body=${encodeURIComponent("Hi TogeanVoyage team,\n\nI’m interested in The Togean Odyssey (10 Days). Please share availability, pricing, and next steps.\n\nThanks!")}`}
                                         className="block w-full py-4 border border-foreground/10 hover:border-[#CB9275] text-foreground hover:text-[#CB9275] text-center font-avenir tracking-widest uppercase text-sm transition-all"
                                     >
-                                        Customize this journey on WhatsApp
+                                        REQUEST DETAILS BY EMAIL
                                     </a>
                                 </div>
                             </div>
