@@ -27,7 +27,7 @@ const ProgramSnapshotCard: React.FC<ProgramSnapshotCardProps> = ({
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.8, duration: 0.6 }}
-            className="hidden lg:block absolute right-12 top-1/2 -translate-y-1/2 z-20 bg-white/95 backdrop-blur-md p-8 shadow-2xl max-w-xs border-t-4 border-[#CB9275]"
+            className="hidden lg:block absolute right-12 top-1/2 -translate-y-1/2 z-20 bg-white/95 backdrop-blur-md p-8 shadow-2xl w-[268px] min-h-[462px] border-t-4 border-[#CB9275]"
         >
             <h3 className="font-canto text-2xl text-foreground mb-6 border-b border-foreground/10 pb-3">
                 Program Snapshot

@@ -63,7 +63,8 @@ export default function TheTogeanOdysseyPage() {
 
                 {/* PHASE 1: THE HOOK */}
                 {/* Hero Section */}
-                <section className="relative h-[95vh] w-full flex items-center justify-center overflow-hidden">
+                {/* Hero Section */}
+                <section className="relative h-[100vh] w-full flex items-center justify-center overflow-hidden">
                     {/* Background Image */}
                     <div className="absolute inset-0 z-0 select-none">
                         <Image
@@ -74,50 +75,52 @@ export default function TheTogeanOdysseyPage() {
                             priority
                             quality={90}
                         />
-                        <div className="absolute inset-0 bg-black/30 md:bg-black/20" />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30" />
+                        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60" />
                     </div>
 
                     {/* Back Link */}
                     <div className="absolute top-6 left-6 md:top-10 md:left-12 z-20">
                         <Link
                             href="/#programs"
-                            className="inline-flex items-center gap-2 font-avenir text-xs md:text-sm text-white/80 hover:text-white uppercase tracking-widest transition-colors duration-300 group"
+                            className="inline-flex items-center gap-2 font-avenir text-xs md:text-sm text-white/90 hover:text-white uppercase tracking-[0.15em] transition-colors duration-300 group"
                         >
                             <span className="group-hover:-translate-x-1 transition-transform duration-300">{"<"}</span>
-                            <span className="border-b border-transparent group-hover:border-white/80 pb-0.5">Back to Programs</span>
+                            <span className="border-b border-transparent group-hover:border-white/90 pb-0.5">Back to Programs</span>
                         </Link>
                     </div>
 
-                    {/* Hero Content */}
-                    <div className="relative z-10 container mx-auto px-6 text-center text-white -translate-y-16 md:-translate-y-12">
-                        <span className="inline-block py-1 px-3 border border-white/30 rounded-full text-xs md:text-sm font-avenir tracking-widest uppercase backdrop-blur-sm mb-6">
+                    {/* Hero Content - Centered & Luxurious */}
+                    <div className="relative z-10 container mx-auto px-6 md:px-12 text-center text-white max-w-5xl">
+                        <span className="inline-block py-2 px-5 border border-white/40 rounded-full text-xs md:text-sm font-avenir tracking-[0.2em] uppercase backdrop-blur-md mb-8 bg-white/5">
                             {subline}
                         </span>
-                        <h1 className="font-canto text-5xl md:text-7xl lg:text-8xl mb-6 leading-tight drop-shadow-lg">
+                        <h1 className="font-canto text-6xl md:text-7xl lg:text-8xl mb-8 leading-[0.95] drop-shadow-2xl tracking-tight">
                             {headline}
                         </h1>
-                        <p className="font-avenir text-lg md:text-2xl max-w-2xl mx-auto leading-relaxed mb-6 font-light text-white/90">
+
+                        {/* Odyssey maps shortDescription to the main tagline slot */}
+                        <p className="font-avenir text-base md:text-xl max-w-3xl mx-auto leading-relaxed mb-8 font-light text-white/95 px-4">
                             {shortDescription}
                         </p>
-                        <p className="font-avenir text-xs md:text-sm uppercase tracking-wider text-white/70 mb-10 max-w-xl mx-auto border-t border-white/20 pt-6 mt-6">
+
+                        <p className="font-avenir text-xs md:text-sm uppercase tracking-[0.15em] text-white/80 mb-12 max-w-2xl mx-auto border-t border-white/30 pt-8 mt-8">
                             {modelConfirmation}
                         </p>
 
-                        <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
+                        <div className="flex flex-col md:flex-row gap-5 justify-center items-center">
                             <a
                                 href={createWaLink("Check Availability")}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="px-8 py-4 bg-[#CB9275] hover:bg-[#B67F63] text-white font-avenir tracking-widest uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[200px]"
+                                className="group px-10 py-5 bg-[#CB9275] hover:bg-[#B67F63] text-white font-avenir tracking-[0.15em] uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[240px] shadow-2xl hover:shadow-[#CB9275]/30"
                             >
-                                Chat on WhatsApp
+                                <span className="inline-block group-hover:scale-105 transition-transform duration-300">Chat on WhatsApp</span>
                             </a>
                             <button
                                 onClick={scrollToItinerary}
-                                className="px-8 py-4 border border-white text-white hover:bg-white hover:text-black font-avenir tracking-widest uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[200px]"
+                                className="group px-10 py-5 border-2 border-white/90 text-white hover:bg-white/10 hover:border-white font-avenir tracking-[0.15em] uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[240px] backdrop-blur-sm"
                             >
-                                View Itinerary
+                                <span className="inline-block group-hover:scale-105 transition-transform duration-300">View Itinerary</span>
                             </button>
                         </div>
                     </div>
