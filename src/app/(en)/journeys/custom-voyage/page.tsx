@@ -288,7 +288,7 @@ export default function CustomVoyagePage() {
                 </section>
 
                 {/* PHASE 3: DESTINATIONS SECTION - Tightened Spacing */}
-                <section className="py-16 md:py-20 bg-[#FAFAFA]">
+                <section className="py-10 md:py-14 bg-[#FAFAFA]">
                     <div className="container mx-auto px-6 max-w-7xl">
                         <div className="text-center mb-12">
                             <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.25em] uppercase mb-4 block">
@@ -308,7 +308,7 @@ export default function CustomVoyagePage() {
                 </section>
 
                 {/* PHASE 4: ACTIVITIES SECTION - Tightened Spacing */}
-                <section className="py-16 md:py-20 bg-background">
+                <section className="py-10 md:py-14 bg-background">
                     <div className="container mx-auto px-6 max-w-7xl">
                         <div className="text-center mb-12">
                             <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.25em] uppercase mb-4 block">
@@ -328,7 +328,7 @@ export default function CustomVoyagePage() {
                 </section>
 
                 {/* PHASE 5: CONCIERGE FORM - Tightened Spacing */}
-                <section id="concierge-form" className="py-16 md:py-20 bg-[#FAFAFA] relative scroll-mt-24">
+                <section id="concierge-form" className="py-6 md:py-8 bg-[#FAFAFA] relative scroll-mt-24">
                     {/* Background texture */}
                     <div className="absolute bottom-0 left-0 w-1/2 h-2/3 opacity-5 hidden md:block">
                         <Image
@@ -339,76 +339,75 @@ export default function CustomVoyagePage() {
                         />
                     </div>
 
-                    <div className="container mx-auto px-6 max-w-4xl relative z-10">
-                        <div className="text-center mb-12">
-                            <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.25em] uppercase mb-4 block">
+                    <div className="container mx-auto px-6 max-w-2xl relative z-10">
+                        <div className="text-center mb-4 md:mb-6">
+                            <span className="text-[#CB9275] font-avenir text-[10px] font-bold tracking-[0.25em] uppercase mb-2 block">
                                 Concierge Request
                             </span>
-                            <h2 className="font-canto text-4xl md:text-5xl lg:text-6xl text-foreground mb-4">
+                            <h2 className="font-canto text-2xl md:text-3xl lg:text-4xl text-foreground mb-2">
                                 We'll craft your Custom Voyage.
                             </h2>
-                            <p className="font-avenir text-foreground/70 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
-                                Share a few details. We'll reply with a tailored route suggestion and a clear next step.
+                            <p className="font-avenir text-foreground/70 text-sm md:text-base leading-relaxed max-w-xl mx-auto">
+                                Share a few details. We'll reply with a tailored route suggestion.
                             </p>
                         </div>
 
-                        <div className="bg-white p-6 md:p-10 shadow-xl">
-                            <div className="space-y-5">
-                                {/* Name */}
-                                <div>
-                                    <label className="block font-avenir text-xs md:text-sm font-bold text-foreground/80 mb-2 uppercase tracking-wide">
-                                        Your Name
-                                    </label>
-                                    <input
-                                        type="text"
-                                        value={formData.name}
-                                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                                        className="w-full px-4 py-3 border border-foreground/20 focus:border-[#CB9275] focus:outline-none font-avenir transition-colors"
-                                        placeholder="First & Last Name"
-                                    />
-                                </div>
-
-                                {/* Dates */}
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div className="bg-white p-5 md:p-8 shadow-xl">
+                            <div className="space-y-3">
+                                {/* Name & Group Size Row - COMPACTED */}
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                     <div>
-                                        <label className="block font-avenir text-xs md:text-sm font-bold text-foreground/80 mb-2 uppercase tracking-wide">
-                                            Preferred Dates (or Month)
+                                        <label className="block font-avenir text-[10px] md:text-xs font-bold text-foreground/80 mb-1 uppercase tracking-wide">
+                                            Your Name
                                         </label>
                                         <input
                                             type="text"
-                                            value={formData.dates}
-                                            onChange={(e) => setFormData({ ...formData, dates: e.target.value })}
-                                            className="w-full px-4 py-3 border border-foreground/20 focus:border-[#CB9275] focus:outline-none font-avenir transition-colors"
-                                            placeholder="e.g. June 2026"
+                                            value={formData.name}
+                                            onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                                            className="w-full px-3 py-1.5 border border-foreground/20 focus:border-[#CB9275] focus:outline-none font-avenir text-sm transition-colors"
+                                            placeholder="First & Last Name"
                                         />
                                     </div>
-
                                     <div>
-                                        <label className="block font-avenir text-xs md:text-sm font-bold text-foreground/80 mb-2 uppercase tracking-wide">
+                                        <label className="block font-avenir text-[10px] md:text-xs font-bold text-foreground/80 mb-1 uppercase tracking-wide">
                                             Group Size
                                         </label>
                                         <input
                                             type="text"
                                             value={formData.groupSize}
                                             onChange={(e) => setFormData({ ...formData, groupSize: e.target.value })}
-                                            className="w-full px-4 py-3 border border-foreground/20 focus:border-[#CB9275] focus:outline-none font-avenir transition-colors"
+                                            className="w-full px-3 py-1.5 border border-foreground/20 focus:border-[#CB9275] focus:outline-none font-avenir text-sm transition-colors"
                                             placeholder="e.g. 2 adults"
                                         />
                                     </div>
                                 </div>
 
-                                {/* Interests */}
+                                {/* Preferred Dates - Full width but short */}
                                 <div>
-                                    <label className="block font-avenir text-xs md:text-sm font-bold text-foreground/80 mb-3 uppercase tracking-wide">
+                                    <label className="block font-avenir text-[10px] md:text-xs font-bold text-foreground/80 mb-1 uppercase tracking-wide">
+                                        Preferred Dates (or Month)
+                                    </label>
+                                    <input
+                                        type="text"
+                                        value={formData.dates}
+                                        onChange={(e) => setFormData({ ...formData, dates: e.target.value })}
+                                        className="w-full px-3 py-1.5 border border-foreground/20 focus:border-[#CB9275] focus:outline-none font-avenir text-sm transition-colors"
+                                        placeholder="e.g. June 2026"
+                                    />
+                                </div>
+
+                                {/* Interests - Tighter grid */}
+                                <div>
+                                    <label className="block font-avenir text-[10px] md:text-xs font-bold text-foreground/80 mb-1 uppercase tracking-wide">
                                         Your Interests
                                     </label>
-                                    <div className="flex flex-wrap gap-2 md:gap-3">
+                                    <div className="flex flex-wrap gap-1.5">
                                         {interestOptions.map((interest) => (
                                             <button
                                                 key={interest}
                                                 type="button"
                                                 onClick={() => toggleInterest(interest)}
-                                                className={`px-4 py-2 rounded-full font-avenir text-xs md:text-sm transition-all ${formData.interests.includes(interest)
+                                                className={`px-2.5 py-1 rounded-full font-avenir text-[10px] md:text-xs transition-all ${formData.interests.includes(interest)
                                                         ? "bg-[#CB9275] text-white shadow-md"
                                                         : "bg-white border border-foreground/20 text-foreground hover:border-[#CB9275]"
                                                     }`}
@@ -419,18 +418,18 @@ export default function CustomVoyagePage() {
                                     </div>
                                 </div>
 
-                                {/* Pace */}
+                                {/* Pace - Compact buttons */}
                                 <div>
-                                    <label className="block font-avenir text-xs md:text-sm font-bold text-foreground/80 mb-3 uppercase tracking-wide">
+                                    <label className="block font-avenir text-[10px] md:text-xs font-bold text-foreground/80 mb-1 uppercase tracking-wide">
                                         Pace Preference
                                     </label>
-                                    <div className="grid grid-cols-3 gap-3 md:gap-4">
+                                    <div className="grid grid-cols-3 gap-2">
                                         {["Unhurried", "Balanced", "Expedition"].map((pace) => (
                                             <button
                                                 key={pace}
                                                 type="button"
                                                 onClick={() => setFormData({ ...formData, pace })}
-                                                className={`px-3 md:px-5 py-3 font-avenir text-xs md:text-sm transition-all ${formData.pace === pace
+                                                className={`px-2 py-1.5 font-avenir text-[10px] md:text-xs transition-all ${formData.pace === pace
                                                         ? "bg-[#CB9275] text-white shadow-md"
                                                         : "bg-white border border-foreground/20 text-foreground hover:border-[#CB9275]"
                                                     }`}
@@ -441,29 +440,29 @@ export default function CustomVoyagePage() {
                                     </div>
                                 </div>
 
-                                {/* Notes */}
+                                {/* Notes - Reduced rows */}
                                 <div>
-                                    <label className="block font-avenir text-xs md:text-sm font-bold text-foreground/80 mb-2 uppercase tracking-wide">
+                                    <label className="block font-avenir text-[10px] md:text-xs font-bold text-foreground/80 mb-1 uppercase tracking-wide">
                                         Additional Notes (Optional)
                                     </label>
                                     <textarea
                                         value={formData.notes}
                                         onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
-                                        rows={3}
-                                        className="w-full px-4 py-3 border border-foreground/20 focus:border-[#CB9275] focus:outline-none font-avenir transition-colors resize-none"
-                                        placeholder="Any specific requests, dietary needs, or preferences..."
+                                        rows={2}
+                                        className="w-full px-3 py-1.5 border border-foreground/20 focus:border-[#CB9275] focus:outline-none font-avenir text-sm transition-colors resize-none"
+                                        placeholder="Any specific requests..."
                                     />
                                 </div>
 
                                 {/* Submit buttons */}
-                                <div className="pt-4 space-y-3">
+                                <div className="pt-2 space-y-2">
                                     <a
                                         href={createWaLink(formData)}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="flex items-center justify-center gap-3 w-full py-4 bg-[#CB9275] hover:bg-[#B67F63] text-white text-center font-avenir tracking-[0.15em] uppercase text-xs md:text-sm transition-all shadow-xl hover:shadow-2xl"
+                                        className="flex items-center justify-center gap-2 w-full py-3 bg-[#CB9275] hover:bg-[#B67F63] text-white text-center font-avenir tracking-[0.15em] uppercase text-xs font-bold transition-all shadow-lg hover:shadow-xl"
                                     >
-                                        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                                             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
                                         </svg>
                                         Send to WhatsApp
@@ -488,9 +487,9 @@ Pace: ${formData.pace || '[Your pace]'}
 Notes: ${formData.notes || 'N/A'}
 
 Looking forward to hearing from you!`)}`}
-                                        className="flex items-center justify-center gap-3 w-full py-4 border-2 border-foreground/10 hover:border-[#CB9275] text-foreground hover:text-[#CB9275] text-center font-avenir tracking-[0.15em] uppercase text-xs md:text-sm transition-all"
+                                        className="flex items-center justify-center gap-2 w-full py-3 border-2 border-foreground/10 hover:border-[#CB9275] text-foreground hover:text-[#CB9275] text-center font-avenir tracking-[0.15em] uppercase text-xs font-bold transition-all"
                                     >
-                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                         </svg>
                                         Send via Email
@@ -530,29 +529,29 @@ Looking forward to hearing from you!`)}`}
                 </section>
 
                 {/* PHASE 7: FAQ - Tightened Spacing */}
-                <section className="py-16 md:py-20 bg-background">
+                <section className="py-10 md:py-12 bg-background">
                     <div className="container mx-auto px-6 max-w-4xl">
-                        <div className="text-center mb-12">
+                        <div className="text-center mb-8">
                             <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.25em] uppercase mb-4 block">
                                 Common Questions
                             </span>
-                            <h2 className="font-canto text-4xl md:text-5xl text-foreground">
+                            <h2 className="font-canto text-3xl md:text-4xl text-foreground">
                                 Everything you need to know
                             </h2>
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-2">
                             {faqData.map((item, index) => (
-                                <div key={index} className="border-b border-foreground/10 pb-4">
+                                <div key={index} className="border-b border-foreground/10 pb-2">
                                     <button
                                         onClick={() => toggleFaq(index)}
-                                        className="w-full flex justify-between items-center text-left focus:outline-none py-3 group"
+                                        className="w-full flex justify-between items-center text-left focus:outline-none py-2 group"
                                     >
-                                        <span className="font-avenir text-base md:text-lg text-foreground/90 group-hover:text-[#CB9275] transition-colors pr-4">
+                                        <span className="font-avenir text-sm md:text-base text-foreground/90 group-hover:text-[#CB9275] transition-colors pr-4">
                                             {item.question}
                                         </span>
                                         <span
-                                            className={`text-xl md:text-2xl transition-all duration-300 flex-shrink-0 ${openFaqIndex === index ? "rotate-45 text-[#CB9275]" : "text-foreground/30"
+                                            className={`text-lg md:text-xl transition-all duration-300 flex-shrink-0 ${openFaqIndex === index ? "rotate-45 text-[#CB9275]" : "text-foreground/30"
                                                 }`}
                                         >
                                             +
@@ -562,7 +561,7 @@ Looking forward to hearing from you!`)}`}
                                         className={`overflow-hidden transition-all duration-300 ${openFaqIndex === index ? "max-h-96 opacity-100 mt-2" : "max-h-0 opacity-0"
                                             }`}
                                     >
-                                        <p className="font-avenir text-foreground/70 leading-relaxed text-sm md:text-base">
+                                        <p className="font-avenir text-foreground/70 leading-relaxed text-xs md:text-sm">
                                             {item.answer}
                                         </p>
                                     </div>
