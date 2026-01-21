@@ -78,7 +78,7 @@ export default function TheHeritageTrailPage() {
                     </div>
 
                     {/* Back Link */}
-                    <div className="absolute top-6 left-6 md:top-10 md:left-12 z-20">
+                    <div className="absolute top-3 left-6 md:top-4 md:left-12 z-20">
                         <Link
                             href="/#programs"
                             className="inline-flex items-center gap-2 font-avenir text-xs md:text-sm text-white/90 hover:text-white uppercase tracking-[0.15em] transition-colors duration-300 group"

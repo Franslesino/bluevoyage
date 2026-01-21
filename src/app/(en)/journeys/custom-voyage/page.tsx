@@ -130,7 +130,7 @@ export default function CustomVoyagePage() {
                     </div>
 
                     {/* Back Link */}
-                    <div className="absolute top-6 left-6 md:top-10 md:left-12 z-20">
+                    <div className="absolute top-3 left-6 md:top-4 md:left-12 z-20">
                         <Link
                             href="/#programs"
                             className="inline-flex items-center gap-2 font-avenir text-xs md:text-sm text-white/90 hover:text-white uppercase tracking-[0.15em] transition-colors duration-300 group"
@@ -408,8 +408,8 @@ export default function CustomVoyagePage() {
                                                 type="button"
                                                 onClick={() => toggleInterest(interest)}
                                                 className={`px-2.5 py-1 rounded-full font-avenir text-[10px] md:text-xs transition-all ${formData.interests.includes(interest)
-                                                        ? "bg-[#CB9275] text-white shadow-md"
-                                                        : "bg-white border border-foreground/20 text-foreground hover:border-[#CB9275]"
+                                                    ? "bg-[#CB9275] text-white shadow-md"
+                                                    : "bg-white border border-foreground/20 text-foreground hover:border-[#CB9275]"
                                                     }`}
                                             >
                                                 {interest}
@@ -430,8 +430,8 @@ export default function CustomVoyagePage() {
                                                 type="button"
                                                 onClick={() => setFormData({ ...formData, pace })}
                                                 className={`px-2 py-1.5 font-avenir text-[10px] md:text-xs transition-all ${formData.pace === pace
-                                                        ? "bg-[#CB9275] text-white shadow-md"
-                                                        : "bg-white border border-foreground/20 text-foreground hover:border-[#CB9275]"
+                                                    ? "bg-[#CB9275] text-white shadow-md"
+                                                    : "bg-white border border-foreground/20 text-foreground hover:border-[#CB9275]"
                                                     }`}
                                             >
                                                 {pace}
