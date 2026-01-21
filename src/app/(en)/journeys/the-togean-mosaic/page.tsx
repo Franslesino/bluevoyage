@@ -100,7 +100,7 @@ export default function TheTogeanMosaicPage() {
                         <span className="inline-block py-2 px-5 border border-white/40 rounded-full text-xs md:text-sm font-avenir tracking-[0.2em] uppercase backdrop-blur-md mb-8 bg-white/5">
                             {subline}
                         </span>
-                        <h1 className="font-canto text-6xl md:text-8xl lg:text-9xl mb-8 leading-[0.95] drop-shadow-2xl tracking-tight">
+                        <h1 className="font-canto text-6xl md:text-7xl lg:text-8xl mb-8 leading-[0.95] drop-shadow-2xl tracking-tight">
                             {headline}
                         </h1>
                         <p className="font-canto text-2xl md:text-4xl mb-6 italic text-[#CB9275] drop-shadow-lg">
@@ -167,43 +167,43 @@ export default function TheTogeanMosaicPage() {
                 </section>
 
                 {/* WHY MOSAIC - Premium Editorial Section */}
-                <section className="py-32 md:py-40 bg-background relative overflow-hidden">
+                <section className="py-24 md:py-32 bg-background relative overflow-hidden">
                     <div className="container mx-auto px-6 md:px-12 max-w-6xl">
-                        <div className="text-center mb-20">
-                            <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.25em] uppercase mb-6 block">
-                                {concept.eyebrow}
+                        <div className="text-center mb-16 max-w-4xl mx-auto">
+                            <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
+                                WHY MOSAIC EXISTS
                             </span>
-                            <h2 className="font-canto text-5xl md:text-7xl mb-12 text-foreground leading-tight max-w-4xl mx-auto">
+                            <h2 className="font-canto text-4xl md:text-[48px] mb-8 text-foreground leading-tight">
                                 {concept.headline}
                             </h2>
-                            <p className="font-avenir text-xl md:text-2xl text-foreground/70 leading-relaxed max-w-3xl mx-auto font-light">
+                            <p className="font-avenir text-base md:text-[20px] text-foreground/70 leading-relaxed font-light">
                                 {concept.description}
                             </p>
                         </div>
 
                         {/* 4 Icons Row - NO percentages, stroke style */}
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 max-w-5xl mx-auto pt-12">
+                        {/* 4 Icons Row - Label ONLY (no descriptions), Regular weight */}
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-12 max-w-4xl mx-auto pt-8">
                             {stats.map((stat, idx) => (
                                 <motion.div
                                     key={idx}
-                                    initial={{ opacity: 0, y: 30 }}
+                                    initial={{ opacity: 0, y: 20 }}
                                     whileInView={{ opacity: 1, y: 0 }}
                                     viewport={{ once: true }}
                                     transition={{ delay: idx * 0.1, duration: 0.5 }}
                                     className="flex flex-col items-center text-center group"
                                 >
-                                    <div className="w-16 h-16 md:w-20 md:h-20 mb-6 text-[#CB9275] transition-transform duration-500 group-hover:scale-110">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-full h-full">
-                                            <circle cx="12" cy="12" r="10" />
-                                            <path d="M12 6v6l4 2" />
-                                        </svg>
+                                    <div className="w-16 h-16 md:w-20 md:h-20 mb-6 relative transition-transform duration-500 group-hover:-translate-y-2">
+                                        <Image
+                                            src={stat.icon}
+                                            alt={stat.label}
+                                            fill
+                                            className="object-contain"
+                                        />
                                     </div>
-                                    <span className="font-avenir text-sm uppercase tracking-[0.2em] text-[#CB9275] mb-3 font-bold">
+                                    <span className="font-avenir text-xs md:text-sm uppercase tracking-[0.2em] text-foreground font-normal">
                                         {stat.label}
                                     </span>
-                                    <p className="font-avenir text-xs text-foreground/60 leading-relaxed max-w-[200px]">
-                                        {stat.description}
-                                    </p>
                                 </motion.div>
                             ))}
                         </div>
@@ -503,8 +503,8 @@ export default function TheTogeanMosaicPage() {
                                         key={tab}
                                         onClick={() => setActiveTab(tab)}
                                         className={`px-10 py-4 rounded-full text-sm font-avenir tracking-[0.15em] uppercase transition-all duration-300 ${activeTab === tab
-                                                ? "bg-[#CB9275] text-white shadow-lg"
-                                                : "text-foreground/50 hover:text-foreground"
+                                            ? "bg-[#CB9275] text-white shadow-lg"
+                                            : "text-foreground/50 hover:text-foreground"
                                             }`}
                                     >
                                         {tab === "villa" ? "Your Villa" : tab === "boat" ? "Your Boat" : "Your Crew"}
