@@ -11,6 +11,7 @@ import FooterSection from "@/components/FooterSection";
 import { CONTACT_INFO } from "@/config/contact";
 import WhyExistsSection from "@/components/WhyExistsSection";
 import FullItineraryCard from "@/components/FullItineraryCard";
+import ProgramSnapshotCard from "@/components/ProgramSnapshotCard";
 
 // Helper to create WhatsApp link with prefilled message
 const createWaLink = (intent: string) => {
@@ -120,6 +121,14 @@ export default function TheTogeanOdysseyPage() {
                             </button>
                         </div>
                     </div>
+
+                    {/* Floating Snapshot Card - Desktop Only */}
+                    <ProgramSnapshotCard
+                        duration="From 10 Days"
+                        bestFor="Adventure seekers / First-time Togean / Friends"
+                        style="Expedition / Iconic / Ocean-first"
+                        stats={stats}
+                    />
                 </section>
 
                 {/* The Concept Section */}
