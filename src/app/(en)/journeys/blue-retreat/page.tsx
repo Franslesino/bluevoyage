@@ -97,10 +97,12 @@ export default function BlueRetreatPage() {
                         <h1 className="font-canto text-6xl md:text-7xl lg:text-8xl mb-8 leading-[0.95] drop-shadow-2xl tracking-tight">
                             {headline}
                         </h1>
-                        <p className="font-canto text-2xl md:text-4xl mb-6 italic text-[#CB9275] drop-shadow-md font-medium">
-                            {shortDescription}
-                        </p>
-                        <p className="font-avenir text-base md:text-xl max-w-3xl mx-auto leading-relaxed mb-8 font-light text-white/95 px-4 drop-shadow-sm">
+                        <span className="inline-block px-8 py-3 rounded-full border border-[#CB9275]/20 bg-[#FDF8F6]/10 backdrop-blur-sm mb-6">
+                            <p className="font-canto text-2xl md:text-4xl italic text-white drop-shadow-sm font-medium">
+                                {shortDescription}
+                            </p>
+                        </span>
+                        <p className="font-avenir text-base md:text-xl max-w-3xl mx-auto leading-relaxed mb-8 font-light text-white/95 px-4 drop-shadow-md">
                             {tagline}
                         </p>
                         <p className="font-avenir text-xs md:text-sm uppercase tracking-[0.15em] text-white/80 mb-12 max-w-2xl mx-auto border-t border-white/30 pt-8 mt-8">
@@ -173,8 +175,8 @@ export default function BlueRetreatPage() {
                                     >
                                         <div className={`flex flex-col md:flex-row gap-8 md:gap-12 items-start ${index % 2 === 0 ? '' : 'md:flex-row-reverse'}`}>
                                             {/* Timeline dot - Desktop */}
-                                            <div className="hidden md:block absolute left-1/2 -translate-x-1/2 w-8 h-8 bg-[#CB9275] rounded-full ring-8 ring-white shadow-lg flex items-center justify-center z-10">
-                                                <span className="font-avenir text-xs text-white font-bold leading-none mt-[1px]">{day.day}</span>
+                                            <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 bg-[#CB9275] rounded-full ring-8 ring-white shadow-lg items-center justify-center z-10">
+                                                <span className="font-avenir text-xs text-white font-bold leading-none pt-[1px]">{day.day}</span>
                                             </div>
 
                                             {/* Content */}
