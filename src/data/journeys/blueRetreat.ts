@@ -12,10 +12,10 @@ export const blueRetreat = {
 
     // Core experience pillars - NO percentages, just icons + labels
     stats: [
-        { label: "Beach Time", icon: "/icons/blue-retreat/beach.svg", description: "Quiet coves, soft sand, endless calm" },
-        { label: "Snorkeling", icon: "/icons/blue-retreat/snorkeling.svg", description: "Gentle reefs, crystal water, unhurried rhythm" },
-        { label: "Culture", icon: "/icons/blue-retreat/culture.svg", description: "Soft village moments, coffee, and connection" },
-        { label: "Light Hikes", icon: "/icons/blue-retreat/hiking.svg", description: "Sunset viewpoints, never strenuous" }
+        { label: "Beach Time", icon: "/icons/mosaic/relaxation_v2.png", description: "Quiet coves, soft sand, endless calm" },
+        { label: "Snorkeling", icon: "/icons/mosaic/reefs_v2.png", description: "Gentle reefs, crystal water, unhurried rhythm" },
+        { label: "Culture", icon: "/icons/mosaic/culture_v2.png", description: "Soft village moments, coffee, and connection" },
+        { label: "Light Hikes", icon: "/icons/mosaic/hiking_v2.png", description: "Sunset viewpoints, never strenuous" }
     ],
 
     // Program snapshot (floating card on desktop)
