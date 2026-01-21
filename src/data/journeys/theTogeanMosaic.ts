@@ -20,7 +20,7 @@ export const theTogeanMosaic = {
 
     // Program snapshot (floating card on desktop)
     snapshot: {
-        duration: "From 7 Days",
+        duration: "From 8 Days",
         bestFor: "First-time Togean / Couples / Friends",
         style: "Balanced / Iconic / Unhurried"
     },
@@ -32,7 +32,7 @@ export const theTogeanMosaic = {
         description: "Mosaic is our most complete introduction to Togean. It blends iconic reefs with genuine rest—plus cultural and viewpoint moments that make the islands feel alive. You leave feeling like you've seen the whole canvas, not just one highlight."
     },
 
-    // 7-Day Itinerary (distinct from Odyssey)
+    // 8-Day Itinerary (distinct from Odyssey)
     itinerary: [
         {
             day: 1,
@@ -208,7 +208,7 @@ export const theTogeanMosaic = {
             "Daily route planning & tide coordination",
             "All meals + drinking water",
             "Snorkeling gear",
-            "Villa accommodation (7 nights)",
+            "Villa accommodation (8 nights)",
             "Cultural experience coordination"
         ],
         excluded: [
@@ -228,7 +228,7 @@ export const theTogeanMosaic = {
         },
         {
             question: "Can we make it slower or more beach-focused?",
-            answer: "Yes. The 7-day flow is a guide, not a rule. We can adjust for more relaxation days or swap hiking for additional reef time."
+            answer: "Yes. The 8-day flow is a guide, not a rule. We can adjust for more relaxation days or swap hiking for additional reef time."
         },
         {
             question: "Are the hikes optional?",
@@ -244,7 +244,7 @@ export const theTogeanMosaic = {
         },
         {
             question: "How is Mosaic different from Odyssey?",
-            answer: "Mosaic is shorter (7 vs 10+ days), more balanced in experience types, and skips the intensity of the Una-Una volcano expedition. Think 'best-of' versus 'full legend.'"
+            answer: "Mosaic is shorter (8 vs 10+ days), more balanced in experience types, and skips the intensity of the Una-Una volcano expedition. Think 'best-of' versus 'full legend.'"
         }
     ]
 };

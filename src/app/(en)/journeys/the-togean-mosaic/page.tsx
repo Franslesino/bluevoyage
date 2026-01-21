@@ -9,11 +9,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { CONTACT_INFO } from "@/config/contact";
+import FullItineraryCard from "@/components/FullItineraryCard";
 
 // Helper to create WhatsApp link
 const createWaLink = (intent: string) => {
     const phoneNumber = "6285943001104"; // Updated WhatsApp number from requirements
-    const message = `Hi TogeanVoyage team! I'm interested in The Togean Mosaic (From 7 Days).
+    const message = `Hi TogeanVoyage team! I'm interested in The Togean Mosaic (From 8 Days).
 Intent: ${intent}
 Preferred month: [your month]
 Group size: [your group size]
@@ -221,7 +222,7 @@ export default function TheTogeanMosaicPage() {
                                 The Mosaic Journey
                             </h2>
                             <p className="font-avenir text-foreground/60 italic text-lg">
-                                A 7-day balanced flow—flexible to tides, weather, and your rhythm.
+                                An 8-day balanced flow—flexible to tides, weather, and your rhythm.
                             </p>
                         </div>
 
@@ -326,92 +327,18 @@ export default function TheTogeanMosaicPage() {
                                     </motion.div>
                                 ))}
 
-                                {/* Remaining Days on Desktop */}
-                                <div className="hidden md:block space-y-16 md:space-y-20">
-                                    {itinerary.slice(3).map((day, index) => {
-                                        const actualIndex = index + 3;
-                                        return (
-                                            <motion.div
-                                                key={day.day}
-                                                initial={{ opacity: 0, y: 40 }}
-                                                whileInView={{ opacity: 1, y: 0 }}
-                                                viewport={{ once: true }}
-                                                transition={{ delay: index * 0.15, duration: 0.6 }}
-                                                className="relative"
-                                            >
-                                                <div className={`flex gap-12 items-center ${actualIndex % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
-                                                    <div className="absolute left-12 w-8 h-8 bg-[#CB9275] rounded-full ring-8 ring-white shadow-lg flex items-center justify-center z-10">
-                                                        <span className="font-avenir text-xs text-white font-bold">{day.day}</span>
-                                                    </div>
+                                {/* Use standard FullItineraryCard for remaining days */}
+                                <FullItineraryCard
+                                    title="Get the Full 8-Day Mosaic"
+                                    description="We’ll share the complete 8-day flow and tailor the remaining days to sea conditions and your pace. Message us and we’ll send the full itinerary."
+                                    whatsappHref={createWaLink("Get full 8-day itinerary")}
+                                    emailHref={`mailto:contact@togeanvoyages.com?subject=${encodeURIComponent("Full Itinerary Request")}&body=${encodeURIComponent("Hi TogeanVoyage, I’d love the full itinerary for Mosaic. Travel month: ____. Group size: ____. Preferences: ____.")}`}
+                                    whatsappLabel="Message Us for the Full Itinerary"
+                                    emailLabel="Email Us for the Full Itinerary"
+                                    durationLabel="+ 5 More Days Available"
+                                />
 
-                                                    <div className={`w-1/2 ${actualIndex % 2 === 0 ? 'ml-28' : 'mr-28'}`}>
-                                                        <div className="bg-white p-10 shadow-lg hover:shadow-2xl transition-shadow duration-500 border-l-4 border-[#CB9275]">
-                                                            <span className="font-avenir text-xs font-bold tracking-[0.2em] text-[#CB9275] uppercase block mb-3">
-                                                                Day {day.day}
-                                                            </span>
-                                                            <h3 className="font-canto text-3xl md:text-4xl text-foreground mb-8 leading-tight">
-                                                                {day.title}
-                                                            </h3>
-                                                            <div className="space-y-5 mb-8">
-                                                                <div>
-                                                                    <span className="font-avenir font-bold text-xs uppercase tracking-wide text-foreground/50 block mb-2">Morning</span>
-                                                                    <p className="font-avenir text-foreground/80 text-sm leading-relaxed">{day.schedule.morning}</p>
-                                                                </div>
-                                                                <div>
-                                                                    <span className="font-avenir font-bold text-xs uppercase tracking-wide text-foreground/50 block mb-2">Afternoon</span>
-                                                                    <p className="font-avenir text-foreground/80 text-sm leading-relaxed">{day.schedule.afternoon}</p>
-                                                                </div>
-                                                                <div>
-                                                                    <span className="font-avenir font-bold text-xs uppercase tracking-wide text-foreground/50 block mb-2">Evening</span>
-                                                                    <p className="font-avenir text-foreground/80 text-sm leading-relaxed">{day.schedule.evening}</p>
-                                                                </div>
-                                                            </div>
-                                                            <div className="p-5 bg-[#FDF8F6] border-l-2 border-[#CB9275] italic text-foreground/80 font-canto text-lg">
-                                                                "{day.highlight}"
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div className="w-1/2">
-                                                        <div className="relative aspect-[4/3] overflow-hidden shadow-xl group">
-                                                            <Image
-                                                                src={day.image}
-                                                                alt={day.title}
-                                                                fill
-                                                                className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
-                                                            />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </motion.div>
-                                        );
-                                    })}
-                                </div>
-
-                                {/* Mobile "Unlock Full Flow" CTA */}
-                                <div className="md:hidden mt-12">
-                                    <div className="bg-white border border-foreground/10 shadow-xl p-8 text-center">
-                                        <div className="w-16 h-16 bg-[#CB9275]/10 rounded-full flex items-center justify-center mb-6 mx-auto text-[#CB9275]">
-                                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                                                <path d="M12 2C9.243 2 7 4.243 7 7V10H6C4.897 10 4 10.897 4 12V20C4 21.103 4.897 22 6 22H18C19.103 22 20 21.103 20 20V12C20 10.897 19.103 10 18 10H17V7C17 4.243 14.757 2 12 2ZM12 17C10.896 17 10 16.104 10 15C10 13.896 10.896 13 12 13C13.104 13 14 13.896 14 15C14 16.104 13.104 17 12 17ZM9 10V7C9 5.346 10.346 4 12 4C13.654 4 15 5.346 15 7V10H9Z" />
-                                            </svg>
-                                        </div>
-                                        <h3 className="font-canto text-2xl md:text-3xl text-foreground mb-4">
-                                            Want the full Mosaic flow?
-                                        </h3>
-                                        <p className="font-avenir text-foreground/60 text-base leading-relaxed mb-8">
-                                            We tailor it to tides + your pace. Ask for the complete 7-day itinerary.
-                                        </p>
-                                        <a
-                                            href={createWaLink("Get full 7-day itinerary")}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="inline-block px-8 py-4 bg-[#CB9275] hover:bg-[#B67F63] text-white font-avenir tracking-[0.15em] uppercase text-sm transition-all duration-300 shadow-lg"
-                                        >
-                                            Ask for Full Itinerary on WhatsApp
-                                        </a>
-                                    </div>
-                                </div>
+                                { /* Mobile CTA removed - replaced by unified FullItineraryCard */}
                             </div>
                         </div>
                     </div>
@@ -624,7 +551,7 @@ export default function TheTogeanMosaicPage() {
                                     </div>
 
                                     <a
-                                        href={`mailto:contact@togeanvoyages.com?subject=${encodeURIComponent("Inquiry: The Togean Mosaic (7 Days)")}&body=${encodeURIComponent("Hi TogeanVoyage team,\n\nI'm interested in The Togean Mosaic (7 Days). Please share availability, pricing, and next steps.\n\nThanks!")}`}
+                                        href={`mailto:contact@togeanvoyages.com?subject=${encodeURIComponent("Inquiry: The Togean Mosaic (8 Days)")}&body=${encodeURIComponent("Hi TogeanVoyage team,\n\nI'm interested in The Togean Mosaic (8 Days). Please share availability, pricing, and next steps.\n\nThanks!")}`}
                                         className="flex items-center justify-center gap-3 w-full py-5 border-2 border-foreground/10 hover:border-[#CB9275] text-foreground hover:text-[#CB9275] text-center font-avenir tracking-[0.15em] uppercase text-sm transition-all"
                                     >
                                         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -696,7 +623,7 @@ export default function TheTogeanMosaicPage() {
             <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-gray-100 z-50 md:hidden flex items-center justify-between gap-3 shadow-[0_-8px_30px_rgba(0,0,0,0.08)]">
                 <div className="flex flex-col">
                     <span className="text-[10px] text-foreground/50 uppercase tracking-wide">Mosaic</span>
-                    <span className="text-xs font-bold text-foreground">From 7 Days</span>
+                    <span className="text-xs font-bold text-foreground">From 8 Days</span>
                 </div>
                 <div className="flex gap-2">
                     <a

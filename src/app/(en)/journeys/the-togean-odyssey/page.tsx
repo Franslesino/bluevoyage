@@ -9,6 +9,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { CONTACT_INFO } from "@/config/contact";
+import FullItineraryCard from "@/components/FullItineraryCard";
 
 // Helper to create WhatsApp link with prefilled message
 const createWaLink = (intent: string) => {
@@ -241,53 +242,15 @@ export default function TheTogeanOdysseyPage() {
                                 ))}
 
                                 {/* Locked Days Block */}
-                                <div className="relative pt-12">
-                                    {/* Connection Line */}
-                                    <div className="absolute left-[19px] md:left-1/2 top-0 h-12 w-[1px] bg-gradient-to-b from-[#CB9275]/20 to-transparent hidden md:block"></div>
-
-                                    <div className="bg-white border border-foreground/5 shadow-lg p-8 md:p-12 text-center rounded-sm max-w-3xl mx-auto relative overflow-hidden group">
-                                        {/* Background Decoration */}
-                                        <div className="absolute inset-0 bg-[url('/pattern-noise.png')] opacity-5"></div>
-                                        <div className="absolute top-0 right-0 p-12 opacity-5 transform rotate-12">
-                                            <svg width="100" height="100" viewBox="0 0 24 24" fill="currentColor">
-                                                <path d="M12 2C9.243 2 7 4.243 7 7V10H6C4.897 10 4 10.897 4 12V20C4 21.103 4.897 22 6 22H18C19.103 22 20 21.103 20 20V12C20 10.897 19.103 10 18 10H17V7C17 4.243 14.757 2 12 2ZM12 17C10.896 17 10 16.104 10 15C10 13.896 10.896 13 12 13C13.104 13 14 13.896 14 15C14 16.104 13.104 17 12 17ZM9 10V7C9 5.346 10.346 4 12 4C13.654 4 15 5.346 15 7V10H9Z" />
-                                            </svg>
-                                        </div>
-
-                                        <div className="relative z-10 flex flex-col items-center">
-                                            <div className="w-16 h-16 bg-[#CB9275]/10 rounded-full flex items-center justify-center mb-6 text-[#CB9275]">
-                                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                                                    <path d="M12 2C9.243 2 7 4.243 7 7V10H6C4.897 10 4 10.897 4 12V20C4 21.103 4.897 22 6 22H18C19.103 22 20 21.103 20 20V12C20 10.897 19.103 10 18 10H17V7C17 4.243 14.757 2 12 2ZM12 17C10.896 17 10 16.104 10 15C10 13.896 10.896 13 12 13C13.104 13 14 13.896 14 15C14 16.104 13.104 17 12 17ZM9 10V7C9 5.346 10.346 4 12 4C13.654 4 15 5.346 15 7V10H9Z" />
-                                                </svg>
-                                            </div>
-
-                                            <h3 className="font-canto text-3xl md:text-4xl text-foreground mb-4">
-                                                Unlock the Full 10-Day Odyssey
-                                            </h3>
-
-                                            <p className="font-avenir text-foreground/60 text-lg leading-relaxed max-w-lg mb-8">
-                                                The first 3 days are just the beginning. The remaining 7 days are flexible and tailored to the season. Chat with us to receive the complete day-by-day itinerary PDF. It’s free and creates no obligation to book.
-                                            </p>
-
-                                            <div className="flex flex-col md:flex-row gap-4 w-full justify-center">
-                                                <a
-                                                    href={createWaLink("Get full 10-day itinerary")}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                    className="px-8 py-4 bg-[#CB9275] hover:bg-[#B67F63] text-white font-avenir tracking-widest uppercase text-sm transition-all duration-300 shadow-md hover:shadow-lg rounded-sm text-center"
-                                                >
-                                                    GET FULL ITINERARY VIA WHATSAPP (FREE)
-                                                </a>
-                                            </div>
-
-                                            <div className="mt-6 pt-6 border-t border-foreground/5 w-full max-w-sm">
-                                                <p className="font-avenir text-xs text-foreground/40 uppercase tracking-widest">
-                                                    + 7 More Days Available
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <FullItineraryCard
+                                    title="Get the Full 10-Day Odyssey"
+                                    description="The first 3 days are just the beginning. The remaining 7 days are tailored to sea conditions and your pace. Message us and we’ll send the full itinerary."
+                                    whatsappHref={createWaLink("Get full 10-day itinerary")}
+                                    emailHref={`mailto:contact@togeanvoyages.com?subject=${encodeURIComponent("Full Itinerary Request")}&body=${encodeURIComponent("Hi TogeanVoyage, I’d love the full itinerary for Odyssey. Travel month: ____. Group size: ____. Preferences: ____.")}`}
+                                    whatsappLabel="Message Us for the Full Itinerary"
+                                    emailLabel="Email Us for the Full Itinerary"
+                                    durationLabel="+ 7 More Days Available"
+                                />
                             </div>
                         </div>
                     </div>
