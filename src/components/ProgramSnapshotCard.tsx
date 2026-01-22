@@ -29,31 +29,31 @@ const ProgramSnapshotCard: React.FC<ProgramSnapshotCardProps> = ({
             transition={{ delay: 0.8, duration: 0.6 }}
             className="hidden lg:block absolute right-12 top-1/2 -translate-y-1/2 z-20 bg-white/95 backdrop-blur-md p-8 shadow-2xl w-[268px] min-h-[462px] border-t-4 border-[#CB9275]"
         >
-            <h3 className="font-canto text-2xl text-foreground mb-6 border-b border-foreground/10 pb-3">
+            <h3 className="font-canto text-2xl text-[#1a1a1a] mb-6 border-b border-foreground/10 pb-3">
                 Program Snapshot
             </h3>
             <div className="space-y-4 mb-6">
                 <div>
-                    <span className="font-avenir text-xs uppercase tracking-[0.15em] text-foreground/50 block mb-1">
+                    <span className="font-avenir text-xs uppercase tracking-[0.15em] text-[#1a1a1a]/50 block mb-1">
                         Duration
                     </span>
-                    <span className="font-avenir text-lg text-foreground font-medium">
+                    <span className="font-avenir text-lg text-[#1a1a1a] font-medium">
                         {duration}
                     </span>
                 </div>
                 <div>
-                    <span className="font-avenir text-xs uppercase tracking-[0.15em] text-foreground/50 block mb-1">
+                    <span className="font-avenir text-xs uppercase tracking-[0.15em] text-[#1a1a1a]/50 block mb-1">
                         Best for
                     </span>
-                    <span className="font-avenir text-sm text-foreground leading-relaxed">
+                    <span className="font-avenir text-sm text-[#1a1a1a] leading-relaxed">
                         {bestFor}
                     </span>
                 </div>
                 <div>
-                    <span className="font-avenir text-xs uppercase tracking-[0.15em] text-foreground/50 block mb-1">
+                    <span className="font-avenir text-xs uppercase tracking-[0.15em] text-[#1a1a1a]/50 block mb-1">
                         Style
                     </span>
-                    <span className="font-avenir text-sm text-foreground">
+                    <span className="font-avenir text-sm text-[#1a1a1a]">
                         {style}
                     </span>
                 </div>
@@ -71,7 +71,7 @@ const ProgramSnapshotCard: React.FC<ProgramSnapshotCardProps> = ({
                                 className="object-contain"
                             />
                         </div>
-                        <span className="font-avenir text-[10px] uppercase tracking-wide text-foreground/70 leading-tight">
+                        <span className="font-avenir text-[10px] uppercase tracking-wide text-[#1a1a1a]/70 leading-tight">
                             {stat.label}
                         </span>
                     </div>

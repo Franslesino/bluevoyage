@@ -24,7 +24,7 @@ const ProgramSlide = ({ program, index }: { program: typeof PROGRAMS_HOME[0]; in
                             PROGRAMS NOW OPEN
                         </span>
 
-                        <h3 className="font-canto text-2xl md:text-4xl lg:text-5xl text-foreground leading-tight mb-4 md:mb-6">
+                        <h3 className="font-canto text-2xl md:text-4xl lg:text-5xl text-[#1a1a1a] leading-tight mb-4 md:mb-6">
                             {(() => {
                                 if (!program.title.includes(":")) return program.title;
                                 const parts = program.title.split(":");
@@ -49,7 +49,7 @@ const ProgramSlide = ({ program, index }: { program: typeof PROGRAMS_HOME[0]; in
                             className={`relative overflow-hidden transition-all duration-700 ease-in-out md:max-h-none ${isExpanded ? "max-h-[1000px] opacity-100" : "max-h-[3.6em] opacity-90"
                                 }`}
                         >
-                            <p className="font-avenir text-sm md:text-base lg:text-lg text-foreground/70 leading-relaxed mb-0 max-w-lg">
+                            <p className="font-avenir text-sm md:text-base lg:text-lg text-[#1a1a1a]/70 leading-relaxed mb-0 max-w-lg">
                                 {program.description}
                             </p>
 
@@ -137,7 +137,7 @@ const ProgramsSection = () => {
     const accentColor = "#CB9275";
 
     return (
-        <section id="programs" className="relative w-full py-20 bg-background overflow-hidden">
+        <section id="programs" className="relative w-full py-20 bg-white overflow-hidden">
             <div className="container mx-auto px-6 md:px-12 lg:px-20">
 
                 {/* Section Header */}

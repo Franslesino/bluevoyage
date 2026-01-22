@@ -59,7 +59,7 @@ export default function TheTogeanOdysseyPage() {
     return (
         <>
             <Navbar />
-            <main className="w-full bg-background text-foreground overflow-x-hidden selection:bg-[#CB9275] selection:text-white pb-24 md:pb-0">
+            <main className="w-full bg-white text-[#1a1a1a] overflow-x-hidden selection:bg-[#CB9275] selection:text-white pb-24 md:pb-0">
 
                 {/* PHASE 1: THE HOOK */}
                 {/* Hero Section */}

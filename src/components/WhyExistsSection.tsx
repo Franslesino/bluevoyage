@@ -24,12 +24,12 @@ const WhyExistsSection: React.FC<WhyExistsSectionProps> = ({
     quote,
 }) => {
     return (
-        <section className="py-24 md:py-32 bg-background relative">
+        <section className="py-24 md:py-32 bg-white relative">
             <div className="container mx-auto px-6 md:px-12 max-w-5xl text-center">
                 <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
                     {subtitle}
                 </span>
-                <h2 className="font-canto text-4xl md:text-5xl mb-10 text-foreground">
+                <h2 className="font-canto text-4xl md:text-5xl mb-10 text-[#1a1a1a]">
                     {headline}
                 </h2>
                 <p className="font-avenir text-lg md:text-xl text-foreground/70 leading-relaxed mb-16 max-w-3xl mx-auto">

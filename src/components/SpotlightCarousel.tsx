@@ -70,7 +70,7 @@ export default function SpotlightCarousel() {
     return (
         <section className="spotlight-carousel py-12 md:py-16 bg-white">
             {/* Header */}
-            <div className="text-center mb-8 md:mb-12 px-4">
+            <div className="relative z-10 text-center mb-8 md:mb-12 px-4">
                 <h2 className="spotlight-carousel__heading text-3xl md:text-4xl lg:text-5xl mb-4">
                     {t("spotlight.title")}
                 </h2>
