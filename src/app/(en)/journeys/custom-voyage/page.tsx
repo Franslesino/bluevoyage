@@ -112,7 +112,7 @@ export default function CustomVoyagePage() {
     return (
         <>
             <Navbar />
-            <main className="w-full bg-background text-foreground overflow-x-hidden selection:bg-[#CB9275] selection:text-white pb-24 md:pb-0">
+            <main className="w-full bg-background text-foreground overflow-x-hidden selection:bg-[#088F8F] selection:text-white pb-24 md:pb-0">
 
                 {/* PHASE 1: HERO - THE HOOK */}
                 <section className="relative h-[100vh] w-full flex items-center justify-center overflow-hidden">
@@ -151,7 +151,7 @@ export default function CustomVoyagePage() {
                             Custom Voyage
                         </h1>
 
-                        <span className="inline-block px-8 py-3 rounded-full border border-[#CB9275]/20 bg-[#FDF8F6]/10 backdrop-blur-sm mb-6">
+                        <span className="inline-block px-8 py-3 rounded-full border border-[#088F8F]/20 bg-[#FDF8F6]/10 backdrop-blur-sm mb-6">
                             <p className="font-canto text-2xl md:text-4xl italic text-white drop-shadow-sm font-medium">
                                 Designed around you.
                             </p>
@@ -168,7 +168,7 @@ export default function CustomVoyagePage() {
                         <div className="flex flex-col md:flex-row gap-4 justify-center items-center mb-8">
                             <button
                                 onClick={scrollToForm}
-                                className="group px-8 py-4 bg-[#CB9275] hover:bg-[#B67F63] text-white font-avenir tracking-[0.15em] uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[260px] shadow-2xl hover:shadow-[#CB9275]/30"
+                                className="group px-8 py-4 bg-[#088F8F] hover:bg-[#066e6e] text-white font-avenir tracking-[0.15em] uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[260px] shadow-2xl hover:shadow-[#088F8F]/30"
                             >
                                 <span className="inline-block group-hover:scale-105 transition-transform duration-300">Custom Your Itinerary</span>
                             </button>
@@ -185,19 +185,19 @@ export default function CustomVoyagePage() {
                         {/* Trust micro-row */}
                         <div className="flex flex-col md:flex-row gap-4 md:gap-8 justify-center items-center text-white/80 text-xs md:text-sm font-avenir">
                             <div className="flex items-center gap-2">
-                                <svg className="w-4 h-4 text-[#CB9275]" fill="currentColor" viewBox="0 0 20 20">
+                                <svg className="w-4 h-4 text-[#088F8F]" fill="currentColor" viewBox="0 0 20 20">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                 </svg>
                                 <span>Tailored routes, not templates</span>
                             </div>
                             <div className="flex items-center gap-2">
-                                <svg className="w-4 h-4 text-[#CB9275]" fill="currentColor" viewBox="0 0 20 20">
+                                <svg className="w-4 h-4 text-[#088F8F]" fill="currentColor" viewBox="0 0 20 20">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                 </svg>
                                 <span>Private crew + calm pace</span>
                             </div>
                             <div className="flex items-center gap-2">
-                                <svg className="w-4 h-4 text-[#CB9275]" fill="currentColor" viewBox="0 0 20 20">
+                                <svg className="w-4 h-4 text-[#088F8F]" fill="currentColor" viewBox="0 0 20 20">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                 </svg>
                                 <span>Fast response, human planning</span>
@@ -220,7 +220,7 @@ export default function CustomVoyagePage() {
 
                     <div className="container mx-auto px-6 max-w-7xl relative z-10">
                         <div className="text-center mb-12">
-                            <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.25em] uppercase mb-4 block">
+                            <span className="text-[#088F8F] font-avenir text-xs font-bold tracking-[0.25em] uppercase mb-4 block">
                                 How Custom Works
                             </span>
                             <h2 className="font-canto text-4xl md:text-6xl text-foreground mb-4">
@@ -237,8 +237,8 @@ export default function CustomVoyagePage() {
                                 transition={{ delay: 0, duration: 0.5 }}
                                 className="text-center"
                             >
-                                <div className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 rounded-full bg-[#CB9275]/10 flex items-center justify-center">
-                                    <span className="font-canto text-2xl md:text-3xl text-[#CB9275]">1</span>
+                                <div className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 rounded-full bg-[#088F8F]/10 flex items-center justify-center">
+                                    <span className="font-canto text-2xl md:text-3xl text-[#088F8F]">1</span>
                                 </div>
                                 <h3 className="font-canto text-2xl md:text-3xl text-foreground mb-3">Tell us your vibe</h3>
                                 <p className="font-avenir text-foreground/70 leading-relaxed text-sm md:text-base">
@@ -254,8 +254,8 @@ export default function CustomVoyagePage() {
                                 transition={{ delay: 0.15, duration: 0.5 }}
                                 className="text-center"
                             >
-                                <div className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 rounded-full bg-[#CB9275]/10 flex items-center justify-center">
-                                    <span className="font-canto text-2xl md:text-3xl text-[#CB9275]">2</span>
+                                <div className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 rounded-full bg-[#088F8F]/10 flex items-center justify-center">
+                                    <span className="font-canto text-2xl md:text-3xl text-[#088F8F]">2</span>
                                 </div>
                                 <h3 className="font-canto text-2xl md:text-3xl text-foreground mb-3">We design the route</h3>
                                 <p className="font-avenir text-foreground/70 leading-relaxed text-sm md:text-base">
@@ -271,8 +271,8 @@ export default function CustomVoyagePage() {
                                 transition={{ delay: 0.3, duration: 0.5 }}
                                 className="text-center"
                             >
-                                <div className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 rounded-full bg-[#CB9275]/10 flex items-center justify-center">
-                                    <span className="font-canto text-2xl md:text-3xl text-[#CB9275]">3</span>
+                                <div className="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 rounded-full bg-[#088F8F]/10 flex items-center justify-center">
+                                    <span className="font-canto text-2xl md:text-3xl text-[#088F8F]">3</span>
                                 </div>
                                 <h3 className="font-canto text-2xl md:text-3xl text-foreground mb-3">You approve + refine</h3>
                                 <p className="font-avenir text-foreground/70 leading-relaxed text-sm md:text-base">
@@ -291,7 +291,7 @@ export default function CustomVoyagePage() {
                 <section className="py-10 md:py-14 bg-[#FAFAFA]">
                     <div className="container mx-auto px-6 max-w-7xl">
                         <div className="text-center mb-12">
-                            <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.25em] uppercase mb-4 block">
+                            <span className="text-[#088F8F] font-avenir text-xs font-bold tracking-[0.25em] uppercase mb-4 block">
                                 Select Your Islands
                             </span>
                             <h2 className="font-canto text-4xl md:text-6xl text-foreground mb-4">
@@ -311,7 +311,7 @@ export default function CustomVoyagePage() {
                 <section className="py-10 md:py-14 bg-background">
                     <div className="container mx-auto px-6 max-w-7xl">
                         <div className="text-center mb-12">
-                            <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.25em] uppercase mb-4 block">
+                            <span className="text-[#088F8F] font-avenir text-xs font-bold tracking-[0.25em] uppercase mb-4 block">
                                 Select Your Experiences
                             </span>
                             <h2 className="font-canto text-4xl md:text-6xl text-foreground mb-4">
@@ -341,7 +341,7 @@ export default function CustomVoyagePage() {
 
                     <div className="container mx-auto px-6 max-w-2xl relative z-10">
                         <div className="text-center mb-4 md:mb-6">
-                            <span className="text-[#CB9275] font-avenir text-[10px] font-bold tracking-[0.25em] uppercase mb-2 block">
+                            <span className="text-[#088F8F] font-avenir text-[10px] font-bold tracking-[0.25em] uppercase mb-2 block">
                                 Concierge Request
                             </span>
                             <h2 className="font-canto text-2xl md:text-3xl lg:text-4xl text-foreground mb-2">
@@ -364,7 +364,7 @@ export default function CustomVoyagePage() {
                                             type="text"
                                             value={formData.name}
                                             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                                            className="w-full px-3 py-1.5 border border-foreground/20 focus:border-[#CB9275] focus:outline-none font-avenir text-sm transition-colors"
+                                            className="w-full px-3 py-1.5 border border-foreground/20 focus:border-[#088F8F] focus:outline-none font-avenir text-sm transition-colors"
                                             placeholder="First & Last Name"
                                         />
                                     </div>
@@ -376,7 +376,7 @@ export default function CustomVoyagePage() {
                                             type="text"
                                             value={formData.groupSize}
                                             onChange={(e) => setFormData({ ...formData, groupSize: e.target.value })}
-                                            className="w-full px-3 py-1.5 border border-foreground/20 focus:border-[#CB9275] focus:outline-none font-avenir text-sm transition-colors"
+                                            className="w-full px-3 py-1.5 border border-foreground/20 focus:border-[#088F8F] focus:outline-none font-avenir text-sm transition-colors"
                                             placeholder="e.g. 2 adults"
                                         />
                                     </div>
@@ -391,7 +391,7 @@ export default function CustomVoyagePage() {
                                         type="text"
                                         value={formData.dates}
                                         onChange={(e) => setFormData({ ...formData, dates: e.target.value })}
-                                        className="w-full px-3 py-1.5 border border-foreground/20 focus:border-[#CB9275] focus:outline-none font-avenir text-sm transition-colors"
+                                        className="w-full px-3 py-1.5 border border-foreground/20 focus:border-[#088F8F] focus:outline-none font-avenir text-sm transition-colors"
                                         placeholder="e.g. June 2026"
                                     />
                                 </div>
@@ -408,8 +408,8 @@ export default function CustomVoyagePage() {
                                                 type="button"
                                                 onClick={() => toggleInterest(interest)}
                                                 className={`px-2.5 py-1 rounded-full font-avenir text-[10px] md:text-xs transition-all ${formData.interests.includes(interest)
-                                                    ? "bg-[#CB9275] text-white shadow-md"
-                                                    : "bg-white border border-foreground/20 text-foreground hover:border-[#CB9275]"
+                                                    ? "bg-[#088F8F] text-white shadow-md"
+                                                    : "bg-white border border-foreground/20 text-foreground hover:border-[#088F8F]"
                                                     }`}
                                             >
                                                 {interest}
@@ -430,8 +430,8 @@ export default function CustomVoyagePage() {
                                                 type="button"
                                                 onClick={() => setFormData({ ...formData, pace })}
                                                 className={`px-2 py-1.5 font-avenir text-[10px] md:text-xs transition-all ${formData.pace === pace
-                                                    ? "bg-[#CB9275] text-white shadow-md"
-                                                    : "bg-white border border-foreground/20 text-foreground hover:border-[#CB9275]"
+                                                    ? "bg-[#088F8F] text-white shadow-md"
+                                                    : "bg-white border border-foreground/20 text-foreground hover:border-[#088F8F]"
                                                     }`}
                                             >
                                                 {pace}
@@ -449,7 +449,7 @@ export default function CustomVoyagePage() {
                                         value={formData.notes}
                                         onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
                                         rows={2}
-                                        className="w-full px-3 py-1.5 border border-foreground/20 focus:border-[#CB9275] focus:outline-none font-avenir text-sm transition-colors resize-none"
+                                        className="w-full px-3 py-1.5 border border-foreground/20 focus:border-[#088F8F] focus:outline-none font-avenir text-sm transition-colors resize-none"
                                         placeholder="Any specific requests..."
                                     />
                                 </div>
@@ -460,7 +460,7 @@ export default function CustomVoyagePage() {
                                         href={createWaLink(formData)}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="flex items-center justify-center gap-2 w-full py-3 bg-[#CB9275] hover:bg-[#B67F63] text-white text-center font-avenir tracking-[0.15em] uppercase text-xs font-bold transition-all shadow-lg hover:shadow-xl"
+                                        className="flex items-center justify-center gap-2 w-full py-3 bg-[#088F8F] hover:bg-[#066e6e] text-white text-center font-avenir tracking-[0.15em] uppercase text-xs font-bold transition-all shadow-lg hover:shadow-xl"
                                     >
                                         <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                                             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
@@ -469,9 +469,9 @@ export default function CustomVoyagePage() {
                                     </a>
 
                                     <div className="flex items-center justify-center gap-4 my-1">
-                                        <div className="flex-1 h-px bg-[#CB9275]/40"></div>
-                                        <span className="text-[10px] font-avenir tracking-[0.2em] uppercase text-[#CB9275]/70">OR</span>
-                                        <div className="flex-1 h-px bg-[#CB9275]/40"></div>
+                                        <div className="flex-1 h-px bg-[#088F8F]/40"></div>
+                                        <span className="text-[10px] font-avenir tracking-[0.2em] uppercase text-[#088F8F]/70">OR</span>
+                                        <div className="flex-1 h-px bg-[#088F8F]/40"></div>
                                     </div>
 
                                     <a
@@ -487,7 +487,7 @@ Pace: ${formData.pace || '[Your pace]'}
 Notes: ${formData.notes || 'N/A'}
 
 Looking forward to hearing from you!`)}`}
-                                        className="flex items-center justify-center gap-2 w-full py-3 border-2 border-foreground/10 hover:border-[#CB9275] text-foreground hover:text-[#CB9275] text-center font-avenir tracking-[0.15em] uppercase text-xs font-bold transition-all"
+                                        className="flex items-center justify-center gap-2 w-full py-3 border-2 border-foreground/10 hover:border-[#088F8F] text-foreground hover:text-[#088F8F] text-center font-avenir tracking-[0.15em] uppercase text-xs font-bold transition-all"
                                     >
                                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -505,13 +505,13 @@ Looking forward to hearing from you!`)}`}
                     <div className="container mx-auto px-6 max-w-5xl">
                         <div className="text-center space-y-8 md:space-y-10">
                             <div>
-                                <svg className="w-12 h-12 md:w-14 md:h-14 mx-auto mb-6 md:mb-8 text-[#CB9275]" fill="currentColor" viewBox="0 0 24 24">
+                                <svg className="w-12 h-12 md:w-14 md:h-14 mx-auto mb-6 md:mb-8 text-[#088F8F]" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M14.017 21L14.017 18C14.017 16.896 14.912 16 16.017 16H19.017C19.569 16 20.017 15.552 20.017 15V9C20.017 8.448 19.569 8 19.017 8H15.017C14.465 8 14.017 8.448 14.017 9V11C14.017 11.552 13.569 12 13.017 12H12.017V5H22.017V15C22.017 18.314 19.331 21 16.017 21H14.017ZM5.01697 21L5.01697 18C5.01697 16.896 5.91197 16 7.01697 16H10.017C10.569 16 11.017 15.552 11.017 15V9C11.017 8.448 10.569 8 10.017 8H6.01697C5.46497 8 5.01697 8.448 5.01697 9V11C5.01697 11.552 4.56897 12 4.01697 12H3.01697V5H13.017V15C13.017 18.314 10.331 21 7.01697 21H5.01697Z" />
                                 </svg>
                                 <blockquote className="font-canto text-3xl md:text-5xl leading-tight mb-6 italic">
                                     "We told them what we loved—quiet reefs and slow mornings—and they built a route that felt made for us."
                                 </blockquote>
-                                <p className="font-avenir text-[#CB9275] uppercase tracking-[0.2em] text-xs md:text-sm">
+                                <p className="font-avenir text-[#088F8F] uppercase tracking-[0.2em] text-xs md:text-sm">
                                     — Couple, Jakarta
                                 </p>
                             </div>
@@ -520,7 +520,7 @@ Looking forward to hearing from you!`)}`}
                                 <blockquote className="font-canto text-2xl md:text-4xl leading-tight mb-6 italic">
                                     "They adjusted everything mid-trip when weather shifted—no stress, just solutions. True concierge service."
                                 </blockquote>
-                                <p className="font-avenir text-[#CB9275] uppercase tracking-[0.2em] text-xs md:text-sm">
+                                <p className="font-avenir text-[#088F8F] uppercase tracking-[0.2em] text-xs md:text-sm">
                                     — Family, Singapore
                                 </p>
                             </div>
@@ -532,7 +532,7 @@ Looking forward to hearing from you!`)}`}
                 <section className="py-10 md:py-12 bg-background">
                     <div className="container mx-auto px-6 max-w-4xl">
                         <div className="text-center mb-8">
-                            <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.25em] uppercase mb-4 block">
+                            <span className="text-[#088F8F] font-avenir text-xs font-bold tracking-[0.25em] uppercase mb-4 block">
                                 Common Questions
                             </span>
                             <h2 className="font-canto text-3xl md:text-4xl text-foreground">
@@ -547,11 +547,11 @@ Looking forward to hearing from you!`)}`}
                                         onClick={() => toggleFaq(index)}
                                         className="w-full flex justify-between items-center text-left focus:outline-none py-2 group"
                                     >
-                                        <span className="font-avenir text-sm md:text-base text-foreground/90 group-hover:text-[#CB9275] transition-colors pr-4">
+                                        <span className="font-avenir text-sm md:text-base text-foreground/90 group-hover:text-[#088F8F] transition-colors pr-4">
                                             {item.question}
                                         </span>
                                         <span
-                                            className={`text-lg md:text-xl transition-all duration-300 flex-shrink-0 ${openFaqIndex === index ? "rotate-45 text-[#CB9275]" : "text-foreground/30"
+                                            className={`text-lg md:text-xl transition-all duration-300 flex-shrink-0 ${openFaqIndex === index ? "rotate-45 text-[#088F8F]" : "text-foreground/30"
                                                 }`}
                                         >
                                             +
@@ -593,7 +593,7 @@ Looking forward to hearing from you!`)}`}
                         <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
                             <button
                                 onClick={scrollToForm}
-                                className="group px-8 py-4 bg-[#CB9275] hover:bg-[#B67F63] text-white font-avenir tracking-[0.15em] uppercase text-xs md:text-sm transition-all duration-300 w-full md:w-auto min-w-[260px] shadow-2xl hover:shadow-[#CB9275]/30"
+                                className="group px-8 py-4 bg-[#088F8F] hover:bg-[#066e6e] text-white font-avenir tracking-[0.15em] uppercase text-xs md:text-sm transition-all duration-300 w-full md:w-auto min-w-[260px] shadow-2xl hover:shadow-[#088F8F]/30"
                             >
                                 <span className="inline-block group-hover:scale-105 transition-transform duration-300">Custom Your Itinerary</span>
                             </button>
@@ -621,7 +621,7 @@ Looking forward to hearing from you!`)}`}
                 <div className="flex gap-2">
                     <button
                         onClick={scrollToForm}
-                        className="px-6 py-3 bg-[#CB9275] hover:bg-[#B67F63] rounded text-white text-xs font-bold uppercase tracking-wide shadow-md transition-all"
+                        className="px-6 py-3 bg-[#088F8F] hover:bg-[#066e6e] rounded text-white text-xs font-bold uppercase tracking-wide shadow-md transition-all"
                     >
                         Custom
                     </button>

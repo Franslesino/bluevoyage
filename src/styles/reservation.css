@@ -1,0 +1,535 @@
+/* ===== RESERVATION PAGE STYLES ===== */
+
+.reservation-page {
+    background: #ffffff;
+    min-height: 100vh;
+    padding-top: 2rem;
+    font-family: var(--font-sans, 'Inter', sans-serif);
+    color: #1a1a1a;
+}
+
+.reservation-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 max(2rem, 5vw) 4rem;
+}
+
+/* Two Column Layout */
+.reservation-layout {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 4rem;
+    align-items: start;
+}
+
+@media (max-width: 1024px) {
+    .reservation-layout {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .reservation-sidebar {
+        order: 1;
+    }
+}
+
+/* Bordered Form Section */
+.reservation-form-container {
+    border: 1px solid #ddd;
+    padding: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 4px;
+}
+
+/* Fix Autofill Background Blue */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    -webkit-text-fill-color: #1a1a1a !important;
+}
+
+/* LEFT COLUMN: MAIN CONTENT */
+.reservation-main {
+    width: 100%;
+}
+
+/* FORM STYLING */
+.form-section-header {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    color: #088F8F;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-row-3-equal {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    gap: 2rem;
+}
+
+.form-row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.form-group-clean {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.clean-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.clean-input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    color: #1a1a1a;
+    background: transparent;
+    border-radius: 0;
+    transition: border-color 0.2s;
+    font-family: inherit;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.clean-input:focus {
+    outline: none;
+    border-bottom-color: #088F8F;
+}
+
+.clean-textarea {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    border-radius: 4px;
+    resize: vertical;
+    min-height: 80px;
+}
+
+.field-helper {
+    font-size: 0.75rem;
+    color: #888;
+    margin-top: 0.5rem;
+}
+
+/* Select Styling */
+.select-wrapper {
+    position: relative;
+}
+
+.select-arrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+/* Phone Input */
+.phone-input-clean {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.phone-input-clean:focus-within {
+    border-bottom-color: #088F8F;
+}
+
+.phone-number {
+    border: none;
+    flex: 1;
+    padding-left: 1rem;
+}
+
+/* Custom Phone Dropdown */
+.custom-phone-dropdown {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    min-width: 60px;
+}
+
+.selected-flag-trigger {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0.5rem 0.25rem;
+}
+
+.flag-icon {
+    width: 24px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.flag-icon-small {
+    width: 20px;
+    height: auto;
+    border-radius: 2px;
+}
+
+.phone-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 280px;
+    max-height: 300px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.phone-dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.1s;
+    font-size: 0.9rem;
+}
+
+.phone-dropdown-item:hover {
+    background: #f5f5f5;
+}
+
+.phone-dropdown-item .country-name {
+    flex: 1;
+    color: #333;
+}
+
+.phone-dropdown-item .dial-code {
+    color: #888;
+    font-size: 0.85rem;
+}
+
+.dial-code-display {
+    display: flex;
+    align-items: center;
+    padding-right: 0.5rem;
+    color: #555;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+/* Address Autocomplete */
+.address-autocomplete-wrapper {
+    position: relative;
+}
+
+.search-input-wrapper {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+    color: #999;
+}
+
+.address-suggestions-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    max-height: 250px;
+    overflow-y: auto;
+    z-index: 100;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.address-suggestion-item {
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    transition: background 0.1s;
+}
+
+.address-suggestion-item:last-child {
+    border-bottom: none;
+}
+
+.address-suggestion-item:hover {
+    background: #f5f5f5;
+}
+
+/* Checkboxes */
+.form-checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.checkbox-label {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    font-size: 0.9rem;
+    color: #444;
+    cursor: pointer;
+}
+
+.checkbox-label input {
+    margin-top: 3px;
+    accent-color: #088F8F;
+}
+
+/* Submit Button */
+.form-actions {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: flex-end;
+}
+
+.btn-submit-reservation {
+    background: #088F8F;
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s, background 0.2s;
+    border-radius: 4px;
+}
+
+.btn-submit-reservation:hover {
+    background: #066e6e;
+}
+
+.btn-submit-reservation:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* RIGHT COLUMN: SIDEBAR */
+.reservation-sidebar {
+    position: relative;
+}
+
+.sidebar-track {
+    position: sticky;
+    top: 100px;
+}
+
+.itinerary-sticky {
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.itinerary-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0 0 0.5rem;
+    color: #1a1a1a;
+}
+
+.itinerary-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0 0 1rem;
+}
+
+.itinerary-divider {
+    height: 1px;
+    background: #ddd;
+    margin: 1rem 0;
+}
+
+.itinerary-empty {
+    color: #888;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.itinerary-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.itinerary-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.itinerary-item:last-child {
+    border-bottom: none;
+}
+
+.itinerary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+}
+
+.itinerary-type {
+    font-size: 0.65rem;
+    color: #088F8F;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+}
+
+.itinerary-cabin-name {
+    font-weight: 500;
+    color: #1a1a1a;
+}
+
+.itinerary-remove-btn-top {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    color: #999;
+    transition: color 0.2s;
+}
+
+.itinerary-remove-btn-top:hover {
+    color: #e74c3c;
+}
+
+.action-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.itinerary-info-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.itinerary-icon {
+    width: 16px;
+    height: 16px;
+    color: #888;
+    flex-shrink: 0;
+}
+
+.itinerary-info-text {
+    color: #333;
+}
+
+.itinerary-price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px dashed #ddd;
+}
+
+.itinerary-price-left {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.itinerary-price-label {
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.itinerary-price-value {
+    font-weight: 600;
+    color: #088F8F;
+}
+
+/* Total */
+.itinerary-total {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 2px solid #ddd;
+}
+
+.itinerary-total-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.itinerary-total-label-simple {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+}
+
+.itinerary-total-right {
+    text-align: right;
+}
+
+.itinerary-total-amount {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #088F8F;
+}
+
+.itinerary-tax-note {
+    display: block;
+    font-size: 0.7rem;
+    color: #999;
+    margin-top: 0.25rem;
+}
+
+.mt-large {
+    margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .form-row-3-equal,
+    .form-row-2 {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .reservation-container {
+        padding: 0 1rem 3rem;
+    }
+}

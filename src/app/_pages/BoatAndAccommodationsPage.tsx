@@ -56,23 +56,23 @@ const stayItemsData = [
 export default function BoatAndAccommodationsPage() {
     const { t } = useTranslation();
 
-    const boatItems = useMemo(() => 
+    const boatItems = useMemo(() =>
         boatItemsData.map(item => ({
             title: t(`boatAndAccommodations.boatItems.${item.id}.title`),
             description: t(`boatAndAccommodations.boatItems.${item.id}.description`),
             imagePath: item.imagePath,
             href: item.href
         }))
-    , [t]);
+        , [t]);
 
-    const stayItems = useMemo(() => 
+    const stayItems = useMemo(() =>
         stayItemsData.map(item => ({
             title: t(`boatAndAccommodations.stayItems.${item.id}.title`),
             description: t(`boatAndAccommodations.stayItems.${item.id}.description`),
             imagePath: item.imagePath,
             href: item.href
         }))
-    , [t]);
+        , [t]);
 
     return (
         <div className="bg-white min-h-screen text-neutral-900 flex flex-col">

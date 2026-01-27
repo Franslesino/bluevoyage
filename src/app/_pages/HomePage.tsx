@@ -20,6 +20,7 @@ import FooterSection from "@/components/FooterSection";
 import MobileTripCtaBar from "@/components/MobileTripCtaBar";
 import HomepageCta from "@/components/HomepageCta";
 import ProgramsSection from "@/components/ProgramsSection";
+import BookingBar from "@/components/BookingBar";
 import { useHashScroll } from "@/hooks/useHashScroll";
 
 export default function HomePage() {
@@ -29,6 +30,9 @@ export default function HomePage() {
             <Navbar />
             <main>
                 <Hero />
+
+                {/* Booking Bar */}
+                <BookingBar />
 
                 {/* Programs Section */}
                 <ProgramsSection />

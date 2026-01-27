@@ -12,8 +12,8 @@
     "bookNow": "Book Now",
     "close": "Close",
     "bookYourTrip": "Book Your Trip",
-    "planTrip": "Plan Your Trip",
-    "planTripShort": "Plan Trip",
+    "planTrip": "Check Booking",
+    "planTripShort": "Check Booking",
     "socialMedia": "Social Media"
   },
   "hero": {
@@ -22,83 +22,83 @@
   "spotlight": {
     "title": "In the spotlight: Signature Destinations",
     "subtitle": "Curated Experiences: Signature Destinations",
-    "tagline": "TOGEAN ISLANDS",
-    "cta1": "Discover sunrise reefs",
-    "cta2": "Drift into calm bays",
-    "cta3": "Explore reef gardens",
-    "cta4": "Witness volcanic dawn",
-    "cta5": "Find golden solitude"
+    "tagline": "KOMODO NATIONAL PARK",
+    "cta1": "Discover sunrise peaks",
+    "cta2": "Drift with mantas",
+    "cta3": "Walk with dragons",
+    "cta4": "Relax on pink sands",
+    "cta5": "Sail into golden hour"
   },
   "activities": {
     "title": "Ways to explore: Signature Activities",
     "subtitle": "Curated Activities: Explore All",
     "viewActivity": "View Activity",
-    "sectionLabel": "Togean Voyages",
+    "sectionLabel": "Komodo Voyage",
     "pageTitle": "Signature Activities",
     "activitiesCount": "{{count}} Activities",
     "items": {
       "snorkeling-diving": {
-        "name": "Snorkeling & diving",
-        "dateLabel": "Togean Voyages",
-        "description": "Explore coral gardens, walls, and wrecks across Kadidiri, Una Una, and Walea Kodi, with warm waters and high biodiversity.",
-        "overview": "Guided sessions for beginners to advanced divers, prioritizing safety, reef-friendly habits, and the best-visibility sites in the Togeans.",
-        "whatYoullDo": "Snorkel house reefs, dive drop-offs and the B-24 wreck, practice buoyancy, and learn local marine ecology from instructors.",
-        "bestTime": "Year-round, but calmest seas usually April-October; many guides rate March-December best for diving.",
-        "notes": "Suitable for most fitness levels. Bring rashguard and reef-safe sunscreen. Gear can be arranged at resorts; schedules may shift with seasonal winds."
+        "name": "Snorkeling & Diving",
+        "dateLabel": "Komodo Voyage",
+        "description": "Experience world-class marine life at Batu Bolong, Manta Point, and vibrant coral gardens teeming with fish.",
+        "overview": "Drift through nutrient-rich currents, swim alongside massive manta rays, and marvel at the kaleidoscope of coral reefs that make Komodo a diver's dream.",
+        "whatYoullDo": "Snorkel with mantas, dive iconic sites like Castle Rock, and explore the underwater wonders of the Coral Triangle.",
+        "bestTime": "April to December for the best visibility; mantas are year-round but gather in larger numbers during plankton seasons.",
+        "notes": "Currents can be strong; guided sessions ensure safety. fins and masks provided."
       },
-      "relaxing-sunbathing": {
-        "name": "Relaxing & sunbathing",
-        "dateLabel": "Togean Voyages",
-        "description": "Slow down on palm-fringed beaches in Kadidiri, Malenge, Puat, and Bomba—clear lagoons, soft sand, and uninterrupted island quiet.",
-        "overview": "A comfort-first beach activity with flexible pacing: swim, read, nap in hammocks, and reset between boat days and adventure activities.",
-        "whatYoullDo": "Choose morning swims, lazy lunches, beach walks, and sunset sessions; optional massages or yoga where available at resorts.",
-        "bestTime": "Best during drier months April-October for more sun and smoother sea crossings, though beach time is possible year-round.",
-        "notes": "Bring high-SPF sunscreen, hat, and reusable water bottle. Midday sun is intense; take shade breaks, hydrate, and protect your skin daily."
+      "dragon-trekking": {
+        "name": "Dragon Trekking",
+        "dateLabel": "Komodo Voyage",
+        "description": "Walk with legends. Guided treks on Rinca and Komodo Islands to see the world's largest lizard in its natural habitat.",
+        "overview": "A ranger-led adventure through savannah and monsoon forests to safely observe Komodo dragons and other island wildlife.",
+        "whatYoullDo": "Trek scenic trails, spot dragons, water buffalo, and deer, and learn about the park's unique ecology from expert rangers.",
+        "bestTime": "Early morning or late afternoon when dragons are most active.",
+        "notes": "Stay with your ranger at all times. Bring water, hat, and sturdy shoes."
       },
       "hiking-viewpoints": {
-        "name": "Hiking & viewpoints",
-        "dateLabel": "Togean Voyages",
-        "description": "Trade reefs for ridgelines: jungle walks on Malenge and Batudaka, plus Mount Colo's volcanic trek on Una Una for sweeping bay views.",
-        "overview": "Short to moderate hikes matched to your pace, with local guides highlighting geology, flora, and the best sunrise or sunset lookout points.",
-        "whatYoullDo": "Volcano summit hike, forest trails, village-to-beach footpaths, and cliff viewpoints (including around Luwuk); plenty of photo stops and cooling swims afterward.",
-        "bestTime": "April-October is typically drier for trails; avoid windier months when boat transfers and hike plans can change.",
-        "notes": "Wear closed shoes, bring insect repellent and 1-2 liters of water. Start early for cooler temperatures; guides are recommended for Mount Colo."
+        "name": "Hiking & Viewpoints",
+        "dateLabel": "Komodo Voyage",
+        "description": "Scale the heights of Padar and Gili Laba for iconic panoramic views of crescent bays and turquoise waters.",
+        "overview": "Sunrise treks that reward you with breathtaking vistas of the archipelago's rugged landscape and contrasting beaches.",
+        "whatYoullDo": "Hike up stone steps to Padar's summit, capture the famous three-bay photo, and enjoy golden hour from high above.",
+        "bestTime": "Sunrise is magical for Padar; cooler temperatures and stunning light.",
+        "notes": "Moderate fitness required for Padar. Bring water and sunscreen."
       },
-      "local-community-immersion": {
-        "name": "Local community immersion",
-        "dateLabel": "Togean Voyages",
-        "description": "Meet island communities: Bajau sea-gypsy villages near Malenge, fishing hamlets like Bomba, and everyday life in Luwuk's markets and cafés.",
-        "overview": "Low-impact cultural visits focused on respect: learn customs, share stories, support local livelihoods, and understand how the islands depend on the sea.",
-        "whatYoullDo": "Walk village boardwalks, join home-cooked meals, watch fishing and boatbuilding, shop local produce, and practice simple Bahasa greetings with hosts.",
-        "bestTime": "Year-round. Choose calmer months for easier boat transfers, and plan visits around community routines (fishing, school, prayer times).",
-        "notes": "Dress modestly in villages, ask before photos, and bring small cash for crafts or donations. Your guide will help with etiquette and translation."
+      "pink-beach-relaxation": {
+        "name": "Pink Beach Relaxation",
+        "dateLabel": "Komodo Voyage",
+        "description": "Unwind on rare rose-hued sands created by crushed red coral, contrasting vividly with fantastic blue water.",
+        "overview": "A surreal beach experience where you can swim, sunbathe, and snap incredible photos of the unique pink shoreline.",
+        "whatYoullDo": "Picnic on the beach, snorkel the near-shore reef, and marvel at the pink sand grains under your feet.",
+        "bestTime": "Mid-day for the brightest colors, or sunset for a soft glow.",
+        "notes": "Please do not take sand home. Leave nature as you found it."
       },
-      "wildlife-spotting": {
-        "name": "Wildlife spotting",
-        "dateLabel": "Togean Voyages",
-        "description": "Spot island endemics and marine megafauna: Togean macaques, coconut crabs, sea turtles, and (with luck) dugongs—always at a respectful distance.",
-        "overview": "Guided wildlife-focused outings combining reef time, forest walks, and night searches, prioritizing ethical viewing and conservation awareness.",
-        "whatYoullDo": "Snorkel for turtles, scan seagrass bays for dugongs, join dusk beach walks, and take guided night walks to look for coconut crabs.",
-        "bestTime": "Year-round, but calmer seas April-October improve boat access and visibility; night spotting often improves after rain.",
-        "notes": "Use red light at night, keep noise low, never feed wildlife, and follow guides' instructions. Bring long sleeves and insect repellent for forest walks."
+      "island-hopping": {
+        "name": "Island Hopping",
+        "dateLabel": "Komodo Voyage",
+        "description": "Sail between craggy islands, discovering hidden lagoons, sandbars like Taka Makassar, and secluded coves.",
+        "overview": "The joy of the journey itself—feeling the sea breeze, watching flying fish, and anchoring in pristine turquoise bays.",
+        "whatYoullDo": "Visit Taka Makassar sandbar, explore Kalong Island at dusk, and cruise past dramatic coastal cliffs.",
+        "bestTime": "All day; the changing light transforms the seascape constantly.",
+        "notes": "Sun protection is essential on the open deck."
       },
-      "beach-exploration-hidden-coves": {
-        "name": "Beach exploration & hidden coves",
-        "dateLabel": "Togean Voyages",
-        "description": "Explore quiet bays, sandbars, and secret coves by boat or kayak—perfect for photography, swimming, and discovering beaches with almost no footprints.",
-        "overview": "A flexible island-hopping activity designed around tides and weather, combining short transfers with long beach stops on Puat, Malenge, Kadidiri, and Bomba.",
-        "whatYoullDo": "Boat-hop to uninhabited islets, picnic on sandbars, snorkel between stops, and walk coastlines scouting the best swim entries and sunset angles.",
-        "bestTime": "April-October for calmer crossings and clearer water; plan around tides for sandbars and shallow lagoons.",
-        "notes": "Pack a dry bag, water shoes, and extra drinking water. Remote beaches have no services; leave nothing behind and avoid collecting coral or shells."
+      "sunset-bats": {
+        "name": "Sunset with Bats",
+        "dateLabel": "Komodo Voyage",
+        "description": "Witness thousands of Flying Foxes migrate at dusk from the mangroves of Kalong Island—a natural spectacle.",
+        "overview": "Anchor near the mangroves as the sky turns purple and watch endless streams of fruit bats fill the air.",
+        "whatYoullDo": "Relax on the boat deck with a sundowner drink and watch the mesmerizing migration.",
+        "bestTime": "Sunset (around 6 PM).",
+        "notes": "Quiet observation creates the best atmosphere."
       },
       "stargazing": {
         "name": "Stargazing",
-        "dateLabel": "Togean Voyages",
-        "description": "Enjoy dark-sky nights on remote islands: see the Milky Way, meteor showers, and bright constellations from quiet beaches with minimal light pollution.",
-        "overview": "An unplugged evening activity pairing beach relaxation with skywatching, storytelling, and optional astrophotography tips from guides.",
-        "whatYoullDo": "Set up on a west-facing beach, learn key constellations, watch satellites and shooting stars, and capture long-exposure photos using a tripod or phone.",
-        "bestTime": "Clearest skies are common in drier months April-October; schedule around moon phases for darker skies, and avoid windiest transfer nights.",
-        "notes": "Bring a headlamp (red mode), light jacket for sea breezes, and insect repellent. Respect quiet hours; keep lights low to protect night vision."
+        "dateLabel": "Komodo Voyage",
+        "description": "Drift into sleep under a canopy of stars. Far from city lights, the Milky Way shines bright over the Flores Sea.",
+        "overview": "Peaceful nights on the boat or at your remote resort, looking up at the southern sky.",
+        "whatYoullDo": "Identify constellations, spot shooting stars, and enjoy the absolute silence of the ocean.",
+        "bestTime": "New moon nights for the darkest skies.",
+        "notes": "Bring a light jacket for the cool sea breeze."
       }
     },
     "detail": {
@@ -112,55 +112,99 @@
   },
   "localCommunityPage": {
     "heroTitle": "Faces & Stories: Local Community",
-    "heroDescription": "Where warm greetings meet rich traditions. Step into everyday moments, learn island rhythms, and leave with friendships, not just photos.",
+    "heroDescription": "Where warm greetings meet rich traditions. Step into everyday moments near Labuan Bajo and the islands.",
     "backLabel": "Back to Home",
     "items": {
       "village-walks": {
-        "title": "Basket Balancing, Morning Smiles",
-        "body": "Walk the village paths as neighbors carry harvest and household goods with ease. Say hello, share a laugh, and glimpse the rhythm of island mornings where work and warmth travel together."
+        "title": "Mesa Island Village",
+        "body": "Walk the paths of Mesa Island, a settlement of sea gypsies living on the reef. See how they utilize the ocean for everything from food to building materials."
       },
       "sea-gypsy": {
-        "title": "Harbor Fish Market Buzz",
-        "body": "Step into the waterfront market where today's catch becomes tonight's dinner. Watch friendly bargaining, learn fish names, and meet fishers and sellers who keep coastal life lively and connected."
+        "title": "Fish Market Buzz",
+        "body": "Visit the local market in Labuan Bajo where the daily catch arrives. It's a vibrant hub of commerce and conversation."
       },
       "shared-meals": {
-        "title": "Island Boat Rides, Shared Laughs",
-        "body": "Cruise between reefs and villages with local boat crews and fellow travelers. Swap stories, snap a quick photo, and feel how shared ocean time turns strangers into a small team."
+        "title": "Traditional Flores Meals",
+        "body": "Share a meal prepared with local spices and fresh ingredients. Food is the universal language of hospitality here."
       },
       "respectful-photos": {
-        "title": "Weaving Circles and Community Pride",
-        "body": "Sit with women artisans as they stitch bold textiles by hand while children giggle nearby. Learn the meaning of patterns, support local livelihoods, and leave with a story you can wear."
+        "title": "Weaving & Crafts",
+        "body": "Discover the intricate ikat weaving traditions of Flores. Each pattern tells a story of heritage and identity."
       }
     }
   },
   "wildlife": {
     "title": "Where to meet the wild",
-    "description": "Encounter the extraordinary biodiversity of the Togean Islands. From playful dolphins to ancient turtles, vibrant reef fish to rare endemic birds – discover wildlife both above and below the water.",
+    "description": "Encounter the extraordinary biodiversity of Komodo National Park. From majestic manta rays to ancient sea turtles, vibrant reef fish to the legendary Komodo dragon – discover wildlife both above and below the water.",
     "exploreButton": "Explore the wildlife",
     "land": "Land Wildlife",
     "sea": "Sea Wildlife",
-    "heroTitle": "Wildlife at Togean",
+    "heroTitle": "Wildlife of Komodo",
     "seaPage": {
       "title": "Sea Wildlife",
       "description": "Discover the inhabitants of the Coral Triangle"
     },
     "landPage": {
       "title": "Land Wildlife",
-      "description": "Discover the unique species of the rainforests"
+      "description": "The realm of the Dragon and beyond"
     }
   },
   "wildlifeIntro": {
-    "title": "Explore Togean's reefs and forests through a living field guide",
-    "description": "From turtles and dugongs to endemic primates, these islands hold rare encounters. Discover what to look for, when to go, and how to observe responsibly."
+    "title": "Explore Komodo's reefs and islands through a living field guide",
+    "description": "From manta rays and sea turtles to the legendary Komodo dragon, these islands hold rare encounters. Discover what to look for, when to go, and how to observe responsibly."
   },
   "wildlifeGallery": {
-    "title": "A field guide to Togean and Luwuk",
-    "description": "A quick look at the marine icons and forest dwellers you may encounter across reefs, mangroves, and island trails.",
+    "title": "A field guide to Komodo National Park",
+    "description": "A quick look at the marine icons and savannah dwellers you may encounter across reefs, mangroves, and island trails.",
     "details": "Details",
     "species": {
+      "manta-ray": {
+        "name": "Manta Ray",
+        "localName": "Pari Manta"
+      },
       "green-sea-turtle": {
         "name": "Green Sea Turtle",
         "localName": "Penyu Hijau"
+      },
+      "komodo-dragon": {
+        "name": "Komodo Dragon",
+        "localName": "Komodo"
+      },
+      "dugong": {
+        "name": "Dugong",
+        "localName": "Duyung"
+      },
+      "eagle-ray": {
+        "name": "Eagle Ray",
+        "localName": "Pari Elang"
+      },
+      "clownfish": {
+        "name": "Clownfish",
+        "localName": "Ikan Badut"
+      },
+      "giant-trevally": {
+        "name": "Giant Trevally",
+        "localName": "Ikan Kue"
+      },
+      "timor-deer": {
+        "name": "Timor Deer",
+        "localName": "Rusa Timor"
+      },
+      "orange-footed-scrubfowl": {
+        "name": "Orange-footed Scrubfowl",
+        "localName": "Burung Gosong"
+      },
+      "water-buffalo": {
+        "name": "Water Buffalo",
+        "localName": "Kerbau Air"
+      },
+      "wild-boar": {
+        "name": "Wild Boar",
+        "localName": "Babi Hutan"
+      },
+      "flying-fox": {
+        "name": "Flying Fox",
+        "localName": "Kelelawar Buah"
       },
       "hawksbill-turtle": {
         "name": "Hawksbill Turtle",
@@ -169,257 +213,207 @@
       "napoleon-wrasse": {
         "name": "Napoleon Wrasse",
         "localName": "Ikan Napoleon"
-      },
-      "dugong": {
-        "name": "Dugong",
-        "localName": "Duyung"
-      },
-      "giant-clam": {
-        "name": "Giant Clam",
-        "localName": "Kima"
-      },
-      "seahorse": {
-        "name": "Seahorse",
-        "localName": "Kuda Laut"
-      },
-      "stingless-jellyfish": {
-        "name": "Stingless Jellyfish",
-        "localName": "Ubur-ubur tak menyengat"
-      },
-      "togian-monkey": {
-        "name": "Togian Monkey",
-        "localName": "Monyet Togean"
-      },
-      "togean-tarsier": {
-        "name": "Togean Tarsier",
-        "localName": "Tarsius Togean"
-      },
-      "togian-babirusa": {
-        "name": "Togian Babirusa",
-        "localName": "Babirusa Togean"
-      },
-      "knobbed-hornbill": {
-        "name": "Knobbed Hornbill",
-        "localName": "Rangkong Sulawesi"
-      },
-      "coconut-crab": {
-        "name": "Coconut Crab",
-        "localName": "Kepiting Kelapa"
-      },
-      "sulawesi-cuscus": {
-        "name": "Sulawesi Cuscus",
-        "localName": "Kuskus Sulawesi"
       }
     }
   },
   "wildlifeCarousel": {
-    "togean-monkey": {
-      "name": "Togean Monkey",
-      "scientific": "Macaca tonkeana togeanus",
-      "description": "Endemic island macaque, curious forest forager."
+    "komodo-dragon": {
+      "name": "Komodo Dragon",
+      "scientific": "Varanus komodoensis",
+      "description": "The world's largest lizard, apex predator of the park."
     },
-    "togean-babirusa": {
-      "name": "Togean Babirusa",
-      "scientific": "Babyrousa togeanensis",
-      "description": "Rare tusked pig, shy in dense forest."
+    "manta-ray": {
+      "name": "Manta Ray",
+      "scientific": "Manta alfredi",
+      "description": "Gentle giants gliding through cleaning stations."
     },
-    "togean-golden-bulbul": {
-      "name": "Togean Golden Bulbul",
-      "scientific": "Hypsipetes aureus",
-      "description": "Golden-feathered songbird, endemic canopy resident."
+    "timor-deer": {
+      "name": "Timor Deer",
+      "scientific": "Rusa timorensis",
+      "description": "Main prey of the dragon, seen on savannahs."
     },
-    "giant-clam": {
-      "name": "Giant Clam",
-      "scientific": "Tridacna spp.",
-      "description": "Protected reef giant, vibrant mantle filters water."
+    "green-sea-turtle": {
+      "name": "Green Sea Turtle",
+      "scientific": "Chelonia mydas",
+      "description": "Ancient mariners often seen resting on reefs."
     },
-    "togean-water-monitor": {
-      "name": "Togean Water Monitor",
-      "scientific": "Varanus togianus",
-      "description": "Large island monitor, basks near mangroves."
+    "flying-fox": {
+      "name": "Flying Fox",
+      "scientific": "Pteropus vampyrus",
+      "description": "Large fruit bats migrating in thousands at dusk."
     },
-    "togean-tarsier": {
-      "name": "Togean Tarsier",
-      "scientific": "Tarsius niemitzi",
-      "description": "Nocturnal big-eyed tarsier, best seen at night."
+    "clownfish": {
+      "name": "Clownfish",
+      "scientific": "Amphiprioninae",
+      "description": "Colorful residents of sea anemones."
     }
   },
   "blogPosts": {
-    "responsible-wildlife-encounters": {
-      "title": "Responsible wildlife encounters and reef etiquette in Togean",
-      "excerpt": "Discover the vibrant marine life of the Togean Islands. From colorful coral gardens to playful reef fish, learn how to observe these wonders respectfully without disturbing their natural habitat. Our guide ensures a sustainable adventure for everyone.",
-      "locationLabel": "Togean",
-      "date": "Jan 03, 2026",
+    "trekking-with-dragons": {
+      "title": "Trekking with Dragons: A Ranger's Guide",
+      "excerpt": "Walking on Rinca Island offers a glimpse into a prehistoric world. Learn how to safely observe the legendary Komodo Dragon with our expert park rangers.",
+      "locationLabel": "Rinca Island",
+      "date": "Jan 10, 2026",
       "category": "Journal",
-      "content": "The Togean Islands are a sanctuary of biodiversity, both above and below the water. As visitors to this pristine archipelago, we have a responsibility to tread lightly and ensure that our presence does not harm the delicate ecosystems we have come to admire.\n\n### Reef Etiquette 101\nThe coral reefs of the Togeans are teeming with life, but they are also fragile. When snorkeling or diving, maintaining good buoyancy is crucial. Avoid touching the coral with your fins or hands, as even a light touch can remove the protective mucous layer or break delicate structures that have taken decades to grow.\n\n### Encounters with Marine Life\nSeeing a sea turtle glide past or a school of barracuda formation swimming is a highlight of any trip. However, we must remember that we are guests in their home. specific guidelines include:\n\n- Do not chase: Let marine life come to you. Chasing causes stress and can disrupt feeding or mating behaviors.\n- No feeding: Feeding fish alters their natural diet and behavior, making them dependent on humans and aggressive.\n- Flash photography: Use minimal flash, as bright lights can distress sensitive marine eyes.\n\nBy following these simple guidelines, we ensure that the Togean Islands remain a thriving wild habitat for generations to come. Responsible tourism is not just a choice; it is the only way forward."
+      "content": "A trek on Rinca is unlike any other. The dry savannah heat, the rustle of lontar palms, and the knowledge that you are sharing the path with an apex predator. Our rangers are your eyes and ears, trained to spot dragonscamouflaged in the shade. Always follow their instructions, stay on the path, and keep your distance. seeing a dragon in the wild is a privilege that demands respect."
     },
-    "best-snorkeling-spots": {
-      "title": "Best snorkeling spots and what you might see",
-      "excerpt": "Plunge into the crystal-clear waters of the Togeans. We reveal the top snorkeling locations where you can spot giant clams, sea turtles, and an endless variety of tropical fish. Prepare for an underwater journey like no other.",
-      "locationLabel": "Togean",
-      "date": "Feb 15, 2026",
+    "magic-of-manta-point": {
+      "title": "The Magic of Manta Point: Swimming with Giants",
+      "excerpt": "Drifting over the cleaning stations of Komodo, you might find yourself eye-to-eye with a graceful Manta Ray. Here is what makes this encounter so special.",
+      "locationLabel": "Manta Point",
+      "date": "Feb 22, 2026",
       "category": "Journal",
-      "content": "The Togean Islands are located in the heart of the Coral Triangle, the global epicenter of marine biodiversity. For snorkelers, this means warm, calm waters filled with an explosion of color and life. Here are three spots you absolutely cannot miss.\n\n### California Reef\nNamed for its vibrant, sun-drenched corals that reminded early visitors of the California coast, this reef is accessible and stunning. It offers a classic wall dive experience for snorkelers, where the reef drops off into the deep blue, allowing you to float above massive gorgonian fans and schools of fusiliers.\n\n### Reef One\nA hidden gem located near Malenge. This spot is famous for its incredible visibility and the high chance of spotting resident sea turtles grazing on the seagrass in the shallows. The coral gardens here are exceptionally healthy, with vast patches of staghorn coral providing shelter for thousands of chromis and anthias.\n\n### The Jellyfish Lake\nWhile technically not a snorkeling reef, the stingless jellyfish lake is a surreal experience. Floating among millions of pulsing, golden jellyfish in a silent, landlocked marine lake is a memory that will stay with you forever. Ensure you are free of sunscreen to protect the lake's unique chemistry."
+      "content": "Manta Point is a gathering place. Here, currents bring plankton, and cleaner fish wait on coral heads. Reef Mantas arrive to feed and be cleaned. For snorkelers, the rule is passive observation. Don't chase. Let them come to you. When a 3-meter ray glides just beneath you, curiosity in its eyes, time stands still."
     },
-    "village-visit-etiquette": {
-      "title": "Village visit etiquette and how to support local communities",
-      "excerpt": "Experience the warmth of the Bajau people. This guide outlines the cultural dos and don'ts when visiting local villages, ensuring your interactions are respectful and support the livelihood of these unique island communities.",
-      "locationLabel": "Togean",
-      "date": "Mar 10, 2026",
+    "sunrise-at-padar": {
+      "title": "Sunrise at Padar: The Iconic Climb",
+      "excerpt": "The hike is steep, but the reward is legendary. Witnessing the sun rise over Padar Island's three colored bays is a photographer's dream.",
+      "locationLabel": "Padar Island",
+      "date": "Mar 05, 2026",
       "category": "Journal",
-      "content": "Visiting the local villages of the Togean Islands, particularly the settlements of the Bajau (Sea Gypsies), is a profound cultural experience. These communities have lived in harmony with the sea for centuries. To ensure your visit is positive for everyone, here are some cultural nuances to respect.\n\n### Dress Modestly\nWhile swimwear is fine on the beach or boat, it is respectful to cover up when entering a village. For women, a sarong or loose t-shirt is appreciated. For men, a t-shirt is better than going bare-chested.\n\n### Ask Permission\nThe Bajau people are incredibly welcoming, but their homes are private spaces. Always ask for permission before taking close-up photos of individuals, especially elders and children. A smile and a gesture to your camera are usually understood, but respect a \"no\" if given.\n\n### Supporting the Economy\nThe best way to say thank you is to support the local economy directly. Purchase handmade crafts, dried fish, or snacks from village stalls. Avoid giving money or candy directly to children, as this can encourage begging. Instead, consider donating school supplies to the village head or teacher if you wish to contribute.\n\nBy visiting with an open heart and a respectful mind, you bridge the gap between cultures and create meaningful connections that go beyond the typical tourist experience."
+      "content": "Start in the dark. The stone steps wind up the spine of the island. As the sky lightens, the shapes reveal themselves—white sand, black sand, and pink sand bays curved back-to-back. At the summit, the sun breaks the horizon, flooding the dramatic landscape with golden light. It is the defining image of Komodo, and earning it with a morning sweat makes it even sweeter."
     }
   },
   "accommodation": {
-    "sectionLabel": "Togean Voyages",
-    "title": "At rest: Island Guest Houses",
+    "sectionLabel": "Komodo Voyage",
+    "title": "At rest: Resorts & Phinisi",
     "subtitle": "Curated stays: Explore All",
     "contentTitle": "Stay easy, feel at home",
-    "contentDescription": "Unhurried stays, island-simple comfort, and warm hosts. You explore by day, then unwind on land in thoughtfully chosen guest houses.",
+    "contentDescription": "From luxury resorts in Labuan Bajo to private island retreats. You explore by day, then unwind on land in thoughtfully chosen sanctuaries.",
     "exploreAll": "View All Accommodations",
     "pageTitle": "Accommodation",
-    "pageSubtitle": "Curated stays across the islands",
+    "pageSubtitle": "Curated stays in Labuan Bajo & Islands",
     "loading": "Loading...",
     "roomGallery": "Room Gallery",
     "selectRoomType": "Select Room Type",
     "otherPhotos": "Other Photos",
     "tabs": {
       "all": "All",
-      "malenge": "Malenge",
-      "unaUna": "Una-una",
-      "kadidiri": "Kadidiri",
-      "bomba": "Bomba",
-      "luwuk": "Luwuk",
-      "pulauPuat": "Pulau Puat",
-      "malengue": "Malengue",
-      "waleaKodi": "Walea Kodi"
+      "labuanBajo": "Labuan Bajo",
+      "komodoIsland": "Komodo Island",
+      "rincaIsland": "Rinca Island",
+      "padarIsland": "Padar Island",
+      "kanawaIsland": "Kanawa Island"
     },
     "slides": {
-      "malenge": {
-        "title": "Malenge",
-        "description": "A tropical paradise of dense jungles and unspoiled beaches, home to the fascinating Bajo sea gypsy culture."
+      "labuanBajo": {
+        "title": "Labuan Bajo",
+        "description": "The gateway town with harbor views, night markets, and sunset bars."
       },
-      "kadidiri": {
-        "title": "Kadidiri",
-        "description": "The travel hub of the Togeans, featuring powdery white beaches, vibrant house reefs, and a friendly atmosphere."
+      "komodoIsland": {
+        "title": "Komodo Island",
+        "description": "Stay near the dragons on the legendary island itself."
       },
-      "unaUna": {
-        "title": "Una Una",
-        "description": "Volcanic-island atmosphere, cool evenings, and a peaceful place to reset."
+      "rincaIsland": {
+        "title": "Rinca Island",
+        "description": "Eco-lodges in the heart of savannah dragon territory."
       },
-      "luwuk": {
-        "title": "Luwuk",
-        "description": "The scenic mainland gateway to the Togeans, offering dramatic coastal views and modern conveniences."
+      "padarIsland": {
+        "title": "Padar Island",
+        "description": "Glamping at the foot of the iconic three-bay viewpoint."
+      },
+      "kanawaIsland": {
+        "title": "Kanawa Island",
+        "description": "Private island retreat with spectacular house reef snorkeling."
       }
     },
     "items": {
-      "pp-1": {
-        "title": "The Deck House",
-        "description": "Perched over the water with direct lagoon access. Sleep to the sound of gentle waves."
+      "labuan-bajo": {
+        "title": "Ayana Komodo Waecicu Beach",
+        "description": "World-class resort with infinity pools and private beach access."
       },
-      "pp-2": {
-        "title": "Garden Villa",
-        "description": "Tucked into the palms for complete privacy. A cool, shaded retreat steps from the sand."
+      "komodo-island": {
+        "title": "Komodo Resort & Diving Club",
+        "description": "Eco-friendly dive resort with proximity to dragon treks."
       },
-      "ma-1": {
-        "title": "Sunrise Room",
-        "description": "East-facing for golden mornings. Airy, light-filled, and simply furnished for clarity."
+      "rinca-island": {
+        "title": "Rinca Eco Lodge",
+        "description": "Simple comfort with savannah views and ranger access."
       },
-      "ma-2": {
-        "title": "The Loft",
-        "description": "Elevated views of the canopy and sea. High ceilings and cross-breezes keep it cool naturally."
+      "padar-island": {
+        "title": "Padar Viewpoint Camp",
+        "description": "Glamping-style camp for sunrise treks and stargazing."
       },
-      "wk-1": {
-        "title": "Veranda Suite",
-        "description": "Life lived outside. A massive private terrace becomes your living room, dining area, and nap station."
-      },
-      "wk-2": {
-        "title": "Reef Edge Cottage",
-        "description": "The closest you can get to the drop-off. Watch turtles pass by from your morning coffee spot."
+      "kanawa-island": {
+        "title": "Kanawa Island Resort",
+        "description": "Beachfront bungalows on a car-free island paradise."
       }
     },
     "features": {
       "guestHouse": {
-        "title": "By the sea at sunrise, under stars at night",
-        "description": "Wake to soft sea light, fall asleep to waves. Open-air evenings, clear skies, and the slow island rhythm that resets your body clock."
+        "title": "By the sea at sunrise",
+        "description": "Wake to soft sea light. Open-air evenings and the slow island rhythm."
       },
       "comfort": {
-        "title": "Crafted with locally sourced woods",
-        "description": "Built with local timber and island know-how. Natural textures, sturdy joinery, and a warm, grounded feel that fits the landscape."
+        "title": "Modern Comforts",
+        "description": "AC, hot water, and plush bedding to ensure deep rest after adventure."
       },
       "sharedSpaces": {
-        "title": "Sleep easy & quiet comfort",
-        "description": "Clean beds, good airflow, and low-noise nights. Simple comforts that help you rest deeply and wake ready for tomorrow's boat time."
+        "title": "Pools & Lounges",
+        "description": "Relax by the infinity pool watching the sunset over the archipelago."
       },
       "hosts": {
-        "title": "Stay on preserved beaches, intentionally chosen",
-        "description": "We choose beaches that stay quiet and cared for. Minimal footprint, fewer crowds, and settings that keep nature feeling untouched."
+        "title": "Warm Hospitality",
+        "description": "Staff who know the area and welcome you with genuine smiles."
       },
       "meals": {
-        "title": "Designed with care for thoughtful stays",
-        "description": "Small details done right: shade, seating, storage, and lighting. Spaces that feel considerate, practical, and easy to live in."
+        "title": "Fresh Local Cuisine",
+        "description": "Seafood caught daily and spices from the spice islands."
       },
       "impact": {
-        "title": "Evenings made calm and intimate",
-        "description": "Sunset tea, soft lamps, and quiet conversation. A gentle end to the day, where you can read, reflect, or simply listen to the sea."
+        "title": "Eco-Conscious",
+        "description": "Many partners focus on sustainability and reducing plastic use."
       }
     },
     "guestHouses": {
-      "malenge": {
-        "name": "The Cliff dibe resort",
-        "description": "A cliffside resort on Malenge Island with panoramic ocean views, a pristine white-sand beach, lush rainforest backdrop, and an on-site dive center, ideal for both diving and serene tropical relaxation.",
+      "labuan-bajo": {
+        "name": "Ayana Komodo Waecicu Beach",
+        "description": "A world-class resort perched on cliffs above Waecicu Beach, offering panoramic ocean views, infinity pools, private beach access, and award-winning cuisine.",
         "rooms": {
-          "deluxe-bungalow-ac": "Deluxe Bungalow AC",
-          "deluxe-bungalow-fan": "Deluxe Bungalow Fan",
-          "standard-bungalow-fan": "Standard Bungalow Fan",
-          "family-bungalow-fan": "Family Bungalow Fan"
+          "ocean-view-room": "Ocean View Room",
+          "deluxe-ocean-room": "Deluxe Ocean Room",
+          "komodo-suite": "Komodo Suite"
         }
       },
-      "una-una": {
-        "name": "Pristine",
-        "description": "A beachfront PADI dive resort on remote Una Una Island with cozy wooden bungalows, ocean-view hammocks, and access to top Togean dive sites, plus all-inclusive meals and a calm, off-the-grid atmosphere.",
+      "komodo-island": {
+        "name": "Komodo Resort & Diving Club",
+        "description": "An eco-friendly dive resort on the shores of Komodo Island itself, offering rustic-chic bungalows, PADI dive center access, and unparalleled proximity to dragon trekking.",
         "rooms": {
-          "standard-room": "Standard room",
-          "superior-bungalow": "Superior Bungalow",
-          "deluxe-seaview-bungalow": "Deluxe Seaview bungalow",
-          "vip-family-room": "VIP/Family Room"
+          "garden-bungalow": "Garden Bungalow",
+          "beachfront-bungalow": "Beachfront Bungalow",
+          "overwater-bungalow": "Overwater Bungalow"
         }
       },
-      "kadidiri": {
-        "name": "Kadidiri Paradise",
-        "description": "A laid-back resort with rustic beachfront bungalows and a colorful house reef just off the jetty, perfect for snorkeling, diving, kayaking, and enjoying a simple barefoot island stay.",
+      "rinca-island": {
+        "name": "Rinca Eco Lodge",
+        "description": "A small eco-lodge near Rinca ranger station, offering simple but comfortable accommodation with incredible savannah views and dragon encounters.",
         "rooms": {
-          "superior-double-twin": "Superior Double or Twin Room with Sea View",
-          "villa-room": "Villa room",
-          "deluxe-double-seaview": "Deluxe Double Room with Sea View",
-          "standard-double": "Standard double"
+          "standard-cabin": "Standard Cabin",
+          "seaview-cabin": "Seaview Cabin"
         }
       },
-      "bomba": {
-        "name": "Poya Lisa",
-        "description": "A quiet private-island retreat near Bomba Village with seafront cottages over clear water, great coral reef snorkeling, fresh seafood, and an unhurried, nature-first island experience.",
+      "padar-island": {
+        "name": "Padar Viewpoint Camp",
+        "description": "A glamping-style camp at the foot of Padar's famous viewpoint, offering stargazing nights, sunrise treks, and the most iconic panorama in Indonesia.",
         "rooms": {
-          "deluxe-bungalow": "Deluxe Bungalows",
-          "superior-bungalow": "Superior Bungalows",
-          "standard-bungalow": "Standard bungalows"
+          "luxury-tent": "Luxury Tent",
+          "safari-tent": "Safari Tent"
         }
       },
-      "luwuk": {
-        "name": "Estrella",
-        "description": "A modern 4-star hotel in Luwuk with comfortable rooms, conference spaces, two outdoor pools, spa, gym, and on-site dining, combining resort-style facilities with easy access to town and bay views.",
+      "kanawa-island": {
+        "name": "Kanawa Island Resort",
+        "description": "A private island retreat with crystal-clear waters and spectacular house reef snorkeling. Beachfront bungalows, fresh seafood, and serenity.",
         "rooms": {
-          "double-bed": "Double Bed",
-          "deluxe": "Deluxe",
-          "business-garden-view": "Business with garden view",
-          "grand-deluxe-garden-view": "Grand deluxe with garden view",
-          "premier-balcony": "Premier with balcony"
+          "beach-bungalow": "Beach Bungalow",
+          "hillside-bungalow": "Hillside Bungalow",
+          "family-bungalow": "Family Bungalow"
         }
       }
     }
   },
   "localCommunity": {
     "title": "Meet the locals",
-    "description": "Connect with the warm-hearted communities of the Togean Islands. Experience authentic village life, traditional crafts, and centuries-old customs passed down through generations.",
+    "description": "Connect with the warm-hearted communities of Flores and Komodo. Experience authentic village life, markets, and customs.",
     "exploreButton": "Discover local experiences"
   },
   "localCommunitySection": {
@@ -427,19 +421,19 @@
     "exploreAll": "Curated Connections: Explore All",
     "blocks": {
       "block1": {
-        "title": "Engage with locals and embrace the warmth of Togean people",
-        "description1": "The Togean Islands are more than a tropical escape—they're a gateway to heartfelt connections and timeless traditions. Meet the Bajau 'Sea Gypsies,' who live in harmony with the ocean, and the Pamona and Saluan communities, whose warmth and hospitality make every visitor feel at home. From stilted sea villages to vibrant cultural traditions, the Togean people embody the serenity and authenticity of these remote islands.",
-        "description2": "Let their stories, smiles, and traditions transform your trip into an unforgettable journey where nature and culture unite in perfect harmony."
+        "title": "Engage with locals and embrace the warmth of Flores",
+        "description1": "Komodo is more than dragons. The people of Manggarai and the coastal villages have a rich culture. Meet the welcoming locals in Labuan Bajo or the brave villagers of Komodo Village who have lived alongside dragons for generations.",
+        "description2": "Let their stories and traditions transform your trip."
       },
       "block2": {
         "title": "Discover the traditional ways of island life",
-        "description1": "The Togean Islands are more than a tropical escape—they're a gateway to heartfelt connections and timeless traditions. Meet the Bajau 'Sea Gypsies,' who live in harmony with the ocean, and the Pamona and Saluan communities, whose warmth and hospitality make every visitor feel at home. From stilted sea villages to vibrant cultural traditions, the Togean people embody the serenity and authenticity of these remote islands.",
-        "description2": "Let their stories, smiles, and traditions transform your trip into an unforgettable journey where nature and culture unite in perfect harmony."
+        "description1": "From fishing to weaving, traditions run deep here. Witness the daily rhythm of the harbor or visit a weaving cooperative to see ikat being made.",
+        "description2": "Support local livelihoods through meaningful connection."
       },
       "block3": {
-        "title": "Create lasting memories with the island community",
-        "description1": "The Togean Islands are more than a tropical escape—they're a gateway to heartfelt connections and timeless traditions. Meet the Bajau 'Sea Gypsies,' who live in harmony with the ocean, and the Pamona and Saluan communities, whose warmth and hospitality make every visitor feel at home. From stilted sea villages to vibrant cultural traditions, the Togean people embody the serenity and authenticity of these remote islands.",
-        "description2": "Let their stories, smiles, and traditions transform your trip into an unforgettable journey where nature and culture unite in perfect harmony."
+        "title": "Create lasting memories",
+        "description1": "A smile shared in a market, a conversation with a boat captain—these are the moments that stick.",
+        "description2": "Be a guest, not just a tourist."
       }
     }
   },
@@ -457,16 +451,16 @@
     "description": "Share your dates and pace. We'll shape a calm, island-led itinerary built around you.",
     "button": "Chat on WhatsApp",
     "planYourTrip": "Plan your trip",
-    "tagline": "Islands. Sea. Stillness."
+    "tagline": "Islands. Dragons. Stillness."
   },
   "footer": {
-    "brandName": "Togean Voyages",
-    "brandDescription": "Experience the untouched beauty of the Togean Islands. We curate slow travel journeys that connect you with nature, culture, and the serenity of the sea.",
+    "brandName": "KOMODOVOYAGE",
+    "brandDescription": "Experience the legendary beauty of Komodo National Park. We curate slow travel journeys that connect you with nature, culture, and the serenity of the sea.",
     "infosTitle": "Infos",
     "contactTitle": "Contact Us",
-    "address1": "Graha STR, Jl. Ampera Raya No.11B, Jakarta",
-    "address2": "Jl. Soekarno Hatta, No 13A, Manggarai Barat.",
-    "company": "PT Build Creative Realm"
+    "address1": "Jl. Soekarno Hatta, Labuan Bajo",
+    "address2": "Manggarai Barat, Nusa Tenggara Timur",
+    "company": "Komodo Voyage Experience"
   },
   "common": {
     "backToHome": "BACK TO HOME",
@@ -479,8 +473,8 @@
     "discover": "Discover",
     "explore": "Explore",
     "learnMore": "Learn More",
-    "togeanArchipelago": "Togean Archipelago",
-    "togeanVoyages": "Togean Voyages",
+    "togeanArchipelago": "Komodo National Park",
+    "togeanVoyages": "Komodo Voyages",
     "viewDetails": "View Details",
     "readMore": "Read More",
     "viewAll": "View All",
@@ -488,39 +482,35 @@
     "details": "Details"
   },
   "destinations": {
-    "sectionLabel": "Togean Voyages",
-    "title": "Destinations",
+    "sectionLabel": "Komodo National Park",
+    "title": "Discover Komodo",
     "destinationsCount": "Destinations",
     "pageTitle": "Destinations",
     "count": "{{count}} Destinations",
     "items": {
-      "pulau-puah": {
-        "name": "Pulau Puah",
-        "description": "A secluded island offering absolute tranquility, untouched white-sand beaches, and thriving coral reefs far from the crowds."
+      "padar-island": {
+        "name": "Padar Island",
+        "description": "The iconic three-bay viewpoint of Komodo National Park, offering breathtaking panoramic views of turquoise waters and dramatic savannah hills."
       },
-      "malenge": {
-        "name": "Malenge",
-        "description": "A tropical paradise of dense jungles and unspoiled beaches, home to the fascinating Bajo sea gypsy culture."
+      "komodo-island": {
+        "name": "Komodo Island",
+        "description": "Home of the legendary Komodo dragon. Trek through ancient forests and encounter the world's largest lizard in its natural habitat."
       },
-      "waleakodi": {
-        "name": "Walea Kodi",
-        "description": "An isolated hideaway with pristine coral reefs and eco-friendly resorts, perfect for a private castaway experience."
+      "pink-beach": {
+        "name": "Pink Beach",
+        "description": "One of only seven pink beaches in the world, where crushed red coral creates stunning rose-tinted sands against crystal-clear waters."
       },
-      "una-una": {
-        "name": "Una Una",
-        "description": "A volcanic jewel with unique black sands and nutrient-rich waters teeming with spectacular marine life."
+      "manta-point": {
+        "name": "Manta Point",
+        "description": "A world-class dive site where giant manta rays glide gracefully through nutrient-rich currents in mesmerizing underwater ballets."
       },
-      "kadidiri": {
-        "name": "Kadidiri",
-        "description": "The travel hub of the Togeans, featuring powdery white beaches, vibrant house reefs, and a friendly atmosphere."
+      "rinca-island": {
+        "name": "Rinca Island",
+        "description": "A wilder alternative to Komodo Island with excellent dragon sightings, dramatic coastal landscapes, and pristine diving spots."
       },
-      "bomba": {
-        "name": "Bomba",
-        "description": "A quiet southern retreat with idyllic beaches, mangrove forests, and glorious sunsets over the bay."
-      },
-      "luwuk": {
-        "name": "Luwuk",
-        "description": "The scenic mainland gateway to the Togeans, offering dramatic coastal views and modern conveniences before your island adventure."
+      "labuan-bajo": {
+        "name": "Labuan Bajo",
+        "description": "The gateway to Komodo National Park, a charming fishing town with stunning sunset views, vibrant markets, and world-class restaurants."
       }
     }
   },
@@ -535,7 +525,7 @@
     "sectionTitle": "In the details: Boat Safety & Experience",
     "exploreAll": "Curated essentials: Explore All",
     "contentTitle": "Sail easy, feel at home",
-    "contentDescription": "We travel unhurried. More sea, more silence, more care. These are the essentials that make every TogeanVoyage journey safe, comfortable, and deeply personal.",
+    "contentDescription": "We travel unhurried. More sea, more silence, more care. These are the essentials that make every KomodoVoyage journey safe, comfortable, and deeply personal.",
     "features": {
       "boatCabins": {
         "title": "Boat, Cabins & Shared Space",
@@ -591,7 +581,7 @@
     "pageTitle": "Boat & Stays",
     "subtitle": "Safety, comfort, and island-side rest. Every journey and sleep feels considered.",
     "boatSectionTitle": "Boat: Safety, Experience & Comfort",
-    "accommodationSectionTitle": "Accommodation: Island Guest Houses",
+    "accommodationSectionTitle": "Accommodation: Resorts & Villas",
     "boatItems": {
       "speed-of-silence": {
         "title": "The Speed of Silence",
@@ -611,21 +601,21 @@
       }
     },
     "stayItems": {
-      "pulau-puat": {
-        "title": "Pulau Puat Guest House",
-        "description": "Sustainable luxury woven into the jungle. Wake up to the sound of waves and birdsong."
+      "resort-luxury": {
+        "title": "Luxury Resorts",
+        "description": "Premium stays with infinity pools and world-class service."
       },
-      "malenge": {
-        "title": "Malenge Guest House",
-        "description": "Airy, light-filled rooms with panoramic ocean views. Simplicity meets premium comfort."
+      "villa-private": {
+        "title": "Private Villas",
+        "description": "Secluded homes for total privacy and relaxation."
       },
-      "walea-kodi": {
-        "title": "Walea Kodi Guest House",
-        "description": "Your own private terrace for golden hours. Unwind in a hammock where time stands still."
+      "eco-lodge": {
+        "title": "Eco Lodges",
+        "description": "Sustainable stays close to nature."
       },
-      "una-una": {
-        "title": "Una Una Guest House",
-        "description": "Gather under the palms for communal feasting. Warm lights, sand floors, and unforgettable stories."
+      "boutique-hotel": {
+        "title": "Boutique Hotels",
+        "description": "Charming small hotels with unique character."
       }
     }
   },
@@ -642,9 +632,9 @@
     "detailsTitle": "Send these details",
     "detailItem1": "Your preferred dates",
     "detailItem2": "Group size",
-    "detailItem3": "Interests (snorkeling, village visits, wildlife, etc.)",
+    "detailItem3": "Interests (dragons, diving, hiking, etc.)",
     "detailItem4": "Dietary needs",
-    "detailItem5": "Pickup point (if any)",
+    "detailItem5": "Pickup point",
     "detailItem6": "Budget range (optional)",
     "detailItem7": "Any special requests",
     "paymentTitle": "Payment options",
@@ -671,14 +661,14 @@
     "step4": "Confirm & Pay"
   },
   "meta": {
-    "siteTitle": "Togean Voyage",
-    "siteDescription": "Experience the beauty of Togean Islands",
-    "homeTitle": "Togean Voyage - Explore the Togean Islands",
-    "homeDescription": "Discover the untouched beauty of the Togean Islands. Slow travel, pristine reefs, and authentic island experiences.",
-    "destinationsTitle": "Destinations - Togean Voyage",
-    "destinationsDescription": "Explore signature destinations in the Togean Archipelago. From secluded beaches to vibrant coral reefs.",
-    "activitiesTitle": "Activities - Togean Voyage",
-    "activitiesDescription": "Curated travel activities in the Togean Islands."
+    "siteTitle": "Komodo Voyage",
+    "siteDescription": "Experience the beauty of Komodo National Park",
+    "homeTitle": "Komodo Voyage - Explore Komodo National Park",
+    "homeDescription": "Discover the wonder of Komodo. Dragons, mantas, and pink beaches. Authentic and unhurried.",
+    "destinationsTitle": "Destinations - Komodo Voyage",
+    "destinationsDescription": "Explore signature destinations in Komodo National Park. From Rinca to Padar.",
+    "activitiesTitle": "Activities - Komodo Voyage",
+    "activitiesDescription": "Curated travel activities in Komodo National Park."
   },
   "destinationDetail": {
     "backToDestinations": "Back to Destinations",
@@ -699,7 +689,7 @@
     "seeAllDestinations": "See all destinations"
   },
   "wildlifeDetail": {
-    "comingSoonText": "More details regarding the {{name}} and where to find them in Togean will be coming soon.",
+    "comingSoonText": "More details regarding the {{name}} and where to find them in Komodo will be coming soon.",
     "backToWildlife": "Back to Wildlife",
     "backToSeaWildlife": "Back to Sea Wildlife",
     "backToLandWildlife": "Back to Land Wildlife",
@@ -711,775 +701,218 @@
     "conservationStatus": "Conservation Status"
   },
   "destinationContent": {
-    "pulau-puah": {
-      "tagline": "A secluded island of absolute tranquility and pristine nature.",
-      "intro": "Pulau Puah is a largely undeveloped gem in the southeastern Togeans, boasting untouched white-sand beaches and thriving coral reefs. Far from crowds, it offers a rare chance to enjoy nature's silence on a pristine tropical shore where tranquility reigns supreme.",
+    "padar-island": {
+      "tagline": "The jurassic jewel of Komodo.",
+      "intro": "Padar Island offers the most surreal landscape in Indonesia, with jagged hills and bays of different colored sands.",
       "whyItMatters": [
-        "A true off-the-beaten-path escape with empty beaches ideal for private swimming.",
-        "Surrounded by healthy coral gardens, making it a dream for snorkelers to spot turtles.",
-        "Offers an exclusive private island feel, perfect for picnics without another soul in sight."
+        "Unbeatable panoramic views.",
+        "Unique tricolored beaches (pink, white, black).",
+        "A photographer's paradise."
       ],
       "experiences": [
         {
-          "title": "Deserted Beach Picnic",
-          "text": "Enjoy a BBQ picnic of fresh seafood on the powdery sand, with just you, the palms, and the gentle waves."
+          "title": "Summit Hike",
+          "text": "Climb 800 steps to the summit for a 360-degree view."
         },
         {
-          "title": "Coral Reef Snorkeling",
-          "text": "Swim right off the beach to encounter vibrant coral formations and diverse marine life in remarkably clear waters."
-        },
-        {
-          "title": "Jungle Stroll",
-          "text": "Take a short walk inland beneath towering coconut palms to glimpse the untouched rainforest ecosystem thriving in silence."
-        },
-        {
-          "title": "Sunset on the Boat",
-          "text": "Linger offshore to watch the sunset paint the sky in breathtaking orange and purple hues over the silhouetted island."
+          "title": "Pink Beach Visit",
+          "text": "Relax on the hidden pink sand bay."
         }
       ],
-      "signatureMoment": "Enjoying a deserted beach picnic on powdery white sand, realizing you have the entire island to yourself.",
+      "signatureMoment": "Watching the sun rise over the three curved bays.",
       "routeFit": {
-        "idealTiming": "Midday stopover on an island-hopping route.",
-        "suggestedDuration": "Half-day (lunch or swim).",
+        "idealTiming": "Morning sunrise.",
+        "suggestedDuration": "3 hours.",
         "notes": [
-          "Accessible only by private boat or tour; no public ferries.",
-          "No shops or facilities—bring all water and supplies.",
-          "Visit in calm seas for a safe landing."
+          "Steep hike.",
+          "Bring water.",
+          "No shade on trail."
         ]
       },
       "practicalNotes": [
-        "Leave no trace to preserve the pristine condition.",
-        "Snorkel with a buddy and avoid stepping on coral.",
-        "Visits are weather- and tide-dependent; check with guides."
+        "Wear proper shoes.",
+        "Drone permit required."
       ]
     },
-    "malenge": {
-      "tagline": "Tropical jungle paradise meets authentic sea gypsy culture.",
-      "intro": "Malenge is a haven of dense jungles and unspoiled beaches, connected to the fascinating Bajo sea gypsy village by a long wooden bridge.",
+    "komodo-island": {
+      "tagline": "Home of the Dragon.",
+      "intro": "The largest island in the park, offering deep forest treks and encounters with the Komodo Dragon.",
       "whyItMatters": [
-        "Home to a traditional sea gypsy community living in stilt houses.",
-        "Offers stunning beaches with coral gardens for easy snorkeling.",
-        "Lush forests shelter rare Togean macaques and coconut crabs."
+        "The primary habitat of the Komodo Dragon.",
+        "Rich biodiversity including deer and boar.",
+        "Pink Beach nearby."
       ],
       "experiences": [
         {
-          "title": "Pulau Papan Bridge Walk",
-          "text": "Stroll across the iconic wooden bridge over crystal-clear water."
+          "title": "Forest Trek",
+          "text": "Walk through Tamarind forests with rangers."
         },
         {
-          "title": "Sera Beach Retreat",
-          "text": "Relax on white sand with excellent snorkeling steps away."
-        },
-        {
-          "title": "Jungle Trek",
-          "text": "Hike through rainforest to spot endemic Togean macaques."
-        },
-        {
-          "title": "Cultural Homestay",
-          "text": "Experience daily island life and warm local hospitality."
+          "title": "Dragon Spotting",
+          "text": "Observe massive dragons in the wild."
         }
       ],
-      "signatureMoment": "Walking the wooden bridge to Pulau Papan over turquoise water.",
+      "signatureMoment": "Meeting a prehistoric predator face to face.",
       "routeFit": {
-        "idealTiming": "Mid-journey escape in the eastern Togeans.",
-        "suggestedDuration": "2-3 days.",
+        "idealTiming": "Morning.",
+        "suggestedDuration": "2-3 hours.",
         "notes": [
-          "Remote with no ATMs; bring supplies.",
-          "Limited electricity at night.",
-          "Check ferry schedules."
+          "Ranger mandatory.",
+          "Stay on trails."
         ]
       },
       "practicalNotes": [
-        "Dress modestly in villages.",
-        "Accommodation is basic.",
-        "Nightlife is stargazing."
+        "Keep distance.",
+        "No food in bags."
       ]
     },
-    "waleakodi": {
-      "tagline": "A far-flung tropical hideaway for ultimate seclusion.",
-      "intro": "Walea Kodi is an isolated sanctuary with quiet white-sand beaches and protected coral reefs.",
+    "pink-beach": {
+      "tagline": "A splash of rose in a sea of blue.",
+      "intro": "Famous for its red-tinted sand, this beach is one of the most unique in the world.",
       "whyItMatters": [
-        "One of the most isolated spots for peace and privacy.",
-        "Pristine protected reefs for world-class snorkeling.",
-        "Untouched island scenery where greenery meets shore."
+        "Incredible photo opportunities.",
+        "Great snorkeling just offshore.",
+        "Rare natural phenomenon."
       ],
       "experiences": [
         {
-          "title": "Robinson Crusoe Beach Day",
-          "text": "Lounge on private beach with soft white sand."
+          "title": "Snorkeling",
+          "text": "Clear water with healthy coral."
         },
         {
-          "title": "Coral Garden Snorkeling",
-          "text": "Explore marine reserve for coral and turtles."
-        },
-        {
-          "title": "Village Visit in Dolong",
-          "text": "Meet locals in the tiny fishing hamlet."
-        },
-        {
-          "title": "Sunset Stargazing",
-          "text": "Watch sunset then gaze at the Milky Way."
+          "title": "Photography",
+          "text": "Capture the contrast of pink sand and blue water."
         }
       ],
-      "signatureMoment": "Gazing at the Milky Way from a quiet beach in total silence.",
+      "signatureMoment": "Holding a handful of pink grains.",
       "routeFit": {
-        "idealTiming": "End-of-itinerary off-grid escape.",
-        "suggestedDuration": "2 days (2 nights).",
+        "idealTiming": "After a hike.",
+        "suggestedDuration": "2 hours.",
         "notes": [
-          "Infrequent ferries.",
-          "No ATM or shops.",
-          "Limited generator electricity."
+          "Sun is strong.",
+          "Bring hat."
         ]
       },
       "practicalNotes": [
-        "Reserve accommodation in advance.",
-        "Practice eco-conscious behavior.",
-        "Embrace digital detox."
+        "Do not take sand."
       ]
     },
-    "una-una": {
-      "tagline": "A volcanic jewel with spectacular marine life.",
-      "intro": "Una Una is a dramatic volcanic island where black sands meet lush greenery, dominated by the active Mount Colo.",
+    "manta-point": {
+      "tagline": "Dance with the giants.",
+      "intro": "A shallow drift site where Manta Rays congregate to feed and be cleaned.",
       "whyItMatters": [
-        "Rare chance to trek an active volcano crater.",
-        "Best diving in the Togeans with healthy reefs.",
-        "Raw, authentic island experience."
+        "Reliable Manta sightings.",
+        "Thrill of drifting with currents.",
+        "Rich marine life."
       ],
       "experiences": [
         {
-          "title": "Volcano Hike to Mount Colo",
-          "text": "Trek up the volcano slopes for ocean views."
-        },
-        {
-          "title": "Diving or Snorkeling",
-          "text": "See huge fish schools and coral gardens."
-        },
-        {
-          "title": "Beachcombing Black Sands",
-          "text": "Explore unique volcanic beaches."
-        },
-        {
-          "title": "Sunset at Resort",
-          "text": "Relax beachfront as the sun dips."
+          "title": "Drift Snorkeling",
+          "text": "Float along as the ocean moves you past mantas."
         }
       ],
-      "signatureMoment": "Standing on the rim of Mount Colo with endless blue ocean below.",
+      "signatureMoment": "A Manta Ray barrel rolling beneath you.",
       "routeFit": {
-        "idealTiming": "Dedicated adventure segment.",
-        "suggestedDuration": "2-4 days.",
+        "idealTiming": "Slack tide or falling tide.",
+        "suggestedDuration": "1 hour.",
         "notes": [
-          "Infrequent ferry access.",
-          "No ATMs; bring cash.",
-          "Generator electricity."
+          "Can have strong current.",
+          "Fins essential."
         ]
       },
       "practicalNotes": [
-        "Book dive resorts in advance.",
-        "Bring travel insurance.",
-        "Use rash guard when snorkeling."
+        "Maintain distance.",
+        "Do not touch."
       ]
     },
-    "kadidiri": {
-      "tagline": "The vibrant travel hub with perfect white sands.",
-      "intro": "Kadidiri is the Togeans beloved travel hub, famous for its powder-soft white beaches and vibrant house reefs.",
+    "rinca-island": {
+      "tagline": "Raw and wild Savannah.",
+      "intro": "Rinca offers a drier, more open landscape than Komodo, often making dragon spotting easier.",
       "whyItMatters": [
-        "Tourist-friendly base with social vibe.",
-        "Rich coral reefs just off the shore.",
-        "Storybook tropical scenery with spectacular sunsets."
+        "High density of dragons.",
+        "Beautiful savannah views.",
+        "Accessible from Labuan Bajo."
       ],
       "experiences": [
         {
-          "title": "House Reef Snorkeling",
-          "text": "Step off beach into gin-clear water with coral gardens."
+          "title": "Dragon Walk",
+          "text": "Short or long treks available."
         },
         {
-          "title": "WWII Bomber Dive",
-          "text": "Dive to the B-24 Liberator wreck."
-        },
-        {
-          "title": "Kayaking Island Hopping",
-          "text": "Paddle to hidden coves."
-        },
-        {
-          "title": "Sunset Pier Gathering",
-          "text": "Watch the sky ignite at sunset."
+          "title": "Hilltop View",
+          "text": "Hike to the top for a view of the bays."
         }
       ],
-      "signatureMoment": "Watching sunset from the pier as stars come out.",
+      "signatureMoment": " seeing a dragon guarding a nest.",
       "routeFit": {
-        "idealTiming": "First stop to adjust to island time.",
-        "suggestedDuration": "2-4 days.",
+        "idealTiming": "Morning or late afternoon.",
+        "suggestedDuration": "2 hours.",
         "notes": [
-          "30 min boat from Wakai.",
-          "Cash only economy.",
-          "Limited electricity and internet."
+          "Hot and dry.",
+          "Stay hydrated."
         ]
       },
       "practicalNotes": [
-        "Book ahead in high season.",
-        "Communal dining is great for meeting travelers.",
-        "Secure food from wildlife."
+        "Follow ranger instructions."
       ]
     },
-    "bomba": {
-      "tagline": "A quiet southern retreat of mangroves and sunsets.",
-      "intro": "Bomba is a peaceful coastal village at the southern tip of Batudaka Island.",
+    "labuan-bajo": {
+      "tagline": "The gateway to adventure.",
+      "intro": "A bustling harbor town that serves as the starting point for all Komodo adventures.",
       "whyItMatters": [
-        "Important southern gateway from Ampana.",
-        "Stunning scenery with sandy beaches and jungle.",
-        "Hotspot for diving and snorkeling."
+        "Hub for boats and tours.",
+        "Great culinary scene.",
+        "Cultural melting pot."
       ],
       "experiences": [
         {
-          "title": "Poya Lisa Island Escape",
-          "text": "Spend a day on this tiny private islet."
+          "title": "Fish Market",
+          "text": "See fresh catch at night."
         },
         {
-          "title": "Snorkeling the Atolls",
-          "text": "Tour shallow atolls for neon clams."
-        },
-        {
-          "title": "Sunset Sandbar Trip",
-          "text": "Watch 360 degree sunset from sandbar."
-        },
-        {
-          "title": "Village Stroll",
-          "text": "See friendly locals and traditional houses."
+          "title": "Sunset Hill",
+          "text": "Watch the sunset over the harbor."
         }
       ],
-      "signatureMoment": "Standing on a temporary sandbar watching sunset.",
+      "signatureMoment": "Watching the phinisi boats light up at dusk.",
       "routeFit": {
-        "idealTiming": "Transit point or wind-down spot.",
+        "idealTiming": "Arrival and Departure.",
         "suggestedDuration": "1-2 days.",
         "notes": [
-          "Accessed from Ampana or Wakai.",
-          "No ATMs.",
-          "Electricity at night only."
+          "ATM available.",
+          "Good hospitals."
         ]
       },
       "practicalNotes": [
-        "Book homestays in advance.",
-        "Coordinate diving schedules.",
-        "Dress modestly in village."
+        "Book accommodation in peak season."
       ]
-    },
-    "luwuk": {
-      "tagline": "The scenic coastal gateway to your island adventure.",
-      "intro": "Luwuk is a pleasant coastal city and the primary logistics hub for the Togeans.",
-      "whyItMatters": [
-        "Closest airport and staging point for islands.",
-        "Gorgeous coastal scenery from viewpoints.",
-        "Modern conveniences like ATMs and markets."
-      ],
-      "experiences": [
-        {
-          "title": "Coastal Drive Panorama",
-          "text": "Drive to Kilo Lima Viewpoint for sweeping views."
-        },
-        {
-          "title": "Kilo Lima Beach",
-          "text": "Relax at the popular local beach."
-        },
-        {
-          "title": "Traditional Market Visit",
-          "text": "See fresh exotic fruits and seafood."
-        },
-        {
-          "title": "Waterfall Excursion",
-          "text": "Swim at Salodik Waterfall."
-        }
-      ],
-      "signatureMoment": "Looking from Kilo Lima Viewpoint at sunrise.",
-      "routeFit": {
-        "idealTiming": "Transit stay before or after islands.",
-        "suggestedDuration": "1 day (1-2 nights).",
-        "notes": [
-          "Stock up on cash here.",
-          "Daily flights available.",
-          "Allow time for traffic."
-        ]
-      },
-      "practicalNotes": [
-        "Try local Sulawesi specialties.",
-        "Use good signal to download maps.",
-        "Last-minute shopping for gear."
-      ]
-    }
-  },
-  "wildlifeSeaContent": {
-    "green-sea-turtle": {
-      "intro": "A large, gentle sea turtle often seen cruising reefs and grazing seagrass meadows. Adults are mostly herbivorous and spend long periods foraging in shallow coastal waters before surfacing calmly to breathe.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Seagrass meadows, lagoons, shallow coral reefs"
-        },
-        {
-          "label": "Diet",
-          "value": "Seagrass and algae (mostly herbivorous)"
-        },
-        {
-          "label": "Size",
-          "value": "Up to 1.5 meters"
-        },
-        {
-          "label": "Behavior",
-          "value": "Calm grazer; surfaces to breathe; rests under ledges"
-        }
-      ],
-      "whereToSee": "Most likely in calm, shallow areas around Kadidiri and sheltered lagoons across the Togeans, especially where seagrass is present.",
-      "howToSpot": "Scan seagrass edges and reef flats for a dark oval shell. Watch for a head surfacing briefly to breathe, then gliding back down.",
-      "responsibleGuidelines": [
-        "Keep 3–5 m distance; never chase or block its path.",
-        "Do not touch, ride, or attempt selfies.",
-        "Maintain neutral buoyancy; don't stand on coral/seagrass.",
-        "No flash; avoid loud splashing.",
-        "If it changes direction, you're too close—back off."
-      ],
-      "conservationStatus": "IUCN: Least Concern (2025 update); still protected, vulnerable locally to bycatch, habitat loss, and pollution."
-    },
-    "hawksbill-turtle": {
-      "intro": "A smaller, reef-loving turtle with a pointed hawk-like beak, often weaving through coral structure.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Coral reefs, rocky reefs, lagoons"
-        },
-        {
-          "label": "Diet",
-          "value": "Sea sponges and reef invertebrates"
-        },
-        {
-          "label": "Size",
-          "value": "Up to 1.0 meter"
-        },
-        {
-          "label": "Behavior",
-          "value": "Shy; threads through reefs; often solitary"
-        }
-      ],
-      "whereToSee": "On coral-rich snorkel and dive sites, look along reef walls and crevices where it forages.",
-      "howToSpot": "Search complex reef structure for a narrow beak and patterned shell. Check coral overhangs and cracks.",
-      "responsibleGuidelines": [
-        "Give it space; hawksbills spook easily.",
-        "Never corner it in narrow passages.",
-        "No touching; avoid contact with reef.",
-        "Keep fins up; dont kick sand.",
-        "Skip flash; limit time with animal."
-      ],
-      "conservationStatus": "IUCN: Critically Endangered; threatened by illegal shell trade and reef loss."
-    },
-    "napoleon-wrasse": {
-      "intro": "A massive, charismatic reef fish recognized by thick lips and an adult forehead hump.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Outer reef slopes, channels, lagoons"
-        },
-        {
-          "label": "Diet",
-          "value": "Hard-shelled invertebrates, fish, reef fauna"
-        },
-        {
-          "label": "Size",
-          "value": "Up to 2 meters"
-        },
-        {
-          "label": "Behavior",
-          "value": "Usually solitary; curious; slow powerful swimmer"
-        }
-      ],
-      "whereToSee": "Best chance on healthy coral reefs and drop-offs, especially around exposed island reefs.",
-      "howToSpot": "Look for a very large silhouette with thick lips and blunt head. Adults cruise along reef edges.",
-      "responsibleGuidelines": [
-        "Keep distance; dont crowd for photos.",
-        "Never feed wildlife.",
-        "Avoid rapid descents that startle it.",
-        "Maintain buoyancy; protect reef habitat.",
-        "Choose operators that discourage trophy shots."
-      ],
-      "conservationStatus": "IUCN: Endangered; also listed on CITES Appendix II."
-    },
-    "dugong": {
-      "intro": "A rare, gentle marine mammal that grazes seagrass in shallow bays.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Shallow seagrass meadows in sheltered bays"
-        },
-        {
-          "label": "Diet",
-          "value": "Seagrass (grazing herbivore)"
-        },
-        {
-          "label": "Size",
-          "value": "Up to 3 meters"
-        },
-        {
-          "label": "Behavior",
-          "value": "Shy; slow grazer; surfaces quietly to breathe"
-        }
-      ],
-      "whereToSee": "In calm, shallow seagrass areas around the Togeans; sightings are uncommon.",
-      "howToSpot": "Look for muddy grazing trails in seagrass and a gray shape moving low. Watch for nostrils breaking surface.",
-      "responsibleGuidelines": [
-        "Keep very large distance; never pursue.",
-        "No motorboats over seagrass at speed.",
-        "If it dives, youre too close - retreat.",
-        "Avoid loud splashing; keep group small.",
-        "Never separate mother and calf."
-      ],
-      "conservationStatus": "IUCN: Vulnerable; threatened by seagrass loss and net entanglement."
-    },
-    "giant-clam": {
-      "intro": "A spectacular reef bivalve that can be enormous and brightly colored, with a living mantle.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Shallow coral reefs and reef flats"
-        },
-        {
-          "label": "Diet",
-          "value": "Filter-feeding plus symbiotic algae"
-        },
-        {
-          "label": "Size",
-          "value": "Up to 1.2 meters"
-        },
-        {
-          "label": "Behavior",
-          "value": "Sessile; mantle open in sunlight; closes when disturbed"
-        }
-      ],
-      "whereToSee": "On clear, shallow coral gardens, scan reef flats and bommies for large shells with vivid mantles.",
-      "howToSpot": "Look for a thick, ridged shell embedded in coral rock with a bright, wavy mantle. Approach slowly.",
-      "responsibleGuidelines": [
-        "Never touch the mantle (stresses the animal).",
-        "Dont stand on reef to photograph.",
-        "No souvenir collection.",
-        "Avoid stirring sediment.",
-        "Use buoyancy control; keep fins up."
-      ],
-      "conservationStatus": "Some species Critically Endangered due to overharvest and habitat decline."
-    },
-    "seahorse": {
-      "intro": "Small, camouflaged fish that cling to seagrass, sponges, and coral with a prehensile tail.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Seagrass, mangroves, corals, sponges"
-        },
-        {
-          "label": "Diet",
-          "value": "Tiny crustaceans and plankton"
-        },
-        {
-          "label": "Size",
-          "value": "Typically up to 15 cm"
-        },
-        {
-          "label": "Behavior",
-          "value": "Slow; hides; anchors with tail; ambush-feeds"
-        }
-      ],
-      "whereToSee": "In sheltered shallows seagrass patches, spongey reef edges. Look in calm lagoons near mangroves.",
-      "howToSpot": "Slow down and scan for unusual knobs holding onto grass or sponges. Watch for tiny eye movement.",
-      "responsibleGuidelines": [
-        "No touching; seahorses stress easily.",
-        "Keep fins controlled; avoid silt-out.",
-        "No flash at close range.",
-        "Dont move vegetation to reveal them.",
-        "Limit viewing time."
-      ],
-      "conservationStatus": "All seahorses are CITES Appendix II; pressured by habitat loss and trade."
-    },
-    "stingless-jellyfish": {
-      "intro": "In sheltered marine lakes, Mastigias-type jellyfish can be abundant and largely harmless to swimmers.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Isolated marine lakes and enclosed lagoons"
-        },
-        {
-          "label": "Diet",
-          "value": "Plankton plus symbiotic algae"
-        },
-        {
-          "label": "Size",
-          "value": "Usually 8-10 cm bell diameter"
-        },
-        {
-          "label": "Behavior",
-          "value": "Slow drifters; gather in sunlit water; daily movements"
-        }
-      ],
-      "whereToSee": "At Lake Mariona (Jellyfish Lake) where swimmers can float among dense groups of gentle jellyfish.",
-      "howToSpot": "You will see soft, amber dots pulsing just below the surface in still water. Enter slowly and let eyes adjust.",
-      "responsibleGuidelines": [
-        "Dont touch or scoop jellyfish.",
-        "No fins (can injure them); float gently.",
-        "Avoid sunscreen oils in lake.",
-        "No soap or shampoo before swimming.",
-        "Keep noise low; respect local rules."
-      ],
-      "conservationStatus": "Highly sensitive to pollution and temperature shifts in enclosed lake ecosystems."
-    }
-  },
-  "wildlifeLandContent": {
-    "togian-monkey": {
-      "intro": "A stocky, dark macaque with short tail and pale cheek tufts, known from the Togian Islands.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Lowland island forest, forest edges"
-        },
-        {
-          "label": "Diet",
-          "value": "Fruits, leaves, seeds, insects"
-        },
-        {
-          "label": "Size",
-          "value": "50-68 cm; 8-12 kg"
-        },
-        {
-          "label": "Behavior",
-          "value": "Social troops; vocal; bold near fruiting trees"
-        }
-      ],
-      "whereToSee": "Best chance on Malenge forest walks; early morning and late afternoon.",
-      "howToSpot": "Listen for branch rustles and contact calls; scan mid-canopy near fruiting trees.",
-      "responsibleGuidelines": [
-        "Keep 10+ meters distance.",
-        "Never feed or show food.",
-        "Move slowly; avoid direct staring.",
-        "Dont block trails.",
-        "Pack out all trash."
-      ],
-      "conservationNotes": "Vulnerable; habitat loss is the key threat."
-    },
-    "togean-tarsier": {
-      "intro": "A tiny nocturnal primate endemic to the Togian Islands, famous for huge eyes and powerful leaps.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Lowland forest, scrubby woodland, gardens"
-        },
-        {
-          "label": "Diet",
-          "value": "Insects, spiders, small vertebrates"
-        },
-        {
-          "label": "Size",
-          "value": "Body 10-15 cm (very small)"
-        },
-        {
-          "label": "Behavior",
-          "value": "Nocturnal; agile leaper; calls at dusk"
-        }
-      ],
-      "whereToSee": "Night walks on forest edges and mixed gardens; absent from Una-Una.",
-      "howToSpot": "Use dim red light; look for eye-shine low in understory. Pause often.",
-      "responsibleGuidelines": [
-        "Use red light only; no flash.",
-        "Keep voices low; no playback.",
-        "Limit viewing time.",
-        "Dont approach roost sites by day.",
-        "Stay on paths."
-      ],
-      "conservationNotes": "Endangered; highly sensitive to forest disturbance."
-    },
-    "togian-babirusa": {
-      "intro": "A rare, pig-like mammal with remarkable upward-curving tusks in males, endemic to Togian.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Lowland forest, riverine areas, edges"
-        },
-        {
-          "label": "Diet",
-          "value": "Roots, fallen fruit, worms, invertebrates"
-        },
-        {
-          "label": "Size",
-          "value": "Largest babirusa; boar-sized"
-        },
-        {
-          "label": "Behavior",
-          "value": "Shy; mostly crepuscular; uses forest cover"
-        }
-      ],
-      "whereToSee": "Only in Togian Islands; records on Malenge, Batudaka, Togean.",
-      "howToSpot": "Look for tracks and rooting signs near muddy wallows; dawn/dusk quiet sits work best.",
-      "responsibleGuidelines": [
-        "Keep 20+ meters distance.",
-        "Never corner on narrow trails.",
-        "No baiting or feeding.",
-        "Respect community rules.",
-        "Use local guides."
-      ],
-      "conservationNotes": "Endangered; protected; threatened by hunting and habitat loss."
-    },
-    "knobbed-hornbill": {
-      "intro": "A large Sulawesi endemic hornbill with unmistakable casque and loud wingbeats.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Lowland and hill forest canopy"
-        },
-        {
-          "label": "Diet",
-          "value": "Mostly fruit (figs), some insects"
-        },
-        {
-          "label": "Size",
-          "value": "About 70-80 cm long"
-        },
-        {
-          "label": "Behavior",
-          "value": "Canopy forager; wide-ranging; noisy flight"
-        }
-      ],
-      "whereToSee": "Around mainland Sulawesi forests (Luwuk/Banggai region) with tall trees.",
-      "howToSpot": "Scan treetops at sunrise; listen for deep calls and heavy wingbeats.",
-      "responsibleGuidelines": [
-        "Stay on trails.",
-        "Keep distance from nesting cavities.",
-        "No drones near canopy.",
-        "Avoid playback calls.",
-        "Support local conservation guides."
-      ],
-      "conservationNotes": "Vulnerable; forest loss is the primary driver of decline."
-    },
-    "togian-water-monitor": {
-      "intro": "A monitor lizard endemic to Togian Islands, often associated with forests and mangroves.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Forest and mangroves"
-        },
-        {
-          "label": "Diet",
-          "value": "Invertebrates, insects, arachnids, eggs"
-        },
-        {
-          "label": "Size",
-          "value": "Typically under 1.5 m total length"
-        },
-        {
-          "label": "Behavior",
-          "value": "Diurnal; wary; basks then dives to escape"
-        }
-      ],
-      "whereToSee": "Mangrove creeks, muddy shorelines, forest edges on larger islands.",
-      "howToSpot": "Walk slowly near mangroves at low tide; watch sunlit logs for quick movement.",
-      "responsibleGuidelines": [
-        "Keep distance; monitors can bite.",
-        "Never handle or corner.",
-        "Dont block escape routes.",
-        "Avoid nesting areas.",
-        "No feeding."
-      ],
-      "conservationNotes": "Least Concern; small range but no major documented threats."
-    },
-    "coconut-crab": {
-      "intro": "The worlds largest land arthropod, active mainly at night in coastal forest.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Coastal forest; burrows near shore"
-        },
-        {
-          "label": "Diet",
-          "value": "Fruits, nuts, seeds, carrion"
-        },
-        {
-          "label": "Size",
-          "value": "Up to 1 m leg span"
-        },
-        {
-          "label": "Behavior",
-          "value": "Nocturnal; burrowing; cautious"
-        }
-      ],
-      "whereToSee": "Remote islands with coastal forest; nighttime near fallen fruit trees.",
-      "howToSpot": "Night walk with red light; scan ground near roots and burrow entrances.",
-      "responsibleGuidelines": [
-        "Do not touch - claws can crush.",
-        "No feeding or baiting.",
-        "Keep lights low.",
-        "Dont block burrow entrances.",
-        "Never collect."
-      ],
-      "conservationNotes": "Vulnerable; threatened by harvesting and habitat loss."
-    },
-    "burung-maleo": {
-      "intro": "A remarkable Sulawesi megapode that incubates eggs in warm sand or geothermal soils.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Lowland/hill forest; nesting sandy sites"
-        },
-        {
-          "label": "Diet",
-          "value": "Fruits, seeds, invertebrates"
-        },
-        {
-          "label": "Size",
-          "value": "About 55-60 cm long"
-        },
-        {
-          "label": "Behavior",
-          "value": "Ground-dwelling; communal nesting; wary"
-        }
-      ],
-      "whereToSee": "Sulawesi mainland at protected nesting grounds - special excursion required.",
-      "howToSpot": "At authorized sites, watch quietly for pairs arriving and digging.",
-      "responsibleGuidelines": [
-        "Visit only official sites.",
-        "Never approach active nests.",
-        "No flash or drones.",
-        "Keep groups small and quiet.",
-        "Do not buy eggs."
-      ],
-      "conservationNotes": "Critically Endangered; pressured by egg harvesting and habitat loss."
-    },
-    "togian-boobook": {
-      "intro": "A small owl endemic to the Togian Islands, calling after dusk to hunt insects.",
-      "keyFacts": [
-        {
-          "label": "Habitat",
-          "value": "Lowland/hill forest; degraded forest; gardens"
-        },
-        {
-          "label": "Diet",
-          "value": "Insects and small vertebrates"
-        },
-        {
-          "label": "Size",
-          "value": "Small owl roughly 25-30 cm"
-        },
-        {
-          "label": "Behavior",
-          "value": "Nocturnal; perch-hunter; responds with distinct calls"
-        }
-      ],
-      "whereToSee": "Evening walks near forest edges and mixed gardens on Togian islands.",
-      "howToSpot": "Stop often and listen for rhythmic owl calls. Scan branches with dim red light.",
-      "responsibleGuidelines": [
-        "Red light only; no flash.",
-        "No playback calls near roosts.",
-        "Keep distance; dont follow repeatedly.",
-        "Stay on paths.",
-        "Limit viewing time."
-      ],
-      "conservationNotes": "Near Threatened; endemic with limited range, sensitive to forest loss."
     }
   },
   "wildlifeNames": {
     "sea": {
+      "manta-ray": {
+        "name": "Manta Ray",
+        "localName": "Pari Manta"
+      },
       "green-sea-turtle": {
         "name": "Green Sea Turtle",
         "localName": "Penyu Hijau"
+      },
+      "dugong": {
+        "name": "Dugong",
+        "localName": "Duyung"
+      },
+      "eagle-ray": {
+        "name": "Eagle Ray",
+        "localName": "Pari Elang"
+      },
+      "clownfish": {
+        "name": "Clownfish",
+        "localName": "Ikan Badut"
+      },
+      "giant-trevally": {
+        "name": "Giant Trevally",
+        "localName": "Ikan Kue"
       },
       "hawksbill-turtle": {
         "name": "Hawksbill Turtle",
@@ -1489,13 +922,9 @@
         "name": "Napoleon Wrasse",
         "localName": "Ikan Napoleon"
       },
-      "dugong": {
-        "name": "Dugong",
-        "localName": "Duyung"
-      },
       "giant-clam": {
         "name": "Giant Clam",
-        "localName": "Kima Raksasa"
+        "localName": "Kima"
       },
       "seahorse": {
         "name": "Seahorse",
@@ -1503,42 +932,235 @@
       },
       "stingless-jellyfish": {
         "name": "Stingless Jellyfish",
-        "localName": "Ubur-ubur Tidak Menyengat"
+        "localName": "Ubur-ubur"
       }
     },
     "land": {
+      "komodo-dragon": {
+        "name": "Komodo Dragon",
+        "localName": "Komodo"
+      },
+      "timor-deer": {
+        "name": "Timor Deer",
+        "localName": "Rusa Timor"
+      },
+      "orange-footed-scrubfowl": {
+        "name": "Orange-footed Scrubfowl",
+        "localName": "Burung Gosong"
+      },
+      "water-buffalo": {
+        "name": "Water Buffalo",
+        "localName": "Kerbau Air"
+      },
+      "wild-boar": {
+        "name": "Wild Boar",
+        "localName": "Babi Hutan"
+      },
+      "flying-fox": {
+        "name": "Flying Fox",
+        "localName": "Kelelawar Buah"
+      },
       "togian-monkey": {
-        "name": "Togean Macaque",
-        "localName": "Monyet Togean"
+        "name": "Macaque",
+        "localName": "Monyet Ekor Panjang"
       },
       "togean-tarsier": {
-        "name": "Togean Tarsier",
-        "localName": "Tarsius Togean"
+        "name": "Tarsier",
+        "localName": "Tarsius"
       },
       "togian-babirusa": {
-        "name": "Togean Babirusa",
-        "localName": "Babirusa Togean"
+        "name": "Wild Pig",
+        "localName": "Babi Hutan"
       },
       "knobbed-hornbill": {
-        "name": "Knobbed Hornbill",
-        "localName": "Julang Sulawesi"
-      },
-      "togian-water-monitor": {
-        "name": "Togean Water Monitor",
-        "localName": "Biawak Air Togean"
+        "name": "Hornbill",
+        "localName": "Rangkong"
       },
       "coconut-crab": {
         "name": "Coconut Crab",
         "localName": "Kepiting Kelapa"
-      },
-      "burung-maleo": {
-        "name": "Maleo",
-        "localName": "Burung Maleo"
-      },
-      "togian-boobook": {
-        "name": "Togean Boobook",
-        "localName": "Burung Hantu Togean"
       }
     }
+  },
+  "wildlifeSeaContent": {
+    "manta-ray": {
+      "intro": "Majestic giants of the ocean, Reef Mantas are harmless filter feeders that glide through Komodo's currents.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Reef cleaning stations, channels"
+        },
+        {
+          "label": "Diet",
+          "value": "Plankton"
+        },
+        {
+          "label": "Size",
+          "value": "Up to 5 meters"
+        },
+        {
+          "label": "Behavior",
+          "value": "Graceful; curious; social"
+        }
+      ],
+      "whereToSee": "Manta Point, Makassar Reef, and sometimes Batu Bolong.",
+      "howToSpot": "Look for dark shapes in the blue or wing tips breaking the surface.",
+      "responsibleGuidelines": [
+        "Do not touch or chase.",
+        "Stay flat and quiet.",
+        "Do not block their path."
+      ],
+      "conservationStatus": "Vulnerable."
+    },
+    "green-sea-turtle": {
+      "intro": "A large, gentle sea turtle often seen resting on shallow reefs or grazing on seagrass.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Coral reefs, seagrass beds"
+        },
+        {
+          "label": "Diet",
+          "value": "Seagrass, algae"
+        },
+        {
+          "label": "Size",
+          "value": "Up to 1.5 meters"
+        },
+        {
+          "label": "Behavior",
+          "value": "Calm; breathes at surface"
+        }
+      ],
+      "whereToSee": "Turtle City (Siaba Besar), Tatawa Besar.",
+      "howToSpot": "Look for a shell resting on coral or a head popping up for air.",
+      "responsibleGuidelines": [
+        "Give them space to breathe.",
+        "Do not touch."
+      ],
+      "conservationStatus": "Endangered."
+    },
+    "dugong": {
+      "intro": "The shy 'sea cow', a rare sirenian found grazing in quiet bays.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Seagrass meadows"
+        },
+        {
+          "label": "Diet",
+          "value": "Seagrass"
+        },
+        {
+          "label": "Size",
+          "value": "Up to 3 meters"
+        },
+        {
+          "label": "Behavior",
+          "value": "Very shy; bottom dweller"
+        }
+      ],
+      "whereToSee": "Rare; occasionally seen in secluded bays with seagrass.",
+      "howToSpot": "Look for sediment plumes or a snout breaking the surface.",
+      "responsibleGuidelines": [
+        "Engine off if spotted.",
+        "Observe from distance."
+      ],
+      "conservationStatus": "Vulnerable."
+    }
+  },
+  "wildlifeLandContent": {
+    "komodo-dragon": {
+      "intro": "The undisputed king of the park. A prehistoric monitor lizard found nowhere else on earth.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Savannah, beach, forest"
+        },
+        {
+          "label": "Diet",
+          "value": "Deer, buffalo, boar"
+        },
+        {
+          "label": "Size",
+          "value": "Up to 3 meters"
+        },
+        {
+          "label": "Behavior",
+          "value": "Ambush predator; solitary"
+        }
+      ],
+      "whereToSee": "Rinca Island and Komodo Island.",
+      "howToSpot": "Walk with a ranger; look in shade under trees or buildings.",
+      "responsibleGuidelines": [
+        "Always stay with ranger.",
+        "Keep safe distance (10m+)."
+      ],
+      "conservationNotes": "Endangered."
+    },
+    "timor-deer": {
+      "intro": "The primary prey of the Komodo Dragon, these deer are abundant on the main islands.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Savannah and open forest"
+        },
+        {
+          "label": "Diet",
+          "value": "Grass, leaves"
+        },
+        {
+          "label": "Size",
+          "value": "Medium deer"
+        },
+        {
+          "label": "Behavior",
+          "value": "Herding; alert"
+        }
+      ],
+      "whereToSee": "Grazing on beaches or savannahs of Komodo/Rinca.",
+      "howToSpot": "Look for large ears and brown coats against green grass.",
+      "responsibleGuidelines": [
+        "Do not feed.",
+        "Do not approach."
+      ],
+      "conservationNotes": "Vulnerable."
+    },
+    "flying-fox": {
+      "intro": "Large fruit bats that roost in mangroves and migrate in massive flocks at dusk.",
+      "keyFacts": [
+        {
+          "label": "Habitat",
+          "value": "Mangrove forests"
+        },
+        {
+          "label": "Diet",
+          "value": "Fruit, nectar"
+        },
+        {
+          "label": "Size",
+          "value": "1.5m wingspan"
+        },
+        {
+          "label": "Behavior",
+          "value": "Nocturnal; colonizing"
+        }
+      ],
+      "whereToSee": "Kalong Island at sunset.",
+      "howToSpot": "Look for the sky filling with black shapes at dusk.",
+      "responsibleGuidelines": [
+        "Keep noise down.",
+        "No drones near roosts."
+      ],
+      "conservationNotes": "Stable."
+    }
+  },
+  "checkBooking": {
+    "checkTitle": "Check Your Booking",
+    "checkSubtitle": "Enter your booking ID to view details",
+    "bookingIdLabel": "Booking ID",
+    "checkButton": "Check Booking",
+    "checking": "Checking...",
+    "checkResultPlaceholder": "Booking details feature is coming soon."
   }
 }

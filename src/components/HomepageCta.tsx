@@ -6,7 +6,7 @@ import { useTranslation } from "./I18nProvider";
 
 export default function HomepageCta() {
     const { t } = useTranslation();
-    
+
     return (
         <section className="w-full bg-white py-20 md:py-28 relative text-center px-6">
             {/* Top Divider: Subtle and wide */}
@@ -15,7 +15,7 @@ export default function HomepageCta() {
             {/* Content Container */}
             <div className="flex flex-col items-center">
                 {/* Eyebrow */}
-                <span className="font-avenir text-xs md:text-sm uppercase tracking-[0.2em] text-[#CB9275] mb-6 block">
+                <span className="font-avenir text-xs md:text-sm uppercase tracking-[0.2em] text-[#52bcec] mb-6 block">
                     {t("cta.eyebrow")}
                 </span>
 
@@ -36,10 +36,10 @@ export default function HomepageCta() {
                     rel="noopener noreferrer"
                     className="
                         inline-flex items-center gap-3 
-                        font-avenir text-sm uppercase tracking-widest text-[#CB9275] 
-                        border border-[#CB9275]/30 px-8 py-4 rounded-full
-                        hover:bg-[#CB9275] hover:text-white hover:border-[#CB9275] 
-                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#CB9275]/40 focus-visible:ring-offset-2
+                        font-avenir text-sm uppercase tracking-widest text-[#52bcec] 
+                        border border-[#52bcec]/30 px-8 py-4 rounded-full
+                        hover:bg-[#52bcec] hover:text-white hover:border-[#52bcec] 
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#52bcec]/40 focus-visible:ring-offset-2
                         transition-all duration-500 ease-out group
                     "
                 >

@@ -2,18 +2,18 @@
 export const PROGRAMS_HOME = [
     {
         id: "odyssey",
-        slug: "the-togean-odyssey",
-        title: "The Togean Odyssey : From 10 Days",
+        slug: "the-komodo-odyssey",
+        title: "The Komodo Odyssey : From 10 Days",
         vibe: ["Ultimate", "Iconic", "Unforgettable"],
-        description: "Embark on the ultimate expedition through the archipelago’s most iconic landscapes. Experience an unforgettable journey that captures the true essence of the Togean Islands.",
+        description: "Embark on the ultimate expedition through Komodo's most iconic landscapes. Experience an unforgettable journey that captures the true essence of Komodo National Park.",
         image: "/destinations/destination_una_una.webp", // Updated to use existing asset
     },
     {
         id: "mosaic",
-        slug: "the-togean-mosaic",
-        title: "Signature Program: The Togean Mosaic",
+        slug: "the-komodo-mosaic",
+        title: "Signature Program: The Komodo Mosaic",
         vibe: ["Comprehensive", "Diverse", "Iconic"],
-        description: "Immerse yourself in a comprehensive tapestry of island life and diverse ecosystems. This signature program weaves together the region's most captivating highlights.",
+        description: "Immerse yourself in a comprehensive tapestry of island life and diverse ecosystems. This signature program weaves together Komodo's most captivating highlights.",
         image: "/program-snorkeling.webp",
     },
     {

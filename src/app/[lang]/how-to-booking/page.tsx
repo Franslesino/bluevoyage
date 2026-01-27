@@ -1,4 +1,4 @@
-﻿import HowToBookingPage from "@/app/_pages/HowToBookingPage";
+import HowToBookingPage from "@/app/_pages/HowToBookingPage";
 import { SUPPORTED_LOCALES } from "@/lib/i18n";
 
 export async function generateStaticParams() {

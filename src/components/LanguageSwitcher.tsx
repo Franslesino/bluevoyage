@@ -168,7 +168,7 @@ export default function LanguageSwitcher({ isTransparent = false }: { isTranspar
             <div
                 className={`
                     w-48 max-h-[288px] overflow-y-auto
-                    bg-[#CB9275] 
+                    bg-[#088F8F] 
                     shadow-[0_8px_30px_rgba(0,0,0,0.15)]
                     flex flex-col
                     transition-all duration-300 ease-out origin-top

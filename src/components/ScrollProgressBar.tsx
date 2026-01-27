@@ -12,7 +12,7 @@ export default function ScrollProgressBar() {
 
     return (
         <motion.div
-            className="absolute bottom-0 left-0 right-0 h-[3px] bg-[#CB9275] origin-left z-50 transform-gpu"
+            className="absolute bottom-0 left-0 right-0 h-[3px] bg-[#088F8F] origin-left z-50 transform-gpu"
             style={{ scaleX }}
         />
     );

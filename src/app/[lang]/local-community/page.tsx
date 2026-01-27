@@ -1,4 +1,4 @@
-﻿import LocalCommunityPage from "@/app/_pages/LocalCommunityPage";
+import LocalCommunityPage from "@/app/_pages/LocalCommunityPage";
 import { SUPPORTED_LOCALES } from "@/lib/i18n";
 
 export async function generateStaticParams() {

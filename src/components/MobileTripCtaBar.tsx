@@ -71,7 +71,7 @@ export default function MobileTripCtaBar({ targetId }: MobileTripCtaBarProps) {
                 {/* CTA Button */}
                 <LocaleLink
                     href="/how-to-booking"
-                    className="flex-shrink-0 bg-[#CB9275] text-white font-avenir text-sm font-medium px-5 py-2.5 rounded-xl active:bg-[#B97F63] transition-colors shadow-sm"
+                    className="flex-shrink-0 bg-[#088F8F] text-white font-avenir text-sm font-medium px-5 py-2.5 rounded-xl active:bg-[#066e6e] transition-colors shadow-sm"
                 >
                     {t("cta.planYourTrip")}
                 </LocaleLink>

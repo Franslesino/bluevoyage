@@ -12,8 +12,8 @@
     "bookNow": "Pesan Sekarang",
     "close": "Tutup",
     "bookYourTrip": "Pesan Perjalanan Anda",
-    "planTrip": "Rencanakan Perjalanan",
-    "planTripShort": "Rencanakan",
+    "planTrip": "Cek Pesanan",
+    "planTripShort": "Cek",
     "socialMedia": "Media Sosial"
   },
   "hero": {
@@ -1543,5 +1543,13 @@
         "localName": "Togean Boobook"
       }
     }
+  },
+  "checkBooking": {
+    "checkTitle": "Cek Pesanan Anda",
+    "checkSubtitle": "Masukkan ID pesanan Anda untuk melihat detail",
+    "bookingIdLabel": "ID Pesanan",
+    "checkButton": "Cek Pesanan",
+    "checking": "Memeriksa...",
+    "checkResultPlaceholder": "Fitur detail pesanan akan segera hadir."
   }
 }

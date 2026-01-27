@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+
 import { CONTACT_INFO } from "@/config/contact";
 import { useTranslation } from "./I18nProvider";
 
@@ -8,20 +8,16 @@ export default function FooterSection() {
     const { t } = useTranslation();
 
     return (
-        <footer className="bg-[#CB9275] text-white pt-8 pb-6 md:pt-10 md:pb-8">
+        <footer className="bg-[#088F8F] text-white pt-8 pb-6 md:pt-10 md:pb-8">
             <div className="mx-auto px-6 md:px-12 max-w-[1280px]">
                 {/* Top Row: Logo */}
                 <div className="flex flex-col md:flex-row justify-between items-start mb-8 md:mb-10">
                     {/* Logo */}
-                    <div className="relative w-[140px] md:w-[200px] lg:w-[280px] h-auto aspect-square">
-                        <Image
-                            src="/icon.webp"
-                            alt="Togean Voyages Logo"
-                            width={280}
-                            height={280}
-                            className="object-contain brightness-0 invert w-full h-auto"
-                            priority
-                        />
+                    <div className="relative w-[140px] md:w-[200px] lg:w-[280px] h-auto aspect-square flex flex-col justify-center items-start">
+                        <h2 className="font-canto text-4xl md:text-5xl lg:text-5xl text-white tracking-widest leading-none">
+                            BLUEVOYAGE
+                        </h2>
+
                     </div>
                     {/* Empty spacer / Right side alignment if needed */}
                     <div className="hidden md:block w-full max-w-md"></div>

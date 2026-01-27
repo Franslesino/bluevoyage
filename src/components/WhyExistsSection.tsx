@@ -26,7 +26,7 @@ const WhyExistsSection: React.FC<WhyExistsSectionProps> = ({
     return (
         <section className="py-24 md:py-32 bg-white relative">
             <div className="container mx-auto px-6 md:px-12 max-w-5xl text-center">
-                <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
+                <span className="text-[#088F8F] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
                     {subtitle}
                 </span>
                 <h2 className="font-canto text-4xl md:text-5xl mb-10 text-[#1a1a1a]">
@@ -49,7 +49,7 @@ const WhyExistsSection: React.FC<WhyExistsSectionProps> = ({
                                 />
                             </div>
                             <div className="flex flex-col gap-3">
-                                <span className="font-avenir text-xs uppercase tracking-[0.2em] text-[#CB9275]">
+                                <span className="font-avenir text-xs uppercase tracking-[0.2em] text-[#088F8F]">
                                     {stat.label}
                                 </span>
                             </div>

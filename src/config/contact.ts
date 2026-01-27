@@ -5,8 +5,8 @@ export const CONTACT_INFO = {
         url: "https://wa.me/6285943001104"
     },
     email: {
-        address: "contact@togeanvoyages.com",
-        url: "mailto:contact@togeanvoyages.com"
+        address: "contact@bluevoyage.com",
+        url: "mailto:contact@bluevoyage.com"
     },
     socials: {
         instagram: "https://instagram.com", // Placeholder found in existing overlay

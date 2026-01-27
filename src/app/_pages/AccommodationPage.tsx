@@ -10,16 +10,16 @@ import BackLink from "@/components/BackLink";
 import LocaleLink from "@/components/LocaleLink";
 import { useTranslation } from "@/components/I18nProvider";
 
-const TABS = ["All", "Malenge", "Una-una", "Kadidiri", "Bomba", "Luwuk"];
+const TABS = ["All", "Labuan Bajo", "Komodo Island", "Rinca Island", "Padar Island", "Kanawa Island"];
 
 // Tab key mapping for translations
 const TAB_KEYS: Record<string, string> = {
     "All": "all",
-    "Malenge": "malenge",
-    "Una-una": "unaUna",
-    "Kadidiri": "kadidiri",
-    "Bomba": "bomba",
-    "Luwuk": "luwuk"
+    "Labuan Bajo": "labuanBajo",
+    "Komodo Island": "komodoIsland",
+    "Rinca Island": "rincaIsland",
+    "Padar Island": "padarIsland",
+    "Kanawa Island": "kanawaIsland"
 };
 
 export default function AccommodationPage() {
@@ -95,7 +95,11 @@ export default function AccommodationPage() {
                 {/* Back Button & Header */}
                 <div className="max-w-[1280px] mx-auto px-4 md:px-8 mb-12">
                     <div className="mb-12 md:mb-16">
-                        <BackLink href="/#accommodation" label={t("common.backToHome")} />
+                        <BackLink
+                            href="/#accommodation"
+                            label={t("common.backToHome")}
+                            className="!text-[#088F8F] hover:!text-[#066e6e] active:!text-[#066e6e] visited:!text-[#088F8F]"
+                        />
                     </div>
 
                     <div className="text-center max-w-4xl mx-auto">
@@ -115,7 +119,7 @@ export default function AccommodationPage() {
                     <div className="md:hidden w-full relative" ref={dropdownRef}>
                         <button
                             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                            className="w-full flex items-center justify-between px-6 py-4 bg-white border border-neutral-200 rounded-sm font-avenir text-base uppercase tracking-widest text-neutral-900 shadow-sm focus:outline-none focus:border-[#CB9275] focus:ring-1 focus:ring-[#CB9275] transition-all"
+                            className="w-full flex items-center justify-between px-6 py-4 bg-white border border-neutral-200 rounded-sm font-avenir text-base uppercase tracking-widest text-neutral-900 shadow-sm focus:outline-none focus:border-[#088F8F] focus:ring-1 focus:ring-[#088F8F] transition-all"
                             aria-expanded={isDropdownOpen}
                             aria-haspopup="listbox"
                         >
@@ -140,10 +144,10 @@ export default function AccommodationPage() {
                                 return (
                                     <LocaleLink
                                         key={tab}
-                                        href={tab === "All" ? "/accommodation" : `/accommodation/${tab.toLowerCase()}`}
+                                        href={tab === "All" ? "/accommodation" : `/accommodation/${tab.toLowerCase().replace(/ /g, '-')}`}
                                         onClick={() => setIsDropdownOpen(false)}
                                         className={`block w-full text-left px-6 py-4 font-avenir text-sm uppercase tracking-widest transition-colors hover:bg-neutral-50 ${tab === "All"
-                                            ? "text-[#CB9275] font-semibold bg-neutral-50/50"
+                                            ? "text-[#088F8F] font-semibold bg-neutral-50/50"
                                             : "text-neutral-600"
                                             }`}
                                         role="option"
@@ -162,16 +166,16 @@ export default function AccommodationPage() {
                             return (
                                 <LocaleLink
                                     key={tab}
-                                    href={tab === "All" ? "/accommodation" : `/accommodation/${tab.toLowerCase()}`}
+                                    href={tab === "All" ? "/accommodation" : `/accommodation/${tab.toLowerCase().replace(/ /g, '-')}`}
                                     className={`font-avenir text-base uppercase tracking-widest pb-4 whitespace-nowrap transition-all duration-300 relative ${tab === "All"
-                                        ? "text-[#CB9275]"
+                                        ? "text-[#088F8F]"
                                         : "text-neutral-400 hover:text-neutral-600"
                                         }`}
                                 >
                                     {t(`accommodation.tabs.${tabKey}`) || tab}
                                     {/* Active Indicator for All Tab */}
                                     <span
-                                        className={`absolute bottom-0 left-0 w-full h-[2px] bg-[#CB9275] transition-transform duration-300 origin-center ${tab === "All" ? "scale-x-100" : "scale-x-0"
+                                        className={`absolute bottom-0 left-0 w-full h-[2px] bg-[#088F8F] transition-transform duration-300 origin-center ${tab === "All" ? "scale-x-100" : "scale-x-0"
                                             }`}
                                     />
                                 </LocaleLink>
@@ -220,7 +224,7 @@ export default function AccommodationPage() {
 
                                             {/* Mobile Content Underneath */}
                                             <div className="md:hidden mt-4 text-center px-2">
-                                                <span className="block font-avenir text-[10px] uppercase tracking-widest text-[#CB9275] mb-1">
+                                                <span className="block font-avenir text-[10px] uppercase tracking-widest text-[#088F8F] mb-1">
                                                     {t(`accommodation.tabs.${item.slug === 'una-una' ? 'unaUna' : item.slug}`) || item.island}
                                                 </span>
                                                 <h3 className="font-canto text-2xl text-neutral-900 mb-2">
@@ -255,7 +259,7 @@ export default function AccommodationPage() {
                             {scrollSnaps.map((_, index) => (
                                 <button
                                     key={index}
-                                    className={`w-2 h-2 rounded-full transition-all duration-300 ${index === selectedIndex ? "bg-[#CB9275] scale-125" : "bg-neutral-300 hover:bg-neutral-400"
+                                    className={`w-2 h-2 rounded-full transition-all duration-300 ${index === selectedIndex ? "bg-[#088F8F] scale-125" : "bg-neutral-300 hover:bg-neutral-400"
                                         }`}
                                     onClick={() => scrollTo(index)}
                                 />

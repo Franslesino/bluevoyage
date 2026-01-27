@@ -58,7 +58,7 @@ export default function BlogSection() {
                     </h2>
                     <LocaleLink
                         href="/blog"
-                        className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 text-xs uppercase tracking-[0.2em] border border-[#CB9275] text-[#CB9275] px-6 py-2 hover:bg-[#CB9275] hover:text-white transition-colors duration-300"
+                        className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 text-xs uppercase tracking-[0.2em] border border-[#088F8F] text-[#088F8F] px-6 py-2 hover:bg-[#088F8F] hover:text-white transition-colors duration-300"
                     >
                         {t("blog.viewAll")}
                     </LocaleLink>
@@ -198,7 +198,7 @@ export default function BlogSection() {
                     <div className="flex justify-center mt-8">
                         <LocaleLink
                             href="/blog"
-                            className="text-xs uppercase tracking-[0.2em] border border-[#CB9275] text-[#CB9275] px-8 py-3 hover:bg-[#CB9275] hover:text-white transition-colors duration-300"
+                            className="text-xs uppercase tracking-[0.2em] border border-[#088F8F] text-[#088F8F] px-8 py-3 hover:bg-[#088F8F] hover:text-white transition-colors duration-300"
                         >
                             {t("blog.viewAll")}
                         </LocaleLink>

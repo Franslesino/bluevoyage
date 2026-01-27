@@ -14,7 +14,7 @@ export type Room = {
 
 export type GuestHouse = {
     id: string;
-    island: "Malenge" | "Una-una" | "Kadidiri" | "Bomba" | "Luwuk";
+    island: "Labuan Bajo" | "Komodo Island" | "Rinca Island" | "Padar Island" | "Kanawa Island";
     slug: string;
     guestHouseName: string;
     shortDescription: string;
@@ -29,115 +29,36 @@ export type GuestHouse = {
 
 export const accommodations: GuestHouse[] = [
     {
-        id: "malenge-1",
-        island: "Malenge",
-        slug: "malenge",
-        guestHouseName: "The Cliff dibe resort",
-        shortDescription: "A cliffside resort on Malenge Island with panoramic ocean views, a pristine white-sand beach, lush rainforest backdrop, and an on-site dive center, ideal for both diving and serene tropical relaxation.",
+        id: "labuan-bajo-1",
+        island: "Labuan Bajo",
+        slug: "labuan-bajo",
+        guestHouseName: "Ayana Komodo Waecicu Beach",
+        shortDescription: "A world-class resort perched on cliffs above Waecicu Beach, offering panoramic ocean views, infinity pools, private beach access, and award-winning cuisine just minutes from Labuan Bajo town.",
         rooms: [
             {
-                id: "deluxe-bungalow-ac",
-                name: "Deluxe Bungalow AC",
+                id: "ocean-view-room",
+                name: "Ocean View Room",
                 images: {
-                    main: "/accommodation/malenge/deluxe_bungalow_AC/main.webp",
-                    bed: "/accommodation/malenge/deluxe_bungalow_AC/bed.webp",
-                    bath: "/accommodation/malenge/deluxe_bungalow_AC/bath.webp",
-                    balcony: "/accommodation/malenge/deluxe_bungalow_AC/balcony.webp"
+                    main: "/accommodation/labuan-bajo/main.png",
                 }
             },
             {
-                id: "deluxe-bungalow-fan",
-                name: "Deluxe Bungalow Fan",
+                id: "deluxe-ocean-room",
+                name: "Deluxe Ocean Room",
                 images: {
-                    main: "/accommodation/malenge/delux_bungalow_FAN/main.webp",
-                    bed: "/accommodation/malenge/delux_bungalow_FAN/bed.webp",
-                    bath: "/accommodation/malenge/delux_bungalow_FAN/bath.webp",
-                    balcony: "/accommodation/malenge/delux_bungalow_FAN/balcony.webp"
+                    main: "/accommodation/labuan-bajo/main.png",
                 }
             },
             {
-                id: "standard-bungalow-fan",
-                name: "Standard Bungalow Fan",
+                id: "komodo-suite",
+                name: "Komodo Suite",
                 images: {
-                    main: "/accommodation/malenge/Standard_Bungalow_Fan/main.webp",
-                    bed: "/accommodation/malenge/Standard_Bungalow_Fan/bed.webp",
-                    bath: "/accommodation/malenge/Standard_Bungalow_Fan/bath.webp",
-                    balcony: "/accommodation/malenge/Standard_Bungalow_Fan/balcony.webp"
-                }
-            },
-            {
-                id: "family-bungalow-fan",
-                name: "Family Bungalow Fan",
-                images: {
-                    main: "/accommodation/malenge/Family_Bungalow_Fan/main.webp",
-                    bed: "/accommodation/malenge/Family_Bungalow_Fan/bed.webp",
-                    bath: "/accommodation/malenge/Family_Bungalow_Fan/bath.webp",
-                    balcony: "/accommodation/malenge/Family_Bungalow_Fan/balcony.webp"
+                    main: "/accommodation/labuan-bajo/main.png",
                 }
             }
         ],
         otherImages: [
-            "/accommodation/malenge/other1.webp",
-            "/accommodation/malenge/other2.webp",
-            "/accommodation/malenge/other3.webp",
-            "/accommodation/malenge/other4.webp",
-            "/accommodation/malenge/other5.webp"
-        ],
-        // Mapped properties
-        get title() { return this.guestHouseName; },
-        get description() { return this.shortDescription; },
-        get image() { return this.otherImages[0]; }, // Using first "other" image as main card image
-        get destination() { return this.island; }
-    },
-    {
-        id: "una-una-1",
-        island: "Una-una",
-        slug: "una-una",
-        guestHouseName: "Pristine",
-        shortDescription: "A beachfront PADI dive resort on remote Una Una Island with cozy wooden bungalows, ocean-view hammocks, and access to top Togean dive sites, plus all-inclusive meals and a calm, off-the-grid atmosphere.",
-        rooms: [
-            {
-                id: "standard-room",
-                name: "Standard room",
-                images: {
-                    main: "/accommodation/una-una/standard_room/main.webp",
-                    bed: "/accommodation/una-una/standard_room/bed.webp"
-                }
-            },
-            {
-                id: "superior-bungalow",
-                name: "Superior Bungalow",
-                images: {
-                    main: "/accommodation/una-una/superior_bungalow/main.webp",
-                    bed: "/accommodation/una-una/superior_bungalow/bed.webp"
-                }
-            },
-            {
-                id: "deluxe-seaview-bungalow",
-                name: "Deluxe Seaview bungalow",
-                images: {
-                    main: "/accommodation/una-una/Deluxe_Seaview_bungalow/main.webp",
-                    bed: "/accommodation/una-una/Deluxe_Seaview_bungalow/bed.jpeg",
-                    bath: "/accommodation/una-una/Deluxe_Seaview_bungalow/bath.webp",
-                    balcony: "/accommodation/una-una/Deluxe_Seaview_bungalow/balcon.jpeg"
-                }
-            },
-            {
-                id: "vip-family-room",
-                name: "VIP/Family Room",
-                images: {
-                    bed: "/accommodation/una-una/VIPFamilyRoom/bed.webp",
-                    balcony: "/accommodation/una-una/VIPFamilyRoom/balcony.webp"
-                }
-            }
-        ],
-        otherImages: [
-            "/accommodation/una-una/other1.webp",
-            "/accommodation/una-una/other2.webp",
-            "/accommodation/una-una/other3.webp",
-            "/accommodation/una-una/other4.webp",
-            "/accommodation/una-una/other5.webp",
-            "/accommodation/una-una/other6.webp"
+            "/accommodation/labuan-bajo/main.png"
         ],
         get title() { return this.guestHouseName; },
         get description() { return this.shortDescription; },
@@ -145,58 +66,36 @@ export const accommodations: GuestHouse[] = [
         get destination() { return this.island; }
     },
     {
-        id: "kadidiri-1",
-        island: "Kadidiri",
-        slug: "kadidiri",
-        guestHouseName: "Kadidiri Paradise",
-        shortDescription: "A laid-back resort with rustic beachfront bungalows and a colorful house reef just off the jetty, perfect for snorkeling, diving, kayaking, and enjoying a simple barefoot island stay.",
+        id: "komodo-island-1",
+        island: "Komodo Island",
+        slug: "komodo-island",
+        guestHouseName: "Komodo Resort & Diving Club",
+        shortDescription: "An eco-friendly dive resort on the shores of Komodo Island itself, offering rustic-chic bungalows, PADI dive center access, and unparalleled proximity to dragon trekking and world-class dive sites.",
         rooms: [
             {
-                id: "superior-double-twin",
-                name: "Superior Double or Twin Room with Sea View",
+                id: "garden-bungalow",
+                name: "Garden Bungalow",
                 images: {
-                    main: "/accommodation/kadidiri/Superior_Double_or_Twin_Room_with_Sea_View/main.webp",
-                    bed: "/accommodation/kadidiri/Superior_Double_or_Twin_Room_with_Sea_View/bed.webp",
-                    bath: "/accommodation/kadidiri/Superior_Double_or_Twin_Room_with_Sea_View/bath.webp"
+                    main: "/accommodation/komodo-island/main.png",
                 }
             },
             {
-                id: "villa-room",
-                name: "Villa room",
+                id: "beachfront-bungalow",
+                name: "Beachfront Bungalow",
                 images: {
-                    main: "/accommodation/kadidiri/Villa_room/main.webp",
-                    bed: "/accommodation/kadidiri/Villa_room/bed.webp",
-                    bath: "/accommodation/kadidiri/Villa_room/bath.webp",
-                    balcony: "/accommodation/kadidiri/Villa_room/balcony.webp"
+                    main: "/accommodation/komodo-island/main.png",
                 }
             },
             {
-                id: "deluxe-double-seaview",
-                name: "Deluxe Double Room with Sea View",
+                id: "overwater-bungalow",
+                name: "Overwater Bungalow",
                 images: {
-                    // Main image is missing in folder, mapping bed to main to ensure it shows up in portrait slot as requested user intent (showing "main" portrait)
-                    main: "/accommodation/kadidiri/Deluxe_Double_Room_with_Sea_View/balcony.webp",
-                    // Also showing balcony as the secondary image since bed is now main
-                    bed: "/accommodation/kadidiri/Deluxe_Double_Room_with_Sea_View/bed.webp",
-                },
-                orientation: "portrait"
-            },
-            {
-                id: "standard-double",
-                name: "Standard double",
-                images: {
-                    main: "/accommodation/kadidiri/standar_double/main.webp",
-                    bed: "/accommodation/kadidiri/standar_double/bed.webp"
-                },
-                orientation: "portrait"
+                    main: "/accommodation/komodo-island/main.png",
+                }
             }
         ],
         otherImages: [
-            "/accommodation/kadidiri/other1.webp",
-            "/accommodation/kadidiri/other2.webp",
-            "/accommodation/kadidiri/other3.webp",
-            "/accommodation/kadidiri/other4.webp",
-            "/accommodation/kadidiri/other5.webp"
+            "/accommodation/komodo-island/main.png"
         ],
         get title() { return this.guestHouseName; },
         get description() { return this.shortDescription; },
@@ -204,48 +103,29 @@ export const accommodations: GuestHouse[] = [
         get destination() { return this.island; }
     },
     {
-        id: "bomba-1",
-        island: "Bomba",
-        slug: "bomba",
-        guestHouseName: "Poya Lisa",
-        shortDescription: "A quiet private-island retreat near Bomba Village with seafront cottages over clear water, great coral reef snorkeling, fresh seafood, and an unhurried, nature-first island experience.",
+        id: "rinca-island-1",
+        island: "Rinca Island",
+        slug: "rinca-island",
+        guestHouseName: "Rinca Eco Lodge",
+        shortDescription: "A small eco-lodge near Rinca ranger station, offering simple but comfortable accommodation with incredible savannah views, dragon encounters, and sunrise hikes to nearby viewpoints.",
         rooms: [
             {
-                id: "deluxe-bungalow",
-                name: "Deluxe Bungalows",
+                id: "standard-cabin",
+                name: "Standard Cabin",
                 images: {
-                    main: "/accommodation/bomba/Deluxe_Bungalows/main.webp",
-                    bed: "/accommodation/bomba/Deluxe_Bungalows/bed.webp",
-                    balcony: "/accommodation/bomba/Deluxe_Bungalows/balcony.webp"
-                },
-                orientation: "portrait"
+                    main: "/accommodation/rinca-island/main.jpg",
+                }
             },
             {
-                id: "superior-bungalow",
-                name: "Superior Bungalows",
+                id: "seaview-cabin",
+                name: "Seaview Cabin",
                 images: {
-                    main: "/accommodation/bomba/Superior_Bungalows/main.webp",
-                    bed: "/accommodation/bomba/Superior_Bungalows/bed.webp",
-                },
-                orientation: "portrait"
-            },
-            {
-                id: "standard-bungalow",
-                name: "Standard bungalows",
-                images: {
-                    main: "/accommodation/bomba/Standard_Bungalows/main.webp",
-                    bed: "/accommodation/bomba/Standard_Bungalows/bed.webp",
-                },
-                orientation: "portrait"
+                    main: "/accommodation/rinca-island/main.jpg",
+                }
             }
         ],
         otherImages: [
-            "/accommodation/bomba/other1.webp",
-            "/accommodation/bomba/other2.webp",
-            "/accommodation/bomba/other3.webp",
-            "/accommodation/bomba/other4.webp",
-            "/accommodation/bomba/other5.webp",
-            "/accommodation/bomba/other6.webp"
+            "/accommodation/rinca-island/main.jpg"
         ],
         get title() { return this.guestHouseName; },
         get description() { return this.shortDescription; },
@@ -253,66 +133,66 @@ export const accommodations: GuestHouse[] = [
         get destination() { return this.island; }
     },
     {
-        id: "luwuk-1",
-        island: "Luwuk",
-        slug: "luwuk",
-        guestHouseName: "Estrella",
-        shortDescription: "A modern 4-star hotel in Luwuk with comfortable rooms, conference spaces, two outdoor pools, spa, gym, and on-site dining, combining resort-style facilities with easy access to town and bay views.",
+        id: "padar-island-1",
+        island: "Padar Island",
+        slug: "padar-island",
+        guestHouseName: "Padar Viewpoint Camp",
+        shortDescription: "A glamping-style camp at the foot of Padar's famous viewpoint, offering stargazing nights, sunrise treks, and the most iconic three-bay panorama in all of Indonesia.",
         rooms: [
             {
-                id: "double-bed",
-                name: "Double Bed",
+                id: "luxury-tent",
+                name: "Luxury Tent",
                 images: {
-                    main: "/accommodation/Luwuk/DoubleBed/bed.webp",
-                    bed: "/accommodation/Luwuk/DoubleBed/bath.webp",
+                    main: "/accommodation/padar-island/main.png",
                 }
             },
             {
-                id: "deluxe",
-                name: "Deluxe",
+                id: "safari-tent",
+                name: "Safari Tent",
                 images: {
-                    main: "/accommodation/Luwuk/Delux/bed.webp",
-                    bed: "/accommodation/Luwuk/Delux/toilet.webp",
-                }
-            },
-            {
-                id: "business-garden-view",
-                name: "Business with garden view",
-                images: {
-                    main: "/accommodation/Luwuk/Business_with_garden_view/bed1.webp",
-                    bed: "/accommodation/Luwuk/Business_with_garden_view/bed2.webp",
-                    bath: "/accommodation/Luwuk/Business_with_garden_view/toilet.webp",
-                }
-            },
-            {
-                id: "grand-deluxe-garden-view",
-                name: "Grand deluxe with garden view",
-                images: {
-                    main: "/accommodation/Luwuk/Grand_deluxe_with_garden_view/bed.webp",
-                    bed: "/accommodation/Luwuk/Grand_deluxe_with_garden_view/toilet.webp",
-                }
-            },
-            {
-                id: "premier-balcony",
-                name: "Premier with balcony",
-                images: {
-                    main: "/accommodation/Luwuk/premier_with_balcony/bed.jpeg",
-                    bed: "/accommodation/Luwuk/premier_with_balcony/bed2.webp",
-                    bath: "/accommodation/Luwuk/premier_with_balcony/toilet.webp",
+                    main: "/accommodation/padar-island/main.png",
                 }
             }
         ],
         otherImages: [
-            "/accommodation/Luwuk/other1.webp",
-            "/accommodation/Luwuk/other2.webp",
-            "/accommodation/Luwuk/other3.webp",
-            "/accommodation/Luwuk/other4.webp",
-            "/accommodation/Luwuk/other6.webp",
-            "/accommodation/Luwuk/other7.webp",
-            "/accommodation/Luwuk/other8.webp",
-            "/accommodation/Luwuk/other9.webp",
-            "/accommodation/Luwuk/other10.webp",
-            "/accommodation/Luwuk/other11.webp"
+            "/accommodation/padar-island/main.png"
+        ],
+        get title() { return this.guestHouseName; },
+        get description() { return this.shortDescription; },
+        get image() { return this.otherImages[0]; },
+        get destination() { return this.island; }
+    },
+    {
+        id: "kanawa-island-1",
+        island: "Kanawa Island",
+        slug: "kanawa-island",
+        guestHouseName: "Kanawa Island Resort",
+        shortDescription: "A private island retreat with crystal-clear waters and spectacular house reef snorkeling. Beachfront bungalows, fresh seafood, and the serenity of a car-free island paradise.",
+        rooms: [
+            {
+                id: "beach-bungalow",
+                name: "Beach Bungalow",
+                images: {
+                    main: "/accommodation/kanawa-island/main.png",
+                }
+            },
+            {
+                id: "hillside-bungalow",
+                name: "Hillside Bungalow",
+                images: {
+                    main: "/accommodation/kanawa-island/main.png",
+                }
+            },
+            {
+                id: "family-bungalow",
+                name: "Family Bungalow",
+                images: {
+                    main: "/accommodation/kanawa-island/main.png",
+                }
+            }
+        ],
+        otherImages: [
+            "/accommodation/kanawa-island/main.png"
         ],
         get title() { return this.guestHouseName; },
         get description() { return this.shortDescription; },

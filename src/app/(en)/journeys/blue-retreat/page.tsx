@@ -61,7 +61,7 @@ export default function BlueRetreatPage() {
     return (
         <>
             <Navbar />
-            <main className="w-full bg-background text-foreground overflow-x-hidden selection:bg-[#CB9275] selection:text-white pb-24 md:pb-0">
+            <main className="w-full bg-background text-foreground overflow-x-hidden selection:bg-[#088F8F] selection:text-white pb-24 md:pb-0">
 
                 {/* HERO SECTION - Premium, above the fold */}
                 <section className="relative h-[100vh] w-full flex items-center justify-center overflow-hidden">
@@ -97,7 +97,7 @@ export default function BlueRetreatPage() {
                         <h1 className="font-canto text-6xl md:text-7xl lg:text-8xl mb-8 leading-[0.95] drop-shadow-2xl tracking-tight">
                             {headline}
                         </h1>
-                        <span className="inline-block px-8 py-3 rounded-full border border-[#CB9275]/20 bg-[#FDF8F6]/10 backdrop-blur-sm mb-6">
+                        <span className="inline-block px-8 py-3 rounded-full border border-[#088F8F]/20 bg-[#FDF8F6]/10 backdrop-blur-sm mb-6">
                             <p className="font-canto text-2xl md:text-4xl italic text-white drop-shadow-sm font-medium">
                                 {shortDescription}
                             </p>
@@ -112,7 +112,7 @@ export default function BlueRetreatPage() {
                         <div className="flex flex-col md:flex-row gap-5 justify-center items-center">
                             <button
                                 onClick={scrollToItinerary}
-                                className="group px-10 py-5 bg-[#CB9275] hover:bg-[#B67F63] text-white font-avenir tracking-[0.15em] uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[240px] shadow-2xl hover:shadow-[#CB9275]/30"
+                                className="group px-10 py-5 bg-[#088F8F] hover:bg-[#066e6e] text-white font-avenir tracking-[0.15em] uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[240px] shadow-2xl hover:shadow-[#088F8F]/30"
                             >
                                 <span className="inline-block group-hover:scale-105 transition-transform duration-300">View Itinerary</span>
                             </button>
@@ -147,7 +147,7 @@ export default function BlueRetreatPage() {
                 <section id="itinerary" className="py-32 bg-[#FAFAFA] relative">
                     <div className="container mx-auto px-6 md:px-12">
                         <div className="text-center mb-20 max-w-4xl mx-auto">
-                            <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
+                            <span className="text-[#088F8F] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
                                 Your Day-by-Day Flow
                             </span>
                             <h2 className="font-canto text-4xl md:text-6xl text-foreground mb-6">
@@ -160,7 +160,7 @@ export default function BlueRetreatPage() {
 
                         <div className="max-w-7xl mx-auto relative">
                             {/* Vertical Timeline Line - Desktop */}
-                            <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-[1px] bg-gradient-to-b from-[#CB9275]/20 via-[#CB9275]/10 to-transparent"></div>
+                            <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-[1px] bg-gradient-to-b from-[#088F8F]/20 via-[#088F8F]/10 to-transparent"></div>
 
                             {/* Show only first 3 days */}
                             <div className="space-y-16 md:space-y-20">
@@ -175,14 +175,14 @@ export default function BlueRetreatPage() {
                                     >
                                         <div className={`flex flex-col md:flex-row gap-8 md:gap-12 items-start ${index % 2 === 0 ? '' : 'md:flex-row-reverse'}`}>
                                             {/* Timeline dot - Desktop */}
-                                            <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 bg-[#CB9275] rounded-full ring-8 ring-white shadow-lg items-center justify-center z-10">
+                                            <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 bg-[#088F8F] rounded-full ring-8 ring-white shadow-lg items-center justify-center z-10">
                                                 <span className="font-avenir text-xs text-white font-bold leading-none pt-[1px]">{day.day}</span>
                                             </div>
 
                                             {/* Content */}
                                             <div className="md:w-1/2">
-                                                <div className="bg-white p-8 md:p-10 shadow-lg hover:shadow-2xl transition-shadow duration-500 border-l-4 border-[#CB9275]">
-                                                    <span className="font-avenir text-xs font-bold tracking-[0.2em] text-[#CB9275] uppercase block mb-3">
+                                                <div className="bg-white p-8 md:p-10 shadow-lg hover:shadow-2xl transition-shadow duration-500 border-l-4 border-[#088F8F]">
+                                                    <span className="font-avenir text-xs font-bold tracking-[0.2em] text-[#088F8F] uppercase block mb-3">
                                                         Day {day.day}
                                                     </span>
                                                     <h3 className="font-canto text-3xl md:text-4xl text-foreground mb-8 leading-tight">
@@ -202,7 +202,7 @@ export default function BlueRetreatPage() {
                                                             <p className="font-avenir text-foreground/80 text-sm leading-relaxed">{day.schedule.evening}</p>
                                                         </div>
                                                     </div>
-                                                    <div className="p-4 bg-[#FDF8F6] border-l-2 border-[#CB9275] italic text-foreground/80 font-canto text-base">
+                                                    <div className="p-4 bg-[#FDF8F6] border-l-2 border-[#088F8F] italic text-foreground/80 font-canto text-base">
                                                         "{day.highlight}"
                                                     </div>
                                                 </div>
@@ -262,7 +262,7 @@ export default function BlueRetreatPage() {
                 <section className="py-32 bg-background">
                     <div className="container mx-auto px-6 md:px-12">
                         <div className="text-center mb-20 max-w-3xl mx-auto">
-                            <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
+                            <span className="text-[#088F8F] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
                                 What Makes Blue Retreat Special
                             </span>
                             <h2 className="font-canto text-4xl md:text-5xl text-foreground mb-6">
@@ -306,7 +306,7 @@ export default function BlueRetreatPage() {
                 <section className="py-32 bg-[#FAFAFA]">
                     <div className="container mx-auto px-6 md:px-12">
                         <div className="text-center mb-20 max-w-3xl mx-auto">
-                            <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
+                            <span className="text-[#088F8F] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
                                 The Blue Retreat Standard
                             </span>
                             <h2 className="font-canto text-4xl md:text-5xl text-foreground">
@@ -320,8 +320,8 @@ export default function BlueRetreatPage() {
                                 <button
                                     onClick={() => setActiveTab("villa")}
                                     className={`px-8 py-3 font-avenir text-sm uppercase tracking-widest transition-all ${activeTab === "villa"
-                                        ? "bg-[#CB9275] text-white"
-                                        : "bg-white text-foreground hover:bg-[#CB9275]/10"
+                                        ? "bg-[#088F8F] text-white"
+                                        : "bg-white text-foreground hover:bg-[#088F8F]/10"
                                         }`}
                                 >
                                     Your Villa
@@ -329,8 +329,8 @@ export default function BlueRetreatPage() {
                                 <button
                                     onClick={() => setActiveTab("boat")}
                                     className={`px-8 py-3 font-avenir text-sm uppercase tracking-widest transition-all ${activeTab === "boat"
-                                        ? "bg-[#CB9275] text-white"
-                                        : "bg-white text-foreground hover:bg-[#CB9275]/10"
+                                        ? "bg-[#088F8F] text-white"
+                                        : "bg-white text-foreground hover:bg-[#088F8F]/10"
                                         }`}
                                 >
                                     Your Boat
@@ -352,7 +352,7 @@ export default function BlueRetreatPage() {
                                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
                                     {tabs[activeTab].points.map((point, index) => (
                                         <div key={index} className="flex items-center gap-2">
-                                            <svg className="w-5 h-5 text-[#CB9275]" fill="currentColor" viewBox="0 0 20 20">
+                                            <svg className="w-5 h-5 text-[#088F8F]" fill="currentColor" viewBox="0 0 20 20">
                                                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                             </svg>
                                             <span className="font-avenir text-sm text-foreground">{point}</span>
@@ -384,7 +384,7 @@ export default function BlueRetreatPage() {
                             <h2 className="font-canto text-4xl md:text-5xl text-foreground mb-4">
                                 {pricing.title}
                             </h2>
-                            <p className="font-avenir text-3xl text-[#CB9275] font-light">
+                            <p className="font-avenir text-3xl text-[#088F8F] font-light">
                                 {pricing.text}
                             </p>
                             <p className="font-avenir text-sm text-foreground/60 mt-4 max-w-2xl mx-auto">
@@ -400,7 +400,7 @@ export default function BlueRetreatPage() {
                                 <ul className="space-y-3">
                                     {pricing.included.map((item, index) => (
                                         <li key={index} className="flex items-start gap-3">
-                                            <svg className="w-5 h-5 text-[#CB9275] mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                            <svg className="w-5 h-5 text-[#088F8F] mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                             </svg>
                                             <span className="font-avenir text-sm text-foreground">{item}</span>
@@ -432,13 +432,13 @@ export default function BlueRetreatPage() {
                                 href={createWaLink("Check availability")}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="group px-10 py-5 bg-[#CB9275] hover:bg-[#B67F63] text-white font-avenir tracking-[0.15em] uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[280px] shadow-2xl text-center"
+                                className="group px-10 py-5 bg-[#088F8F] hover:bg-[#066e6e] text-white font-avenir tracking-[0.15em] uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[280px] shadow-2xl text-center"
                             >
                                 <span className="inline-block group-hover:scale-105 transition-transform duration-300">Message Us on WhatsApp</span>
                             </a>
                             <a
                                 href={`mailto:contact@togeanvoyages.com?subject=${encodeURIComponent("Blue Retreat Inquiry")}&body=${encodeURIComponent("Hi TogeanVoyage team, I'm interested in Blue Retreat (8+ days). Please share availability, pricing, and next steps.")}`}
-                                className="group px-10 py-5 border-2 border-foreground/20 text-foreground hover:border-[#CB9275] hover:text-[#CB9275] font-avenir tracking-[0.15em] uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[280px] text-center"
+                                className="group px-10 py-5 border-2 border-foreground/20 text-foreground hover:border-[#088F8F] hover:text-[#088F8F] font-avenir tracking-[0.15em] uppercase text-sm transition-all duration-300 w-full md:w-auto min-w-[280px] text-center"
                             >
                                 <span className="inline-block group-hover:scale-105 transition-transform duration-300">Email Us</span>
                             </a>
@@ -450,7 +450,7 @@ export default function BlueRetreatPage() {
                 <section className="py-32 bg-[#FAFAFA]">
                     <div className="container mx-auto px-6 md:px-12 max-w-4xl">
                         <div className="text-center mb-20">
-                            <span className="text-[#CB9275] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
+                            <span className="text-[#088F8F] font-avenir text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
                                 Common Questions
                             </span>
                             <h2 className="font-canto text-4xl md:text-5xl text-foreground">
@@ -472,7 +472,7 @@ export default function BlueRetreatPage() {
                                             {item.question}
                                         </span>
                                         <svg
-                                            className={`w-5 h-5 text-[#CB9275] transition-transform ${openFaqIndex === index ? "rotate-180" : ""
+                                            className={`w-5 h-5 text-[#088F8F] transition-transform ${openFaqIndex === index ? "rotate-180" : ""
                                                 }`}
                                             fill="none"
                                             stroke="currentColor"
@@ -512,7 +512,7 @@ export default function BlueRetreatPage() {
                         href={createWaLink("Inquire")}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-3 bg-[#CB9275] hover:bg-[#B67F63] rounded text-white text-xs font-bold uppercase tracking-wide transition-all"
+                        className="px-5 py-3 bg-[#088F8F] hover:bg-[#066e6e] rounded text-white text-xs font-bold uppercase tracking-wide transition-all"
                     >
                         WhatsApp
                     </a>

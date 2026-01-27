@@ -185,13 +185,13 @@ export default async function LandWildlifeDetailPage({ params }: { params: Promi
                     <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 w-full max-w-xl mx-auto">
                         <LocaleLink
                             href="/wildlife/land"
-                            className="w-full md:w-auto text-center px-8 py-3 border border-[#CB9275] text-[#CB9275] font-avenir tracking-wider uppercase text-sm hover:bg-[#CB9275]/10 transition-colors rounded-sm"
+                            className="w-full md:w-auto text-center px-8 py-3 border border-[#088F8F] text-[#088F8F] font-avenir tracking-wider uppercase text-sm hover:bg-[#088F8F]/10 transition-colors rounded-sm"
                         >
                             {t.wildlifeDetail?.backToLandWildlife || "Back to Land Wildlife"}
                         </LocaleLink>
                         <LocaleLink
                             href="/wildlife"
-                            className="w-full md:w-auto text-center px-8 py-3 bg-[#CB9275] text-white font-avenir tracking-wider uppercase text-sm hover:bg-[#B67F63] transition-colors rounded-sm"
+                            className="w-full md:w-auto text-center px-8 py-3 bg-[#088F8F] text-white font-avenir tracking-wider uppercase text-sm hover:bg-[#066e6e] transition-colors rounded-sm"
                         >
                             {t.wildlifeDetail?.backToWildlifeGallery || "Back to Wildlife Gallery"}
                         </LocaleLink>

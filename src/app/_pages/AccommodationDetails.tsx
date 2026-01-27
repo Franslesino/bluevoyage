@@ -70,7 +70,11 @@ export default function AccommodationDetails() {
                 {/* Back Button & Header */}
                 <div className="max-w-[1280px] mx-auto px-4 md:px-8 mb-8 md:mb-12">
                     <div className="mb-8 md:mb-12">
-                        <BackLink href="/accommodation" label={t("common.backToAccommodations") || "Back to Accommodations"} />
+                        <BackLink
+                            href="/accommodation"
+                            label={t("common.backToAccommodations") || "Back to Accommodations"}
+                            className="!text-[#088F8F] hover:!text-[#066e6e] active:!text-[#066e6e] visited:!text-[#088F8F]"
+                        />
                     </div>
 
                     <div className="text-center max-w-4xl mx-auto mb-8">
@@ -89,12 +93,12 @@ export default function AccommodationDetails() {
                                 <LocaleLink
                                     key={tab}
                                     href={href}
-                                    className={`font-avenir text-base uppercase tracking-widest pb-4 whitespace-nowrap transition-all duration-300 relative ${isActive ? "text-[#CB9275]" : "text-neutral-400 hover:text-neutral-600"
+                                    className={`font-avenir text-base uppercase tracking-widest pb-4 whitespace-nowrap transition-all duration-300 relative ${isActive ? "text-[#088F8F]" : "text-neutral-400 hover:text-neutral-600"
                                         }`}
                                 >
                                     {t(`accommodation.tabs.${tabKey}`) || tab}
                                     <span
-                                        className={`absolute bottom-0 left-0 w-full h-[2px] bg-[#CB9275] transition-transform duration-300 origin-center ${isActive ? "scale-x-100" : "scale-x-0"
+                                        className={`absolute bottom-0 left-0 w-full h-[2px] bg-[#088F8F] transition-transform duration-300 origin-center ${isActive ? "scale-x-100" : "scale-x-0"
                                             }`}
                                     />
                                 </LocaleLink>
@@ -123,7 +127,7 @@ export default function AccommodationDetails() {
                             <select
                                 value={selectedRoomId}
                                 onChange={(e) => setSelectedRoomId(e.target.value)}
-                                className="w-full appearance-none bg-white border-b border-neutral-300 py-3 pl-4 pr-10 font-canto text-xl text-neutral-900 focus:outline-none focus:border-[#CB9275] transition-colors cursor-pointer text-center"
+                                className="w-full appearance-none bg-white border-b border-neutral-300 py-3 pl-4 pr-10 font-canto text-xl text-neutral-900 focus:outline-none focus:border-[#088F8F] transition-colors cursor-pointer text-center"
                             >
                                 {guestHouse.rooms.map((room) => (
                                     <option key={room.id} value={room.id} className="font-sans text-base">

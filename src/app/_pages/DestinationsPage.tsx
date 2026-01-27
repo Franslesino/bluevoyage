@@ -4,6 +4,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
 import { destinations } from "@/data/destinations";
+import { destinationDetails } from "@/data/destinationDetails";
 import BackLink from "@/components/BackLink";
 import LocaleLink from "@/components/LocaleLink";
 import { useTranslation } from "@/components/I18nProvider";
@@ -23,7 +24,7 @@ export default function DestinationsPage() {
                     <span className="block font-avenir text-sm md:text-base uppercase tracking-[0.2em] text-neutral-500 mb-4">
                         {t("destinations.sectionLabel")}
                     </span>
-                    <h1 className="font-canto text-4xl md:text-5xl lg:text-6xl text-[#6b4c3b] mb-4">
+                    <h1 className="font-canto text-4xl md:text-5xl lg:text-6xl text-[#088F8F] mb-4">
                         {t("destinations.title")}
                     </h1>
                     <span className="block font-avenir text-neutral-500 text-lg mb-6 md:mb-8">
@@ -56,10 +57,15 @@ export default function DestinationsPage() {
                                     {/* Text Section */}
                                     <div className="flex flex-col">
                                         <LocaleLink href={`/destinations/${destination.slug}`} className="block cursor-pointer">
-                                            <h2 className="font-canto text-3xl md:text-4xl lg:text-5xl text-neutral-900 mb-4 md:mb-6 group-hover:text-[#6b4c3b] transition-colors">
+                                            <h2 className="font-canto text-3xl md:text-4xl lg:text-5xl text-neutral-900 mb-2 group-hover:text-[#6b4c3b] transition-colors">
                                                 {t(`destinations.items.${destination.slug}.name`) || destination.name}
                                             </h2>
                                         </LocaleLink>
+                                        {destinationDetails[destination.slug]?.tagline && (
+                                            <p className="font-avenir text-[#088F8F] text-base md:text-lg italic mb-4">
+                                                "{destinationDetails[destination.slug].tagline}"
+                                            </p>
+                                        )}
                                         <p className="font-avenir text-neutral-600 text-base md:text-lg leading-relaxed max-w-2xl mb-6 md:mb-8">
                                             {t(`destinations.items.${destination.slug}.description`) || destination.description}
                                         </p>

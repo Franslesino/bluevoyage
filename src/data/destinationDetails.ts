@@ -21,354 +21,304 @@ export interface DestinationDetail {
 }
 
 export const destinationDetails: Record<string, DestinationDetail> = {
-    "pulau-puah": {
-        slug: "pulau-puah",
-        name: "Pulau Puah",
-        tagline: "A secluded island of absolute tranquility and pristine nature.",
-        intro: "Pulau Puah is a largely undeveloped gem in the southeastern Togeans, boasting untouched white-sand beaches and thriving coral reefs. Far from crowds, it offers a rare chance to enjoy nature’s silence on a pristine tropical shore where tranquility reigns supreme.",
+    "padar-island": {
+        slug: "padar-island",
+        name: "Padar Island",
+        tagline: "The iconic three-bay viewpoint of Komodo National Park.",
+        intro: "Padar Island is the third largest island in Komodo National Park, famous for its surreal landscape of jagged volcanic hills and three distinct bays with white, pink, and black sand beaches. The summit offers one of Indonesia's most photographed panoramic views.",
         whyItMatters: [
-            "A true off-the-beaten-path escape with empty beaches ideal for private swimming.",
-            "Surrounded by healthy coral gardens, making it a dream for snorkelers to spot turtles.",
-            "Offers an exclusive private island feel, perfect for picnics without another soul in sight."
+            "Features the park's most iconic viewpoint with three different colored beaches visible at once.",
+            "Offers spectacular sunrise hikes with dramatic lighting over the savannah hills.",
+            "A prehistoric landscape that feels like stepping into a Jurassic world."
         ],
         experiences: [
             {
-                title: "Deserted Beach Picnic",
-                text: "Enjoy a BBQ picnic of fresh seafood on the powdery sand, with just you, the palms, and the gentle waves."
+                title: "Sunrise Summit Hike",
+                text: "Trek up the stone staircase before dawn to witness the sun rising over the dramatic bays from the island's highest point."
             },
             {
-                title: "Coral Reef Snorkeling",
-                text: "Swim right off the beach to encounter vibrant coral formations and diverse marine life in remarkably clear waters."
+                title: "Three-Colored Beach Spotting",
+                text: "From the top, identify the unique white, charcoal-black, and rose-pink beaches in the bays below."
             },
             {
-                title: "Jungle Stroll",
-                text: "Take a short walk inland beneath towering coconut palms to glimpse the untouched rainforest ecosystem thriving in silence."
+                title: "Savannah Photography",
+                text: "Capture the golden dry-season grasses or vibrant wet-season green hills against the turquoise sea."
             },
             {
-                title: "Sunset on the Boat",
-                text: "Linger offshore to watch the sunset paint the sky in breathtaking orange and purple hues over the silhouetted island."
+                title: "Bay Exploration",
+                text: "After the hike, boat down to relax on one of the pristine, secluded beaches you saw from above."
             }
         ],
-        signatureMoment: "Enjoying a deserted beach picnic on powdery white sand, realizing you have the entire island to yourself.",
+        signatureMoment: "Watching the first light of dawn illuminate the three curved bays of Padar, revealing the tricolor sands.",
         routeFit: {
-            idealTiming: "Midday stopover on an island-hopping route.",
-            suggestedDuration: "Half-day (lunch or swim).",
-            pairsWellWith: ["Malenge", "Walea Kodi"],
+            idealTiming: "Sunrise (start hiking 4:30 AM) or Sunset.",
+            suggestedDuration: "3–4 hours.",
+            pairsWellWith: ["Komodo Island", "Pink Beach"],
             notes: [
-                "Accessible only by private boat or tour; no public ferries.",
-                "No shops or facilities—bring all water and supplies.",
-                "Visit in calm seas for a safe landing."
+                "Steep hike with stairs; moderate fitness required.",
+                "Bring water, hat, and sunscreen; no shade on the trail.",
+                "Drone usage strictly regulated/prohibited without permit."
             ]
         },
         practicalNotes: [
-            "Leave no trace to preserve the pristine condition.",
-            "Snorkel with a buddy and avoid stepping on coral.",
-            "Visits are weather- and tide-dependent; check with guides."
+            "Wear sturdy shoes/sneakers for the hike.",
+            "It gets very hot by 9 AM; early morning is crucial.",
+            "Stick to the marked trail to protect the fragile savannah ecosystem."
         ],
         images: {
-            hero: "/destinations_real/pulau-puah/hero.webp",
-            secondary: "/destinations_real/pulau-puah/experience.webp",
-            mood: "/destinations_real/pulau-puah/mood.webp"
+            hero: "/destinations/destination_padar.webp",
+            secondary: "/destinations/destination_pink_beach.webp",
+            mood: "/komodo-hero.webp"
         }
     },
-    "malenge": {
-        slug: "malenge",
-        name: "Malenge",
-        tagline: "Tropical jungle paradise meets authentic sea gypsy culture.",
-        intro: "Malenge is a haven of dense jungles and unspoiled beaches, connected to the fascinating Bajo sea gypsy village by a long wooden bridge. Time slows here, inviting you to snorkel vibrant reefs and experience authentic life in a tranquil setting.",
+    "komodo-island": {
+        slug: "komodo-island",
+        name: "Komodo Island",
+        tagline: "The legendary home of the Komodo Dragon.",
+        intro: "The largest island in the park and the namesake of the world's largest lizard. Komodo Island offers a mix of dry savannah, thorny green forests, and beautiful coastline, where visitors can safely trek to observe these prehistoric predators in the wild.",
         whyItMatters: [
-            "Home to a traditional sea gypsy community living in stilt houses on Pulau Papan.",
-            "Offers stunning beaches like Sera Beach with coral gardens just offshore for easy snorkeling.",
-            "Lush forests shelter rare Togean macaques and coconut crabs, ideal for easy nature hikes."
+            "The primary place to see wild Komodo dragons in their natural habitat.",
+            "Home to diverse wildlife including Timor deer, wild boar, and dangerous twisting tamarind trees.",
+            "A UNESCO World Heritage site of immense biological and geological significance."
         ],
         experiences: [
             {
-                title: "Pulau Papan Bridge Walk",
-                text: "Stroll across the iconic 1.8km wooden bridge connecting Malenge to the traditional Bajo village over crystal-clear water."
+                title: "Guided Dragon Trek",
+                text: "Walk with an expert ranger through the forest to safely spot Komodo dragons and observe their behavior."
             },
             {
-                title: "Sera Beach Retreat",
-                text: "Relax on one of the archipelago’s best beaches, featuring white sand and excellent snorkeling just steps away."
+                title: "Wildlife Spotting",
+                text: "Keep an eye out for orange-footed scrub fowl, wild boar, and the deer that serve as the dragons' prey."
             },
             {
-                title: "Jungle & Wildlife Trek",
-                text: "Hike through the rainforest to spot endemic Togean macaques and enjoy panoramic island views from the hills."
+                title: "Local Market Visit",
+                text: "Visit the souvenir market at the entrance to support local artisans selling wooden carvings and pearls."
             },
             {
-                title: "Cultural Homestay",
-                text: "Stay in a simple guesthouse to experience daily island life and warm local hospitality firsthand."
+                title: "Pink Beach Snorkel",
+                text: "Often combined with a visit to the nearby Pantai Merah for cooling off after the hot trek."
             }
         ],
-        signatureMoment: "Walking the wooden bridge to Pulau Papan, suspended over turquoise water, on your way to meet the Bajo people.",
+        signatureMoment: "Silent encounter with a massive 3-meter Komodo dragon resting in the shade of a tamarind tree.",
         routeFit: {
-            idealTiming: "Mid-journey escape in the eastern Togeans.",
-            suggestedDuration: "2–3 days.",
-            pairsWellWith: ["Walea Kodi", "Pulau Puah"],
+            idealTiming: "Morning (active dragons) or late afternoon.",
+            suggestedDuration: "2–3 hours.",
+            pairsWellWith: ["Padar Island", "Pink Beach"],
             notes: [
-                "Remote with no ATMs or shops; bring essential supplies.",
-                "Electricity is limited to night hours; signal is weak.",
-                "Check ferry schedules as boats may run infrequently."
+                "Ranger accompaniment is mandatory at all times.",
+                "Menstruating women must notify rangers for safety (dragons smell blood).",
+                "Keep distance and never feed the wildlife."
             ]
         },
         practicalNotes: [
-            "Dress modestly when visiting villages.",
-            "Accommodation is basic; bring snacks if you have dietary needs.",
-            "Nightlife is stargazing; enjoy the silence and dark skies."
+            "Bring cash for ranger tips and souvenirs.",
+            "Stay on the path and stay behind your ranger.",
+            "Carry water; the trek can be hot and dry."
         ],
         images: {
-            hero: "/destinations_real/malenge/hero.webp",
-            secondary: "/destinations_real/malenge/experience.webp",
-            mood: "/destinations_real/malenge/mood.webp"
+            hero: "/destinations/dest-komodo.png",
+            secondary: "/destinations/destination_rinca.webp",
+            mood: "/komodo-hero.webp"
         }
     },
-    "waleakodi": {
-        slug: "waleakodi",
-        name: "Walea Kodi",
-        tagline: "A far-flung tropical hideaway for ultimate seclusion.",
-        intro: "Walea Kodi is an isolated sanctuary on the northern fringe, offering quiet white-sand beaches and rich protected coral reefs. With minimal development, it’s the perfect place to disconnect and enjoy an exclusive castaway experience far from civilization.",
+    "pink-beach": {
+        slug: "pink-beach",
+        name: "Pink Beach",
+        tagline: "A surreal coastline of rose-tinted sands.",
+        intro: "Pantai Merah, or Pink Beach, is one of only seven pink beaches on the planet. The sand gets its striking color from microscopic animals called Foraminifera, which produce a red pigment on the coral reefs. It's a surreal place for swimming and photography.",
         whyItMatters: [
-            "One of the most isolated spots, perfect for travelers seeking peace and privacy.",
-            "Surrounded by pristine protected reefs, offering world-class snorkeling and diving with minimal crowds.",
-            "Untouched island scenery where dense greenery meets the shore and reefs remain undisturbed."
+            "A rare geological wonder with photogenic pink sands contrasting against turquoise water.",
+            "Excellent snorkeling right off the shore with healthy coral gardens.",
+            "A perfect relaxation spot after hiking Padar or trekking Komodo."
         ],
         experiences: [
             {
-                title: "“Robinson Crusoe” Beach Day",
-                text: "Lounge on a private beach with soft white sand and the gentle sound of waves for a deserted island feel."
+                title: "Pink Sand Photography",
+                text: "Capture the unique contrast of pink sand and blue water—best seen where the waves crash."
             },
             {
-                title: "Coral Garden Snorkeling",
-                text: "Explore the nearby marine reserve to encounter spectacular coral formations and abundant sea life like turtles."
+                title: "Shore Snorkeling",
+                text: "Drift over colorful shallow reefs teeming with fish just meters from the shoreline."
             },
             {
-                title: "Village Visit in Dolong",
-                text: "Stroll into the tiny fishing hamlet to meet locals and witness an authentic slice of island life."
+                title: "Hilltop View",
+                text: "Climb the small hills flanking the beach for a panoramic view of the pink crescent."
             },
             {
-                title: "Sunset & Stargazing",
-                text: "Climb a small hill at dusk to watch a fiery sunset, then stay out to gaze at the Milky Way."
+                title: "Crystal Clear Swim",
+                text: "Enjoy a refreshing dip in some of the clearest waters in the archipelago."
             }
         ],
-        signatureMoment: "Gazing at the Milky Way from a quiet beach, miles from the nearest town, in total silence.",
+        signatureMoment: "Holding a handful of sand and seeing the tiny red coral fragments that create the pink illusion.",
         routeFit: {
-            idealTiming: "End-of-itinerary off-grid escape.",
-            suggestedDuration: "2 days (2 nights).",
-            pairsWellWith: ["Malenge", "Pulau Puah"],
+            idealTiming: "Midday sun for brightest pink color.",
+            suggestedDuration: "1–2 hours.",
+            pairsWellWith: ["Komodo Island", "Padar Island"],
             notes: [
-                "Reachable by infrequent ferries or resort transfers.",
-                "No ATM, shops, or reliable signal—bring sufficient cash.",
-                "Electricity is limited to generator hours."
+                "Taking sand or coral is strictly prohibited.",
+                "Please use reef-safe sunscreen to protect the coral.",
+                "Can get busy; visit early or late for solitude."
             ]
         },
         practicalNotes: [
-            "Reserve accommodation and transport in advance.",
-            "Practice eco-conscious behavior to protect the marine reserve.",
-            "Embrace the digital detox; Wi-Fi is generally unavailable."
+            "Bring underwater camera for the coral.",
+            "No shade on the beach; bring a hat or umbrella.",
+            "Support local warungs (stalls) if available."
         ],
         images: {
-            hero: "/destinations_real/waleakodi/hero.webp",
-            secondary: "/destinations_real/waleakodi/experience.webp",
-            mood: "/destinations_real/waleakodi/mood.webp"
+            hero: "/destinations/destination_pink_beach.webp",
+            secondary: "/destinations/dest-komodo.png",
+            mood: "/destinations/destination_padar.webp"
         }
     },
-    "una-una": {
-        slug: "una-una",
-        name: "Una Una",
-        tagline: "A volcanic jewel with spectacular marine life.",
-        intro: "Una Una is a dramatic volcanic island where black sands meet lush greenery, dominated by the active Mount Colo. Its nutrient-rich waters foster some of the region’s most spectacular marine life, making it a top destination for adventure and diving.",
+    "manta-point": {
+        slug: "manta-point",
+        name: "Manta Point",
+        tagline: "Swim with the gentle giants of the ocean.",
+        intro: "Manta Point (Karang Makassar) is a world-famous drift dive and snorkel site where giant Manta Rays gather to feed and clean. The nutrient-rich currents attract these majestic creatures year-round, offering one of the best manta encounters in the world.",
         whyItMatters: [
-            "Offers the rare chance to trek an active volcano and see its ancient crater.",
-            " cited as the best diving in the Togeans, with healthy reefs and big fish schools.",
-            "A raw, authentic island experience with friendly villagers and no roads or vehicles."
+            "Consistent sightings of Reef and Oceanic Manta Rays, sometimes in large groups.",
+            "Accessible for both snorkelers and divers due to shallow reef sections.",
+            "High biodiversity area often visited by sharks, eagle rays, and turtles."
         ],
         experiences: [
             {
-                title: "Volcano Hike to Mount Colo",
-                text: "Trek up the volcano’s slopes to peer into the verdant caldera and enjoy sweeping ocean views."
+                title: "Manta Ray Snorkeling",
+                text: "Float on the surface as massive mantas glide and barrel-roll in the current beneath you."
             },
             {
-                title: "Diving or Snorkeling",
-                text: "Dive into an underwater wonderland to see huge fish schools and endless coral gardens in clear water."
+                title: "Drift Diving",
+                text: "Let the current carry you along the kilometer-long reef while watching the marine show."
             },
             {
-                title: "Beachcombing Black Sands",
-                text: "Explore unique beaches where black volcanic sand mingles with white, creating beautiful patterns."
+                title: "Turtle Spotting",
+                text: "Look for large green turtles resting on the coral rubble bottoms."
             },
             {
-                title: "Sunset at the Resort",
-                text: "Relax beachfront as the sun dips, painting the sky in brilliant colors, followed by a bonfire."
+                title: "Boat Deck Viewing",
+                text: "Even non-swimmers can often see mantas breaching or feeding near the surface."
             }
         ],
-        signatureMoment: "Standing on the rim of Mount Colo, feeling the volcanic steam, with the endless blue ocean below.",
+        signatureMoment: "The breathless moment a 3-meter manta ray swims directly towards you and gracefully banks away at the last second.",
         routeFit: {
-            idealTiming: "Dedicated adventure segment in your itinerary.",
-            suggestedDuration: "2–4 days.",
-            pairsWellWith: ["Kadidiri", "Bomba"],
+            idealTiming: "Morning or depending on tidal currents.",
+            suggestedDuration: "1–2 hours.",
+            pairsWellWith: ["Taka Makassar", "Siaba Besar"],
             notes: [
-                "Access via infrequent ferry or resort transfer; coordinate carefully.",
-                "No ATMs or shops; bring cash and necessities.",
-                "Electricity is generator-run, usually in the evening."
+                "Currents can be strong; follow guide instructions carefully.",
+                "Do not touch or chase the mantas.",
+                "Sightings are wild nature and never 100% guaranteed."
             ]
         },
         practicalNotes: [
-            "Book dive resorts in advance, especially for transfers.",
-            "Bring travel insurance and a first aid kit.",
-            "Use a rash guard when snorkeling to avoid plankton stings."
+            "Wear fins for swimming in currents.",
+            "Rash guard recommended for warmth and jelly protection.",
+            "Stay relaxed in the water to attract curious mantas."
         ],
         images: {
-            hero: "/destinations_real/una-una/hero.webp",
-            secondary: "/destinations_real/una-una/experience.webp",
-            mood: "/destinations_real/una-una/mood.webp"
+            hero: "/destinations/destination_manta_point.webp",
+            secondary: "/destinations/destination_pink_beach.webp",
+            mood: "/komodo-hero.webp"
         }
     },
-    "kadidiri": {
-        slug: "kadidiri",
-        name: "Kadidiri",
-        tagline: "The vibrant travel hub with perfect white sands.",
-        intro: "Kadidiri is the Togeans’ beloved travel hub, famous for its powder-soft white beaches and vibrant house reefs. It offers a perfect balance of rustic charm and social vibe, where you can dive world-class sites or simply laze in a hammock.",
+    "rinca-island": {
+        slug: "rinca-island",
+        name: "Rinca Island",
+        tagline: "Wild savannahs and easier dragon spotting.",
+        intro: "Rinca offers a wilder, more savannah-like landscape than Komodo Island. It is often easier to spot dragons here, especially near the ranger station kitchen. The hikes offer dramatic views of the surrounding bays and brown grassy hills.",
         whyItMatters: [
-            "A tourist-friendly base with a nice social vibe, ideal for beginning your exploration.",
-            "Surrounded by rich coral reefs just off the shore, perfect for easy snorkeling.",
-            "Features storybook tropical scenery with turquoise lagoons and spectacular sunsets."
+            "Second largest island for dragons, with a high density population.",
+            "Beautiful expansive views from the hilltops suitable for all fitness levels.",
+            "Includes mangrove forests creating a diverse ecosystem."
         ],
         experiences: [
             {
-                title: "House Reef Snorkeling",
-                text: "Step right off the beach into gin-clear water to float above a thriving coral garden."
+                title: "Dragon Walk",
+                text: "See dragons basking in the sun near the new elevated boardwalks and ranger station."
             },
             {
-                title: "WWII Bomber Dive",
-                text: "Dive to the B-24 “Liberator” wreck, an eerie history museum encrusted with coral and life."
+                title: "Hilltop Panorama",
+                text: "Hike to the top of the island for a stunning 360-degree view of the park's islands."
             },
             {
-                title: "Kayaking & Island Hopping",
-                text: "Paddle to hidden coves or join a boat trip to nearby islets like Bolilanga for more snorkeling."
+                title: "Buffalo & Monkey Spotting",
+                text: "Wildlife is abundant; look for water buffaloes in mud pools and macaques in the trees."
             },
             {
-                title: "Sunset Pier Gathering",
-                text: "Gather on the wooden pier with a cold drink to watch the sky ignite at sunset."
+                title: "Mangrove Boat Tour",
+                text: "Cruise through coastal mangroves to spot kingfishers and baby sharks."
             }
         ],
-        signatureMoment: "Watching the sunset from the pier with other travelers, as the sky turns purple and the stars come out.",
+        signatureMoment: "Reaching the highest viewpoint on Rinca and seeing the dragons' domain stretching out to the horizon.",
         routeFit: {
-            idealTiming: "First stop to adjust to island time.",
-            suggestedDuration: "2–4 days.",
-            pairsWellWith: ["Una Una", "Bomba"],
+            idealTiming: "Morning or late afternoon to avoid heat.",
+            suggestedDuration: "2 hours.",
+            pairsWellWith: ["Kelor Island", "Kalong Island"],
             notes: [
-                "20-30 minute boat ride from Wakai (main port).",
-                "Cash only economy; no ATM on the island.",
-                "Electricity and internet are limited; plan accordingly."
+                "Closer to Labuan Bajo than Komodo Island (easier day trip).",
+                "New elevated boardwalks make viewing safer and easier.",
+                "Hot and exposed; bring sun protection."
             ]
         },
         practicalNotes: [
-            "Book ahead in high season as popular spots fill up.",
-            "Communal dining is a great way to meet fellow travelers.",
-            "Secure food in your room to avoid tempting local wildlife."
+            "Brings hat and sunglasses.",
+            "Stay on the boardwalks.",
+            "Great alternative if short on time for Komodo Island."
         ],
         images: {
-            hero: "/destinations_real/kadidiri/hero.webp",
-            secondary: "/destinations_real/kadidiri/experience.webp",
-            mood: "/destinations_real/kadidiri/mood.webp"
+            hero: "/destinations/destination_rinca.webp",
+            secondary: "/destinations/destination_padar.webp",
+            mood: "/komodo-hero.webp"
         }
     },
-    "bomba": {
-        slug: "bomba",
-        name: "Bomba",
-        tagline: "A quiet southern retreat of mangroves and sunsets.",
-        intro: "Bomba is a peaceful coastal village at the southern tip of Batudaka Island, known for its idyllic white-sand beaches and pristine reefs. It offers a laid-back atmosphere with easy access to snorkeling sites and a glimpse of authentic daily life.",
+    "labuan-bajo": {
+        slug: "labuan-bajo",
+        name: "Labuan Bajo",
+        tagline: "The vibrant gateway to the dragons.",
+        intro: "Once a small fishing village, Labuan Bajo is now the bustling gateway to Komodo National Park. It sits on the western tip of Flores, famous for its spectacular sunsets, diverse dining scene, and harbor filled with Phinisi boats ready for adventure.",
         whyItMatters: [
-            "An important southern gateway, easily accessible from the mainland port of Ampana.",
-            "Offers stunning scenery with sandy beaches, jungle outcrops, and breathtaking sunsets.",
-            "A hotspot for diving and snorkeling rich reefs that are quieter than northern sites."
+            "The starting and ending point for all cruising adventures.",
+            "Famous for some of the best sunsets in Indonesia, best viewed from rooftop bars.",
+            "Offers cultural excursions to waterfalls, caves, and traditional villages nearby."
         ],
         experiences: [
             {
-                title: "Poya Lisa Island Escape",
-                text: "Spend a day on this tiny private islet to play Robinson Crusoe on its single circle of beach."
+                title: "Sunset at Paradise Bar",
+                text: "Watch the sun sink behind the islands with a cocktail and live music."
             },
             {
-                title: "Snorkeling the Atolls",
-                text: "Tour nearby shallow atolls like Hotel California Reef to see neon clams and schooling fish."
+                title: "Fish Market Feast",
+                text: "Choose your fresh catch at the night market and have it grilled spicy-style by the water."
             },
             {
-                title: "Sunset Sandbar Trip",
-                text: "Take a boat to a fleeting sandbar for a magical 360° sunset panorama in the middle of the sea."
+                title: "Batu Cermin Cave",
+                text: "Explore the 'Mirror Stone' cave with its dazzling rock formations and fossils."
             },
             {
-                title: "Village Stroll",
-                text: "Wander through the village to see friendly locals, traditional houses, and the slow pace of island life."
+                title: "Rangko Cave Swim",
+                text: "Swim in a secret underground saltwater pool illuminated by natural skylights."
             }
         ],
-        signatureMoment: "Standing on a temporary sandbar in the middle of the sea, watching the sun dip below the horizon.",
+        signatureMoment: "Watching the silhouette of hundreds of boats in the harbor against a fiery purple sunset.",
         routeFit: {
-            idealTiming: "Transit point or wind-down spot.",
-            suggestedDuration: "1–2 days.",
-            pairsWellWith: ["Kadidiri", "Luwuk"],
+            idealTiming: "Before or after your boat trip.",
+            suggestedDuration: "1–2 nights.",
+            pairsWellWith: ["Cunca Wulang Waterfall"],
             notes: [
-                "Accessed by boat from Ampana or Wakai.",
-                "No ATMs and very limited signal; bring cash.",
-                "Electricity usually available only at night."
+                "Wide range of accommodation from hostels to 5-star resorts.",
+                "Airport is 10 minutes from town.",
+                "ATMs and pharmacies are readily available."
             ]
         },
         practicalNotes: [
-            "Book homestays in advance during high season.",
-            "Coordinate diving with resorts regarding schedules.",
-            "Dress modestly in the village and respect local customs."
+            "Book accommodation early in peak season.",
+            "Use Grab or Ojek (motorcycle taxi) to get around.",
+            "Visit the fish market for cheap, delicious local dinner."
         ],
         images: {
-            hero: "/destinations_real/bomba/hero.webp",
-            secondary: "/destinations_real/bomba/experience.webp",
-            mood: "/destinations_real/bomba/mood.webp"
-        }
-    },
-    "luwuk": {
-        slug: "luwuk",
-        name: "Luwuk",
-        tagline: "The scenic coastal gateway to your island adventure.",
-        intro: "Luwuk is a pleasant coastal city and the primary logistics hub for the Togeans, nestled between green hills and the blue bay. It offers dramatic coastal views, modern amenities, and a chance to recharge before or after your remote island journey.",
-        whyItMatters: [
-            "The closest airport and primary staging point for organizing travel to the islands.",
-            "Boasts gorgeous coastal scenery, especially from high viewpoints overlooking the bay.",
-            "Provides modern conveniences like ATMs and markets, contrasting with rustic island life."
-        ],
-        experiences: [
-            {
-                title: "Coastal Drive & Panorama",
-                text: "Drive to Kilo Lima Viewpoint for a thrilling cliffside journey and sweeping views of the town and bay."
-            },
-            {
-                title: "Kilo Lima Beach",
-                text: "Relax at this popular local beach with clear water, perfect for a dip and a fresh coconut."
-            },
-            {
-                title: "Traditional Market Visit",
-                text: "Wander through the central market to see fresh exotic fruits, seafood, and the sensory buzz of local commerce."
-            },
-            {
-                title: "Waterfall Excursion",
-                text: "Take a trip to Salodik Waterfall for a refreshing swim in natural pools beneath the jungle canopy."
-            }
-        ],
-        signatureMoment: "Looking out from Kilo Lima Viewpoint at sunrise, seeing the town wake up against the calm blue bay.",
-        routeFit: {
-            idealTiming: "Transit stay before or after the islands.",
-            suggestedDuration: "1 day (1-2 nights).",
-            pairsWellWith: ["Bomba", "Una Una"],
-            notes: [
-                "Stock up on cash and essentials here before departing.",
-                "Daily flights available; arrange transport to Ampana for the ferry.",
-                "Traffic can be busy; allow time for travel."
-            ]
-        },
-        practicalNotes: [
-            "Try local Sulawesi specialties like grilled fish.",
-            "Use the good signal to download maps and contact family.",
-            "Do last-minute shopping for snorkeling gear or toiletries."
-        ],
-        images: {
-            hero: "/destinations_real/luwuk/hero.webp",
-            secondary: "/destinations_real/luwuk/experience.webp",
-            mood: "/destinations_real/luwuk/mood.webp"
+            hero: "/destinations/dest-labuan-bajo.png",
+            secondary: "/destinations/destination_rinca.webp",
+            mood: "/komodo-hero.webp"
         }
     }
 };

@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Togean Voyage",
-  description: "Experience the beauty of Togean Islands",
+  title: "BLUEVOYAGE - Explore Komodo Island",
+  description: "Experience the ultimate expedition through Komodo Island's iconic landscapes with BlueVoyage.",
 };
 
 export default function RootLayout({

@@ -91,7 +91,7 @@ export default function NavOverlayMenu({ isOpen, onClose }: NavOverlayMenuProps)
 
     return (
         <div
-            className={`fixed inset-0 z-[60] bg-[#CB9275] transition-all duration-500 ease-out flex flex-col ${isOpen
+            className={`fixed inset-0 z-[60] bg-[#088F8F] transition-all duration-500 ease-out flex flex-col ${isOpen
                 ? "translate-y-0 opacity-100 pointer-events-auto"
                 : "-translate-y-full opacity-0 pointer-events-none"
                 }`}

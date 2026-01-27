@@ -2,8 +2,8 @@ import HomePage from "@/app/_pages/HomePage";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Togean Voyage - Explore the Togean Islands",
-    description: "Discover the untouched beauty of the Togean Islands. Slow travel, pristine reefs, and authentic island experiences.",
+    title: "BLUEVOYAGE - Explore Komodo Island",
+    description: "Experience the ultimate expedition through Komodo Island's iconic landscapes with BlueVoyage.",
     alternates: {
         canonical: "/",
         languages: {
