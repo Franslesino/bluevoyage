@@ -54,7 +54,7 @@ export default function CabinCardCarousel({ images, altText, onImageClick }: Cab
         return (
             <div className="cabin-card-image relative w-full h-full" onClick={onImageClick}>
                 <Image
-                    src={getDirectImageUrl(images[0] || "/placeholder-cabin.jpg")}
+                    src={getDirectImageUrl(images[0] || "/boat/boat-1.webp")}
                     alt={altText}
                     fill
                     className="object-cover transition-transform duration-500 hover:scale-105"
