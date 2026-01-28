@@ -155,12 +155,18 @@ const createDynamicShipFromAvailability = (op: OperatorAvailability): ShipWithDe
         cabin_id: `${op.operator}-${apiCabin.name}`.replace(/\s+/g, '-'),
         cabin_name: apiCabin.name,
         boat_name: op.operator,
+        total_capacity: 2,
         price: 0, // Price not available in availability API
         image_main: "/placeholder-cabin.jpg",
         images: [],
-        description: `${apiCabin.available} cabins available`,
-        max_guests: 2,
-        facilities: []
+        facilities: {
+            balcony: false,
+            bathtub: false,
+            seaview: false,
+            large_bed: false,
+            private_jacuzzi: false,
+            cabin_display_facilities: ""
+        }
     }));
 
     return {
@@ -1095,7 +1101,7 @@ export default function SearchResults() {
                                                                 className="btn-view-cabins"
                                                                 onClick={() => handleViewCabins(ship.name)}
                                                             >
-                                                                View {ship.availableCabins} Cabins
+                                                                View {ship.cabinCount} Cabins
                                                             </button>
                                                             <button
                                                                 className="btn-view-cabins"
